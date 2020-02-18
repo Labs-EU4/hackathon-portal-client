@@ -1,9 +1,23 @@
 #### What does this PR do?
+Choose one or more:
+- Adding a feature
+- Styling
+- Bug fix
+- Adding tests / ensuring code quality
 
-#### Description of Task to be completed?
+#### Description of Task to be completed? (Copy + Paste Trello card info + link)
+Task Description:
+Trello Card Link: 
 
-
-#### How should this be manually tested?
+#### How has this been tested & how should it be tested in QA?
+- The following tests are in place:
+    - Test #1
+    - Test #2
+    - Test #3
+- QA should check:
+    - Mobile responsiveness
+    - Data validation
+    - Ex. #3
 
 #### Any background context you want to provide?
 
@@ -19,3 +33,5 @@
 #### Screenshots (if appropriate)
 
 #### Questions:
+- Question #1:
+- Question #2: 
