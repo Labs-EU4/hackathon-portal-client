@@ -19,9 +19,9 @@ A comprehensive portal for hackathons where students can submit their work and j
 
 ## Table of Content
 1. [Getting started](#getting-started "Getting Started")
-* [Prerequisites](#prerequisites "Prerequisites")
-* [Installation](#installation "Installation")
-* [Enviroment variables](#enviroment-variables "Enviroment Variables")
+- [Prerequisites](#prerequisites "Prerequisites")
+- [Installation](#installation "Installation")
+- [Enviroment variables](#enviroment-variables "Enviroment Variables")
 2. [Running the tests](#running-the-tests " Running the tests")
 3. [Technology stack](#technology-stack "Technology Stack")
 4. [Versioning](#versioning "Versioning")
