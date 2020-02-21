@@ -17,35 +17,18 @@ You can find the deployed project at [Hackathon](URL NEEDED).
 
 A comprehensive portal for hackathons where students can submit their work and judges can evaluate in one place. It is an app that helps you organize and evaluate Hackathons.
 
-- **Login**
-![image](https://user-images.githubusercontent.com/33374159/73931951-8da93080-48d9-11ea-9792-f7c458007dfa.png)
-
-- **Dashboard**
-![image](https://user-images.githubusercontent.com/33374159/73932198-2475ed00-48da-11ea-9bff-1b8bff89d8da.png)
-
-- **Hackathon Event**
-![image](https://user-images.githubusercontent.com/33374159/73933138-1a54ee00-48dc-11ea-9e96-02005a40dc50.png)
-
-- **Project Submissions**
-![image](https://user-images.githubusercontent.com/33374159/73933214-3fe1f780-48dc-11ea-947c-fe942eb231b3.png)
-
-- **User Profile**
-![image](https://user-images.githubusercontent.com/33374159/73933980-e11d7d80-48dd-11ea-87b5-795d6d4c0874.png)
-
 ## Table of Content
 1. [Getting started](#getting-started "Getting Started")
 * [Prerequisites](#prerequisites "Prerequisites")
 * [Installation](#installation "Installation")
 * [Enviroment variables](#enviroment-variables "Enviroment Variables")
 2. [Running the tests](#running-the-tests " Running the tests")
-* [Break down into end to end tests](#break-down-into-end-to-end-tests "Break down into end to end tests")
-3. [Deployment](#deployment "Deployment")
-4. [Technology stack](#technology-stack "Technology Stack")
+3. [Technology stack](#technology-stack "Technology Stack")
+4. [Versioning](#versioning "Versioning")
 5. [Contributing](#contributing "Contributing")
-6. [Versioning](#versioning "Versioning")
-7. [Authors](#authors "Authors")
+6. [Authors](#authors "Authors")
+7. [Acknowledgments](#acknowledgments "Acknowledgments")
 8. [License](#license "License")
-9. [Acknowledgments](#acknowledgments "Acknowledgments")
 
 ## Getting Started
 
@@ -113,7 +96,7 @@ npm test
 
 ## Versioning
 
-This is version 1.0 (Release canvas 0)
+This is version 1.0 (Release canvas 1)
 
 ## Contributing
 
