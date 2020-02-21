@@ -4,30 +4,30 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/767299a260b0abc79d0f/test_coverage)](https://codeclimate.com/github/tieme-ndo/frontend/test_coverage)
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
-# Tieme Ndo: A Custom Inventory Management System
+# HACKATHON BACKEND
 
-You can find the deployed project at [Tieme Ndo](https://tieme-ndo.netlify.com/).
+You can find the deployed project at [hackathon](#).
 
 ## Project Overview
 
-[Trello Board](https://trello.com/b/6rf575Af)
+[Trello Board](https://trello.com/b/SEMsn9ik/hackathon)
 
-[Product Canvas](https://www.notion.so/Tieme-Ndo-Co-op-3d5dd25f15ec4c15a6c3aaead4c48d97)
+[Product Canvas](https://www.notion.so/50bba1019cc546a7af4b6bd54ed0979a?v=f4161624690443c2bc6c90d3033aded5)
 
 [UX Design files](https://www.figma.com/file/4hAdkxUDAwWWJneMmbbNji/Mock-Ups?node-id=193%3A0)
 
 ### Summary:
 
-In the bid to transform smallholder farmers into semi-commercial farmers and agripreneurs, Tieme Ndo empower farmers to take advantage of business opportunities along the agricultural value chain through SAD (Small Agribusiness Development). The aim of SAD is to train farmers on entrepreneurship and value addition.
+A comprehensive portal for hackathons where students can submit their work and judges can evaluate in one place
 
 ## Getting Started
 
-This repository contains only the frontend implementation of the Tieme Ndo project. You can click **[here](https://github.com/tieme-ndo/backend)** to check the backend implementation.
+This repository contains only the frontend implementation of the Hackathon project. You can click **[here](https://github.com/Labs-EU4/hackathon-portal-client)** to check the backend implementation.
 
 Start by cloning the repository to your local machine
 
 ```bash
-git clone https://github.com/tieme-ndo/frontend.git
+git clone https://github.com/Labs-EU4/hackathon-portal-client
 
 ```
 
@@ -85,27 +85,27 @@ Remember that this project is licensed under the MIT license, and by submitting 
 - Include the relevant issue number, if applicable.
 - You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
 
-## Contributors
+## Authors
 
-|                                           [Pavol Karas](https://pavolkaras.com/)                                            |                                                [Alex E.](https://github.com/)                                                 |                                          [Anthony Campbell](https://anthonycampbell.dev)                                          |                                         [Benjamin Ajewole](https://github.com/)                                         |                                      [David Quiñones](https://www.daquinons.com/)                                      |                                      
-| :-------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
-|     [<img src="https://avatars0.githubusercontent.com/u/38439473?s=400&v=4" width = "200" />](https://github.com/Pav0l)     | [<img src="https://avatars1.githubusercontent.com/u/5712027?s=400&v=4" width = "200" />](https://github.com/AlexEntrepreneur) |  [<img src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4" width = "200" />](https://github.com/AnthonyJCampbell)   | [<img src="https://avatars1.githubusercontent.com/u/30627428?s=400&v=4" width = "200" />](https://github.com/Rexben001) | [<img src="https://avatars1.githubusercontent.com/u/2612426?s=400&v=4" width = "200" />](https://github.com/daquinons) |
-|                     [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Pav0l)                      |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/AlexEntrepreneur)                 |                   [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/AnthonyJCampbell)                   |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Rexben001)                  |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/daquinons)                 |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/pavolkaras/) |         [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)         | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/anthonyjcampbell/) |      [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)      | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/dvdq/)  |
+|                                          [Anthony Campbell](https://anthonycampbell.dev)                                          |                                         [AbdelIdir ](https://github.com/AbdelIdir)                                          |                                               [Ekanem David](https://github.com/dueka)                                                |
+| :-------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
+|      [<img src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4" width = "200" />](https://anthonycampbell.dev)       |   [<img src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4" width = "200" />](https://github.com/AbdelIdir)   |          [<img src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4" width = "200" />](https://github.com/dueka)          |
+|                   [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/AnthonyJCampbell)                   |                   [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/AbdelIdir)                    |                          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/dueka)                           |
+| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/anthonyjcampbell/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/idir-abdel/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/ekanem-david-8711719a) |
 
 <br>
 
-|                                                                                                             [Iñaki Breinbauer](https://github.com/quansenB)                                                                                                              |                                                             [Oluwatimileyin Ojo](https://github.com/)                                                             |                                            [Shola Ayeni](https://github.com/)                                             |                                                [Yemi](https://github.com/)                                                |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
-| [<img src="https://scontent-sea1-1.cdninstagram.com/vp/77fdc004ff5075f1fc1717a77fac0018/5E139D76/t51.2885-19/s150x150/20181289_129303427676670_1405902890886758400_a.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com" width = "200" />](https://github.com/quansenB) | [<img src="https://avatars1.githubusercontent.com/u/38228398?s=400&u=5e32888fafc28733813947e213bf5c8d10983165&v=4" width = "200" />](https://github.com/openwell) | [<img src="https://avatars3.githubusercontent.com/u/49761315?s=400&v=4" width = "200" />](https://github.com/ayenisholah) | [<img src="https://avatars3.githubusercontent.com/u/23571838?s=400&v=4" width = "200" />](https://github.com/abidex4yemi) |  |
-|                                                                                      [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/quansenB)                                                                                       |                                       [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/openwell)                                       |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/ayenisholah)                  |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/abidex4yemi)                  | [ |
-|                                                                          [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/iñaki-breinbauer-911351155/)                                                                           |                           [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)                           |       [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)       |       [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/)       |
+|                                                                                          [Emma Andrews](https://github.com/ELAndrews)                                                                                          |                                        [John Afolabi](https://github.com/john-afolabi)                                        |                                             [Karim Bertacche](https://github.com/john-afolabi)                                             |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
+| [<img src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c" width = "200" />](https://github.com/ELAndrews) |  [<img src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4" width = "200" />](https://github.com/john-afolabi)   |        [<img src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4" width = "200" />](https://github.com/KarimBertacche)        |
+|                                                                     [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/ELAndrews)                                                                     |                   [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/john-afolabi)                   |                        [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/KarimBertacche)                         |
+|                                            [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/emma-andrews-b26768169/)                                             | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/john-afolabi/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/karim-bertacche-64b270156/) |
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2019 Tieme Ndo
+Copyright (c) 2019 Hackathon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
