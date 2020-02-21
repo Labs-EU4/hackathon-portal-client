@@ -21,10 +21,10 @@
 # Deploy Preview context: All deploys generated from a pull/merge request
 # will inherit these settings.
 [context.deploy-preview.environment]
-  REACT_APP_API_URL = "https://labseu4-hackathon-staging.herokuapp.com/"
+  REACT_APP_API_URL = "https://hackathon-review-deployment.herokuapp.com/"
 
 [context.develop.environment]
-  REACT_APP_API_URL = "https://hackathon-review-deployment.herokuapp.com/"
+  REACT_APP_API_URL = "https://labseu4-hackathon-staging.herokuapp.com/"
 
 [[redirects]]
 from = "/*"
