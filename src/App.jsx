@@ -25,7 +25,7 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
-  console.log(process.env.CONTEXT)
+  console.log(process.env.REACT_APP_API_URL)
   return (
     <>
       <GlobalStyles />

@@ -4,18 +4,6 @@ import { resetUser } from "../store/user/actions";
 
 const baseURL = process.env.REACT_APP_API_URL;
 
-// if process.env.CONTEXT = "production" {
-//   Point to heroku API
-// }
-// if process.env.BRANCH = "develop" {
-  // point to Heroku staging API
-// }
-// if process.env.CONTEXT = "deploy-preview" {
-//   point to deploy-preview HEROKU API (the separate one)
-// }
-
-
-
 export const axiosWithAuth = token =>
   Axios.create({
     baseURL,
