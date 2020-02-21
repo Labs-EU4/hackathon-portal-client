@@ -62,7 +62,7 @@ npm install
 * After that start or build the application by running `npm start` or `yarn start`
 
 ```bash
-yarn start # For a local development
+npm start # For a local development
 ```
 
 ### Enviroment Variables
@@ -94,9 +94,9 @@ npm test
 * [Query-string](https://www.npmjs.com/package/query-string) - Used to retrieve the variable values in the HTTP query string.
 * [Eslint](https://eslint.org/) - A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
 
-## Versioning
+## Version
 
-This is version 1.0 (Release canvas 1)
+This is version 2.0.1
 
 ## Contributing
 
@@ -138,6 +138,7 @@ Remember that this project is licensed under the MIT license, and by submitting 
 | [Anthony Campbell](https://anthonycampbell.dev) | [AbdelIdir ](https://github.com/AbdelIdir)      | [Ekanem David](https://github.com/dueka)        |                                    
 | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | 
 |  [<img src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4" width = "200" />](https://anthonycampbell.dev)     | [<img src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4" width = "200" />](https://github.com/AbdelIdir) |  [<img src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4" width = "200" />](https://github.com/dueka)   |
+| Team Leader | Dev | Dev |
 |                     [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/AnthonyJCampbell)                      |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/AbdelIdir)                 |                   [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/dueka)                   |
 | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/anthonyjcampbell/) |         [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/idir-abdel/)         | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/ekanem-david-8711719a) |
 
@@ -146,12 +147,14 @@ Remember that this project is licensed under the MIT license, and by submitting 
 |[Emma Andrews](https://github.com/ELAndrews)     | [John Afolabi](https://github.com/john-afolabi) |  [Karim Bertacche](https://github.com/john-afolabi)|  
 | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
 | [<img src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c" width = "200" />](https://github.com/ELAndrews) | [<img src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4" width = "200" />](https://github.com/john-afolabi) | [<img src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4" width = "200" />](https://github.com/KarimBertacche) |
+| Dev | Dev | Dev |
 |                                                                                      [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/ELAndrews)                                                                                       |                                       [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/john-afolabi)                                       |                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/KarimBertacche)                  |
 |                                                                          [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/emma-andrews-b26768169/)                                                                           |                           [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/john-afolabi/)                           |       [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/karim-bertacche-64b270156/)       |
 
 ## Acknowledgments
 
-* Lambda 
+* [Alex Emedeme](https://github.com/AlexEntrepreneur) - Engineering Manager
+* [Lambda](https://lambdaschool.com/) 
 
 ## License
 
