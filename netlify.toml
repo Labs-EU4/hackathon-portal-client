@@ -1,4 +1,32 @@
+
+  # Global settings applied to the whole site.
+#
+# “base” is the directory to change to before starting build. If you set base:
+#        that is where we will look for package.json/.nvmrc/etc, not repo root!
+# “command” is your build command.
+# “publish” is the directory to publish (relative to the root of your repo).
+
+[build]
+  base    = ""
+  command = "react-scripts build"
+  publish = "/build"
+
+# Production context: All deploys from the main
+# repository branch will inherit these settings.
+[context.production]
+  command = "react-scripts build"
+  [context.production.environment]
+    REACT_APP_API_URL = "https://labseu4-hackathon.herokuapp.com/"
+
+# Deploy Preview context: All deploys generated from a pull/merge request
+# will inherit these settings.
+[context.deploy-preview.environment]
+  REACT_APP_API_URL = "https://hackathon-review-deployment.herokuapp.com/"
+
+[context.develop.environment]
+  REACT_APP_API_URL = "https://labseu4-hackathon-staging.herokuapp.com/"
+
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
