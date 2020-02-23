@@ -18,27 +18,13 @@ import SocialMedia from "../molecules/SocialMedia";
 import { type, smallFontSize } from "../index";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
 
-const StyledAnchor = styled(Link)`
-  display: block;
-  margin: 20px 0 0 0;
-  font-family: ${type.ROBOTO};
-  font-size: ${smallFontSize};
-  font-weight: 500;
-  color: #245ea4;
-  text-decoration: none;
-  text-transform: none;
-  text-align: center;
-  &:hover {
-    color: #1e77b4;
-  }
-`;
 
 const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   const dispatch = useDispatch();
   const { search, state } = useLocation();
   const { team, role, google, github, verified, ref } = queryString.parse(search);
   const { token } = useSelector(state => state.currentUser);
-
+  
   useEffect(() => {
     if (google || github) {
       dispatch(socialAuthLoad());
@@ -47,45 +33,45 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       dispatch(verifyEmail());
     }
   }, [google, github, verified, dispatch]);
-
+  
   const handleSubmit = values => {
     const { email, password } = values;
     if (ctaText.toLowerCase() === "log in") {
       dispatch(login(email, password));
-      toast.success("🦄 Logging you in!", {
-        position: toast.POSITION.BOTTOM_RIGHT
+      toast(" 🎉 Logging you in!", {
+        position: toast.POSITION.TOP_RIGHT,
+        className: 'green'
       });
     } else {
       dispatch(register(email, password, role, team));
       toast.success(" 🚀 A moment while we record your details!", {
-        position: toast.POSITION.BOTTOM_RIGHT
+        position: toast.POSITION.TOP_RIGHT
       });
     }
   };
-
+  
   const schema = Yup.object().shape({
     email: Yup.string()
-      .email("Please use a valid email address.")
-      .required("Email address is required."),
+    .email("Please use a valid email address.")
+    .required("Email address is required."),
     password: Yup.string()
-      .required("Password is required.")
-      .min(8, "Password must be at least 8 characters long.")
+    .required("Password is required.")
+    .min(8, "Password must be at least 8 characters long.")
   });
-
+  
   if (token) {
     return <Redirect to={state?.from || ref || '/dashboard'} />;
   }
-
+  
   return (
     <Container>
       <H1>{formHeader}</H1>
-
       <Paragraph>{formParagraph}</Paragraph>
       <Formik
         initialValues={{ email: "", password: "" }}
         onSubmit={handleSubmit}
         validationSchema={schema}
-      >
+        >
         {({ errors, touched }) => (
           <Form>
             <Input
@@ -93,7 +79,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               type="text"
               name="email"
               placeholder="Email address"
-            />
+              />
             {errors.name && touched.name ? <div>{errors.name}</div> : null}
             <ErrorSpan>
               <ErrorMessage name="email" />
@@ -103,7 +89,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               type="password"
               name="password"
               placeholder="Password"
-            />
+              />
             {errors.name && touched.name ? <div>{errors.name}</div> : null}
             <ErrorSpan>
               <ErrorMessage name="password" />
@@ -127,3 +113,15 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
 };
 
 export default CustomForm;
+
+const StyledAnchor = styled(Link)`
+  display: block;
+  margin: 20px 0 0 0;
+  font-family: ${type.ROBOTO};
+  font-size: ${smallFontSize}; font-weight: 500; color: #245ea4;
+  text-decoration: none; text-transform: none; text-align: center;
+
+  &:hover {
+    color: #1e77b4;
+  }
+`;

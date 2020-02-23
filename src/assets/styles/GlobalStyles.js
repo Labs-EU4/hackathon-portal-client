@@ -1,13 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
-import {
-  baseFontSize,
-  h1FontSize,
-  h2FontSize,
-  h3FontSize,
-  h4FontSize,
-  Solid,
-  type,
-} from '../index';
+
 
 // eslint-disable-next-line import/prefer-default-export
 export const GlobalStyles = createGlobalStyle`
