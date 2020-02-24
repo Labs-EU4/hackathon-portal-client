@@ -28,16 +28,16 @@ const EventCard = ({ event }) => {
           <H4>{event_title}</H4>
           <Paragraph>{excerpt}</Paragraph>
           <CardFooter date={formattedDate} />
-          <div>
-            <Button 
+          <EventCTA>
+            <StyledBtn 
               anchor 
               to={`/dashboard/event/${event_id || id}`}
-            >More Info</Button>
-            <Button 
+            >More Info</StyledBtn>
+            <StyledBtn 
               anchor 
               to={`/`}
-            >Join Event</Button>
-          </div>
+            >Join Event</StyledBtn>
+          </EventCTA>
         </div>
       </Card>
     </StyledCardLink>
@@ -74,4 +74,16 @@ const StyledIconLetter = styled(IconLetter)`
   border: 2px solid white; border-radius: 50%;
   object-fit: cover;
   color: ${props => props.theme.color.primary.regular};
+`;
+
+const EventCTA = styled.div`
+  ${props => props.theme.flex.custom('space-between', 'center')};
+`;
+
+const StyledBtn = styled(Button)`
+  border: 3px solid ${props => props.theme.color.grey.border};
+
+  &:hover {
+    border: 3px solid ${props => props.theme.color.primary.regular};
+  }
 `;

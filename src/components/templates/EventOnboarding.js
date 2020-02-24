@@ -10,7 +10,6 @@ import { useSelector } from "react-redux";
 const EventOnboarding = () => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
-  const userEvents = events.filter(event => event.creator_id === userId);
   const globalEvents = events.filter(event => event.creator_id !== userId);
 
   return (
@@ -18,11 +17,11 @@ const EventOnboarding = () => {
       <RowHead>
         <H3>Global hackathons</H3>
       </RowHead>
-      <RowBody spacing="start">
+      <StyledRowBody spacing="start">
         {globalEvents.map(event => (
           <EventCard key={event.id} event={event} />
         ))}
-      </RowBody>
+      </StyledRowBody>
     </BodyContainer> 
   );
 };
@@ -33,5 +32,15 @@ const BodyContainer = styled.div`
   display: flex; flex-direction: column;
   width: 100%;
   background-color: ${props => props.theme.color.white};
-  padding: 60px 45px;
+  padding: 60px 0;
+`;
+
+const StyledRowBody = styled.div`
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0; height: 0;
+  }
 `;

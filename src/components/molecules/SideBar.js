@@ -186,6 +186,7 @@ const StyledNavLink = styled(NavLink)`
   &:hover,
   &.current {
     ${props => props.theme.shadow.box};
+    border-left: 5px solid ${props => props.theme.color.primary.regular};
     border-radius: 6px;
     font-weight: bold;
     color: white;
