@@ -24,7 +24,7 @@ const EventCard = ({ event }) => {
           <img src={eventImg} alt={event_title} />
         </EventImage>
         <div>
-          <StyledIconLetter>{letter}</StyledIconLetter>
+          <StyledIconLetter>{letter.toUpperCase()}</StyledIconLetter>
           <H4>{event_title}</H4>
           <Paragraph>{excerpt}</Paragraph>
           <CardFooter date={formattedDate} />
