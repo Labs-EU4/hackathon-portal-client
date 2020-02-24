@@ -42,6 +42,15 @@ export const theme = {
             dark: color.darkGreen
         },
     },
+    fontSize: {
+        small: "1.4rem",
+        base: "1.6rem",
+        h1: "7.5rem",
+        h2: "5.5rem",
+        h3: "3.5rem",
+        h4: "2.5rem",
+        button: "1.8rem"
+    },
     shadow: {
         text: `text-shadow: .15px .15px 1px ${color.black}, .75px .5px 1.5px ${color.black}, .15px .15px 1px ${color.black};`,
         text_links: `1px .75px 1.5px ${color.black}`,

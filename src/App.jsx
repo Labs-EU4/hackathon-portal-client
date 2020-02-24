@@ -145,7 +145,6 @@ const MainContent = styled.div`
 const RoutesContainer = styled.div`
   ${props => props.theme.shadow.box};
   width: calc(100% - 20px); height: 100%;
-  background-color: ${props => props.theme.color.white.regular};
   margin-left: 20px; 
   border-radius: 5px;
   overflow-y: scroll;

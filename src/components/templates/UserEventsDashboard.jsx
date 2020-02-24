@@ -1,17 +1,16 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import styled from "styled-components";
 
 import EventCard from "../molecules/EventCard";
 import { H3, H4 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
-import { useSelector } from "react-redux";
 
 const UserEventsDashboard = () => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const userEvents = events.filter(event => event.creator_id === userId);
-  const globalEvents = events.filter(event => event.creator_id !== userId);
 
   return (
     <BodyContainer>
@@ -27,6 +26,19 @@ const UserEventsDashboard = () => {
           <H4>You haven't created any events yet. Why wait?</H4>
         )}
       </RowBody>
+      {/* <HackathonCard>
+        <RowHead>
+          <H3>Hackathon(s) you registered for</H3>
+        </RowHead>
+        {loading ? (
+          <Spinner />
+        ) : (
+            <RowBody spacing="start">
+              {events.map(event => (
+                <EventCard key={event.id} event={event} />
+              ))}
+            </RowBody>)}
+      </HackathonCard> */}
     </BodyContainer> 
   );
 };
