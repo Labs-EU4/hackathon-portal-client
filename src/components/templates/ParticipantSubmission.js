@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import styled from "styled-components";
 import { useHistory, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
@@ -8,7 +7,6 @@ import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
@@ -24,11 +22,7 @@ import {
   fetchAllSubmissions,
   submitProject
 } from "../../store/projectSubmission/actions";
-
-const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
-  justify-content: start;
-`;
+import { InputFull, BodyContainerColumn } from "../styles/GlobalStyles";
 
 const defaultState = {
   project_title: "",
@@ -67,13 +61,13 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
       .required("Team/participants name is required."),
     git_url: requireGithubUrl
       ? Yup.string()
-          .min(8, "GitHub URL must be at least 8 characters long.")
-          .required("GitHub URL is required.")
+        .min(8, "GitHub URL must be at least 8 characters long.")
+        .required("GitHub URL is required.")
       : Yup.string(),
     video_url: requireVideoUrl
       ? Yup.string()
-          .min(8, "Video URL must be at least 8 characters long.")
-          .required("Video URL is required.")
+        .min(8, "Video URL must be at least 8 characters long.")
+        .required("Video URL is required.")
       : Yup.string(),
     project_writeups: Yup.string()
       .min(8, "Project writeup must be at least 8 characters long.")
@@ -159,11 +153,10 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                     {requireVideoUrl && (
                       <RowBody justify="start">
                         <Label htmlFor="video_url">Video URL</Label>
-                        <Input
+                        <InputFull
                           type="text"
                           name="video_url"
                           id="video_url"
-                          style={{ width: "100%" }}
                         />
                         <ErrorSpan>
                           <ErrorMessage name="video_url" component="div" />
