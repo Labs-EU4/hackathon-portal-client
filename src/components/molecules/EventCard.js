@@ -31,10 +31,9 @@ export default EventCard;
 
 const StyledCardLink = styled(Link)`
   text-decoration: none;
-  transition: all 0.5s;
 
   &:hover > div {
-    transition: all 0.5s;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    ${props => props.theme.shadow.box};
+    transition: all 0.2s ease;
   }
 `;

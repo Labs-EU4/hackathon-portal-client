@@ -74,7 +74,7 @@ export default SideBar;
 const StyledNav = styled.div`
   ${props => props.theme.flex.custom('start', 'center', 'column')};
   width: 300px; max-width: 300px;
-  padding: 90px 40px 40px;
+  padding: 90px 20px 30px;
 
   @media ${media.tablet} {
     width: 50px;

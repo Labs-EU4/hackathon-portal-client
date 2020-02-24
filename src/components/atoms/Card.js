@@ -2,15 +2,12 @@ import styled from "styled-components";
 import { Solid, media } from "../index";
 
 export const Card = styled.div`
+  ${props => props.theme.shadow.card};
+  ${props => props.theme.flex.custom('space-between', 'start', 'column')};
   background-color: ${Solid.WHITE};
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 302px;
   min-height: 220px;
-  border: 1px solid ${Solid.BORDER_GREY};
   border-radius: 6px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   padding: 20px;
   margin: 10px;
 `;

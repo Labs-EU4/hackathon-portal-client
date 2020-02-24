@@ -32,12 +32,9 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
- const renderRoutesHandler = () => {
+ const renderPrivateRoutesHandler = () => {
    return (
      <>
-        <Route exact path="/forgotpassword" component={ResetPassword} />
-        <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
-        <Route exact path="/resetpassword" component={NewPassword} />
         {/* <PrivateRoute exact path="/" component={Dashboard} /> */}
         <PrivateRoute
           exact
@@ -110,7 +107,10 @@ function App() {
                   <Route exact path="/not-found" component={PageNotFound} />
                   <Route path="/register" component={SignupPage} />
                   <Route exact path="/login" component={LoginPage} />
-                  { renderRoutesHandler() }
+                  <Route exact path="/forgotpassword" component={ResetPassword} />
+                  <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
+                  <Route exact path="/resetpassword" component={NewPassword} />
+                  { renderPrivateRoutesHandler() }
                   {/* <PrivateRoute exact path="/" component={Dashboard} /> */}
                 <Redirect to="/not-found" />
               </Switch>
@@ -145,6 +145,7 @@ const MainContent = styled.div`
 const RoutesContainer = styled.div`
   ${props => props.theme.shadow.box};
   width: calc(100% - 20px); height: 100%;
+  background-color: ${props => props.theme.color.white.regular};
   margin-left: 20px; 
   border-radius: 5px;
   overflow-y: scroll;
