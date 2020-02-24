@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import isEmail from 'validator/lib/isEmail';
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
