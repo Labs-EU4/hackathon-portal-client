@@ -5,10 +5,9 @@ import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-import UserHeader from "../organisms/UserHeader";
-import { Footer } from "../organisms/index";
+// import UserHeader from "../organisms/UserHeader";
+// import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
-import Nav from "../molecules/Nav";
 import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
@@ -82,126 +81,121 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
   });
 
   return (
-    <div>
-      <UserHeader />
-      <WideBody>
-        <Nav />
-        <BodyContainerColumn>
-          <RowHead>
-            <H3>Submit Project</H3>
-          </RowHead>
+    <WideBody>
+      <BodyContainerColumn>
+        <RowHead>
+          <H3>Submit Project</H3>
+        </RowHead>
 
-          <Column>
-            <CardForm>
-              <Formik
-                onSubmit={handleSubmit}
-                initialValues={initialState}
-                validationSchema={schema}
-                enableReinitialize
-              >
-                {() => (
-                  <Form>
-                    <RowBody>
-                      <Paragraph>
-                        You are making a submission for the{" "}
-                        <strong>{currentEvent.event_title}</strong>. Please
-                        ensure you have read the event guidelines and have gone
-                        through the grading rubrics for this event before you
-                        make your submission.
-                      </Paragraph>
-                    </RowBody>
-                    <RowBody>
-                      <Column>
-                        <Label htmlFor="project_title">Project Title</Label>
-                        <Input
-                          type="text"
-                          id="project_title"
-                          name="project_title"
-                          display="wide"
-                        />
-                        <ErrorSpan>
-                          <ErrorMessage name="project_title" component="div" />
-                        </ErrorSpan>
-                      </Column>
-                      <Column>
-                        <Label htmlFor="participant_or_team_nam">
-                          Team/Participant name
-                        </Label>
-                        <Input
-                          type="text"
-                          name="participant_or_team_name"
-                          id="participant_or_team_name"
-                          display="wide"
-                        />
-                        <ErrorSpan>
-                          <ErrorMessage
-                            name="participant_or_team_name"
-                            component="div"
-                          />
-                        </ErrorSpan>
-                      </Column>
-                    </RowBody>
-
-                    {requireGithubUrl && (
-                      <RowBody justify="start">
-                        <Label htmlFor="git_url">GitHub URL</Label>
-                        <Input
-                          type="text"
-                          name="git_url"
-                          id="git_url"
-                          display="wide"
-                        />
-                        <ErrorSpan>
-                          <ErrorMessage name="git_url" component="div" />
-                        </ErrorSpan>
-                      </RowBody>
-                    )}
-
-                    {requireVideoUrl && (
-                      <RowBody justify="start">
-                        <Label htmlFor="video_url">Video URL</Label>
-                        <Input
-                          type="text"
-                          name="video_url"
-                          id="video_url"
-                          style={{ width: "100%" }}
-                        />
-                        <ErrorSpan>
-                          <ErrorMessage name="video_url" component="div" />
-                        </ErrorSpan>
-                      </RowBody>
-                    )}
-                    <RowBody justify="start">
-                      <Label htmlFor="project_writeups">Project Writeup</Label>
-                      <TextArea
-                        wide
-                        as="textarea"
+        <Column>
+          <CardForm>
+            <Formik
+              onSubmit={handleSubmit}
+              initialValues={initialState}
+              validationSchema={schema}
+              enableReinitialize
+            >
+              {() => (
+                <Form>
+                  <RowBody>
+                    <Paragraph>
+                      You are making a submission for the{" "}
+                      <strong>{currentEvent.event_title}</strong>. Please
+                      ensure you have read the event guidelines and have gone
+                      through the grading rubrics for this event before you
+                      make your submission.
+                    </Paragraph>
+                  </RowBody>
+                  <RowBody>
+                    <Column>
+                      <Label htmlFor="project_title">Project Title</Label>
+                      <Input
                         type="text"
-                        name="project_writeups"
-                        id="project_writeups"
+                        id="project_title"
+                        name="project_title"
+                        display="wide"
                       />
                       <ErrorSpan>
-                        <ErrorMessage name="project_writeups" />
+                        <ErrorMessage name="project_title" component="div" />
+                      </ErrorSpan>
+                    </Column>
+                    <Column>
+                      <Label htmlFor="participant_or_team_nam">
+                        Team/Participant name
+                      </Label>
+                      <Input
+                        type="text"
+                        name="participant_or_team_name"
+                        id="participant_or_team_name"
+                        display="wide"
+                      />
+                      <ErrorSpan>
+                        <ErrorMessage
+                          name="participant_or_team_name"
+                          component="div"
+                        />
+                      </ErrorSpan>
+                    </Column>
+                  </RowBody>
+
+                  {requireGithubUrl && (
+                    <RowBody justify="start">
+                      <Label htmlFor="git_url">GitHub URL</Label>
+                      <Input
+                        type="text"
+                        name="git_url"
+                        id="git_url"
+                        display="wide"
+                      />
+                      <ErrorSpan>
+                        <ErrorMessage name="git_url" component="div" />
                       </ErrorSpan>
                     </RowBody>
+                  )}
 
-                    <RowBody>
-                      <Button anchor to="/dashboard" color="grey">
-                        Cancel
-                      </Button>
-                      <Button color="green" type="submit">
-                        Submit
-                      </Button>
+                  {requireVideoUrl && (
+                    <RowBody justify="start">
+                      <Label htmlFor="video_url">Video URL</Label>
+                      <Input
+                        type="text"
+                        name="video_url"
+                        id="video_url"
+                        style={{ width: "100%" }}
+                      />
+                      <ErrorSpan>
+                        <ErrorMessage name="video_url" component="div" />
+                      </ErrorSpan>
                     </RowBody>
-                  </Form>
-                )}
-              </Formik>
-            </CardForm>
-          </Column>
-        </BodyContainerColumn>
-      </WideBody>
-      <Footer />
-    </div>
+                  )}
+                  <RowBody justify="start">
+                    <Label htmlFor="project_writeups">Project Writeup</Label>
+                    <TextArea
+                      wide
+                      as="textarea"
+                      type="text"
+                      name="project_writeups"
+                      id="project_writeups"
+                    />
+                    <ErrorSpan>
+                      <ErrorMessage name="project_writeups" />
+                    </ErrorSpan>
+                  </RowBody>
+
+                  <RowBody>
+                    <Button anchor to="/dashboard" color="grey">
+                      Cancel
+                    </Button>
+                    <Button color="green" type="submit">
+                      Submit
+                    </Button>
+                  </RowBody>
+                </Form>
+              )}
+            </Formik>
+          </CardForm>
+        </Column>
+      </BodyContainerColumn>
+    </WideBody>
   );
 };
 

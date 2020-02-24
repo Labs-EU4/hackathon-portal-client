@@ -1,10 +1,15 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 
 import { GlobalStyles } from "./assets/styles/GlobalStyles";
 import { theme } from './assets/styles/Theme';
+import { media } from './assets/styles/variables/media';
+
+import UserHeader from './components/organisms/UserHeader';
+import { Footer } from './components/organisms/index';
+import SideBar from './components/molecules/SideBar';
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";
@@ -30,27 +35,90 @@ function App() {
  const renderRoutesHandler = () => {
    return (
      <>
-       
+        <Route exact path="/forgotpassword" component={ResetPassword} />
+        <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
+        <Route exact path="/resetpassword" component={NewPassword} />
+        {/* <PrivateRoute exact path="/" component={Dashboard} /> */}
+        <PrivateRoute
+          exact
+          path="/dashboard/new"
+          component={HackathonFormPage}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id/participant_submission"
+          component={ParticipantSubmissionPage}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id"
+          component={HackathonSinglePage}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id/edit"
+          component={EditHackathon}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id/team"
+          component={AddTeammates}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/profile"
+          component={UserProfilePage}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/profile/edit"
+          component={UserProfileFormPage}
+        />
+        <PrivateRoute
+          path="/dashboard/event/:id/projects"
+          component={HackathonProjectsPage}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id/project/:projectId"
+          component={HackathonProjectPage}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:eventId/participant-teams/:teamId"
+          component={AddParticipantTeam}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id/participant-teams"
+          component={CreateTeam}
+        />
       </>
    );
  };
 
   return (
-    <>
-      
+    <>  
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        {/* <Navigation/> */}
-        <Switch>
-            <Route exact path="/dashboard" component={Dashboard} />
-            <Route exact path="/not-found" component={PageNotFound} />
-            <Route path="/register" component={SignupPage} />
-            <Route exact path="/login" component={LoginPage} />
-            { renderRoutesHandler() }
-            <PrivateRoute exact path="/" component={Dashboard} />
-            
-          <Redirect to="/not-found" />
-        </Switch>
+        <AppContainer>
+          <MainContent>
+            <UserHeader />
+            <RoutesContainer>
+              <Switch>
+                  <Route exact path="/dashboard" component={Dashboard} />
+                  <Route exact path="/not-found" component={PageNotFound} />
+                  <Route path="/register" component={SignupPage} />
+                  <Route exact path="/login" component={LoginPage} />
+                  { renderRoutesHandler() }
+                  {/* <PrivateRoute exact path="/" component={Dashboard} /> */}
+                <Redirect to="/not-found" />
+              </Switch>
+            </RoutesContainer>
+            <Footer />
+          </MainContent>
+          <SideBar />
+        </AppContainer>
         <ToastContainer />
       </ThemeProvider>
     </>
@@ -58,3 +126,30 @@ function App() {
 }
 
 export default App;
+
+const AppContainer = styled.main`
+  display: flex;
+  width: 100vw; height: 100vh;
+  overflow: hidden;
+`;
+
+const MainContent = styled.div`
+  ${props => props.theme.flex.column};
+  width: calc(100vw - 300px);
+
+  @media ${media.tablet} {
+    width: calc(100vw - 50px);
+  }
+`;
+
+const RoutesContainer = styled.div`
+  ${props => props.theme.shadow.box};
+  width: calc(100% - 20px); height: 100%;
+  margin-left: 20px; 
+  border-radius: 5px;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0px; height: 0;
+  }
+`;

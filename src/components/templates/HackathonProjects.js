@@ -4,10 +4,10 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 import { media } from "../index";
-import UserHeader from "../organisms/UserHeader";
-import { Footer } from "../organisms/index";
+// import UserHeader from "../organisms/UserHeader";
+// import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
-import Nav from "../molecules/Nav";
+import Nav from "../molecules/SideBar";
 import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
@@ -34,77 +34,72 @@ const HackathonProjects = () => {
   }, [fetchSubmissions]);
 
   return (
-    <div>
-      <UserHeader />
-      <WideBody>
-        <Nav />
-        <BodyContainerColumn>
-          <RowHead>
-            <H3>
-              Submitted projects for <Strong>"{event_title}"</Strong>
-            </H3>
-          </RowHead>
+    <WideBody>
+      <BodyContainerColumn>
+        <RowHead>
+          <H3>
+            Submitted projects for <Strong>"{event_title}"</Strong>
+          </H3>
+        </RowHead>
 
-          <Column>
-            <Card>
-              {loading ? (
-                <Spinner />
-              ) : (
-                <>
-                  <RowBody>
-                    {submissions.length === 0 &&
-                      "No projects were submitted for this hackathon."}
-                    {submissions.map((s, i) => {
-                      return (
-                        <SubmissionEntry key={s.id}>
-                          <Team>
-                            <H3>
-                              {s.participant_or_team_name || s.project_title}
-                            </H3>
-                          </Team>
-                          <Description>{s.project_writeups}</Description>
-                          {s.average_rating > 0 ? (
-                            <RatingGroup>
-                              <Rating
-                                initialRating={s.average_rating}
-                                readonly
-                                emptySymbol={
-                                  <img alt="Rubric star" src={emptyStar} />
-                                }
-                                fullSymbol={
-                                  <img alt="Rubric star" src={fullStar} />
-                                }
-                              />
-                              <JudgeCount>
-                                {`${s.acted_judges}/${s.number_of_judges +
-                                  1} voted`}
-                              </JudgeCount>
-                            </RatingGroup>
-                          ) : (
-                            "Not rated."
-                          )}
-                          <Button
-                            anchor
-                            color="blue"
-                            to={`/dashboard/event/${id}/project/${s.id}`}
-                          >
-                            View
-                          </Button>
-                        </SubmissionEntry>
-                      );
-                    })}
-                  </RowBody>
-                  <Button anchor to={`/dashboard/event/${id}`} color="grey">
-                    Back to event
-                  </Button>
-                </>
-              )}
-            </Card>
-          </Column>
-        </BodyContainerColumn>
-      </WideBody>
-      <Footer />
-    </div>
+        <Column>
+          <Card>
+            {loading ? (
+              <Spinner />
+            ) : (
+              <>
+                <RowBody>
+                  {submissions.length === 0 &&
+                    "No projects were submitted for this hackathon."}
+                  {submissions.map((s, i) => {
+                    return (
+                      <SubmissionEntry key={s.id}>
+                        <Team>
+                          <H3>
+                            {s.participant_or_team_name || s.project_title}
+                          </H3>
+                        </Team>
+                        <Description>{s.project_writeups}</Description>
+                        {s.average_rating > 0 ? (
+                          <RatingGroup>
+                            <Rating
+                              initialRating={s.average_rating}
+                              readonly
+                              emptySymbol={
+                                <img alt="Rubric star" src={emptyStar} />
+                              }
+                              fullSymbol={
+                                <img alt="Rubric star" src={fullStar} />
+                              }
+                            />
+                            <JudgeCount>
+                              {`${s.acted_judges}/${s.number_of_judges +
+                                1} voted`}
+                            </JudgeCount>
+                          </RatingGroup>
+                        ) : (
+                          "Not rated."
+                        )}
+                        <Button
+                          anchor
+                          color="blue"
+                          to={`/dashboard/event/${id}/project/${s.id}`}
+                        >
+                          View
+                        </Button>
+                      </SubmissionEntry>
+                    );
+                  })}
+                </RowBody>
+                <Button anchor to={`/dashboard/event/${id}`} color="grey">
+                  Back to event
+                </Button>
+              </>
+            )}
+          </Card>
+        </Column>
+      </BodyContainerColumn>
+    </WideBody>
   );
 };
 

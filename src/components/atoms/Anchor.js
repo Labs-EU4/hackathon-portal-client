@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { type, smallFontSize, baseFontSize, Solid } from '../index';
 
 export const Anchor = styled.a`
-  font-family: ${type.ROBOTO_MONO};
   font-size: ${smallFontSize};
   font-weight: 500;
   color: ${Solid.BLACK};
@@ -27,7 +26,7 @@ export const TopNavAnchor = styled(Anchor)`
 `;
 
 export const FooterNavAnchor = styled(Anchor)`
-  color: ${Solid.DARK_GREY};
+  color: ${props => props.theme.color.black};
   padding: 10px;
   border: 0;
 

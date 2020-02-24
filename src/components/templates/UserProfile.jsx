@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import UserHeader from "../organisms/UserHeader";
-import { Footer } from "../organisms/index";
+
 import WideBody from "../atoms/WideBody";
-import Nav from "../molecules/Nav";
 import BodyContainer from "../atoms/BodyContainer";
 import { H2, H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
@@ -20,6 +18,62 @@ import EventCard from "../molecules/EventCard";
 
 import { useRegisteredEvents } from "../../hooks";
 import Spinner from "../molecules/Spinner";
+
+export default function UserProfile({ initialState }) {
+  const [data, loading] = useRegisteredEvents();
+  const events = data?.body || [];
+  return (
+    <WideBody>
+      <BodyContainerColumn>
+        <RowHead>
+          <H3>Your Profile</H3>
+        </RowHead>
+
+        <ProfileCardWide>
+          <ProfileCard>
+            <ProfileHead>
+              {
+                initialState.image_url &&
+                 <ImageProfile src={JSON.parse(initialState.image_url[0])?.avatar}/> 
+              }
+              <Buttona color="green" anchor to="/dashboard/profile/edit">
+                Edit profile
+              </Buttona>
+            </ProfileHead>
+            <Column>
+              <H2 style={{ marginBottom: 0 }}>{initialState.fullname}</H2>
+              <Paragraph style={{ color: "gray" }}>
+                @{initialState.username}
+              </Paragraph>
+            </Column>
+            <Row>
+              <Paragraph>{initialState.bio}</Paragraph>
+            </Row>
+            <Row>
+              <Paragraph style={{ color: "blue", marginLeft: "3px" }}>
+                {initialState.email}
+              </Paragraph>
+            </Row>
+          </ProfileCard>
+
+          <HackathonCard>
+            <RowHead>
+              <H3>Hackathon(s) you registered for</H3>
+            </RowHead>
+            {loading ? (
+              <Spinner />
+            ) : (
+                <RowBody spacing="start">
+                  {events.map(event => (
+                    <EventCard key={event.id} event={event} />
+                  ))}
+                </RowBody>)}
+          </HackathonCard>
+        </ProfileCardWide>
+      </BodyContainerColumn>
+    </WideBody>
+  );
+}
 
 const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
@@ -77,66 +131,3 @@ const Buttona = styled(Button)`
   height: 15%;
   align-self: flex-end;
 `;
-
-export default function UserProfile({ initialState }) {
-  const [data, loading] = useRegisteredEvents();
-  const events = data?.body || [];
-  return (
-    <div>
-      <UserHeader />
-      <WideBody>
-        <Nav />
-        <BodyContainerColumn>
-          <RowHead>
-            <H3>Your Profile</H3>
-          </RowHead>
-
-          <ProfileCardWide>
-            <ProfileCard>
-              <ProfileHead>
-                {
-                  initialState.image_url 
-                  ? <ImageProfile src={JSON.parse(initialState.image_url[0])?.avatar}/> 
-                  : <Icon icon="user" />
-                }
-                <Buttona color="green" anchor to="/dashboard/profile/edit">
-                  Edit profile
-                </Buttona>
-              </ProfileHead>
-              <Column>
-                <H2 style={{ marginBottom: 0 }}>{initialState.fullname}</H2>
-                <Paragraph style={{ color: "gray" }}>
-                  @{initialState.username}
-                </Paragraph>
-              </Column>
-              <Row>
-                <Paragraph>{initialState.bio}</Paragraph>
-              </Row>
-              <Row>
-                <Icon icon="email" />
-                <Paragraph style={{ color: "blue", marginLeft: "3px" }}>
-                  {initialState.email}
-                </Paragraph>
-              </Row>
-            </ProfileCard>
-
-            <HackathonCard>
-              <RowHead>
-                <H3>Hackathon(s) you registered for</H3>
-              </RowHead>
-              {loading ? (
-                <Spinner />
-              ) : (
-                  <RowBody spacing="start">
-                    {events.map(event => (
-                      <EventCard key={event.id} event={event} />
-                    ))}
-                  </RowBody>)}
-            </HackathonCard>
-          </ProfileCardWide>
-        </BodyContainerColumn>
-      </WideBody>
-      <Footer />
-    </div>
-  );
-}

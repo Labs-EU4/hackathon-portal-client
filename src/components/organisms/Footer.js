@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 import WideFooter from '../../components/atoms/WideFooter';

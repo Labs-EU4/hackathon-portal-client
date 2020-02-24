@@ -10,6 +10,7 @@ export const RowBody = styled.div`
     spacing ? `justify-content: ${spacing};` : `justify-content: space-between;`}
   flex-wrap: wrap;
   margin: 30px 0;
+  
 
   @media ${media.tablet} {
     flex-direction: row;

@@ -4,6 +4,8 @@ import styled from "styled-components";
 import Button from "../atoms/Button";
 
 const StyledPublicNav = styled.div`
+  margin-left: auto;
+  
   & a:first-child {
     margin: 0 10px 0 0;
   }

@@ -1,13 +1,20 @@
 import React from 'react';
+import styled from 'styled-components';
+
 import StyledImage from '../atoms/StyledImage';
 
 const ProfileImage = ({ name, image }) => (
-  <StyledImage>
+  <StyledAvatarImg>
     <div>
       <img src={image} alt="" />
     </div>
     <p>{name}</p>
-  </StyledImage>
+  </StyledAvatarImg>
 );
 
 export default ProfileImage;
+
+const StyledAvatarImg = styled(StyledImage)`
+  width: 50px; height: 50px;
+`;
+

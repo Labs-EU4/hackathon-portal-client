@@ -2,13 +2,14 @@ import styled from "styled-components";
 import { media } from "../index";
 
 const FooterContainer = styled.div`
-  width: 1152px;
-  max-width: 1152px;
-  height: 76px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 45px;
+  width: 100vw; height: 30px;
+  display: flex; flex-direction: row-reverse;
+  align-items: center; justify-content: space-between;
+  padding-left: 20px;
+  
+  * > {
+    color: white;
+  }
 
   @media ${media.tablet} {
     padding: 0 20px;

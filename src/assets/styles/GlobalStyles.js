@@ -319,7 +319,7 @@ body {
     text-shadow: 0 1px 5px rgba(0,0,0,.1);
     line-height: 1.2;
     color: ${props => props.theme.color.black};
-    background: ${props => props.theme.color.white};
+    background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
 
     .dashboard-bg {
         height: 105vh;

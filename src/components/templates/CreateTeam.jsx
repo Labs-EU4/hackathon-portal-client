@@ -6,8 +6,8 @@ import {
 } from "../../store/participantTeams/actions";
 import { Formik } from "formik";
 
-import { Footer } from "../organisms/index";
-import UserHeader from "../organisms/UserHeader";
+// import { Footer } from "../organisms/index";
+// import UserHeader from "../organisms/UserHeader";
 import BodyContainer from "../atoms/BodyContainer";
 import styled from "styled-components";
 import { RowHead } from "../atoms/RowHead";
@@ -16,7 +16,6 @@ import Button from "../atoms/Button";
 import TeamView from "./TeamView";
 import { useTeams } from "../../hooks";
 import WideBody from "../atoms/WideBody";
-import Nav from "../molecules/Nav";
 
 const CreateTeam = () => {
   const dispatch = useDispatch();
@@ -89,52 +88,47 @@ const CreateTeam = () => {
   );
 
   return (
-    <div>
-      <UserHeader />
-      <WideBody>
-      <Nav />
-      <BodyRow>
-        <RowHead>
-          <H3>Participant Teams</H3>
-        </RowHead>
-        <BodyColumn>
-          {!team ? (
-            <Formik
-              initialValues={{ team_name: "" }}
-              onSubmit={handleTeamSubmit}
-            >
-              {props => (
-                <Form onSubmit={props.handleSubmit}>
-                  <h4>
-                    You are creating a team for{" "}
-                    <span
-                      style={{ color: "#273F92", backgroundColor: "aliceblue" }}
-                    >
-                      {event_title}
-                    </span>
-                  </h4>
-                  <label>Team Name</label>
-                  <input
-                    type="text"
-                    onChange={props.handleChange}
-                    onBlur={props.handleBlur}
-                    value={props.values.name}
-                    name="team_name"
-                  />
-                  <Button type="submit" color="green">
-                    Submit
-                  </Button>
-                </Form>
-              )}
-            </Formik>
-          ) : (
-              <TeamView {...{ team }} />
+    <WideBody>
+    <BodyRow>
+      <RowHead>
+        <H3>Participant Teams</H3>
+      </RowHead>
+      <BodyColumn>
+        {!team ? (
+          <Formik
+            initialValues={{ team_name: "" }}
+            onSubmit={handleTeamSubmit}
+          >
+            {props => (
+              <Form onSubmit={props.handleSubmit}>
+                <h4>
+                  You are creating a team for{" "}
+                  <span
+                    style={{ color: "#273F92", backgroundColor: "aliceblue" }}
+                  >
+                    {event_title}
+                  </span>
+                </h4>
+                <label>Team Name</label>
+                <input
+                  type="text"
+                  onChange={props.handleChange}
+                  onBlur={props.handleBlur}
+                  value={props.values.name}
+                  name="team_name"
+                />
+                <Button type="submit" color="green">
+                  Submit
+                </Button>
+              </Form>
             )}
-        </BodyColumn>
-      </BodyRow>
-      </WideBody>
-      <Footer />
-    </div>
+          </Formik>
+        ) : (
+            <TeamView {...{ team }} />
+          )}
+      </BodyColumn>
+    </BodyRow>
+    </WideBody>
   );
 };
 

@@ -3,8 +3,9 @@ import isEmail from 'validator/lib/isEmail';
 import styled from "styled-components";
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
-import { Footer } from "../organisms/index";
-import UserHeader from "../organisms/UserHeader";
+
+// import { Footer } from "../organisms/index";
+// import UserHeader from "../organisms/UserHeader";
 import WideBody from "../atoms/WideBody";
 import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";
@@ -16,7 +17,6 @@ import Button from "../atoms/Button";
 import { type, Solid, media } from "../index";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { useSearchUserByEmail } from '../../hooks';
-import Nav from "../molecules/Nav";
 
 const AddTeammates = () => {
   const [selectedUser, setSelectedUser] = useState(null);
@@ -278,24 +278,19 @@ const InviteWidget = () => {
 };
 
   return (
-    <div>
-      <UserHeader />
-      <WideBody>
-      <Nav />
-        <BodyContainerColumn>
-          <RowHead>
-            <H3>Add Teammates</H3>
-          </RowHead>
-          <Column>
-            <CardWide>
-              {!selectedUser ? <SearchWidget /> : <RoleWidget />}
-              {noneUser ? <InviteWidget /> : null}
-            </CardWide>
-          </Column>
-        </BodyContainerColumn>
-      </WideBody>
-      <Footer />
-    </div>
+    <WideBody>
+      <BodyContainerColumn>
+        <RowHead>
+          <H3>Add Teammates</H3>
+        </RowHead>
+        <Column>
+          <CardWide>
+            {!selectedUser ? <SearchWidget /> : <RoleWidget />}
+            {noneUser ? <InviteWidget /> : null}
+          </CardWide>
+        </Column>
+      </BodyContainerColumn>
+    </WideBody>
   );
 };
 

@@ -1,8 +1,11 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 import { Solid, media, type, Gradient } from "../index";
+import { ProfileImg } from "../atoms/ProfileImg";
+import { Dropdown } from "../atoms/DropDown";
 import Icon from '../atoms/Icon';
 
 const items = [
@@ -15,10 +18,18 @@ const items = [
     title: "Profile",
     url: "/dashboard/profile",
     // svg: ProfileIcon
+  },
+  {
+    title: "Create Event",
+    url: "/dashboard/new",
+    // svg: ProfileIcon
   }
 ];
 
-const Nav = ({ type }) => {
+const SideBar = ({ type }) => {
+  const { email: user } = useSelector(state => state.currentUser);
+  const initial = user && user[0].toUpperCase();
+
   if (type === "mobile") {
     return (
       <StyledMobileNav>
@@ -40,6 +51,12 @@ const Nav = ({ type }) => {
   } else
     return (
       <StyledNav>
+        <StyledProfileImage>
+          {
+            user && initial 
+          }
+          <Dropdown className="row2tab" />
+        </StyledProfileImage>
         {items.map(({ title, url }) => {
           return (
             <StyledNavLink exact to={url} key={title} activeClassName="current">
@@ -52,29 +69,27 @@ const Nav = ({ type }) => {
     );
 };
 
-export default Nav;
+export default SideBar;
 
 const StyledNav = styled.div`
-  display: none;
-  border-right: 1px solid #dadada;
-  background-color: #fafafa;
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  width: 350px;
-  transition: all 0.3s;
-
-  @media ${media.mobile} {
-    display: block;
-  }
+  ${props => props.theme.flex.custom('start', 'center', 'column')};
+  width: 300px; max-width: 300px;
+  padding: 90px 40px 40px;
 
   @media ${media.tablet} {
-    display: block;
+    width: 50px;
   }
 
-  @media ${media.desktop} {
+  /* @media ${media.desktop} {
     display: none;
-  }
+  } */
+`;
+
+const StyledProfileImage = styled(ProfileImg)`
+  ${props => props.theme.shadow.box};
+  width: 150px; height: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
 `;
 
 const StyledMobileNav = styled.div`
@@ -111,8 +126,7 @@ const StyledMobileNav = styled.div`
     z-index: 1;
     position: absolute;
     flex-direction: column;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
-    background-color: #ffffff;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.3);
     border-radius: 6px;
     transition: 0.3s;
 
@@ -123,7 +137,6 @@ const StyledMobileNav = styled.div`
       span {
         font-weight: bold;
         font-size: 15px;
-        font-family: ${type.ROBOTO};
         padding: 15px 20px;
         text-decoration: none;
         color: ${Solid.DARK_GREY};
@@ -146,14 +159,13 @@ const StyledMobileNav = styled.div`
 `;
 
 const StyledNavLink = styled(NavLink)`
-  display: flex;
-  align-items: center;
-  background-size: 20px;
-  color: ${Solid.DARK_GREY};
+  ${props => props.theme.flex.center};
+  width: 100%;
+  color: ${props => props.theme.color.black};
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: none; text-align: center;
   padding: 15px 20px;
-  transition: all 0.3s;
+  transition: box-shadow 0.2s ease;
   margin: 0 0 10px 0;
   white-space: nowrap;
 
@@ -168,9 +180,10 @@ const StyledNavLink = styled(NavLink)`
 
   &:hover,
   &.current {
-    background-color: #efefef;
+    ${props => props.theme.shadow.box};
     border-radius: 6px;
-    color: #484848;
+    font-weight: bold;
+    color: white;
 
     svg path {
       fill: #868686;

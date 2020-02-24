@@ -67,7 +67,7 @@ export const theme = {
     shadow: {
         text: `text-shadow: .15px .15px 1px ${color.black}, .75px .5px 1.5px ${color.black}, .15px .15px 1px ${color.black};`,
         text_links: `1px .75px 1.5px ${color.black}`,
-        box: `box-shadow: 0 1px 10px 0 rgba(0, 0, 0, .2)`,
+        box: `box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .2)`,
         card: `box-shadow: 1px .5px 3px rgba(0, 0, 0, .15)`,
         intenseBox: `box-shadow: 0 2.5px 10px ${color.black};`,
         filter: `filter: drop-shadow(.5px .25px 1.5px ${color.black});
@@ -78,6 +78,9 @@ export const theme = {
     },
     flex: {
         center: 'display: flex; justify-content: center; align-items: center;',
+        columnCenter: 'display: flex; flex-direction: column; justify-content: center; align-items: center;',
+        column: 'display: flex; flex-direction: column;',
+
         custom: (justify='start', align='start', direction='row') => {
             return `
                 display: flex; 
