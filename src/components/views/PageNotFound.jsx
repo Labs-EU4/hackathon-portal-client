@@ -15,7 +15,6 @@ const PageNotFound = () => {
           <Header2>Ooops!</Header2>
           <H3>We can't seem to find the page  you are looking for</H3>
           <h3>Error code: 404</h3>
-
           <NavLink to="/dashboard" style={{ textDecoration: "none", color: "lightcoral", paddingTop: "10px" }}>Home</NavLink>
         </BodyColumn>
         <BodyColumn>
