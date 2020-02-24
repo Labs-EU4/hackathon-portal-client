@@ -53,7 +53,8 @@ const StyledPublicNav = styled.div`
   & > button {
     display: inline-block;
     background-color: transparent; 
-    border: 2px solid rgba(14,19,24,.15); border-radius: 3px;
+    border: 2px solid rgba(14,19,24,.15); 
+    border-radius: 3px;
     outline: none;
     padding: 12px 34px;
     font-size: ${props => props.theme.fontSize.small};

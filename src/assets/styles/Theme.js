@@ -35,7 +35,8 @@ export const theme = {
         },
         // grey: color.grey,
         grey: {
-            regular: color.grey
+            regular: color.grey,
+            btn: 'rgba(14,19,24,.15)'
         },
         green: {
             light: color.lightGreen,

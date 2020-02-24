@@ -4,12 +4,17 @@ import { Solid, media } from "../index";
 export const Card = styled.div`
   ${props => props.theme.shadow.card};
   ${props => props.theme.flex.custom('space-between', 'start', 'column')};
+  position: relative;
   background-color: ${Solid.WHITE};
-  width: 302px;
+  width: 300px;
   min-height: 350px;
   border-radius: 6px;
   margin: 10px;
   overflow: hidden;
+
+  & > div {
+    padding: 20px;
+  }
 `;
 
 export const CardWide = styled(Card)`
