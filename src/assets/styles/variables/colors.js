@@ -22,9 +22,13 @@ export const green = '#5aac44';
 export const brightgreen = '#25d366';
 export const darkGreen = '#1b9849';
 
-//PRIMARY COLOR
 export const primary = '#00D9E1';
 export const secondary = '#f39422';
+
+export const success = "#28a745";
+export const info = "#17a2b8";
+export const warning = "#ffc107";
+export const danger = "#dc3545";
 
 
 export const backgroundBlack = '#222';

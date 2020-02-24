@@ -43,6 +43,10 @@ export const theme = {
             regular: color.green,
             dark: color.darkGreen
         },
+        success: color.success,
+        warning: color.warning,
+        danger: color.danger,
+        info: color.info
     },
     fontSize: {
         small: "1.4rem",
