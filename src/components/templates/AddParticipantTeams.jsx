@@ -3,8 +3,8 @@ import isEmail from 'validator/lib/isEmail';
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 import { BodyContainerColumn, StyledContainer, Container, StyledWidget } from "../styles/templates/AppParticipantTeams";
-import { Footer, UserHeader } from "../organisms";
-// import UserHeader from "../organisms/UserHeader";
+import { Footer } from "../organisms";
+import UserHeader from "../organisms/UserHeader";
 import WideBody from "../atoms/WideBody";
 import { H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
@@ -15,8 +15,12 @@ import Button from "../atoms/Button";
 import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 import { useSearchUserByEmail } from "../../hooks";
 import Nav from "../molecules/Nav";
+// import { SearchWidget, RoleWidget, InviteWidget } from "./AddParticipantTeamsWidgets";
 
 const AddParticipantTeam = () => {
+
+  // ----------- Widgets ----------- //
+
   const [selectedUser, setSelectedUser] = useState(null);
   const dispatch = useDispatch();
   const history = useHistory();
@@ -49,7 +53,6 @@ const AddParticipantTeam = () => {
   };
 
   const UserWidget = ({ user, select, ...otherProps }) => {
-
     return (
       <StyledWidget key={user.id} onClick={() => select(user)} {...otherProps}>
         {user.email}
@@ -132,6 +135,8 @@ const AddParticipantTeam = () => {
       </StyledContainer>
     );
   };
+
+  // ----------- component render ----------- //
 
   return (
     <div>
