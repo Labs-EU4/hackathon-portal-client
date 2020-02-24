@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from "react";
-import styled from "styled-components";
 import Rating from "react-rating";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-
-import { media } from "../index";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainer from "../atoms/BodyContainer";
 import { H3, H4 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { Column } from "../atoms/Column";
-import { CardWide } from "../atoms/Card";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import Label from "../atoms/Label";
@@ -21,6 +16,8 @@ import emptyStar from "../../assets/star-hollow.png";
 import fullStar from "../../assets/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
 import { useJudges, useGrades, useSubmissions } from "../../hooks";
+import { BodyContainerColumn, Card, Strong } from "../styles/templates/HackathonProjectsStyling";
+import { Team, Description, SubmissionEntry, Rubrics, RubricRow, Feedback, JudgeView, ButtonGroup } from "../styles/templates/HackthonSingleProjectStyling";
 
 const HackathonSingleProject = () => {
   const history = useHistory();
@@ -122,37 +119,37 @@ const HackathonSingleProject = () => {
               <SubmissionEntry>
                 <Team>
                   <H3>
-                    {submission?.participant_or_team_name ||
-                      submission?.project_title}
+                    {submission ?.participant_or_team_name ||
+                      submission ?.project_title}
                   </H3>
                 </Team>
                 <Label htmlFor="project_writeup">Project writeup</Label>
                 <Description id="project_writeup">
-                  <Paragraph>{submission?.project_writeups}</Paragraph>
-                  {submission?.git_url && (
+                  <Paragraph>{submission ?.project_writeups}</Paragraph>
+                  {submission ?.git_url && (
                     <>
                       <Label htmlFor="github_url">GitHub URL</Label>
                       <Paragraph id="github_url">
                         <a
-                          href={submission?.git_url}
+                          href={submission ?.git_url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {submission?.git_url}
+                          {submission ?.git_url}
                         </a>
                       </Paragraph>
                     </>
                   )}
-                  {submission?.video_url && (
+                  {submission ?.video_url && (
                     <>
                       <Label htmlFor="video_url">Video URL</Label>
                       <Paragraph id="video_url">
                         <a
-                          href={submission?.video_url}
+                          href={submission ?.video_url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {submission?.video_url}
+                          {submission ?.video_url}
                         </a>
                       </Paragraph>
                     </>
@@ -205,43 +202,43 @@ const HackathonSingleProject = () => {
                     />
                   </JudgeView>
                 ) : (
-                  <JudgeView>
-                    <Label htmlFor="rubrics"></Label>
-                    <Rubrics id="rubrics">
-                      {Object.keys(averages).map(rubric => {
-                        return rubric !== "comments" ? (
-                          <RubricRow key={rubric}>
-                            {toTittleCase(rubric)}
-                            <Rating
-                              emptySymbol={
-                                <img
-                                  alt={toTittleCase(rubric)}
-                                  src={emptyStar}
-                                />
-                              }
-                              fullSymbol={
-                                <img
-                                  alt={toTittleCase(rubric)}
-                                  src={fullStar}
-                                />
-                              }
-                              initialRating={averages[rubric]}
-                              readonly
-                            />
-                          </RubricRow>
-                        ) : null;
-                      })}
-                    </Rubrics>
-                    <Label htmlFor="feedback">Feedback</Label>
-                    {averages.comments?.length > 0 ? (
-                      averages.comments.map(comment => (
-                        <Paragraph key={comment}>{comment}</Paragraph>
-                      ))
-                    ) : (
-                      <Paragraph>No comments on this project</Paragraph>
-                    )}
-                  </JudgeView>
-                )}
+                    <JudgeView>
+                      <Label htmlFor="rubrics"></Label>
+                      <Rubrics id="rubrics">
+                        {Object.keys(averages).map(rubric => {
+                          return rubric !== "comments" ? (
+                            <RubricRow key={rubric}>
+                              {toTittleCase(rubric)}
+                              <Rating
+                                emptySymbol={
+                                  <img
+                                    alt={toTittleCase(rubric)}
+                                    src={emptyStar}
+                                  />
+                                }
+                                fullSymbol={
+                                  <img
+                                    alt={toTittleCase(rubric)}
+                                    src={fullStar}
+                                  />
+                                }
+                                initialRating={averages[rubric]}
+                                readonly
+                              />
+                            </RubricRow>
+                          ) : null;
+                        })}
+                      </Rubrics>
+                      <Label htmlFor="feedback">Feedback</Label>
+                      {averages.comments ?.length > 0 ? (
+                        averages.comments.map(comment => (
+                          <Paragraph key={comment}>{comment}</Paragraph>
+                        ))
+                      ) : (
+                          <Paragraph>No comments on this project</Paragraph>
+                        )}
+                    </JudgeView>
+                  )}
               </SubmissionEntry>
               <ButtonGroup>
                 <Button
@@ -267,129 +264,3 @@ const HackathonSingleProject = () => {
 };
 
 export default HackathonSingleProject;
-
-const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
-  justify-content: start;
-`;
-
-const Card = styled(CardWide)`
-  width: 800px;
-`;
-
-const Team = styled.div`
-  width: 100%;
-  border-bottom: 1px solid #c8c8c8;
-  padding: 0 0 10px 0;
-  margin: 0 0 20px 0;
-
-  h3 {
-    font-size: 22px;
-    font-weight: bold;
-  }
-`;
-
-const Strong = styled.strong`
-  font-weight: bold;
-`;
-
-const Description = styled.div`
-  display: block;
-  margin: 0;
-  border-bottom: 1px solid #c8c8c8;
-  padding: 0 0 20px 0;
-  margin: 0 0 20px 0;
-`;
-
-const SubmissionEntry = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px 0;
-
-  &:first-child {
-    padding-top: 0;
-  }
-  &:last-child {
-    border-bottom: 0;
-  }
-
-  @media ${media.tablet} {
-    flex-direction: column;
-  }
-`;
-
-const Rubrics = styled.div`
-  font-family: "Roboto", sans-serif;
-  width: 100%;
-  border-bottom: 1px solid #c8c8c8;
-  padding: 10px 0 20px 0;
-  margin: 0 0 20px 0;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-
-  @media ${media.tablet} {
-    justify-content: center;
-  }
-
-  div {
-    margin: 0 30px 20px 0;
-    display: flex;
-    flex-direction: column;
-  }
-`;
-
-const RubricRow = styled.div`
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-
-  & > span {
-    margin: 10px 0 0 10px;
-  }
-`;
-
-const Feedback = styled.textarea`
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #212121;
-  border: 1px solid #e8e8e8;
-  border-radius: 6px;
-  padding: 10px;
-  margin: 0 0 10px 0;
-  min-height: 100px;
-
-  &:focus {
-    transition: all 0.5s;
-    box-shadow: 0 0 3px #ddd;
-  }
-
-  ${({ wide }) =>
-    wide &&
-    `
-    width: 100%;
-  `};
-`;
-
-const JudgeView = styled.div`
-  border-radius: 6px;
-  border: 1px solid #e8e8e8;
-  padding: 20px;
-  background-color: #f2f2f2;
-  width: 100%;
-`;
-
-const ButtonGroup = styled.div`
-  a,
-  button {
-    width: 100%;
-    display: block;
-    margin: 0 0 10px 0;
-  }
-`;

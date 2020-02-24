@@ -6,43 +6,43 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa bDiKvh"
+        class="sc-ifAKCX gzLxUf"
       >
         <div
-          class="sc-bwzfXH ldOoJf"
+          class="sc-EHOje vwgiQ"
         >
           <div>
             <img
               alt="LinkedIn"
-              class="sc-htpNat hwcHdo"
+              class="sc-bZQynM cBEFRm"
               src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
-              class="sc-htpNat hwcHdo"
+              class="sc-bZQynM cBEFRm"
               src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
-              class="sc-htpNat hwcHdo"
+              class="sc-bZQynM cBEFRm"
               src="Icon-facebook.png"
             />
           </div>
           <div>
             <a
-              class="sc-EHOje sc-gzVnrw iKqYXF"
+              class="sc-dnqmqq sc-gZMcBi htVLRo"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-EHOje sc-gzVnrw iKqYXF"
+              class="sc-dnqmqq sc-gZMcBi htVLRo"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-EHOje sc-gzVnrw iKqYXF"
+              class="sc-dnqmqq sc-gZMcBi htVLRo"
               href="#"
             >
               Contacts
@@ -50,7 +50,7 @@ Object {
           </div>
           <div>
             <p
-              class="sc-htoDjs sc-dnqmqq xAsmd"
+              class="sc-gqjmRU sc-VigVT jKKcEs"
             >
               International Crafters © 2020
             </p>
@@ -61,43 +61,43 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa bDiKvh"
+      class="sc-ifAKCX gzLxUf"
     >
       <div
-        class="sc-bwzfXH ldOoJf"
+        class="sc-EHOje vwgiQ"
       >
         <div>
           <img
             alt="LinkedIn"
-            class="sc-htpNat hwcHdo"
+            class="sc-bZQynM cBEFRm"
             src="Icon-linkedin.png"
           />
           <img
             alt="Twitter"
-            class="sc-htpNat hwcHdo"
+            class="sc-bZQynM cBEFRm"
             src="Icon-twitter.png"
           />
           <img
             alt="Facebook"
-            class="sc-htpNat hwcHdo"
+            class="sc-bZQynM cBEFRm"
             src="Icon-facebook.png"
           />
         </div>
         <div>
           <a
-            class="sc-EHOje sc-gzVnrw iKqYXF"
+            class="sc-dnqmqq sc-gZMcBi htVLRo"
             href="https://hackton.co/#team"
           >
             Team
           </a>
           <a
-            class="sc-EHOje sc-gzVnrw iKqYXF"
+            class="sc-dnqmqq sc-gZMcBi htVLRo"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-EHOje sc-gzVnrw iKqYXF"
+            class="sc-dnqmqq sc-gZMcBi htVLRo"
             href="#"
           >
             Contacts
@@ -105,7 +105,7 @@ Object {
         </div>
         <div>
           <p
-            class="sc-htoDjs sc-dnqmqq xAsmd"
+            class="sc-gqjmRU sc-VigVT jKKcEs"
           >
             International Crafters © 2020
           </p>

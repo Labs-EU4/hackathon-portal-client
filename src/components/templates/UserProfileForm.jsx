@@ -1,71 +1,32 @@
-import React, {useState} from "react";
-import styled from "styled-components";
+import React, { useState } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";
+import Label from "../atoms/Label";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 import { Column } from "../atoms/Column";
-import { CardWide } from "../atoms/Card";
-import Label from "../atoms/Label";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import Button from "../atoms/Button";
 import profileImg from "../../assets/profile-image.png";
 import ProfileImage from '../molecules/ProfileImage';
-import { media } from '../variables/media';
-
 import {
   updateUserProfile
 } from "../../store/user/actions";
+import { BodyContainerColumn, NewLabel, CardWider, ButtonRowBody, NewButton } from "../styles/templates/UserProfileFormStyling";
 
-const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
-`;
-const NewLabel = styled(Label)`
-  padding-left: 3px;
-  @media ${media.tablet} {
-    display: none;
-  }
-  @media ${media.mobile} {
-    display: none;
-  }
-`;
-const CardWider = styled(CardWide)`
-  margin-left: 150px;
-  @media ${media.tablet} {
-    margin-left: 0px;
-  }
-  @media ${media.mobile} {
-    margin-left: 0px;
-  }
-`;
-const ButtonRowBody = styled(RowBody)`
-@media ${media.tablet} {
-  justify-content: space-around;
-}
-`
-const NewButton = styled(Button)`
-@media ${media.tablet} {
-  width: 25%;
-}
-@media ${media.mobile} {
-  width: 50%
-}
-`
 
-const UserProfileForm = ({initialState}) => {
+const UserProfileForm = ({ initialState }) => {
   const dispatch = useDispatch();
   const history = useHistory();
-  const [selectedImage, setSelectedImage] = useState(initialState?.image_url);
+  const [selectedImage, setSelectedImage] = useState(initialState ?.image_url);
 
   const handleSubmit = (values, a) => {
     const formData = new FormData();
@@ -74,14 +35,14 @@ const UserProfileForm = ({initialState}) => {
     formData.append('fullname', values.fullname);
     formData.append('email', values.email);
     formData.append('username', values.username);
-      dispatch(updateUserProfile(formData, history));
+    dispatch(updateUserProfile(formData, history));
   };
 
   const defaultState = {
-    bio: initialState?.bio || "",
-    fullname: initialState?.fullname || "",
-    email: initialState?.email || "",
-    username: initialState?.username || ""
+    bio: initialState ?.bio || "",
+    fullname: initialState ?.fullname || "",
+    email: initialState ?.email || "",
+    username: initialState ?.username || ""
   }
 
   const schema = Yup.object().shape({
@@ -111,11 +72,11 @@ const UserProfileForm = ({initialState}) => {
               >
                 {({ errors, touched }) => (
                   <Form>
-                      <NewLabel htmlFor="image">Profile picture</NewLabel>
-                      <ProfileImage
-                      image={JSON.parse(initialState.image_url? initialState.image_url[0] : null)?.avatar || profileImg}
-                      name={initialState?.username}
-                      />
+                    <NewLabel htmlFor="image">Profile picture</NewLabel>
+                    <ProfileImage
+                      image={JSON.parse(initialState.image_url ? initialState.image_url[0] : null) ?.avatar || profileImg}
+                      name={initialState ?.username}
+                    />
 
                     <RowBody>
                       <Label htmlFor="fullname">Full Name</Label>

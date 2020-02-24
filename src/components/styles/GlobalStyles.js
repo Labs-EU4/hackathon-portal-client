@@ -1,4 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import styled from "styled-components";
+import Label from "../atoms/Label";
+import BodyContainer from "../atoms/BodyContainer";
 import {
   baseFontSize,
   h1FontSize,
@@ -94,3 +97,12 @@ h3 {
 }
 
 `;
+
+export const InputFull = styled(Label)`
+width: 100%;
+`;
+
+export const BodyContainerColumn = styled(BodyContainer)`
+    flex-direction: column;
+    justify-content: start;
+  `;
