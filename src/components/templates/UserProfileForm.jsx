@@ -18,7 +18,6 @@ import Label from "../atoms/Label";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import Button from "../atoms/Button";
-import Icon from "../atoms/Icon";
 // import profileImg from "../../assets/profile-image.png";
 import ProfileImage from '../molecules/ProfileImage';
 import { media } from '../../assets/styles/variables/media';
@@ -26,6 +25,7 @@ import { media } from '../../assets/styles/variables/media';
 import {
   updateUserProfile
 } from "../../store/user/actions";
+import { IconLetter } from "../atoms/IconLetter";
 
 const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
@@ -112,7 +112,7 @@ const UserProfileForm = ({initialState}) => {
                     {
                       initialState.image_url 
                       ? <ProfileImage src={JSON.parse(initialState.image_url[0])?.avatar}/> 
-                      : <Icon icon="user" />
+                      : <IconLetter />
                     }
 
                   <RowBody>

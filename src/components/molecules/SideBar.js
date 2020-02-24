@@ -6,7 +6,7 @@ import styled from "styled-components";
 import { Solid, media, type, Gradient } from "../index";
 import { ProfileImg } from "../atoms/ProfileImg";
 import { Dropdown } from "../atoms/DropDown";
-import Icon from '../atoms/Icon';
+import userImg from '../../assets/images/user_icon.svg';
 
 const items = [
   {
@@ -52,10 +52,10 @@ const SideBar = ({ type }) => {
     return (
       <StyledNav>
         <StyledProfileImage>
+          <img src={userImg} />
           {
-            user && initial 
-          }
-          <Dropdown className="row2tab" />
+            user && <Dropdown className="row2tab" />
+          }  
         </StyledProfileImage>
         {items.map(({ title, url }) => {
           return (

@@ -12,56 +12,34 @@ const size = {
 
 export const theme = {
     color: {
-         // primary: '#E41667',
-        // primaryLight: '#FF5F33',
         primary: {
-            light: color.primaryLight,
-            normal: color.primary,
-            dark: color.primaryDark
+            // light: color.primaryLight,
+            regular: color.primary,
+            // dark: color.primaryDark
         },
         secondary: {
-            light: color.secondaryLight,
-            normal: color.secondary,
-            dark: color.secondaryDark
+            // light: color.secondaryLight,
+            regular: color.secondary,
+            // dark: color.secondaryDark
         },
-        white: color.white,
-        // black: '#252525',
-        black: color.black,
+        white: {
+            regular: color.white,
+        },
+        black: {
+            regular: color.black,
+        },
         red: {
-            normal: color.red,
+            regular: color.red,
             bright: color.brightRed
         },
         // grey: color.grey,
         grey: {
-            normal: color.grey
+            regular: color.grey
         },
         green: {
             light: color.lightGreen,
-            normal: color.green,
+            regular: color.green,
             dark: color.darkGreen
-        },
-        yellow: {
-            dim: color.dimYellow
-        },
-        bg: {
-            transparent: `background-color: rgba(0, 0, 0, .1);`,
-            transparentDark: `background-color: rgba(0, 0, 0, .5);`,
-            transparentDarker: `background-color: rgba(0, 0, 0, .8);`,
-            grey: {
-                light: color.bgLightGrey,
-                normal: color.bgGrey,
-            }
-        },
-        border: {
-            grey: {
-                normal: color.borderGrey
-            }
-        },
-        text: {
-            grey: {
-                light: color.textLightGrey,
-                dark: color.textDarkGrey,
-            },    
         },
     },
     shadow: {
