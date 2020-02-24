@@ -6,10 +6,11 @@ export const Card = styled.div`
   ${props => props.theme.flex.custom('space-between', 'start', 'column')};
   background-color: ${Solid.WHITE};
   width: 302px;
-  min-height: 220px;
+  min-height: 320px;
   border-radius: 6px;
   padding: 20px;
   margin: 10px;
+  overflow: hidden;
 `;
 
 export const CardWide = styled(Card)`

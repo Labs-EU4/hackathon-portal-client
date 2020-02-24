@@ -103,15 +103,15 @@ function App() {
             <UserHeader />
             <RoutesContainer>
               <Switch>
-                  <Route exact path="/dashboard" component={Dashboard} />
+                  <Route exact path="/" component={Dashboard} />
                   <Route exact path="/not-found" component={PageNotFound} />
                   <Route path="/register" component={SignupPage} />
                   <Route exact path="/login" component={LoginPage} />
                   <Route exact path="/forgotpassword" component={ResetPassword} />
                   <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
                   <Route exact path="/resetpassword" component={NewPassword} />
+                  <PrivateRoute exact path="/dashboard" component={Dashboard} />
                   { renderPrivateRoutesHandler() }
-                  {/* <PrivateRoute exact path="/" component={Dashboard} /> */}
                 <Redirect to="/not-found" />
               </Switch>
             </RoutesContainer>

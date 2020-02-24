@@ -7,7 +7,7 @@ import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 import { useSelector } from "react-redux";
 
-const EventOnboarding = () => {
+const UserEventsDashboard = () => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const userEvents = events.filter(event => event.creator_id === userId);
@@ -16,18 +16,22 @@ const EventOnboarding = () => {
   return (
     <BodyContainer>
       <RowHead>
-        <H3>Global hackathons</H3>
+        <H3>My hackathons</H3>
       </RowHead>
       <RowBody spacing="start">
-        {globalEvents.map(event => (
-          <EventCard key={event.id} event={event} />
-        ))}
+        {userEvents.length !== 0 ? (
+          userEvents.map(event => (
+            <EventCard key={event.event_title} event={event} />
+          ))
+        ) : (
+          <H4>You haven't created any events yet. Why wait?</H4>
+        )}
       </RowBody>
     </BodyContainer> 
   );
 };
 
-export default EventOnboarding;
+export default UserEventsDashboard;
 
 const BodyContainer = styled.div`
   display: flex; flex-direction: column;

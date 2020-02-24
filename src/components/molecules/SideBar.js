@@ -10,6 +10,11 @@ import userImg from '../../assets/images/user_icon.svg';
 
 const items = [
   {
+    title: "Home",
+    url: "/",
+    // svg: DashboardIcon
+  },
+  {
     title: "Dashboard",
     url: "/dashboard",
     // svg: DashboardIcon
@@ -159,11 +164,11 @@ const StyledMobileNav = styled.div`
 `;
 
 const StyledNavLink = styled(NavLink)`
-  ${props => props.theme.flex.center};
+  ${props => props.theme.flex.custom('flex-start', 'center')};
   width: 100%;
   color: ${props => props.theme.color.black};
   font-weight: 500;
-  text-decoration: none; text-align: center;
+  text-decoration: none; text-align: left;
   padding: 15px 20px;
   transition: box-shadow 0.2s ease;
   margin: 0 0 10px 0;
