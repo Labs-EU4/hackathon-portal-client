@@ -24,6 +24,7 @@ export const theme = {
         },
         white: {
             regular: color.white,
+            bg: color.bgWhite
         },
         black: {
             regular: color.black,

@@ -117,7 +117,6 @@ export default CustomForm;
 const StyledAnchor = styled(Link)`
   display: block;
   margin: 20px 0 0 0;
-  font-family: ${type.ROBOTO};
   font-size: ${smallFontSize}; font-weight: 500; color: #245ea4;
   text-decoration: none; text-transform: none; text-align: center;
 

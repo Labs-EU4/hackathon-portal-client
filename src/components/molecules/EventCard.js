@@ -18,6 +18,9 @@ const EventCard = ({ event }) => {
   return (
     <StyledCardLink to={`/dashboard/event/${event_id || id}`}>
       <Card>
+        <EventImage>
+          {/* <img src={} alt={} /> */}
+        </EventImage>
         <IconLetter>{letter}</IconLetter>
         <H4>{event_title}</H4>
         <Paragraph>{excerpt}</Paragraph>
@@ -34,6 +37,13 @@ const StyledCardLink = styled(Link)`
 
   &:hover > div {
     ${props => props.theme.shadow.box};
-    transition: all 0.2s ease;
+    transform: translateY(2px);
+    transition: box-shadow 0.2s ease, transform .4s ease;
   }
+`;
+
+const EventImage = styled.figure`
+  width: 100%;
+  height: 170px;
+  border: 3px solid red;
 `;

@@ -1,6 +1,8 @@
 //COLORS
 export const white = '#f4f7f6';
 export const textWhite = '#F8F9FA';
+export const bgWhite = '#f0f0f0';
+
 export const black = '#252525';
 
 //RED COLOR

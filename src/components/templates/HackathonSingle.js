@@ -30,6 +30,7 @@ import Spinner from "../molecules/Spinner";
 const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
   justify-content: start;
+  padding: 0; margin: 0;
 `;
 
 export const NormalSpan = styled(BoldSpan)`
@@ -256,9 +257,9 @@ const HackathonSingle = () => {
           <Spinner />
         ) : (
           <>
-            <RowHead>
+            {/* <RowHead>
               <H3>{event_title}</H3>
-            </RowHead>
+            </RowHead> */}
             <RowBody>
               <EventCardWide className="single-event">
                 <TitleContainer>

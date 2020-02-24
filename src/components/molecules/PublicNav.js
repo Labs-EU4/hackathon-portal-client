@@ -53,7 +53,7 @@ const StyledPublicNav = styled.div`
   & > button {
     display: inline-block;
     background-color: transparent; 
-    border: 2px solid black; border-radius: 3px;
+    border: 2px solid rgba(14,19,24,.15); border-radius: 3px;
     outline: none;
     padding: 12px 34px;
     font-size: ${props => props.theme.fontSize.small};
@@ -65,7 +65,7 @@ const StyledPublicNav = styled.div`
 
     &:hover {
       ${props => props.theme.shadow.card};
-      border: 2px solid ${props => props.theme.color.primary.regular};
+      border: 2px solid ${props => props.theme.color.black.regular};
     }
 
     @media ${media.tablet} {
