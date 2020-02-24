@@ -3,11 +3,11 @@ import { UserTypes } from "./actions";
 const initialState = {
   token: null,
   userId: null,
-  fullname: '',
-  email: '',
-  username: '',
-  bio: '',
-  image: '',
+  fullname: "",
+  email: "",
+  username: "",
+  bio: "",
+  image: "",
   image_url: {}
 };
 

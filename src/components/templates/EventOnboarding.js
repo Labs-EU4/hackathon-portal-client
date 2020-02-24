@@ -21,6 +21,7 @@ const BodyContainerColumn = styled(BodyContainer)`
 const EventOnboarding = () => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
+  console.log(userId);
   const userEvents = events.filter(event => event.creator_id === userId);
   const globalEvents = events.filter(event => event.creator_id !== userId);
 
@@ -43,7 +44,7 @@ const EventOnboarding = () => {
                 <EventCard key={event.event_title} event={event} />
               ))
             ) : (
-              <H4>You haven't created any events yet. Why wait?</H4>
+              <H4>You have not created any events yet. Why wait?</H4>
             )}
           </RowBody>
 
