@@ -17,8 +17,8 @@ import { CardWide } from "../atoms/Card";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import Label from "../atoms/Label";
-import emptyStar from "../../assets/star-hollow.png";
-import fullStar from "../../assets/star-full.png";
+import emptyStar from "../../assets/images/star-hollow.png";
+import fullStar from "../../assets/images/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
 import { useJudges, useGrades, useSubmissions } from "../../hooks";
 

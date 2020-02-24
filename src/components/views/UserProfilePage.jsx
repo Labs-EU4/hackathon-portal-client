@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+
 import UserProfile from "../templates/UserProfile";
 import { fetchUserProfile } from "../../store/user/actions";
 

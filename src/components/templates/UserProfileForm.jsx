@@ -19,9 +19,10 @@ import Label from "../atoms/Label";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import Button from "../atoms/Button";
-import profileImg from "../../assets/profile-image.png";
+import Icon from "../atoms/Icon";
+// import profileImg from "../../assets/profile-image.png";
 import ProfileImage from '../molecules/ProfileImage';
-import { media } from '../variables/media';
+import { media } from '../../assets/styles/variables/media';
 
 import {
   updateUserProfile
@@ -112,10 +113,11 @@ const UserProfileForm = ({initialState}) => {
                 {({ errors, touched }) => (
                   <Form>
                       <NewLabel htmlFor="image">Profile picture</NewLabel>
-                      <ProfileImage
-                      image={JSON.parse(initialState.image_url? initialState.image_url[0] : null)?.avatar || profileImg}
-                      name={initialState?.username}
-                      />
+                      {
+                        initialState.image_url 
+                        ? <ProfileImage src={JSON.parse(initialState.image_url[0])?.avatar}/> 
+                        : <Icon icon="user" />
+                      }
 
                     <RowBody>
                       <Label htmlFor="fullname">Full Name</Label>

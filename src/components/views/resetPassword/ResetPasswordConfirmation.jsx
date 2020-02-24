@@ -1,4 +1,5 @@
 import React from "react";
+
 import BodyContainer from "../../atoms/BodyContainer";
 import HeroImage from "../../atoms/HeroImage";
 import Container from "../../atoms/Container";
@@ -8,7 +9,7 @@ import { RowBody } from "../../atoms/RowBody";
 import WideBody from "../../atoms/WideBody";
 import { Header, Footer } from "../../organisms/index";
 import Button from "../../atoms/Button";
-import image from "../../../assets/Password-sent.png";
+// import image from "../../../assets/images/Password-sent.png";
 
 function ResetPasswordConfirmation() {
   return (
@@ -16,7 +17,7 @@ function ResetPasswordConfirmation() {
       <Header />
       <WideBody>
         <BodyContainer justify="center">
-          <HeroImage src={image} alt="Password Sent" />
+          {/* <HeroImage src={image} alt="Password Sent" /> */}
           <Container>
             <H1>Check your inbox</H1>
             <Paragraph>

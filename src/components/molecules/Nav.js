@@ -1,21 +1,20 @@
 import React from "react";
-import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components";
+
 import { Solid, media, type, Gradient } from "../index";
-import { ReactComponent as DashboardIcon } from "./../../assets/link-dashboard-icon.svg";
-import { ReactComponent as ProfileIcon } from "./../../assets/link-profile-icon.svg";
-import { ReactComponent as BurgerIcon } from "../../assets/link-burger-icon.svg";
+import Icon from '../atoms/Icon';
 
 const items = [
   {
     title: "Dashboard",
     url: "/dashboard",
-    svg: DashboardIcon
+    // svg: DashboardIcon
   },
   {
     title: "Profile",
     url: "/dashboard/profile",
-    svg: ProfileIcon
+    // svg: ProfileIcon
   }
 ];
 
@@ -24,7 +23,7 @@ const Nav = ({ type }) => {
     return (
       <StyledMobileNav>
         <span>
-          <BurgerIcon />
+          {/* <BurgerIcon /> */}
           Menu
         </span>
         <ul>
@@ -41,10 +40,10 @@ const Nav = ({ type }) => {
   } else
     return (
       <StyledNav>
-        {items.map(({ title, url, svg: SvgIcon }) => {
+        {items.map(({ title, url }) => {
           return (
             <StyledNavLink exact to={url} key={title} activeClassName="current">
-              <SvgIcon />
+              {/* <SvgIcon /> */}
               {title}
             </StyledNavLink>
           );

@@ -1,16 +1,15 @@
-import styled, { createGlobalStyle } from 'styled-components';
-import {
-  baseFontSize,
-  h1FontSize,
-  h2FontSize,
-  h3FontSize,
-  h4FontSize,
-  Solid,
-  type,
-} from '../index';
+import { createGlobalStyle } from 'styled-components';
+// import {
+//   baseFontSize,
+//   h1FontSize,
+//   h2FontSize,
+//   h3FontSize,
+//   h4FontSize,
+//   Solid,
+//   type,
+// } from '../index';
 
-import * as color from '../[$]-variables/colors';
-import bgImg from '../../images/beautiful_bg_img.jpg';
+import * as color from './variables/colors';
 
 export const GlobalStyles = createGlobalStyle`
 /*MEYER RESET*/
@@ -318,47 +317,24 @@ body {
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
     text-shadow: 0 1px 5px rgba(0,0,0,.1);
-    font-size: ${baseFontSize};
-    font-family: ${type.ROBOTO_MONO};
     line-height: 1.2;
-    color: ${Solid.BLACK};
-    background: ${Solid.DARK_WHITE};
+    color: ${props => props.theme.color.black};
+    background: ${props => props.theme.color.white};
 
     .dashboard-bg {
         height: 105vh;
-        background-image: url(${bgImg});
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: top;
         border: 3px solid red;
     }
-}
-
-h1 {
-  font-size: ${h1FontSize};
-}
-
-h2 {
-  font-size: ${h2FontSize};
-}
-
-h3 {
-  font-size: ${h3FontSize};
-}
-
-h3 {
-  font-size: ${h4FontSize};
 }
 
 #root > div:first-child {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  min-height: 100vh;
+  height: 100%; min-height: 100vh;
 }
 
 #root > div:first-child > div:nth-child(2) {
-  flex: 1;
+  flex: 2;
 }
 
 .particles {
@@ -423,3 +399,19 @@ DARK MODE
         background-color: #15202B;
         box-shadow: -1px 1px 5px rgba(64, 224, 208, .4), 2px -1px 3px rgba(64, 224, 208, .2);
     } */
+
+/* h1 {
+  font-size: ${h1FontSize};
+}
+
+h2 {
+  font-size: ${h2FontSize};
+}
+
+h3 {
+  font-size: ${h3FontSize};
+}
+
+h3 {
+  font-size: ${h4FontSize};
+} */

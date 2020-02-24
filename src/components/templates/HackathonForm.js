@@ -34,7 +34,7 @@ import {
 import { format } from '../../utils/date';
 
 const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: start;
 `;
 
@@ -116,7 +116,6 @@ const HackathonForm = ({ initialState }) => {
     <div>
       <UserHeader />
       <WideBody>
-        <Nav />
         <BodyContainerColumn>
           <RowHead>
             <H3>

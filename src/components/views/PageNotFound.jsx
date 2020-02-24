@@ -5,7 +5,7 @@ import { Header, Footer } from "../organisms/index";
 import BodyContainer from "../atoms/BodyContainer";
 import { H2, H3 } from "../atoms/Heading";
 import styled from "styled-components";
-import notFound_icon from "../../assets/notFound_icon.svg";
+import notFound_icon from "../../assets/images/notFound_icon.svg";
 
 const PageNotFound = () => {
   const BodyColumn = styled(BodyContainer)`

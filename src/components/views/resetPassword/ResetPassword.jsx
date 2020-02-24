@@ -12,11 +12,11 @@ import { ErrorSpan } from "../../atoms/Span";
 import { forgotPassword } from "../../../store/user/actions";
 import Header from "../../organisms/Header";
 import { useHistory } from "react-router-dom";
-import HeroImage from "../../atoms/HeroImage";
+// import HeroImage from "../../atoms/HeroImage";
 import Container from "../../atoms/Container";
 import { H1 } from "../../atoms/Heading";
 import { Paragraph } from "../../atoms/Paragraph";
-import image from "../../../assets/Password.png";
+// import image from "../../../assets/Password.png";
 
 const ResetPassword = () => {
   const dispatch = useDispatch();
@@ -38,7 +38,7 @@ const ResetPassword = () => {
       <Header />
       <WideBody>
         <BodyContainer justify="center">
-          <HeroImage src={image} alt="Reset passowrd" />
+          {/* <HeroImage src={image} alt="Reset passowrd" /> */}
           <Container>
             <H1>Reset the password</H1>
             <Paragraph>

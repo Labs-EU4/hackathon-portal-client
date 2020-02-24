@@ -5,9 +5,9 @@ import { BoldSpan } from "../atoms/Span";
 import Button from "../atoms/Button";
 import { NavLink, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { LetterIcon } from "../atoms/Icon";
+import Icon from "../atoms/Icon";
 import { useTeammates } from "../../hooks";
-import user_icon from "../../assets/user_icon.svg";
+import user_icon from "../../assets/images/user_icon.svg";
 
 const TeamView = ({ team }) => {
   const { id } = useParams();
@@ -55,8 +55,8 @@ const TeamView = ({ team }) => {
     width: 100%;
   `;
 
-  const StyledLetterIcon = styled(LetterIcon)`
-    margin: 0 20px 0 0 !important;
+  const StyledLetterIcon = styled.div`
+    border: none; border-radius: 50%;
   `;
 
   const NormalSpan = styled(BoldSpan)`
@@ -66,7 +66,7 @@ const TeamView = ({ team }) => {
 
   return (
     <TeamsCont>
-      <StyledLetterIcon>{initial}</StyledLetterIcon>
+      <StyledLetterIcon icon="">{initial}</StyledLetterIcon>
       <FancyBoldSpan>Your Team</FancyBoldSpan>
       <FancyBoldSpan>
         Team Name:

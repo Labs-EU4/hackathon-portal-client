@@ -10,11 +10,12 @@ import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
-import profileImg from "../../assets/profile-image.png";
+import Icon from "../atoms/Icon";
+// import profileImg from "../../assets/profile-image.png";
 import { media } from "../index";
 import Button from "../atoms/Button";
 import { Paragraph } from "../atoms/Paragraph";
-import mailIcon from "../../assets/Icon-mail-24px.png";
+// import mailIcon from "../../assets/Icon-mail-24px.png";
 import EventCard from "../molecules/EventCard";
 
 import { useRegisteredEvents } from "../../hooks";
@@ -63,11 +64,9 @@ export const Separator = styled.hr`
   margin: 0 0 20px 0;
 `;
 
-export const Icon = styled.div`
+export const StyledIcon = styled.div`
   width: 20px;
   height: 23px;
-  background-image: url(${mailIcon});
-  background-repeat: no-repeat;
 `;
 
 export const Row = styled.div`
@@ -95,13 +94,11 @@ export default function UserProfile({ initialState }) {
           <ProfileCardWide>
             <ProfileCard>
               <ProfileHead>
-                <ImageProfile
-                  src={
-                    JSON.parse(
-                      initialState.image_url ? initialState.image_url[0] : null
-                    )?.avatar || profileImg
-                  }
-                />
+                {
+                  initialState.image_url 
+                  ? <ImageProfile src={JSON.parse(initialState.image_url[0])?.avatar}/> 
+                  : <Icon icon="user" />
+                }
                 <Buttona color="green" anchor to="/dashboard/profile/edit">
                   Edit profile
                 </Buttona>
@@ -116,7 +113,7 @@ export default function UserProfile({ initialState }) {
                 <Paragraph>{initialState.bio}</Paragraph>
               </Row>
               <Row>
-                <Icon />
+                <Icon icon="email" />
                 <Paragraph style={{ color: "blue", marginLeft: "3px" }}>
                   {initialState.email}
                 </Paragraph>

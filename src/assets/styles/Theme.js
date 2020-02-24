@@ -1,4 +1,4 @@
-import * as color from './[$]-variables/colors';
+import * as color from './variables/colors';
 
 const size = {
     mobileS: '320px',

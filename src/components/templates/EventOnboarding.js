@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+
 import UserHeader from "../organisms/UserHeader";
 import Nav from "../molecules/Nav";
 import { Footer } from "../organisms/index";

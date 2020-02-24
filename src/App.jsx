@@ -1,8 +1,10 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
+import { ThemeProvider } from 'styled-components';
 
-import { GlobalStyles } from "./components/index";
+import { GlobalStyles } from "./assets/styles/GlobalStyles";
+import { theme } from './assets/styles/Theme';
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";
@@ -25,73 +27,28 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
+ const renderRoutesHandler = () => {
+   return (
+     <>
+       
+      </>
+   );
+ };
+
   return (
     <>
-      <GlobalStyles />
+      
       <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        {/* <Navigation/> */}
         <Switch>
-          <Route exact path="/not-found" component={PageNotFound} />
-          <Route path="/register" component={SignupPage} />
-          <Route exact path="/login" component={LoginPage} />
-          <Route exact path="/forgotpassword" component={ResetPassword} />
-          <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
-          <Route exact path="/resetpassword" component={NewPassword} />
-          <PrivateRoute exact path="/dashboard" component={Dashboard} />
-          <PrivateRoute exact path="/" component={Dashboard} />
-          <PrivateRoute
-            exact
-            path="/dashboard/new"
-            component={HackathonFormPage}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/event/:id/participant_submission"
-            component={ParticipantSubmissionPage}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/event/:id"
-            component={HackathonSinglePage}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/event/:id/edit"
-            component={EditHackathon}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/event/:id/team"
-            component={AddTeammates}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/profile"
-            component={UserProfilePage}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/profile/edit"
-            component={UserProfileFormPage}
-          />
-          <PrivateRoute
-            path="/dashboard/event/:id/projects"
-            component={HackathonProjectsPage}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/event/:id/project/:projectId"
-            component={HackathonProjectPage}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/event/:eventId/participant-teams/:teamId"
-            component={AddParticipantTeam}
-          />
-          <PrivateRoute
-            exact
-            path="/dashboard/event/:id/participant-teams"
-            component={CreateTeam}
-          />
+            <Route exact path="/dashboard" component={Dashboard} />
+            <Route exact path="/not-found" component={PageNotFound} />
+            <Route path="/register" component={SignupPage} />
+            <Route exact path="/login" component={LoginPage} />
+            { renderRoutesHandler() }
+            <PrivateRoute exact path="/" component={Dashboard} />
+            
           <Redirect to="/not-found" />
         </Switch>
         <ToastContainer />

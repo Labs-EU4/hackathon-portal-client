@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
+
 import { media } from "../index";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
@@ -13,10 +14,10 @@ import { BoldSpan } from "../atoms/Span";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 import { CardWide } from "../atoms/Card";
-import { LetterIcon } from "../atoms/Icon";
+import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
-import user_icon from "../../assets/user_icon.svg";
+import user_icon from "../../assets/images/user_icon.svg";
 // import { useEventTeam } from "../../hooks";
 
 import {
@@ -111,10 +112,6 @@ const TitleContainer = styled.div`
   margin: 0 0 20px 0;
   display: flex;
   align-items: baseline;
-`;
-
-const StyledLetterIcon = styled(LetterIcon)`
-  margin: 0 20px 0 0 !important;
 `;
 
 const Details = styled.div`
@@ -269,7 +266,7 @@ const HackathonSingle = () => {
               <RowBody>
                 <EventCardWide className="single-event">
                   <TitleContainer>
-                    <StyledLetterIcon>{initial}</StyledLetterIcon>
+                    <IconLetter>{initial}</IconLetter>
                     <H2>{event_title}</H2>
                   </TitleContainer>
 

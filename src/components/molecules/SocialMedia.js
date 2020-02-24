@@ -1,7 +1,7 @@
 import React from "react";
-import { SocialMediaContainer } from "../atoms/SocialIcon";
 import MediaIcons from "./MediaIcons";
 import { StrikedSpan } from "../atoms/Span";
+import styled from 'styled-components';
 
 const SocialMedia = () => (
   <SocialMediaContainer>
@@ -11,3 +11,7 @@ const SocialMedia = () => (
 );
 
 export default SocialMedia;
+
+const SocialMediaContainer = styled.div`
+
+`;

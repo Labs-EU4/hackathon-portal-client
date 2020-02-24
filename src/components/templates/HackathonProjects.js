@@ -17,8 +17,8 @@ import { CardWide } from "../atoms/Card";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import Rating from "react-rating";
-import emptyStar from "../../assets/star-hollow.png";
-import fullStar from "../../assets/star-full.png";
+import emptyStar from "../../assets/images/star-hollow.png";
+import fullStar from "../../assets/images/star-full.png";
 import { useSubmissions } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 
