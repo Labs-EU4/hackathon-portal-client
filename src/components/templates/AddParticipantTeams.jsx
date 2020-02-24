@@ -13,6 +13,7 @@ import { CardWide } from "../atoms/Card";
 import Nav from "../molecules/Nav";
 import { useSearchUserByEmail } from "../../hooks";
 import { SearchWidget, RoleWidget, InviteWidget } from "./widgets";
+import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 
 const AddParticipantTeam = () => {
 
@@ -26,6 +27,28 @@ const AddParticipantTeam = () => {
     return isEmail(email);
   }
 
+  const handleSubmit = () => {
+    const data = {
+      team_id: teamId,
+      team_member: selectedUser.id,
+      eventId: eventId
+    };
+    dispatch(addParticipantTeamMember(data, history));
+  };
+
+  const sendInvite = (props) => {
+
+    const teamId = teamId;
+    const eventId = eventId;
+
+    const data = {
+      teamId,
+      email: noneUser,
+      eventId
+    };
+    props.dispatch(sendParticipantInvite(data, history))
+  }
+
   return (
     <div>
       <UserHeader />
@@ -37,9 +60,9 @@ const AddParticipantTeam = () => {
           </RowHead>
           <Column>
             <CardWide>
-              {!selectedUser ? <SearchWidget setSelectedUser={setSelectedUser} setNoneUser={setNoneUser} history={history} eventId={eventId} teamId={teamId} matches={matches} searchString={searchString} setSearchString={setSearchString} validateEmail={validateEmail} />
-                : <RoleWidget selectedUser={selectedUser} dispatch={dispatch} history={history} />}
-              {noneUser ? <InviteWidget noneUser={noneUser} dispatch={dispatch} history={history} /> : null}
+              {!selectedUser ? <SearchWidget setSelectedUser={setSelectedUser} setNoneUser={setNoneUser} eventId={eventId} teamId={teamId} matches={matches} searchString={searchString} setSearchString={setSearchString} validateEmail={validateEmail} />
+                : <RoleWidget selectedUser={selectedUser} handleSubmit={handleSubmit} />}
+              {noneUser ? <InviteWidget noneUser={noneUser} sendInvite={sendInvite} /> : null}
             </CardWide>
           </Column>
         </BodyContainerColumn>
