@@ -1,32 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 import Button from "../atoms/Button";
 import { RowBody } from "../atoms/RowBody";
 import { StyledContainer, Container, StyledWidget } from "../styles/templates/AppParticipantTeams";
 
-
-
-const handleSubmit = (props) => {
-    const data = {
-        team_id: props.teamId,
-        team_member: props.selectedUser.id,
-        eventId: props.eventId
-    };
-    props.dispatch(addParticipantTeamMember(data, props.history));
-};
-
-const sendInvite = (props) => {
-
-    const teamId = props.teamId;
-    const eventId = props.eventId;
-
-    const data = {
-        teamId,
-        email: props.noneUser,
-        eventId
-    };
-    props.dispatch(sendParticipantInvite(data, props.history))
-}
 const redirect = (props, location = "/dashboard") => {
     props.history.push(location);
 };
@@ -76,6 +52,7 @@ export const SearchWidget = (props) => {
 export const RoleWidget = (props) => {
 
     const selectedUser = props.selectedUser;
+    const handleSubmit = props.handleSubmit;
 
     return (
         <StyledContainer>
@@ -103,6 +80,7 @@ export const RoleWidget = (props) => {
 export const InviteWidget = (props) => {
 
     const noneUser = props.noneUser;
+    const sendInvite = props.sendInvite
 
     return (
         <StyledContainer>

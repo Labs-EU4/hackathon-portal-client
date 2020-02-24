@@ -48,6 +48,6 @@ export const Form = styled.form`
 `;
 
 export const Title = styled.span`
-color: "#273F92";
- background-color: "aliceblue"
+    color: "#273F92";
+    background-color: "aliceblue"
 `;
