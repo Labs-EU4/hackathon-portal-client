@@ -14,11 +14,9 @@ export const useParticipants = id => {
     };
     fetchData();
   }, [id, token]);
-
   useEffect(() => {
     fetchParticipants();
   }, [fetchParticipants]);
-
   return [participants, fetchParticipants];
 };
 
@@ -36,11 +34,9 @@ export const useEventTeam = id => {
     };
     fetchData();
   }, [id, token]);
-
   useEffect(() => {
     fetchEventTeam();
   }, [fetchEventTeam]);
-
   return [team, fetchEventTeam];
 };
 
@@ -53,7 +49,6 @@ export const useJudges = id => {
 export const useTeams = id => {
   const [teams, setTeams] = useState([]);
   const token = useSelector(selectToken);
-
   const fetchTeams = useCallback(() => {
     const fetchData = async () => {
       const {
@@ -67,19 +62,7 @@ export const useTeams = id => {
   useEffect(() => {
     fetchTeams();
   }, [fetchTeams]);
-
   return [teams, fetchTeams];
-};
-
-export const useCreatedTeam = (eventId, userId) => {
-  const [teams, fetchTeams] = useTeams(eventId);
-  const team = teams.find(team => team.team_lead === Number(userId));
-
-  useEffect(() => {
-    fetchTeams();
-  }, [fetchTeams]);
-
-  return team;
 };
 
 export const useSubmissions = id => {
@@ -106,38 +89,10 @@ export const useSubmissions = id => {
     };
     fetchData();
   }, [id, token]);
-
   useEffect(() => {
     fetchSubmissions();
   }, [fetchSubmissions]);
-
   return [submissions, fetchSubmissions, loading, error];
-};
-
-export const useUserEvents = (perPage = 6, currentPage = 1) => {
-  const token = useSelector(selectToken);
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
-
-  useEffect(() => {
-    const req = async () => {
-      try {
-        setLoading(true);
-        const { data } = await axiosWithAuth(token).get(
-          `/api/events/user-events?perPage=${perPage}&currentPage=${currentPage}`
-        );
-        setData(data);
-      } catch ({ response }) {
-        setError(response);
-      } finally {
-        setLoading(false);
-      }
-    };
-    req();
-  }, [token, perPage, currentPage]);
-
-  return [data, loading, error];
 };
 
 export const useRegisteredEvents = (perPage = 9, currentPage = 1) => {
@@ -145,7 +100,6 @@ export const useRegisteredEvents = (perPage = 9, currentPage = 1) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
   useEffect(() => {
     const req = async () => {
       try {
@@ -162,7 +116,6 @@ export const useRegisteredEvents = (perPage = 9, currentPage = 1) => {
     };
     req();
   }, [token, perPage, currentPage]);
-
   return [data, loading, error];
 };
 
@@ -171,7 +124,6 @@ export const useEvent = id => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-
   useEffect(() => {
     const req = async () => {
       try {
@@ -186,6 +138,5 @@ export const useEvent = id => {
     };
     req();
   }, [token, id]);
-
   return [data, loading, error];
 };
