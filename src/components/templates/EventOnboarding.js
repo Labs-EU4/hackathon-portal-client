@@ -21,7 +21,6 @@ const BodyContainerColumn = styled(BodyContainer)`
 const EventOnboarding = () => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
-  console.log(userId);
   const userEvents = events.filter(event => event.creator_id === userId);
   const globalEvents = events.filter(event => event.creator_id !== userId);
 
