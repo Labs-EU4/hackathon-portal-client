@@ -20,20 +20,20 @@ const items = [
     // svg: DashboardIcon
   },
   {
-    title: "Profile",
-    url: "/dashboard/profile",
+    title: "Create Event",
+    url: "/dashboard/new",
     // svg: ProfileIcon
   },
   {
-    title: "Create Event",
-    url: "/dashboard/new",
+    title: "About",
+    url: "/about",
     // svg: ProfileIcon
   }
 ];
 
 const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
-  const { email: user } = useSelector(state => state.currentUser);
-  const initial = user && user[0].toUpperCase();
+  const { email, fullname } = useSelector(state => state.currentUser);
+  // const initial = user && user[0].toUpperCase();
 
   if (type === "mobile") {
     return (
@@ -56,12 +56,20 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
   } else
     return (
       <StyledNav>
-        <StyledProfileImage onClick={() => setIsProfileOpen(!isProfileOpen)}>
-          <img src={userImg} />
-          {/* {
-            user && <Dropdown className="row2tab" />
-          }   */}
-        </StyledProfileImage>
+        <UserContainer 
+          onClick={() => setIsProfileOpen(!isProfileOpen)}
+        >
+          <StyledProfileImage>
+              <img src={userImg} />
+              <UserInfoContent>
+                <p>{fullname}Alexander</p>
+                <p>{email}</p>
+              </UserInfoContent>
+            {/* {
+              user && <Dropdown className="row2tab" />
+            }   */}
+          </StyledProfileImage>
+        </UserContainer>
         {items.map(({ title, url }) => {
           return (
             <StyledNavLink exact to={url} key={title} activeClassName="current">
@@ -76,6 +84,11 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
 
 export default SideBar;
 
+
+const UserInfoContent = styled.div`
+  margin-left: 5px;
+`;
+
 const StyledNav = styled.div`
   ${props => props.theme.flex.custom('start', 'center', 'column')};
   width: 250px; max-width: 300px;
@@ -86,12 +99,16 @@ const StyledNav = styled.div`
   }
 `;
 
-const StyledProfileImage = styled(ProfileImg)`
+const StyledProfileImage = styled.div`
   ${props => props.theme.shadow.box};
-  width: 150px; height: 150px;
+  display: flex; align-items: center;
+  width: 50px; height: 50px;
   background-color: transparent;
-  margin-bottom: 30px;
   border-radius: 50%;
+
+  img {
+    width: 100%;
+  }
 `;
 
 const StyledMobileNav = styled.div`
@@ -190,5 +207,17 @@ const StyledNavLink = styled(NavLink)`
     svg path {
       fill: #868686;
     }
+  }
+`;
+
+const UserContainer = styled.div`
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 8px 2px;
+  border-radius: 2.5px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(0, 0, 0, .1);
   }
 `;

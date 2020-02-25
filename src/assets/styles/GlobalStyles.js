@@ -320,7 +320,7 @@ export const GlobalStyles = createGlobalStyle`
       line-height: 1.2;
       color: ${props => props.theme.color.black};
       background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
-      /* background-color: #6297db; */
+      
       .dashboard-bg {
           height: 105vh;
           border: 3px solid red;

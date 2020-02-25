@@ -5,7 +5,6 @@ import { BoldSpan } from "../atoms/Span";
 import Button from "../atoms/Button";
 import { NavLink, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Icon from "../atoms/Icon";
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
 

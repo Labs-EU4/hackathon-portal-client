@@ -192,7 +192,8 @@ const StyledWideBody = styled(WideBody)`
   position: absolute; top: 0; right: 0;
   width: 300px; height: 100%;
   background-color: ${props => props.theme.color.white.bg};
-  border-left: 2px solid  ${props => props.theme.color.primary.regular};
+  border: 2px solid  ${props => props.theme.color.primary.regular};
+  border-right: none;
   transform: ${props => !props.active &&'translateX(100%)'};
   transition: transform 1s ease;
   padding: 20px;
