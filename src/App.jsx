@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
+import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import styled, { ThemeProvider } from 'styled-components';
 
@@ -32,6 +33,7 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
+  const { userId } = useSelector(state => state.currentUser);
   const [ isProfileOpen, setIsProfileOpen ] = useState(false);
   const renderPrivateRoutesHandler = () => {
    return (
@@ -109,21 +111,25 @@ function App() {
             <UserHeader />
             <RoutesContainer>
               <Switch>
-                  <Route exact path="/" component={Dashboard} />
-                  <Route exact path="/not-found" component={PageNotFound} />
-                  <Route path="/register" component={SignupPage} />
-                  <Route exact path="/login" component={LoginPage} />
-                  <Route exact path="/forgotpassword" component={ResetPassword} />
-                  <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
-                  <Route exact path="/resetpassword" component={NewPassword} />
-                  <PrivateRoute exact path="/dashboard" component={Dashboard} />
-                  { renderPrivateRoutesHandler() }
+                <Route exact path="/" component={Dashboard} />
+                <Route exact path="/not-found" component={PageNotFound} />
+                <Route path="/register" component={SignupPage} />
+                <Route exact path="/login" component={LoginPage} />
+                <Route exact path="/forgotpassword" component={ResetPassword} />
+                <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
+                <Route exact path="/resetpassword" component={NewPassword} />
+                <PrivateRoute exact path="/dashboard" component={Dashboard} />
+                { renderPrivateRoutesHandler() }
                 <Redirect to="/not-found" />
               </Switch>
-              <UserProfileFormPage 
-                {...{isProfileOpen}}
-                {...{setIsProfileOpen}}
-              />
+              {
+                userId && (
+                  <UserProfileFormPage 
+                    {...{isProfileOpen}}
+                    {...{setIsProfileOpen}}
+                  />
+                )
+              }
             </RoutesContainer>
             <Footer />
           </MainContent>
