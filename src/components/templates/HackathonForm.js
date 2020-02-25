@@ -17,7 +17,7 @@ import { Column } from "../atoms/Column";
 import { CardForm } from "../atoms/Card";
 import Label from "../atoms/Label";
 import Input from "../atoms/Input";
-import Checkbox from "../atoms/Checkbox";
+import Checkbox from "../molecules/Checkbox";
 import TextArea from "../molecules/TextArea";
 import Select from "../atoms/Select";
 import Button from "../atoms/Button";
