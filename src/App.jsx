@@ -46,6 +46,11 @@ function App() {
           path="/dashboard/event/:id/participant_submission"
           component={ParticipantSubmissionPage}
         />
+        {/* <PrivateRoute
+          exact
+          path="/dashboard/event/:id"
+          component={HackathonSinglePage}
+        /> */}
         <PrivateRoute
           exact
           path="/dashboard/event/:id"

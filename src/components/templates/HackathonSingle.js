@@ -31,6 +31,7 @@ const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
   justify-content: start;
   padding: 0; margin: 0;
+  border: 3px solid red;
 `;
 
 export const NormalSpan = styled(BoldSpan)`

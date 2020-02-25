@@ -14,9 +14,14 @@ const EventOnboarding = () => {
 
   return (
     <BodyContainer>
-      <RowHead>
+      <HeaderContent>
+        <MapContainer>
+          <MapFormContainer/>
+        </MapContainer>
+      </HeaderContent>
+      <StyledRowHead>
         <H3>Global hackathons</H3>
-      </RowHead>
+      </StyledRowHead>
       <StyledRowBody spacing="start">
         {globalEvents.map(event => (
           <EventCard key={event.id} event={event} />
@@ -32,7 +37,7 @@ const BodyContainer = styled.div`
   display: flex; flex-direction: column;
   width: 100%;
   background-color: ${props => props.theme.color.white};
-  padding: 60px 0;
+  padding: 0;
 `;
 
 const StyledRowBody = styled.div`
@@ -43,4 +48,32 @@ const StyledRowBody = styled.div`
   &::-webkit-scrollbar {
     width: 0; height: 0;
   }
+`;
+
+const StyledRowHead = styled(RowHead)`
+  margin: 0 0 0 20px;
+  padding: 0 20px;
+
+  & > * {
+    font-weight: 600;
+  } 
+`;
+
+const HeaderContent = styled.div`
+  ${props => props.theme.flex.center};
+  width: 100%; height: 33vh;
+`;
+
+const MapContainer = styled.div`
+  position: relative;
+  width: 70%; height: 90%;
+  border: 3px solid ${props => props.theme.color.grey.border}; border-radius: 5px;
+`;
+
+const MapFormContainer = styled.div`
+  position: absolute; top: 50%; left: 75%;
+  transform: translateY(-50%);
+  width: 300px; height: 200px;
+  background-color: ${props => props.theme.color.white.bg};
+  border: 3px solid ${props => props.theme.color.primary.regular}; border-radius: 5px;
 `;

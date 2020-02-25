@@ -7,7 +7,7 @@ export const Card = styled.div`
   position: relative;
   background-color: ${Solid.WHITE};
   width: 300px;
-  min-height: 350px;
+  min-height: 380px;
   border-radius: 6px;
   margin: 10px;
   overflow: hidden;
