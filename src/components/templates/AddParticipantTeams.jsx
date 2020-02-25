@@ -37,10 +37,6 @@ const AddParticipantTeam = () => {
   };
 
   const sendInvite = (props) => {
-
-    const teamId = teamId;
-    const eventId = eventId;
-
     const data = {
       teamId,
       email: noneUser,
