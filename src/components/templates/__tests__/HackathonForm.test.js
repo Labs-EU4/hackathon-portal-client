@@ -43,7 +43,13 @@ beforeEach(() => {
           category_id: 2
         }
       ],
-      categories: [{ id: 2, category_name: "worldwide" }]
+      categories: [
+        { id: 2, category_name: "Summer Hackton" },
+        { id: 3, category_name: "World Hackton" },
+        { id: 3, category_name: "Asia Hackton" },
+        { id: 3, category_name: "Gamer's Hackton" },
+        { id: 3, category_name: "Advanced Hackton" }
+      ]
     },
 
     currentUser: {
@@ -95,12 +101,16 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
   it("should be displaying the category text node for the event being created", () => {
     expect(jestFeatures.getByText("Event Category")).toBeInTheDocument();
   });
-  it("should be displaying the first category name text node for the event being created", () => {
-    expect(jestFeatures.getByText("Summer Hackaton")).toBeInTheDocument();
-  });
   it("should be displaying the location text node for the event being created", () => {
     expect(jestFeatures.getByText("Location")).toBeInTheDocument();
   });
+  it("should be displaying the category name text node for the event being created", () => {
+    expect(jestFeatures.getByText("Summer Hackton")).toBeInTheDocument();
+  });
+  it("should be displaying the fifth category name text node for the event being created", () => {
+    expect(jestFeatures.getByText("Advanced Hackton")).toBeInTheDocument();
+  });
+
   it("should be displaying the rubric's text node for the event being created", () => {
     expect(jestFeatures.getByText("Grading Rubrics")).toBeInTheDocument();
   });
@@ -113,6 +123,24 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
   });
   it("should be displaying the guidelines text node for the event being created", () => {
     expect(jestFeatures.getByText("Guidelines")).toBeInTheDocument();
+  });
+  it("should be displaying the Project requirements text node for the event being created", () => {
+    expect(
+      jestFeatures.getByText("Project Submission Requirements")
+    ).toBeInTheDocument();
+  });
+  it("should be displaying the paragraph project requirements text node for the event being created", () => {
+    expect(
+      jestFeatures.getByText(
+        /Participants will be expected to submit which one of the following/i
+      )
+    ).toBeInTheDocument();
+  });
+  it("should be displaying the cancel button text node for the event being created", () => {
+    expect(jestFeatures.getByText("Cancel")).toBeInTheDocument();
+  });
+  it("should be displaying the submit button text node for the event being created", () => {
+    expect(jestFeatures.getByText("Submit")).toBeInTheDocument();
   });
 
   it("renders without crashing ", () => {

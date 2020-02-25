@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-cIShpX hBPzbI"
+              class="sc-jtRfpW dqDRZr"
             >
               <div
                 class="sc-htoDjs cAPmBv"
@@ -300,8 +300,6 @@ Object {
                         name="event_category"
                       >
                         <option
-                          disabled=""
-                          hidden=""
                           value=""
                         >
                           Choose
@@ -309,7 +307,27 @@ Object {
                         <option
                           value="2"
                         >
-                          worldwide
+                          Summer Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          World Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          Asia Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          Gamer's Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          Advanced Hackton
                         </option>
                       </select>
                       <span
@@ -532,7 +550,7 @@ Object {
                     class="sc-gPEVay flXgEr"
                   >
                     <div
-                      class="sc-ktHwxA jqNGyR"
+                      class="sc-elJkPf eVPMld"
                     >
                       <a
                         class="sc-kkGfuU gakgmW"
@@ -628,7 +646,7 @@ Object {
             />
           </a>
           <div
-            class="sc-cIShpX hBPzbI"
+            class="sc-jtRfpW dqDRZr"
           >
             <div
               class="sc-htoDjs cAPmBv"
@@ -906,8 +924,6 @@ Object {
                       name="event_category"
                     >
                       <option
-                        disabled=""
-                        hidden=""
                         value=""
                       >
                         Choose
@@ -915,7 +931,27 @@ Object {
                       <option
                         value="2"
                       >
-                        worldwide
+                        Summer Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        World Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        Asia Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        Gamer's Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        Advanced Hackton
                       </option>
                     </select>
                     <span
@@ -1138,7 +1174,7 @@ Object {
                   class="sc-gPEVay flXgEr"
                 >
                   <div
-                    class="sc-ktHwxA jqNGyR"
+                    class="sc-elJkPf eVPMld"
                   >
                     <a
                       class="sc-kkGfuU gakgmW"
