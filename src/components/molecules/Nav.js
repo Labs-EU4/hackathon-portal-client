@@ -2,7 +2,7 @@ import React from "react";
 import { ReactComponent as DashboardIcon } from "./../../assets/link-dashboard-icon.svg";
 import { ReactComponent as ProfileIcon } from "./../../assets/link-profile-icon.svg";
 import { ReactComponent as BurgerIcon } from "../../assets/link-burger-icon.svg";
-import { StyledNav, StyledMobileNav, StyledNavLink } from "../styles/modules/NavStyling";
+import { StyledNav, StyledMobileNav, StyledNavLink } from "../styles/molecules/NavStyling";
 
 const items = [
   {
