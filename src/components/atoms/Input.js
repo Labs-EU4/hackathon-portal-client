@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { type, Solid, media } from "../index";
 import { Field } from "formik";
 
-const I = styled(Field)`
+const InputField = styled(Field)`
   font-family: ${type.ROBOTO};
   font-size: 16px;
   font-weight: 500;
@@ -46,7 +46,7 @@ const I = styled(Field)`
 `;
 
 const Input = ({ ...inputProps }) => {
-  return <I {...inputProps} />;
+  return <InputField {...inputProps} />;
 };
 
 export default Input;
