@@ -19,7 +19,7 @@ import { SearchWidget, RoleWidget, InviteWidget } from "./widgets";
 
 const AddTeammates = () => {
   const [selectedUser, setSelectedUser] = useState(null);
-  const [role, setRole] = useState("");
+  const [role] = useState("");
   const dispatch = useDispatch();
   const history = useHistory();
   const { id } = useParams();
