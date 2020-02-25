@@ -7,7 +7,7 @@ import { H4 } from "../atoms/Heading";
 import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
-import CardFooter from "./CardFooter";
+// import CardFooter from "./CardFooter";
 import eventImg from '../../assets/images/event-img.jpg'
 
 const EventCard = ({ event }) => {
@@ -23,11 +23,11 @@ const EventCard = ({ event }) => {
         <EventImage>
           <img src={eventImg} alt={event_title} />
         </EventImage>
-        <div>
+        <EventCardContent>
           <StyledIconLetter>{letter.toUpperCase()}</StyledIconLetter>
           <H4>{event_title}</H4>
           <Paragraph>{excerpt}</Paragraph>
-          <CardFooter date={formattedDate} />
+          <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
             <StyledBtn 
               anchor 
@@ -38,7 +38,7 @@ const EventCard = ({ event }) => {
               to={`/`}
             >Join Event</StyledBtn>
           </EventCTA>
-        </div>
+        </EventCardContent>
       </Card>
     </StyledCardLink>
   );
@@ -51,15 +51,13 @@ const StyledCardLink = styled(Link)`
 
   &:hover > div {
     ${props => props.theme.shadow.box};
-    transform: translateY(2px);
+    transform: translateY(5px);
     transition: box-shadow 0.2s ease, transform .4s ease;
   }
 `;
 
 const EventImage = styled.figure`
-  width: 100%;
-  height: 170px;
-  border: 2px solid ${props => props.theme.color.grey.btn};
+  width: 100%; height: 170px;
 
   & > img {
     width: 100%; height: 100%;
@@ -76,8 +74,17 @@ const StyledIconLetter = styled(IconLetter)`
   color: ${props => props.theme.color.primary.regular};
 `;
 
+const EventCardContent = styled.div`
+  width: 100%; height: 220px;
+  padding: 10px;
+  overflow: hidden;
+`;
+
 const EventCTA = styled.div`
   ${props => props.theme.flex.custom('space-between', 'center')};
+  position: absolute; top: calc(100% - 50px); left: 0;
+  width: 100%;
+  padding: 0 10px 5px;
 `;
 
 const StyledBtn = styled(Button)`
@@ -86,4 +93,12 @@ const StyledBtn = styled(Button)`
   &:hover {
     border: 3px solid ${props => props.theme.color.primary.regular};
   }
+`;
+
+const CardCountDown = styled.div`
+  position: absolute; top: 20px; left: 70%;
+  background-color: ${props => props.theme.color.white.regular};
+  border: 2px solid ${props => props.theme.color.black.regular};
+  border-radius: 3px;
+  padding: 5px 10px;
 `;

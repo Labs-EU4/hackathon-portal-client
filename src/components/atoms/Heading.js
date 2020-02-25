@@ -34,6 +34,5 @@ export const H4 = styled.h4`
   color: ${Solid.BLACK};
   font-size: 16px;
   font-weight: 600;
-  margin: 10px 0;
-  padding: 0;
+  padding: 10px 0;
 `;

@@ -44,7 +44,7 @@ const StyledRowBody = styled.div`
   display: flex;
   width: 100%;
   overflow-x: scroll;
-  padding: 0;
+  padding-bottom: 20px;
 
   &::-webkit-scrollbar {
     width: 0; height: 0;

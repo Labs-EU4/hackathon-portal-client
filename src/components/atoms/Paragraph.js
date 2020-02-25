@@ -2,13 +2,12 @@ import styled from 'styled-components';
 import { type, Solid } from '../index';
 
 export const Paragraph = styled.p`
-  font-family: ${type.ROBOTO};
-  color: ${Solid.BLACK};
+  color: ${props => props.theme.color.black.regular};
   font-size: 1.5rem;
   font-weight: 400;
   /* word-break: break-all; */
-  margin: 0 0 20px 0;
-  padding: 0;
+  /* margin: 0 0 20px 0; */
+  /* padding: 0; */
 
   strong {
     font-weight: bold;
