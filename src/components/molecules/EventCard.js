@@ -91,7 +91,7 @@ const StyledBtn = styled(Button)`
   width: 47%;
   border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
-  padding: 8px 12px;
+  padding: 12px 22px;
   font-weight: 600;
   text-transform: uppercase;
 
@@ -102,13 +102,8 @@ const StyledBtn = styled(Button)`
 
   &:last-child {
     background-color: ${props => props.theme.color.primary.light};
-    /* border: 3px solid ${props => props.theme.color.primary.light}; */
   
     &:hover {
-
-    /* &:hover {
-      background-color: ${props => props.theme.color.green.regular};
-    } */
     }
   }
 `;

@@ -22,6 +22,7 @@ export const borderGrey = '#39444D';
 //GREEN COLOR
 export const lightGreen = '#afeeee';
 export const green = '#25d366';
+// export const green = '#00c4cc';
 export const darkGreen = '#1b9849';
 
 

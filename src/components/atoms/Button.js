@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { type, smallFontSize, Gradient, Solid, media } from "../index";
+import * as colors from '../../assets/styles/variables/colors';
 
 export default function Button({ children, anchor, color, ...props }) {
   if (anchor) {
@@ -30,7 +31,7 @@ const StyledButton = styled.button`
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
   text-align: center;
-  text-decoration: none;
+  text-transform: uppercase;
 
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
@@ -50,23 +51,18 @@ const StyledButton = styled.button`
     if (color === "blue") {
       return `
         background: ${Gradient.BLUE};
+        border: 3px solid transparent;
         color: ${Solid.WHITE};
-        padding: 14px 22px;
-        border: 0;
     `;
     }
     if (color === "green")
       return `
-        background: ${props => props.theme.color.green.regular};
-        border: 0;
-        padding: 14px 22px;
+        background: ${colors.green};
         color: ${Solid.WHITE};
     `;
     if (color === "grey")
       return `
-        background: ${props => props.theme.color.grey.regular};
-        border: 0;
-        padding: 14px 22px;
+        background: ${colors.grey};
         color: ${Solid.WHITE};
 
         @media ${media.tablet} {
@@ -91,19 +87,17 @@ const StyledButton = styled.button`
 
 const StyledLink = styled(Link)`
   display: inline-block;
-  padding: 12px 22px;
-  margin: 0;
-  border-radius: 6px;
-  border: 0;
-  font-size: ${smallFontSize};
-  font-weight: 500;
-  color: ${Solid.BLACK};
-  border: 2px solid ${Solid.BLACK};
-  background: ${Solid.WHITE};
+  background: white;
   outline: none;
-  text-align: center;
-  text-decoration: none;
+  border: 3px solid ${props => props.theme.color.grey.border};
+  border-radius: 3px;
+  padding: 8px 22px;
+  font-size: ${props => props.theme.fontSize.small};
+  font-weight: 600;
+  color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
+  text-align: center;
+  text-decoration: none; text-transform: uppercase;
 
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
@@ -122,22 +116,16 @@ const StyledLink = styled(Link)`
       return `
         background: ${Gradient.BLUE};
         color: ${Solid.WHITE};
-        padding: 14px 22px;
-        border: 0;
     `;
     }
     if (color === "green")
       return `
-        background: ${Gradient.GREEN};
-        border: 0;
-        padding: 14px 22px;
+        background: #00c4cc;
         color: ${Solid.WHITE};
-    `;
+      `;
     if (color === "grey")
       return `
-        background: ${Gradient.GREY};
-        border: 0;
-        padding: 14px 22px;
+        background: ${colors.grey};
         color: ${Solid.WHITE};
 
         @media ${media.tablet} {

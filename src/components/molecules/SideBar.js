@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 import { Solid, media, type, Gradient } from "../index";
-import { ProfileImg } from "../atoms/ProfileImg";
-import { Dropdown } from "../atoms/DropDown";
+// import { ProfileImg } from "../atoms/ProfileImg";
+import Button from '../atoms/Button';
 import userImg from '../../assets/images/user_icon.svg';
 
 const items = [
@@ -18,11 +18,6 @@ const items = [
     title: "Dashboard",
     url: "/dashboard",
     // svg: DashboardIcon
-  },
-  {
-    title: "Create Event",
-    url: "/dashboard/new",
-    // svg: ProfileIcon
   },
   {
     title: "About",
@@ -70,6 +65,14 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
             }   */}
           </StyledProfileImage>
         </UserContainer>
+        <StyledButton
+          exact 
+          anchor
+          to="/dashboard/new" 
+          color="green"
+          size="wide"
+          activeClassName="current"
+        >Create Event</StyledButton>
         {items.map(({ title, url }) => {
           return (
             <StyledNavLink exact to={url} key={title} activeClassName="current">
@@ -96,6 +99,10 @@ const StyledNav = styled.div`
 
   @media ${media.tablet} {
     width: 50px;
+  }
+
+  &:first-child {
+    margin-top: 10px;
   }
 `;
 
@@ -180,7 +187,7 @@ const StyledMobileNav = styled.div`
 const StyledNavLink = styled(NavLink)`
   ${props => props.theme.flex.custom('flex-start', 'center')};
   width: 100%;
-  margin-bottom: 10px; padding: 15px 20px;
+  margin-bottom: 10px; padding: 15px 20px 15px 10px;
   color: ${props => props.theme.color.black.regular};
   font-weight: 600;
   text-decoration: none; text-align: left;
@@ -196,7 +203,10 @@ const StyledNavLink = styled(NavLink)`
     fill: #9d9d9d;
   }
 
-  &:hover,
+  &:hover {
+    background-color: ${props => props.theme.color.link.hover};
+  }
+
   &.current {
     ${props => props.theme.shadow.box};
     border-left: 5px solid ${props => props.theme.color.primary.regular};
@@ -212,12 +222,20 @@ const StyledNavLink = styled(NavLink)`
 
 const UserContainer = styled.div`
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 8px 2px;
   border-radius: 2.5px;
   cursor: pointer;
 
   &:hover {
-    background: rgba(0, 0, 0, .1);
+    background-color: ${props => props.theme.color.link.hover};
+  }
+`;
+
+const StyledButton = styled(Button)`
+  margin-bottom: 10px;
+
+  &:hover {
+    border: 3px solid ${props => props.theme.color.primary.regular};
   }
 `;

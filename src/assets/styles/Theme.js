@@ -46,7 +46,10 @@ export const theme = {
         success: color.success,
         warning: color.warning,
         danger: color.danger,
-        info: color.info
+        info: color.info,
+        link: {
+            hover: 'rgba(14,19,24, .07)',
+        }
     },
     fontSize: {
         small: "1.4rem",
