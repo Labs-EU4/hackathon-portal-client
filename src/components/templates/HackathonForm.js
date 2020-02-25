@@ -17,8 +17,8 @@ import { Column } from "../atoms/Column";
 import { CardForm } from "../atoms/Card";
 import Label from "../atoms/Label";
 import Input from "../atoms/Input";
-import Checkbox from "../atoms/Checkbox";
-import TextArea from "../atoms/TextArea";
+import Checkbox from "../molecules/Checkbox";
+import TextArea from "../molecules/TextArea";
 import Select from "../atoms/Select";
 import Button from "../atoms/Button";
 import { Paragraph } from "../atoms/Paragraph";
@@ -47,18 +47,18 @@ const HackathonForm = ({ initialState }) => {
   }, [dispatch]);
 
   const defaultState = {
-    id: initialState?.id,
-    event_title: initialState?.event_title || "",
-    start_date: initialState?.start_date || "",
-    end_date: initialState?.end_date || "",
-    event_description: initialState?.event_description || "",
-    location: initialState?.location || "",
-    tag_name: initialState?.tag_name || [],
-    rubrics: initialState?.rubrics || [],
-    requirements: initialState?.requirements || [],
-    guidelines: initialState?.guidelines || "",
-    participation_type: initialState?.participation_type || "individual",
-    category_id: initialState?.category_id || 1
+    id: initialState ?.id,
+    event_title: initialState ?.event_title || "",
+    start_date: initialState ?.start_date || "",
+    end_date: initialState ?.end_date || "",
+    event_description: initialState ?.event_description || "",
+    location: initialState ?.location || "",
+    tag_name: initialState ?.tag_name || [],
+    rubrics: initialState ?.rubrics || [],
+    requirements: initialState ?.requirements || [],
+    guidelines: initialState ?.guidelines || "",
+    participation_type: initialState ?.participation_type || "individual",
+    category_id: initialState ?.category_id || 1
   };
 
   const handleSubmit = values => {

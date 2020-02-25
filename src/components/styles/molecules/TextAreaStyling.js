@@ -1,9 +1,7 @@
-import React from "react";
 import styled from "styled-components";
-import { Field } from "formik";
-import { type, Solid } from "../index";
+import { type, Solid } from "../../index";
 
-const I = styled.div`
+export const InputField = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,19 +28,9 @@ const I = styled.div`
     }
 
     ${({ wide }) =>
-      wide &&
-      `
+    wide &&
+    `
     width: 100%;
   `};
   }
 `;
-
-const TextArea = ({ wide, ...inputProps }) => {
-  return (
-    <I wide>
-      <Field {...inputProps} />
-    </I>
-  );
-};
-
-export default TextArea;

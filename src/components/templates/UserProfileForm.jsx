@@ -13,7 +13,7 @@ import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 import { Column } from "../atoms/Column";
 import Input from "../atoms/Input";
-import TextArea from "../atoms/TextArea";
+import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
 import profileImg from "../../assets/profile-image.png";
 import ProfileImage from '../molecules/ProfileImage';

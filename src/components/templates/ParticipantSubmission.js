@@ -15,7 +15,7 @@ import { CardForm } from "../atoms/Card";
 import { ErrorSpan } from "../atoms/Span";
 import Input from "../atoms/Input";
 import Label from "../atoms/Label";
-import TextArea from "../atoms/TextArea";
+import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
 import { Paragraph } from "../atoms/Paragraph";
 import {

@@ -1,14 +1,8 @@
 import React from "react";
 import { useField } from "formik";
-import styled from "styled-components";
 import CheckGroup from '../atoms/CheckGroup';
-import Label from "./Label";
-
-const StyledCheckboxField = styled.input`
-  width: 20px;
-  height: 20px;
-  margin: 0 20px 10px 0;
-`;
+import Label from "../atoms/Label";
+import { StyledCheckboxField } from "../styles/molecules/CheckboxStyling"
 
 function Checkbox({ label, ...props }) {
   const [field] = useField(props);
