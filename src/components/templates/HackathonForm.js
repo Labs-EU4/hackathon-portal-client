@@ -31,7 +31,7 @@ import {
   updateEvent
 } from "../../store/events/actions";
 
-import { format } from '../../utils/date';
+import { format } from "../../utils/date";
 
 const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
@@ -61,9 +61,9 @@ const HackathonForm = ({ initialState }) => {
     category_id: initialState?.category_id || 1
   };
 
-
   const handleSubmit = values => {
-    const participationTypeValue = document.getElementById("participation_type").value;
+    const participationTypeValue = document.getElementById("participation_type")
+      .value;
     const categoryIdValue = document.getElementById("event_category").value;
     values.participation_type = participationTypeValue;
     values.category_id = categoryIdValue;
@@ -204,7 +204,7 @@ const HackathonForm = ({ initialState }) => {
                     <RowBody justify="start">
                       {" "}
                       <Label htmlFor="input_tags">Tags</Label>
-                      <InputTag id="input_tags" tags={defaultState.tag_name}/>
+                      <InputTag id="input_tags" tags={defaultState.tag_name} />
                     </RowBody>
                     <RowBody justify="start">
                       <Column>

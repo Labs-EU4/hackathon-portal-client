@@ -43,7 +43,7 @@ const EventOnboarding = () => {
                 <EventCard key={event.event_title} event={event} />
               ))
             ) : (
-              <H4>You haven't created any events yet. Why wait?</H4>
+              <H4>You have not created any events yet. Why wait?</H4>
             )}
           </RowBody>
 

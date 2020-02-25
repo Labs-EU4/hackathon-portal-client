@@ -23,4 +23,4 @@ const FormLayout = ({
   </WideBody>
 );
 
-export default FormLayout;
+export default FormLayout

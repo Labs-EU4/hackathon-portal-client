@@ -1,6 +1,6 @@
 import { EventsTypes } from "./actions";
 
-const initialState = {
+export const initialState = {
   data: [],
   categories: [],
   isLoading: false,

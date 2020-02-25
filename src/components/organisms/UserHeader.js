@@ -11,6 +11,7 @@ import { Dropdown } from "../atoms/DropDown";
 
 const UserHeader = () => {
   const { email: user } = useSelector(state => state.currentUser);
+
   const initial = user[0].toUpperCase();
 
   const Navigation = styled.div`
