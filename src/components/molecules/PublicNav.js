@@ -60,7 +60,7 @@ const StyledPublicNav = styled.div`
     font-size: ${props => props.theme.fontSize.small};
     font-weight: 700;
     color: ${props => props.theme.color.black.regular};
-    text-decoration: none;
+    text-decoration: none; text-transform: uppercase;
     white-space: nowrap;
     cursor: pointer;
 

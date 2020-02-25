@@ -88,10 +88,28 @@ const EventCTA = styled.div`
 `;
 
 const StyledBtn = styled(Button)`
-  border: 3px solid ${props => props.theme.color.grey.border};
+  width: 47%;
+  border: 3px solid ${props => props.theme.color.primary.regular};
+  border-radius: 3px;
+  padding: 8px 12px;
+  font-weight: 600;
+  text-transform: uppercase;
 
   &:hover {
     border: 3px solid ${props => props.theme.color.primary.regular};
+    transform: translateY(-2px);
+  }
+
+  &:last-child {
+    background-color: ${props => props.theme.color.primary.light};
+    /* border: 3px solid ${props => props.theme.color.primary.light}; */
+  
+    &:hover {
+
+    /* &:hover {
+      background-color: ${props => props.theme.color.green.regular};
+    } */
+    }
   }
 `;
 

@@ -1,5 +1,6 @@
 //COLORS
-export const white = '#F9F9F9';
+export const white = '#ffffff';
+export const darkWhite = '#F9F9F9';
 export const black = '#010038';
 
 //RED COLOR
@@ -20,8 +21,7 @@ export const borderGrey = '#39444D';
 
 //GREEN COLOR
 export const lightGreen = '#afeeee';
-export const green = '#5aac44';
-export const brightgreen = '#25d366';
+export const green = '#25d366';
 export const darkGreen = '#1b9849';
 
 

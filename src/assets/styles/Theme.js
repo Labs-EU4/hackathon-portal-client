@@ -13,7 +13,7 @@ const size = {
 export const theme = {
     color: {
         primary: {
-            // light: color.primaryLight,
+            light: '#81DBFD',
             regular: color.primary,
             // dark: color.primaryDark
         },

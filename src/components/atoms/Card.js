@@ -5,10 +5,8 @@ export const Card = styled.div`
   ${props => props.theme.shadow.card};
   ${props => props.theme.flex.column};
   position: relative;
-  background-color: ${Solid.WHITE};
-  width: 300px;
-  min-height: 380px;
-  border-radius: 6px;
+  background-color: white;
+  width: 300px; min-height: 380px;
   margin: 10px;
 `;
 
