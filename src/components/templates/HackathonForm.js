@@ -143,7 +143,7 @@ const HackathonForm = ({ initialState }) => {
                         name="event_title"
                       />
                       {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
+                        <div>"{errors.name}"</div>
                       ) : null}
                       <ErrorSpan>
                         <ErrorMessage name="event_title" />

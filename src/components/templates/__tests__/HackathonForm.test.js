@@ -129,6 +129,7 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
       jestFeatures.getByText("Project Submission Requirements")
     ).toBeInTheDocument();
   });
+
   it("should be displaying the paragraph project requirements text node for the event being created", () => {
     expect(
       jestFeatures.getByText(
@@ -139,11 +140,43 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
   it("should be displaying the cancel button text node for the event being created", () => {
     expect(jestFeatures.getByText("Cancel")).toBeInTheDocument();
   });
-  it("should be displaying the submit button text node for the event being created", () => {
-    expect(jestFeatures.getByText("Submit")).toBeInTheDocument();
-  });
 
   it("renders without crashing ", () => {
     expect(jestFeatures).toMatchSnapshot();
+  });
+});
+
+describe("Shows that all the rubrics checkbox values are being displayed properly", () => {
+  it("should be displaying the first rubric value checkbox for the event being created", () => {
+    expect(jestFeatures.getByDisplayValue("presentation")).toBeInTheDocument();
+  });
+  it("should be displaying the second rubric value checkbox for the event being created", () => {
+    expect(jestFeatures.getByDisplayValue("innovation")).toBeInTheDocument();
+  });
+  it("should be displaying the third rubric value checkbox for the event being created", () => {
+    expect(jestFeatures.getByDisplayValue("product_fit")).toBeInTheDocument();
+  });
+  it("should be displaying the fourth rubric value checkbox for the event being created", () => {
+    expect(
+      jestFeatures.getByDisplayValue("product_design")
+    ).toBeInTheDocument();
+  });
+  it("should be displaying the fifth rubric value checkbox for the event being created", () => {
+    expect(jestFeatures.getByDisplayValue("functionality")).toBeInTheDocument();
+  });
+  it("should be displaying the sixth rubric value checkbox for the event being created", () => {
+    expect(jestFeatures.getByDisplayValue("extensibility")).toBeInTheDocument();
+  });
+  it("should be displaying the video rubric value checkbox for the event being created", () => {
+    expect(jestFeatures.getByDisplayValue("video_url")).toBeInTheDocument();
+  });
+  it("should be displaying the github rubric value checkbox for the event being created", () => {
+    expect(jestFeatures.getByDisplayValue("github_url")).toBeInTheDocument();
+  });
+});
+
+describe("Checks for the button on the UI", () => {
+  it("should be displaying submit button", () => {
+    expect(jestFeatures.getByRole("button")).toBeInTheDocument();
   });
 });
