@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import styled, { ThemeProvider } from 'styled-components';
@@ -32,7 +32,8 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
- const renderPrivateRoutesHandler = () => {
+  const [ isProfileOpen, setIsProfileOpen ] = useState(false);
+  const renderPrivateRoutesHandler = () => {
    return (
      <>
         {/* <PrivateRoute exact path="/" component={Dashboard} /> */}
@@ -119,10 +120,11 @@ function App() {
                   { renderPrivateRoutesHandler() }
                 <Redirect to="/not-found" />
               </Switch>
+              <ProfileMenu {...{isProfileOpen}}/>
             </RoutesContainer>
             <Footer />
           </MainContent>
-          <SideBar />
+          <SideBar {...{setIsProfileOpen}} {...{isProfileOpen}}/>
         </AppContainer>
         <ToastContainer />
       </ThemeProvider>
@@ -140,7 +142,7 @@ const AppContainer = styled.main`
 
 const MainContent = styled.div`
   ${props => props.theme.flex.column};
-  width: calc(100vw - 300px);
+  width: calc(100vw - 250px);
 
   @media ${media.tablet} {
     width: calc(100vw - 50px);
@@ -149,13 +151,33 @@ const MainContent = styled.div`
 
 const RoutesContainer = styled.div`
   ${props => props.theme.shadow.box};
+  position: relative;
   width: calc(100% - 20px); height: 100%;
   background-color: ${props => props.theme.color.white.bg};
   margin-left: 20px; 
   border-radius: 5px;
-  overflow-y: scroll;
+  overflow: hidden;
 
   &::-webkit-scrollbar {
     width: 0px; height: 0;
   }
+`;
+
+
+const ProfileMenu = ({isProfileOpen}) => {
+  return (
+    <ProfileContainer active={isProfileOpen}>
+
+    </ProfileContainer>
+  );
+};
+
+const ProfileContainer = styled.div`
+  ${props => props.theme.shadow.box};
+  position: absolute; top: 0; right: 0;
+  width: 300px; height: 100%;
+  background-color: ${props => props.theme.color.white.bg};
+  border-left: 2px solid  ${props => props.theme.color.primary.regular};
+  transform: ${props => !props.active &&'translateX(100%)'};
+  transition: transform 1s ease;
 `;

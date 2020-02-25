@@ -31,7 +31,7 @@ const items = [
   }
 ];
 
-const SideBar = ({ type }) => {
+const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
   const { email: user } = useSelector(state => state.currentUser);
   const initial = user && user[0].toUpperCase();
 
@@ -56,11 +56,11 @@ const SideBar = ({ type }) => {
   } else
     return (
       <StyledNav>
-        <StyledProfileImage>
+        <StyledProfileImage onClick={() => setIsProfileOpen(!isProfileOpen)}>
           <img src={userImg} />
-          {
+          {/* {
             user && <Dropdown className="row2tab" />
-          }  
+          }   */}
         </StyledProfileImage>
         {items.map(({ title, url }) => {
           return (
@@ -78,23 +78,20 @@ export default SideBar;
 
 const StyledNav = styled.div`
   ${props => props.theme.flex.custom('start', 'center', 'column')};
-  width: 300px; max-width: 300px;
+  width: 250px; max-width: 300px;
   padding: 90px 20px 30px;
 
   @media ${media.tablet} {
     width: 50px;
   }
-
-  /* @media ${media.desktop} {
-    display: none;
-  } */
 `;
 
 const StyledProfileImage = styled(ProfileImg)`
   ${props => props.theme.shadow.box};
   width: 150px; height: 150px;
-  border-radius: 50%;
+  background-color: transparent;
   margin-bottom: 30px;
+  border-radius: 50%;
 `;
 
 const StyledMobileNav = styled.div`
@@ -166,12 +163,11 @@ const StyledMobileNav = styled.div`
 const StyledNavLink = styled(NavLink)`
   ${props => props.theme.flex.custom('flex-start', 'center')};
   width: 100%;
-  color: ${props => props.theme.color.black};
-  font-weight: 500;
+  margin-bottom: 10px; padding: 15px 20px;
+  color: ${props => props.theme.color.black.regular};
+  font-weight: 600;
   text-decoration: none; text-align: left;
-  padding: 15px 20px;
   transition: box-shadow 0.2s ease;
-  margin: 0 0 10px 0;
   white-space: nowrap;
 
   svg {
