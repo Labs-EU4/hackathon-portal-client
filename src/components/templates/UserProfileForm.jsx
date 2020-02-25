@@ -62,7 +62,7 @@ const NewButton = styled(Button)`
 }
 `
 
-const UserProfileForm = ({initialState}) => {
+const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
   const dispatch = useDispatch();
   const history = useHistory();
   const [selectedImage, setSelectedImage] = useState(initialState?.image_url);
@@ -74,7 +74,8 @@ const UserProfileForm = ({initialState}) => {
     formData.append('fullname', values.fullname);
     formData.append('email', values.email);
     formData.append('username', values.username);
-      dispatch(updateUserProfile(formData, history));
+    dispatch(updateUserProfile(formData, history));
+    setIsProfileOpen(false);
   };
 
   const defaultState = {
@@ -92,109 +93,107 @@ const UserProfileForm = ({initialState}) => {
   });
 
   return (
-    <WideBody>
-      <BodyContainerColumn>
-        <RowHead>
-          <H3>Edit Profile</H3>
-        </RowHead>
+    <StyledWideBody active={isProfileOpen}>
+  {/* <RowHead>
+    <H3>Edit Profile</H3>
+  </RowHead> */}
+      <Formik
+        onSubmit={handleSubmit}
+        initialValues={defaultState}
+        validationSchema={schema}
+        enableReinitialize
+      >
+        {({ errors, touched }) => (
+          <Form>
+            <RowBody>
+              <Label htmlFor="fullname">Full Name</Label>
+              <Input
+                type="text"
+                name="fullname"
+                display="wide"
+                placeholder="Full Name"
+              />
+            </RowBody>
 
-        <RowBody>
-          <CardWider>
-            <Formik
-              onSubmit={handleSubmit}
-              initialValues={defaultState}
-              validationSchema={schema}
-              enableReinitialize
-            >
-              {({ errors, touched }) => (
-                <Form>
-                    <NewLabel htmlFor="image">Profile picture</NewLabel>
-                    {
-                      initialState.image_url 
-                      ? <ProfileImage src={JSON.parse(initialState.image_url[0])?.avatar}/> 
-                      : <IconLetter />
-                    }
-
-                  <RowBody>
-                    <Label htmlFor="fullname">Full Name</Label>
-                    <Input
-                      type="text"
-                      name="fullname"
-                      display="wide"
-                      placeholder="Full Name"
-                    />
-                  </RowBody>
-
-                  <RowBody>
-                    <Label htmlFor="image">Profile Image</Label>
-                    <Input
-                      type="file"
-                      name="image_url"
-                      display="wide"
-                      placeholder="Profile picture"
-                      accept="image/*"
-                      onChange={(e) => setSelectedImage(e.target.files[0])}
-                    />
-                  </RowBody>
-                  <RowBody>
-                    <Column>
-                      <Label htmlFor="email">Email</Label>
-                      <Input
-                        type="text"
-                        name="email"
-                        placeholder="Email"
-                        display="wide"
-                      />
-                      {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
-                      ) : null}
-                      <ErrorMessage name="email" />
-                    </Column>
-                    <Column>
-                      <Label htmlFor="username">Username</Label>
-                      <Input
-                        type="text"
-                        name="username"
-                        placeholder="Username"
-                        display="wide"
-                      />
-                      {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
-                      ) : null}
-                      <ErrorMessage name="username" />
-                    </Column>
-                  </RowBody>
-                  <RowBody>
-                    <Label htmlFor="bio">Bio</Label>
-                    <TextArea
-                      wide
-                      as="textarea"
-                      name="bio"
-                      placeholder="bio"
-                    />
-                    {errors.name && touched.name ? (
-                      <div>{errors.name}</div>
-                    ) : null}
-                    <ErrorMessage name="bio" />
-                  </RowBody>
-                  <ButtonRowBody>
-                    <Link to="/dashboard">
-                      <Button to="/dashboard" color="grey">
-                        Cancel
-                      </Button>
-                    </Link>
-                    <NewButton color="green" type="submit">
-                      Save Changes
-                    </NewButton>
-                  </ButtonRowBody>
-                </Form>
-              )}
-            </Formik>
-          </CardWider>
-        </RowBody>
-      </BodyContainerColumn>
-    </WideBody>
+            <RowBody>
+              <Label htmlFor="image">Profile Image</Label>
+              <Input
+                type="file"
+                name="image_url"
+                display="wide"
+                placeholder="Profile picture"
+                accept="image/*"
+                onChange={(e) => setSelectedImage(e.target.files[0])}
+              />
+            </RowBody>
+            <RowBody>
+              <Column>
+                <Label htmlFor="email">Email</Label>
+                <Input
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  display="wide"
+                />
+                {errors.name && touched.name ? (
+                  <div>{errors.name}</div>
+                ) : null}
+                <ErrorMessage name="email" />
+              </Column>
+              <Column>
+                <Label htmlFor="username">Username</Label>
+                <Input
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                  display="wide"
+                />
+                {errors.name && touched.name ? (
+                  <div>{errors.name}</div>
+                ) : null}
+                <ErrorMessage name="username" />
+              </Column>
+            </RowBody>
+            <RowBody>
+              <Label htmlFor="bio">Bio</Label>
+              <TextArea
+                wide
+                as="textarea"
+                name="bio"
+                placeholder="bio"
+              />
+              {errors.name && touched.name ? (
+                <div>{errors.name}</div>
+              ) : null}
+              <ErrorMessage name="bio" />
+            </RowBody>
+            <ButtonRowBody>
+              {/* <Link to="/dashboard">
+                <Button to="/dashboard" color="grey">
+                  Cancel
+                </Button>
+              </Link> */}
+              <NewButton color="green" type="submit">
+                Save Changes
+              </NewButton>
+            </ButtonRowBody>
+          </Form>
+        )}
+      </Formik>
+    </StyledWideBody>
   );
 };
 
 export default UserProfileForm;
+
+
+const StyledWideBody = styled(WideBody)`
+  ${props => props.theme.shadow.box};
+  position: absolute; top: 0; right: 0;
+  width: 300px; height: 100%;
+  background-color: ${props => props.theme.color.white.bg};
+  border-left: 2px solid  ${props => props.theme.color.primary.regular};
+  transform: ${props => !props.active &&'translateX(100%)'};
+  transition: transform 1s ease;
+  padding: 20px;
+`;

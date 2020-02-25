@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import UserProfileForm from "../templates/UserProfileForm";
 import { fetchUserProfile } from "../../store/user/actions";
 
-const UserProfileFormPage = () => {
+const UserProfileFormPage = ({ isProfileOpen, setIsProfileOpen }) => {
   const dispatch = useDispatch();
   const { userId } = useSelector(state => state.currentUser);
   const userDetails = useSelector(state => state.currentUser);
@@ -13,7 +13,11 @@ const UserProfileFormPage = () => {
 
   return (
     <>
-      <UserProfileForm initialState={userDetails} />
+      <UserProfileForm 
+        initialState={userDetails}
+        {...{isProfileOpen}} 
+        {...{setIsProfileOpen}} 
+      />
     </>
   );
 };
