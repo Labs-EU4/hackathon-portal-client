@@ -14,7 +14,7 @@ const PublicNav = () => {
 
   return (
     <StyledPublicNav>
-      <Button anchor to={state.from ? `/login?ref=${state ?.from}` : `/login`}>Log In</Button>
+      <Button anchor to={state ?.from ? `/login?ref=${state ?.from}` : `/login`}>Log In</Button>
       <Button anchor color="blue" to={state ?.from ? `/register?ref=${state ?.from}` : `/register`}>Sign Up</Button>
     </StyledPublicNav>
   );
