@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 import EventCard from "../molecules/EventCard";
@@ -10,7 +9,6 @@ import { RowBody } from "../atoms/RowBody";
 import Button from '../atoms/Button';
 
 import { useRegisteredEvents } from "../../hooks";
-import Spinner from "../molecules/Spinner";
 
 const UserEventsDashboard = ({ eventModalHandler }) => {
   const [ isRegisteredEvents, setIsRegisteredEvents ] = useState(false);
@@ -19,7 +17,6 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
   const registeredEvents = data?.body || [];
   const { userId } = useSelector(state => state.currentUser);
   const userEvents = events.filter(event => event.creator_id === userId);
-  const { pathname } = useLocation();
 
   return (
     <BodyContainer>
@@ -62,12 +59,6 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
           </RowBody>
         )
       }
-      {/* <HackathonCard>
-        <RowHead>
-          <H3>Hackathon(s) you registered for</H3>
-        </RowHead>
-        
-      </HackathonCard> */}
     </BodyContainer> 
   );
 };
