@@ -29,10 +29,11 @@ export const useSearchUserByEmail = () => {
   useEffect(() => {
     const match = searchString
       ? users
-        .filter(user =>
-          user?.email.toUpperCase().includes(searchString.toUpperCase())
-        )
-        .filter((_, i) => i < 5)
+        .filter(user => {
+          const formattedEmail = user?.email.split('@');
+          return formattedEmail[0].toUpperCase().includes(searchString.toUpperCase())
+        })
+        // .filter((_, i) => i < 5)
       : [];
     setMatches(match);
   }, [searchString, users]);

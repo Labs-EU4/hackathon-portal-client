@@ -88,7 +88,7 @@ const EventCTA = styled.div`
 
 const StyledBtn = styled(Button)`
   width: 47%;
-  border: 3px solid ${props => props.theme.color.primary.regular};
+  border: 3px solid ${props => props.theme.color.primary.light};
   border-radius: 3px;
   padding: 8px 12px;
   font-weight: 600;

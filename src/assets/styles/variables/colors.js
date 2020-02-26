@@ -4,6 +4,7 @@ export const textWhite = '#F8F9FA';
 export const bgWhite = '#f0f0f0';
 
 export const black = '#252525';
+export const blue = ''
 
 //RED COLOR
 export const red = '#E34449';
