@@ -10,7 +10,7 @@ import { RowBody } from "../atoms/RowBody";
 import { useRegisteredEvents } from "../../hooks";
 // import Spinner from "../molecules/Spinner";
 
-const UserEventsDashboard = () => {
+const UserEventsDashboard = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const [data, loading] = useRegisteredEvents();
   const registeredEvents = data?.body || [];
@@ -25,7 +25,11 @@ const UserEventsDashboard = () => {
       <RowBody spacing="start">
         {userEvents.length !== 0 ? (
           userEvents.map(event => (
-            <EventCard key={event.event_title} event={event} />
+            <EventCard 
+              key={event.event_title} 
+              event={event} 
+              {...{eventModalHandler}} 
+            />
           ))
         ) : (
           <H4>You haven't created any events yet. Why wait?</H4>
@@ -38,7 +42,11 @@ const UserEventsDashboard = () => {
         <RowBody spacing="start">
           {registeredEvents.length !== 0 ? (
             registeredEvents.map(event => (
-              <EventCard key={event.event_title} event={event} />
+              <EventCard 
+                key={event.event_title} 
+                event={event} 
+                {...{eventModalHandler}} 
+              />
             ))
           ) : (
             <H4>You haven't registered to any events yet. Why wait?</H4>

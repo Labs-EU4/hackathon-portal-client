@@ -10,7 +10,7 @@ import Button from "../atoms/Button";
 // import CardFooter from "./CardFooter";
 import eventImg from '../../assets/images/event-img.jpg'
 
-const EventCard = ({ event }) => {
+const EventCard = ({ event, eventModalHandler }) => {
   const { id, event_id, event_title, event_description, start_date } = event;
   const letter = event_title && event_title[0];
   const excerpt = event_description.substr(0, 100) + "...";
@@ -18,7 +18,7 @@ const EventCard = ({ event }) => {
   // Date formatting
   const formattedDate = new Date(start_date).toLocaleDateString();
   return (
-    <StyledCardLink to={`/dashboard/event/${event_id || id}`}>
+    <StyledEventCard>
       <Card>
         <EventImage>
           <img src={eventImg} alt={event_title} />
@@ -29,10 +29,9 @@ const EventCard = ({ event }) => {
           <Paragraph>{excerpt}</Paragraph>
           <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
-            <StyledBtn 
-              anchor 
-              to={`/dashboard/event/${event_id || id}`}
-            >More Info</StyledBtn>
+            <Button
+              onClick={() => eventModalHandler(event_id || id)}
+            >More Info</Button>
             <StyledBtn 
               anchor 
               to={`/`}
@@ -40,13 +39,13 @@ const EventCard = ({ event }) => {
           </EventCTA>
         </EventCardContent>
       </Card>
-    </StyledCardLink>
+    </StyledEventCard>
   );
 };
 
 export default EventCard;
 
-const StyledCardLink = styled(Link)`
+const StyledEventCard = styled.div`
   text-decoration: none;
 
   &:hover > div {
@@ -91,7 +90,7 @@ const StyledBtn = styled(Button)`
   width: 47%;
   border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
-  padding: 12px 22px;
+  padding: 8px 12px;
   font-weight: 600;
   text-transform: uppercase;
 

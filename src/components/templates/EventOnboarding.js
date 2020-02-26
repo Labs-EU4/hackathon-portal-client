@@ -7,7 +7,7 @@ import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 import { useSelector } from "react-redux";
 
-const EventOnboarding = () => {
+const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
@@ -24,7 +24,7 @@ const EventOnboarding = () => {
       </StyledRowHead>
       <StyledRowBody spacing="start">
         {globalEvents.map(event => (
-          <EventCard key={event.id} event={event} />
+          <EventCard key={event.id} event={event} {...{eventModalHandler}} />
         ))}
       </StyledRowBody>
     </BodyContainer> 

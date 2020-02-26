@@ -5,7 +5,7 @@ import { EventOnboarding } from "../templates";
 import { UserEventsDashboard } from "../templates";
 import { fetchAllEvents } from "../../store/events/actions";
 
-const Dashboard = () => {
+const Dashboard = ({ eventModalHandler }) => {
   const { pathname } = useLocation();
   const dispatch = useDispatch();
 
@@ -14,9 +14,9 @@ const Dashboard = () => {
   }, [dispatch]);
 
   if(pathname === '/') {
-    return <EventOnboarding />;
+    return <EventOnboarding {...{eventModalHandler}} />;
   }
-  return <UserEventsDashboard />
+  return <UserEventsDashboard {...{eventModalHandler}} />
 };
 
 export default Dashboard;

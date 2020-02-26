@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
@@ -33,8 +33,18 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
-  const { userId } = useSelector(state => state.currentUser);
+  const { token } = useSelector(state => state.currentUser);
   const [ isProfileOpen, setIsProfileOpen ] = useState(false);
+  const [ isEventModalOpen, setIsEventModalOpen ] = useState(false);
+  const [ eventId, setEventId ] = useState(null);
+
+  console.log('Event id -->', eventId);
+
+  const eventModalHandler = (id) => {
+    setEventId(id);
+    setIsEventModalOpen(true);
+  }
+
   const renderPrivateRoutesHandler = () => {
    return (
      <>
@@ -48,16 +58,6 @@ function App() {
           exact
           path="/dashboard/event/:id/participant_submission"
           component={ParticipantSubmissionPage}
-        />
-        {/* <PrivateRoute
-          exact
-          path="/dashboard/event/:id"
-          component={HackathonSinglePage}
-        /> */}
-        <PrivateRoute
-          exact
-          path="/dashboard/event/:id"
-          component={HackathonSinglePage}
         />
         <PrivateRoute
           exact
@@ -74,11 +74,6 @@ function App() {
           path="/dashboard/profile"
           component={UserProfilePage}
         />
-        {/* <PrivateRoute
-          exact
-          path="/dashboard/profile/edit"
-          component={UserProfileFormPage}
-        /> */}
         <PrivateRoute
           path="/dashboard/event/:id/projects"
           component={HackathonProjectsPage}
@@ -111,7 +106,11 @@ function App() {
             <UserHeader />
             <RoutesContainer>
               <Switch>
-                <Route exact path="/" component={Dashboard} />
+                <Route 
+                  exact 
+                  path="/" 
+                  render={() => <Dashboard {...{eventModalHandler}} />} 
+                />
                 <Route exact path="/not-found" component={PageNotFound} />
                 <Route path="/register" component={SignupPage} />
                 <Route exact path="/login" component={LoginPage} />
@@ -123,10 +122,19 @@ function App() {
                 <Redirect to="/not-found" />
               </Switch>
               {
-                userId && (
+                token && (
                   <UserProfileFormPage 
                     {...{isProfileOpen}}
                     {...{setIsProfileOpen}}
+                  />
+                )
+              }
+              {
+                token && (
+                  <HackathonSinglePage
+                    {...{eventId}}
+                    {...{isEventModalOpen}}
+                    {...{setIsEventModalOpen}}
                   />
                 )
               }
