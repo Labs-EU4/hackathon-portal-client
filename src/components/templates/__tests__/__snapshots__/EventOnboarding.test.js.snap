@@ -25,7 +25,7 @@ Object {
               class="sc-gisBJw lgqQtr"
             >
               <div
-                class="sc-htoDjs cAPmBv"
+                class="sc-htoDjs iAtLjJ"
               >
                 <span>
                   <svg>
@@ -36,7 +36,7 @@ Object {
                 <ul>
                   <li>
                     <a
-                      class="sc-dnqmqq iSgVFI"
+                      class="sc-dnqmqq gRMNAQ"
                       href="/dashboard"
                     >
                       Dashboard
@@ -44,7 +44,7 @@ Object {
                   </li>
                   <li>
                     <a
-                      class="sc-dnqmqq iSgVFI"
+                      class="sc-dnqmqq gRMNAQ"
                       href="/dashboard/profile"
                     >
                       Profile
@@ -80,10 +80,10 @@ Object {
           class="sc-cMljjf hEMCcP"
         >
           <div
-            class="sc-gzVnrw kKCeOP"
+            class="sc-gzVnrw ehKlJb"
           >
             <a
-              class="sc-dnqmqq iSgVFI"
+              class="sc-dnqmqq gRMNAQ"
               href="/dashboard"
             >
               <svg>
@@ -92,7 +92,7 @@ Object {
               Dashboard
             </a>
             <a
-              class="sc-dnqmqq iSgVFI"
+              class="sc-dnqmqq gRMNAQ"
               href="/dashboard/profile"
             >
               <svg>
@@ -108,7 +108,7 @@ Object {
               class="sc-hzDkRC bkkbax"
             >
               <h3
-                class="sc-jKJlTe giRPFq"
+                class="sc-eNQAEJ faMTgL"
               >
                 My hackathons
               </h3>
@@ -116,7 +116,7 @@ Object {
                 href="/dashboard/new"
               >
                 <button
-                  class="sc-kEYyzF jzyrXA"
+                  class="sc-kkGfuU gKOqPB"
                   color="green"
                 >
                   Create New
@@ -140,7 +140,7 @@ Object {
                     E
                   </div>
                   <h4
-                    class="sc-eNQAEJ iiVSJj"
+                    class="sc-hMqMXs bkVxBD"
                   >
                     EuroHack
                   </h4>
@@ -156,7 +156,7 @@ Object {
                       class="sc-jlyJG dxlnBr"
                     />
                     <span
-                      class="sc-iAyFgw sc-Rmtcm fkRdDS"
+                      class="sc-hSdWYo sc-Rmtcm fkRdDS"
                     >
                       10/9/2011
                     </span>
@@ -176,7 +176,7 @@ Object {
                     W
                   </div>
                   <h4
-                    class="sc-eNQAEJ iiVSJj"
+                    class="sc-hMqMXs bkVxBD"
                   >
                     World
                   </h4>
@@ -192,7 +192,7 @@ Object {
                       class="sc-jlyJG dxlnBr"
                     />
                     <span
-                      class="sc-iAyFgw sc-Rmtcm fkRdDS"
+                      class="sc-hSdWYo sc-Rmtcm fkRdDS"
                     >
                       7/9/2011
                     </span>
@@ -204,7 +204,7 @@ Object {
               class="sc-hzDkRC bkkbax"
             >
               <h3
-                class="sc-jKJlTe giRPFq"
+                class="sc-eNQAEJ faMTgL"
               >
                 Global hackathons
               </h3>
@@ -291,7 +291,7 @@ Object {
             class="sc-gisBJw lgqQtr"
           >
             <div
-              class="sc-htoDjs cAPmBv"
+              class="sc-htoDjs iAtLjJ"
             >
               <span>
                 <svg>
@@ -302,7 +302,7 @@ Object {
               <ul>
                 <li>
                   <a
-                    class="sc-dnqmqq iSgVFI"
+                    class="sc-dnqmqq gRMNAQ"
                     href="/dashboard"
                   >
                     Dashboard
@@ -310,7 +310,7 @@ Object {
                 </li>
                 <li>
                   <a
-                    class="sc-dnqmqq iSgVFI"
+                    class="sc-dnqmqq gRMNAQ"
                     href="/dashboard/profile"
                   >
                     Profile
@@ -346,10 +346,10 @@ Object {
         class="sc-cMljjf hEMCcP"
       >
         <div
-          class="sc-gzVnrw kKCeOP"
+          class="sc-gzVnrw ehKlJb"
         >
           <a
-            class="sc-dnqmqq iSgVFI"
+            class="sc-dnqmqq gRMNAQ"
             href="/dashboard"
           >
             <svg>
@@ -358,7 +358,7 @@ Object {
             Dashboard
           </a>
           <a
-            class="sc-dnqmqq iSgVFI"
+            class="sc-dnqmqq gRMNAQ"
             href="/dashboard/profile"
           >
             <svg>
@@ -374,7 +374,7 @@ Object {
             class="sc-hzDkRC bkkbax"
           >
             <h3
-              class="sc-jKJlTe giRPFq"
+              class="sc-eNQAEJ faMTgL"
             >
               My hackathons
             </h3>
@@ -382,7 +382,7 @@ Object {
               href="/dashboard/new"
             >
               <button
-                class="sc-kEYyzF jzyrXA"
+                class="sc-kkGfuU gKOqPB"
                 color="green"
               >
                 Create New
@@ -406,7 +406,7 @@ Object {
                   E
                 </div>
                 <h4
-                  class="sc-eNQAEJ iiVSJj"
+                  class="sc-hMqMXs bkVxBD"
                 >
                   EuroHack
                 </h4>
@@ -422,7 +422,7 @@ Object {
                     class="sc-jlyJG dxlnBr"
                   />
                   <span
-                    class="sc-iAyFgw sc-Rmtcm fkRdDS"
+                    class="sc-hSdWYo sc-Rmtcm fkRdDS"
                   >
                     10/9/2011
                   </span>
@@ -442,7 +442,7 @@ Object {
                   W
                 </div>
                 <h4
-                  class="sc-eNQAEJ iiVSJj"
+                  class="sc-hMqMXs bkVxBD"
                 >
                   World
                 </h4>
@@ -458,7 +458,7 @@ Object {
                     class="sc-jlyJG dxlnBr"
                   />
                   <span
-                    class="sc-iAyFgw sc-Rmtcm fkRdDS"
+                    class="sc-hSdWYo sc-Rmtcm fkRdDS"
                   >
                     7/9/2011
                   </span>
@@ -470,7 +470,7 @@ Object {
             class="sc-hzDkRC bkkbax"
           >
             <h3
-              class="sc-jKJlTe giRPFq"
+              class="sc-eNQAEJ faMTgL"
             >
               Global hackathons
             </h3>

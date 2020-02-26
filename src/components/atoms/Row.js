@@ -5,6 +5,4 @@ export const Row = styled.div`
   flex-direction: row;
   margin-top: 20px;
   margin-right: 20px;
-
-  }
 `;

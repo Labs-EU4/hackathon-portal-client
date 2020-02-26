@@ -106,3 +106,5 @@ export const BodyContainerColumn = styled(BodyContainer)`
     flex-direction: column;
     justify-content: start;
   `;
+
+
