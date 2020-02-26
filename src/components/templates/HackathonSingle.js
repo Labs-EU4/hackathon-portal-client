@@ -27,13 +27,6 @@ import {
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 
-const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
-  justify-content: start;
-  padding: 0; margin: 0;
-  border: 3px solid red;
-`;
-
 export const NormalSpan = styled(BoldSpan)`
   font-weight: normal;
   text-transform: capitalize;
@@ -255,13 +248,12 @@ const HackathonSingle = ({ isEventModalOpen, setIsEventModalOpen, eventId }) => 
   const renderSingleEvent = () => {
     return (
       <ModalBody>
-          <BodyContainerColumn>
             {loading ? (
               <Spinner />
             ) : (
               <>
                 <RowBody>
-                  <StyledEventCard className="single-event">
+                  <StyledEventCard>
                     <TitleContainer>
                       <IconLetter>{initial}</IconLetter>
                       <H2>{event_title}</H2>
@@ -495,7 +487,6 @@ const HackathonSingle = ({ isEventModalOpen, setIsEventModalOpen, eventId }) => 
                 </RowBody>
               </>
             )}
-          </BodyContainerColumn>
       </ModalBody>
     );
   }
@@ -516,7 +507,7 @@ const ModalBody = styled.div`
   z-index: 100;
 `;
 
-const StyledEventCard = styled(EventCardWide)`  
-  overflow-y: scroll;
+const StyledEventCard = styled(EventCardWide)`
+  overflow-y: scroll; 
 `;
 

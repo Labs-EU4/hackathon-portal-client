@@ -13,6 +13,7 @@ import { Footer } from './components/organisms/index';
 import SideBar from './components/molecules/SideBar';
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
+import HomePage from './components/views/HomePage';
 import Dashboard from "./components/views/Dashboard";
 import HackathonFormPage from "./components/views/HackathonFormPage";
 import HackathonSinglePage from "./components/views/HackathonSinglePage";
@@ -45,10 +46,15 @@ function App() {
     setIsEventModalOpen(true);
   }
 
-  const renderPrivateRoutesHandler = () => {
+  const renderPrivateRoutes = () => {
    return (
      <>
         {/* <PrivateRoute exact path="/" component={Dashboard} /> */}
+        <PrivateRoute 
+          exact 
+          path="/dashboard" 
+          render={() => <Dashboard {...{eventModalHandler}} />}  
+        />
         <PrivateRoute
           exact
           path="/dashboard/new"
@@ -109,7 +115,7 @@ function App() {
                 <Route 
                   exact 
                   path="/" 
-                  render={() => <Dashboard {...{eventModalHandler}} />} 
+                  render={() => <HomePage {...{eventModalHandler}} />} 
                 />
                 <Route exact path="/not-found" component={PageNotFound} />
                 <Route path="/register" component={SignupPage} />
@@ -117,8 +123,7 @@ function App() {
                 <Route exact path="/forgotpassword" component={ResetPassword} />
                 <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
                 <Route exact path="/resetpassword" component={NewPassword} />
-                <PrivateRoute exact path="/dashboard" component={Dashboard} />
-                { renderPrivateRoutesHandler() }
+                { renderPrivateRoutes() }
                 <Redirect to="/not-found" />
               </Switch>
               {
@@ -150,7 +155,7 @@ function App() {
       </ThemeProvider>
     </>
   );
-}
+};
 
 export default App;
 

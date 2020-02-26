@@ -8,7 +8,6 @@ import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 
 import { useRegisteredEvents } from "../../hooks";
-// import Spinner from "../molecules/Spinner";
 
 const UserEventsDashboard = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
@@ -45,7 +44,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
               <EventCard 
                 key={event.event_title} 
                 event={event} 
-                {...{eventModalHandler}} 
+                {...{eventModalHandler}}
               />
             ))
           ) : (
@@ -53,19 +52,6 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
           )}
         </RowBody>
       </HackathonCard>
-      {/* <HackathonCard>
-        <RowHead>
-          <H3>Hackathon(s) you registered for</H3>
-        </RowHead>
-        {loading ? (
-          <Spinner />
-        ) : (
-            <RowBody spacing="start">
-              {events.map(event => (
-                <EventCard key={event.id} event={event} />
-              ))}
-            </RowBody>)}
-      </HackathonCard> */}
     </BodyContainer> 
   );
 };
