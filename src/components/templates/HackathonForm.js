@@ -143,7 +143,7 @@ const HackathonForm = ({ initialState }) => {
                         name="event_title"
                       />
                       {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
+                        <div>"{errors.name}"</div>
                       ) : null}
                       <ErrorSpan>
                         <ErrorMessage name="event_title" />
@@ -232,11 +232,9 @@ const HackathonForm = ({ initialState }) => {
                       <Column>
                         <Label htmlFor="event_category">Event Category</Label>
                         <Select id="event_category" name="event_category">
-                          <option value="" disabled hidden>
-                            Choose
-                          </option>
-                          {categories.map(({ id, category_name }) => (
-                            <option key={id} value={id}>
+                          <option value="">Choose</option>
+                          {categories.map(({ id, category_name }, index) => (
+                            <option key={index} value={id}>
                               {category_name}
                             </option>
                           ))}

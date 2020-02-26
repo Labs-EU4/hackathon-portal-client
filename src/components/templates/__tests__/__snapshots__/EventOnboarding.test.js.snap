@@ -25,7 +25,7 @@ Object {
               class="sc-gisBJw lgqQtr"
             >
               <div
-                class="sc-htoDjs iAtLjJ"
+                class="sc-htoDjs cAPmBv"
               >
                 <span>
                   <svg>
@@ -36,7 +36,7 @@ Object {
                 <ul>
                   <li>
                     <a
-                      class="sc-dnqmqq gRMNAQ"
+                      class="sc-dnqmqq iSgVFI"
                       href="/dashboard"
                     >
                       Dashboard
@@ -44,7 +44,8 @@ Object {
                   </li>
                   <li>
                     <a
-                      class="sc-dnqmqq gRMNAQ"
+                      class="sc-dnqmqq iSgVFI"
+
                       href="/dashboard/profile"
                     >
                       Profile
@@ -80,10 +81,10 @@ Object {
           class="sc-cMljjf hEMCcP"
         >
           <div
-            class="sc-gzVnrw ehKlJb"
+            class="sc-gzVnrw kKCeOP"
           >
             <a
-              class="sc-dnqmqq gRMNAQ"
+              class="sc-dnqmqq iSgVFI"
               href="/dashboard"
             >
               <svg>
@@ -92,7 +93,7 @@ Object {
               Dashboard
             </a>
             <a
-              class="sc-dnqmqq gRMNAQ"
+              class="sc-dnqmqq iSgVFI"
               href="/dashboard/profile"
             >
               <svg>
@@ -291,7 +292,7 @@ Object {
             class="sc-gisBJw lgqQtr"
           >
             <div
-              class="sc-htoDjs iAtLjJ"
+              class="sc-htoDjs cAPmBv"
             >
               <span>
                 <svg>
@@ -302,7 +303,7 @@ Object {
               <ul>
                 <li>
                   <a
-                    class="sc-dnqmqq gRMNAQ"
+                    class="sc-dnqmqq iSgVFI"
                     href="/dashboard"
                   >
                     Dashboard
@@ -310,7 +311,7 @@ Object {
                 </li>
                 <li>
                   <a
-                    class="sc-dnqmqq gRMNAQ"
+                    class="sc-dnqmqq iSgVFI"
                     href="/dashboard/profile"
                   >
                     Profile
@@ -346,10 +347,10 @@ Object {
         class="sc-cMljjf hEMCcP"
       >
         <div
-          class="sc-gzVnrw ehKlJb"
+          class="sc-gzVnrw kKCeOP"
         >
           <a
-            class="sc-dnqmqq gRMNAQ"
+            class="sc-dnqmqq iSgVFI"
             href="/dashboard"
           >
             <svg>
@@ -358,7 +359,7 @@ Object {
             Dashboard
           </a>
           <a
-            class="sc-dnqmqq gRMNAQ"
+            class="sc-dnqmqq iSgVFI"
             href="/dashboard/profile"
           >
             <svg>
