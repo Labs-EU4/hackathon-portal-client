@@ -17,7 +17,6 @@ export const UserWidget = ({ user, select, ...otherProps }) => {
 };
 
 export const SearchWidget = (props) => {
-    const history = props.history;
     const searchString = props.searchString;
     const setSearchString = props.setSearchString;
     const inputRef = useRef(null);

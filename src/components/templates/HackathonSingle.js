@@ -17,6 +17,7 @@ import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 import { BodyContainerColumn, NormalSpan, Image, PTags, PHosted, EventCardWide, TagsCardWide, TitleContainer, StyledLetterIcon, Details, ButtonsDashGroup, Separator, TagsGroup, ImgPlaceHolder, AvatarImg, PBold, RegButton } from "../styles/templates/HackathonSingleStyling";
 
+
 const HackathonSingle = () => {
   const { id } = useParams();
   const history = useHistory();

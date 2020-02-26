@@ -4,7 +4,7 @@ import { Field } from "formik";
 import { media } from "../index";
 import { type, Solid } from "../index";
 
-const S = styled(Field)`
+const SelectField = styled(Field)`
   font-family: ${type.ROBOTO};
   font-size: 16px;
   font-weight: 500;
@@ -27,7 +27,7 @@ const S = styled(Field)`
 `;
 
 const Select = ({ as = "select", ...inputProps }) => {
-  return <S as={as} {...inputProps}></S>;
+  return <SelectField as={as} {...inputProps}></SelectField>;
 };
 
 export default Select;
