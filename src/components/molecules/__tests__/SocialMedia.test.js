@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { render, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
-import PublicNav from "../../molecules/PublicNav";
+import SocialMedia from "../../molecules/SocialMedia";
 import { initialState } from "../../../utils/mockData";
 
 const history = createMemoryHistory();
@@ -22,14 +22,17 @@ beforeEach(() => {
   jestFeatures = render(
     <Router history={history}>
       <Provider store={store}>
-        <PublicNav />
+        <SocialMedia />
       </Provider>
     </Router>
   );
 });
 
-describe("Component PublicNav.js renders properly", () => {
+describe("Component SocialMedia.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
+  });
+  it("the text node on <StrikedSpan/> is rendering properly", () => {
+    expect(jestFeatures.getByText("OR LOGIN WITH")).toBeInTheDocument();
   });
 });
