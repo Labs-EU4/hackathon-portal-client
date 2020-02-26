@@ -65,13 +65,42 @@ const AddTeammates = () => {
   `;
 
   const UserWidget = ({ user, select, ...otherProps }) => {
+    let memberProfile = JSON.parse(user.image_url);
+
     const StyledWidget = styled.div`
-      margin-bottom: 10px;
+      display: flex;
+      margin-bottom: 15px;
       cursor: pointer;
     `;
+
+    const UserAvatar = styled.figure`
+      width: 50px; height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 10px;
+
+      & > img {
+        width: 100%;
+      }
+    `;
+
+    const UserInfo = styled.div`
+
+    `;
+
     return (
       <StyledWidget key={user.id} onClick={() => select(user)} {...otherProps}>
-        {user.email}
+        <UserAvatar>
+          {
+            user.image_url !== null ? (
+              <img src={memberProfile.avatar} alt={user.username}/>
+            ) : null
+          }
+        </UserAvatar>
+        <UserInfo>
+          <p>{user.username}</p>
+          <p>{user.email}</p>
+        </UserInfo>
       </StyledWidget>
     );
   };
@@ -84,14 +113,12 @@ const AddTeammates = () => {
 
     const Container = styled.div`
       input {
-        font-family: ${type.ROBOTO};
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 500;
         color: ${Solid.BLACK};
         border: 1px solid ${Solid.BORDER_GREY};
         border-radius: 6px;
         padding: 10px;
-        margin: 0 20px 10px 0;
         ${({ display }) =>
         display === "wide" ? `width: 100%;` : `width: 180px;`}
 
@@ -107,6 +134,13 @@ const AddTeammates = () => {
       }
     `;
 
+    const UsersList = styled.div`
+      ${props => props.theme.shadow.box};
+      width: 100%; height: 50vh;
+      overflow-y: scroll;
+      margin: 10px 0;
+    `;
+
     return (
       <Container display="wide">
         <input
@@ -118,12 +152,14 @@ const AddTeammates = () => {
           placeholder="Search by email"
           ref={inputRef}
         />
-        {matches.map(user => (
-          <UserWidget key={user.id} user={user} select={setSelectedUser} />
-        ))}
-        {
-          !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
-        }
+        <UsersList>
+          {matches.map(user => (
+            <UserWidget key={user.id} user={user} select={setSelectedUser} />
+          ))}
+          {
+            !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
+          }
+        </UsersList>
         <Button color="grey" onClick={() => redirect()}>
           Back to dashboard
         </Button>
@@ -279,19 +315,22 @@ const InviteWidget = () => {
 
   return (
     <WideBody>
-      <BodyContainerColumn>
-        <RowHead>
-          <H3>Add Teammates</H3>
-        </RowHead>
-        <Column>
-          <CardWide>
-            {!selectedUser ? <SearchWidget /> : <RoleWidget />}
-            {noneUser ? <InviteWidget /> : null}
-          </CardWide>
-        </Column>
-      </BodyContainerColumn>
+      <Column>
+        <StyledCardWide>
+          <RowHead>
+            <H3>Add Teammates</H3>
+          </RowHead>
+          {!selectedUser ? <SearchWidget /> : <RoleWidget />}
+          {noneUser ? <InviteWidget /> : null}
+        </StyledCardWide>
+      </Column>
     </WideBody>
   );
 };
 
 export default AddTeammates;
+
+const StyledCardWide = styled(CardWide)`
+  ${props => props.theme.shadow.box};
+  width: 500px; 
+`;
