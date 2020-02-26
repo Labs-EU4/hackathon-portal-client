@@ -166,7 +166,7 @@ export const useRegisteredEvents = (perPage = 9, currentPage = 1) => {
   return [data, loading, error];
 };
 
-export const useEvent = (id, isAddJudgeOpen) => {
+export const useEvent = (id) => {
   const token = useSelector(selectToken);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -185,7 +185,7 @@ export const useEvent = (id, isAddJudgeOpen) => {
       }
     };
     req();
-  }, [token, id, isAddJudgeOpen]);
+  }, [token, id]);
 
   return [data, loading, error];
 };

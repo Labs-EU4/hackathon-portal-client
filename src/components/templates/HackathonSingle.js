@@ -146,7 +146,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
   const [teams] = useTeams(id);
   const createdTeam = teams.find(t => t.team_lead === userId);
 
-  const [data, loading] = useEvent(id);
+  const [data, loading] = useEvent(id, isAddJudgeOpen);
 
   // Filter out event by URL param & grab user ID
   const [
