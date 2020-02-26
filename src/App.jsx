@@ -13,7 +13,6 @@ import { Footer } from './components/organisms/index';
 import SideBar from './components/molecules/SideBar';
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
-import HomePage from './components/views/HomePage';
 import Dashboard from "./components/views/Dashboard";
 import HackathonFormPage from "./components/views/HackathonFormPage";
 import HackathonSinglePage from "./components/views/HackathonSinglePage";
@@ -34,7 +33,7 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
-  const { token } = useSelector(state => state.currentUser);
+  const { token, userId } = useSelector(state => state.currentUser);
   const [ isProfileOpen, setIsProfileOpen ] = useState(false);
   const [ isEventModalOpen, setIsEventModalOpen ] = useState(false);
   const [ eventId, setEventId ] = useState(null);
@@ -58,7 +57,7 @@ function App() {
         <PrivateRoute
           exact
           path="/dashboard/new"
-          component={HackathonFormPage}
+          render={() => <HackathonFormPage />}
         />
         <PrivateRoute
           exact
@@ -115,7 +114,7 @@ function App() {
                 <Route 
                   exact 
                   path="/" 
-                  render={() => <HomePage {...{eventModalHandler}} />} 
+                  render={() => <Dashboard {...{eventModalHandler}} />} 
                 />
                 <Route exact path="/not-found" component={PageNotFound} />
                 <Route path="/register" component={SignupPage} />
