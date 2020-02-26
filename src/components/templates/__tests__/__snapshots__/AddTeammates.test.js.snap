@@ -25,7 +25,7 @@ Object {
               class="sc-kgAjT jIKiCc"
             >
               <div
-                class="sc-jWBwVP kkQuqK"
+                class="sc-jWBwVP jdnOGp"
               >
                 <span>
                   <svg>
@@ -36,7 +36,7 @@ Object {
                 <ul>
                   <li>
                     <a
-                      class="sc-brqgnP dtBYsd"
+                      class="sc-brqgnP gKNmlg"
                       href="/dashboard"
                     >
                       Dashboard
@@ -44,7 +44,7 @@ Object {
                   </li>
                   <li>
                     <a
-                      class="sc-brqgnP dtBYsd"
+                      class="sc-brqgnP gKNmlg"
                       href="/dashboard/profile"
                     >
                       Profile
@@ -80,10 +80,10 @@ Object {
           class="sc-hSdWYo hwSTiP"
         >
           <div
-            class="sc-cvbbAY jDStBc"
+            class="sc-cvbbAY hChxuq"
           >
             <a
-              class="sc-brqgnP dtBYsd"
+              class="sc-brqgnP gKNmlg"
               href="/dashboard"
             >
               <svg>
@@ -92,7 +92,7 @@ Object {
               Dashboard
             </a>
             <a
-              class="sc-brqgnP dtBYsd"
+              class="sc-brqgnP gKNmlg"
               href="/dashboard/profile"
             >
               <svg>
@@ -102,13 +102,13 @@ Object {
             </a>
           </div>
           <div
-            class="sc-bwzfXH sc-csuQGl hgxtaW"
+            class="sc-bwzfXH cwdcdI sc-csuQGl bhGfDy"
           >
             <div
               class="sc-jDwBTQ hADVSm"
             >
               <h3
-                class="sc-cSHVUG wFxgi"
+                class="sc-kAzzGY eOJFvg"
               >
                 Add Teammates
               </h3>
@@ -129,7 +129,7 @@ Object {
                     value=""
                   />
                   <button
-                    class="sc-kgoBCf gEXJsx"
+                    class="sc-kGXeez bnYeop"
                     color="grey"
                   >
                     Back to dashboard
@@ -215,7 +215,7 @@ Object {
             class="sc-kgAjT jIKiCc"
           >
             <div
-              class="sc-jWBwVP kkQuqK"
+              class="sc-jWBwVP jdnOGp"
             >
               <span>
                 <svg>
@@ -226,7 +226,7 @@ Object {
               <ul>
                 <li>
                   <a
-                    class="sc-brqgnP dtBYsd"
+                    class="sc-brqgnP gKNmlg"
                     href="/dashboard"
                   >
                     Dashboard
@@ -234,7 +234,7 @@ Object {
                 </li>
                 <li>
                   <a
-                    class="sc-brqgnP dtBYsd"
+                    class="sc-brqgnP gKNmlg"
                     href="/dashboard/profile"
                   >
                     Profile
@@ -270,10 +270,10 @@ Object {
         class="sc-hSdWYo hwSTiP"
       >
         <div
-          class="sc-cvbbAY jDStBc"
+          class="sc-cvbbAY hChxuq"
         >
           <a
-            class="sc-brqgnP dtBYsd"
+            class="sc-brqgnP gKNmlg"
             href="/dashboard"
           >
             <svg>
@@ -282,7 +282,7 @@ Object {
             Dashboard
           </a>
           <a
-            class="sc-brqgnP dtBYsd"
+            class="sc-brqgnP gKNmlg"
             href="/dashboard/profile"
           >
             <svg>
@@ -292,13 +292,13 @@ Object {
           </a>
         </div>
         <div
-          class="sc-bwzfXH sc-csuQGl hgxtaW"
+          class="sc-bwzfXH cwdcdI sc-csuQGl bhGfDy"
         >
           <div
             class="sc-jDwBTQ hADVSm"
           >
             <h3
-              class="sc-cSHVUG wFxgi"
+              class="sc-kAzzGY eOJFvg"
             >
               Add Teammates
             </h3>
@@ -319,7 +319,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-kgoBCf gEXJsx"
+                  class="sc-kGXeez bnYeop"
                   color="grey"
                 >
                   Back to dashboard
