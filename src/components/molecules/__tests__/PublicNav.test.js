@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { render, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
-import ProfileImage from "../../molecules/ProfileImage";
+import PublicNav from "../../molecules/PublicNav";
 import { initialState } from "../../../utils/mockData";
 
 const history = createMemoryHistory();
@@ -18,17 +18,18 @@ let store;
 
 beforeEach(() => {
   mockStore = configureStore();
+  // let wrapper;
   store = mockStore(initialState);
   jestFeatures = render(
     <Router history={history}>
       <Provider store={store}>
-        <ProfileImage />
+        <PublicNav />
       </Provider>
     </Router>
   );
 });
 
-describe("Component ProfileImage.js renders properly", () => {
+describe("Component PublicNav.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
