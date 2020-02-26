@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows all the text nodes on AddTeammates.js that are contained on the making an event form asserts that the component renders properly 1`] = `undefined`;
