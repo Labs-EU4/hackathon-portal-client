@@ -25,7 +25,7 @@ const StyledButton = styled.button`
   outline: none;
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
-  padding: 12px 22px;
+  padding: 8px 22px;
   font-size: ${props => props.theme.fontSize.small};
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
@@ -35,6 +35,7 @@ const StyledButton = styled.button`
 
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
+    border: 3px solid ${props => props.theme.color.primary.regular};
   }
 
   @media ${media.tablet} {
@@ -68,6 +69,12 @@ const StyledButton = styled.button`
         @media ${media.tablet} {
           width: 100%;
           order: 1;
+        }
+
+        &:hover {
+          background: ${colors.white};
+          border: 3px solid ${colors.grey};
+          color: ${colors.grey};
         }
       `;
   }};

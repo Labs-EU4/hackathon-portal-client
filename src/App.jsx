@@ -127,7 +127,7 @@ function App() {
                 <Redirect to="/not-found" />
               </Switch>
               {
-                token && (
+                token && !isEventModalOpen && (
                   <UserProfileFormPage 
                     {...{isProfileOpen}}
                     {...{setIsProfileOpen}}
