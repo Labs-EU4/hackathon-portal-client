@@ -76,17 +76,17 @@ beforeEach(() => {
   );
 });
 
-describe("Shows all the text nodes on AddTeammates.js that are contained on the making an event form", () => {
+describe("Shows all the text nodes on HackathonSingle.js that are contained on the making an event form", () => {
   //   it("should be displaying the <H3>", () => {
   //     let mainHeader = () => jestFeatures.getByText("Add Teammates");
   //     expect(mainHeader()).toBeInTheDocument();
   //   });
-  it("asserts the text node under the search bar is rendering", () => {
+  it("asserts the text copyright text node is rendering", () => {
     expect(
       jestFeatures.getByText("International Crafters © 2020")
     ).toBeInTheDocument();
   });
-  it("asserts the text node under the search bar is rendering", () => {
+  it("asserts the text alt for img is rendering", () => {
     expect(jestFeatures.getByAltText("LinkedIn")).toBeInTheDocument();
   });
   it("asserts that the component renders properly", () => {
