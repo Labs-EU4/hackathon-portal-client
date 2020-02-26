@@ -52,7 +52,6 @@ export const SearchWidget = props => {
     </Container>
   );
 };
-
 export const RoleWidget = props => {
   const selectedUser = props.selectedUser;
   const handleSubmit = props.handleSubmit;

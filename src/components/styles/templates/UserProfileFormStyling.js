@@ -6,10 +6,14 @@ import { RowBody } from "../../atoms/RowBody";
 import Button from "../../atoms/Button";
 import { media } from '../../variables/media';
 
-export const BodyContainerColumn = styled(BodyContainer)`
-flex-direction: column;
-`;
+import React from "react";
 
+export const BodyContainerColumn = styled(props => (
+  <BodyContainer {...props} />
+))`
+  flex-direction: column;
+  justify-content: start;
+`;
 export const NewLabel = styled(Label)`
 padding-left: 3px;
 @media ${media.tablet} {

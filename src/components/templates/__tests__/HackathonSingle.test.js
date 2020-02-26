@@ -1,20 +1,44 @@
-import React from 'react'
-import { Router, Route } from 'react-router';
-import { createMemoryHistory } from 'history';
-import { render } from '@testing-library/react'
-import HackathonSingle from '../HackathonSingle';
-const history = createMemoryHistory()
+import React from "react";
+import { Router } from "react-router";
+import { createMemoryHistory } from "history";
+import { Provider } from "react-redux";
+import { render, cleanup } from "@testing-library/react";
+import configureStore from "redux-mock-store";
+import "@testing-library/jest-dom/extend-expect";
+import HackathonSingle from "../HackathonSingle";
+import { initialState } from "../../../utils/mockData";
 
-const renderWithRouter = Component => render(
-  <Router history={history}>
-    <Route component={Component} />
-  </Router>
-)
+const history = createMemoryHistory();
 
-describe("It should render <HackathonSingle/> template correctly", () => {
-  
-    it("renders the User onboarding templatet correctly", () => {
-      const template = () => renderWithRouter(HackathonSingle)
-      expect(template).toMatchSnapshot();
-    });
+afterEach(cleanup);
+
+let jestFeatures;
+let mockStore;
+let store;
+
+beforeEach(() => {
+  mockStore = configureStore();
+  // let wrapper;
+  store = mockStore(initialState);
+  jestFeatures = render(
+    <Router history={history}>
+      <Provider store={store}>
+        <HackathonSingle />
+      </Provider>
+    </Router>
+  );
+});
+
+describe("Shows all the text nodes on HackathonSingle.js that are contained on the making an event form", () => {
+  it("asserts the text copyright text node is rendering", () => {
+    expect(
+      jestFeatures.getByText("International Crafters © 2020")
+    ).toBeInTheDocument();
   });
+  it("asserts the text alt for img is rendering", () => {
+    expect(jestFeatures.getByAltText("LinkedIn")).toBeInTheDocument();
+  });
+  it("asserts that the component renders properly", () => {
+    expect(jestFeatures).toMatchSnapshot();
+  });
+});

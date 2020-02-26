@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 import Label from "../atoms/Label";
 import BodyContainer from "../atoms/BodyContainer";
@@ -9,8 +9,9 @@ import {
   h3FontSize,
   h4FontSize,
   Solid,
-  type,
-} from '../index';
+  type
+} from "../index";
+import React from "react";
 
 // eslint-disable-next-line import/prefer-default-export
 export const GlobalStyles = createGlobalStyle`
@@ -99,12 +100,12 @@ h3 {
 `;
 
 export const InputFull = styled(Label)`
-width: 100%;
+  width: 100%;
 `;
 
-export const BodyContainerColumn = styled(BodyContainer)`
-    flex-direction: column;
-    justify-content: start;
-  `;
-
-
+export const BodyContainerColumn = styled(props => (
+  <BodyContainer {...props} />
+))`
+  flex-direction: column;
+  justify-content: start;
+`;
