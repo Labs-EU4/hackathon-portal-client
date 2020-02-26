@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route } from "react-router";
+import { Router } from "react-router";
 import { createMemoryHistory } from "history";
 import { Provider } from "react-redux";
 import { render, fireEvent, cleanup } from "@testing-library/react";
