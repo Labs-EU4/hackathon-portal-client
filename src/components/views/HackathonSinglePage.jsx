@@ -2,9 +2,10 @@ import React from "react";
 
 import HackathonSingle from "../templates/HackathonSingle";
 
-const HackathonSinglePage = ({ isEventModalOpen, setIsEventModalOpen, eventId }) => (
+const HackathonSinglePage = ({ eventId, setEventId, isEventModalOpen, setIsEventModalOpen }) => (
     <HackathonSingle 
         {...{eventId}}
+        {...{setEventId}}
         {...{isEventModalOpen}}
         {...{setIsEventModalOpen}}
     />

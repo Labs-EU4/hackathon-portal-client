@@ -69,11 +69,23 @@ function App() {
           path="/dashboard/event/:id/edit"
           component={EditHackathon}
         />
+        {/* <PrivateRoute
+          exact
+          path="/dashboard/event/:id/judges"
+          component={AddTeammates}
+        /> */}
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id/organizers"
+          component={AddTeammates}
+        />
+        {/* 
+        CHANGED TO SEPARATE ROUTES FOR JUDGES & ORGANIZERS
         <PrivateRoute
           exact
           path="/dashboard/event/:id/team"
           component={AddTeammates}
-        />
+        /> */}
         <PrivateRoute
           exact
           path="/dashboard/profile"
@@ -137,6 +149,7 @@ function App() {
                 token && (
                   <HackathonSinglePage
                     {...{eventId}}
+                    {...{setEventId}}
                     {...{isEventModalOpen}}
                     {...{setIsEventModalOpen}}
                   />

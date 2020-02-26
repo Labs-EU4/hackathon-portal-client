@@ -4,10 +4,6 @@ import styled from "styled-components";
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 
-// import { Footer } from "../organisms/index";
-// import UserHeader from "../organisms/UserHeader";
-import WideBody from "../atoms/WideBody";
-import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
@@ -18,25 +14,26 @@ import { type, Solid, media } from "../index";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { useSearchUserByEmail } from '../../hooks';
 
-const AddTeammates = () => {
-  const [selectedUserArr, setSelectedUserArr] = useState([]);
+const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }) => {
+  // const [selectedUserArr, setSelectedUserArr] = useState([]);
+  const selectedUserArr = useRef([]);
   const [role, setRole] = useState("judge");
   const dispatch = useDispatch();
   const history = useHistory();
-  const { id } = useParams();
+  // const { id } = useParams();
   const [matches, searchString, setSearchString] = useSearchUserByEmail();
   const [noneUser, setNoneUser] = useState(null);
   const validateEmail = (email) => {
     return isEmail(email);
   }
 
-
-  const selectedUsersHadler = (addedUser) => {
-    setSelectedUserArr([...selectedUserArr, addedUser]);
+  const selectedUsersHadler = async(addedUser) => {
+    const newArray = [...selectedUserArr.current, addedUser];
+    selectedUserArr.current = newArray;
   }
 
   const handleSubmit = () => {
-    selectedUserArr.map(selectedUser => {
+    selectedUserArr.current.map(selectedUser => {
       const { email } = selectedUser;
       const data = {
         eventId: Number(id),
@@ -45,6 +42,14 @@ const AddTeammates = () => {
       };
       return dispatch(addTeamMember(data, history));
     });
+    setIsEventModalOpen(false);
+    setIsAddJudgeOpen(false);
+    setEventId(null);
+  };
+
+  const handleExit = () => {
+    setIsEventModalOpen(true);
+    setIsAddJudgeOpen(false);
   };
 
   const sendInvite = () => {
@@ -56,65 +61,16 @@ const AddTeammates = () => {
     dispatch(sendEventTeamInvite(data, history))
   }
 
-  const redirect = (location = "/dashboard") => {
-    history.push(location);
-  };
+  // const redirect = (location = "/dashboard") => {
+  //   history.push(location);
+  // };
 
   const StyledContainer = styled.div`
     display: block;
     position: relative;
   `;
 
-  const UserWidget = ({ user, select, ...otherProps }) => {
-    let memberProfile = JSON.parse(user.image_url);
-
-    const StyledWidget = styled.div`
-      position: sticky; top: 0; left: 0;
-      display: flex;
-      width: calc(100% - 10px);
-      background-color: white;
-      border: 2px solid ${props => props.theme.color.black.regular};
-      border-radius: 3px;
-      padding: 5px 10px;
-      margin-bottom: 2px;
-      cursor: pointer;
-
-      &:hover {
-        border: 2px solid ${props => props.theme.color.primary.regular};
-      }
-    `;
-
-    const UserAvatar = styled.figure`
-      width: 50px; height: 50px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 10px;
-
-      & > img {
-        width: 100%;
-      }
-    `;
-
-    const UserInfo = styled.div`
-
-    `;
-
-    return (
-      <StyledWidget key={user.id} onClick={() => select(user)} {...otherProps}>
-        <UserAvatar>
-          {
-            user.image_url !== null ? (
-              <img src={memberProfile.avatar} alt={user.username}/>
-            ) : null
-          }
-        </UserAvatar>
-        <UserInfo>
-          <p>{user.username}</p>
-          <p>{user.email}</p>
-        </UserInfo>
-      </StyledWidget>
-    );
-  };
+  
 
   const SearchWidget = () => {
     const inputRef = useRef(null);
@@ -166,18 +122,24 @@ const AddTeammates = () => {
         <UsersList>
           {matches.map(user => (
             // <UserWidget key={user.id} user={user} select={setSelectedUser} />
-            <UserWidget key={user.id} user={user} select={selectedUsersHadler} />
+            <UserWidget key={user.id} user={user} selected={selectedUsersHadler} />
           ))}
           {
             !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
           }
         </UsersList>
-        <Button color="grey" onClick={() => redirect()}>
-          Back to dashboard
-        </Button>
-        <Button color="green" onClick={handleSubmit}>
-            Add teammate
-          </Button>
+        <RowBody>
+          <Button 
+            color="grey" 
+            size="half" 
+            onClick={handleExit}
+          >Back</Button>
+          <Button 
+            color="green" 
+            size="half" 
+            onClick={handleSubmit}
+          >Add Judge</Button>
+        </RowBody>
       </Container>
     );
   };
@@ -258,78 +220,78 @@ const AddTeammates = () => {
     );
   };
 
-  const RoleWidget = () => {
+  // const RoleWidget = () => {
+  //   return (
+  //     <StyledContainer>
+  //       <RowBody direction="column-reverse">
+  //         <Radio
+  //           label="organizer"
+  //           name="role"
+  //           onChange={() => setRole("organizer")}
+  //           checked={role === "organizer"}
+  //         />
+  //         <Radio
+  //           name="role"
+  //           label="judge"
+  //           onChange={() => setRole("judge")}
+  //           checked={role === "judge"}
+  //         />
+  //       </RowBody>
+  //       <RowBody>
+  //         <Button color="grey" onClick={() => redirect()}>
+  //           Back to dashboard
+  //         </Button>
+  //         <Button color="green" onClick={handleSubmit}>
+  //           Add teammate
+  //         </Button>
+  //       </RowBody>
+  //     </StyledContainer>
+  //   );
+  // };
+
+  /**
+   * Renders message and button to send invite email
+   * To be refactored to a resuable component
+   * @returns
+   */
+  const InviteWidget = () => {
     return (
       <StyledContainer>
         <RowBody direction="column-reverse">
-          <Radio
-            label="organizer"
-            name="role"
-            onChange={() => setRole("organizer")}
-            checked={role === "organizer"}
-          />
-          <Radio
-            name="role"
-            label="judge"
-            onChange={() => setRole("judge")}
-            checked={role === "judge"}
-          />
+          <h6>
+            This user is not on this platform. Please select a role for
+            click send to invite {" "}
+            <span style={{ color: "#273F92", backgroundColor: "aliceblue" }}>
+              {noneUser}
+            </span>{" "}
+            to join your team
+          </h6>
         </RowBody>
+        <RowBody direction="column-reverse">
+            <Radio
+              label="organizer"
+              name="role"
+              onChange={() => setRole("organizer")}
+              checked={role === "organizer"}
+            />
+            <Radio
+              name="role"
+              label="judge"
+              onChange={() => setRole("judge")}
+              checked={role === "judge"}
+            />
+          </RowBody>
         <RowBody>
-          <Button color="grey" onClick={() => redirect()}>
-            Back to dashboard
-          </Button>
-          <Button color="green" onClick={handleSubmit}>
-            Add teammate
+          <Button color="green" onClick={sendInvite}>
+            Send Invite
           </Button>
         </RowBody>
       </StyledContainer>
     );
   };
 
-  /**
- * Renders message and button to send invite email
- * To be refactored to a resuable component
- * @returns
- */
-const InviteWidget = () => {
   return (
-    <StyledContainer>
-      <RowBody direction="column-reverse">
-        <h6>
-          This user is not on this platform. Please select a role for
-          click send to invite {" "}
-          <span style={{ color: "#273F92", backgroundColor: "aliceblue" }}>
-            {noneUser}
-          </span>{" "}
-          to join your team
-        </h6>
-      </RowBody>
-      <RowBody direction="column-reverse">
-          <Radio
-            label="organizer"
-            name="role"
-            onChange={() => setRole("organizer")}
-            checked={role === "organizer"}
-          />
-          <Radio
-            name="role"
-            label="judge"
-            onChange={() => setRole("judge")}
-            checked={role === "judge"}
-          />
-        </RowBody>
-      <RowBody>
-        <Button color="green" onClick={sendInvite}>
-          Send Invite
-        </Button>
-      </RowBody>
-    </StyledContainer>
-  );
-};
-
-  return (
-    <WideBody>
+    <StyledWideBody>
       <Column>
         <StyledCardWide>
           <RowHead>
@@ -340,13 +302,79 @@ const InviteWidget = () => {
           {noneUser ? <InviteWidget /> : null}
         </StyledCardWide>
       </Column>
-    </WideBody>
+    </StyledWideBody>
   );
 };
 
 export default AddTeammates;
 
+const StyledWideBody = styled.div`
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  z-index: 100;
+`;
+
 const StyledCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
+  position: absolute; top: 50%; left: 50%;
   width: 500px; 
+  transform: translate(-50%, -50%);
+  z-index: 200;
 `;
+
+
+const UserWidget = ({ user, selected, ...otherProps }) => {
+  let memberProfile = JSON.parse(user.image_url);
+
+  const StyledWidget = styled.div`
+    position: sticky; top: 0; left: 0;
+    display: flex;
+    width: calc(100% - 10px);
+    background-color: white;
+    border: 2px solid ${props => props.theme.color.black.regular};
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+    &:hover {
+      border: 2px solid ${props => props.theme.color.primary.regular};
+    }
+  `;
+
+  const UserAvatar = styled.figure`
+    width: 50px; height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+    & > img {
+      width: 100%;
+    }
+  `;
+
+  const UserInfo = styled.div`
+
+  `;
+
+  return (
+    <StyledWidget 
+      key={user.id} 
+      onClick={() => selected(user)} 
+      {...otherProps}
+    >
+      <UserAvatar>
+        {
+          user.image_url !== null ? (
+            <img src={memberProfile.avatar} alt={user.username}/>
+          ) : null
+        }
+      </UserAvatar>
+      <UserInfo>
+        <p>{user.username}</p>
+        <p>{user.email}</p>
+      </UserInfo>
+    </StyledWidget>
+  );
+};

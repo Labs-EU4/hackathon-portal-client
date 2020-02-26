@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
+import AddTeammates from '../templates/AddTeammates';
 import { media } from "../index";
-// import UserHeader from "../organisms/UserHeader";
-// import { Footer } from "../organisms/index";
 import { H2, H3 } from "../atoms/Heading";
 import { BoldSpan } from "../atoms/Span";
 import { RowBody } from "../atoms/RowBody";
@@ -135,9 +134,10 @@ const TagsGroup = styled.div`
   margin: 0 0 20px 0;
 `;
 
-const HackathonSingle = ({ isEventModalOpen, setIsEventModalOpen, eventId }) => {
+const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModalOpen }) => {
   // const { id } = useParams();
   const id = eventId;
+  const [ isAddJudgeOpen, setIsAddJudgeOpen ] = useState(false);
   const history = useHistory();
   const dispatch = useDispatch();
   const { userId } = useSelector(state => state.currentUser);
@@ -419,11 +419,12 @@ const HackathonSingle = ({ isEventModalOpen, setIsEventModalOpen, eventId }) => 
                     <ButtonsDashGroup>
                       {isEventCreator && !isEnded && (
                         <Button
-                          anchor
-                          to={`/dashboard/event/${id}/team`}
+                          // anchor
+                          // to={`/dashboard/event/${id}/judges`}
+                          onClick={() => setIsAddJudgeOpen(true)}
                           color="green"
                         >
-                          Add Teammates
+                          Add Judges
                         </Button>
                       )}
                       {!isTeamMember && isOpen ? (
@@ -486,6 +487,15 @@ const HackathonSingle = ({ isEventModalOpen, setIsEventModalOpen, eventId }) => 
             )}
       </ModalBody>
     );
+  }
+
+  if (isAddJudgeOpen) {
+    return <AddTeammates 
+      {...{id}}
+      {...{setEventId}}
+      {...{setIsEventModalOpen}} 
+      {...{setIsAddJudgeOpen}}
+    />
   }
 
   if (isEventModalOpen) {

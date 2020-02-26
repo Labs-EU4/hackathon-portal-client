@@ -63,8 +63,9 @@ const StyledButton = styled.button`
     `;
     if (color === "grey")
       return `
-        background: ${colors.grey};
-        color: ${Solid.WHITE};
+        background: ${colors.white};
+        border: 3px solid ${colors.grey};
+        color: ${colors.grey};
 
         @media ${media.tablet} {
           width: 100%;
@@ -72,9 +73,9 @@ const StyledButton = styled.button`
         }
 
         &:hover {
-          background: ${colors.white};
+          background: ${colors.grey};
           border: 3px solid ${colors.grey};
-          color: ${colors.grey};
+          color: ${Solid.WHITE};
         }
       `;
   }};
@@ -132,12 +133,19 @@ const StyledLink = styled(Link)`
       `;
     if (color === "grey")
       return `
-        background: ${colors.grey};
-        color: ${Solid.WHITE};
+        background: ${colors.white};
+        border: 3px solid ${colors.grey};
+        color: ${colors.grey};
 
         @media ${media.tablet} {
           width: 100%;
           order: 1;
+        }
+
+        &:hover {
+          background: ${colors.grey};
+          border: 3px solid ${colors.grey};
+          color: ${Solid.WHITE};
         }
       `;
   }};

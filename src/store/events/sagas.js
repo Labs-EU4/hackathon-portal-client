@@ -134,9 +134,9 @@ function* addTeamMemberAsync({ payload, history }) {
       }
     );
     if (data) {
-      yield showSuccess(`Added successfully`);
+      yield showSuccess(`Judge added successfully`);
     }
-    history.push(`/dashboard/event/${eventId}`);
+    // history.push(`/dashboard/event/${eventId}`);
   } catch (error) {
     yield handleError(error, put, history);
   }
