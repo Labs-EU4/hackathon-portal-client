@@ -30,10 +30,6 @@ beforeEach(() => {
 });
 
 describe("Shows all the text nodes on HackathonSingle.js that are contained on the making an event form", () => {
-  //   it("should be displaying the <H3>", () => {
-  //     let mainHeader = () => jestFeatures.getByText("Add Teammates");
-  //     expect(mainHeader()).toBeInTheDocument();
-  //   });
   it("asserts the text copyright text node is rendering", () => {
     expect(
       jestFeatures.getByText("International Crafters © 2020")

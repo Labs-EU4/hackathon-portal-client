@@ -19,7 +19,6 @@ let store;
 
 beforeEach(() => {
   mockStore = configureStore();
-  // let wrapper;
   store = mockStore(initialState);
   jestFeatures = render(
     <Router history={history}>
