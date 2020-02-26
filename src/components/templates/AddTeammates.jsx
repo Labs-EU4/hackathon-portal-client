@@ -19,8 +19,8 @@ import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { useSearchUserByEmail } from '../../hooks';
 
 const AddTeammates = () => {
-  const [selectedUser, setSelectedUser] = useState(null);
-  const [role, setRole] = useState("");
+  const [selectedUserArr, setSelectedUserArr] = useState([]);
+  const [role, setRole] = useState("judge");
   const dispatch = useDispatch();
   const history = useHistory();
   const { id } = useParams();
@@ -31,14 +31,20 @@ const AddTeammates = () => {
   }
 
 
+  const selectedUsersHadler = (addedUser) => {
+    setSelectedUserArr([...selectedUserArr, addedUser]);
+  }
+
   const handleSubmit = () => {
-    const { email } = selectedUser;
-    const data = {
-      eventId: Number(id),
-      email,
-      role
-    };
-    dispatch(addTeamMember(data, history));
+    selectedUserArr.map(selectedUser => {
+      const { email } = selectedUser;
+      const data = {
+        eventId: Number(id),
+        email,
+        role
+      };
+      return dispatch(addTeamMember(data, history));
+    });
   };
 
   const sendInvite = () => {
@@ -54,11 +60,6 @@ const AddTeammates = () => {
     history.push(location);
   };
 
-  const BodyContainerColumn = styled(BodyContainer)`
-    flex-direction: column;
-    justify-content: start;
-  `;
-
   const StyledContainer = styled.div`
     display: block;
     position: relative;
@@ -68,9 +69,19 @@ const AddTeammates = () => {
     let memberProfile = JSON.parse(user.image_url);
 
     const StyledWidget = styled.div`
+      position: sticky; top: 0; left: 0;
       display: flex;
-      margin-bottom: 15px;
+      width: calc(100% - 10px);
+      background-color: white;
+      border: 2px solid ${props => props.theme.color.black.regular};
+      border-radius: 3px;
+      padding: 5px 10px;
+      margin-bottom: 2px;
       cursor: pointer;
+
+      &:hover {
+        border: 2px solid ${props => props.theme.color.primary.regular};
+      }
     `;
 
     const UserAvatar = styled.figure`
@@ -136,7 +147,7 @@ const AddTeammates = () => {
 
     const UsersList = styled.div`
       ${props => props.theme.shadow.box};
-      width: 100%; height: 50vh;
+      width: 100%; height: 48.25vh;
       overflow-y: scroll;
       margin: 10px 0;
     `;
@@ -154,7 +165,8 @@ const AddTeammates = () => {
         />
         <UsersList>
           {matches.map(user => (
-            <UserWidget key={user.id} user={user} select={setSelectedUser} />
+            // <UserWidget key={user.id} user={user} select={setSelectedUser} />
+            <UserWidget key={user.id} user={user} select={selectedUsersHadler} />
           ))}
           {
             !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
@@ -163,6 +175,9 @@ const AddTeammates = () => {
         <Button color="grey" onClick={() => redirect()}>
           Back to dashboard
         </Button>
+        <Button color="green" onClick={handleSubmit}>
+            Add teammate
+          </Button>
       </Container>
     );
   };
@@ -320,7 +335,8 @@ const InviteWidget = () => {
           <RowHead>
             <H3>Add Teammates</H3>
           </RowHead>
-          {!selectedUser ? <SearchWidget /> : <RoleWidget />}
+          {/* {!selectedUser ? <SearchWidget /> : <RoleWidget />} */}
+          {<SearchWidget />}
           {noneUser ? <InviteWidget /> : null}
         </StyledCardWide>
       </Column>
