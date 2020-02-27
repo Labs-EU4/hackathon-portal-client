@@ -4,5 +4,5 @@ import Header from './Header';
 import FormLayout from './FormLayout';
 
 export {
-  FormLayout, Header, Footer, Form,
+  FormLayout, Header, Footer, Form
 };

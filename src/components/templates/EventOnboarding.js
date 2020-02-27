@@ -13,9 +13,13 @@ import { RowBody } from "../atoms/RowBody";
 import Button from "../atoms/Button";
 import { useSelector } from "react-redux";
 
-const BodyContainerColumn = styled(BodyContainer)`
+
+
+export const BodyContainerColumn = styled(props => (
+  <BodyContainer {...props} />
+))`
   flex-direction: column;
-  align-items: start;
+  justify-content: start;
 `;
 
 const EventOnboarding = () => {

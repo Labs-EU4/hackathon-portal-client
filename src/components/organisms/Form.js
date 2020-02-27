@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
-import styled from "styled-components";
-import { Link, useLocation, Redirect } from "react-router-dom";
+import { useLocation, Redirect } from "react-router-dom";
 import { toast } from "react-toastify";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
-
+import { StyledAnchor } from "../styles/organisms/FormStyling";
 import Container from "../atoms/Container";
 import { H1 } from "../atoms/Heading";
 import { Paragraph } from "../atoms/Paragraph";
@@ -15,23 +14,8 @@ import { ErrorSpan } from "../atoms/Span";
 import { useDispatch, useSelector } from "react-redux";
 import { register, login } from "../../store/user/actions";
 import SocialMedia from "../molecules/SocialMedia";
-import { type, smallFontSize } from "../index";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
 
-const StyledAnchor = styled(Link)`
-  display: block;
-  margin: 20px 0 0 0;
-  font-family: ${type.ROBOTO};
-  font-size: ${smallFontSize};
-  font-weight: 500;
-  color: #245ea4;
-  text-decoration: none;
-  text-transform: none;
-  text-align: center;
-  &:hover {
-    color: #1e77b4;
-  }
-`;
 
 const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   const dispatch = useDispatch();
@@ -73,7 +57,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   });
 
   if (token) {
-    return <Redirect to={state?.from || ref || '/dashboard'} />;
+    return <Redirect to={state ?.from || ref || '/dashboard'} />;
   }
 
   return (
@@ -112,11 +96,11 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <Button type="submit" size="wide" color="blue">
               {ctaText}
             </Button>
-              {ctaText.toLowerCase() === "log in" && (
-                <StyledAnchor to="/forgotpassword">
-                  Forgot password?
+            {ctaText.toLowerCase() === "log in" && (
+              <StyledAnchor to="/forgotpassword">
+                Forgot password?
                 </StyledAnchor>
-              )}
+            )}
           </Form>
         )}
       </Formik>

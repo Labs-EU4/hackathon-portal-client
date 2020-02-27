@@ -7,10 +7,14 @@ import { Paragraph } from "../../atoms/Paragraph";
 import { media } from "../../index";
 import Button from "../../atoms/Button";
 
-export const BodyContainerColumn = styled(BodyContainer)`
-    flex-direction: column;
-    justify-content: start;
-  `;
+import React from "react";
+
+export const BodyContainerColumn = styled(props => (
+  <BodyContainer {...props} />
+))`
+  flex-direction: column;
+  justify-content: start;
+`;
 
 export const NormalSpan = styled(BoldSpan)`
     font-weight: normal;

@@ -1,11 +1,14 @@
 import React, { useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import {
-  createTeamName
-} from "../../store/participantTeams/actions";
+import { createTeamName } from "../../store/participantTeams/actions";
 import { Formik } from "formik";
-import { BodyRow, BodyColumn, Form, Title } from "../styles/templates/CreateTeamStyling";
+import {
+  BodyRow,
+  BodyColumn,
+  Form,
+  Title
+} from "../styles/templates/CreateTeamStyling";
 import { Footer } from "../organisms/index";
 import UserHeader from "../organisms/UserHeader";
 import { RowHead } from "../atoms/RowHead";
@@ -23,7 +26,7 @@ const CreateTeam = () => {
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
   const team = teams.find(t => t.team_lead === userId);
-
+debugger
   useEffect(() => {
     fetchTeams();
   }, [fetchTeams]);
@@ -35,11 +38,11 @@ const CreateTeam = () => {
     };
     dispatch(createTeamName(teamData, history));
   };
-
+debugger
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
-
+debugger
   return (
     <div>
       <UserHeader />
@@ -58,10 +61,7 @@ const CreateTeam = () => {
                 {props => (
                   <Form onSubmit={props.handleSubmit}>
                     <h4>
-                      You are creating a team for{" "}
-                      <Title>
-                        {event_title}
-                      </Title>
+                      You are creating a team for <Title>{event_title}</Title>
                     </h4>
                     <label>Team Name</label>
                     <input
@@ -73,13 +73,13 @@ const CreateTeam = () => {
                     />
                     <Button type="submit" color="green">
                       Submit
-                  </Button>
+                    </Button>
                   </Form>
                 )}
               </Formik>
             ) : (
-                <TeamView {...{ team }} />
-              )}
+              <TeamView {...{ team }} />
+            )}
           </BodyColumn>
         </BodyRow>
       </WideBody>
