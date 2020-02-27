@@ -158,11 +158,11 @@ Object {
                       <input
                         class="sc-kEYyzF hEbAib"
                         id="start_date"
-                        min="2020-02-26"
+                        min="2020-02-27"
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
-                        value="2020-02-26"
+                        value="2020-02-27"
                       />
                       <span
                         class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -184,7 +184,7 @@ Object {
                         name="end_date"
                         placeholder="Event ends"
                         type="date"
-                        value="2020-02-26"
+                        value="2020-02-27"
                       />
                       <span
                         class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -782,11 +782,11 @@ Object {
                     <input
                       class="sc-kEYyzF hEbAib"
                       id="start_date"
-                      min="2020-02-26"
+                      min="2020-02-27"
                       name="start_date"
                       placeholder="Event starts"
                       type="date"
-                      value="2020-02-26"
+                      value="2020-02-27"
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -808,7 +808,7 @@ Object {
                       name="end_date"
                       placeholder="Event ends"
                       type="date"
-                      value="2020-02-26"
+                      value="2020-02-27"
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
