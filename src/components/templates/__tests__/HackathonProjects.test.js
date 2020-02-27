@@ -6,6 +6,8 @@ import { render, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
+import { useParams } from "react-router-dom";
+
 import HackathonProjects from "../HackathonProjects";
 
 const history = createMemoryHistory();
@@ -21,15 +23,10 @@ beforeEach(() => {
   store = mockStore(initialState);
 
   jestFeatures = render(
+    history.push("/dashboard/event/2/projects"),
+
     <Router history={history}>
-      <Route
-        match={{
-          path: `/dashboard/event/:id/projects`,
-          url: "/dashboard/event/1/projects",
-          isExact: true,
-          params: { id: 1 }
-        }}
-      >
+      <Route>
         <Provider store={store}>
           <HackathonProjects />
         </Provider>
@@ -40,8 +37,8 @@ beforeEach(() => {
 
 describe("Component HackathonProjects.js renders properly", () => {
   it("asserts that the component renders properly", () => {
-    console.log("THE COMPONENT IS NOT BEING LOGGED", jestFeatures);
-
+    // console.log("THE COMPONENT BEING LOGGED", jestFeatures);
+    console.log(history);
     expect(jestFeatures.debug()).toMatchSnapshot();
   });
   //   it("the Image within the component is rendering properly", () => {
