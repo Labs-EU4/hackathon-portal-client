@@ -31,7 +31,8 @@ export const brightYellow = '#FEF33E';
 export const lightGrey = '#696969';
 export const grey = '#39444D';
 export const darkGrey = '#444';
-export const bgGrey = '#dfe3e6';
+// export const bgGrey = '#dfe3e6';
+export const bgGrey = '#DFE6ED';
 export const borderGrey = '#c3cfd9';
 // export const borderGrey = '#39444D';
 

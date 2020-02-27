@@ -12,6 +12,7 @@ import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import user_icon from "../../assets/images/user_icon.svg";
+import eventImg from "../../assets/images/event-img.jpg";
 // import { useEventTeam } from "../../hooks";
 
 import {
@@ -57,9 +58,9 @@ export const PHosted = styled(Paragraph)`
 `;
 
 const TitleContainer = styled.div`
-  margin: 0 0 20px 0;
   display: flex;
   align-items: baseline;
+  justify-content: center;
 `;
 
 const Details = styled.div`
@@ -213,6 +214,10 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         <IconLetter>{initial}</IconLetter>
                         <H2>{event_title}</H2>
                       </TitleContainer>
+                      <EventImageContainer>
+                        {/* Here it will go image of the event */}
+                        <EventImg src={eventImg} alt="event-image" /> 
+                      </EventImageContainer>
     
                       <Paragraph>
                         <BoldSpan>Description:</BoldSpan>
@@ -474,8 +479,8 @@ const ModalBody = styled.div`
 
 const StyledEventCard = styled(CardWide)`
   position: relative;
-  display: flex;
   min-width: calc(100% - 250px); height: calc(100vh - 110px);
+  background-color: ${props => props.theme.color.grey.bg};
   overflow-y: scroll;
 
   &::-webkit-scrollbar {
@@ -491,13 +496,21 @@ const EventCardLeftColumn = styled.div`
   }
 `;
 
+const EventImageContainer = styled.figure`
+  width: 100%; height: 350px;
+  margin-bottom: 10px;
+  object-fit: cover;
+`;
+
+const EventImg = styled.img`
+  width: 100%; height: 100%;
+`;
+
 export const TagsCardWide = styled(CardWide)`
-  width: 350px;
-  justify-content: flex-start;
+  position: fixed; left: calc(100% - 625px); top: 70px;
+  width: 350px; max-height: calc(100vh - 130px);
   border: 3px solid ${props => props.theme.color.primary.regular};
-  position: fixed;
-  left: calc(100% - 625px);
-  top: 70px;
+  overflow-y: scroll;
 
   @media ${media.tablet} {
     width: 100%;

@@ -43,6 +43,7 @@ export const theme = {
             light: '#696969',
             regular: color.grey,
             dark: '#444',
+            bg: color.bgGrey,
             border: 'rgba(14,19,24,.15)'
         },
         green: {
