@@ -4,7 +4,7 @@ import { type } from '../index';
 const Label = styled.label`
   font-family: ${type.ROBOTO};
   font-weight: bold;
-  color: #696969;
+  color: ${props => props.theme.color.grey.light};
   margin: 0 0 10px;
 `;
 

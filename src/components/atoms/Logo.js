@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 import image from "./../../assets/images/Hackton-logo.png";
 
 const Logo = styled.img.attrs({

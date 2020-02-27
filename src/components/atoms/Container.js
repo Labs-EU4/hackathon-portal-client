@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { media, Solid } from '../index';
+import { media } from '../../assets/styles/variables/media';
 
 const Container = styled.div`
   max-width: 380px;
   padding: 60px 40px;
-  border: 1px solid ${Solid.BORDER_GREY};
+  border: 1px solid ${props => props.theme.color.grey.border};
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 

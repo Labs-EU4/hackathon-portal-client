@@ -117,10 +117,11 @@ export default CustomForm;
 const StyledAnchor = styled(Link)`
   display: block;
   margin: 20px 0 0 0;
-  font-size: ${smallFontSize}; font-weight: 500; color: #245ea4;
+  font-size: ${props => props.theme.fontSize.small}; font-weight: 500; 
+  color: ${props => props.theme.color.blue.regular};
   text-decoration: none; text-transform: none; text-align: center;
 
   &:hover {
-    color: #1e77b4;
+    color: ${props => props.theme.color.blue.light};
   }
 `;

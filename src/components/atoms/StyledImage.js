@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 const StyledImage = styled.figure`
     ${props => props.theme.flex.columnCenter};
-	/* width: 100%;
-	height: 12rem; */
 	
 	div {
 		display: flex;
@@ -21,7 +19,7 @@ const StyledImage = styled.figure`
 		width: 100%;
 		padding: 0.5rem;
 		font-size: 1.8rem;
-		color: #444;
+		color: ${props => props.theme.color.grey.dark};
 	}
 `;
 

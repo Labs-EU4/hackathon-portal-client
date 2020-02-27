@@ -495,7 +495,7 @@ const EventCardLeftColumn = styled.div`
 export const TagsCardWide = styled(CardWide)`
   width: 350px;
   justify-content: flex-start;
-  border: 3px solid red;
+  border: 3px solid ${props => props.theme.color.primary.regular};
   position: fixed;
   left: calc(100% - 625px);
   top: 70px;

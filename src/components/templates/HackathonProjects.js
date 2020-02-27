@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import { media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 // import UserHeader from "../organisms/UserHeader";
 // import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";

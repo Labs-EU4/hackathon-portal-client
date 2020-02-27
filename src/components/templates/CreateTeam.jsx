@@ -49,7 +49,7 @@ const CreateTeam = () => {
     background-color: white;
     width: 50%;
     height: 35vh;
-    border: 1px solid lightgray;
+    border: 1px solid ${props => props.theme.color.grey.border};
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@ const CreateTeam = () => {
       width: 50%;
       padding: 10px;
       margin: 10px;
-      border: 1px solid lightgray;
+      border: 1px solid ${props => props.theme.color.grey.border};
       border-radius: 6px;
     }
     button {

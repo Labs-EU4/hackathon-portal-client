@@ -1,26 +1,25 @@
 import styled from 'styled-components';
-import { type, smallFontSize, baseFontSize, Solid } from '../index';
 
 export const Anchor = styled.a`
-  font-size: ${smallFontSize};
+  ${props => props.theme.fontSize.small};
   font-weight: 500;
-  color: ${Solid.BLACK};
+  color: ${props => props.theme.color.black.regular};
   text-decoration: none;
-  border-bottom: 1px solid ${Solid.BLACK};
+  border-bottom: 1px solid ${props => props.theme.color.black.regular};
 
   &:hover {
-    color: #212121;
+    color: ${props => props.theme.color.black.light};
   }
 `;
 
 export const TopNavAnchor = styled(Anchor)`
-  font-size: ${baseFontSize};
+  ${props => props.theme.fontSize.base};
   border: 0;
   padding: 10px;
   margin: 0 10px 0 0;
 
   &:hover {
-    border-bottom: 1px solid ${Solid.BLACK};
+    border-bottom: 1px solid ${props => props.theme.color.black.regular};
     transition: all 3s;
   }
 `;
@@ -31,7 +30,7 @@ export const FooterNavAnchor = styled(Anchor)`
   border: 0;
 
   &:hover {
-    border-bottom: 1px solid ${Solid.DARK_GREY};
+    border-bottom: 1px solid ${props => props.theme.color.grey.regular};
     transition: all 3s;
   }
 `;

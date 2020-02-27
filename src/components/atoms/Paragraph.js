@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { type, Solid } from '../index';
 
 export const Paragraph = styled.p`
   color: ${props => props.theme.color.black.regular};

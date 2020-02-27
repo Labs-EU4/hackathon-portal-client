@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media, Solid } from '../index';
+import { media } from '../../assets/styles/variables/media';
 
 const WideHeader = styled.div`
   display: flex;

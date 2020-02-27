@@ -1,16 +1,15 @@
 import styled from "styled-components";
-import { type, Solid, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 
 export const Span = styled.span`
-  font-family: ${type.ROBOTO};
   font-size: 12px;
   font-weight: bold;
-  color: ${Solid.DARK_GREY};
+  color: ${props => props.theme.color.grey.dark};
 `;
 
 export const BoldSpan = styled(Span)`
   font-size: 15px;
-  color: ${Solid.BLACK};
+  color: ${props => props.theme.color.black.regular};
   margin: 0 5px 0 0;
 `;
 
@@ -19,7 +18,7 @@ export const StrikedSpan = styled(Span)`
     content: "";
     display: block;
     width: 100%;
-    border-bottom: 1px solid ${Solid.DARK_GREY};
+    border-bottom: 1px solid ${props => props.theme.color.grey.dark};
     position: relative;
     top: 9px;
     left: -120%;
@@ -34,7 +33,7 @@ export const StrikedSpan = styled(Span)`
     content: "";
     display: block;
     width: 100%;
-    border-bottom: 1px solid ${Solid.DARK_GREY};
+    border-bottom: 1px solid ${props => props.theme.color.grey.dark};
     position: relative;
     top: -9px;
     left: 120%;
@@ -47,7 +46,7 @@ export const StrikedSpan = styled(Span)`
 `;
 
 export const ErrorSpan = styled(Span)`
-  color: #DB2824;
+  color: ${props => props.theme.color.danger};
   margin: 0 0 10px 0;
   display: inline-block;
 `;

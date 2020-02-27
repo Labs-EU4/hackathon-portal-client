@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 
 export const RowBody = styled.div`
   width: 100%;

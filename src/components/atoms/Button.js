@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { type, smallFontSize, Gradient, Solid, media } from "../index";
-import * as colors from '../../assets/styles/variables/colors';
+import * as solid from '../../assets/styles/variables/colors';
 
 export default function Button({ children, anchor, color, ...props }) {
   if (anchor) {
@@ -51,21 +51,21 @@ const StyledButton = styled.button`
   ${({ color }) => {
     if (color === "blue") {
       return `
-        background: ${Gradient.BLUE};
+        background: ${solid.blue};
         border: 3px solid transparent;
-        color: ${Solid.WHITE};
+        color: ${solid.white};
     `;
     }
     if (color === "green")
       return `
-        background: ${colors.green};
-        color: ${Solid.WHITE};
+        background: ${solid.green};
+        color: ${solid.white};
     `;
     if (color === "grey")
       return `
-        background: ${colors.white};
-        border: 3px solid ${colors.grey};
-        color: ${colors.grey};
+        background: ${solid.white};
+        border: 3px solid ${solid.grey};
+        color: ${solid.grey};
 
         @media ${media.tablet} {
           width: 100%;
@@ -73,9 +73,9 @@ const StyledButton = styled.button`
         }
 
         &:hover {
-          background: ${colors.grey};
-          border: 3px solid ${colors.grey};
-          color: ${Solid.WHITE};
+          background: ${solid.grey};
+          border: 3px solid ${solid.grey};
+          color: ${solid.white};
         }
       `;
   }};
@@ -122,20 +122,20 @@ const StyledLink = styled(Link)`
   ${({ color }) => {
     if (color === "blue") {
       return `
-        background: ${Gradient.BLUE};
-        color: ${Solid.WHITE};
+        background: ${solid.blue};
+        color: ${solid.white};
     `;
     }
     if (color === "green")
       return `
-        background: #00c4cc;
-        color: ${Solid.WHITE};
+        background: ${solid.green};
+        color: ${solid.white};
       `;
     if (color === "grey")
       return `
-        background: ${colors.white};
-        border: 3px solid ${colors.grey};
-        color: ${colors.grey};
+        background: ${solid.white};
+        border: 3px solid ${solid.grey};
+        color: ${solid.grey};
 
         @media ${media.tablet} {
           width: 100%;
@@ -143,9 +143,9 @@ const StyledLink = styled(Link)`
         }
 
         &:hover {
-          background: ${colors.grey};
-          border: 3px solid ${colors.grey};
-          color: ${Solid.WHITE};
+          background: ${solid.grey};
+          border: 3px solid ${solid.grey};
+          color: ${solid.white};
         }
       `;
   }};

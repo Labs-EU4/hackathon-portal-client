@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 // import { Dropdown, Menu } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { type, smallFontSize, Gradient, Solid, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 import { resetUser } from '../../store/user/actions';
 
 
@@ -13,10 +13,9 @@ const StyledButton = styled.button`
   padding: 2px 5px;
   margin: 0;
   border-radius: 6px;
-  font-family: ${type.ROBOTO_MONO};
   font-size: 15px;
-  color: ${Solid.WHITE};
-  background: ${Gradient.BLUE};
+  color: ${props => props.theme.color.white.regular};
+  background: ${props => props.theme.color.blue.regular};
   white-space: nowrap;
 
   &:hover {

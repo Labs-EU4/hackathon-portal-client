@@ -4,7 +4,7 @@ import Rating from "react-rating";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
-import { media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 // import UserHeader from "../organisms/UserHeader";
 // import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";

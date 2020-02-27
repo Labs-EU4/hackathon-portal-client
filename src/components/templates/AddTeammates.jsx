@@ -10,7 +10,7 @@ import { RowBody } from "../atoms/RowBody";
 import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
 import Button from "../atoms/Button";
-import { type, Solid, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { useSearchUserByEmail } from '../../hooks';
 
@@ -82,8 +82,8 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
       input {
         font-size: 1.6rem;
         font-weight: 500;
-        color: ${Solid.BLACK};
-        border: 1px solid ${Solid.BORDER_GREY};
+        color: ${props => props.theme.color.black.regular};
+        border: 1px solid ${props => props.theme.color.grey.regular};
         border-radius: 6px;
         padding: 10px;
         ${({ display }) =>
@@ -168,7 +168,7 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
 
         /* When the radio button is checked, add a blue background */
         &:checked ~ span {
-          background-color: #2196f3;
+          background-color: ${props => props.theme.color.blue.bg};
         }
 
         /* Show the indicator (dot/circle) when checked */

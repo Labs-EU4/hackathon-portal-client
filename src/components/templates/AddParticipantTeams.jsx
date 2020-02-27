@@ -14,7 +14,7 @@ import { RowBody } from "../atoms/RowBody";
 import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
 import Button from "../atoms/Button";
-import { type, Solid, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 import { useSearchUserByEmail } from "../../hooks";
 import Nav from "../molecules/SideBar";
@@ -81,11 +81,10 @@ const AddParticipantTeam = () => {
 
     const Container = styled.div`
       input {
-        font-family: ${type.ROBOTO};
         font-size: 16px;
         font-weight: 500;
-        color: ${Solid.BLACK};
-        border: 1px solid ${Solid.BORDER_GREY};
+        color: ${props => props.theme.color.black.regular};
+        border: 1px solid ${props => props.theme.color.grey.border};
         border-radius: 6px;
         padding: 10px;
         margin: 0 20px 10px 0;

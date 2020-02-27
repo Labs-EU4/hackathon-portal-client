@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Field } from "formik";
-import { type, Solid } from "../index";
 
 const I = styled.div`
   display: flex;
@@ -13,11 +12,10 @@ const I = styled.div`
     width: 100%;
   `};
   textarea {
-    font-family: ${type.ROBOTO};
     font-size: 16px;
     font-weight: 500;
-    color: ${Solid.BLACK};
-    border: 1px solid ${Solid.BORDER_GREY};
+    color: ${props => props.theme.color.black.regular};
+    border: 1px solid ${props => props.theme.color.grey.border};
     border-radius: 6px;
     padding: 10px;
     margin: 0 0 10px 0;

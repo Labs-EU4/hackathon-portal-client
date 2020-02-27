@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import WideHeader from "../atoms/WideHeader";
 import HeaderContainer from "../atoms/HeaderContainer";
 import Logo from "../atoms/Logo";
-// import Nav from "../molecules/SideBar";
-import { ProfileImg } from "../atoms/ProfileImg";
-import { Dropdown } from "../atoms/DropDown";
 
 import PublicNav from "../molecules/PublicNav";
 

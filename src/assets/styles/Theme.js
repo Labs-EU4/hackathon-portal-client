@@ -27,15 +27,23 @@ export const theme = {
             bg: color.bgWhite
         },
         black: {
+            light: color.lightBlack,
             regular: color.black,
         },
         red: {
             regular: color.red,
             bright: color.brightRed
         },
+        blue: {
+            light: color.lightBlue,
+            regular: color.blue,
+            bg: '#2196f3'
+        },
         // grey: color.grey,
         grey: {
+            light: color.lightGrey,
             regular: color.grey,
+            dark: color.darkGrey,
             border: 'rgba(14,19,24,.15)'
         },
         green: {
@@ -52,13 +60,13 @@ export const theme = {
         }
     },
     fontSize: {
-        small: "1.4rem",
-        base: "1.6rem",
-        h1: "7.5rem",
-        h2: "5.5rem",
-        h3: "3.5rem",
-        h4: "2.5rem",
-        button: "1.8rem"
+        small: "font-size: 1.4rem;",
+        base: "font-size: 1.6rem;",
+        h1: "font-size: 7.5rem;",
+        h2: "font-size: 5.5rem;",
+        h3: "font-size: 3.5rem;",
+        h4: "font-size: 2.5rem;",
+        button: "font-size: 1.8rem;"
     },
     shadow: {
         text: `text-shadow: .15px .15px 1px ${color.black}, .75px .5px 1.5px ${color.black}, .15px .15px 1px ${color.black};`,

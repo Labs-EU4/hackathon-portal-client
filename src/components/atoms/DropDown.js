@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 import { Link } from "react-router-dom";
-import { Solid, type, Gradient } from "../index";
 
 export const UL = styled.ul`
   position: relative;
@@ -15,7 +14,7 @@ export const UL = styled.ul`
   display: flex;
   flex-direction: column;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
-  background-color: #ffffff;
+  background-color: ${props => props.theme.color.white.regular};
   border-radius: 6px;
   transition: 0.3s;
   li {
@@ -24,15 +23,14 @@ export const UL = styled.ul`
     a, span {
       font-weight: bold;
       font-size: 15px;
-      font-family: ${type.ROBOTO};
       padding: 15px 20px;
       text-decoration: none;
-      color: ${Solid.DARK_GREY};
+      color: ${props => props.theme.color.grey.regular};
       display: block;
       
       &:hover {
-        background: ${Gradient.BLUE};
-        color: ${Solid.WHITE};
+        background: ${props => props.theme.color.primary.regular};
+        color: ${props => props.theme.color.white.regular};
         transition: all 0.3s;
       }
     }

@@ -1,17 +1,15 @@
 import styled from "styled-components";
-import { type, Solid, Gradient, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 
 export const ProfileImg = styled.div`
   position: relative;
-  font-family: ${type.ROBOTO_MONO};
   font-weight: 500;
   font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: ${Solid.WHITE};
+  color: ${props => props.theme.color.white.regular};
   border-radius: 50px;
-  background-image: ${Gradient.ORANGE};
   width: 45px;
   height: 45px;
   ul {

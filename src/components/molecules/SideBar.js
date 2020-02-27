@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-import { Solid, media, type, Gradient } from "../index";
+import { media } from "../../assets/styles/variables/media";
 // import { ProfileImg } from "../atoms/ProfileImg";
 import Button from '../atoms/Button';
 import userImg from '../../assets/images/user_icon.svg';
@@ -127,7 +127,7 @@ const StyledMobileNav = styled.div`
 
   span {
     display: flex;
-    color: ${Solid.DARK_GREY};
+    color: ${props => props.theme.color.grey.dark};
     font-weight: 500;
     margin: 0 20px 0 0;
 
@@ -165,12 +165,12 @@ const StyledMobileNav = styled.div`
         font-size: 15px;
         padding: 15px 20px;
         text-decoration: none;
-        color: ${Solid.DARK_GREY};
+        color: ${props => props.theme.color.grey.dark};
         display: block;
 
         &:hover {
-          background: ${Gradient.BLUE};
-          color: ${Solid.WHITE};
+          background: ${props => props.theme.color.blue.regular};
+          color: ${props => props.theme.color.white.regular};
           transition: all 0.3s;
         }
       }
