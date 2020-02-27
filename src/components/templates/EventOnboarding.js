@@ -1,11 +1,13 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import styled from "styled-components";
 
 import EventCard from "../molecules/EventCard";
 import { H3, H4 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
-import { useSelector } from "react-redux";
+
+import { StyledRowHead, StyledButton } from '../templates/UserEventsDashboard';
 
 const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
@@ -20,7 +22,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
         </MapContainer>
       </HeaderContent>
       <StyledRowHead>
-        <H3>Global hackathons</H3>
+        <StyledButton gap>Global hackathons</StyledButton>
       </StyledRowHead>
       <StyledRowBody spacing="start">
         {globalEvents.map(event => (
@@ -51,14 +53,14 @@ const StyledRowBody = styled.div`
   }
 `;
 
-const StyledRowHead = styled(RowHead)`
-  margin: 0 0 0 20px;
-  padding: 0 20px;
+// const StyledRowHead = styled(RowHead)`
+//   margin: 0 0 0 20px;
+//   padding: 0 20px;
 
-  & > * {
-    font-weight: 600;
-  } 
-`;
+//   & > * {
+//     font-weight: 600;
+//   } 
+// `;
 
 const HeaderContent = styled.div`
   ${props => props.theme.flex.center};

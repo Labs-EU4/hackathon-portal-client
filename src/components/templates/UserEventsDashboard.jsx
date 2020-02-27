@@ -22,43 +22,46 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
     <BodyContainer>
       <StyledRowHead>
         <StyledButton
+          start
           onClick={() => setIsRegisteredEvents(false)}
         >My hackathons</StyledButton>
         <StyledButton
           onClick={() => setIsRegisteredEvents(true)}
         >Hackathon(s) you registered for</StyledButton>
       </StyledRowHead>
-      {
-        !isRegisteredEvents ? (
-          <RowBody spacing="start">
-            {userEvents.length !== 0 ? (
-              userEvents.map(event => (
-                <EventCard 
-                  key={event.event_title} 
-                  event={event} 
-                  {...{eventModalHandler}} 
-                />
-              ))
-            ) : (
-              <H4>You haven't created any events yet. Why wait?</H4>
-            )}
-          </RowBody>
-        ) : (
-          <RowBody spacing="start">
-            {registeredEvents.length !== 0 ? (
-                registeredEvents.map(event => (
+      <DashboardContent spacing="space-evenly">
+        {
+          !isRegisteredEvents ? (
+            <>
+              {userEvents.length !== 0 ? (
+                userEvents.map(event => (
                   <EventCard 
                     key={event.event_title} 
                     event={event} 
-                    {...{eventModalHandler}}
+                    {...{eventModalHandler}} 
                   />
                 ))
               ) : (
-                <H4>You haven't registered to any events yet. Why wait?</H4>
-            )}
-          </RowBody>
-        )
-      }
+                <H4>You haven't created any events yet. Why wait?</H4>
+              )}
+            </>
+          ) : (
+            <>
+              {registeredEvents.length !== 0 ? (
+                  registeredEvents.map(event => (
+                    <EventCard 
+                      key={event.event_title} 
+                      event={event} 
+                      {...{eventModalHandler}}
+                    />
+                  ))
+                ) : (
+                  <H4>You haven't registered to any events yet. Why wait?</H4>
+              )}
+            </>
+          )
+        }
+      </DashboardContent>
     </BodyContainer> 
   );
 };
@@ -73,16 +76,31 @@ const BodyContainer = styled.div`
   overflow: scroll;
 `;
 
-const StyledRowHead = styled(RowHead)`
+export const StyledRowHead = styled(RowHead)`
   justify-content: flex-start;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid ${props => props.theme.color.primary.regular};
   padding-bottom: 0; margin-bottom: 0;
 `;
 
-const StyledButton = styled(Button)`
+const DashboardContent = styled(RowBody)`
+  height: calc(100vh - 185px);
+  margin: 0;
+  overflow-y: scroll;
+`;
+
+export const StyledButton = styled(Button)`
   margin-right: 10px;
-  border: 2px solid red;
+  border: 2px solid ${props => props.theme.color.primary.regular};
   border-bottom: none;
+
+  &:hover {
+    background-color: ${props => props.theme.color.primary.regular};
+    border: 2px solid ${props => props.theme.color.primary.regular};
+    border-bottom: none;
+    color: white;
+  }
+
+  ${({gap}) => gap === true && `margin-left: 10px;` }
 `;
 
 const HackathonCard = styled.div`
