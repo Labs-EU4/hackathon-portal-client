@@ -151,19 +151,19 @@ function App() {
                   />
                 )
               }
-              {
-                token && (
-                  <HackathonSinglePage
-                    {...{eventId}}
-                    {...{setEventId}}
-                    {...{isEventModalOpen}}
-                    {...{setIsEventModalOpen}}
-                  />
-                )
-              }
             </RoutesContainer>
             <Footer />
           </MainContent>
+          {
+            token && (
+              <HackathonSinglePage
+                {...{eventId}}
+                {...{setEventId}}
+                {...{isEventModalOpen}}
+                {...{setIsEventModalOpen}}
+              />
+            )
+          }
           <SideBar 
             {...{isProfileOpen}}
             {...{setIsProfileOpen}} 

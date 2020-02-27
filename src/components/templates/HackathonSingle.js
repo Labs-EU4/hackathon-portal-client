@@ -468,14 +468,14 @@ const ModalBody = styled.div`
   position: absolute; top: 0; left: 0;
   background-color: rgba(0, 0, 0, .4);
   width: 100%; height: 100%;
-  /* overflow-y: scroll; */
+  padding: 60px 20px;
   z-index: 100;
 `;
 
 const StyledEventCard = styled(CardWide)`
   position: relative;
   display: flex;
-  min-width: calc(100% - 20px); height: calc(100vh - 110px);
+  min-width: calc(100% - 250px); height: calc(100vh - 110px);
   overflow-y: scroll;
 
   &::-webkit-scrollbar {
