@@ -4,8 +4,6 @@ import styled from "styled-components";
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 
-import { Footer } from "../organisms/index";
-import UserHeader from "../organisms/UserHeader";
 import WideBody from "../atoms/WideBody";
 import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";

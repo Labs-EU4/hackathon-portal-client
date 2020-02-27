@@ -69,7 +69,7 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
           exact 
           anchor
           to="/dashboard/new" 
-          color="green"
+          color="primary"
           size="wide"
           activeClassName="current"
         >Create Event</StyledButton>

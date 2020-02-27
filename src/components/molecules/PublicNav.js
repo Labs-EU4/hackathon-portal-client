@@ -30,7 +30,7 @@ const PublicNav = () => {
             >Log In</Button>
             <Button 
               anchor 
-              color="blue" 
+              color="primary" 
               to={state?.from ? `/register?ref=${state?.from}` : `/register`}
             >Sign Up</Button>
           </>
@@ -57,7 +57,7 @@ const StyledPublicNav = styled.div`
     border-radius: 3px;
     outline: none;
     padding: 12px 34px;
-    font-size: ${props => props.theme.fontSize.small};
+    ${props => props.theme.fontSize.small};
     font-weight: 700;
     color: ${props => props.theme.color.black.regular};
     text-decoration: none; text-transform: uppercase;

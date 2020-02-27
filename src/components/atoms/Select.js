@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Field } from "formik";
-import { media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 
 const S = styled(Field)`
-  font-family: ${type.ROBOTO};
   font-size: 16px;
   font-weight: 500;
   color: ${props => props.theme.color.black.regular};

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { type, smallFontSize, Gradient, Solid, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 import * as solid from '../../assets/styles/variables/colors';
 
 export default function Button({ children, anchor, color, ...props }) {
@@ -26,7 +26,7 @@ const StyledButton = styled.button`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 22px;
-  font-size: ${props => props.theme.fontSize.small};
+  ${props => props.theme.fontSize.small};
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
@@ -49,6 +49,11 @@ const StyledButton = styled.button`
   }
 
   ${({ color }) => {
+    if (color === "primary")
+      return `
+        background: ${solid.primary};
+        color: ${solid.white};
+    `;
     if (color === "blue") {
       return `
         background: ${solid.blue};
@@ -100,7 +105,7 @@ const StyledLink = styled(Link)`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 22px;
-  font-size: ${props => props.theme.fontSize.small};
+  ${props => props.theme.fontSize.small};
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
@@ -120,6 +125,11 @@ const StyledLink = styled(Link)`
   }
 
   ${({ color }) => {
+    if (color === "primary")
+      return `
+        background: ${solid.primary};
+        color: ${solid.white};
+    `;
     if (color === "blue") {
       return `
         background: ${solid.blue};

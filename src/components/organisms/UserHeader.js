@@ -17,10 +17,6 @@ const UserHeader = () => {
           <Logo />
         </Link>
         <Navigation>
-          {/* <Nav type="mobile" /> */}
-          {
-            
-          }
           <PublicNav />
         </Navigation>
       </HeaderContainer>

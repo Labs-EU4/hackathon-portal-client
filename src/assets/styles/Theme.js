@@ -27,7 +27,7 @@ export const theme = {
             bg: color.bgWhite
         },
         black: {
-            light: color.lightBlack,
+            light: '#212121',
             regular: color.black,
         },
         red: {
@@ -39,11 +39,10 @@ export const theme = {
             regular: color.blue,
             bg: '#2196f3'
         },
-        // grey: color.grey,
         grey: {
-            light: color.lightGrey,
+            light: '#696969',
             regular: color.grey,
-            dark: color.darkGrey,
+            dark: '#444',
             border: 'rgba(14,19,24,.15)'
         },
         green: {
@@ -60,6 +59,7 @@ export const theme = {
         }
     },
     fontSize: {
+        smaller: "font-size: 2rem",
         small: "font-size: 1.4rem;",
         base: "font-size: 1.6rem;",
         h1: "font-size: 7.5rem;",

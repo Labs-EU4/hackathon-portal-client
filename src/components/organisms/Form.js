@@ -15,7 +15,6 @@ import { ErrorSpan } from "../atoms/Span";
 import { useDispatch, useSelector } from "react-redux";
 import { register, login } from "../../store/user/actions";
 import SocialMedia from "../molecules/SocialMedia";
-import { type, smallFontSize } from "../index";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
 
 

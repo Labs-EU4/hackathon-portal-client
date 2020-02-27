@@ -4,10 +4,9 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import AddTeammates from '../templates/AddTeammates';
-import { media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 import { H2, H3 } from "../atoms/Heading";
 import { BoldSpan } from "../atoms/Span";
-import { RowBody } from "../atoms/RowBody";
 import { CardWide } from "../atoms/Card";
 import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Solid, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 
 export const Card = styled.div`
   ${props => props.theme.shadow.card};
