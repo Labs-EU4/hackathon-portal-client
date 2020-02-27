@@ -56,9 +56,14 @@ const StyledButton = styled.button`
     `;
     if (color === "blue") {
       return `
-        background: ${solid.blue};
-        border: 3px solid transparent;
-        color: ${solid.white};
+        background: ${solid.white};
+        border: 3px solid ${solid.spaceBlue};
+        color: ${solid.spaceBlue};
+
+        &:hover {
+          background: ${solid.spaceBlue};
+          color: ${solid.white};
+        }
     `;
     }
     if (color === "green")
@@ -101,6 +106,7 @@ const StyledButton = styled.button`
 const StyledLink = styled(Link)`
   display: inline-block;
   background: white;
+  background-size: 200%;
   outline: none;
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
@@ -111,9 +117,11 @@ const StyledLink = styled(Link)`
   white-space: nowrap;
   text-align: center;
   text-decoration: none; text-transform: uppercase;
+  transition: all .5s;
 
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
+    background-position: -100%;
   }
 
   @media ${media.tablet} {
@@ -132,14 +140,24 @@ const StyledLink = styled(Link)`
     `;
     if (color === "blue") {
       return `
-        background: ${solid.blue};
-        color: ${solid.white};
-    `;
+        background-image: linear-gradient(to right, ${solid.white} 50%, ${solid.spaceBlue} 50%, ${solid.spaceBlue} 100%);
+        border: 3px solid ${solid.spaceBlue};
+        color: ${solid.spaceBlue};
+
+        &:hover {
+          color: ${solid.white};
+        }
+      `;
     }
     if (color === "green")
       return `
-        background: ${solid.green};
-        color: ${solid.white};
+        background-image: linear-gradient(to right, ${solid.white} 50%, ${solid.green} 50%, ${solid.green} 100%);
+        border: 3px solid ${solid.green};
+        color: ${solid.green};
+
+        &:hover {
+          color: ${solid.white};
+        }
       `;
     if (color === "grey")
       return `

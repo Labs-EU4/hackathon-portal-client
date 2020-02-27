@@ -415,8 +415,8 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         )}
                         {isTeamLead && !isEnded && (
                           <Button
-                            color="green"
                             anchor
+                            color="green"
                             to={`/dashboard/event/${id}/participant-teams`}
                           >
                             Add teamate
@@ -424,8 +424,8 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         )}
                         {isRegistered && !isEnded && (
                           <Button
-                            color="green"
                             anchor
+                            color="green"
                             to={`/dashboard/event/${id}/participant_submission`}
                           >
                             Submit Project
@@ -433,8 +433,8 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         )}
                         <Button
                           anchor
-                          to={`/dashboard/event/${id}/projects`}
                           color="blue"
+                          to={`/dashboard/event/${id}/projects`}
                         >
                           View submissions
                         </Button>

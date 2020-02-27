@@ -36,8 +36,8 @@ export const borderGrey = '#c3cfd9';
 // export const borderGrey = '#39444D';
 
 //GREEN
-export const lightGreen = '#aec';
-export const green = '#25d366';
+export const lightGreen = '#25d366';
+export const green = '#77DD76';
 export const darkGreen = '#1b9849';
 
 export const primary = '#00c4cc';
