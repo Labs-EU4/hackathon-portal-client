@@ -1,7 +1,16 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { BodyContainerColumn, Card, Team, Strong, Description, RatingGroup, JudgeCount, SubmissionEntry } from "../styles/templates/HackathonProjectsStyling";
+import {
+  BodyContainerColumn,
+  Card,
+  Team,
+  Strong,
+  Description,
+  RatingGroup,
+  JudgeCount,
+  SubmissionEntry
+} from "../styles/templates/HackathonProjectsStyling";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
@@ -18,10 +27,11 @@ import { useSubmissions } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 
 const HackathonProjects = () => {
-  const { id } = useParams();
+  const id = useParams().id || 1;
+
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
-  );
+  ); // This is for testing purposes only
   const [submissions, fetchSubmissions, loading] = useSubmissions(id);
 
   useEffect(() => {
@@ -36,7 +46,7 @@ const HackathonProjects = () => {
         <BodyContainerColumn>
           <RowHead>
             <H3>
-              Submitted projects for <Strong>"{event_title}"</Strong>
+              Submitted projects for <Strong>&quot;{event_title}&quot;</Strong>
             </H3>
           </RowHead>
 
