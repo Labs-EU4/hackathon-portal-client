@@ -11,7 +11,7 @@ import { CardWide } from "../atoms/Card";
 import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
-import user_icon from "../../assets/images/user_icon.svg";
+import userImg from "../../assets/images/user_icon.svg";
 import eventImg from "../../assets/images/event-img.jpg";
 // import { useEventTeam } from "../../hooks";
 
@@ -32,7 +32,6 @@ export const Image = styled.img`
   width: 60px;
   height: 60px;
   object-fit: cover;
-  /* padding-bottom: 10px; */
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 30px;
@@ -63,18 +62,6 @@ const TitleContainer = styled.div`
   justify-content: center;
 `;
 
-const Details = styled.div`
-  display: flex;
-
-  & div {
-    margin: 0 20px 0 0;
-  }
-
-  @media ${media.mobile} {
-    flex-direction: column;
-  }
-`;
-
 const ButtonsDashGroup = styled.div`
   a,
   button {
@@ -83,14 +70,8 @@ const ButtonsDashGroup = styled.div`
   }
 `;
 
-const Separator = styled.hr`
-  border-top: 0;
-  border-bottom: 1px solid #c3cfd9;
-  margin: 0 0 20px 0;
-`;
-
 const TagsGroup = styled.div`
-  margin: 0 0 20px 0;
+  margin-bottom: 20px;
 `;
 
 const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModalOpen }) => {
@@ -218,104 +199,70 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         {/* Here it will go image of the event */}
                         <EventImg src={eventImg} alt="event-image" /> 
                       </EventImageContainer>
-    
+                      <ContentTitle text="Judges" />
+                      <JudgesContainer>
+                        {team.length === 0 ? (
+                            <Paragraph>
+                              No Judges have been selected for this event
+                            </Paragraph>
+                          ) : (
+                            team.map(member =>
+                              <JudgeCard>
+                                {
+                                  member.image_url === null ? (
+                                    <JudgeImg
+                                      key={member.user_id}
+                                      style={{
+                                        width: "80px",
+                                        objectFit: "cover",
+                                        display: "inline-block"
+                                      }}
+                                      alt="team member profile pic"
+                                      src={userImg}
+                                    />
+                                  ) : (
+                                    member.image_url.map((mem, index) => {
+                                      let memberProfile;
+                                      memberProfile = JSON.parse(mem);
+                                      return (
+                                        <JudgeImg
+                                          key={index}
+                                          style={{
+                                            width: "80px",
+                                            objectFit: "cover",
+                                            borderRadius: "50%"
+                                          }}
+                                          alt="team member profile pic"
+                                          src={memberProfile.avatar}
+                                        />
+                                      );
+                                    })
+                                  )
+                                }
+                                <JudgeInfo>
+                                  <p>{member.fullname}</p>
+                                </JudgeInfo>
+                              </JudgeCard> 
+                            )
+                          )
+                        }
+                      </JudgesContainer>
+                      <ContentTitle text="About this event" />
                       <Paragraph>
-                        <BoldSpan>Description:</BoldSpan>
                         {description}
                       </Paragraph>
-    
-                      <Separator />
-    
-                      <Details>
-                        <div>
-                          <Paragraph>
-                            <BoldSpan>Event starts:</BoldSpan>
-                            {formattedStartDate}
-                          </Paragraph>
-                        </div>
-    
-                        <div>
-                          <Paragraph>
-                            <BoldSpan>Event ends:</BoldSpan>
-                            {formattedEndDate}
-                          </Paragraph>
-                        </div>
-                      </Details>
-    
-                      <Separator />
-    
-                      <Details>
-                        <div>
-                          <Paragraph>
-                            <BoldSpan>Location:</BoldSpan>
-                            {location}
-                          </Paragraph>
-                        </div>
-                      </Details>
-    
-                      <Separator />
-    
+                      <ContentTitle text="Guidelines" />
                       <Paragraph>
-                        <BoldSpan>Guidelines:</BoldSpan>
                         {guidelines}
                       </Paragraph>
-                      <Separator />
+                      <ContentTitle text="Rubrics" />
                       <TagsGroup>
-                        <BoldSpan>Rubrics:</BoldSpan>
                         {rubrics.map(rubric => {
                           return <PTags key={rubric}>{toTittleCase(rubric)}</PTags>;
                         })}
                       </TagsGroup>
-                      <Separator />
+                      <ContentTitle text="Event Tags" />
                       <TagsGroup>
-                        <Paragraph style={{ fontWeight: "bold" }}>
-                          Judging Panel:
-                        </Paragraph>
-                        {team.length === 0 ? (
-                          <Paragraph>
-                            No Judges have been selected for this event
-                          </Paragraph>
-                        ) : (
-                          team.map(member =>
-                            member.image_url === null ? (
-                              <img
-                                key={member.user_id}
-                                style={{
-                                  width: "7%",
-                                  height: "7%",
-                                  marginLeft: "1%",
-                                  objectFit: "cover",
-                                  display: "inline-block"
-                                }}
-                                alt="team member profile pic"
-                                src={user_icon}
-                              />
-                            ) : (
-                              member.image_url.map((mem, index) => {
-                                let memberProfile;
-                                memberProfile = JSON.parse(mem);
-                                return (
-                                  <img
-                                    key={index}
-                                    style={{
-                                      width: "7%",
-                                      height: "7%",
-                                      marginLeft: "1%",
-                                      objectFit: "cover",
-                                      borderRadius: "5px"
-                                    }}
-                                    alt="team member profile pic"
-                                    src={memberProfile.avatar}
-                                  />
-                                );
-                              })
-                            )
-                          )
-                        )}
-                      </TagsGroup>
-                      <Separator />
-                      <TagsGroup>
-                        <BoldSpan>Event Tags:</BoldSpan>
                         {tag_name && tag_name.length !== 0 ? (
                           tag_name.map((tagged, index) => {
                             return <PTags key={index}>{tagged}</PTags>;
@@ -324,7 +271,6 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                           <Paragraph>No tags provided for this event</Paragraph>
                         )}
                       </TagsGroup>
-                      <Separator />
                       <ButtonsDashGroup>
                         <div>
                           <Button onClick={() => setIsEventModalOpen(false)} color="grey">
@@ -345,7 +291,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     <TagsCardWide>
                       <div className="tags-header">
                         {organizer_profile_pic === null ? (
-                          <Image src={user_icon} alt="user_icon" />
+                          <Image src={userImg} alt="user_icon" />
                         ) : (
                           organizer_profile_pic.map((mem, index) => {
                             let memberProfile;
@@ -365,7 +311,26 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                           <PHosted>{organizer_name || emailUser}</PHosted>
                         </div>
                       </div>
+                      {/* <Details>
+                        <div>
+                          <Paragraph>
+                            <BoldSpan>Event starts:</BoldSpan>
+                            {formattedStartDate}
+                          </Paragraph>
+                        </div>
+    
+                        <div>
+                          <Paragraph>
+                            <BoldSpan>Event ends:</BoldSpan>
+                            {formattedEndDate}
+                          </Paragraph>
+                        </div>
+                      </Details> */}
                       <div className="status">
+                        <BoldSpan>
+                          Location: 
+                          <NormalSpan>{location}</NormalSpan>
+                        </BoldSpan>
                         <BoldSpan>
                           Status:
                           <NormalSpan>{isOpen ? " Open" : " Closed"}</NormalSpan>
@@ -506,6 +471,28 @@ const EventImg = styled.img`
   width: 100%; height: 100%;
 `;
 
+const JudgesContainer = styled.div`
+  width: 100%;
+  display: flex; flex-wrap: wrap;
+`;
+
+const JudgeCard = styled.div`
+  display: flex;
+  width: 33%; height: 80px;
+  margin: 10px 0;
+`;
+
+const JudgeImg = styled.img`
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+`;
+
+const JudgeInfo = styled.div`
+  ${props => props.theme.flex.column};
+  padding: 10px;
+`;
+
 export const TagsCardWide = styled(CardWide)`
   position: fixed; left: calc(100% - 625px); top: 70px;
   width: 350px; max-height: calc(100vh - 130px);
@@ -539,3 +526,31 @@ export const TagsCardWide = styled(CardWide)`
   }
 `;
 
+
+//NEW COMPONENT
+const ContentTitle = ({text}) => {
+  return (
+    <StyledContentTitle>
+      <p>{text}</p>
+    </StyledContentTitle>
+  );
+}; 
+
+// export default TitleContent;
+
+const StyledContentTitle = styled.div`
+  position: relative;
+  width: 100%; height: 20px;
+  border-bottom: 2px solid ${props => props.theme.color.grey.border};
+  margin-bottom: 20px;
+
+  p {
+    display: flex; align-items: baseline;
+    position: absolute; top: 100%;
+    background-color: ${props => props.theme.color.grey.bg};
+    padding: 5px 10px 5px 0;
+    font-size: 2rem; font-weight: bold;
+    text-transform: uppercase;
+    transform: translateY(-45%);
+  }
+`;
