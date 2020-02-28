@@ -32,7 +32,6 @@ describe("It should render <Footer/> template correctly", () => {
 
   it("renders the Footer template correctly", () => {
     expect(component).toMatchSnapshot();
-    expect(component.debug())
   });
 
   it("renders a linkedIn icon", () => {
@@ -47,7 +46,8 @@ describe("It should render <Footer/> template correctly", () => {
     expect(component.queryByAltText(/Facebook/i)).toBeInTheDocument();
   });
 
-  it("renders a Facebook icon", () => {
+  it("renders the Privacy link", () => {
     expect(component.queryByText(/Privacy/i)).toBeInTheDocument();
   });
+
 });
