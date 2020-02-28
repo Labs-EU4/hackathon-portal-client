@@ -30,28 +30,19 @@ beforeEach(() => {
 });
 
 describe("Shows all the text nodes on PageNotFound.js", () => {
-  // it("Should display the h3 title", () => {
-  //   expect(jestFeatures.getByText("My hackathons")).not.toBeDisabled();
-  // });
-  //   it("should be displaying the button text node,to create a new event ", () => {
-  //     let form = () => jestFeatures.getByText("Create New");
-
-  //     expect(form()).toBeInTheDocument();
-  //   });
-
   it("displays the img element shown for the 404 error ", () => {
     expect(jestFeatures.getByAltText("404 icon")).toBeInTheDocument();
   });
 
-  it("displays a part of the description from an already created event", () => {
+  it("displays the message shown on the <h3> element for the 404 error message", () => {
     expect(jestFeatures.getByText("Error code: 404")).toBeInTheDocument();
   });
-  //   it("should not be displaying the 'you have not created events phrase,since two events are already listed' ", () => {
-  //     let sentence = () =>
-  //       jestFeatures.queryByText(/You have not created any events yet/);
+  it("displays a part of the description for the error", () => {
+    expect(
+      jestFeatures.getByText(/We can't seem to find the page/i)
+    ).toBeInTheDocument();
+  });
 
-  //     expect(sentence()).toBeNull();
-  //   });
   it("renders without crashing ", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
