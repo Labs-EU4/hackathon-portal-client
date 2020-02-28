@@ -66,6 +66,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
   const id = eventId;
   const [ isAddJudgeOpen, setIsAddJudgeOpen ] = useState(false);
   const [ isSubmissionsPageOpen, setIsSubmissionsPageOpen ] = useState(false);
+  const [ isSlideForm, setIsSlideForm ] = useState(false);
   const history = useHistory();
   const dispatch = useDispatch();
   const { userId } = useSelector(state => state.currentUser);
@@ -170,6 +171,11 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
       .join(" ");
   };
 
+  const handleExit = () => {
+    setIsEventModalOpen(false);
+    setIsSlideForm(false);
+  };
+
   const renderSingleEvent = () => {
     return (
       <ModalBody>
@@ -177,7 +183,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
           <Spinner />
         ) : (
           <>
-              <StyledEventCard>
+              <StyledEventCard active={isSlideForm}>
                 <EventCardLeftColumn>
                   <TitleContainer>
                     <IconLetter>{initial}</IconLetter>
@@ -259,7 +265,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     )}
                   </TagsGroup>
                 </EventCardLeftColumn>
-                <TagsCardWide>
+                <TagsCardWide active={isSlideForm}>
                   <TagCard>
                     <BoldSpan>Hosted by:</BoldSpan>
                     <UserContainer>
@@ -335,6 +341,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       <Button
                         anchor
                         to={`/dashboard/event/${id}/edit`}
+                        onClick={() => setIsEventModalOpen(false)}
                         color="blue"
                       >
                         Edit event
@@ -382,7 +389,12 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
               </StyledEventCard>
           </>
         )}
-        <ExitButton onClick={() => setIsEventModalOpen(false)} color="grey">X</ExitButton>
+        <ExitButton 
+          onClick={handleExit}
+          onMouseOver={() => setIsSlideForm(true)}
+          onMouseLeave={() => setIsSlideForm(false)}
+          color="primary"
+        >X</ExitButton>
       </ModalBody>
     );
   }
@@ -422,6 +434,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
 export default HackathonSingle;
 
 const ModalBody = styled.div`
+  ${props => props.theme.shadow.box};
   position: absolute; top: 0; left: 0;
   background-color: rgba(0, 0, 0, .4);
   width: 100%; height: 100%;
@@ -432,8 +445,12 @@ const ModalBody = styled.div`
 const StyledEventCard = styled(CardWide)`
   position: relative;
   min-width: calc(100% - 250px); height: calc(100vh - 110px);
-  background-color: ${props => props.theme.color.grey.bg};
+  background-color: ${props => props.active ? 'rgba(0, 0, 0, .8)' : props.theme.color.grey.bg};
+  transform: ${props => props.active && 'translateY(80%)'};
+  padding-left: 45px;
   overflow-y: scroll;
+  box-shadow: 3px 3px 10px ${props => props.theme.color.black.regular};
+  transition: ${props => props.active && 'transform .5s ease'};
 
   &::-webkit-scrollbar {
     width: 0; height: 0;
@@ -483,7 +500,9 @@ const JudgeInfo = styled.div`
 
 export const TagsCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
-  position: fixed; left: calc(100% - 585px); top: 70px;
+  position: fixed; 
+  left: ${props => props.active ? 'calc(100% - 330px)' : 'calc(100% - 585px)'}; 
+  top: ${props => props.active ? '10px' : '70px'};
   width: 300px; max-height: calc(100vh - 130px);
   border: 1px solid ${props => props.theme.color.primary.regular};
   padding: 8px 5px;
@@ -523,14 +542,15 @@ export const PHosted = styled(Paragraph)`
 export const ExitButton = styled.p`
   ${props => props.theme.flex.center};
   position: fixed; top: 77px; left: 35px;
-  width: 30px; height: 30px;
+  width: 35px; height: 35px;
   background-image: linear-gradient(to right, 
     ${props => props.theme.color.white.regular} 50%, 
-    ${props => props.theme.color.grey.regular} 50%, 
-    ${props => props.theme.color.grey.regular} 100%);
+    ${props => props.theme.color.primary.regular} 50%, 
+    ${props => props.theme.color.primary.regular} 100%);
   background-size: 204%;
-  border: 3px solid ${props => props.theme.color.grey.regular};
+  border: 3px solid ${props => props.theme.color.black.regular};
   border-radius: 50%;
+  color: ${props => props.theme.color.black.regular};
   transition: all .2s;
   cursor: pointer;
 
