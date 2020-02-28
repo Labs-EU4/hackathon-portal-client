@@ -21,7 +21,7 @@ export default function Button({ children, anchor, color, ...props }) {
 
 const StyledButton = styled.button`
   display: inline-block;
-  background: white;
+  background: white; background-size: 200%;
   outline: none;
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
@@ -30,12 +30,12 @@ const StyledButton = styled.button`
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
-  text-align: center;
-  text-transform: uppercase;
+  text-align: center; text-transform: uppercase;
+  transition: all .5s;
 
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
-    border: 3px solid ${props => props.theme.color.primary.regular};
+    background-position: -100%;
   }
 
   @media ${media.tablet} {
@@ -56,21 +56,25 @@ const StyledButton = styled.button`
     `;
     if (color === "blue") {
       return `
-        background: ${solid.white};
+        background-image: linear-gradient(to right, ${solid.white} 50%, ${solid.spaceBlue} 50%, ${solid.spaceBlue} 100%);
         border: 3px solid ${solid.spaceBlue};
         color: ${solid.spaceBlue};
 
         &:hover {
-          background: ${solid.spaceBlue};
           color: ${solid.white};
         }
-    `;
+      `;
     }
     if (color === "green")
       return `
-        background: ${solid.green};
-        color: ${solid.white};
-    `;
+        background-image: linear-gradient(to right, ${solid.white} 50%, ${solid.green} 50%, ${solid.green} 100%);
+        border: 3px solid ${solid.green};
+        color: ${solid.green};
+
+        &:hover {
+          color: ${solid.white};
+        }
+      `;
     if (color === "grey")
       return `
         background: ${solid.white};
@@ -182,6 +186,10 @@ const StyledLink = styled(Link)`
     if (size === "wide") {
       return `
         width: 100%;
+      `;
+    } else if (size === "half") {
+      return `
+        width: 47%;
       `;
     }
   }};
