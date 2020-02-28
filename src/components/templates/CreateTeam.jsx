@@ -26,7 +26,6 @@ const CreateTeam = () => {
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
   const team = teams.find(t => t.team_lead === userId);
-debugger
   useEffect(() => {
     fetchTeams();
   }, [fetchTeams]);
@@ -38,11 +37,9 @@ debugger
     };
     dispatch(createTeamName(teamData, history));
   };
-debugger
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
-debugger
   return (
     <div>
       <UserHeader />
@@ -78,8 +75,8 @@ debugger
                 )}
               </Formik>
             ) : (
-              <TeamView {...{ team }} />
-            )}
+                <TeamView {...{ team }} />
+              )}
           </BodyColumn>
         </BodyRow>
       </WideBody>
