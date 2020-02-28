@@ -34,7 +34,7 @@ const StyledButton = styled.button`
   transition: all .5s;
 
   &:hover {
-    cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
+    cursor: ${({ disabled }) => disabled ? `disabled` : `pointer`};
     background-position: -100%;
   }
 
@@ -105,6 +105,8 @@ const StyledButton = styled.button`
       `;
     }
   }};
+
+  ${({ disabled }) => disabled && `border: 2px solid lightgrey; color: lightgrey;`};
 `;
 
 const StyledLink = styled(Link)`

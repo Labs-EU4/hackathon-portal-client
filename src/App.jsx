@@ -16,7 +16,7 @@ import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";
 import HackathonFormPage from "./components/views/HackathonFormPage";
 import HackathonSinglePage from "./components/views/HackathonSinglePage";
-import HackathonProjectsPage from "./components/views/HackathonProjectsPage";
+// import HackathonProjectsPage from "./components/views/HackathonProjectsPage";
 import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import PrivateRoute from "./components/organisms/PrivateRoute";
 import EditHackathon from "./components/templates/EditHackathon";
@@ -97,10 +97,10 @@ function App() {
           path="/dashboard/profile"
           component={UserProfilePage}
         /> */}
-        <PrivateRoute
+        {/* <PrivateRoute
           path="/dashboard/event/:id/projects"
           component={HackathonProjectsPage}
-        />
+        /> */}
         <PrivateRoute
           exact
           path="/dashboard/event/:id/project/:projectId"

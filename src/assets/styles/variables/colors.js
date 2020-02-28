@@ -28,7 +28,7 @@ export const yellowSun = '#ffdb00';
 export const brightYellow = '#FEF33E';
 
 //GREY
-export const lightGrey = '#696969';
+export const lightGrey = '#f5f7f7';
 export const grey = '#39444D';
 export const darkGrey = '#444';
 // export const bgGrey = '#dfe3e6';

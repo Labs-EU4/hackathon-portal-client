@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
+import HackathonProjectsPage from '../views/HackathonProjectsPage';
 import AddTeammates from '../templates/AddTeammates';
 import { media } from "../../assets/styles/variables/media";
 import { H2, H3 } from "../atoms/Heading";
@@ -78,6 +79,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
   // const { id } = useParams();
   const id = eventId;
   const [ isAddJudgeOpen, setIsAddJudgeOpen ] = useState(false);
+  const [ isSubmissionsPageOpen, setIsSubmissionsPageOpen ] = useState(false);
   const history = useHistory();
   const dispatch = useDispatch();
   const { userId } = useSelector(state => state.currentUser);
@@ -207,11 +209,10 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         </Paragraph>
                       ) : (
                         team.map(member =>
-                          <JudgeCard>
+                          <JudgeCard key={member.user_id}>
                             {
                               member.image_url === null ? (
                                 <JudgeImg
-                                  key={member.user_id}
                                   style={{
                                     width: "80px",
                                     objectFit: "cover",
@@ -353,27 +354,15 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         color={isRegistered ? "grey" : "green"}
                         {...{
                           anchor: !individualParticipation,
-                          onClick: individualParticipation
-                            ? handleRegistration
-                            : null,
-                          to: !individualParticipation
-                            ? `/dashboard/event/${id}/participant-teams`
-                            : null
+                          onClick: individualParticipation && handleRegistration,
+                          to: !individualParticipation && `/dashboard/event/${id}/participant-teams`
                         }}
                       >
                         {isRegistered ? `Unregister` : `Register`}
                       </Button>
                     ) : (
                       !isOpen && (
-                        <Button
-                          style={{
-                            border: "2px solid lightgray",
-                            color: "lightgray"
-                          }}
-                          disabled
-                        >
-                          Registration Closed
-                        </Button>
+                        <Button disabled >Registration Closed</Button>
                       )
                     )}
                     {isTeamLead && !isEnded && (
@@ -395,9 +384,10 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       </Button>
                     )}
                     <Button
-                      anchor
+                      // anchor
                       color="blue"
-                      to={`/dashboard/event/${id}/projects`}
+                      onClick={() => setIsSubmissionsPageOpen(true)}
+                      // to={`/dashboard/event/${id}/projects`}
                     >
                       View submissions
                     </Button>
@@ -412,12 +402,29 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
   }
 
   if (isAddJudgeOpen) {
-    return <AddTeammates 
-      {...{id}}
-      {...{setEventId}}
-      {...{setIsEventModalOpen}} 
-      {...{setIsAddJudgeOpen}}
-    />
+    return (
+      <>
+        { renderSingleEvent() }
+        <AddTeammates 
+          {...{id}}
+          {...{setEventId}}
+          {...{setIsEventModalOpen}} 
+          {...{setIsAddJudgeOpen}}
+        />
+      </>
+    );
+  }
+
+  if (isSubmissionsPageOpen) {
+    return (
+      <>
+        { renderSingleEvent() }
+        <HackathonProjectsPage 
+          {...{id}}
+          {...{setIsSubmissionsPageOpen}} 
+        />
+      </>
+    );
   }
 
   if (isEventModalOpen) {
