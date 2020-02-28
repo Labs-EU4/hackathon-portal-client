@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`It should render <Footer/> template correctly renders the Footer templatet correctly 1`] = `
+exports[`It should render <Footer/> template correctly renders the Footer template correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
