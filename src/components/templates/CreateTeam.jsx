@@ -26,6 +26,7 @@ const CreateTeam = () => {
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
   const team = teams.find(t => t.team_lead === userId);
+
   useEffect(() => {
     fetchTeams();
   }, [fetchTeams]);
@@ -37,9 +38,11 @@ const CreateTeam = () => {
     };
     dispatch(createTeamName(teamData, history));
   };
+
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
+
   return (
     <div>
       <UserHeader />
