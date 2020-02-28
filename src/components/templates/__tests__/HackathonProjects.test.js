@@ -43,11 +43,11 @@ describe("Component HackathonProjects.js renders properly", () => {
     expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
   });
 
-  it("the component doesnt render the wrong conditional - ratings area", () => {
+  it("the component doesnt render the right conditional - ratings area", () => {
     expect(component.queryByText(/View/i)).not.toBeInTheDocument();
   });
 
-  it("the component doesnt render the wrong conditional - submissions area", () => {
+  it("the component doesnt render the right conditional - submissions area", () => {
     expect(component.queryByText(/No projects were submitted/i)).not.toBeInTheDocument();
   });
 });
