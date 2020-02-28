@@ -158,19 +158,11 @@ Object {
                       <input
                         class="sc-kEYyzF hEbAib"
                         id="start_date"
-<<<<<<< HEAD
-                        min="2020-02-26"
-                        name="start_date"
-                        placeholder="Event starts"
-                        type="date"
-                        value="2020-02-26"
-=======
                         min="2020-02-28"
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
                         value="2020-02-28"
->>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                       />
                       <span
                         class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -192,11 +184,7 @@ Object {
                         name="end_date"
                         placeholder="Event ends"
                         type="date"
-<<<<<<< HEAD
-                        value="2020-02-26"
-=======
                         value="2020-02-28"
->>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                       />
                       <span
                         class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -794,19 +782,11 @@ Object {
                     <input
                       class="sc-kEYyzF hEbAib"
                       id="start_date"
-<<<<<<< HEAD
-                      min="2020-02-26"
-                      name="start_date"
-                      placeholder="Event starts"
-                      type="date"
-                      value="2020-02-26"
-=======
                       min="2020-02-28"
                       name="start_date"
                       placeholder="Event starts"
                       type="date"
                       value="2020-02-28"
->>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -828,11 +808,7 @@ Object {
                       name="end_date"
                       placeholder="Event ends"
                       type="date"
-<<<<<<< HEAD
-                      value="2020-02-26"
-=======
                       value="2020-02-28"
->>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
