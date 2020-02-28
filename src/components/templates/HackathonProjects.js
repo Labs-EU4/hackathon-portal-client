@@ -27,7 +27,7 @@ import { useSubmissions } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 
 const HackathonProjects = () => {
-  const id = useParams().id || 1;
+  const { id } = useParams();
 
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
@@ -55,55 +55,55 @@ const HackathonProjects = () => {
               {loading ? (
                 <Spinner />
               ) : (
-                  <>
-                    <RowBody>
-                      {submissions.length === 0 &&
-                        "No projects were submitted for this hackathon."}
-                      {submissions.map((s, i) => {
-                        return (
-                          <SubmissionEntry key={s.id}>
-                            <Team>
-                              <H3>
-                                {s.participant_or_team_name || s.project_title}
-                              </H3>
-                            </Team>
-                            <Description>{s.project_writeups}</Description>
-                            {s.average_rating > 0 ? (
-                              <RatingGroup>
-                                <Rating
-                                  initialRating={s.average_rating}
-                                  readonly
-                                  emptySymbol={
-                                    <img alt="Rubric star" src={emptyStar} />
-                                  }
-                                  fullSymbol={
-                                    <img alt="Rubric star" src={fullStar} />
-                                  }
-                                />
-                                <JudgeCount>
-                                  {`${s.acted_judges}/${s.number_of_judges +
-                                    1} voted`}
-                                </JudgeCount>
-                              </RatingGroup>
-                            ) : (
-                                "Not rated."
-                              )}
-                            <Button
-                              anchor
-                              color="blue"
-                              to={`/dashboard/event/${id}/project/${s.id}`}
-                            >
-                              View
+                <>
+                  <RowBody>
+                    {submissions.length === 0 &&
+                      "No projects were submitted for this hackathon."}
+                    {submissions.map((s, i) => {
+                      return (
+                        <SubmissionEntry key={s.id}>
+                          <Team>
+                            <H3>
+                              {s.participant_or_team_name || s.project_title}
+                            </H3>
+                          </Team>
+                          <Description>{s.project_writeups}</Description>
+                          {s.average_rating > 0 ? (
+                            <RatingGroup>
+                              <Rating
+                                initialRating={s.average_rating}
+                                readonly
+                                emptySymbol={
+                                  <img alt="Rubric star" src={emptyStar} />
+                                }
+                                fullSymbol={
+                                  <img alt="Rubric star" src={fullStar} />
+                                }
+                              />
+                              <JudgeCount>
+                                {`${s.acted_judges}/${s.number_of_judges +
+                                  1} voted`}
+                              </JudgeCount>
+                            </RatingGroup>
+                          ) : (
+                            "Not rated."
+                          )}
+                          <Button
+                            anchor
+                            color="blue"
+                            to={`/dashboard/event/${id}/project/${s.id}`}
+                          >
+                            View
                           </Button>
-                          </SubmissionEntry>
-                        );
-                      })}
-                    </RowBody>
-                    <Button anchor to={`/dashboard/event/${id}`} color="grey">
-                      Back to event
+                        </SubmissionEntry>
+                      );
+                    })}
+                  </RowBody>
+                  <Button anchor to={`/dashboard/event/${id}`} color="grey">
+                    Back to event
                   </Button>
-                  </>
-                )}
+                </>
+              )}
             </Card>
           </Column>
         </BodyContainerColumn>

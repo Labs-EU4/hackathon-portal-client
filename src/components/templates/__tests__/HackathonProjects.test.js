@@ -2,7 +2,7 @@ import React from "react";
 import { Router, Route } from "react-router";
 import { createMemoryHistory } from "history";
 import { Provider } from "react-redux";
-import { render } from '@testing-library/react'
+import { render } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
@@ -12,22 +12,26 @@ const history = createMemoryHistory();
 
 let mockStore;
 let store;
-let component
+let component;
 
+jest.mock("react-router-dom", () => ({
+  ...jest.requireActual("react-router-dom"), // use actual for all non-hook parts
+  useParams: () => ({
+    id: 1
+  }),
+  useRouteMatch: () => ({ url: "/dashboard/event/:id" })
+}));
 beforeEach(() => {
   mockStore = configureStore();
   store = mockStore(initialState);
 
-  const url = '/1'
   component = render(
     <Router history={history}>
-      <Route>
-        <Provider store={store}>
-          <HackathonProjects url={url} />
-        </Provider>
-      </Route>
+      <Provider store={store}>
+        <HackathonProjects />
+      </Provider>
     </Router>
-  )
+  );
 });
 
 describe("Component HackathonProjects.js renders properly", () => {
@@ -48,6 +52,8 @@ describe("Component HackathonProjects.js renders properly", () => {
   });
 
   it("the component doesnt render the right conditional - submissions area", () => {
-    expect(component.queryByText(/No projects were submitted/i)).not.toBeInTheDocument();
+    expect(
+      component.queryByText(/No projects were submitted/i)
+    ).not.toBeInTheDocument();
   });
 });
