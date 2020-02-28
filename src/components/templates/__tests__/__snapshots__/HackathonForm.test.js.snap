@@ -108,7 +108,7 @@ Object {
               class="sc-jDwBTQ hADVSm"
             >
               <h3
-                class="sc-jKJlTe giRPFq"
+                class="sc-eNQAEJ faMTgL"
               >
                 Create New Hackathon
               </h3>
@@ -132,7 +132,7 @@ Object {
                       Hackathon Title
                     </label>
                     <input
-                      class="sc-hMqMXs eDqMdN"
+                      class="sc-kEYyzF cZhFQx"
                       display="wide"
                       id="event_title"
                       name="event_title"
@@ -140,7 +140,7 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
@@ -156,16 +156,24 @@ Object {
                         Event Starts
                       </label>
                       <input
-                        class="sc-hMqMXs hHihAg"
+                        class="sc-kEYyzF hEbAib"
                         id="start_date"
+<<<<<<< HEAD
                         min="2020-02-26"
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
                         value="2020-02-26"
+=======
+                        min="2020-02-28"
+                        name="start_date"
+                        placeholder="Event starts"
+                        type="date"
+                        value="2020-02-28"
+>>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                       />
                       <span
-                        class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                     <div
@@ -178,16 +186,20 @@ Object {
                         Event Ends
                       </label>
                       <input
-                        class="sc-hMqMXs hHihAg"
+                        class="sc-kEYyzF hEbAib"
                         id="end_date"
                         min=""
                         name="end_date"
                         placeholder="Event ends"
                         type="date"
+<<<<<<< HEAD
                         value="2020-02-26"
+=======
+                        value="2020-02-28"
+>>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                       />
                       <span
-                        class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                   </div>
@@ -210,7 +222,7 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
@@ -282,7 +294,7 @@ Object {
                         </option>
                       </select>
                       <span
-                        class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                     <div
@@ -331,7 +343,7 @@ Object {
                         </option>
                       </select>
                       <span
-                        class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                   </div>
@@ -345,7 +357,7 @@ Object {
                       Location
                     </label>
                     <input
-                      class="sc-hMqMXs eDqMdN"
+                      class="sc-kEYyzF cZhFQx"
                       display="wide"
                       id="location"
                       name="location"
@@ -353,7 +365,7 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
@@ -493,7 +505,7 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <label
@@ -553,14 +565,14 @@ Object {
                       class="sc-lhVmIH iyndXK"
                     >
                       <a
-                        class="sc-kkGfuU gakgmW"
+                        class="sc-iAyFgw kpEmSz"
                         color="grey"
                         href="/dashboard"
                       >
                         Cancel
                       </a>
                       <button
-                        class="sc-kEYyzF irLaYH"
+                        class="sc-kkGfuU fMMryh"
                         color="green"
                         type="submit"
                       >
@@ -732,7 +744,7 @@ Object {
             class="sc-jDwBTQ hADVSm"
           >
             <h3
-              class="sc-jKJlTe giRPFq"
+              class="sc-eNQAEJ faMTgL"
             >
               Create New Hackathon
             </h3>
@@ -756,7 +768,7 @@ Object {
                     Hackathon Title
                   </label>
                   <input
-                    class="sc-hMqMXs eDqMdN"
+                    class="sc-kEYyzF cZhFQx"
                     display="wide"
                     id="event_title"
                     name="event_title"
@@ -764,7 +776,7 @@ Object {
                     value=""
                   />
                   <span
-                    class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
@@ -780,16 +792,24 @@ Object {
                       Event Starts
                     </label>
                     <input
-                      class="sc-hMqMXs hHihAg"
+                      class="sc-kEYyzF hEbAib"
                       id="start_date"
+<<<<<<< HEAD
                       min="2020-02-26"
                       name="start_date"
                       placeholder="Event starts"
                       type="date"
                       value="2020-02-26"
+=======
+                      min="2020-02-28"
+                      name="start_date"
+                      placeholder="Event starts"
+                      type="date"
+                      value="2020-02-28"
+>>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                     />
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
@@ -802,16 +822,20 @@ Object {
                       Event Ends
                     </label>
                     <input
-                      class="sc-hMqMXs hHihAg"
+                      class="sc-kEYyzF hEbAib"
                       id="end_date"
                       min=""
                       name="end_date"
                       placeholder="Event ends"
                       type="date"
+<<<<<<< HEAD
                       value="2020-02-26"
+=======
+                      value="2020-02-28"
+>>>>>>> ae2eb568fe11ba03ca56e29ab2bf9f55980cca75
                     />
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                 </div>
@@ -834,7 +858,7 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
@@ -906,7 +930,7 @@ Object {
                       </option>
                     </select>
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
@@ -955,7 +979,7 @@ Object {
                       </option>
                     </select>
                     <span
-                      class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                 </div>
@@ -969,7 +993,7 @@ Object {
                     Location
                   </label>
                   <input
-                    class="sc-hMqMXs eDqMdN"
+                    class="sc-kEYyzF cZhFQx"
                     display="wide"
                     id="location"
                     name="location"
@@ -977,7 +1001,7 @@ Object {
                     value=""
                   />
                   <span
-                    class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
@@ -1117,7 +1141,7 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-iAyFgw sc-cvbbAY lmZIPi"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <label
@@ -1177,14 +1201,14 @@ Object {
                     class="sc-lhVmIH iyndXK"
                   >
                     <a
-                      class="sc-kkGfuU gakgmW"
+                      class="sc-iAyFgw kpEmSz"
                       color="grey"
                       href="/dashboard"
                     >
                       Cancel
                     </a>
                     <button
-                      class="sc-kEYyzF irLaYH"
+                      class="sc-kkGfuU fMMryh"
                       color="green"
                       type="submit"
                     >

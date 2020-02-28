@@ -20,10 +20,13 @@ import EventCard from "../molecules/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 
-const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
-`;
 
+export const BodyContainerColumn = styled(props => (
+  <BodyContainer {...props} />
+))`
+  flex-direction: column;
+  justify-content: start;
+`;
 export const ProfileCardWide = styled(CardWide)`
   max-width: 80%;
   min-width: 60%;

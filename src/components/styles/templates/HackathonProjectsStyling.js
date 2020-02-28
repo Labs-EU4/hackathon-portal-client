@@ -3,9 +3,11 @@ import { media } from "../../index";
 import BodyContainer from "../../atoms/BodyContainer";
 import { CardWide } from "../../atoms/Card";
 import { Paragraph } from "../../atoms/Paragraph";
+import React from "react";
 
-
-export const BodyContainerColumn = styled(BodyContainer)`
+export const BodyContainerColumn = styled(props => (
+  <BodyContainer {...props} />
+))`
   flex-direction: column;
   justify-content: start;
 `;
