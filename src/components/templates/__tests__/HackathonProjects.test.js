@@ -2,54 +2,52 @@ import React from "react";
 import { Router, Route } from "react-router";
 import { createMemoryHistory } from "history";
 import { Provider } from "react-redux";
-import { render, cleanup } from "@testing-library/react";
+import { render } from '@testing-library/react'
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
-import { useParams } from "react-router-dom";
-
 import HackathonProjects from "../HackathonProjects";
 
 const history = createMemoryHistory();
 
-afterEach(cleanup);
-
-let jestFeatures;
 let mockStore;
 let store;
+let component
 
 beforeEach(() => {
   mockStore = configureStore();
   store = mockStore(initialState);
 
-  jestFeatures = render(
-    history.push("/dashboard/event/2/projects"),
-
+  const url = '/1'
+  component = render(
     <Router history={history}>
       <Route>
         <Provider store={store}>
-          <HackathonProjects />
+          <HackathonProjects url={url} />
         </Provider>
       </Route>
     </Router>
-  );
+  )
 });
 
 describe("Component HackathonProjects.js renders properly", () => {
   it("asserts that the component renders properly", () => {
-    // console.log("THE COMPONENT BEING LOGGED", jestFeatures);
-    console.log(history);
-    expect(jestFeatures.debug()).toMatchSnapshot();
+    expect(component).toMatchSnapshot();
   });
-  //   it("the Image within the component is rendering properly", () => {
-  //     expect(
-  //       jestFeatures.getByAltText("Hackton - Organise hackathons")
-  //     ).toBeInTheDocument();
-  //   });
-  //   it("the text node Log In is rendering properly", () => {
-  //     expect(jestFeatures.queryByText(/Log In/i)).toBeInTheDocument();
-  //   });
-  //   it("the text node Sign Up is rendering properly", () => {
-  //     expect(jestFeatures.queryByText(/Sign Up/i)).toBeInTheDocument();
-  //   });
+
+  it("the h3 title within the component is rendering properly", () => {
+    expect(component.queryByText(/Submitted projects/i)).toBeInTheDocument();
+  });
+
+  it("the component renders the correct event title", () => {
+    expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
+  });
+
+  it("the component doesnt render the wrong conditional - ratings area", () => {
+    expect(component.queryByText(/View/i)).not.toBeInTheDocument();
+  });
+
+  it("the component doesnt render the wrong conditional - submissions area", () => {
+    expect(component.queryByText(/No projects were submitted/i)).not.toBeInTheDocument();
+  });
 });
