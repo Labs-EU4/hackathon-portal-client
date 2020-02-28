@@ -7,7 +7,7 @@ import HackathonProjectsPage from '../views/HackathonProjectsPage';
 import AddTeammates from '../templates/AddTeammates';
 import { media } from "../../assets/styles/variables/media";
 import { H2, H3 } from "../atoms/Heading";
-import { BoldSpan } from "../atoms/Span";
+import { BoldSpan, NormalSpan } from "../atoms/Span";
 import { CardWide } from "../atoms/Card";
 import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";
@@ -24,18 +24,10 @@ import {
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 
-export const NormalSpan = styled(BoldSpan)`
-  font-weight: normal;
+export const SpanContent = styled(BoldSpan)`
+  ${props => props.theme.fontSize.medium};
+  font-weight: bold; 
   text-transform: capitalize;
-`;
-
-export const Image = styled.img`
-  width: 60px;
-  height: 60px;
-  object-fit: cover;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border-radius: 30px;
 `;
 
 export const PTags = styled(Paragraph)`
@@ -49,12 +41,6 @@ export const PTags = styled(Paragraph)`
   text-transform: uppercase;
   margin: 5px 5px 5px 0;
   padding: 7px 8px;
-`;
-
-export const PHosted = styled(Paragraph)`
-  font-size: 14px;
-  color: darkgray;
-  margin: 3px 0 20px 0;
 `;
 
 const TitleContainer = styled.div`
@@ -274,81 +260,44 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                   </TagsGroup>
                 </EventCardLeftColumn>
                 <TagsCardWide>
-                  <div className="tags-header">
-                    {organizer_profile_pic === null ? (
-                      <Image src={userImg} alt="user_icon" />
-                    ) : (
-                      organizer_profile_pic.map((mem, index) => {
-                        let memberProfile;
-                        memberProfile = JSON.parse(mem);
-                        return (
-                          <Image
-                            key={index}
-                            src={memberProfile.avatar}
-                            alt="user_icon"
-                          />
-                        );
-                      })
-                    )}
-
-                    <div>
-                      <BoldSpan>Hosted by:</BoldSpan>
+                  <TagCard>
+                    <BoldSpan>Hosted by:</BoldSpan>
+                    <UserContainer>
+                      {organizer_profile_pic === null ? (
+                        <Image src={userImg} alt="user_icon" />
+                      ) : (
+                        organizer_profile_pic.map((mem, index) => {
+                          let memberProfile;
+                          memberProfile = JSON.parse(mem);
+                          return (
+                            <Image
+                              key={index}
+                              src={memberProfile.avatar}
+                              alt="user_icon"
+                            />
+                          );
+                        })
+                      )}
                       <PHosted>{organizer_name || emailUser}</PHosted>
-                    </div>
-                  </div>
-                  {/* <Details>
-                    <div>
-                      <Paragraph>
-                        <BoldSpan>Event starts:</BoldSpan>
-                        {formattedStartDate}
-                      </Paragraph>
-                    </div>
-
-                    <div>
-                      <Paragraph>
-                        <BoldSpan>Event ends:</BoldSpan>
-                        {formattedEndDate}
-                      </Paragraph>
-                    </div>
-                  </Details> */}
-                  <div className="status">
-                    <BoldSpan>
+                    </UserContainer>
+                  </TagCard>
+                  <TagCard>
+                    <NormalSpan>
                       Location: 
-                      <NormalSpan>{location}</NormalSpan>
-                    </BoldSpan>
-                    <BoldSpan>
+                      <SpanContent>&nbsp;{location}</SpanContent>
+                    </NormalSpan>
+                    <NormalSpan>
                       Status:
-                      <NormalSpan>{isOpen ? " Open" : " Closed"}</NormalSpan>
-                    </BoldSpan>
-                    <BoldSpan>
+                      <SpanContent>{isOpen ? " Open" : " Closed"}</SpanContent>
+                    </NormalSpan>
+                    <NormalSpan>
                       Participation type:{" "}
-                      <NormalSpan>{participation_type}</NormalSpan>
-                    </BoldSpan>
-                    <BoldSpan>
+                      <SpanContent>{participation_type}</SpanContent>
+                    </NormalSpan>
+                    <NormalSpan style={{ marginBottom: "15px" }}>
                       Participants:{" "}
-                      <NormalSpan>{registeredPartcipants}</NormalSpan>
-                    </BoldSpan>
-                  </div>
-                  <ButtonsDashGroup>
-                    {isEventCreator && !isEnded && (
-                      <Button
-                        anchor
-                        to={`/dashboard/event/${id}/edit`}
-                        color="blue"
-                      >
-                        Edit event
-                      </Button>
-                    )}
-                    {isEventCreator && !isEnded && (
-                      <Button
-                        // anchor
-                        // to={`/dashboard/event/${id}/judges`}
-                        onClick={() => setIsAddJudgeOpen(true)}
-                        color="green"
-                      >
-                        Add Judges
-                      </Button>
-                    )}
+                      <SpanContent>{registeredPartcipants}</SpanContent>
+                    </NormalSpan>
                     {!isTeamMember && isOpen ? (
                       <Button
                         color={isRegistered ? "grey" : "green"}
@@ -365,9 +314,46 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                         <Button disabled >Registration Closed</Button>
                       )
                     )}
+                  </TagCard>
+                  {/* <Details>
+                    <div>
+                      <Paragraph>
+                        <BoldSpan>Event starts:</BoldSpan>
+                        {formattedStartDate}
+                      </Paragraph>
+                    </div>
+
+                    <div>
+                      <Paragraph>
+                        <BoldSpan>Event ends:</BoldSpan>
+                        {formattedEndDate}
+                      </Paragraph>
+                    </div>
+                  </Details> */}
+                  <ButtonsDashGroup>
+                    {isEventCreator && !isEnded && (
+                      <Button
+                        anchor
+                        to={`/dashboard/event/${id}/edit`}
+                        color="blue"
+                      >
+                        Edit event
+                      </Button>
+                    )}
+                    {isEventCreator && !isEnded && (
+                      <Button
+                        size= "wide"
+                        color="green"
+                        onClick={() => setIsAddJudgeOpen(true)}
+                      >
+                        Add Judges
+                      </Button>
+                    )}
+                    
                     {isTeamLead && !isEnded && (
                       <Button
                         anchor
+                        size= "wide"
                         color="green"
                         to={`/dashboard/event/${id}/participant-teams`}
                       >
@@ -377,6 +363,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     {isRegistered && !isEnded && (
                       <Button
                         anchor
+                        size= "wide"
                         color="green"
                         to={`/dashboard/event/${id}/participant_submission`}
                       >
@@ -384,10 +371,9 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       </Button>
                     )}
                     <Button
-                      // anchor
+                      size= "wide"
                       color="blue"
                       onClick={() => setIsSubmissionsPageOpen(true)}
-                      // to={`/dashboard/event/${id}/projects`}
                     >
                       View submissions
                     </Button>
@@ -455,7 +441,7 @@ const StyledEventCard = styled(CardWide)`
 `;
 
 const EventCardLeftColumn = styled.div`
-  width: calc(100% - 350px);
+  width: calc(100% - 300px);
 
   @media ${media.tablet} {
     width: 100%;
@@ -480,7 +466,7 @@ const JudgesContainer = styled.div`
 
 const JudgeCard = styled.div`
   display: flex;
-  width: 33%; height: 80px;
+  width: 33%; min-width: 250px; height: 80px;
   margin: 10px 0;
 `;
 
@@ -496,41 +482,47 @@ const JudgeInfo = styled.div`
 `;
 
 export const TagsCardWide = styled(CardWide)`
-  position: fixed; left: calc(100% - 625px); top: 70px;
-  width: 350px; max-height: calc(100vh - 130px);
-  border: 3px solid ${props => props.theme.color.primary.regular};
+  ${props => props.theme.shadow.box};
+  position: fixed; left: calc(100% - 585px); top: 70px;
+  width: 300px; max-height: calc(100vh - 130px);
+  border: 1px solid ${props => props.theme.color.primary.regular};
+  padding: 8px 5px;
   overflow-y: scroll;
 
   @media ${media.tablet} {
     width: 100%;
   }
-
-  div {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .tags-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    border-bottom: 1px solid lightgray;
-  }
-
-  .status {
-    padding: 30px 0;
-    margin: 0 0 30px 0;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    border-bottom: 1px solid lightgray;
-  }
 `;
 
-const ExitButton = styled.p`
+export const TagCard = styled.div`
+  ${props => props.theme.flex.column};
+  border: 2px solid ${props => props.theme.color.grey.light};
+  margin-bottom: 10px;
+  padding: 10px;
+`;
+
+export const UserContainer = styled.div`
+  ${props => props.theme.flex.columnCenter};
+  padding-bottom: 0;
+`;
+
+export const Image = styled.img`
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin: 10px 0 5px;
+`;
+
+export const PHosted = styled(Paragraph)`
+  ${props => props.theme.fontSize.medium};
+  color: darkgray;
+  margin-bottom: 0;
+`;
+
+export const ExitButton = styled.p`
   ${props => props.theme.flex.center};
-  position: fixed; top: 75px; left: 35px;
+  position: fixed; top: 77px; left: 35px;
   width: 30px; height: 30px;
   background-image: linear-gradient(to right, 
     ${props => props.theme.color.white.regular} 50%, 

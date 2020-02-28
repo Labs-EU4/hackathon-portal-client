@@ -8,9 +8,17 @@ export const Span = styled.span`
 `;
 
 export const BoldSpan = styled(Span)`
-  font-size: 15px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
   color: ${props => props.theme.color.black.regular};
-  margin: 0 5px 0 0;
+  text-transform: uppercase;
+`;
+
+export const NormalSpan = styled.span`
+  margin-bottom: 5px;
+  font-size: 1.5rem; font-weight: normal;
+  color: ${props => props.theme.color.grey.light};
+  text-transform: uppercase;
 `;
 
 export const StrikedSpan = styled(Span)`

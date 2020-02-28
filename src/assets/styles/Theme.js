@@ -60,9 +60,11 @@ export const theme = {
         }
     },
     fontSize: {
-        smaller: "font-size: 2rem",
+        smaller: "font-size: 1.2rem",
         small: "font-size: 1.4rem;",
         base: "font-size: 1.6rem;",
+        medium: "font-size: 1.8rem",
+        large: "font-size: 2rem",
         h1: "font-size: 7.5rem;",
         h2: "font-size: 5.5rem;",
         h3: "font-size: 3.5rem;",
