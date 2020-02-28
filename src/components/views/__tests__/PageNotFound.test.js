@@ -29,19 +29,19 @@ beforeEach(() => {
   );
 });
 
-describe("Shows all the text nodes on EventOnboarding.js", () => {
-  //   it("Should display the h3 title", () => {
-  //     expect(jestFeatures.getByText("My hackathons")).not.toBeDisabled();
-  //   });
+describe("Shows all the text nodes on PageNotFound.js", () => {
+    // it("Should display the h3 title", () => {
+    //   expect(jestFeatures.getByText("My hackathons")).not.toBeDisabled();
+    // });
   //   it("should be displaying the button text node,to create a new event ", () => {
   //     let form = () => jestFeatures.getByText("Create New");
 
   //     expect(form()).toBeInTheDocument();
   //   });
 
-  //   it("displays the h3 element ", () => {
-  //     expect(jestFeatures.getByAltText("Global hackathons")).toBeInTheDocument();
-  //   });
+    it("displays the img element shown for the 404 error ", () => {
+      expect(jestFeatures.getByAltText("404 icon")).toBeInTheDocument();
+    });
 
   //   it("displays a part of the description from an already created event", () => {
   //     expect(jestFeatures.getByText(/macbook/)).toBeInTheDocument();

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on EventOnboarding.js renders without crashing  1`] = `
+exports[`Shows all the text nodes on PageNotFound.js renders without crashing  1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
