@@ -9,9 +9,9 @@ export const UserTypes = {
   PURGE: "PURGE",
   FETCH_USER_PROFILE: "FETCH_USER_PROFILE",
   UPDATE_USER_PROFILE: "UPDATE_USER_PROFILE",
-  RESET_PASSWORD: 'RESET_PASSWORD',
-  FORGOT_PASSWORD: 'FORGOT_PASSWORD',
-  VERIFY_EMAIL: 'VERIFY_EMAIL'
+  RESET_PASSWORD: "RESET_PASSWORD",
+  FORGOT_PASSWORD: "FORGOT_PASSWORD",
+  VERIFY_EMAIL: "VERIFY_EMAIL"
 };
 
 export const login = (email, password) => {
@@ -55,7 +55,7 @@ export const setUserProfile = details => {
   };
 };
 
-export const resetUser = (history) => {
+export const resetUser = history => {
   return { type: UserTypes.PURGE, history };
 };
 
@@ -79,15 +79,15 @@ export const resetPassword = (password, history) => {
     type: UserTypes.RESET_PASSWORD,
     payload: password,
     history
-  }
-}
+  };
+};
 
 export const forgotPassword = (email, history) => {
   return {
     type: UserTypes.FORGOT_PASSWORD,
     payload: email,
     history
-  }
-}
+  };
+};
 
 export const verifyEmail = () => ({ type: UserTypes.VERIFY_EMAIL });
