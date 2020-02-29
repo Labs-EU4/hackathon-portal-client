@@ -3,6 +3,7 @@ import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
 import * as actions from "../actions";
 import * as types from "../actions";
+import jwtDecode from "jwt-decode";
 
 afterEach(cleanup);
 
@@ -43,5 +44,23 @@ describe("Ensures that the action creators functions are working properly", () =
     };
 
     expect(actions.socialAuthLoad()).toEqual(expectedAction);
+  });
+
+  it("should create an action to register", () => {
+    const expectedAction = {
+      payload: {
+        email: "testing@testing.com",
+        userId: "test88",
+        token:
+          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RpbmdAdGVzdGluZy5jb20iLCJ1c2VySWQiOiJ0ZXN0ODgiLCJqdGkiOiI5ODliNjU0MC0zYzYzLTRmYmEtYmQzZi03ZTE4YjllNzk1NWMiLCJpYXQiOjE1ODMwMDU3OTAsImV4cCI6MTU4MzAwOTM5MH0.yA1Q5W_-JJOvOJ_o4A9Jx2HyRyIcO1RVc-0aVWH9t50"
+      },
+      type: types.UserTypes.SET_USER
+    };
+
+    expect(
+      actions.setUser(
+        "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InRlc3RpbmdAdGVzdGluZy5jb20iLCJ1c2VySWQiOiJ0ZXN0ODgiLCJqdGkiOiI5ODliNjU0MC0zYzYzLTRmYmEtYmQzZi03ZTE4YjllNzk1NWMiLCJpYXQiOjE1ODMwMDU3OTAsImV4cCI6MTU4MzAwOTM5MH0.yA1Q5W_-JJOvOJ_o4A9Jx2HyRyIcO1RVc-0aVWH9t50"
+      )
+    ).toEqual(expectedAction);
   });
 });
