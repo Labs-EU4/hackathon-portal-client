@@ -80,4 +80,12 @@ describe("Ensures that the action creators functions are working properly", () =
 
     expect(actions.resetUser("/api/homepage")).toEqual(expectedAction);
   });
+  it("should create an action for fetchUserProfile", () => {
+    const expectedAction = {
+      type: types.UserTypes.FETCH_USER_PROFILE,
+      payload: "jake22"
+    };
+
+    expect(actions.fetchUserProfile("jake22")).toEqual(expectedAction);
+  });
 });
