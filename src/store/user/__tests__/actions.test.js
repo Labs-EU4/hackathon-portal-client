@@ -72,4 +72,12 @@ describe("Ensures that the action creators functions are working properly", () =
 
     expect(actions.setUserProfile("high level coder")).toEqual(expectedAction);
   });
+  it("should create an action for resetUser", () => {
+    const expectedAction = {
+      type: types.UserTypes.PURGE,
+      history: "/api/homepage"
+    };
+
+    expect(actions.resetUser("/api/homepage")).toEqual(expectedAction);
+  });
 });
