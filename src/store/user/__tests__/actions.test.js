@@ -127,4 +127,11 @@ describe("Ensures that the action creators functions are working properly", () =
       actions.forgotPassword("jake22@gmail.com", "/api/dashboard")
     ).toEqual(expectedAction);
   });
+  it("should create an action for verifyEmail", () => {
+    const expectedAction = {
+      type: types.UserTypes.VERIFY_EMAIL
+    };
+
+    expect(actions.verifyEmail()).toEqual(expectedAction);
+  });
 });
