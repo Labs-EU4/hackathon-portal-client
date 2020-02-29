@@ -46,7 +46,7 @@ describe("Ensures that the action creators functions are working properly", () =
     expect(actions.socialAuthLoad()).toEqual(expectedAction);
   });
 
-  it("should create an action to register", () => {
+  it("should create an action for setUser, using JWT", () => {
     const expectedAction = {
       payload: {
         email: "testing@testing.com",
