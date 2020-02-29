@@ -36,4 +36,12 @@ describe("Ensures that the action creators functions are working properly", () =
       actions.register("testing@testing.com", "testingtesting", "judge", "best")
     ).toEqual(expectedAction);
   });
+
+  it("should create an action for the social auth", () => {
+    const expectedAction = {
+      type: types.UserTypes.SOCIAL_AUTH
+    };
+
+    expect(actions.socialAuthLoad()).toEqual(expectedAction);
+  });
 });

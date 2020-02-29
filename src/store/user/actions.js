@@ -35,8 +35,6 @@ export const register = (email, password, role, team) => {
   };
 };
 
-
-
 export const socialAuthLoad = () => {
   return {
     type: UserTypes.SOCIAL_AUTH
