@@ -21,8 +21,6 @@ export const login = (email, password) => {
   };
 };
 
-console.log("uoooooooo", login());
-
 export const register = (email, password, role, team) => {
   return {
     type: UserTypes.REGISTER,

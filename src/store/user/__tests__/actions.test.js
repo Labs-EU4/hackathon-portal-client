@@ -1,9 +1,7 @@
 import { cleanup } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
-import { initialState } from "../../../utils/mockData";
 import * as actions from "../actions";
 import * as types from "../actions";
-import jwtDecode from "jwt-decode";
 
 afterEach(cleanup);
 
