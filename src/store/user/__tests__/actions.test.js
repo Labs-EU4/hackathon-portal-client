@@ -114,4 +114,17 @@ describe("Ensures that the action creators functions are working properly", () =
       expectedAction
     );
   });
+  it("should create an action for forgotPassword", () => {
+    let history = "/api/dashboard";
+
+    const expectedAction = {
+      type: types.UserTypes.FORGOT_PASSWORD,
+      payload: "jake22@gmail.com",
+      history
+    };
+
+    expect(
+      actions.forgotPassword("jake22@gmail.com", "/api/dashboard")
+    ).toEqual(expectedAction);
+  });
 });
