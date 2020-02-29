@@ -101,4 +101,17 @@ describe("Ensures that the action creators functions are working properly", () =
       expectedAction
     );
   });
+  it("should create an action for resetPassword", () => {
+    let history = "/api/dashboard";
+
+    const expectedAction = {
+      type: types.UserTypes.RESET_PASSWORD,
+      payload: "safePass",
+      history
+    };
+
+    expect(actions.resetPassword("safePass", "/api/dashboard")).toEqual(
+      expectedAction
+    );
+  });
 });
