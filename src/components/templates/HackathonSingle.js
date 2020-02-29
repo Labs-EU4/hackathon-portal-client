@@ -193,7 +193,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     {/* Here it will go image of the event */}
                     <EventImg src={eventImg} alt="event-image" /> 
                   </EventImageContainer>
-                  <ContentTitle text="Judges" />
+                  <ContentTitle text="Judges" {...{isSlideForm}} />
                   <JudgesContainer>
                     {team.length === 0 ? (
                         <Paragraph>
@@ -240,21 +240,21 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       )
                     }
                   </JudgesContainer>
-                  <ContentTitle text="About this event" />
+                  <ContentTitle text="About this event" {...{isSlideForm}} />
                   <Paragraph>
                     {description}
                   </Paragraph>
-                  <ContentTitle text="Guidelines" />
+                  <ContentTitle text="Guidelines" {...{isSlideForm}} />
                   <Paragraph>
                     {guidelines}
                   </Paragraph>
-                  <ContentTitle text="Rubrics" />
+                  <ContentTitle text="Rubrics" {...{isSlideForm}} />
                   <TagsGroup>
                     {rubrics.map(rubric => {
                       return <PTags key={rubric}>{toTittleCase(rubric)}</PTags>;
                     })}
                   </TagsGroup>
-                  <ContentTitle text="Event Tags" />
+                  <ContentTitle text="Event Tags" {...{isSlideForm}} />
                   <TagsGroup>
                     {tag_name && tag_name.length !== 0 ? (
                       tag_name.map((tagged, index) => {
@@ -500,9 +500,8 @@ const JudgeInfo = styled.div`
 
 export const TagsCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
-  position: fixed; 
-  left: ${props => props.active ? 'calc(100% - 330px)' : 'calc(100% - 585px)'}; 
-  top: ${props => props.active ? '10px' : '70px'};
+  position: fixed; left: calc(100% - 585px); top: 70px;
+  display: ${({ active }) => active && 'none'};
   width: 300px; max-height: calc(100vh - 130px);
   border: 1px solid ${props => props.theme.color.primary.regular};
   padding: 8px 5px;
@@ -563,9 +562,9 @@ export const ExitButton = styled.p`
 
 
 //NEW COMPONENT
-const ContentTitle = ({text}) => {
+const ContentTitle = ({ text, isSlideForm }) => {
   return (
-    <StyledContentTitle>
+    <StyledContentTitle active={isSlideForm}>
       <p>{text}</p>
     </StyledContentTitle>
   );
@@ -582,7 +581,7 @@ const StyledContentTitle = styled.div`
   p {
     display: flex; align-items: baseline;
     position: absolute; top: 100%;
-    background-color: ${props => props.theme.color.grey.bg};
+    background-color: ${props => props.active ? 'transparent' : props.theme.color.grey.bg };
     padding: 5px 10px 5px 0;
     font-size: 2rem; font-weight: bold;
     text-transform: uppercase;

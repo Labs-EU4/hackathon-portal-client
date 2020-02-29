@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 // import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 import { media } from "../../assets/styles/variables/media";
 // import WideBody from "../atoms/WideBody";
 // import BodyContainer from "../atoms/BodyContainer";
+import HackathonProjectPage from '../views/HackathonProjectPage';
 import { H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
@@ -21,6 +22,8 @@ import Spinner from "../molecules/Spinner";
 
 const HackathonProjects = ({ id, setIsSubmissionsPageOpen }) => {
   // const { id } = useParams();
+  const [ isProjectPageOpen, setIsProjectPageOpen ] = useState(false);
+  const [ projectId, setProjectId ] = useState(null);
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
@@ -29,6 +32,50 @@ const HackathonProjects = ({ id, setIsSubmissionsPageOpen }) => {
   useEffect(() => {
     fetchSubmissions();
   }, [fetchSubmissions]);
+
+  const viewProjectHandler = (submissionId) => {
+    setProjectId(submissionId);
+    setIsProjectPageOpen(true);
+  }
+
+  const renderSubmission = (s) => {
+    return (
+      <SubmissionEntry key={s.id}>
+        <Team>{s.participant_or_team_name || s.project_title}</Team>
+        <SubmissionContent>
+          <Description>{s.project_writeups}</Description>
+          {s.average_rating > 0 ? (
+            <RatingGroup>
+              <Rating
+                initialRating={s.average_rating}
+                readonly
+                emptySymbol={
+                  <img alt="Rubric star" src={emptyStar} />
+                }
+                fullSymbol={
+                  <img alt="Rubric star" src={fullStar} />
+                }
+              />
+              <JudgeCount>
+                {`${s.acted_judges}/${s.number_of_judges +
+                  1} voted`}
+              </JudgeCount>
+            </RatingGroup>
+          ) : (
+            <Paragraph strong>Not rated</Paragraph>
+          )}
+          <Button
+            // anchor
+            color="blue"
+            // to={`/dashboard/event/${id}/project/${s.id}`}
+            onClick={() => viewProjectHandler(s.id)}
+          >
+            View Project
+          </Button>
+        </SubmissionContent>
+      </SubmissionEntry>
+    );
+  };
 
   return (
     <StyledWideBody>
@@ -46,43 +93,7 @@ const HackathonProjects = ({ id, setIsSubmissionsPageOpen }) => {
               {submissions.length === 0 && (
                 <StyledParagraph strong>No projects were submitted for this hackathon</StyledParagraph>
               )}
-              {submissions.map((s, i) => {
-                return (
-                  <SubmissionEntry key={s.id}>
-                    <Team>{s.participant_or_team_name || s.project_title}</Team>
-                    <SubmissionContent>
-                      <Description>{s.project_writeups}</Description>
-                      {s.average_rating > 0 ? (
-                        <RatingGroup>
-                          <Rating
-                            initialRating={s.average_rating}
-                            readonly
-                            emptySymbol={
-                              <img alt="Rubric star" src={emptyStar} />
-                            }
-                            fullSymbol={
-                              <img alt="Rubric star" src={fullStar} />
-                            }
-                          />
-                          <JudgeCount>
-                            {`${s.acted_judges}/${s.number_of_judges +
-                              1} voted`}
-                          </JudgeCount>
-                        </RatingGroup>
-                      ) : (
-                        <Paragraph strong>Not rated</Paragraph>
-                      )}
-                      <Button
-                        anchor
-                        color="blue"
-                        to={`/dashboard/event/${id}/project/${s.id}`}
-                      >
-                        View Project
-                      </Button>
-                    </SubmissionContent>
-                  </SubmissionEntry>
-                );
-              })}
+              {submissions.map(s => renderSubmission(s))}
             </StyledRowBody>
             {/* <Button anchor to={`/dashboard/event/${id}`} color="grey"> */}
             <Button onClick={() => setIsSubmissionsPageOpen(false)} color="grey">
@@ -91,6 +102,9 @@ const HackathonProjects = ({ id, setIsSubmissionsPageOpen }) => {
           </>
         )}
       </StyledCardWide>
+      {
+        isProjectPageOpen && <HackathonProjectPage {...{id}} {...{projectId}} {...{setIsProjectPageOpen}}/>
+      }
     </StyledWideBody>
   );
 };

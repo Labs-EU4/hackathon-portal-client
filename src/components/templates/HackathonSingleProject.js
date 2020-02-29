@@ -1,18 +1,16 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Rating from "react-rating";
-import { useParams, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import { media } from "../../assets/styles/variables/media";
 // import UserHeader from "../organisms/UserHeader";
 // import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
-import BodyContainer from "../atoms/BodyContainer";
 import { H3, H4 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { Column } from "../atoms/Column";
-import { CardWide } from "../atoms/Card";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import Label from "../atoms/Label";
@@ -21,10 +19,9 @@ import fullStar from "../../assets/images/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
 import { useJudges, useGrades, useSubmissions } from "../../hooks";
 
-const HackathonSingleProject = () => {
+const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
   const history = useHistory();
   const dispatch = useDispatch();
-  const { id, projectId } = useParams();
   const { event_title, rubrics } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
@@ -105,16 +102,14 @@ const HackathonSingleProject = () => {
   };
 
   return (
-    <WideBody>
-      <BodyContainerColumn>
-        <RowHead>
-          <H3>
-            Submitted project for <Strong>"{event_title}"</Strong>
-          </H3>
-        </RowHead>
-
+    <StyledWideBody>
         <Column>
-          <Card>
+          <ProjectCard>
+            <RowHead>
+              <H3>
+                Submitted project for <Strong>"{event_title}"</Strong>
+              </H3>
+            </RowHead>
             <SubmissionEntry>
               <Team>
                 <H3>
@@ -126,7 +121,7 @@ const HackathonSingleProject = () => {
               <Description id="project_writeup">
                 <Paragraph>{submission?.project_writeups}</Paragraph>
                 {submission?.git_url && (
-                  <>
+                  <CenterItems>
                     <Label htmlFor="github_url">GitHub URL</Label>
                     <Paragraph id="github_url">
                       <a
@@ -137,10 +132,10 @@ const HackathonSingleProject = () => {
                         {submission?.git_url}
                       </a>
                     </Paragraph>
-                  </>
+                  </CenterItems>
                 )}
                 {submission?.video_url && (
-                  <>
+                  <CenterItems>
                     <Label htmlFor="video_url">Video URL</Label>
                     <Paragraph id="video_url">
                       <a
@@ -151,7 +146,7 @@ const HackathonSingleProject = () => {
                         {submission?.video_url}
                       </a>
                     </Paragraph>
-                  </>
+                  </CenterItems>
                 )}
               </Description>
               {isJudge && !hasGraded ? (
@@ -241,9 +236,8 @@ const HackathonSingleProject = () => {
             </SubmissionEntry>
             <ButtonGroup>
               <Button
-                anchor
-                to={`/dashboard/event/${id}/projects`}
                 color="grey"
+                onClick={() => setIsProjectPageOpen(false)}
               >
                 Back to projects
               </Button>
@@ -253,22 +247,33 @@ const HackathonSingleProject = () => {
                 </Button>
               )}
             </ButtonGroup>
-          </Card>
+          </ProjectCard>
         </Column>
-      </BodyContainerColumn>
-    </WideBody>
+    </StyledWideBody>
   );
 };
 
 export default HackathonSingleProject;
 
-const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
-  justify-content: start;
+// const BodyContainerColumn = styled(BodyContainer)`
+//   flex-direction: column;
+//   justify-content: start;
+// `;
+
+const StyledWideBody = styled(WideBody)`
+  position: relative;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  z-index: 300;
+  border: 3px solid blue;
 `;
 
-const Card = styled(CardWide)`
-  width: 800px;
+const ProjectCard = styled.div`
+  min-width: 80%; height: calc(100vh - 80px);
+  background-color: ${props => props.theme.color.white.regular};
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: 3px 3px 10px black;
 `;
 
 const Team = styled.div`
@@ -300,7 +305,7 @@ const SubmissionEntry = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 20px 0;
 
   &:first-child {
@@ -313,6 +318,10 @@ const SubmissionEntry = styled.div`
   @media ${media.tablet} {
     flex-direction: column;
   }
+`;
+
+const CenterItems = styled.div`
+  ${props => props.theme.flex.center};
 `;
 
 const Rubrics = styled.div`
