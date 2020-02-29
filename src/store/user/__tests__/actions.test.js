@@ -88,4 +88,17 @@ describe("Ensures that the action creators functions are working properly", () =
 
     expect(actions.fetchUserProfile("jake22")).toEqual(expectedAction);
   });
+  it("should create an action for updateUserProfile", () => {
+    let history = "/api/dashboard";
+
+    const expectedAction = {
+      type: types.UserTypes.UPDATE_USER_PROFILE,
+      payload: "new details",
+      history
+    };
+
+    expect(actions.updateUserProfile("new details", "/api/dashboard")).toEqual(
+      expectedAction
+    );
+  });
 });
