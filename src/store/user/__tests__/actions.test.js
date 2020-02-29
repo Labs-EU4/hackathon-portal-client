@@ -63,4 +63,13 @@ describe("Ensures that the action creators functions are working properly", () =
       )
     ).toEqual(expectedAction);
   });
+
+  it("should create an action for setUserProfile", () => {
+    const expectedAction = {
+      payload: "high level coder",
+      type: types.UserTypes.SET_USER_PROFILE
+    };
+
+    expect(actions.setUserProfile("high level coder")).toEqual(expectedAction);
+  });
 });
