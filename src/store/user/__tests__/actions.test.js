@@ -21,19 +21,19 @@ describe("Ensures that the action creators functions are working properly", () =
     );
   });
 
-//   it("should create an action to Login", () => {
-//     const expectedAction = {
-//       payload: {
-//         email: "testing@testing.com",
-//         password: "testingtesting",
-//         role: "judge",
-//         team: "best"
-//       },
-//       type: types.UserTypes.REGISTER
-//     };
+  it("should create an action to register", () => {
+    const expectedAction = {
+      payload: {
+        email: "testing@testing.com",
+        password: "testingtesting",
+        role: "judge",
+        team: "best"
+      },
+      type: types.UserTypes.REGISTER
+    };
 
-//     expect(
-//       actions.register("testing@testing.com", "testingtesting", "judge", "best")
-//     ).toEqual(expectedAction);
-//   });
+    expect(
+      actions.register("testing@testing.com", "testingtesting", "judge", "best")
+    ).toEqual(expectedAction);
+  });
 });
