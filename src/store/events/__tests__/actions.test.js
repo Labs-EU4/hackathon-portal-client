@@ -68,4 +68,12 @@ describe("Ensures that the action creators functions are working properly", () =
     };
     expect(actions.setEvents(events)).toEqual(expectedAction);
   });
+  it("should create an action for setEventCategories", () => {
+    let categories = initialState.events.categories;
+    const expectedAction = {
+      payload: categories,
+      type: types.EventsTypes.SET_EVENT_CATEGORIES
+    };
+    expect(actions.setEventCategories(categories)).toEqual(expectedAction);
+  });
 });
