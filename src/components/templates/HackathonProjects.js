@@ -92,7 +92,6 @@ const HackathonProjects = ({ id, setIsSubmissionsPageOpen }) => {
               )}
               {submissions.map(s => renderSubmission(s))}
             </StyledRowBody>
-            {/* <Button anchor to={`/dashboard/event/${id}`} color="grey"> */}
             <Button onClick={() => setIsSubmissionsPageOpen(false)} color="grey">
               Back to event
             </Button>

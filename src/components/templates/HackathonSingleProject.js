@@ -5,12 +5,9 @@ import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import { media } from "../../assets/styles/variables/media";
-// import UserHeader from "../organisms/UserHeader";
-// import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
 import { H3, H4 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
-import { Column } from "../atoms/Column";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import Label from "../atoms/Label";
@@ -116,27 +113,26 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
                 submission?.project_title}
             </H3>
           </Team>
-          <Label htmlFor="project_writeup">Project writeup</Label>
           <Description id="project_writeup">
-            <Paragraph>{submission?.project_writeups}</Paragraph>
+            <StyledParagraph>{submission?.project_writeups}</StyledParagraph>
             <CenterItems>
               {submission?.git_url && (
-                <Button
+                <StyledButton
                   anchor
                   color="green"
                   href={submission?.git_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                >GitHub URL</Button>
+                >GitHub URL</StyledButton>
               )}
               {submission?.video_url && (
-                <Button
+                <StyledButton
                   anchor
                   color="green"
                   href={submission?.video_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                >Video URL</Button>
+                >Video URL</StyledButton>
               )}
             </CenterItems>
           </Description>
@@ -148,7 +144,6 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
                 provided below and leave a feedback explaining your
                 grading.
               </Paragraph>
-              <Label htmlFor="rubrics"></Label>
               <Rubrics id="rubrics">
                 {rubrics.map(rubric => {
                   return (
@@ -188,7 +183,6 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
             </JudgeView>
           ) : (
             <JudgeView>
-              <Label htmlFor="rubrics"></Label>
               <Rubrics id="rubrics">
                 {Object.keys(averages).map(rubric => {
                   return rubric !== "comments" ? (
@@ -278,11 +272,9 @@ const Strong = styled.strong`
 `;
 
 const Description = styled.div`
-  display: block;
-  margin: 0;
   border-bottom: 1px solid #c8c8c8;
-  padding: 0 0 20px 0;
-  margin: 0 0 20px 0;
+  margin-bottom: 20px;
+  padding: 20px; padding-top: 0;
 `;
 
 const SubmissionEntry = styled.div`
@@ -291,7 +283,7 @@ const SubmissionEntry = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 20px;
 
   &:first-child {
     padding-top: 0;
@@ -310,35 +302,29 @@ const CenterItems = styled.div`
 `;
 
 const Rubrics = styled.div`
-  font-family: "Roboto", sans-serif;
+  ${props => props.theme.flex.center};
+  flex-wrap: wrap;
   width: 100%;
   border-bottom: 1px solid #c8c8c8;
-  padding: 10px 0 20px 0;
-  margin: 0 0 20px 0;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  padding: 0 10px 20px;
 
   @media ${media.tablet} {
     justify-content: center;
   }
 
   div {
-    margin: 0 30px 20px 0;
-    display: flex;
-    flex-direction: column;
+    ${props => props.theme.flex.columnCenter};
+    margin: 0 10px;
   }
 `;
 
 const RubricRow = styled.div`
-  display: flex;
+  display: flex; justify-content: center;
   align-items: center;
   font-weight: bold;
 
   & > span {
-    margin: 10px 0 0 10px;
+    margin-top: 5px;
   }
 `;
 
@@ -374,6 +360,7 @@ const JudgeView = styled.div`
 const StyledParagraph = styled(Paragraph)`
   ${props => props.theme.flex.center};
   margin: 10px 0;
+  text-align: center;
   font-weight: bold;
 `;
 
@@ -384,4 +371,8 @@ const ButtonGroup = styled.div`
     display: block;
     margin: 0 0 10px 0;
   }
+`;
+
+const StyledButton = styled(Button)`
+  margin: 0 5px;
 `;
