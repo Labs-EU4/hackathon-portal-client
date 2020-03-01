@@ -51,12 +51,12 @@ describe("Ensures that the action creators functions are working properly for ev
     expect(actions.unregisterEvent(eventId, history)).toEqual(expectedAction);
   });
 
-  //   it("should create an action for fetchEventCategories", () => {
-  //     const expectedAction = {
-  //       type: types.EventsTypes.FETCH_EVENT_CATEGORIES
-  //     };
-  //     expect(actions.fetchEventCategories()).toEqual(expectedAction);
-  //   });
+  it("should create an action for getUserRegisteredEvent", () => {
+    const expectedAction = {
+      type: types.EventParticipantTypes.GET_USER_REGISTERED_EVENTS
+    };
+    expect(actions.getUserRegisteredEvent()).toEqual(expectedAction);
+  });
   //   it("should create an action for setEvents", () => {
   //     let events = initialState.events.data;
   //     const expectedAction = {
