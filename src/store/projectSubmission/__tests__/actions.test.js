@@ -30,7 +30,7 @@ describe("Ensures that the action creators functions are working properly", () =
 
     expect(actions.setSubmissions(submissions)).toEqual(expectedAction);
   });
-  //   it("should create an action for updateEvent", () => {
+  //   it("should create an action for updateEvent", () => 
   //     let history = "/dashboard/event/1/edit";
   //     const expectedAction = {
   //       payload: initialState.events.data[0],
