@@ -46,4 +46,13 @@ describe("Ensures that the action creators functions are working properly", () =
       )
     ).toEqual(expectedAction);
   });
+  it("should create an action for deleteEvent", () => {
+    const expectedAction = {
+      payload: initialState.events.data[0].id,
+      type: types.EventsTypes.DELETE_EVENT
+    };
+    expect(actions.deleteEvent(initialState.events.data[0].id)).toEqual(
+      expectedAction
+    );
+  });
 });
