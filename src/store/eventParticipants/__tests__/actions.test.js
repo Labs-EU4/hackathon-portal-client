@@ -28,18 +28,17 @@ describe("Ensures that the action creators functions are working properly for ev
 
     expect(actions.setEventParticipants(participants)).toEqual(expectedAction);
   });
-  //   it("should create an action for updateEvent", () => {
-  //     let history = "/dashboard/event/1/edit";
-  //     const expectedAction = {
-  //       payload: initialState.events.data[0],
-  //       history: history,
-  //       type: types.EventsTypes.UPDATE_EVENT
-  //     };
+  it("should create an action for registerEvent", () => {
+    let history = "/dashboard/new";
+    let eventId = initialState.events.data[0].id;
+    const expectedAction = {
+      payload: eventId,
+      history: history,
+      type: types.EventParticipantTypes.REGISTER_EVENT
+    };
 
-  //     expect(actions.updateEvent(initialState.events.data[0], history)).toEqual(
-  //       expectedAction
-  //     );
-  //   });
+    expect(actions.registerEvent(eventId, history)).toEqual(expectedAction);
+  });
   //   it("should create an action for deleteEvent", () => {
   //     const expectedAction = {
   //       payload: initialState.events.data[0].id,
