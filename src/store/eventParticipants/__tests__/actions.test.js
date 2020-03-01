@@ -39,15 +39,18 @@ describe("Ensures that the action creators functions are working properly for ev
 
     expect(actions.registerEvent(eventId, history)).toEqual(expectedAction);
   });
-  //   it("should create an action for deleteEvent", () => {
-  //     const expectedAction = {
-  //       payload: initialState.events.data[0].id,
-  //       type: types.EventsTypes.DELETE_EVENT
-  //     };
-  //     expect(actions.deleteEvent(initialState.events.data[0].id)).toEqual(
-  //       expectedAction
-  //     );
-  //   });
+  it("should create an action for unregisterEvent", () => {
+    let history = "/dashboard/events/1/remove";
+    let eventId = initialState.events.data[0].id;
+    const expectedAction = {
+      payload: eventId,
+      history: history,
+      type: types.EventParticipantTypes.UNREGISTER_EVENT
+    };
+
+    expect(actions.unregisterEvent(eventId, history)).toEqual(expectedAction);
+  });
+
   //   it("should create an action for fetchEventCategories", () => {
   //     const expectedAction = {
   //       type: types.EventsTypes.FETCH_EVENT_CATEGORIES
