@@ -13,7 +13,7 @@ const UserHeader = () => {
   return (
     <WideHeader>
       <HeaderContainer>
-        <Link to="/dashboard">
+        <Link to="/">
           <Logo />
         </Link>
         <Navigation>

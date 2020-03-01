@@ -67,7 +67,7 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
         </UserContainer>
         <StyledButton
           exact 
-          anchor
+          link
           to="/dashboard/new" 
           color="primary"
           size="wide"

@@ -205,11 +205,6 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                             {
                               member.image_url === null ? (
                                 <JudgeImg
-                                  style={{
-                                    width: "80px",
-                                    objectFit: "cover",
-                                    display: "inline-block"
-                                  }}
                                   alt="team member profile pic"
                                   src={userImg}
                                 />
@@ -220,11 +215,6 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                                   return (
                                     <JudgeImg
                                       key={index}
-                                      style={{
-                                        width: "80px",
-                                        objectFit: "cover",
-                                        borderRadius: "50%"
-                                      }}
                                       alt="team member profile pic"
                                       src={memberProfile.avatar}
                                     />
@@ -312,9 +302,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                           onClick: individualParticipation && handleRegistration,
                           to: !individualParticipation && `/dashboard/event/${id}/participant-teams`
                         }}
-                      >
-                        {isRegistered ? `Unregister` : `Register`}
-                      </Button>
+                      >{isRegistered ? `Unregister` : `Register`}</Button>
                     ) : (
                       !isOpen && (
                         <Button disabled >Registration Closed</Button>
@@ -339,10 +327,11 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                   <ButtonsDashGroup>
                     {isEventCreator && !isEnded && (
                       <Button
-                        anchor
+                        link
+                        color="blue"
+                        uppercase
                         to={`/dashboard/event/${id}/edit`}
                         onClick={() => setIsEventModalOpen(false)}
-                        color="blue"
                       >
                         Edit event
                       </Button>
@@ -351,6 +340,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       <Button
                         size= "wide"
                         color="green"
+                        uppercase
                         onClick={() => setIsAddJudgeOpen(true)}
                       >
                         Add Judges
@@ -359,9 +349,10 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     
                     {isTeamLead && !isEnded && (
                       <Button
-                        anchor
+                        link
                         size= "wide"
                         color="green"
+                        uppercase
                         to={`/dashboard/event/${id}/participant-teams`}
                       >
                         Add teamate
@@ -369,9 +360,10 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     )}
                     {isRegistered && !isEnded && (
                       <Button
-                        anchor
+                        link
                         size= "wide"
                         color="green"
+                        uppercase
                         to={`/dashboard/event/${id}/participant_submission`}
                       >
                         Submit Project
@@ -380,6 +372,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     <Button
                       size= "wide"
                       color="blue"
+                      uppercase
                       onClick={() => setIsSubmissionsPageOpen(true)}
                     >
                       View submissions

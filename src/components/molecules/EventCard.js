@@ -33,7 +33,7 @@ const EventCard = ({ event, eventModalHandler }) => {
               onClick={() => eventModalHandler(event_id || id)}
             >More Info</Button>
             <StyledBtn 
-              anchor 
+              link
               to={`/`}
             >Join Event</StyledBtn>
           </EventCTA>

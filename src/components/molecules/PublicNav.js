@@ -21,18 +21,23 @@ const PublicNav = () => {
     <StyledPublicNav>
       {
         userId ? (
-          <button onClick={handleLogOut}>Log Out</button>
+          // <button onClick={handleLogOut}>Log Out</button>
+          <StyledButton 
+            color="grey"
+            onClick={handleLogOut}
+          >Log Out</StyledButton>
         ) : (
           <>
             <Button 
-              anchor 
+              link 
+              color="primary-reverse"
               to={state?.from ? `/login?ref=${state?.from}` : `/login`}
             >Log In</Button>
             <Button 
-              anchor 
+              link 
               color="primary" 
               to={state?.from ? `/register?ref=${state?.from}` : `/register`}
-            >Sign Up</Button>
+            >Join Free</Button>
           </>
         )
       }
@@ -49,34 +54,10 @@ const StyledPublicNav = styled.div`
   & a:first-child {
     margin: 0 10px 0 0;
   }
+`;
 
-  & > button {
-    display: inline-block;
-    background-color: transparent; 
-    border: 2px solid rgba(14,19,24,.15); 
-    border-radius: 3px;
-    outline: none;
-    padding: 12px 34px;
-    ${props => props.theme.fontSize.small};
-    font-weight: 700;
-    color: ${props => props.theme.color.black.regular};
-    text-decoration: none; text-transform: uppercase;
-    white-space: nowrap;
-    cursor: pointer;
-
-    &:hover {
-      ${props => props.theme.shadow.card};
-      border: 2px solid ${props => props.theme.color.black.regular};
-    }
-
-    @media ${media.tablet} {
-      width: 100%;
-      padding: 12px;
-      margin: 0 0 15px 0;
-    }
-
-    @media ${media.mobile} {
-      padding: 10px;
-    }
-  }
+const StyledButton = styled(Button)`
+  background-color: transparent; 
+  border: 3px solid rgba(14,19,24,.15);
+  transition: background-color .1s ease;
 `;

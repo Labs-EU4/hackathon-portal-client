@@ -64,7 +64,6 @@ function App() {
           path="/dashboard/registered"
           render={() => <Dashboard {...{eventModalHandler}} />}
         />
-
         <PrivateRoute
           exact
           path="/dashboard/event/:id/participant_submission"
@@ -101,11 +100,11 @@ function App() {
           path="/dashboard/event/:id/projects"
           component={HackathonProjectsPage}
         /> */}
-        <PrivateRoute
+        {/* <PrivateRoute
           exact
           path="/dashboard/event/:id/project/:projectId"
           component={HackathonProjectPage}
-        />
+        /> */}
         <PrivateRoute
           exact
           path="/dashboard/event/:eventId/participant-teams/:teamId"

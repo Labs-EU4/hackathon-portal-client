@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory, useLocation, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -43,6 +43,7 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
   const event_id = Number(id);
   const dispatch = useDispatch();
   const history = useHistory();
+  const { pathname } = useLocation();
   const currentEvent = useSelector(state =>
     state.events.data.find(e => e.id === event_id)
   );
@@ -180,11 +181,12 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                       <ErrorMessage name="project_writeups" />
                     </ErrorSpan>
                   </RowBody>
-
                   <RowBody>
-                    <Button anchor to="/dashboard" color="grey">
-                      Cancel
-                    </Button>
+                    <Button 
+                      link 
+                      color="grey"
+                      to={pathname === "/" ? "/" : "/dashboard"}
+                    >Cancel</Button>
                     <Button color="green" type="submit">
                       Submit
                     </Button>

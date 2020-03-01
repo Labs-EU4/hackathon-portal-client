@@ -21,7 +21,6 @@ import { useSubmissions } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 
 const HackathonProjects = ({ id, setIsSubmissionsPageOpen }) => {
-  // const { id } = useParams();
   const [ isProjectPageOpen, setIsProjectPageOpen ] = useState(false);
   const [ projectId, setProjectId ] = useState(null);
   const { event_title } = useSelector(state =>
@@ -65,9 +64,7 @@ const HackathonProjects = ({ id, setIsSubmissionsPageOpen }) => {
             <Paragraph strong>Not rated</Paragraph>
           )}
           <Button
-            // anchor
             color="blue"
-            // to={`/dashboard/event/${id}/project/${s.id}`}
             onClick={() => viewProjectHandler(s.id)}
           >
             View Project

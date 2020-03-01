@@ -103,164 +103,148 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
 
   return (
     <StyledWideBody>
-        <Column>
-          <ProjectCard>
-            <RowHead>
-              <H3>
-                Submitted project for <Strong>"{event_title}"</Strong>
-              </H3>
-            </RowHead>
-            <SubmissionEntry>
-              <Team>
-                <H3>
-                  {submission?.participant_or_team_name ||
-                    submission?.project_title}
-                </H3>
-              </Team>
-              <Label htmlFor="project_writeup">Project writeup</Label>
-              <Description id="project_writeup">
-                <Paragraph>{submission?.project_writeups}</Paragraph>
-                {submission?.git_url && (
-                  <CenterItems>
-                    <Label htmlFor="github_url">GitHub URL</Label>
-                    <Paragraph id="github_url">
-                      <a
-                        href={submission?.git_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {submission?.git_url}
-                      </a>
-                    </Paragraph>
-                  </CenterItems>
-                )}
-                {submission?.video_url && (
-                  <CenterItems>
-                    <Label htmlFor="video_url">Video URL</Label>
-                    <Paragraph id="video_url">
-                      <a
-                        href={submission?.video_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {submission?.video_url}
-                      </a>
-                    </Paragraph>
-                  </CenterItems>
-                )}
-              </Description>
-              {isJudge && !hasGraded ? (
-                <JudgeView>
-                  <H4>Grading Form</H4>
-                  <Paragraph>
-                    Please rate this project submission using the rubrics
-                    provided below and leave a feedback explaining your
-                    grading.
-                  </Paragraph>
-                  <Label htmlFor="rubrics"></Label>
-                  <Rubrics id="rubrics">
-                    {rubrics.map(rubric => {
-                      return (
-                        <RubricRow key={rubric}>
-                          {toTittleCase(rubric)}
-                          <Rating
-                            id={rubric}
-                            onChange={rate => changeHandler([rubric, rate])}
-                            emptySymbol={
-                              <img
-                                alt={toTittleCase(rubric)}
-                                src={emptyStar}
-                              />
-                            }
-                            fullSymbol={
-                              <img
-                                alt={toTittleCase(rubric)}
-                                src={fullStar}
-                              />
-                            }
-                            initialRating={grade[rubric]}
+      <ProjectCard>
+        <RowHead>
+          <H3>
+            Submitted project for <Strong>"{event_title}"</Strong>
+          </H3>
+        </RowHead>
+        <SubmissionEntry>
+          <Team>
+            <H3>
+              {submission?.participant_or_team_name ||
+                submission?.project_title}
+            </H3>
+          </Team>
+          <Label htmlFor="project_writeup">Project writeup</Label>
+          <Description id="project_writeup">
+            <Paragraph>{submission?.project_writeups}</Paragraph>
+            <CenterItems>
+              {submission?.git_url && (
+                <Button
+                  anchor
+                  color="green"
+                  href={submission?.git_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >GitHub URL</Button>
+              )}
+              {submission?.video_url && (
+                <Button
+                  anchor
+                  color="green"
+                  href={submission?.video_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Video URL</Button>
+              )}
+            </CenterItems>
+          </Description>
+          {isJudge && !hasGraded ? (
+            <JudgeView>
+              <H4>Grading Form</H4>
+              <Paragraph>
+                Please rate this project submission using the rubrics
+                provided below and leave a feedback explaining your
+                grading.
+              </Paragraph>
+              <Label htmlFor="rubrics"></Label>
+              <Rubrics id="rubrics">
+                {rubrics.map(rubric => {
+                  return (
+                    <RubricRow key={rubric}>
+                      {toTittleCase(rubric)}
+                      <Rating
+                        id={rubric}
+                        onChange={rate => changeHandler([rubric, rate])}
+                        emptySymbol={
+                          <img
+                            alt={toTittleCase(rubric)}
+                            src={emptyStar}
                           />
-                        </RubricRow>
-                      );
-                    })}
-                  </Rubrics>
-                  <Label htmlFor="feedback">Feedback</Label>
-                  <Feedback
-                    wide
-                    id="judge_comments"
-                    onChange={e => {
-                      const { id, value } = e.target;
-                      changeHandler([id, value]);
-                    }}
-                    value={grade.judge_comments}
-                  />
-                </JudgeView>
+                        }
+                        fullSymbol={
+                          <img
+                            alt={toTittleCase(rubric)}
+                            src={fullStar}
+                          />
+                        }
+                        initialRating={grade[rubric]}
+                      />
+                    </RubricRow>
+                  );
+                })}
+              </Rubrics>
+              <Label htmlFor="feedback">Feedback</Label>
+              <Feedback
+                wide
+                id="judge_comments"
+                onChange={e => {
+                  const { id, value } = e.target;
+                  changeHandler([id, value]);
+                }}
+                value={grade.judge_comments}
+              />
+            </JudgeView>
+          ) : (
+            <JudgeView>
+              <Label htmlFor="rubrics"></Label>
+              <Rubrics id="rubrics">
+                {Object.keys(averages).map(rubric => {
+                  return rubric !== "comments" ? (
+                    <RubricRow key={rubric}>
+                      {toTittleCase(rubric)}
+                      <Rating
+                        emptySymbol={
+                          <img
+                            alt={toTittleCase(rubric)}
+                            src={emptyStar}
+                          />
+                        }
+                        fullSymbol={
+                          <img
+                            alt={toTittleCase(rubric)}
+                            src={fullStar}
+                          />
+                        }
+                        initialRating={averages[rubric]}
+                        readonly
+                      />
+                    </RubricRow>
+                  ) : null;
+                })}
+              </Rubrics>
+              <Label htmlFor="feedback">Feedback</Label>
+              {averages.comments?.length > 0 ? (
+                averages.comments.map(comment => (
+                  <StyledParagraph key={comment}>{comment}</StyledParagraph>
+                ))
               ) : (
-                <JudgeView>
-                  <Label htmlFor="rubrics"></Label>
-                  <Rubrics id="rubrics">
-                    {Object.keys(averages).map(rubric => {
-                      return rubric !== "comments" ? (
-                        <RubricRow key={rubric}>
-                          {toTittleCase(rubric)}
-                          <Rating
-                            emptySymbol={
-                              <img
-                                alt={toTittleCase(rubric)}
-                                src={emptyStar}
-                              />
-                            }
-                            fullSymbol={
-                              <img
-                                alt={toTittleCase(rubric)}
-                                src={fullStar}
-                              />
-                            }
-                            initialRating={averages[rubric]}
-                            readonly
-                          />
-                        </RubricRow>
-                      ) : null;
-                    })}
-                  </Rubrics>
-                  <Label htmlFor="feedback">Feedback</Label>
-                  {averages.comments?.length > 0 ? (
-                    averages.comments.map(comment => (
-                      <Paragraph key={comment}>{comment}</Paragraph>
-                    ))
-                  ) : (
-                    <Paragraph>No comments on this project</Paragraph>
-                  )}
-                </JudgeView>
+                <StyledParagraph>No comments on this project</StyledParagraph>
               )}
-            </SubmissionEntry>
-            <ButtonGroup>
-              <Button
-                color="grey"
-                onClick={() => setIsProjectPageOpen(false)}
-              >
-                Back to projects
-              </Button>
-              {isJudge && !hasGraded && (
-                <Button color="green" onClick={handleSubmit}>
-                  Submit Grading
-                </Button>
-              )}
-            </ButtonGroup>
-          </ProjectCard>
-        </Column>
+            </JudgeView>
+          )}
+        </SubmissionEntry>
+        <ButtonGroup>
+          <Button
+            color="grey"
+            onClick={() => setIsProjectPageOpen(false)}
+          >Back to projects</Button>
+          {isJudge && !hasGraded && (
+            <Button color="green" onClick={handleSubmit}>
+              Submit Grading
+            </Button>
+          )}
+        </ButtonGroup>
+      </ProjectCard>
     </StyledWideBody>
   );
 };
 
 export default HackathonSingleProject;
 
-// const BodyContainerColumn = styled(BodyContainer)`
-//   flex-direction: column;
-//   justify-content: start;
-// `;
-
 const StyledWideBody = styled(WideBody)`
+  ${props => props.theme.flex.center};
   position: relative;
   width: 100%; height: 100%;
   background-color: rgba(0, 0, 0, .5);
@@ -269,7 +253,8 @@ const StyledWideBody = styled(WideBody)`
 `;
 
 const ProjectCard = styled.div`
-  min-width: 80%; height: calc(100vh - 80px);
+  min-width: 80%; max-width: 700px;
+  max-height: calc(100vh - 80px);
   background-color: ${props => props.theme.color.white.regular};
   border-radius: 5px;
   padding: 20px 30px;
@@ -358,9 +343,7 @@ const RubricRow = styled.div`
 `;
 
 const Feedback = styled.textarea`
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 16px; font-weight: 500;
   color: #212121;
   border: 1px solid #e8e8e8;
   border-radius: 6px;
@@ -386,6 +369,12 @@ const JudgeView = styled.div`
   padding: 20px;
   background-color: #f2f2f2;
   width: 100%;
+`;
+
+const StyledParagraph = styled(Paragraph)`
+  ${props => props.theme.flex.center};
+  margin: 10px 0;
+  font-weight: bold;
 `;
 
 const ButtonGroup = styled.div`
