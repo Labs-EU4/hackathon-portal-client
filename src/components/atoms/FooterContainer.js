@@ -3,8 +3,8 @@ import { media } from "../../assets/styles/variables/media";
 
 const FooterContainer = styled.div`
   width: 100vw; height: 30px;
-  display: flex; flex-direction: row-reverse;
-  align-items: center; justify-content: space-between;
+  display: flex;
+  align-items: center; justify-content: center;
   padding-left: 20px;
   
   * > {

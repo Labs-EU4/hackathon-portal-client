@@ -17,11 +17,11 @@ import { PlainParagraph } from '../../components/atoms/Paragraph';
 const Footer = () => (
   <WideFooter>
     <FooterContainer>
-      <Group>
-        {/* <Icon icon="linkedin" />
+      {/* <Group>
+        <Icon icon="linkedin" />
         <Icon icon="twitter-square" />
-        <Icon icon="facebook-square" /> */}
-      </Group>
+        <Icon icon="facebook-square" />
+      </Group> */}
 
       <Group>
         {/* <FooterNavAnchor href="https://hackton.co/#team">Team</FooterNavAnchor> */}
