@@ -30,48 +30,17 @@ describe("Ensures that the action creators functions are working properly", () =
   });
 
   it("should create an action for gradeSubmission", () => {
-    let submissions = initialState.submissions;
+    let submissionGrade = initialState.submissions[0].grade;
+    let submissionId = initialState.submissions[0].id;
+    let history = "/dashboard/events/2/grade";
     const expectedAction = {
-      payload: initialState.events.data[0].id,
-      type: types.ProjectSubmissionTypes.DELETE_EVENT
+      payload: submissionGrade,
+      id: submissionId,
+      history: history,
+      type: types.ProjectSubmissionTypes.GRADE_SUBMISSION
     };
-    expect(actions.deleteEvent(initialState.events.data[0].id)).toEqual(
-      expectedAction
-    );
+    expect(
+      actions.gradeSubmission(submissionId, submissionGrade, history)
+    ).toEqual(expectedAction);
   });
-  //   it("should create an action for fetchEventCategories", () => {
-  //     const expectedAction = {
-  //       type: types.ProjectSubmissionTypes.FETCH_EVENT_CATEGORIES
-  //     };
-  //     expect(actions.fetchEventCategories()).toEqual(expectedAction);
-  //   });
-  //   it("should create an action for setEvents", () => {
-  //     let events = initialState.events.data;
-  //     const expectedAction = {
-  //       payload: events,
-  //       type: types.ProjectSubmissionTypes.SET_EVENTS
-  //     };
-  //     expect(actions.setEvents(events)).toEqual(expectedAction);
-  //   });
-  //   it("should create an action for setEventCategories", () => {
-  //     let categories = initialState.events.categories;
-  //     const expectedAction = {
-  //       payload: categories,
-  //       type: types.ProjectSubmissionTypes.SET_EVENT_CATEGORIES
-  //     };
-  //     expect(actions.setEventCategories(categories)).toEqual(expectedAction);
-  //   });
-
-  //   it("should create an action for fetchEventSubmissions", () => {
-  //     let eventId = initialState.events.data[0].id;
-  //     let history = "/dashboard/event/1/projects";
-  //     const expectedAction = {
-  //       payload: eventId,
-  //       type: types.ProjectSubmissionTypes.FETCH_EVENT_SUBMISSIONS,
-  //       history
-  //     };
-  //     expect(actions.fetchEventSubmissions(eventId, history)).toEqual(
-  //       expectedAction
-  //     );
-  //   });
 });
