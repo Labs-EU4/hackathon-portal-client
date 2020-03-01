@@ -55,7 +55,7 @@ export const danger = "#dc3545";
 
 
 export const backgroundWhite = '#f4f4f4';
-export const lightBlue = '#0ff';
+// export const lightBlue = '#0ff';
 
 
 

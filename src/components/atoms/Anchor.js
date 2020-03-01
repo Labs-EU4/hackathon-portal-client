@@ -31,7 +31,7 @@ export const FooterNavAnchor = styled(Anchor)`
   color: ${props => props.theme.color.black.regular};
 
   &:hover {
-    border-top: 3px solid ${props => props.theme.color.primary.regular};
+    border-top: 3px solid ${props => props.theme.color.white.regular};
     color: ${props => props.theme.color.white.regular};
   }
 `;

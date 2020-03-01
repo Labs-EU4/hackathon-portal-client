@@ -7,6 +7,7 @@ import { media } from "../../assets/styles/variables/media";
 // import { ProfileImg } from "../atoms/ProfileImg";
 import Button from '../atoms/Button';
 import userImg from '../../assets/images/user_icon.svg';
+import ProfileImg from "../atoms/ProfileImg";
 
 const items = [
   {
@@ -27,8 +28,7 @@ const items = [
 ];
 
 const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
-  const { userId, email, fullname, image_url, username } = useSelector(state => state.currentUser);
-  let memberPicture = userId ? JSON.parse(image_url) : null;
+  const { token, email, fullname, image_url, username } = useSelector(state => state.currentUser);
 
   if (type === "mobile") {
     return (
@@ -56,10 +56,11 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
         >
           <StyledProfileImage>
               {
-                image_url !== null && userId ? (
-                  <img src={memberPicture.avatar} alt={username}/>
+                image_url !== null && token ? (
+                  // <img src={memberPicture?.avatar} alt={username}/>
+                  <ProfileImg image={image_url} alt={username} />
                 ) : (
-                  <img src={userImg} />
+                  <ProfileImg alt="defaultImg" />
                 )
               }
               <UserInfoContent>
@@ -125,12 +126,6 @@ const StyledProfileImage = styled.div`
   width: 50px; height: 50px;
   background-color: transparent;
   border-radius: 50%;
-
-  img {
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-  }
 `;
 
 const StyledMobileNav = styled.div`
