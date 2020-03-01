@@ -76,4 +76,14 @@ describe("Ensures that the action creators functions are working properly", () =
     };
     expect(actions.setEventCategories(categories)).toEqual(expectedAction);
   });
+  it("should create an action for addTeamMember", () => {
+    let data = initialState.currentUser;
+    let history = "/dashboard/event/1/team";
+    const expectedAction = {
+      payload: data,
+      type: types.EventsTypes.ADD_TEAM_MEMBER,
+      history
+    };
+    expect(actions.addTeamMember(data, history)).toEqual(expectedAction);
+  });
 });
