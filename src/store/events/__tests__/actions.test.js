@@ -14,13 +14,7 @@ describe("Ensures that the action creators functions are working properly", () =
 
     expect(actions.fetchAllEvents()).toEqual(expectedAction);
   });
-  it("should create an action to fetch all events", () => {
-    const expectedAction = {
-      type: types.EventsTypes.FETCH_ALL_EVENTS
-    };
 
-    expect(actions.fetchAllEvents()).toEqual(expectedAction);
-  });
   it("should create an action for createEvent", () => {
     let history = "/dashboard/new";
     const expectedAction = {
