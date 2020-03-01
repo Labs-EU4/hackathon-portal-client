@@ -32,4 +32,18 @@ describe("Ensures that the action creators functions are working properly", () =
       actions.createEvent(initialState.events.data[1], "/dashboard/new")
     ).toEqual(expectedAction);
   });
+  it("should create an action for updateEvent", () => {
+    const expectedAction = {
+      payload: initialState.events.data[0],
+      history: "/dashboard/event/1/edit",
+      type: types.EventsTypes.UPDATE_EVENT
+    };
+
+    expect(
+      actions.updateEvent(
+        initialState.events.data[0],
+        "/dashboard/event/1/edit"
+      )
+    ).toEqual(expectedAction);
+  });
 });
