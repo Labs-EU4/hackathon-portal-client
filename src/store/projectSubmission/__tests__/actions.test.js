@@ -43,4 +43,14 @@ describe("Ensures that the action creators functions are working properly", () =
       actions.gradeSubmission(submissionId, submissionGrade, history)
     ).toEqual(expectedAction);
   });
+  it("should create an action for submitProject", () => {
+    let projectData = initialState.submissions[0];
+    let history = "/dashboard/events/1/proje";
+    const expectedAction = {
+      payload: projectData,
+      history: history,
+      type: types.ProjectSubmissionTypes.SUBMIT_PROJECT
+    };
+    expect(actions.submitProject(projectData, history)).toEqual(expectedAction);
+  });
 });
