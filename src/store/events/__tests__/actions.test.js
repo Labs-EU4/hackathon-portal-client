@@ -78,7 +78,7 @@ describe("Ensures that the action creators functions are working properly", () =
   });
   it("should create an action for addTeamMember", () => {
     let data = initialState.currentUser;
-    let history = "/dashboard/event/1/team";
+    let history = "/dashboard/event/1/team/";
     const expectedAction = {
       payload: data,
       type: types.EventsTypes.ADD_TEAM_MEMBER,
