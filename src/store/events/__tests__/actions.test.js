@@ -22,29 +22,28 @@ describe("Ensures that the action creators functions are working properly", () =
     expect(actions.fetchAllEvents()).toEqual(expectedAction);
   });
   it("should create an action for createEvent", () => {
+    let history = "/dashboard/new";
     const expectedAction = {
       payload: initialState.events.data[1],
-      history: "/dashboard/new",
+      history: history,
       type: types.EventsTypes.CREATE_EVENT
     };
 
-    expect(
-      actions.createEvent(initialState.events.data[1], "/dashboard/new")
-    ).toEqual(expectedAction);
+    expect(actions.createEvent(initialState.events.data[1], history)).toEqual(
+      expectedAction
+    );
   });
   it("should create an action for updateEvent", () => {
+    let history = "/dashboard/event/1/edit";
     const expectedAction = {
       payload: initialState.events.data[0],
-      history: "/dashboard/event/1/edit",
+      history: history,
       type: types.EventsTypes.UPDATE_EVENT
     };
 
-    expect(
-      actions.updateEvent(
-        initialState.events.data[0],
-        "/dashboard/event/1/edit"
-      )
-    ).toEqual(expectedAction);
+    expect(actions.updateEvent(initialState.events.data[0], history)).toEqual(
+      expectedAction
+    );
   });
   it("should create an action for deleteEvent", () => {
     const expectedAction = {
@@ -60,5 +59,13 @@ describe("Ensures that the action creators functions are working properly", () =
       type: types.EventsTypes.FETCH_EVENT_CATEGORIES
     };
     expect(actions.fetchEventCategories()).toEqual(expectedAction);
+  });
+  it("should create an action for setEvents", () => {
+    let events = initialState.events.data;
+    const expectedAction = {
+      payload: events,
+      type: types.EventsTypes.SET_EVENTS
+    };
+    expect(actions.setEvents(events)).toEqual(expectedAction);
   });
 });
