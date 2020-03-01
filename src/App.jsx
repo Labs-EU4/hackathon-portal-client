@@ -16,16 +16,12 @@ import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";
 import HackathonFormPage from "./components/views/HackathonFormPage";
 import HackathonSinglePage from "./components/views/HackathonSinglePage";
-// import HackathonProjectsPage from "./components/views/HackathonProjectsPage";
-import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import PrivateRoute from "./components/organisms/PrivateRoute";
 import EditHackathon from "./components/templates/EditHackathon";
 import AddTeammates from "./components/templates/AddTeammates";
-import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
 import "react-toastify/dist/ReactToastify.css";
 import PageNotFound from "./components/views/PageNotFound";
 import UserProfileFormPage from "./components/views/UserProfileFormPage";
-// import UserProfilePage from "./components/views/UserProfilePage";
 import CreateTeam from "./components/templates/CreateTeam";
 import AddParticipantTeam from "./components/templates/AddParticipantTeams";
 import ResetPassword from './components/views/resetPassword/ResetPassword';
@@ -66,24 +62,35 @@ function App() {
         />
         <PrivateRoute
           exact
-          path="/dashboard/event/:id/participant_submission"
-          component={ParticipantSubmissionPage}
-        />
-        <PrivateRoute
-          exact
           path="/dashboard/event/:id/edit"
           component={EditHackathon}
         />
-        {/* <PrivateRoute
-          exact
-          path="/dashboard/event/:id/judges"
-          component={AddTeammates}
-        /> */}
+        {/* This last one make it into a none route component */}
         <PrivateRoute
           exact
           path="/dashboard/event/:id/organizers"
           component={AddTeammates}
         />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:eventId/participant-teams/:teamId"
+          component={AddParticipantTeam}
+        />
+        <PrivateRoute
+          exact
+          path="/dashboard/event/:id/participant-teams"
+          component={CreateTeam}
+        />
+        {/* <PrivateRoute
+          exact
+          path="/dashboard/event/:id/participant_submission"
+          component={ParticipantSubmissionPage}
+        /> */}
+        {/* <PrivateRoute
+          exact
+          path="/dashboard/event/:id/judges"
+          component={AddTeammates}
+        /> */}
         {/* 
         CHANGED TO SEPARATE ROUTES FOR JUDGES & ORGANIZERS
         <PrivateRoute
@@ -105,16 +112,6 @@ function App() {
           path="/dashboard/event/:id/project/:projectId"
           component={HackathonProjectPage}
         /> */}
-        <PrivateRoute
-          exact
-          path="/dashboard/event/:eventId/participant-teams/:teamId"
-          component={AddParticipantTeam}
-        />
-        <PrivateRoute
-          exact
-          path="/dashboard/event/:id/participant-teams"
-          component={CreateTeam}
-        />
       </>
    );
  };

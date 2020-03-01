@@ -94,9 +94,6 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
 
   return (
     <StyledWideBody active={isProfileOpen}>
-  {/* <RowHead>
-    <H3>Edit Profile</H3>
-  </RowHead> */}
       <Formik
         onSubmit={handleSubmit}
         initialValues={defaultState}
@@ -105,6 +102,9 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
       >
         {({ errors, touched }) => (
           <Form>
+            <RowHead center bold>
+              <H3>Edit Profile</H3>
+            </RowHead>
             <RowBody>
               <Label htmlFor="fullname">Full Name</Label>
               <Input
@@ -114,7 +114,32 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
                 placeholder="Full Name"
               />
             </RowBody>
-
+            <RowBody>
+              <Label htmlFor="username">Username</Label>
+              <Input
+                type="text"
+                name="username"
+                placeholder="Username"
+                display="wide"
+              />
+              {errors.name && touched.name ? (
+                <div>{errors.name}</div>
+              ) : null}
+              <ErrorMessage name="username" />
+            </RowBody>
+            <RowBody>
+              <Label htmlFor="email">Email</Label>
+              <Input
+                type="text"
+                name="email"
+                placeholder="Email"
+                display="wide"
+              />
+              {errors.name && touched.name ? (
+                <div>{errors.name}</div>
+              ) : null}
+              <ErrorMessage name="email" />
+            </RowBody>
             <RowBody>
               <Label htmlFor="image">Profile Image</Label>
               <Input
@@ -127,37 +152,10 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
               />
             </RowBody>
             <RowBody>
-              <Column>
-                <Label htmlFor="email">Email</Label>
-                <Input
-                  type="text"
-                  name="email"
-                  placeholder="Email"
-                  display="wide"
-                />
-                {errors.name && touched.name ? (
-                  <div>{errors.name}</div>
-                ) : null}
-                <ErrorMessage name="email" />
-              </Column>
-              <Column>
-                <Label htmlFor="username">Username</Label>
-                <Input
-                  type="text"
-                  name="username"
-                  placeholder="Username"
-                  display="wide"
-                />
-                {errors.name && touched.name ? (
-                  <div>{errors.name}</div>
-                ) : null}
-                <ErrorMessage name="username" />
-              </Column>
-            </RowBody>
-            <RowBody>
               <Label htmlFor="bio">Bio</Label>
               <TextArea
                 wide
+                tall
                 as="textarea"
                 name="bio"
                 placeholder="bio"
@@ -173,9 +171,11 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
                   Cancel
                 </Button>
               </Link> */}
-              <NewButton color="green" type="submit">
-                Save Changes
-              </NewButton>
+              <NewButton 
+                color="green" 
+                size="wide"
+                type="submit"
+              >Save Changes</NewButton>
             </ButtonRowBody>
           </Form>
         )}

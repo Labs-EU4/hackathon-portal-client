@@ -6,7 +6,7 @@ import { UserOnboarding } from "../templates";
 const SignupPage = () => {
   return (
     <UserOnboarding
-      ctaText="Sign Up"
+      ctaText="Create my free account"
       imageType={image}
       imageText="Sign Up now!!"
       formHeader="Create an account"

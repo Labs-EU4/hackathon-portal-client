@@ -12,6 +12,7 @@ import { Paragraph } from "../atoms/Paragraph";
 import Input from "../atoms/Input";
 import Button from "../atoms/Button";
 import { ErrorSpan } from "../atoms/Span";
+import Label from '../atoms/Label';
 import { useDispatch, useSelector } from "react-redux";
 import { register, login } from "../../store/user/actions";
 import SocialMedia from "../molecules/SocialMedia";
@@ -34,7 +35,12 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   }, [google, github, verified, dispatch]);
   
   const handleSubmit = values => {
-    const { email, password } = values;
+    const fullname = `${values.firstName} ${values.lastName}`
+    const {
+      username,
+      email, 
+      password 
+    } = values;
     if (ctaText.toLowerCase() === "log in") {
       dispatch(login(email, password));
       toast(" 🎉 Logging you in!", {
@@ -42,21 +48,41 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
         className: 'green'
       });
     } else {
-      dispatch(register(email, password, role, team));
+      dispatch(register(fullname, username, email, password, role, team));
       toast.success(" 🚀 A moment while we record your details!", {
         position: toast.POSITION.TOP_RIGHT
       });
     }
   };
   
-  const schema = Yup.object().shape({
-    email: Yup.string()
-    .email("Please use a valid email address.")
-    .required("Email address is required."),
-    password: Yup.string()
-    .required("Password is required.")
-    .min(8, "Password must be at least 8 characters long.")
-  });
+  const schema = ctaText.toLowerCase() === "log in" ? (
+    Yup.object().shape({
+      email: Yup.string()
+      .email("Please use a valid email address.")
+      .required("Email address is required."),
+      password: Yup.string()
+      .required("Password is required.")
+      .min(8, "Password must be at least 8 characters long.")
+    })
+  ) : (
+    Yup.object().shape({
+      firstName: Yup.string()
+      .required("First name is required.")
+      .min(2, "Your name should be at least 2 characters long."),
+      lastName: Yup.string()
+      .required("Last name is required.")
+      .min(2, "Your surname should be at least 2 characters long."),
+      username: Yup.string()
+      .required("Please provide also a nickname for your profile.")
+      .min(3, "Your username should be at least 3 characters long."),
+      email: Yup.string()
+      .email("Please use a valid email address.")
+      .required("Email address is required."),
+      password: Yup.string()
+      .required("Password is required.")
+      .min(8, "Password must be at least 8 characters long.")
+    })
+  )
   
   if (token) {
     return <Redirect to={state?.from || ref || '/dashboard'} />;
@@ -73,22 +99,61 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
         >
         {({ errors, touched }) => (
           <Form>
+            {ctaText.toLowerCase() === "create my free account" && (
+              <>
+                <Label>First name</Label>
+                <Input
+                  display="wide"
+                  type="text"
+                  name="firstName"
+                  placeholder="Bruce"
+                />
+                {errors.name && touched.name ? <div>{errors.name}</div> : null}
+                <ErrorSpan>
+                  <ErrorMessage name="firstName" />
+                </ErrorSpan>
+                <Label>Last name</Label>
+                <Input
+                  display="wide"
+                  type="text"
+                  name="lastName"
+                  placeholder="Wayne"
+                />
+                {errors.name && touched.name ? <div>{errors.name}</div> : null}
+                <ErrorSpan>
+                  <ErrorMessage name="lastName" />
+                </ErrorSpan>
+                <Label>Username</Label>
+                <Input
+                  display="wide"
+                  type="text"
+                  name="username"
+                  placeholder="Email address"
+                />
+                {errors.name && touched.name ? <div>{errors.name}</div> : null}
+                <ErrorSpan>
+                  <ErrorMessage name="username" />
+                </ErrorSpan>
+              </>
+            )}
+            <Label>Email</Label>
             <Input
               display="wide"
               type="text"
               name="email"
               placeholder="Email address"
-              />
+            />
             {errors.name && touched.name ? <div>{errors.name}</div> : null}
             <ErrorSpan>
               <ErrorMessage name="email" />
             </ErrorSpan>
+            <Label>Password</Label>
             <Input
               display="wide"
               type="password"
               name="password"
               placeholder="Password"
-              />
+            />
             {errors.name && touched.name ? <div>{errors.name}</div> : null}
             <ErrorSpan>
               <ErrorMessage name="password" />

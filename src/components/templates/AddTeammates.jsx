@@ -15,7 +15,6 @@ import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { useSearchUserByEmail } from '../../hooks';
 
 const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }) => {
-  // const [selectedUserArr, setSelectedUserArr] = useState([]);
   const selectedUserArr = useRef([]);
   const [role, setRole] = useState("judge");
   const dispatch = useDispatch();
@@ -106,41 +105,80 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
       width: 100%; height: 48.25vh;
       overflow-y: scroll;
       margin: 10px 0;
+      border: 3px solid lightgrey;
+    `;
+
+    const ChosenJudgeImg = styled.img`
+      width: 33px; height: 33px; 
+      border-radius: 50%;
+      margin: auto 5px;
+      object-fit: cover;
     `;
 
     return (
-      <Container display="wide">
-        <input
-          type="text"
-          value={searchString}
-          onChange={e => {
-            setSearchString(e.target.value);
-          }}
-          placeholder="Search by email"
-          ref={inputRef}
-        />
-        <UsersList>
-          {matches.map(user => (
-            // <UserWidget key={user.id} user={user} select={setSelectedUser} />
-            <UserWidget key={user.id} user={user} selected={selectedUsersHadler} />
-          ))}
-          {
-            !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
-          }
-        </UsersList>
-        <RowBody>
-          <Button 
-            color="grey" 
-            size="half" 
-            onClick={handleExit}
-          >Back</Button>
-          <Button 
-            color="green" 
-            size="half" 
-            onClick={handleSubmit}
-          >Add Judge</Button>
-        </RowBody>
-      </Container>
+      <>
+        <Container display="wide">
+          <input
+            type="text"
+            value={searchString}
+            onChange={e => {
+              setSearchString(e.target.value);
+            }}
+            placeholder="Search by email"
+            ref={inputRef}
+          />
+          <div style={{ display: "flex", flexDirection: "column"}}>
+            <UsersList>
+              {matches.map(user => (
+                // <UserWidget key={user.id} user={user} select={setSelectedUser} />
+                <UserWidget key={user.id} user={user} selected={selectedUsersHadler} />
+              ))}
+              {
+                !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
+              }
+            </UsersList>
+            <div style={{ width: "100%", height: '45px', border: '3px solid blue', display: "flex", alignItems: "center" }}>
+              {
+                selectedUserArr.current.length > 0 && (
+                  selectedUserArr.current.map(user => {
+                    let memberProfile = JSON.parse(user.image_url);
+                    return user.image_url !== null ? (
+                      <ChosenJudgeImg src={memberProfile.avatar} alt={user.username}/>
+                    ) : (
+                      <ChosenJudgeImg 
+                        src="https://media.giphy.com/media/g0QET2Iejaa4EQ0eBV/giphy.gif" alt="default-img" 
+                      />
+                    )
+                  }) 
+                )
+              }
+            </div>
+          </div>
+          <RowBody>
+            <Button 
+              color="grey" 
+              size="half" 
+              onClick={handleExit}
+            >Back</Button>
+            <Button 
+              color="green" 
+              size="half" 
+              onClick={handleSubmit}
+            >Add Judge</Button>
+          </RowBody>
+        </Container>
+        {/* {
+          selectedUserArr.current.length > 0 && (
+            <div style={{width: "300px", border: "3px solid red"}}>
+              {
+                selectedUserArr.current.map(user => {
+                  return <p>{user.username}</p>
+                }) 
+              }
+            </div>
+          )// When user are selected they will be shown right here
+        } */}
+      </>
     );
   };
 
@@ -331,7 +369,7 @@ const UserWidget = ({ user, selected, ...otherProps }) => {
     position: sticky; top: 0; left: 0;
     display: flex;
     width: calc(100% - 10px);
-    background-color: white;
+    background-color: ${props => props.theme.color.white.regular};
     border: 2px solid ${props => props.theme.color.black.regular};
     border-radius: 3px;
     padding: 5px 10px;
@@ -339,7 +377,8 @@ const UserWidget = ({ user, selected, ...otherProps }) => {
     cursor: pointer;
 
     &:hover {
-      border: 2px solid ${props => props.theme.color.primary.regular};
+      background-color:  ${props => props.theme.color.grey.regular};
+      color: ${props => props.theme.color.white.regular};
     }
   `;
 
@@ -368,7 +407,11 @@ const UserWidget = ({ user, selected, ...otherProps }) => {
         {
           user.image_url !== null ? (
             <img src={memberProfile.avatar} alt={user.username}/>
-          ) : null
+          ) : (
+            <img 
+              src="https://media.giphy.com/media/g0QET2Iejaa4EQ0eBV/giphy.gif" alt="default-img" 
+            />
+          )
         }
       </UserAvatar>
       <UserInfo>

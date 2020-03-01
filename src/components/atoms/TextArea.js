@@ -27,17 +27,14 @@ const I = styled.div`
       outline: 0;
     }
 
-    ${({ wide }) =>
-      wide &&
-      `
-    width: 100%;
-  `};
+    ${({ wide }) => wide && `width: 100%`};
+    ${({ tall }) => tall && `min-height: 200px`};
   }
 `;
 
-const TextArea = ({ wide, ...inputProps }) => {
+const TextArea = ({ wide, tall, ...inputProps }) => {
   return (
-    <I wide>
+    <I wide tall>
       <Field {...inputProps} />
     </I>
   );

@@ -4,6 +4,7 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import HackathonProjectsPage from '../views/HackathonProjectsPage';
+import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
 import AddTeammates from '../templates/AddTeammates';
 import { media } from "../../assets/styles/variables/media";
 import { H2, H3 } from "../atoms/Heading";
@@ -66,6 +67,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
   const id = eventId;
   const [ isAddJudgeOpen, setIsAddJudgeOpen ] = useState(false);
   const [ isSubmissionsPageOpen, setIsSubmissionsPageOpen ] = useState(false);
+  const [ isSubmitProjectOpen, setIsSubmitProjectOpen ] = useState(false);
   const [ isSlideForm, setIsSlideForm ] = useState(false);
   const history = useHistory();
   const dispatch = useDispatch();
@@ -360,11 +362,12 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     )}
                     {isRegistered && !isEnded && (
                       <Button
-                        link
+                        // link
                         size= "wide"
                         color="green"
                         uppercase
-                        to={`/dashboard/event/${id}/participant_submission`}
+                        onClick={() => setIsSubmitProjectOpen(true)}
+                        // to={`/dashboard/event/${id}/participant_submission`}
                       >
                         Submit Project
                       </Button>
@@ -413,6 +416,18 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
         <HackathonProjectsPage 
           {...{id}}
           {...{setIsSubmissionsPageOpen}} 
+        />
+      </>
+    );
+  }
+  
+  if (isSubmitProjectOpen) {
+    return (
+      <>
+        { renderSingleEvent() }
+        <ParticipantSubmissionPage 
+          {...{id}}
+          {...{setIsSubmitProjectOpen}}
         />
       </>
     );

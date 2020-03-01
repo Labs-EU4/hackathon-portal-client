@@ -21,10 +21,12 @@ export const login = (email, password) => {
   };
 };
 
-export const register = (email, password, role, team) => {
+export const register = (fullname, username, email, password, role, team) => {
   return {
     type: UserTypes.REGISTER,
     payload: {
+      fullname,
+      username,
       email,
       password,
       role,

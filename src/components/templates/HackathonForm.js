@@ -349,7 +349,7 @@ const FormContainer = styled.div`
 
 const StyledForm = styled(Form)`
   display: flex;
-  margin-top: 30px; padding: 20px;
+  padding: 20px;
 `;
 
 const StyledColumn = styled.div`
@@ -364,5 +364,6 @@ const StyledColumn = styled.div`
 const StyledFormBtn = styled(Button)`
   position: absolute; top: calc(100% - 100px); left: 50%;
   width: 50%;
+  margin-top: 30px;
   transform: translateX(-50%);
 `;

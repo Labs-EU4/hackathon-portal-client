@@ -70,7 +70,7 @@ const HeaderContent = styled.div`
 const MapContainer = styled.div`
   position: relative;
   width: 70%; height: 90%;
-  border: 3px solid ${props => props.theme.color.grey.border}; border-radius: 5px;
+  border: 3px solid ${props => props.theme.color.grey.border};
 `;
 
 const MapFormContainer = styled.div`

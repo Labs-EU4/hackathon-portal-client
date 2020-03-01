@@ -30,12 +30,14 @@ const EventCard = ({ event, eventModalHandler }) => {
           <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
             <Button
+              color="primary-reverse"
               onClick={() => eventModalHandler(event_id || id)}
             >More Info</Button>
-            <StyledBtn 
+            <Button 
               link
+              color="primary"
               to={`/`}
-            >Join Event</StyledBtn>
+            >Join Event</Button>
           </EventCTA>
         </EventCardContent>
       </Card>
@@ -86,26 +88,26 @@ const EventCTA = styled.div`
   padding: 0 10px 5px;
 `;
 
-const StyledBtn = styled(Button)`
-  width: 47%;
-  border: 3px solid ${props => props.theme.color.primary.light};
-  border-radius: 3px;
-  padding: 8px 12px;
-  font-weight: 600;
-  text-transform: uppercase;
+// const StyledBtn = styled(Button)`
+//   width: 47%;
+//   border: 3px solid ${props => props.theme.color.primary.light};
+//   border-radius: 3px;
+//   padding: 8px 12px;
+//   font-weight: 600;
+//   text-transform: uppercase;
 
-  &:hover {
-    border: 3px solid ${props => props.theme.color.primary.regular};
-    transform: translateY(-2px);
-  }
+//   &:hover {
+//     border: 3px solid ${props => props.theme.color.primary.regular};
+//     transform: translateY(-2px);
+//   }
 
-  &:last-child {
-    background-color: ${props => props.theme.color.primary.light};
+//   &:last-child {
+//     background-color: ${props => props.theme.color.primary.light};
   
-    &:hover {
-    }
-  }
-`;
+//     &:hover {
+//     }
+//   }
+// `;
 
 const CardCountDown = styled.div`
   position: absolute; top: 20px; left: 70%;
