@@ -55,4 +55,10 @@ describe("Ensures that the action creators functions are working properly", () =
       expectedAction
     );
   });
+  it("should create an action for fetchEventCategories", () => {
+    const expectedAction = {
+      type: types.EventsTypes.FETCH_EVENT_CATEGORIES
+    };
+    expect(actions.fetchEventCategories()).toEqual(expectedAction);
+  });
 });
