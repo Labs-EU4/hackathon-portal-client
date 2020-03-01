@@ -98,4 +98,14 @@ describe("Ensures that the action creators functions are working properly", () =
       expectedAction
     );
   });
+  it("should create an action for sendEventTeamInvite", () => {
+    let data = "please join me in this hackathon";
+    let history = "/dashboard/event/1/team";
+    const expectedAction = {
+      payload: data,
+      type: types.EventsTypes.SEND_EVENT_TEAM_INVITE,
+      history
+    };
+    expect(actions.sendEventTeamInvite(data, history)).toEqual(expectedAction);
+  });
 });
