@@ -19,18 +19,15 @@ describe("Ensures that the action creators functions are working properly for ev
     );
   });
 
-  //   it("should create an action for createEvent", () => {
-  //     let history = "/dashboard/new";
-  //     const expectedAction = {
-  //       payload: initialState.events.data[1],
-  //       history: history,
-  //       type: types.EventsTypes.CREATE_EVENT
-  //     };
+  it("should create an action for setEventParticipants", () => {
+    let participants = initialState.currentUser;
+    const expectedAction = {
+      payload: participants,
+      type: types.EventParticipantTypes.SET_EVENT_PARTICIPANTS
+    };
 
-  //     expect(actions.createEvent(initialState.events.data[1], history)).toEqual(
-  //       expectedAction
-  //     );
-  //   });
+    expect(actions.setEventParticipants(participants)).toEqual(expectedAction);
+  });
   //   it("should create an action for updateEvent", () => {
   //     let history = "/dashboard/event/1/edit";
   //     const expectedAction = {
