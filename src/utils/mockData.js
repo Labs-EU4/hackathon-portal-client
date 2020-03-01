@@ -44,5 +44,10 @@ export const initialState = {
     bio: "",
     image: "",
     image_url: {}
-  }
+  },
+
+  submissions: [
+    { name: "AI hack", id: 1, grade: 3 },
+    { name: "ML hackers", id: 2, grade: 1 }
+  ]
 };

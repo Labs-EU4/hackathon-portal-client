@@ -18,10 +18,8 @@ describe("Ensures that the action creators functions are working properly", () =
   });
 
   it("should create an action for setSubmissions", () => {
-    let submissions = {
-      project1: "AI hack",
-      project2: "ML hackers"
-    };
+    let submissions = initialState.submissions;
+
     const expectedAction = {
       payload: submissions,
 
@@ -30,27 +28,17 @@ describe("Ensures that the action creators functions are working properly", () =
 
     expect(actions.setSubmissions(submissions)).toEqual(expectedAction);
   });
-  //   it("should create an action for updateEvent", () => 
-  //     let history = "/dashboard/event/1/edit";
-  //     const expectedAction = {
-  //       payload: initialState.events.data[0],
-  //       history: history,
-  //       type: types.ProjectSubmissionTypes.UPDATE_EVENT
-  //     };
 
-  //     expect(actions.updateEvent(initialState.events.data[0], history)).toEqual(
-  //       expectedAction
-  //     );
-  //   });
-  //   it("should create an action for deleteEvent", () => {
-  //     const expectedAction = {
-  //       payload: initialState.events.data[0].id,
-  //       type: types.ProjectSubmissionTypes.DELETE_EVENT
-  //     };
-  //     expect(actions.deleteEvent(initialState.events.data[0].id)).toEqual(
-  //       expectedAction
-  //     );
-  //   });
+  it("should create an action for gradeSubmission", () => {
+    let submissions = initialState.submissions;
+    const expectedAction = {
+      payload: initialState.events.data[0].id,
+      type: types.ProjectSubmissionTypes.DELETE_EVENT
+    };
+    expect(actions.deleteEvent(initialState.events.data[0].id)).toEqual(
+      expectedAction
+    );
+  });
   //   it("should create an action for fetchEventCategories", () => {
   //     const expectedAction = {
   //       type: types.ProjectSubmissionTypes.FETCH_EVENT_CATEGORIES
