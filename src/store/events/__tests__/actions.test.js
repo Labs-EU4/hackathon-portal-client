@@ -86,4 +86,16 @@ describe("Ensures that the action creators functions are working properly", () =
     };
     expect(actions.addTeamMember(data, history)).toEqual(expectedAction);
   });
+  it("should create an action for fetchEventSubmissions", () => {
+    let eventId = initialState.events.data[0].id;
+    let history = "/dashboard/event/1/projects";
+    const expectedAction = {
+      payload: eventId,
+      type: types.EventsTypes.FETCH_EVENT_SUBMISSIONS,
+      history
+    };
+    expect(actions.fetchEventSubmissions(eventId, history)).toEqual(
+      expectedAction
+    );
+  });
 });
