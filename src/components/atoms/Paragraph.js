@@ -9,9 +9,10 @@ export const Paragraph = styled.p`
   /* margin: 0 0 20px 0; */
   /* padding: 0; */
 
-  ${({ strong}) => strong && `font-weight: bold;` }
-`;
-
-export const PlainParagraph = styled(Paragraph)`
-  margin: 0;
+  ${({ strong }) => strong && `font-weight: bold;`}
+  ${({ left }) => left && `
+    position: absolute; left: 20px; top: 50%; 
+    transform: translateY(-50%)
+  `}
+  ${({ noMargin }) => noMargin && `margin: 0;` }
 `;

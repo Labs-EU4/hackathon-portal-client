@@ -25,12 +25,13 @@ export const TopNavAnchor = styled(Anchor)`
 `;
 
 export const FooterNavAnchor = styled(Anchor)`
-  color: ${props => props.theme.color.black};
-  padding: 10px;
   border: 0;
+  padding: 3px 5px 5px; 
+  font-weight: bold;
+  color: ${props => props.theme.color.black.regular};
 
   &:hover {
-    border-bottom: 1px solid ${props => props.theme.color.grey.regular};
-    transition: all 3s;
+    border-top: 3px solid ${props => props.theme.color.primary.regular};
+    color: ${props => props.theme.color.white.regular};
   }
 `;
