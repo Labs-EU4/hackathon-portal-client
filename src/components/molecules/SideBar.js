@@ -27,8 +27,8 @@ const items = [
 ];
 
 const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
-  const { email, fullname } = useSelector(state => state.currentUser);
-  // const initial = user && user[0].toUpperCase();
+  const { userId, email, fullname, image_url, username } = useSelector(state => state.currentUser);
+  let memberPicture = userId ? JSON.parse(image_url) : null;
 
   if (type === "mobile") {
     return (
@@ -55,9 +55,15 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
           onClick={() => setIsProfileOpen(!isProfileOpen)}
         >
           <StyledProfileImage>
-              <img src={userImg} />
+              {
+                image_url !== null && userId ? (
+                  <img src={memberPicture.avatar} alt={username}/>
+                ) : (
+                  <img src={userImg} />
+                )
+              }
               <UserInfoContent>
-                <p>{fullname}Alexander</p>
+                <p>{fullname}</p>
                 <p>{email}</p>
               </UserInfoContent>
             {/* {
@@ -90,6 +96,13 @@ export default SideBar;
 
 const UserInfoContent = styled.div`
   margin-left: 5px;
+
+  p {
+    &:last-child {
+      ${props => props.theme.fontSize.small};
+      color: ${props => props.theme.color.grey.regular};
+    }
+  }
 `;
 
 const StyledNav = styled.div`
@@ -115,6 +128,8 @@ const StyledProfileImage = styled.div`
 
   img {
     width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
   }
 `;
 

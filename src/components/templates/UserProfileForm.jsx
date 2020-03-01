@@ -5,21 +5,15 @@ import { useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-// import UserHeader from "../organisms/UserHeader";
-// import { Footer } from "../organisms/index";
 import WideBody from "../atoms/WideBody";
-import BodyContainer from "../atoms/BodyContainer";
 import { H3 } from "../atoms/Heading";
 import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
-import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
 import Label from "../atoms/Label";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import Button from "../atoms/Button";
-// import profileImg from "../../assets/profile-image.png";
-import ProfileImage from '../molecules/ProfileImage';
 import { media } from '../../assets/styles/variables/media';
 
 import {
@@ -27,9 +21,6 @@ import {
 } from "../../store/user/actions";
 import { IconLetter } from "../atoms/IconLetter";
 
-const BodyContainerColumn = styled(BodyContainer)`
-  flex-direction: column;
-`;
 const NewLabel = styled(Label)`
   padding-left: 3px;
   @media ${media.tablet} {

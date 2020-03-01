@@ -28,7 +28,7 @@ const I = styled.div`
     }
 
     ${({ wide }) => wide && `width: 100%`};
-    ${({ tall }) => tall && `min-height: 200px`};
+    ${({ tall }) => tall && `min-height: 150px`};
   }
 `;
 
