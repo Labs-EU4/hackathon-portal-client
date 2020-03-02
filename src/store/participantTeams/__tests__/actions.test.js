@@ -38,6 +38,15 @@ describe("Ensures that the action creators functions are working properly", () =
     };
     expect(actions.fetchTeamMates(data)).toEqual(expectedAction);
   });
+  it("should create an action for fetchTeams", () => {
+    let data = initialState.teams;
+
+    const expectedAction = {
+      payload: data,
+      type: types.ParticiPantTeamTypes.FETCH_TEAMS
+    };
+    expect(actions.fetchTeams(data)).toEqual(expectedAction);
+  });
   it("should create an action for addParticipantTeamMember", () => {
     let data = initialState.participant_team_members[1];
     let history = "dashboard/event/1/participant-teams/2";
