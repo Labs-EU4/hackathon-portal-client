@@ -97,8 +97,17 @@ export const StyledButton = styled(Button)`
     background-color: ${props => props.theme.color.primary.regular};
     border: 2px solid ${props => props.theme.color.primary.regular};
     border-bottom: none;
-    color: white;
+    color: ${props => props.theme.color.white.regular};
   }
+
+  &:focus {
+    background-color: ${props => props.theme.color.primary.regular};
+    color: ${props => props.theme.color.white.regular};
+  }
+
+  /*&.current {
+    background-color: ${props => props.theme.color.primary.regular};
+  } */
 
   ${({gap}) => gap === true && `margin-left: 10px;` }
 `;

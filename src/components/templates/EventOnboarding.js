@@ -10,13 +10,11 @@ import { RowBody } from "../atoms/RowBody";
 import { StyledRowHead, StyledButton } from '../templates/UserEventsDashboard';
 
 const EventOnboarding = ({ eventModalHandler }) => {
+  const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
-  const currentDate = new Date().toLocaleDateString();
-
-  console.log(new Date(events.start_date).toLocaleDateString())
-  console.log(events);
+  const today = new Date().getTime();
 
   return (
     <BodyContainer>
@@ -26,14 +24,33 @@ const EventOnboarding = ({ eventModalHandler }) => {
         </MapContainer>
       </HeaderContent>
       <StyledRowHead>
-        <StyledButton gap>Global Hackathons</StyledButton>
-        {/* <StyledButton>Closed Hackathons</StyledButton> */}
+        <StyledButton 
+          gap
+          onClick={() => setIsOpenEventClicked(false)}
+        >Global Hackathons</StyledButton>
+        <StyledButton
+          onClick={() => setIsOpenEventClicked(true)}
+        >Open Hackathons</StyledButton>
       </StyledRowHead>
-      <StyledRowBody spacing="start">
-        {globalEvents.map(event => (
-          <EventCard key={event.id} event={event} {...{eventModalHandler}} />
-        ))}
-      </StyledRowBody> 
+      {
+        !isOpenEventClicked ? (
+          <StyledRowBody spacing="start">
+            {globalEvents.map(event => (
+              <EventCard key={event.id} event={event} {...{eventModalHandler}} />
+            ))}
+          </StyledRowBody>
+        ) : (
+          <StyledRowBody spacing="start">
+            {globalEvents.map(event => {
+              const startTime = new Date(event.start_date).getTime();
+              if(today <= startTime) {
+                return <EventCard key={event.id} event={event} {...{eventModalHandler}} />
+              } 
+            })}
+          </StyledRowBody> 
+        )
+      }
+      
     </BodyContainer> 
   );
 };

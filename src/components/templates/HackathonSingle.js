@@ -340,10 +340,13 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       )
                     }
                     {/* Implement this feature using google calendar or other similar services */}
-                    <Button
-                      size= "wide"
-                      color="primary-reverse"
-                    >Add to calendar</Button>
+                    {isOpen ? (
+                        <Button
+                        size= "wide"
+                        color="primary-reverse"
+                        >Add to calendar</Button>
+                      ) : <Button size= "wide" disabled>Add to calendar</Button>
+                    }
                   </TagCard>
                   {/* <Details>
                     <div>
