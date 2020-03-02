@@ -17,7 +17,7 @@ describe("Ensures that the action creators functions are working properly", () =
     expect(actions.setTeams(teams)).toEqual(expectedAction);
   });
 
-  //   it("should create an action for setSubmissions", () => {
+  //   t("should create an action for setSubmissions", () => {
   //     let submissions = initialState.submissions;
 
   //     const expectedAction = {
