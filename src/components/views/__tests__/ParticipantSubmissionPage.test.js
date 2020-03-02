@@ -39,6 +39,6 @@ describe("Component ParticipantSubmissionPage.js text nodes renders properly", (
     expect(jestFeatures).toMatchSnapshot();
   });
   it("asserts that the right title text node for the event  renders properly", () => {
-    expect(jestFeatures.getByText("EuroHack")).toMatchSnapshot();
+    expect(jestFeatures.getByText("EuroHack")).toBeInTheDocument();
   });
 });
