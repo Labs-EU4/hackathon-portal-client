@@ -612,9 +612,3 @@ Object {
   "unmount": [Function],
 }
 `;
-
-exports[`Component ParticipantSubmissionPage.js text nodes renders properly asserts that the right title text node for the event  renders properly 1`] = `
-<strong>
-  EuroHack
-</strong>
-`;
