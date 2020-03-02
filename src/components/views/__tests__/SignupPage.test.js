@@ -38,9 +38,7 @@ describe("Component UserProfile.js text nodes renders properly", () => {
   it("asserts that the text node Sign Up renders properly", () => {
     expect(jestFeatures.getByText("Sign Up")).toBeInTheDocument();
   });
-  // it("asserts that the text node on <Button> renders properly", () => {
-  //   expect(jestFeatures.getByText("Edit profile")).toBeInTheDocument();
-  // });
+
   // it("asserts that the text node on <H3> child of <HackathonCard> renders properly", () => {
   //   expect(
   //     jestFeatures.getByText("Hackathon(s) you registered for")
