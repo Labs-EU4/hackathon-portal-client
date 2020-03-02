@@ -38,14 +38,16 @@ describe("Ensures that the action creators functions are working properly", () =
     };
     expect(actions.fetchTeamMates(data)).toEqual(expectedAction);
   });
-  //   it("should create an action for submitProject", () => {
-  //     let projectData = initialState.submissions[0];
-  //     let history = "dashboard/event/1/participant_submission";
-  //     const expectedAction = {
-  //       payload: projectData,
-  //       history,
-  //       type: types.ParticiPantTeamTypes.SUBMIT_PROJECT
-  //     };
-  //     expect(actions.submitProject(projectData, history)).toEqual(expectedAction);
-  //   });
+  it("should create an action for addParticipantTeamMember", () => {
+    let data = initialState.participant_team_members[1];
+    let history = "dashboard/event/1/participant-teams/2";
+    const expectedAction = {
+      payload: data,
+      history,
+      type: types.ParticiPantTeamTypes.ADD_PARTICIPANT_TEAM_MEMBER
+    };
+    expect(actions.addParticipantTeamMember(data, history)).toEqual(
+      expectedAction
+    );
+  });
 });
