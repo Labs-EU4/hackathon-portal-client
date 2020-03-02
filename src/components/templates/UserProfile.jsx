@@ -105,9 +105,9 @@ export default function UserProfile({ initialState }) {
                     )?.avatar || profileImg
                   }
                 />
-                <Buttona color="green" anchor to="/dashboard/profile/edit">
+                <Button color="green" anchor to="/dashboard/profile/edit">
                   Edit profile
-                </Buttona>
+                </Button>
               </ProfileHead>
               <Column>
                 <H2 style={{ marginBottom: 0 }}>{initialState.fullname}</H2>
