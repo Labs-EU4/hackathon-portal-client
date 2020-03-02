@@ -20,7 +20,7 @@ jest.mock("react-router-dom", () => ({
   useParams: () => ({
     id: 1
   }),
-  useRouteMatch: () => ({ url: "/dashboard/event/:id/participant_submission" })
+  useRouteMatch: () => ({ url: "/dashboard/event/1/participant_submission" })
 }));
 beforeEach(() => {
   mockStore = configureStore();
