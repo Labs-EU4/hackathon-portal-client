@@ -546,7 +546,7 @@ export const TagsCardWide = styled(CardWide)`
   position: fixed; left: calc(100% - 585px); top: 70px;
   display: ${({ active }) => active && 'none'};
   width: 300px; max-height: calc(100vh - 130px);
-  border: 1px solid ${props => props.theme.color.primary.regular};
+  /* border: 1px solid ${props => props.theme.color.primary.regular}; */
   padding: 8px 5px;
   overflow-y: scroll;
 

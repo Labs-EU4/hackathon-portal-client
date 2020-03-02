@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
+import * as solid from "../../assets/styles/variables/colors";
 import { media } from "../../assets/styles/variables/media";
 import Button from '../atoms/Button';
 import ProfileImg from "../atoms/ProfileImg";
@@ -22,16 +23,17 @@ const items = [
   {
     title: "About",
     url: "/about",
-    icon: "exclamation-circle"
+    icon: "info-circle"
   }
 ];
 
-const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
+const SideBar = ({ type, setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarOpen }) => {
   const [ isEditProfileHovered, setIsEditProfileHovered ] = useState(false);
+  // const [ isSideBarClosed, setIsSideBarClosed ] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(state => state.currentUser);
 
   return (
-    <StyledNav>
+    <StyledNav active={isSideBarOpen}>
       <UserContainer 
         onClick={() => setIsProfileOpen(!isProfileOpen)}
       >
@@ -44,7 +46,7 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
               image_url !== null && token ? (
                 <>
                   {
-                    isEditProfileHovered && <StyledIcon icon="user-edit" />
+                    isEditProfileHovered && <StyledEditIcon icon="user-edit" />
                   }
                   <ProfileImg image={image_url} alt={username} />
                 </>
@@ -71,13 +73,22 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
       >Create Event</StyledButton>
       {items.map(({ title, url, icon }) => {
         return (
-          <StyledNavLink exact to={url} key={title} activeClassName="current">
-            {/* <SvgIcon /> */}
-            <Icon {...{icon}} />
-            <span>{title}</span>
-          </StyledNavLink>
+          <div style={{ width: '100%', position: 'relative'}}>
+            <StyledNavLink active={isSideBarOpen} exact to={url} key={title} activeClassName="current">
+              <Icon {...{icon}} />
+              {!isSideBarOpen && <span>{title}</span>}
+            </StyledNavLink>
+            {
+              isSideBarOpen && <LinkDetails>{title}</LinkDetails>
+            }
+          </div>
         );
       })}
+      <StyledExpandIcon 
+        icon="angle-double-down" 
+        active={isSideBarOpen}
+        onClick={() => setIsSideBarOpen(!isSideBarOpen)}
+      />
     </StyledNav>
   );
 };
@@ -85,12 +96,26 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
 export default SideBar;
 
 
-const StyledIcon = styled(Icon)`
+const StyledEditIcon = styled(Icon)`
   position: absolute; top: 50%; left: 50%;
   font-size: 2.5rem;
   color: ${props => props.theme.color.primary.regular};
   z-index: 500;
   transform: translate(-40%, -50%);
+`;
+
+const StyledExpandIcon = styled(Icon)`
+  position: absolute; bottom: 70px; left: 50%;
+  font-size: 3rem;
+  transform: ${({ active }) => active ? 'translateX(-50%) rotate(90deg);' : 'translateX(-50%) rotate(-90deg);'};
+  cursor: pointer;
+
+  &:hover {
+    transform: ${({ active }) => active 
+      ? 'translateX(-50%) rotate(90deg) scale(1.1);' 
+      : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
+    color: ${props => props.theme.color.white.regular};
+  }
 `;
 
 const UserInfoContent = styled.div`
@@ -106,8 +131,10 @@ const UserInfoContent = styled.div`
 
 const StyledNav = styled.div`
   ${props => props.theme.flex.custom('start', 'center', 'column')};
-  width: 250px; max-width: 300px;
-  padding: 90px 20px 30px;
+  position: relative;
+  width: ${({ active }) => active ? '60px' : '250px'}; 
+  max-width: 300px;
+  padding: ${({ active }) => active ? '90px 0' : '90px 20px 30px'};
 
   @media ${media.tablet} {
     width: 50px;
@@ -134,7 +161,7 @@ const StyledProfileImage = styled.div`
 const StyledNavLink = styled(NavLink)`
   ${props => props.theme.flex.custom('flex-start', 'flex-end')};
   width: 100%;
-  margin-bottom: 10px; padding: 12px 20px 8px 5px;
+  margin-bottom: 10px; padding: 12px 0 8px 5px;
   color: ${props => props.theme.color.black.regular};
   font-weight: 600;
   text-decoration: none; text-align: left;
@@ -155,12 +182,19 @@ const StyledNavLink = styled(NavLink)`
     background-color: ${props => props.theme.color.link.hover};
   }
 
+  &:hover + div {
+    visibility: visible;
+  }
+
   &.current {
     ${props => props.theme.shadow.box};
-    border-left: 5px solid ${props => props.theme.color.primary.regular};
-    border-radius: 6px;
     font-weight: bold;
     color: white;
+
+    ${({ active }) => active 
+      ? `border-right: 5px solid ${solid.blue}; border-radius: 0px;` 
+      : `border-left: 5px solid ${solid.blue}; border-radius: 6px;`
+    }
 
     svg {
       margin: 0 5px;
@@ -169,7 +203,20 @@ const StyledNavLink = styled(NavLink)`
     svg path {
       fill: ${props => props.theme.color.white.regular};
     }
-  }
+  } 
+`;
+
+const LinkDetails = styled.div`
+  ${props => props.theme.flex.center};
+  ${props => props.theme.shadow.box};
+  position: absolute; top: 50%;
+  height: 45px;
+  background-color: #3BCEF2;
+  border: 2px solid ${props => props.theme.color.primary.regular}; border-right: none;
+  border-top-left-radius: 3px; border-bottom-left-radius: 3px;
+  padding: 0 20px;
+  transform: translate(-100%, -60%);
+  visibility: hidden;
 `;
 
 const UserContainer = styled.div`

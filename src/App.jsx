@@ -29,9 +29,10 @@ import ResetPasswordConfirmation from './components/views/resetPassword/ResetPas
 import NewPassword from './components/views/resetPassword/NewPassword';
 
 function App() {
-  const { token, userId } = useSelector(state => state.currentUser);
+  const { token } = useSelector(state => state.currentUser);
   const [ isProfileOpen, setIsProfileOpen ] = useState(false);
   const [ isEventModalOpen, setIsEventModalOpen ] = useState(false);
+  const [ isSideBarOpen, setIsSideBarOpen ] = useState(false);
   const [ eventId, setEventId ] = useState(null);
 
   console.log('Event id -->', eventId);
@@ -121,7 +122,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <AppContainer>
-          <MainContent>
+          <MainContent active={isSideBarOpen}>
             <UserHeader />
             <RoutesContainer>
               <Switch>
@@ -163,6 +164,8 @@ function App() {
           <SideBar 
             {...{isProfileOpen}}
             {...{setIsProfileOpen}} 
+            {...{isSideBarOpen}}
+            {...{setIsSideBarOpen}}
           />
         </AppContainer>
         <ToastContainer />
@@ -181,11 +184,11 @@ const AppContainer = styled.main`
 
 const MainContent = styled.div`
   ${props => props.theme.flex.column};
-  width: calc(100vw - 250px);
+  width: ${({ active }) => active ? 'calc(100vw - 60px)' : 'calc(100vw - 250px)'};
 
-  @media ${media.tablet} {
-    width: calc(100vw - 50px);
-  }
+  /* @media ${media.tablet} {
+    width: calc(100vw - 60px);
+  } */
 `;
 
 const RoutesContainer = styled.div`
