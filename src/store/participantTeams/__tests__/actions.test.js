@@ -71,5 +71,5 @@ describe("Ensures that the action creators functions are working properly", () =
     expect(actions.sendParticipantInvite(data, history)).toEqual(
       expectedAction
     );
-  })
+  });
 });
