@@ -18,7 +18,7 @@ describe("Ensures that the action creators functions are working properly", () =
   });
 
   it("should create an action for setTeamMates", () => {
-    let teamMates = initialState.participant_team_members;
+    let teamMates = initialState.participant_team_members[1];
 
     const expectedAction = {
       payload: teamMates,
@@ -29,20 +29,15 @@ describe("Ensures that the action creators functions are working properly", () =
     expect(actions.setTeamMates(teamMates)).toEqual(expectedAction);
   });
 
-  //   it("should create an action for gradeSubmission", () => {
-  //     let submissionGrade = initialState.submissions[0].grade;
-  //     let submissionId = initialState.submissions[0].id;
-  //     let history = "/dashboard/events/2/grade";
-  //     const expectedAction = {
-  //       payload: submissionGrade,
-  //       id: submissionId,
-  //       history: history,
-  //       type: types.ParticiPantTeamTypes.GRADE_SUBMISSION
-  //     };
-  //     expect(
-  //       actions.gradeSubmission(submissionId, submissionGrade, history)
-  //     ).toEqual(expectedAction);
-  //   });
+  it("should create an action for fetchTeamMates", () => {
+    let data = initialState.participant_team_members;
+
+    const expectedAction = {
+      payload: data,
+      type: types.ParticiPantTeamTypes.FETCH_TEAMMATES
+    };
+    expect(actions.fetchTeamMates(data)).toEqual(expectedAction);
+  });
   //   it("should create an action for submitProject", () => {
   //     let projectData = initialState.submissions[0];
   //     let history = "dashboard/event/1/participant_submission";
