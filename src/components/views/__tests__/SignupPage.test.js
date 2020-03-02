@@ -32,8 +32,11 @@ describe("Component UserProfile.js text nodes renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
-  it("asserts that the text node on <H3> renders properly", () => {
-    expect(jestFeatures.getByText("Your Profile")).toBeInTheDocument();
+  it("asserts that the text node Log In renders properly", () => {
+    expect(jestFeatures.getByText("Log In")).toBeInTheDocument();
+  });
+  it("asserts that the text node Sign Up renders properly", () => {
+    expect(jestFeatures.getByText("Sign Up")).toBeInTheDocument();
   });
   // it("asserts that the text node on <Button> renders properly", () => {
   //   expect(jestFeatures.getByText("Edit profile")).toBeInTheDocument();
