@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component ParticipantSubmissionPage.js text nodes renders properly asserts that the component renders properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="sc-ifAKCX kjqdgS"
+        >
+          <div
+            class="sc-EHOje cawcRW"
+          >
+            <a
+              href="/dashboard"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-bZQynM cMGtGG"
+                src="Hackton-logo.png"
+              />
+            </a>
+            <div
+              class="sc-bRBYWo RInUu"
+            >
+              <div
+                class="sc-htoDjs iAtLjJ"
+              >
+                <span>
+                  <svg>
+                    link-burger-icon.svg
+                  </svg>
+                  Menu
+                </span>
+                <ul>
+                  <li>
+                    <a
+                      class="sc-dnqmqq gRMNAQ"
+                      href="/dashboard"
+                    >
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="sc-dnqmqq gRMNAQ"
+                      href="/dashboard/profile"
+                    >
+                      Profile
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="sc-iwsKbI fnOUWl"
+              >
+                S
+                <ul
+                  class="sc-gZMcBi hjGwiG"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-cMljjf hEMCcP"
+        >
+          <div
+            class="sc-gzVnrw ehKlJb"
+          >
+            <a
+              class="sc-dnqmqq gRMNAQ"
+              href="/dashboard"
+            >
+              <svg>
+                link-dashboard-icon.svg
+              </svg>
+              Dashboard
+            </a>
+            <a
+              class="sc-dnqmqq gRMNAQ"
+              href="/dashboard/profile"
+            >
+              <svg>
+                link-profile-icon.svg
+              </svg>
+              Profile
+            </a>
+          </div>
+          <div
+            class="sc-bwzfXH cwdcdI sc-bxivhb kjJNHQ"
+          >
+            <div
+              class="sc-jDwBTQ hADVSm"
+            >
+              <h3
+                class="sc-eNQAEJ faMTgL"
+              >
+                Submit Project
+              </h3>
+            </div>
+            <div
+              class="sc-iRbamj dQdMNk"
+            >
+              <div
+                class="sc-jlyJG sc-csuQGl bXUnth"
+              >
+                <form
+                  action="#"
+                >
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <p
+                      class="sc-kgoBCf fzXYvN"
+                    >
+                      You are making a submission for the
+                       
+                      <strong>
+                        EuroHack
+                      </strong>
+                      . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+                    </p>
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="project_title"
+                      >
+                        Project Title
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        id="project_title"
+                        name="project_title"
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="participant_or_team_nam"
+                      >
+                        Team/Participant name
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        id="participant_or_team_name"
+                        name="participant_or_team_name"
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gPEVay flXgEr"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="project_writeups"
+                    >
+                      Project Writeup
+                    </label>
+                    <div
+                      class="sc-Rmtcm fLGaO"
+                    >
+                      <textarea
+                        id="project_writeups"
+                        name="project_writeups"
+                        type="text"
+                      />
+                    </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <a
+                      class="sc-iAyFgw kpEmSz"
+                      color="grey"
+                      href="/dashboard"
+                    >
+                      Cancel
+                    </a>
+                    <button
+                      class="sc-kkGfuU gKOqPB"
+                      color="green"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-gqjmRU gUOFMN"
+        >
+          <div
+            class="sc-VigVT fmYOuc"
+          >
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-jTzLTM dCoQrq"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-jTzLTM dCoQrq"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-jTzLTM dCoQrq"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-cSHVUG sc-chPdSV tifze"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-cSHVUG sc-chPdSV tifze"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-cSHVUG sc-chPdSV tifze"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                class="sc-kgoBCf sc-kGXeez iYoAqE"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="sc-ifAKCX kjqdgS"
+      >
+        <div
+          class="sc-EHOje cawcRW"
+        >
+          <a
+            href="/dashboard"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-bZQynM cMGtGG"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-bRBYWo RInUu"
+          >
+            <div
+              class="sc-htoDjs iAtLjJ"
+            >
+              <span>
+                <svg>
+                  link-burger-icon.svg
+                </svg>
+                Menu
+              </span>
+              <ul>
+                <li>
+                  <a
+                    class="sc-dnqmqq gRMNAQ"
+                    href="/dashboard"
+                  >
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="sc-dnqmqq gRMNAQ"
+                    href="/dashboard/profile"
+                  >
+                    Profile
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="sc-iwsKbI fnOUWl"
+            >
+              S
+              <ul
+                class="sc-gZMcBi hjGwiG"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-cMljjf hEMCcP"
+      >
+        <div
+          class="sc-gzVnrw ehKlJb"
+        >
+          <a
+            class="sc-dnqmqq gRMNAQ"
+            href="/dashboard"
+          >
+            <svg>
+              link-dashboard-icon.svg
+            </svg>
+            Dashboard
+          </a>
+          <a
+            class="sc-dnqmqq gRMNAQ"
+            href="/dashboard/profile"
+          >
+            <svg>
+              link-profile-icon.svg
+            </svg>
+            Profile
+          </a>
+        </div>
+        <div
+          class="sc-bwzfXH cwdcdI sc-bxivhb kjJNHQ"
+        >
+          <div
+            class="sc-jDwBTQ hADVSm"
+          >
+            <h3
+              class="sc-eNQAEJ faMTgL"
+            >
+              Submit Project
+            </h3>
+          </div>
+          <div
+            class="sc-iRbamj dQdMNk"
+          >
+            <div
+              class="sc-jlyJG sc-csuQGl bXUnth"
+            >
+              <form
+                action="#"
+              >
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <p
+                    class="sc-kgoBCf fzXYvN"
+                  >
+                    You are making a submission for the
+                     
+                    <strong>
+                      EuroHack
+                    </strong>
+                    . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+                  </p>
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="project_title"
+                    >
+                      Project Title
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      id="project_title"
+                      name="project_title"
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="participant_or_team_nam"
+                    >
+                      Team/Participant name
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      id="participant_or_team_name"
+                      name="participant_or_team_name"
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-gPEVay flXgEr"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="project_writeups"
+                  >
+                    Project Writeup
+                  </label>
+                  <div
+                    class="sc-Rmtcm fLGaO"
+                  >
+                    <textarea
+                      id="project_writeups"
+                      name="project_writeups"
+                      type="text"
+                    />
+                  </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <a
+                    class="sc-iAyFgw kpEmSz"
+                    color="grey"
+                    href="/dashboard"
+                  >
+                    Cancel
+                  </a>
+                  <button
+                    class="sc-kkGfuU gKOqPB"
+                    color="green"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gqjmRU gUOFMN"
+      >
+        <div
+          class="sc-VigVT fmYOuc"
+        >
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-jTzLTM dCoQrq"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-jTzLTM dCoQrq"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-jTzLTM dCoQrq"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-cSHVUG sc-chPdSV tifze"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-cSHVUG sc-chPdSV tifze"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-cSHVUG sc-chPdSV tifze"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              class="sc-kgoBCf sc-kGXeez iYoAqE"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Component ParticipantSubmissionPage.js text nodes renders properly asserts that the right title text node for the event  renders properly 1`] = `
+<strong>
+  EuroHack
+</strong>
+`;
