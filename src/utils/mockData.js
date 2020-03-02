@@ -51,9 +51,23 @@ export const initialState = {
     { name: "ML hackers", id: 2, grade: 1 }
   ],
   teams: [
-    { id: 1, name: "The A team" },
-    { id: 2, name: "Hacking central" },
-    { id: 3, name: "blackhats" },
-    { id: 4, name: "Spies" }
+    { id: 1, team_name: "The A team", team_lead: 2 },
+    { id: 2, team_name: "Hacking central", team_lead: 3 },
+    { id: 3, team_name: "blackhats", team_lead: 4 },
+    { id: 4, team_name: "Spies", team_lead: 1 }
+  ],
+  participant_team_members: [
+    {
+      team_member: 3,
+      team_id: 1
+    },
+    {
+      team_member: 4,
+      team_id: 1
+    },
+    {
+      team_member: 5,
+      team_id: 1
+    }
   ]
 };

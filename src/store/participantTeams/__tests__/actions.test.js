@@ -17,17 +17,17 @@ describe("Ensures that the action creators functions are working properly", () =
     expect(actions.setTeams(teams)).toEqual(expectedAction);
   });
 
-  //   t("should create an action for setSubmissions", () => {
-  //     let submissions = initialState.submissions;
+    it("should create an action for setTeamMates", () => {
+      let submissions = initialState.submissions;
 
-  //     const expectedAction = {
-  //       payload: submissions,
+      const expectedAction = {
+        payload: submissions,
 
-  //       type: types.ParticiPantTeamTypes.SET_SUBMISSIONS
-  //     };
+        type: types.ParticiPantTeamTypes.SET_SUBMISSIONS
+      };
 
-  //     expect(actions.setSubmissions(submissions)).toEqual(expectedAction);
-  //   });
+      expect(actions.setSubmissions(submissions)).toEqual(expectedAction);
+    });
 
   //   it("should create an action for gradeSubmission", () => {
   //     let submissionGrade = initialState.submissions[0].grade;
