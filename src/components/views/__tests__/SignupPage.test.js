@@ -39,9 +39,9 @@ describe("Component UserProfile.js text nodes renders properly", () => {
     expect(jestFeatures.getByText("Sign Up")).toBeInTheDocument();
   });
 
-  // it("asserts that the text node on <H3> child of <HackathonCard> renders properly", () => {
-  //   expect(
-  //     jestFeatures.getByText("Hackathon(s) you registered for")
-  //   ).toBeInTheDocument();
-  // });
+  it("asserts that the img for hackton logo renders properly", () => {
+    expect(
+      jestFeatures.getByAltText("Hackton - Organise hackathons")
+    ).toBeInTheDocument();
+  });
 });
