@@ -7,7 +7,7 @@ import { H4 } from "../atoms/Heading";
 import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
-// import CardFooter from "./CardFooter";
+import Icon from "../atoms/Icon";
 import eventImg from '../../assets/images/event-img.jpg'
 
 const EventCard = ({ event, eventModalHandler }) => {
@@ -40,6 +40,8 @@ const EventCard = ({ event, eventModalHandler }) => {
             >Join Event</Button>
           </EventCTA>
         </EventCardContent>
+        <StyledBookmarkIcon icon="bookmark" />
+        <StyledStarIcon icon="star" />
       </Card>
     </StyledEventCard>
   );
@@ -115,4 +117,18 @@ const CardCountDown = styled.div`
   border: 2px solid ${props => props.theme.color.black.regular};
   border-radius: 3px;
   padding: 5px 10px;
+`;
+
+const StyledBookmarkIcon = styled(Icon)`
+  position: absolute; top: -5px; left: 10px;
+  font-size: 3rem;
+  color: ${props => props.theme.color.primary.regular};
+  cursor: pointer;
+`;
+
+const StyledStarIcon = styled(Icon)`
+  position: absolute; top: 0; left: 11px;
+  font-size: 1.8rem;
+  color: ${props => props.theme.color.white.regular};
+  cursor: pointer;
 `;
