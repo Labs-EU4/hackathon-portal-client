@@ -50,4 +50,15 @@ describe("Ensures that the action creators functions are working properly", () =
       expectedAction
     );
   });
+  it("should create an action for createTeamName", () => {
+    let data = initialState.teams[1].team_name;
+    let history = "dashboard/event/2/participant-teams/";
+    const expectedAction = {
+      payload: data,
+      history,
+      type: types.ParticiPantTeamTypes.CREATE_TEAM_NAME
+    };
+    expect(actions.createTeamName(data, history)).toEqual(expectedAction);
+  });
 });
+//
