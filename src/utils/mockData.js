@@ -12,6 +12,13 @@ export const initialState = {
         guidelines: "cool hekhkdsjfhsdkjf skdjfhskdjfhkjsdfh skjdfhksjdfh",
         participation_type: "Team",
         category_id: 1,
+        requirements: [
+          {
+            video_url:
+              "https://res.cloudinary.com/ibkrice-com/video/upload/v1581259780/Harvesting_ifato8.mp4"
+          }
+        ],
+
         rubrics: [
           "Presentation",
           "Product Fit",
