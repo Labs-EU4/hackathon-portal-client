@@ -11,10 +11,12 @@ import Icon from "../atoms/Icon";
 import eventImg from '../../assets/images/event-img.jpg'
 
 const EventCard = ({ event, eventModalHandler }) => {
-  const { id, event_id, event_title, event_description, start_date } = event;
-  const letter = event_title && event_title[0];
+  const { id, event_id, event_title, event_description, start_date, organizer_name, organizer_profile_pic } = event;
+  const letter = organizer_name && organizer_name.split("")[0];
+  const organizerImg = organizer_profile_pic && JSON.parse(organizer_profile_pic[0]);
   const excerpt = event_description.substr(0, 100) + "...";
 
+  console.log('this is the event object --> ', event);
   // Date formatting
   const formattedDate = new Date(start_date).toLocaleDateString();
   return (
@@ -24,7 +26,11 @@ const EventCard = ({ event, eventModalHandler }) => {
           <img src={eventImg} alt={event_title} />
         </EventImage>
         <EventCardContent>
-          <StyledIconLetter>{letter.toUpperCase()}</StyledIconLetter>
+          { 
+            organizer_profile_pic ? (
+              <OrgImg src={organizerImg.avatar} alt={organizer_name} />
+            ) : letter && <StyledIconLetter>{letter}</StyledIconLetter>
+          }
           <H4>{event_title}</H4>
           <Paragraph>{excerpt}</Paragraph>
           <CardCountDown>{formattedDate}</CardCountDown>
@@ -67,12 +73,19 @@ const EventImage = styled.figure`
   }
 `;
 
+const OrgImg = styled.img`
+  position: absolute; top: 130px; left: 10px;
+  width: 30px; height: 30px;
+  border: 1px solid ${props => props.theme.color.primary.regular}; border-radius: 50%;
+  object-fit: cover;
+`;
+
 const StyledIconLetter = styled(IconLetter)`
   ${props => props.theme.flex.center};
   position: absolute; top: 130px; left: 10px;
   width: 30px; height: 30px;
   background-color: ${props => props.theme.color.black.regular};
-  border: 2px solid white; border-radius: 50%;
+  border: 1px solid ${props => props.theme.color.primary.regular}; border-radius: 50%;
   object-fit: cover;
   color: ${props => props.theme.color.primary.regular};
 `;
