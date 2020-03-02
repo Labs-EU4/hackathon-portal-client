@@ -21,6 +21,7 @@ jest.mock("react-router-dom", () => ({
   }),
   useRouteMatch: () => ({ url: "/dashboard/event/:id" })
 }));
+
 beforeEach(() => {
   mockStore = configureStore();
   store = mockStore(initialState);
@@ -47,11 +48,11 @@ describe("Component HackathonProjects.js renders properly", () => {
     expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
   });
 
-  it("the component doesnt render the right conditional - ratings area", () => {
+  it("the component render the right conditional - ratings area", () => {
     expect(component.queryByText(/View/i)).not.toBeInTheDocument();
   });
 
-  it("the component doesnt render the right conditional - submissions area", () => {
+  it("the component render the right conditional - submissions area", () => {
     expect(
       component.queryByText(/No projects were submitted/i)
     ).not.toBeInTheDocument();
