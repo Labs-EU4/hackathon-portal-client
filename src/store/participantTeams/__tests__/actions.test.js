@@ -61,4 +61,3 @@ describe("Ensures that the action creators functions are working properly", () =
     expect(actions.createTeamName(data, history)).toEqual(expectedAction);
   });
 });
-//
