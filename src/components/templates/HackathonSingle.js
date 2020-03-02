@@ -15,6 +15,7 @@ import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import userImg from "../../assets/images/user_icon.svg";
 import eventImg from "../../assets/images/event-img.jpg";
+import Icon from '../atoms/Icon';
 // import { useEventTeam } from "../../hooks";
 
 import {
@@ -390,7 +391,9 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
           onMouseOver={() => setIsSlideForm(true)}
           onMouseLeave={() => setIsSlideForm(false)}
           color="primary"
-        >X</ExitButton>
+        >
+          <Icon icon="times" />
+        </ExitButton>
       </ModalBody>
     );
   }
@@ -548,6 +551,7 @@ export const PHosted = styled(Paragraph)`
 
 export const ExitButton = styled.p`
   ${props => props.theme.flex.center};
+  ${props => props.theme.shadow.box};
   position: fixed; top: 77px; left: 35px;
   width: 35px; height: 35px;
   background-image: linear-gradient(to right, 
@@ -555,7 +559,6 @@ export const ExitButton = styled.p`
     ${props => props.theme.color.primary.regular} 50%, 
     ${props => props.theme.color.primary.regular} 100%);
   background-size: 204%;
-  border: 3px solid ${props => props.theme.color.black.regular};
   border-radius: 50%;
   color: ${props => props.theme.color.black.regular};
   transition: all .2s;

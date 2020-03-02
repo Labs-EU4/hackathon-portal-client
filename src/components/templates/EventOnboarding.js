@@ -13,6 +13,10 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
+  const currentDate = new Date().toLocaleDateString();
+
+  console.log(new Date(events.start_date).toLocaleDateString())
+  console.log(events);
 
   return (
     <BodyContainer>
@@ -22,13 +26,14 @@ const EventOnboarding = ({ eventModalHandler }) => {
         </MapContainer>
       </HeaderContent>
       <StyledRowHead>
-        <StyledButton gap>Global hackathons</StyledButton>
+        <StyledButton gap>Global Hackathons</StyledButton>
+        {/* <StyledButton>Closed Hackathons</StyledButton> */}
       </StyledRowHead>
       <StyledRowBody spacing="start">
         {globalEvents.map(event => (
           <EventCard key={event.id} event={event} {...{eventModalHandler}} />
         ))}
-      </StyledRowBody>
+      </StyledRowBody> 
     </BodyContainer> 
   );
 };

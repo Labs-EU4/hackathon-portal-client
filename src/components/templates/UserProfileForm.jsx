@@ -157,11 +157,6 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
               <ErrorMessage name="bio" />
             </RowBody>
             <ButtonRowBody>
-              {/* <Link to="/dashboard">
-                <Button to="/dashboard" color="grey">
-                  Cancel
-                </Button>
-              </Link> */}
               <NewButton 
                 color="green" 
                 size="wide"
