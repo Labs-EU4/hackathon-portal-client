@@ -2,17 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styled from 'styled-components';
 
-const Icon = props => {
-    const { icon, className, onClick, top, left, absolute} = props;
+const Icon = ({ icon, onClick, ...props }) => {
     
     return (
         <StyledIcon
-            icon={icon} 
-            className={className} 
+            icon={icon}
             onClick={onClick ? onClick : null}
-            absolute={absolute ? "true" : null} 
-            top={top} 
-            left={left}
+            {...props}
         />
     );
 };
@@ -20,10 +16,7 @@ const Icon = props => {
 export default Icon;
 
 const StyledIcon = styled(FontAwesomeIcon)`
-    position: ${props => props.absolute ? 'absolute' : 'none'};
-    left: ${props => props.left ? props.left : '10px'};
-    top: ${props => props.top ? props.top : '7px'};
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: ${props => props.theme.color.white};
 `;
 

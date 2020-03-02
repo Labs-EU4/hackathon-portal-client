@@ -4,92 +4,73 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 import { media } from "../../assets/styles/variables/media";
-// import { ProfileImg } from "../atoms/ProfileImg";
 import Button from '../atoms/Button';
-import userImg from '../../assets/images/user_icon.svg';
 import ProfileImg from "../atoms/ProfileImg";
+import Icon from '../atoms/Icon';
 
 const items = [
   {
     title: "Home",
     url: "/",
-    // svg: DashboardIcon
+    icon: "home"
   },
   {
     title: "Dashboard",
     url: "/dashboard",
-    // svg: DashboardIcon
+    icon: "th-large"
   },
   {
     title: "About",
     url: "/about",
-    // svg: ProfileIcon
+    icon: "exclamation-circle"
   }
 ];
 
 const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
   const { token, email, fullname, image_url, username } = useSelector(state => state.currentUser);
 
-  if (type === "mobile") {
-    return (
-      <StyledMobileNav>
-        <span>
-          {/* <BurgerIcon /> */}
-          Menu
-        </span>
-        <ul>
-          {items.map(({ title, url }) => {
-            return (
-              <li key={title}>
-                <StyledNavLink to={url}>{title}</StyledNavLink>
-              </li>
-            );
-          })}
-        </ul>
-      </StyledMobileNav>
-    );
-  } else
-    return (
-      <StyledNav>
-        <UserContainer 
-          onClick={() => setIsProfileOpen(!isProfileOpen)}
-        >
-          <StyledProfileImage>
-              {
-                image_url !== null && token ? (
-                  // <img src={memberPicture?.avatar} alt={username}/>
-                  <ProfileImg image={image_url} alt={username} />
-                ) : (
-                  <ProfileImg alt="defaultImg" />
-                )
-              }
-              <UserInfoContent>
-                <p>{fullname}</p>
-                <p>{email}</p>
-              </UserInfoContent>
-            {/* {
-              user && <Dropdown className="row2tab" />
-            }   */}
-          </StyledProfileImage>
-        </UserContainer>
-        <StyledButton
-          exact 
-          link
-          to="/dashboard/new" 
-          color="primary"
-          size="wide"
-          activeClassName="current"
-        >Create Event</StyledButton>
-        {items.map(({ title, url }) => {
-          return (
-            <StyledNavLink exact to={url} key={title} activeClassName="current">
-              {/* <SvgIcon /> */}
-              {title}
-            </StyledNavLink>
-          );
-        })}
-      </StyledNav>
-    );
+  return (
+    <StyledNav>
+      <UserContainer 
+        onClick={() => setIsProfileOpen(!isProfileOpen)}
+      >
+        <StyledProfileImage>
+            {
+              image_url !== null && token ? (
+                // <img src={memberPicture?.avatar} alt={username}/>
+                <ProfileImg image={image_url} alt={username} />
+              ) : (
+                <ProfileImg alt="defaultImg" />
+              )
+            }
+            <UserInfoContent>
+              <p>{fullname}</p>
+              <p>{email}</p>
+            </UserInfoContent>
+          {/* {
+            user && <Dropdown className="row2tab" />
+          }   */}
+        </StyledProfileImage>
+      </UserContainer>
+      <StyledButton
+        exact 
+        link
+        to="/dashboard/new" 
+        color="primary"
+        size="wide"
+        activeClassName="current"
+      >Create Event</StyledButton>
+      {items.map(({ title, url, icon }) => {
+        return (
+          <StyledNavLink exact to={url} key={title} activeClassName="current">
+            {/* <SvgIcon /> */}
+            <Icon {...{icon}} />
+            <span>{title}</span>
+          </StyledNavLink>
+        );
+      })}
+    </StyledNav>
+  );
 };
 
 export default SideBar;
@@ -128,76 +109,10 @@ const StyledProfileImage = styled.div`
   border-radius: 50%;
 `;
 
-const StyledMobileNav = styled.div`
-  display: block;
-
-  @media (min-width: 1152px) {
-    display: none;
-  }
-
-  span {
-    display: flex;
-    color: ${props => props.theme.color.grey.dark};
-    font-weight: 500;
-    margin: 0 20px 0 0;
-
-    svg {
-      width: 25px;
-      margin: 0 5px 0 0;
-
-      path {
-        fill: #9d9d9d;
-      }
-    }
-  }
-
-  span:hover {
-    cursor: pointer;
-  }
-
-  ul {
-    display: none;
-    padding: 5px;
-    list-style: none;
-    z-index: 1;
-    position: absolute;
-    flex-direction: column;
-    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.3);
-    border-radius: 6px;
-    transition: 0.3s;
-
-    li {
-      text-align: center;
-      font-size: 12px;
-      a,
-      span {
-        font-weight: bold;
-        font-size: 15px;
-        padding: 15px 20px;
-        text-decoration: none;
-        color: ${props => props.theme.color.grey.dark};
-        display: block;
-
-        &:hover {
-          background: ${props => props.theme.color.blue.regular};
-          color: ${props => props.theme.color.white.regular};
-          transition: all 0.3s;
-        }
-      }
-    }
-  }
-
-  &:hover {
-    ul {
-      display: flex;
-    }
-  }
-`;
-
 const StyledNavLink = styled(NavLink)`
-  ${props => props.theme.flex.custom('flex-start', 'center')};
+  ${props => props.theme.flex.custom('flex-start', 'flex-end')};
   width: 100%;
-  margin-bottom: 10px; padding: 15px 20px 15px 10px;
+  margin-bottom: 10px; padding: 12px 20px 8px 5px;
   color: ${props => props.theme.color.black.regular};
   font-weight: 600;
   text-decoration: none; text-align: left;
@@ -205,12 +120,13 @@ const StyledNavLink = styled(NavLink)`
   white-space: nowrap;
 
   svg {
-    margin: 0 15px 0 0;
-    width: 20px;
+    color: ${props => props.theme.color.white.regular};
+    margin: 0 5px 0 12px;
   }
 
   svg path {
     fill: #9d9d9d;
+    fill: ${props => props.theme.color.black.regular};
   }
 
   &:hover {
@@ -224,8 +140,12 @@ const StyledNavLink = styled(NavLink)`
     font-weight: bold;
     color: white;
 
+    svg {
+      margin: 0 5px;
+    }
+
     svg path {
-      fill: #868686;
+      fill: ${props => props.theme.color.white.regular};
     }
   }
 `;
