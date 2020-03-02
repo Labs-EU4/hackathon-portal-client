@@ -49,5 +49,11 @@ export const initialState = {
   submissions: [
     { name: "AI hack", id: 1, grade: 3 },
     { name: "ML hackers", id: 2, grade: 1 }
+  ],
+  teams: [
+    { id: 1, name: "The A team" },
+    { id: 2, name: "Hacking central" },
+    { id: 3, name: "blackhats" },
+    { id: 4, name: "Spies" }
   ]
 };
