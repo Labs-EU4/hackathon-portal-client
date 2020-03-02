@@ -4,11 +4,12 @@ import { media } from "../../assets/styles/variables/media";
 
 import userImg from '../../assets/images/user_icon.svg';
 
-const ProfileImg = ({ image, alt }) => {
+const ProfileImg = ({ image, alt, isSideBarOpen }) => {
   let memberPicture = image ? JSON.parse(image) : null;
 
   return (
     <StyledImg
+      active={isSideBarOpen}
       src={memberPicture ? memberPicture.avatar : userImg} 
       alt={alt} 
     />
@@ -22,6 +23,7 @@ const StyledImg = styled.img`
   width: 100%;
   border-radius: 50%;
   object-fit: cover;
+  ${({ active }) => active && 'margin-left: 4px;' };
   
   &:hover {}
 `;

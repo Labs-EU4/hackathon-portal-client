@@ -42,28 +42,30 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSi
           onMouseEnter={() => setIsEditProfileHovered(true)}
           onMouseLeave={() => setIsEditProfileHovered(false)}
         >
-            {
-              image_url !== null && token ? (
-                <>
-                  {
-                    isEditProfileHovered && <StyledEditIcon icon="user-edit" />
-                  }
-                  <ProfileImg image={image_url} alt={username} />
-                </>
-              ) : (
-                <ProfileImg alt="defaultImg" />
-              )
-            }
-            <UserInfoContent>
-              <p>{fullname}</p>
-              <p>{email}</p>
-            </UserInfoContent>
-          {/* {
-            user && <Dropdown className="row2tab" />
-          }   */}
+          {
+            image_url !== null && token ? (
+              <>
+                {
+                  isEditProfileHovered && <StyledEditIcon icon="user-edit" />
+                }
+                <ProfileImg image={image_url} alt={username} {...{isSideBarOpen}}/>
+              </>
+            ) : (
+              <ProfileImg alt="defaultImg" {...{isSideBarOpen}} />
+            )
+          }
+          {
+            !isSideBarOpen && (
+              <UserInfoContent>
+                <p>{fullname}</p>
+                <p>{email}</p>
+              </UserInfoContent>
+            )
+          }
         </StyledProfileImage>
       </UserContainer>
       <StyledButton
+        active={isSideBarOpen}
         exact 
         link
         to="/dashboard/new" 
@@ -192,7 +194,7 @@ const StyledNavLink = styled(NavLink)`
     color: white;
 
     ${({ active }) => active 
-      ? `border-right: 5px solid ${solid.blue}; border-radius: 0px;` 
+      ? `border-right: 5px solid ${solid.blue}; border-radius: 0px; padding-left: 10px;` 
       : `border-left: 5px solid ${solid.blue}; border-radius: 6px;`
     }
 
@@ -233,6 +235,10 @@ const UserContainer = styled.div`
 
 const StyledButton = styled(Button)`
   margin-bottom: 10px;
+  ${({ active }) => active && `
+    padding: 5px 0;
+    word-break: break-all;
+  `}
 
   &:hover {
     border: 3px solid ${props => props.theme.color.primary.regular};
