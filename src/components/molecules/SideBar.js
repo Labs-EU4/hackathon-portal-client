@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
@@ -27,6 +27,7 @@ const items = [
 ];
 
 const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
+  const [ isEditProfileHovered, setIsEditProfileHovered ] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(state => state.currentUser);
 
   return (
@@ -34,11 +35,19 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
       <UserContainer 
         onClick={() => setIsProfileOpen(!isProfileOpen)}
       >
-        <StyledProfileImage>
+        <StyledProfileImage 
+          active={isEditProfileHovered}
+          onMouseEnter={() => setIsEditProfileHovered(true)}
+          onMouseLeave={() => setIsEditProfileHovered(false)}
+        >
             {
               image_url !== null && token ? (
-                // <img src={memberPicture?.avatar} alt={username}/>
-                <ProfileImg image={image_url} alt={username} />
+                <>
+                  {
+                    isEditProfileHovered && <StyledIcon icon="user-edit" />
+                  }
+                  <ProfileImg image={image_url} alt={username} />
+                </>
               ) : (
                 <ProfileImg alt="defaultImg" />
               )
@@ -76,6 +85,14 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen }) => {
 export default SideBar;
 
 
+const StyledIcon = styled(Icon)`
+  position: absolute; top: 50%; left: 50%;
+  font-size: 2.5rem;
+  color: ${props => props.theme.color.primary.regular};
+  z-index: 500;
+  transform: translate(-40%, -50%);
+`;
+
 const UserInfoContent = styled.div`
   margin-left: 5px;
 
@@ -103,10 +120,15 @@ const StyledNav = styled.div`
 
 const StyledProfileImage = styled.div`
   ${props => props.theme.shadow.box};
+  position: relative;
   display: flex; align-items: center;
   width: 50px; height: 50px;
   background-color: transparent;
   border-radius: 50%;
+  
+  &:hover img {
+    opacity: .4;
+  }
 `;
 
 const StyledNavLink = styled(NavLink)`
