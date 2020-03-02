@@ -34,14 +34,14 @@ describe("Component UserProfile.js text nodes renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
   it("asserts that the text node on <H3> renders properly", () => {
-    expect(jestFeatures.getByText("Your Profile")).toMatchSnapshot();
+    expect(jestFeatures.getByText("Your Profile")).toBeInTheDocument();
   });
   it("asserts that the text node on <Button> renders properly", () => {
-    expect(jestFeatures.getByText("Edit profile")).toMatchSnapshot();
+    expect(jestFeatures.getByText("Edit profile")).toBeInTheDocument();
   });
   it("asserts that the text node on <H3> child of <HackathonCard> renders properly", () => {
     expect(
       jestFeatures.getByText("Hackathon(s) you registered for")
-    ).toMatchSnapshot();
+    ).toBeInTheDocument();
   });
 });

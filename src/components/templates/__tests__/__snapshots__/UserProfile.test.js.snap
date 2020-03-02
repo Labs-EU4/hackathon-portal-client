@@ -678,29 +678,3 @@ Object {
   "unmount": [Function],
 }
 `;
-
-exports[`Component UserProfile.js text nodes renders properly asserts that the text node on <Button> renders properly 1`] = `
-<a
-  class="sc-iAyFgw dOtCVP sc-kgAjT cRFgVS"
-  color="green"
-  href="/dashboard/profile/edit"
->
-  Edit profile
-</a>
-`;
-
-exports[`Component UserProfile.js text nodes renders properly asserts that the text node on <H3> child of <HackathonCard> renders properly 1`] = `
-<h3
-  class="sc-eNQAEJ faMTgL"
->
-  Hackathon(s) you registered for
-</h3>
-`;
-
-exports[`Component UserProfile.js text nodes renders properly asserts that the text node on <H3> renders properly 1`] = `
-<h3
-  class="sc-eNQAEJ faMTgL"
->
-  Your Profile
-</h3>
-`;
