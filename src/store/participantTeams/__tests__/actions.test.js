@@ -60,4 +60,16 @@ describe("Ensures that the action creators functions are working properly", () =
     };
     expect(actions.createTeamName(data, history)).toEqual(expectedAction);
   });
+  it("should create an action for sendParticipantInvite", () => {
+    let data = initialState.teams[1].participant_team_members;
+    let history = "/dashboard/event/7/participant-teams/8";
+    const expectedAction = {
+      payload: data,
+      history,
+      type: types.ParticiPantTeamTypes.SEND_PARTICIPANT_INVITE
+    };
+    expect(actions.sendParticipantInvite(data, history)).toEqual(
+      expectedAction
+    );
+  })
 });
