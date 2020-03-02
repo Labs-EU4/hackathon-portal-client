@@ -36,4 +36,7 @@ describe("Component UserProfile.js text nodes renders properly", () => {
   it("asserts that the text node on <H3> renders properly", () => {
     expect(jestFeatures.getByText("Your Profile")).toMatchSnapshot();
   });
+  it("asserts that the text node on <Button> renders properly", () => {
+    expect(jestFeatures.getByText("Edit profile")).toMatchSnapshot();
+  });
 });

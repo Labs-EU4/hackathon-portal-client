@@ -127,7 +127,7 @@ Object {
                     src="profile-image.png"
                   />
                   <a
-                    class="sc-iAyFgw dOtCVP sc-kgAjT cRFgVS"
+                    class="sc-iAyFgw dOtCVP"
                     color="green"
                     href="/dashboard/profile/edit"
                   >
@@ -438,7 +438,7 @@ Object {
                   src="profile-image.png"
                 />
                 <a
-                  class="sc-iAyFgw dOtCVP sc-kgAjT cRFgVS"
+                  class="sc-iAyFgw dOtCVP"
                   color="green"
                   href="/dashboard/profile/edit"
                 >
@@ -677,6 +677,16 @@ Object {
   "rerender": [Function],
   "unmount": [Function],
 }
+`;
+
+exports[`Component UserProfile.js text nodes renders properly asserts that the text node on <Button> renders properly 1`] = `
+<a
+  class="sc-iAyFgw dOtCVP"
+  color="green"
+  href="/dashboard/profile/edit"
+>
+  Edit profile
+</a>
 `;
 
 exports[`Component UserProfile.js text nodes renders properly asserts that the text node on <H3> renders properly 1`] = `
