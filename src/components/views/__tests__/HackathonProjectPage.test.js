@@ -48,4 +48,4 @@ describe("Asserts that the text nodes on HackathonProjectPage.js render properly
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
-})
+});
