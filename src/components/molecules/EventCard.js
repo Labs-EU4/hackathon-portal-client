@@ -10,7 +10,7 @@ import CardFooter from "./CardFooter";
 const StyledCardLink = styled(Link)`
   text-decoration: none;
   transition: all 0.5s;
-
+  overflow-wrap: break-word;
   &:hover > div {
     transition: all 0.5s;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
