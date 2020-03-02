@@ -72,7 +72,7 @@ const SideBar = ({ type, setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSi
         color="primary"
         size="wide"
         activeClassName="current"
-      >Create Event</StyledButton>
+      >Create{ isSideBarOpen && <br/>} Event</StyledButton>
       {items.map(({ title, url, icon }) => {
         return (
           <div style={{ width: '100%', position: 'relative'}}>
@@ -148,7 +148,6 @@ const StyledNav = styled.div`
 `;
 
 const StyledProfileImage = styled.div`
-  ${props => props.theme.shadow.box};
   position: relative;
   display: flex; align-items: center;
   width: 50px; height: 50px;

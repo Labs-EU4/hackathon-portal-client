@@ -11,6 +11,7 @@ import { RowHead } from "../atoms/RowHead";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import Label from "../atoms/Label";
+import Icon from '../atoms/Icon';
 import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
@@ -123,7 +124,7 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
                   href={submission?.git_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                >GitHub URL</StyledButton>
+                ><Icon icon={['fab', 'github']} /><span>GitHub URL</span></StyledButton>
               )}
               {submission?.video_url && (
                 <StyledButton
@@ -132,7 +133,7 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
                   href={submission?.video_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                >Video URL</StyledButton>
+                ><Icon icon="play-circle" /><span>Video URL</span></StyledButton>
               )}
             </CenterItems>
           </Description>
@@ -374,5 +375,11 @@ const ButtonGroup = styled.div`
 `;
 
 const StyledButton = styled(Button)`
+  display: flex;
+  align-items: center;
   margin: 0 5px;
+
+  & > span {
+    margin-left: 5px;
+  }
 `;
