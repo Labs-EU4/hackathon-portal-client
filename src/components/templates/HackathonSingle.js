@@ -116,8 +116,18 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
   ];
 
   // Date formatting
-  const formattedStartDate = new Date(start_date).toLocaleDateString();
-  const formattedEndDate = new Date(end_date).toLocaleDateString();
+  // const formattedStartDate = new Date(start_date).toLocaleDateString();
+  // const formattedEndDate = new Date(end_date).toLocaleDateString();
+  const startDate = String(new Date(start_date)).split(" ");
+  console.log("Start date --> ", String(new Date(start_date)).split(" "))
+  const startDay = startDate[2];
+  const startMonth = startDate[1];
+  const startYear = startDate[3];
+  // const formattedStartMonth = StartDate.split(" ")[1];
+  const endDate = String(new Date(end_date)).split(" ");
+  const endDay = endDate[2];
+  const endMonth = endDate[1];
+  // const formattedEndDay = EndDate[0];
 
   // Event is open or closed for registration
   const userCallback = p => p.user_id === userId;
@@ -260,7 +270,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                 </EventCardLeftColumn>
                 <TagsCardWide active={isSlideForm}>
                   <TagCard>
-                    <BoldSpan>Hosted by:</BoldSpan>
+                    <NormalSpan>Hosted by:</NormalSpan>
                     <UserContainer>
                       {organizer_profile_pic === null ? (
                         <Image src={userImg} alt="user_icon" />
@@ -312,6 +322,29 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       )
                     )}
                   </TagCard>
+                  <TagCard>
+                    <NormalSpan>Event dates:</NormalSpan>
+                    {
+                      startMonth !== endMonth ? (
+                        <Paragraph 
+                          center bold size="large"
+                        >{startMonth} {startDay} - {endMonth} {endDay}, {startYear}</Paragraph>
+                      ) : startDay === endDay ? (
+                        <Paragraph 
+                          center bold size="large"
+                        >{startMonth} {startDay}, {startYear}</Paragraph>
+                      ) : (
+                        <Paragraph 
+                          center bold size="large"
+                        >{startMonth} {startDay} - {endDay}, {startYear}</Paragraph>
+                      )
+                    }
+                    {/* Implement this feature using google calendar or other similar services */}
+                    <Button
+                      size= "wide"
+                      color="primary-reverse"
+                    >Add to calendar</Button>
+                  </TagCard>
                   {/* <Details>
                     <div>
                       <Paragraph>
@@ -348,8 +381,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                       >
                         Add Judges
                       </Button>
-                    )}
-                    
+                    )}  
                     {isTeamLead && !isEnded && (
                       <Button
                         link
@@ -545,8 +577,9 @@ export const Image = styled.img`
 
 export const PHosted = styled(Paragraph)`
   ${props => props.theme.fontSize.medium};
-  color: darkgray;
   margin-bottom: 0;
+  font-weight: bold;
+  color: ${props => props.theme.color.black.regular};
 `;
 
 export const ExitButton = styled.p`

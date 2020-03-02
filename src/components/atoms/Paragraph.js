@@ -15,4 +15,7 @@ export const Paragraph = styled.p`
     transform: translateY(-50%)
   `}
   ${({ noMargin }) => noMargin && `margin: 0;` }
+  ${({ center }) => center && `margin: 5px auto 10px;` }
+  ${({ bold }) => bold && `font-weight: bold;` }
+  ${({ size }) => size === 'large' && `font-size: 1.7rem;`}
 `;
