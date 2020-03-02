@@ -31,7 +31,7 @@
     "yup": "^0.28.0"
   },
   "scripts": {
-    "start": "node_modules/react-scripts/bin/react-scripts.js start",
+    "start": "node node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
     "test": "react-scripts test --update-snapshot --coverage --watchAll",
     "clear_jest": "jest --clearCache",
