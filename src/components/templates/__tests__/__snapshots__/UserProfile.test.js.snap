@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component UserProfile.js renders properly asserts that the component renders properly 1`] = `
+exports[`Component UserProfile.js text nodes renders properly asserts that the component renders properly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -677,4 +677,12 @@ Object {
   "rerender": [Function],
   "unmount": [Function],
 }
+`;
+
+exports[`Component UserProfile.js text nodes renders properly asserts that the text node on <H3> renders properly 1`] = `
+<h3
+  class="sc-eNQAEJ faMTgL"
+>
+  Your Profile
+</h3>
 `;

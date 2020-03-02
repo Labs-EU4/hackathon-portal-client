@@ -29,8 +29,11 @@ beforeEach(() => {
   );
 });
 
-describe("Component UserProfile.js renders properly", () => {
+describe("Component UserProfile.js text nodes renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
+  });
+  it("asserts that the text node on <H3> renders properly", () => {
+    expect(jestFeatures.getByText("Your Profile")).toMatchSnapshot();
   });
 });
