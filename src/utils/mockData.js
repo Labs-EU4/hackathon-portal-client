@@ -11,7 +11,15 @@ export const initialState = {
         location: "Europe",
         guidelines: "cool hekhkdsjfhsdkjf skdjfhskdjfhkjsdfh skjdfhksjdfh",
         participation_type: "Team",
-        category_id: 1
+        category_id: 1,
+        rubrics: [
+          "Presentation",
+          "Product Fit",
+          "Functionality",
+          "Innovation",
+          "Product Design",
+          "Extensibility"
+        ]
       },
       {
         id: 2,
@@ -47,9 +55,23 @@ export const initialState = {
   },
 
   submissions: [
-    { name: "AI hack", id: 1, grade: 3 },
-    { name: "ML hackers", id: 2, grade: 1 }
+    {
+      id: 1,
+      project_title: "Mock Project",
+      participant_or_team_name: "Mock Team",
+      event_id: 7,
+      video_url: "",
+      git_url: "https://www.google.com/",
+      project_writeups: "No mock write up",
+      submitted_by: 14,
+      created_at: "2020-03-02",
+      updated_at: "2020-03-02",
+      average_rating: 0,
+      acted_judges: 0,
+      number_of_judges: 0
+    }
   ],
+
   teams: [
     { id: 1, team_name: "The A team", team_lead: 2 },
     { id: 2, team_name: "Hacking central", team_lead: 3 },

@@ -1,14 +1,16 @@
 import React from "react";
-import { Router, Route } from "react-router";
+import { Router } from "react-router";
 import { createMemoryHistory } from "history";
 import { Provider } from "react-redux";
-import { render } from "@testing-library/react";
+import { render, fireEvent, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
+import HackathonSingleProject from "../HackathonSingleProject";
 import { initialState } from "../../../utils/mockData";
-import HackathonProjects from "../HackathonProjects";
 
 const history = createMemoryHistory();
+
+afterEach(cleanup);
 
 let mockStore;
 let store;
@@ -29,32 +31,22 @@ beforeEach(() => {
   component = render(
     <Router history={history}>
       <Provider store={store}>
-        <HackathonProjects />
+        <HackathonSingleProject />
       </Provider>
     </Router>
   );
 });
 
-describe("Component HackathonProjects.js renders properly", () => {
+describe("Component HackathonSingleProject.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
 
-  it("the h3 title within the component is rendering properly", () => {
-    expect(component.queryByText(/Submitted projects/i)).toBeInTheDocument();
+  it("asserts the project writeup is rendered", () => {
+    expect(component.queryByText(/Project writeup/i)).toBeInTheDocument();
   });
 
-  it("the component renders the correct event title", () => {
-    expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
-  });
-
-  it("the component render the right conditional - ratings area", () => {
-    expect(component.queryByText(/View/i)).not.toBeInTheDocument();
-  });
-
-  it("the component render the right conditional - submissions area", () => {
-    expect(
-      component.queryByText(/No projects were submitted/i)
-    ).not.toBeInTheDocument();
+  it("asserts the a feedback is rendered", () => {
+    expect(component.queryByText(/Feedback/i)).toBeInTheDocument();
   });
 });

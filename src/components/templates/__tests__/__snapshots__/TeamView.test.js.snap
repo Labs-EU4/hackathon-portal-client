@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeamView.js renders the component correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bwzfXH sc-gqjmRU eGxNFN"
+      >
+        <div
+          class="sc-gZMcBi sc-jTzLTM bvjxkz"
+        >
+          T
+        </div>
+        <span
+          class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+        >
+          Your Team
+        </span>
+        <span
+          class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+        >
+          Team Name:
+          <span
+            class="sc-bZQynM sc-gzVnrw sc-fjdhpX dwgOIY"
+          >
+            The A team
+          </span>
+        </span>
+        <span
+          class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+        >
+          Team Members:
+        </span>
+        <span
+          class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+        >
+          This team has no members
+        </span>
+        <span
+          class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+        >
+          Hackathon Name:
+          <span
+            class="sc-bZQynM sc-gzVnrw sc-fjdhpX dwgOIY"
+          >
+            EuroHack
+          </span>
+        </span>
+        <button
+          class="sc-ifAKCX bsuoob"
+          color="green"
+        >
+          <a
+            href="/dashboard/event/1/participant-teams/1"
+            style="text-decoration: none; color: white;"
+          >
+            Add Teammate
+          </a>
+           
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bwzfXH sc-gqjmRU eGxNFN"
+    >
+      <div
+        class="sc-gZMcBi sc-jTzLTM bvjxkz"
+      >
+        T
+      </div>
+      <span
+        class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+      >
+        Your Team
+      </span>
+      <span
+        class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+      >
+        Team Name:
+        <span
+          class="sc-bZQynM sc-gzVnrw sc-fjdhpX dwgOIY"
+        >
+          The A team
+        </span>
+      </span>
+      <span
+        class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+      >
+        Team Members:
+      </span>
+      <span
+        class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+      >
+        This team has no members
+      </span>
+      <span
+        class="sc-bZQynM sc-gzVnrw sc-VigVT ijxjxy"
+      >
+        Hackathon Name:
+        <span
+          class="sc-bZQynM sc-gzVnrw sc-fjdhpX dwgOIY"
+        >
+          EuroHack
+        </span>
+      </span>
+      <button
+        class="sc-ifAKCX bsuoob"
+        color="green"
+      >
+        <a
+          href="/dashboard/event/1/participant-teams/1"
+          style="text-decoration: none; color: white;"
+        >
+          Add Teammate
+        </a>
+         
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
