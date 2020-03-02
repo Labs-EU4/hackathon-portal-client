@@ -7,7 +7,6 @@ import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import TeamView from "../TeamView";
 import { initialState } from "../../../utils/mockData";
-import { useTeammates } from "../../../hooks";
 
 const history = createMemoryHistory();
 
@@ -55,7 +54,6 @@ describe("TeamView.js", () => {
     it("the component render the right conditional - team members", () => {
         expect(component.queryByText(/This team has no members/i)).toBeInTheDocument();
     });
-
 
     it("the component render the a button to add a new team mate", () => {
         expect(document.querySelector('a').getAttribute('href')).toBe("/dashboard/event/1/participant-teams/1");
