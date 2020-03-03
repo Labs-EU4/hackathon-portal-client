@@ -56,7 +56,7 @@ export const initialState = {
     fullname: "Jake Tom",
     email: "8omemail@google.com",
     username: "Jake22",
-    bio: "",
+    bio: "I like coding ",
     image: ""
   },
 

@@ -233,7 +233,9 @@ Object {
                       <textarea
                         name="bio"
                         placeholder="bio"
-                      />
+                      >
+                        I like coding 
+                      </textarea>
                     </div>
                   </div>
                   <div
@@ -547,7 +549,9 @@ Object {
                     <textarea
                       name="bio"
                       placeholder="bio"
-                    />
+                    >
+                      I like coding 
+                    </textarea>
                   </div>
                 </div>
                 <div
