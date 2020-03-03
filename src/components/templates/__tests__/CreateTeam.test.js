@@ -55,4 +55,10 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node for the Team Name <label> input, renders properly", () => {
     expect(component.queryByText(/Team Name/i)).toBeInTheDocument();
   });
+  it("The role for the button used to submit the form to create a team renders properly", () => {
+    expect(component.getByRole(/button/i)).toBeInTheDocument();
+  });
+  it("The text node for the submit button <button>, renders properly", () => {
+    expect(component.getByText(/submit/i)).toBeInTheDocument();
+  });
 });
