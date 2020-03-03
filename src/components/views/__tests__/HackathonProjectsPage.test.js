@@ -35,14 +35,14 @@ beforeEach(() => {
   );
 });
 
-describe("Component HackathonSinglePage.js renders properly", () => {
+describe("Component HackathonProjectsPage.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
 
-//   it("asserts that the Dashboard text node renders properly ", () => {
-//     expect(
-//       component.queryByText(/World/i)
-//     ).toBeInTheDocument();
-//   });
+  it("asserts that the Title of the event text node renders properly ", () => {
+    expect(
+      component.queryByText(/World/i)
+    ).toBeInTheDocument();
+  });
 });
