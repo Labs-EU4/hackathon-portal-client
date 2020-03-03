@@ -81,6 +81,7 @@ const HackathonForm = ({ initialState }) => {
     event_title: Yup.string()
       .matches(/\b.*[a-zA-Z]+.*\b/, "Hackathon title cannot be just a number.")
       .min(10, "Title must be at least 10 characters long.")
+      .max(60, "Event title cannot be more than 60 characters long.")
       .required("Title is required."),
     start_date: Yup.string().required("Start date is required."),
     end_date: Yup.string().required("End date is required."),
@@ -254,7 +255,7 @@ const HackathonForm = ({ initialState }) => {
                           <div>{errors.name}</div>
                         ) : null}
                         <ErrorSpan>
-                          <ErrorMessage name="event_category" />
+                          <ErrorMessage name="category_id" />
                         </ErrorSpan>
                       </Column>
                     </RowBody>
