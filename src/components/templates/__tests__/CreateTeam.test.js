@@ -41,4 +41,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node for the first character of the current user mail, renders properly on the menu", () => {
     expect(component.queryByText(/8/i)).toBeInTheDocument();
   });
+  it("The text node for the <h3> Participant Teams text node, renders properly", () => {
+    expect(component.queryByText(/Participant Teams/i)).toBeInTheDocument();
+  });
 });
