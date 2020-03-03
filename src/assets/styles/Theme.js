@@ -86,12 +86,13 @@ export const theme = {
         columnCenter: 'display: flex; flex-direction: column; justify-content: center; align-items: center;',
         column: 'display: flex; flex-direction: column;',
 
-        custom: (justify='start', align='start', direction='row') => {
+        custom: (justify='start', align='start', direction='row', wrap='no-wrap') => {
             return `
                 display: flex; 
                 flex-direction: ${direction}
                 justify-content: ${justify}; 
                 align-items: ${align};
+                flex-wrap: ${wrap};
             `
         },
     },

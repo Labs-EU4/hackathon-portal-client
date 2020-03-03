@@ -188,9 +188,9 @@ const MainContent = styled.div`
   ${props => props.theme.flex.column};
   width: ${({ active }) => active ? 'calc(100vw - 60px)' : 'calc(100vw - 250px)'};
 
-  /* @media ${media.tablet} {
+  @media ${media.tablet} {
     width: calc(100vw - 60px);
-  } */
+  }
 `;
 
 const RoutesContainer = styled.div`
@@ -198,7 +198,6 @@ const RoutesContainer = styled.div`
   position: relative;
   width: calc(100% - 20px); height: 100%;
   background-color: ${props => props.theme.color.white.bg};
-  /* background-color: rgba(0, 0, 0, .1); */
   margin-left: 20px; 
   border-radius: 5px;
   overflow: hidden;

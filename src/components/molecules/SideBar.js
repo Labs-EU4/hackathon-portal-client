@@ -118,6 +118,10 @@ const StyledExpandIcon = styled(Icon)`
       : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
     color: ${props => props.theme.color.white.regular};
   }
+
+  @media ${media.tablet} { 
+    display: none;
+  }
 `;
 
 const UserInfoContent = styled.div`
@@ -129,6 +133,10 @@ const UserInfoContent = styled.div`
       color: ${props => props.theme.color.grey.regular};
     }
   }
+
+  @media ${media.tablet} { 
+    display: none;
+  }
 `;
 
 const StyledNav = styled.div`
@@ -139,7 +147,8 @@ const StyledNav = styled.div`
   padding: ${({ active }) => active ? '90px 0' : '90px 20px 30px'};
 
   @media ${media.tablet} {
-    width: 50px;
+    width: 60px;
+    padding: 90px 0;
   }
 
   &:first-child {
@@ -169,6 +178,12 @@ const StyledNavLink = styled(NavLink)`
   transition: box-shadow 0.2s ease;
   white-space: nowrap;
 
+  @media ${media.tablet} {
+    span {
+      display: none;
+    }
+  }
+
   svg {
     color: ${props => props.theme.color.white.regular};
     margin: 0 5px 0 12px;
@@ -195,6 +210,12 @@ const StyledNavLink = styled(NavLink)`
     ${({ active }) => active 
       ? `border-right: 5px solid ${solid.blue}; border-radius: 0px; padding-left: 10px;` 
       : `border-left: 5px solid ${solid.blue}; border-radius: 6px;`
+    }
+
+    @media ${media.tablet} {
+      border-right: 5px solid ${solid.blue}; border-left: none;
+      border-radius: 0px; 
+      padding-left: 10px;
     }
 
     svg {
@@ -238,6 +259,10 @@ const StyledButton = styled(Button)`
     padding: 5px 0;
     word-break: break-all;
   `}
+
+  @media ${media.tablet} {
+    display: none;
+  }
 
   &:hover {
     border: 3px solid ${props => props.theme.color.primary.regular};
