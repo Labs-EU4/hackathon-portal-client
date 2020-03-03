@@ -11,14 +11,21 @@ import Icon from "../atoms/Icon";
 import eventImg from '../../assets/images/event-img.jpg';
 
 const EventCard = ({ event, eventModalHandler }) => {
-  const { id, event_id, event_title, event_description, start_date, organizer_name, organizer_profile_pic } = event;
+  const { id, event_id, event_title, event_description, organizer_name, organizer_profile_pic, location } = event;
   const letter = organizer_name && organizer_name.split("")[0];
   const organizerImg = organizer_profile_pic && JSON.parse(organizer_profile_pic[0]);
   const excerpt = event_description.substr(0, 100) + "...";
 
-  console.log('this is the event object --> ', event);
   // Date formatting
-  const formattedDate = new Date(start_date).toLocaleDateString();
+  const formattedDate = new Date(event.start_date).toLocaleDateString();
+  const startDate = String(new Date(event.start_date)).split(" ");
+  const startDay = startDate[2];
+  const startMonth = startDate[1];
+  const startYear = startDate[3];
+  const endDate = String(new Date(event.end_date)).split(" ");
+  const endDay = endDate[2];
+  const endMonth = endDate[1];
+  
   return (
     <StyledEventCard>
       <Card>
@@ -31,7 +38,19 @@ const EventCard = ({ event, eventModalHandler }) => {
               <OrgImg src={organizerImg.avatar} alt={organizer_name} />
             ) : letter && <StyledIconLetter>{letter}</StyledIconLetter>
           }
+          <DateParagraph bold>
+            {
+              startMonth !== endMonth ? (
+                <>{startMonth} {startDay} - {endMonth} {endDay}, {startYear}</>
+              ) : startDay === endDay ? (
+                <>{startMonth} {startDay}, {startYear}</>
+              ) : (
+                <>{startMonth} {startDay} - {endDay}, {startYear}</>
+              )
+            }
+          </DateParagraph>
           <H4>{event_title}</H4>
+          <LocationParagraph>{location}</LocationParagraph>
           <Paragraph>{excerpt}</Paragraph>
           <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
@@ -123,6 +142,16 @@ const EventCTA = styled.div`
 //     }
 //   }
 // `;
+
+const DateParagraph = styled(Paragraph)`
+  margin-bottom: 0;
+  color: ${props => props.theme.color.grey.regular};
+`;
+
+const LocationParagraph = styled(Paragraph)`
+  margin: -5px 0 8px;
+  color: ${props => props.theme.color.grey.regular};
+`;
 
 const CardCountDown = styled.div`
   position: absolute; top: 20px; left: 70%;

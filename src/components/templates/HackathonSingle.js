@@ -116,18 +116,13 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
   ];
 
   // Date formatting
-  // const formattedStartDate = new Date(start_date).toLocaleDateString();
-  // const formattedEndDate = new Date(end_date).toLocaleDateString();
   const startDate = String(new Date(start_date)).split(" ");
-  console.log("Start date --> ", String(new Date(start_date)).split(" "))
   const startDay = startDate[2];
   const startMonth = startDate[1];
   const startYear = startDate[3];
-  // const formattedStartMonth = StartDate.split(" ")[1];
   const endDate = String(new Date(end_date)).split(" ");
   const endDay = endDate[2];
   const endMonth = endDate[1];
-  // const formattedEndDay = EndDate[0];
 
   // Event is open or closed for registration
   const userCallback = p => p.user_id === userId;
@@ -163,9 +158,6 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
     .concat(emailHost)
     .join("");
 
-  // Grab the first letter of title
-  const initial = event_title[0] || "U";
-
   const handleRegistration = e => {
     e.preventDefault();
 
@@ -199,7 +191,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
               <StyledEventCard active={isSlideForm} menuOpen={isSideBarOpen}>
                 <EventCardLeftColumn>
                   <TitleContainer>
-                    <IconLetter>{initial}</IconLetter>
+                    <Icon icon={['fab', "connectdevelop"]} />
                     <H2>{event_title}</H2>
                   </TitleContainer>
                   <EventImageContainer>

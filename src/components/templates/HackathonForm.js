@@ -342,8 +342,9 @@ const HackathonForm = ({ initialState }) => {
 export default HackathonForm;
 
 const FormContainer = styled.div`
-  width: 100%; height: 100%;
   position: relative;
+  width: 100%; height: 100%;
+  padding-top: 20px;
 `;
 
 
