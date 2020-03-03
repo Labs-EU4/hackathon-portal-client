@@ -72,15 +72,13 @@ export const theme = {
         button: "font-size: 1.8rem;"
     },
     shadow: {
-        text: `text-shadow: .15px .15px 1px ${color.black}, .75px .5px 1.5px ${color.black}, .15px .15px 1px ${color.black};`,
+        text: `text-shadow: .5px .5px 1px ${color.black}`,
         text_links: `1px .75px 1.5px ${color.black}`,
         box: `box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .2)`,
         card: `box-shadow: 1px .5px 3px rgba(0, 0, 0, .15)`,
         intenseBox: `box-shadow: 0 2.5px 10px ${color.black};`,
-        filter: `filter: drop-shadow(.5px .25px 1.5px ${color.black});
-        filter: drop-shadow(.15px .15px 1px ${color.black}, .5px .25px 1.5px ${color.black}, .65px .4px 1px ${color.black});`,
-        icon: `filter: drop-shadow(.5px .25px 1.5px ${color.black});
-        filter: drop-shadow(25px .25px 10px ${color.black}, .5px .25px 1.5px ${color.black}, .65px .4px 1px ${color.black});`,
+        filter: `filter: drop-shadow(.15px .15px 1.5px ${color.black});
+        filter: drop-shadow(-.15px -.15px 1px ${color.black});`,
         btn: `2px 2px 3px ${color.black}`
     },
     flex: {

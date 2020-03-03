@@ -20,6 +20,7 @@ import PrivateRoute from "./components/organisms/PrivateRoute";
 import EditHackathon from "./components/templates/EditHackathon";
 import AddTeammates from "./components/templates/AddTeammates";
 import "react-toastify/dist/ReactToastify.css";
+import AboutPage from "./components/views/AboutPage";
 import PageNotFound from "./components/views/PageNotFound";
 import UserProfileFormPage from "./components/views/UserProfileFormPage";
 import CreateTeam from "./components/templates/CreateTeam";
@@ -131,6 +132,7 @@ function App() {
                   path="/" 
                   render={() => <Dashboard {...{eventModalHandler}} />} 
                 />
+                <Route exact path="/about" component={AboutPage} />
                 <Route exact path="/not-found" component={PageNotFound} />
                 <Route path="/register" component={SignupPage} />
                 <Route exact path="/login" component={LoginPage} />

@@ -183,4 +183,5 @@ const StyledWideBody = styled(WideBody)`
   transform: ${props => !props.active &&'translateX(100%)'};
   transition: transform 1s ease;
   padding: 20px;
+  z-index: 20;
 `;
