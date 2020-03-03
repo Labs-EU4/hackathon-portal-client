@@ -1,11 +1,11 @@
-[![Build Status](https://travis-ci.org/LABS-EU3/hackton-frontend.svg?branch=develop)](https://travis-ci.org/LABS-EU3/hackton-frontend) [![Coverage Status](https://coveralls.io/repos/github/LABS-EU3/hackton-frontend/badge.svg?branch=develop)](https://coveralls.io/github/LABS-EU3/hackton-frontend?branch=develop) [![Netlify Status](https://api.netlify.com/api/v1/badges/0b0d93d0-04af-4a75-9a62-773eed6eac75/deploy-status)](https://app.netlify.com/sites/sharp-panini-3ec54b/deploys)
+[![Build Status](https://travis-ci.org/LABS-EU3/hackton-frontend.svg?branch=develop)](https://travis-ci.org/LABS-EU3/hackton-frontend) [![Coverage Status](https://coveralls.io/repos/github/LABS-EU3/hackton-frontend/badge.svg?branch=develop)](https://coveralls.io/github/LABS-EU3/hackton-frontend?branch=develop) [![Netlify Status](https://api.netlify.com/api/v1/badges/c76b92d4-4a5a-4340-b38e-d9411cfb4560/deploy-status)](https://app.netlify.com/sites/suspicious-kare-dc8a3a/deploys)
 
 
 # Hackton
 
 ## Deployment
 
-You can find the deployed project at [Hackathon](URL NEEDED).
+You can find the deployed project at [Hackathon]("https://suspicious-kare-dc8a3a.netlify.com/register").
 
 ## Project Overview
 
