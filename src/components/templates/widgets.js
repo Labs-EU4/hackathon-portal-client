@@ -1,7 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Button from "../atoms/Button";
 import { RowBody } from "../atoms/RowBody";
 import { useHistory } from "react-router-dom";
+import { useSearchUserByEmail } from "../../hooks";
 import {
   StyledContainer,
   Container,
@@ -17,16 +18,21 @@ export const UserWidget = ({ user, select, ...otherProps }) => {
 };
 
 export const SearchWidget = props => {
+
+  const setNoneUser = props.setNoneUser;
   const history = useHistory();
+  const [matches, searchString, setSearchString] = useSearchUserByEmail();
+  const validateEmail = email => {
+    return isEmail(email);
+  };
 
   const redirect = (location = "/dashboard") => {
     history.push(location);
   };
-  const searchString = props.searchString;
-  const setSearchString = props.setSearchString;
   const inputRef = useRef(null);
   useEffect(() => {
     inputRef.current.focus();
+
   }, []);
 
   return (
@@ -40,18 +46,20 @@ export const SearchWidget = props => {
         placeholder="Search by email"
         ref={inputRef}
       />
-      {props.matches.map(user => (
-        <UserWidget key={user.id} user={user} select={props.setSelectedUser} />
+      {matches.map(user => (
+        <UserWidget key={user.id} user={user} select={setSelectedUser} />
       ))}
-      {!!props.matches && props.validateEmail(searchString)
-        ? props.setNoneUser(searchString)
-        : props.setNoneUser(null)}
+      {!matches && validateEmail(searchString)
+        ? setNoneUser(searchString)
+        : setNoneUser(null)}
       <Button color="grey" onClick={() => redirect(history)}>
         Back to dashboard
       </Button>
     </Container>
   );
 };
+
+
 export const RoleWidget = props => {
   const selectedUser = props.selectedUser;
   const handleSubmit = props.handleSubmit;

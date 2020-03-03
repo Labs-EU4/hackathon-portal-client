@@ -8,6 +8,7 @@ import "@testing-library/jest-dom/extend-expect";
 import AddTeammates from "../AddTeammates";
 import { initialState } from "../../../utils/mockData";
 
+
 const history = createMemoryHistory();
 
 afterEach(cleanup);
@@ -16,9 +17,16 @@ let jestFeatures;
 let mockStore;
 let store;
 
+jest.mock("react-router-dom", () => ({
+  ...jest.requireActual("react-router-dom"), // use actual for all non-hook parts
+  useParams: () => ({
+    id: 1
+  })
+}));
+
+
 beforeEach(() => {
   mockStore = configureStore();
-  // let wrapper;
   store = mockStore(initialState);
   jestFeatures = render(
     <Router history={history}>
@@ -33,6 +41,7 @@ describe("Shows all the text nodes on AddTeammates.js that are contained on the 
   it("should be displaying the <H3>", () => {
     let mainHeader = () => jestFeatures.getByText("Add Teammates");
     expect(mainHeader()).toBeInTheDocument();
+    // expect(jestFeatures.debug())
   });
   it("asserts the text node under the search bar is rendering", () => {
     expect(jestFeatures.getByText("Back to dashboard")).toBeInTheDocument();

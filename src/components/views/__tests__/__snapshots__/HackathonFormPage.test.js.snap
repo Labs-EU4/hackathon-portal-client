@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component HackathonPage.js renders properly asserts that the component renders properly 1`] = `
+exports[`Component HackathonFormPage.js renders properly asserts that the component renders properly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
