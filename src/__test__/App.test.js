@@ -60,6 +60,11 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
       component.queryByText("the best event hack hack hack macbook...")
     ).toBeInTheDocument();
   });
+  it("The text node <p> for the World hackathon event card description , renders properly", () => {
+    expect(
+      component.queryByText("number one hacker event in the world...")
+    ).toBeInTheDocument();
+  });
   // it("The text node for the Team Name <label> input, renders properly", () => {
   //   expect(component.queryByText(/Team Name/i)).toBeInTheDocument();
   // });
