@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on HackathonForm.js that are contained on the making an event form Renders Without Crashing 1`] = `
+exports[`Shows all the text nodes on HackathonForm.js that are contained on the making an event form Renders Without Crashing. 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>

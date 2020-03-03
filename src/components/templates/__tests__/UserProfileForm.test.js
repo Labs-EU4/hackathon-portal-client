@@ -18,7 +18,6 @@ let store;
 
 beforeEach(() => {
   mockStore = configureStore();
-  // let wrapper;
   store = mockStore(initialState);
   jestFeatures = render(
     <Router history={history}>
@@ -30,9 +29,6 @@ beforeEach(() => {
 });
 
 describe("Shows all the text nodes on HackathonForm.js that are contained on the making an event form", () => {
-  // it("should be displaying the label text node for the Name", () => {
-  //   expect(jestFeatures.getByText("Full Name")).toBeInTheDocument();
-  // });
   it("Renders Without Crashing.", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
