@@ -41,6 +41,8 @@ describe("Component HackathonSinglePage.js renders properly", () => {
   });
 
   it("asserts that the Dashboard text node renders properly ", () => {
-    expect(component.queryByText(/Dashboard/i)).toBeInTheDocument();
+    expect(
+      component.queryByAltText(/Hackton - Organise hackathons/i)
+    ).toBeInTheDocument();
   });
 });
