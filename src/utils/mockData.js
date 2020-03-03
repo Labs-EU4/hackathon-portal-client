@@ -57,8 +57,7 @@ export const initialState = {
     email: "8omemail@google.com",
     username: "Jake22",
     bio: "",
-    image: "",
-    image_url: {}
+    image: ""
   },
 
   submissions: [
