@@ -27,7 +27,7 @@ beforeEach(() => {
   );
 });
 
-describe("Component HackathonFormPage.js renders properly", () => {
+describe("Component UserProfileFormPage.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
