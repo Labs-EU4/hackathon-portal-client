@@ -28,7 +28,7 @@ beforeEach(() => {
   );
 });
 
-describe("Shows all the text nodes on HackathonForm.js that are contained on the making an event form", () => {
+describe("Renders Without Crashing", () => {
   it("Renders Without Crashing.", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
