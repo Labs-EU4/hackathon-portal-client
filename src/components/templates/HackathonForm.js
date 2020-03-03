@@ -47,18 +47,18 @@ const HackathonForm = ({ initialState }) => {
   }, [dispatch]);
 
   const defaultState = {
-    id: initialState ?.id,
-    event_title: initialState ?.event_title || "",
-    start_date: initialState ?.start_date || "",
-    end_date: initialState ?.end_date || "",
-    event_description: initialState ?.event_description || "",
-    location: initialState ?.location || "",
-    tag_name: initialState ?.tag_name || [],
-    rubrics: initialState ?.rubrics || [],
-    requirements: initialState ?.requirements || [],
-    guidelines: initialState ?.guidelines || "",
-    participation_type: initialState ?.participation_type || "individual",
-    category_id: initialState ?.category_id || 1
+    id: initialState?.id,
+    event_title: initialState?.event_title || "",
+    start_date: initialState?.start_date || "",
+    end_date: initialState?.end_date || "",
+    event_description: initialState?.event_description || "",
+    location: initialState?.location || "",
+    tag_name: initialState?.tag_name || [],
+    rubrics: initialState?.rubrics || [],
+    requirements: initialState?.requirements || [],
+    guidelines: initialState?.guidelines || "",
+    participation_type: initialState?.participation_type || "individual",
+    category_id: initialState?.category_id || 1
   };
 
   const handleSubmit = values => {
@@ -98,7 +98,8 @@ const HackathonForm = ({ initialState }) => {
     category_id: Yup.number()
       .required("Please select event category.")
       .positive()
-      .integer()
+      .integer(),
+    rubrics: Yup.array().required("Please select a grading rubric")
   });
 
   const ButtonGroup = styled.div`
@@ -302,6 +303,9 @@ const HackathonForm = ({ initialState }) => {
                         value="extensibility"
                         label="Extensibility"
                       />
+                      <ErrorSpan>
+                        <ErrorMessage name="rubrics" />
+                      </ErrorSpan>
                     </RowBody>
                     <RowBody justify="start">
                       <Label htmlFor="guidelines">Guidelines</Label>
