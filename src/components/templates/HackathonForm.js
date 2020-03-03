@@ -79,6 +79,7 @@ const HackathonForm = ({ initialState }) => {
 
   const schema = Yup.object().shape({
     event_title: Yup.string()
+      .matches(/\b.*[a-zA-Z]+.*\b/, "Hackathon title cannot be just a number")
       .min(10, "Title must be at least 10 characters long.")
       .required("Title is required."),
     start_date: Yup.string().required("Start date is required."),
@@ -88,6 +89,7 @@ const HackathonForm = ({ initialState }) => {
       .max(500, "Description cannot be more than 500 characters long")
       .required("Description is required."),
     location: Yup.string()
+      .matches(/\b.*[a-zA-Z]+.*\b/, "Location cannot be just a number")
       .max(20, "Location cannot be more than 20 characters long")
       .required("Location is required."),
     guidelines: Yup.string()
