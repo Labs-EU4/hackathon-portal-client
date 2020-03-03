@@ -37,4 +37,7 @@ describe("Component HackathonFormPage.js renders properly", () => {
   it("asserts that the <p> Username text node renders properly on the form component", () => {
     expect(component.getByText("Jake22")).toBeInTheDocument();
   });
+  it("asserts that the <textarea> placeholder for current User bio text node renders properly on the form component", () => {
+    expect(component.queryByPlaceholderText("bio")).toBeInTheDocument();
+  });
 });
