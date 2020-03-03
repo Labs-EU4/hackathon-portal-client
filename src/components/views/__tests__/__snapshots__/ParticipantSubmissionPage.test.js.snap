@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on EventOnboarding.js renders without crashing  1`] = `
+exports[`Component ParticipantSubmissionPage.js text nodes renders properly asserts that the component renders properly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-gisBJw lgqQtr"
+              class="sc-bRBYWo RInUu"
             >
               <div
                 class="sc-htoDjs iAtLjJ"
@@ -102,117 +102,129 @@ Object {
             </a>
           </div>
           <div
-            class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+            class="sc-bwzfXH cwdcdI sc-bxivhb kjJNHQ"
           >
             <div
-              class="sc-hzDkRC bkkbax"
+              class="sc-jDwBTQ hADVSm"
             >
               <h3
                 class="sc-eNQAEJ faMTgL"
               >
-                My hackathons
-              </h3>
-              <a
-                href="/dashboard/new"
-              >
-                <button
-                  class="sc-kkGfuU gKOqPB"
-                  color="green"
-                >
-                  Create New
-                </button>
-              </a>
-            </div>
-            <div
-              class="sc-jhAzac hhkJyU"
-              spacing="start"
-            >
-              <a
-                class="sc-bRBYWo bdwTkA"
-                href="/dashboard/event/1"
-              >
-                <div
-                  class="sc-jDwBTQ umkbw"
-                >
-                  <div
-                    class="sc-gipzik epLwGU"
-                  >
-                    E
-                  </div>
-                  <h4
-                    class="sc-hMqMXs bkVxBD"
-                  >
-                    EuroHack
-                  </h4>
-                  <p
-                    class="sc-kgoBCf fzXYvN"
-                  >
-                    the best event hack hack hack macbook...
-                  </p>
-                  <div
-                    class="sc-csuQGl fUdZHz"
-                  >
-                    <div
-                      class="sc-jlyJG dxlnBr"
-                    />
-                    <span
-                      class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                    >
-                      09/10/2011
-                    </span>
-                  </div>
-                </div>
-              </a>
-              <a
-                class="sc-bRBYWo bdwTkA"
-                href="/dashboard/event/2"
-              >
-                <div
-                  class="sc-jDwBTQ umkbw"
-                >
-                  <div
-                    class="sc-gipzik epLwGU"
-                  >
-                    W
-                  </div>
-                  <h4
-                    class="sc-hMqMXs bkVxBD"
-                  >
-                    World
-                  </h4>
-                  <p
-                    class="sc-kgoBCf fzXYvN"
-                  >
-                    number one hacker event in the world...
-                  </p>
-                  <div
-                    class="sc-csuQGl fUdZHz"
-                  >
-                    <div
-                      class="sc-jlyJG dxlnBr"
-                    />
-                    <span
-                      class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                    >
-                      09/07/2011
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div
-              class="sc-hzDkRC bkkbax"
-            >
-              <h3
-                class="sc-eNQAEJ faMTgL"
-              >
-                Global hackathons
+                Submit Project
               </h3>
             </div>
             <div
-              class="sc-jhAzac hhkJyU"
-              spacing="start"
-            />
+              class="sc-iRbamj dQdMNk"
+            >
+              <div
+                class="sc-jlyJG sc-csuQGl bXUnth"
+              >
+                <form
+                  action="#"
+                >
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <p
+                      class="sc-kgoBCf fzXYvN"
+                    >
+                      You are making a submission for the
+                       
+                      <strong>
+                        EuroHack
+                      </strong>
+                      . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+                    </p>
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="project_title"
+                      >
+                        Project Title
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        id="project_title"
+                        name="project_title"
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="participant_or_team_nam"
+                      >
+                        Team/Participant name
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        id="participant_or_team_name"
+                        name="participant_or_team_name"
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gPEVay flXgEr"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="project_writeups"
+                    >
+                      Project Writeup
+                    </label>
+                    <div
+                      class="sc-Rmtcm fLGaO"
+                    >
+                      <textarea
+                        id="project_writeups"
+                        name="project_writeups"
+                        type="text"
+                      />
+                    </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <a
+                      class="sc-iAyFgw kpEmSz"
+                      color="grey"
+                      href="/dashboard"
+                    >
+                      Cancel
+                    </a>
+                    <button
+                      class="sc-kkGfuU gKOqPB"
+                      color="green"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -288,7 +300,7 @@ Object {
             />
           </a>
           <div
-            class="sc-gisBJw lgqQtr"
+            class="sc-bRBYWo RInUu"
           >
             <div
               class="sc-htoDjs iAtLjJ"
@@ -368,117 +380,129 @@ Object {
           </a>
         </div>
         <div
-          class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+          class="sc-bwzfXH cwdcdI sc-bxivhb kjJNHQ"
         >
           <div
-            class="sc-hzDkRC bkkbax"
+            class="sc-jDwBTQ hADVSm"
           >
             <h3
               class="sc-eNQAEJ faMTgL"
             >
-              My hackathons
-            </h3>
-            <a
-              href="/dashboard/new"
-            >
-              <button
-                class="sc-kkGfuU gKOqPB"
-                color="green"
-              >
-                Create New
-              </button>
-            </a>
-          </div>
-          <div
-            class="sc-jhAzac hhkJyU"
-            spacing="start"
-          >
-            <a
-              class="sc-bRBYWo bdwTkA"
-              href="/dashboard/event/1"
-            >
-              <div
-                class="sc-jDwBTQ umkbw"
-              >
-                <div
-                  class="sc-gipzik epLwGU"
-                >
-                  E
-                </div>
-                <h4
-                  class="sc-hMqMXs bkVxBD"
-                >
-                  EuroHack
-                </h4>
-                <p
-                  class="sc-kgoBCf fzXYvN"
-                >
-                  the best event hack hack hack macbook...
-                </p>
-                <div
-                  class="sc-csuQGl fUdZHz"
-                >
-                  <div
-                    class="sc-jlyJG dxlnBr"
-                  />
-                  <span
-                    class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                  >
-                    09/10/2011
-                  </span>
-                </div>
-              </div>
-            </a>
-            <a
-              class="sc-bRBYWo bdwTkA"
-              href="/dashboard/event/2"
-            >
-              <div
-                class="sc-jDwBTQ umkbw"
-              >
-                <div
-                  class="sc-gipzik epLwGU"
-                >
-                  W
-                </div>
-                <h4
-                  class="sc-hMqMXs bkVxBD"
-                >
-                  World
-                </h4>
-                <p
-                  class="sc-kgoBCf fzXYvN"
-                >
-                  number one hacker event in the world...
-                </p>
-                <div
-                  class="sc-csuQGl fUdZHz"
-                >
-                  <div
-                    class="sc-jlyJG dxlnBr"
-                  />
-                  <span
-                    class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                  >
-                    09/07/2011
-                  </span>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div
-            class="sc-hzDkRC bkkbax"
-          >
-            <h3
-              class="sc-eNQAEJ faMTgL"
-            >
-              Global hackathons
+              Submit Project
             </h3>
           </div>
           <div
-            class="sc-jhAzac hhkJyU"
-            spacing="start"
-          />
+            class="sc-iRbamj dQdMNk"
+          >
+            <div
+              class="sc-jlyJG sc-csuQGl bXUnth"
+            >
+              <form
+                action="#"
+              >
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <p
+                    class="sc-kgoBCf fzXYvN"
+                  >
+                    You are making a submission for the
+                     
+                    <strong>
+                      EuroHack
+                    </strong>
+                    . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+                  </p>
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="project_title"
+                    >
+                      Project Title
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      id="project_title"
+                      name="project_title"
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="participant_or_team_nam"
+                    >
+                      Team/Participant name
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      id="participant_or_team_name"
+                      name="participant_or_team_name"
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-gPEVay flXgEr"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="project_writeups"
+                  >
+                    Project Writeup
+                  </label>
+                  <div
+                    class="sc-Rmtcm fLGaO"
+                  >
+                    <textarea
+                      id="project_writeups"
+                      name="project_writeups"
+                      type="text"
+                    />
+                  </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <a
+                    class="sc-iAyFgw kpEmSz"
+                    color="grey"
+                    href="/dashboard"
+                  >
+                    Cancel
+                  </a>
+                  <button
+                    class="sc-kkGfuU gKOqPB"
+                    color="green"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
       <div
