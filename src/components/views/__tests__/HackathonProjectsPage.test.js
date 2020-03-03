@@ -45,4 +45,9 @@ describe("Component HackathonProjectsPage.js renders properly", () => {
       component.queryByText(/World/i)
     ).toBeInTheDocument();
   });
+  it("asserts that the <img> logo for the FB icon renders properly ", () => {
+    expect(
+      component.queryByAltText(/facebook/i)
+    ).toBeInTheDocument();
+  });
 });
