@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { type, Solid } from '../index';
+import styled from "styled-components";
+import { type, Solid } from "../index";
 
 export const H1 = styled.h1`
   font-family: ${type.ROBOTO};
@@ -18,6 +18,7 @@ export const H2 = styled.h2`
   font-weight: 700;
   margin: 0 0 10px 0;
   padding: 0;
+  overflow: hidden;
 `;
 
 export const H3 = styled.h3`
