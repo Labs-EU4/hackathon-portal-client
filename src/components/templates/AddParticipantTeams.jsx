@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import isEmail from 'validator/lib/isEmail';
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 import { BodyContainerColumn } from "../styles/templates/AppParticipantTeams";
@@ -11,7 +10,6 @@ import { RowHead } from "../atoms/RowHead";
 import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
 import Nav from "../molecules/Nav";
-import { useSearchUserByEmail } from "../../hooks";
 import { SearchWidget, RoleWidget, InviteWidget } from "./widgets";
 import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 
@@ -21,11 +19,7 @@ const AddParticipantTeam = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const { eventId, teamId } = useParams();
-  const [matches, searchString, setSearchString] = useSearchUserByEmail();
   const [noneUser, setNoneUser] = useState(null);
-  const validateEmail = (email) => {
-    return isEmail(email);
-  }
 
   const handleSubmit = () => {
     const data = {
@@ -56,8 +50,20 @@ const AddParticipantTeam = () => {
           </RowHead>
           <Column>
             <CardWide>
-              {!selectedUser ? <SearchWidget setSelectedUser={setSelectedUser} setNoneUser={setNoneUser} eventId={eventId} teamId={teamId} matches={matches} searchString={searchString} setSearchString={setSearchString} validateEmail={validateEmail} />
-                : <RoleWidget selectedUser={selectedUser} handleSubmit={handleSubmit} />}
+              {
+                !selectedUser ? (
+                  <SearchWidget
+                    setSelectedUser={setSelectedUser}
+                    setNoneUser={setNoneUser}
+                  />
+                ) : (
+                    <RoleWidget
+                      selectedUser={selectedUser}
+                      handleSubmit={handleSubmit}
+                    />
+                  )
+
+              }
               {noneUser ? <InviteWidget noneUser={noneUser} sendInvite={sendInvite} /> : null}
             </CardWide>
           </Column>

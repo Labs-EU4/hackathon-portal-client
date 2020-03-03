@@ -30,7 +30,7 @@ beforeEach(() => {
 
 describe("Component Header.js renders properly", () => {
   it("asserts that the component renders properly", () => {
-    expect(jestFeatures.debug()).toMatchSnapshot();
+    expect(jestFeatures).toMatchSnapshot();
   });
   it("the Image within the component is rendering properly", () => {
     expect(

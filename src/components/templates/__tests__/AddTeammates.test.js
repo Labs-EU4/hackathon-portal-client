@@ -41,7 +41,6 @@ describe("Shows all the text nodes on AddTeammates.js that are contained on the 
   it("should be displaying the <H3>", () => {
     let mainHeader = () => jestFeatures.getByText("Add Teammates");
     expect(mainHeader()).toBeInTheDocument();
-    // expect(jestFeatures.debug())
   });
   it("asserts the text node under the search bar is rendering", () => {
     expect(jestFeatures.getByText("Back to dashboard")).toBeInTheDocument();

@@ -56,10 +56,6 @@ const AddTeammates = () => {
                   <SearchWidget
                     setSelectedUser={setSelectedUser}
                     setNoneUser={setNoneUser}
-                  // matches={matches}
-                  // searchString={searchString}
-                  // setSearchString={setSearchString}
-                  // validateEmail={validateEmail}
                   />
                 ) : (
                     <RoleWidget
