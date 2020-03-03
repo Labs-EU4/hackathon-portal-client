@@ -38,7 +38,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("CreateTeam.js component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
-  //   it("the h3 title within the component is rendering properly", () => {
-  //     expect(component.queryByText(/Submit Project/i)).toBeInTheDocument();
-  //   });
+  it("The text node for the first character of the current user mail, renders properly on the menu", () => {
+    expect(component.queryByText(/8/i)).toBeInTheDocument();
+  });
 });
