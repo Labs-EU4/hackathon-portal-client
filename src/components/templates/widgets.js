@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import Button from "../atoms/Button";
 import { RowBody } from "../atoms/RowBody";
 import { useHistory } from "react-router-dom";
