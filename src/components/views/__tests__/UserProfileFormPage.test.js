@@ -40,4 +40,8 @@ describe("Component HackathonFormPage.js renders properly", () => {
   it("asserts that the <textarea> placeholder for current User bio text node renders properly on the form component", () => {
     expect(component.queryByPlaceholderText("bio")).toBeInTheDocument();
   });
+
+  it("asserts that the <textarea> text node, 'I like coding' for current User bio text node renders properly on the form component", () => {
+    expect(component.queryByText("I like coding")).toBeInTheDocument();
+  });
 });
