@@ -110,7 +110,7 @@ Object {
               <h3
                 class="sc-eNQAEJ faMTgL"
               >
-                Edit Hackathon
+                Create New Hackathon
               </h3>
             </div>
             <div
@@ -137,7 +137,7 @@ Object {
                       id="event_title"
                       name="event_title"
                       type="text"
-                      value="World"
+                      value=""
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -162,7 +162,7 @@ Object {
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
-                        value="07/09/11"
+                        value="2020-03-03"
                       />
                       <span
                         class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -180,11 +180,11 @@ Object {
                       <input
                         class="sc-kEYyzF hEbAib"
                         id="end_date"
-                        min="07/09/11"
+                        min=""
                         name="end_date"
                         placeholder="Event ends"
                         type="date"
-                        value="08/07/13"
+                        value="2020-03-03"
                       />
                       <span
                         class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -207,9 +207,7 @@ Object {
                         id="event_description"
                         name="event_description"
                         type="text"
-                      >
-                        number one hacker event in the world
-                      </textarea>
+                      />
                     </div>
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -352,7 +350,7 @@ Object {
                       id="location"
                       name="location"
                       type="text"
-                      value="Asia"
+                      value=""
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -492,9 +490,7 @@ Object {
                         id="guidelines"
                         name="guidelines"
                         type="text"
-                      >
-                        come well prepared,no cheating,no fighting
-                      </textarea>
+                      />
                     </div>
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -738,7 +734,7 @@ Object {
             <h3
               class="sc-eNQAEJ faMTgL"
             >
-              Edit Hackathon
+              Create New Hackathon
             </h3>
           </div>
           <div
@@ -765,7 +761,7 @@ Object {
                     id="event_title"
                     name="event_title"
                     type="text"
-                    value="World"
+                    value=""
                   />
                   <span
                     class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -790,7 +786,7 @@ Object {
                       name="start_date"
                       placeholder="Event starts"
                       type="date"
-                      value="07/09/11"
+                      value="2020-03-03"
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -808,11 +804,11 @@ Object {
                     <input
                       class="sc-kEYyzF hEbAib"
                       id="end_date"
-                      min="07/09/11"
+                      min=""
                       name="end_date"
                       placeholder="Event ends"
                       type="date"
-                      value="08/07/13"
+                      value="2020-03-03"
                     />
                     <span
                       class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -835,9 +831,7 @@ Object {
                       id="event_description"
                       name="event_description"
                       type="text"
-                    >
-                      number one hacker event in the world
-                    </textarea>
+                    />
                   </div>
                   <span
                     class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -980,7 +974,7 @@ Object {
                     id="location"
                     name="location"
                     type="text"
-                    value="Asia"
+                    value=""
                   />
                   <span
                     class="sc-hSdWYo sc-jWBwVP bnIrCk"
@@ -1120,9 +1114,7 @@ Object {
                       id="guidelines"
                       name="guidelines"
                       type="text"
-                    >
-                      come well prepared,no cheating,no fighting
-                    </textarea>
+                    />
                   </div>
                   <span
                     class="sc-hSdWYo sc-jWBwVP bnIrCk"

@@ -14,14 +14,6 @@ let mockStore;
 let store;
 let component;
 
-jest.mock("react-router-dom", () => ({
-  ...jest.requireActual("react-router-dom"), // use actual for all non-hook parts
-  useParams: () => ({
-    id: 2
-  }),
-  useRouteMatch: () => ({ url: "/dashboard/event/:id" })
-}));
-
 beforeEach(() => {
   mockStore = configureStore();
   store = mockStore(initialState);
