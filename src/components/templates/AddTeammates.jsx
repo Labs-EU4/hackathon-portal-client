@@ -10,6 +10,7 @@ import { RowBody } from "../atoms/RowBody";
 import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
 import Button from "../atoms/Button";
+import Icon from "../atoms/Icon";
 import { media } from "../../assets/styles/variables/media";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { useSearchUserByEmail } from '../../hooks';
@@ -78,11 +79,13 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
     }, []);
 
     const Container = styled.div`
+      position: relative;
+
       input {
         font-size: 1.6rem;
         font-weight: 500;
         color: ${props => props.theme.color.black.regular};
-        border: 1px solid ${props => props.theme.color.grey.regular};
+        border: 2px solid ${props => props.theme.color.primary.regular};
         border-radius: 6px;
         padding: 10px;
         ${({ display }) =>
@@ -91,6 +94,10 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
         &:focus {
           transition: all 0.5s;
           box-shadow: 0 0 3px #ddd;
+
+          & + svg {
+            color: ${props => props.theme.color.primary.regular};
+          }
         }
       }
 
@@ -103,82 +110,103 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
     const UsersList = styled.div`
       ${props => props.theme.shadow.box};
       width: 100%; height: 48.25vh;
+      border: 2px solid ${props => props.theme.color.primary.regular}; border-bottom: none;
+      margin: 10px 0 0;
+      padding-bottom: 15px;
       overflow-y: scroll;
-      margin: 10px 0;
-      border: 3px solid lightgrey;
+      user-select: none;
+
+      &::-webkit-scrollbar-button {
+        background-color: blue;
+      }
+    `;
+
+    const ChosenJudgesContainer = styled.div`
+      position: relative;
+      display: flex; align-items: center;
+      width: 100%; height: 45px;
+      background-color: ${props => props.theme.color.white.regular};
+      border: 2px solid ${props => props.theme.color.primary.regular};
+      border-radius: 20px;
+      margin-top: -15px; margin-bottom: 20px;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+      overflow-x: scroll;
+      z-index: 500;
     `;
 
     const ChosenJudgeImg = styled.img`
-      width: 33px; height: 33px; 
+      width: 33px; height: 33px;
       border-radius: 50%;
-      margin: auto 5px;
+      margin-left: 5px;
       object-fit: cover;
     `;
 
+    const StyledSearchIcon = styled(Icon)`
+      position: absolute; top: 10px; left: calc(100% - 30px);
+      transform: rotate(90deg);
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1) rotate(90deg);
+      }
+    `;
+
     return (
-      <>
-        <Container display="wide">
-          <input
-            type="text"
-            value={searchString}
-            onChange={e => {
-              setSearchString(e.target.value);
-            }}
-            placeholder="Search by email"
-            ref={inputRef}
-          />
-          <div style={{ display: "flex", flexDirection: "column"}}>
-            <UsersList>
-              {matches.map(user => (
-                // <UserWidget key={user.id} user={user} select={setSelectedUser} />
-                <UserWidget key={user.id} user={user} selected={selectedUsersHadler} />
-              ))}
-              {
-                !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
-              }
-            </UsersList>
-            <div style={{ width: "100%", height: '45px', border: '3px solid blue', display: "flex", alignItems: "center" }}>
-              {
-                selectedUserArr.current.length > 0 && (
-                  selectedUserArr.current.map(user => {
-                    let memberProfile = JSON.parse(user.image_url);
-                    return user.image_url !== null ? (
-                      <ChosenJudgeImg src={memberProfile.avatar} alt={user.username}/>
-                    ) : (
-                      <ChosenJudgeImg 
-                        src="https://media.giphy.com/media/g0QET2Iejaa4EQ0eBV/giphy.gif" alt="default-img" 
-                      />
-                    )
-                  }) 
-                )
-              }
-            </div>
-          </div>
-          <RowBody>
-            <Button 
-              color="grey" 
-              size="half" 
-              onClick={handleExit}
-            >Back</Button>
-            <Button 
-              color="green" 
-              size="half" 
-              onClick={handleSubmit}
-            >Add Judge</Button>
-          </RowBody>
-        </Container>
-        {/* {
-          selectedUserArr.current.length > 0 && (
-            <div style={{width: "300px", border: "3px solid red"}}>
-              {
+      <Container display="wide">
+        <input
+          type="text"
+          value={searchString}
+          onChange={e => {
+            setSearchString(e.target.value);
+          }}
+          placeholder="Search by email"
+          ref={inputRef}
+        />
+        {
+          searchString.length > 0 
+            ? <StyledSearchIcon icon="times" onClick={() => setSearchString('')}/> 
+            : <StyledSearchIcon icon="search" />
+        }
+        <div style={{ display: "flex", flexDirection: "column"}}>
+          <UsersList>
+            {matches.map(user => (
+              // <UserWidget key={user.id} user={user} select={setSelectedUser} />
+              <UserWidget key={user.id} user={user} selected={selectedUsersHadler} />
+            ))}
+            {
+              !!matches && validateEmail(searchString) ? setNoneUser(searchString) : setNoneUser(null)
+            }
+          </UsersList>
+          <ChosenJudgesContainer>
+            {
+              selectedUserArr.current.length > 0 && (
                 selectedUserArr.current.map(user => {
-                  return <p>{user.username}</p>
+                  let memberProfile = JSON.parse(user.image_url);
+                  return user.image_url !== null ? (
+                    <ChosenJudgeImg src={memberProfile.avatar} alt={user.username}/>
+                  ) : (
+                    <ChosenJudgeImg 
+                      src="https://media.giphy.com/media/g0QET2Iejaa4EQ0eBV/giphy.gif" alt="default-img" 
+                    />
+                  )
                 }) 
-              }
-            </div>
-          )// When user are selected they will be shown right here
-        } */}
-      </>
+              )
+            }
+          </ChosenJudgesContainer>
+        </div>
+        <RowBody>
+          <Button 
+            color="grey" 
+            size="half" 
+            onClick={handleExit}
+          >Back</Button>
+          <Button 
+            color="green" 
+            size="half" 
+            onClick={handleSubmit}
+          >Add Judge</Button>
+        </RowBody>
+      </Container>
     );
   };
 
@@ -377,8 +405,13 @@ const UserWidget = ({ user, selected, ...otherProps }) => {
     cursor: pointer;
 
     &:hover {
-      background-color:  ${props => props.theme.color.grey.regular};
+      background-color:  ${props => props.theme.color.primary.regular};
       color: ${props => props.theme.color.white.regular};
+    }
+
+    &.selected {
+      background-color: ${props => props.theme.color.primary.regular};
+      opacity: .5;
     }
   `;
 
@@ -394,13 +427,26 @@ const UserWidget = ({ user, selected, ...otherProps }) => {
   `;
 
   const UserInfo = styled.div`
-
+    ${props => props.theme.flex.custom('center', 'flex-start', 'column')};
+    margin-left: 5px;
+    p {
+      &:last-child {
+        ${props => props.theme.fontSize.small};
+        font-weight: normal;
+      }
+    }
   `;
+
+  const selectedJudgeHandler = (e) => {
+    e.currentTarget.classList.add('selected');
+    selected(user);
+  }
 
   return (
     <StyledWidget 
       key={user.id} 
-      onClick={() => selected(user)} 
+      // onClick={() => selected(user)} 
+      onClick={selectedJudgeHandler} 
       {...otherProps}
     >
       <UserAvatar>
