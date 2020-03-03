@@ -99,7 +99,8 @@ const HackathonForm = ({ initialState }) => {
       .required("Please select event category.")
       .positive()
       .integer(),
-    rubrics: Yup.array().required("Please select a grading rubric")
+    rubrics: Yup.array().required("Please select a grading rubric"),
+    requirements: Yup.array().required("Please select a submission requirement")
   });
 
   const ButtonGroup = styled.div`
@@ -342,6 +343,9 @@ const HackathonForm = ({ initialState }) => {
                         value="github_url"
                         label="GitHub URL"
                       />
+                      <ErrorSpan>
+                        <ErrorMessage name="requirements" />
+                      </ErrorSpan>
                     </RowBody>
                     <RowBody justify="start">
                       <ButtonGroup>
