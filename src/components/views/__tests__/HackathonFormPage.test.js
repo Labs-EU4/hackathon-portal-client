@@ -6,7 +6,6 @@ import { render } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
-import { screen } from "@testing-library/dom";
 import HackathonFormPage from "../HackathonFormPage";
 
 const history = createMemoryHistory();
