@@ -33,7 +33,11 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
   // it("should be displaying the label text node for the Name", () => {
   //   expect(jestFeatures.getByText("Full Name")).toBeInTheDocument();
   // });
-  it("should be displaying the label text node for the Name", () => {
+  it("Renders Without Crashing", () => {
     expect(jestFeatures).toMatchSnapshot();
+  });
+  it("should be displaying the label text node for the Heading Edit Profile", () => {
+    let mainHeader = () => jestFeatures.getByText("Edit Profile");
+    expect(mainHeader()).toBeInTheDocument();
   });
 });
