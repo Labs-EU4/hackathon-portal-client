@@ -54,7 +54,7 @@ export const initialState = {
     token: 347534574536,
     userId: 1,
     fullname: "Jake Tom",
-    email: "somemail@google.com",
+    email: "8omemail@google.com",
     username: "Jake22",
     bio: "",
     image: "",
