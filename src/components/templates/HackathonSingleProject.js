@@ -244,7 +244,6 @@ const StyledWideBody = styled(WideBody)`
   width: 100%; height: 100%;
   background-color: rgba(0, 0, 0, .5);
   z-index: 300;
-  border: 3px solid blue;
 `;
 
 const ProjectCard = styled.div`

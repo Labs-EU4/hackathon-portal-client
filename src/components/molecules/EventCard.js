@@ -8,7 +8,7 @@ import { IconLetter } from "../atoms/IconLetter";
 import { Paragraph } from "../atoms/Paragraph";
 import Button from "../atoms/Button";
 import Icon from "../atoms/Icon";
-import eventImg from '../../assets/images/event-img.jpg'
+import eventImg from '../../assets/images/event-img.jpg';
 
 const EventCard = ({ event, eventModalHandler }) => {
   const { id, event_id, event_title, event_description, start_date, organizer_name, organizer_profile_pic } = event;

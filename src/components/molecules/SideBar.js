@@ -27,9 +27,8 @@ const items = [
   }
 ];
 
-const SideBar = ({ type, setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarOpen }) => {
+const SideBar = ({ setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarOpen }) => {
   const [ isEditProfileHovered, setIsEditProfileHovered ] = useState(false);
-  // const [ isSideBarClosed, setIsSideBarClosed ] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(state => state.currentUser);
 
   return (

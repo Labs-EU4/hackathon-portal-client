@@ -63,7 +63,7 @@ const TagsGroup = styled.div`
   margin-bottom: 20px;
 `;
 
-const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModalOpen }) => {
+const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModalOpen, isSideBarOpen }) => {
   // const { id } = useParams();
   const id = eventId;
   const [ isAddJudgeOpen, setIsAddJudgeOpen ] = useState(false);
@@ -196,7 +196,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
           <Spinner />
         ) : (
           <>
-              <StyledEventCard active={isSlideForm}>
+              <StyledEventCard active={isSlideForm} menuOpen={isSideBarOpen}>
                 <EventCardLeftColumn>
                   <TitleContainer>
                     <IconLetter>{initial}</IconLetter>
@@ -268,7 +268,7 @@ const HackathonSingle = ({ eventId, setEventId, isEventModalOpen, setIsEventModa
                     )}
                   </TagsGroup>
                 </EventCardLeftColumn>
-                <TagsCardWide active={isSlideForm}>
+                <TagsCardWide active={isSlideForm} menuOpen={isSideBarOpen}>
                   <TagCard>
                     <NormalSpan>Hosted by:</NormalSpan>
                     <UserContainer>
@@ -490,7 +490,8 @@ const ModalBody = styled.div`
 
 const StyledEventCard = styled(CardWide)`
   position: relative;
-  min-width: calc(100% - 250px); height: calc(100vh - 110px);
+  min-width: ${({ menuOpen }) => menuOpen ? 'calc(100% - 60px)' : 'calc(100% - 250px)'};
+  height: calc(100vh - 110px);
   background-color: ${props => props.active ? 'rgba(0, 0, 0, .8)' : props.theme.color.grey.bg};
   transform: ${props => props.active && 'translateY(80%)'};
   padding-left: 45px;
@@ -546,7 +547,8 @@ const JudgeInfo = styled.div`
 
 export const TagsCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
-  position: fixed; left: calc(100% - 585px); top: 70px;
+  position: fixed; left: ${({ menuOpen }) => menuOpen ? 'calc(100% - 395px)' : 'calc(100% - 585px)'}; 
+  top: 70px;
   display: ${({ active }) => active && 'none'};
   width: 300px; max-height: calc(100vh - 130px);
   /* border: 1px solid ${props => props.theme.color.primary.regular}; */

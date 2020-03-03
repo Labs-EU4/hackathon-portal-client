@@ -28,6 +28,7 @@ import AddParticipantTeam from "./components/templates/AddParticipantTeams";
 import ResetPassword from './components/views/resetPassword/ResetPassword';
 import ResetPasswordConfirmation from './components/views/resetPassword/ResetPasswordConfirmation';
 import NewPassword from './components/views/resetPassword/NewPassword';
+import HomePage from './components/views/HomePage';
 
 function App() {
   const { token } = useSelector(state => state.currentUser);
@@ -53,14 +54,8 @@ function App() {
           render={() => <Dashboard {...{eventModalHandler}} />}  
         />
         <PrivateRoute
-          exact
           path="/dashboard/new"
           render={() => <HackathonFormPage />}
-        />
-        <PrivateRoute
-          exact
-          path="/dashboard/registered"
-          render={() => <Dashboard {...{eventModalHandler}} />}
         />
         <PrivateRoute
           exact
@@ -74,7 +69,6 @@ function App() {
           component={AddTeammates}
         />
         <PrivateRoute
-          exact
           path="/dashboard/event/:eventId/participant-teams/:teamId"
           component={AddParticipantTeam}
         />
@@ -83,6 +77,10 @@ function App() {
           path="/dashboard/event/:id/participant-teams"
           component={CreateTeam}
         />
+        {/* <PrivateRoute
+          path="/dashboard/registered"
+          render={() => <Dashboard {...{eventModalHandler}} />}
+        /> */}
         {/* <PrivateRoute
           exact
           path="/dashboard/event/:id/participant_submission"
@@ -127,18 +125,18 @@ function App() {
             <UserHeader />
             <RoutesContainer>
               <Switch>
-                <Route 
-                  exact 
+                <Route  
+                  exact
                   path="/" 
-                  render={() => <Dashboard {...{eventModalHandler}} />} 
+                  render={() => <HomePage {...{eventModalHandler}} />} 
                 />
-                <Route exact path="/about" component={AboutPage} />
-                <Route exact path="/not-found" component={PageNotFound} />
+                <Route path="/about" component={AboutPage} />
+                <Route path="/not-found" component={PageNotFound} />
                 <Route path="/register" component={SignupPage} />
-                <Route exact path="/login" component={LoginPage} />
-                <Route exact path="/forgotpassword" component={ResetPassword} />
-                <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
-                <Route exact path="/resetpassword" component={NewPassword} />
+                <Route path="/login" component={LoginPage} />
+                <Route path="/forgotpassword" component={ResetPassword} />
+                <Route path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
+                <Route path="/resetpassword" component={NewPassword} />
                 { renderPrivateRoutes() }
                 <Redirect to="/not-found" />
               </Switch>
@@ -160,6 +158,7 @@ function App() {
                 {...{setEventId}}
                 {...{isEventModalOpen}}
                 {...{setIsEventModalOpen}}
+                {...{isSideBarOpen}}
               />
             )
           }

@@ -16,7 +16,7 @@ const UserProfileFormPage = ({ isProfileOpen, setIsProfileOpen }) => {
       <UserProfileForm 
         initialState={userDetails}
         {...{isProfileOpen}} 
-        {...{setIsProfileOpen}} 
+        {...{setIsProfileOpen}}
       />
     </>
   );

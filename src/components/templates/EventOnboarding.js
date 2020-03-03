@@ -1,16 +1,15 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { useRouteMatch, Switch, Route } from "react-router-dom";
 import styled from "styled-components";
 
 import EventCard from "../molecules/EventCard";
-import { H3, H4 } from "../atoms/Heading";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
 
 import { StyledRowHead, StyledButton } from '../templates/UserEventsDashboard';
 
 const EventOnboarding = ({ eventModalHandler }) => {
   const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
+  let { path, url } = useRouteMatch();
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
@@ -32,25 +31,24 @@ const EventOnboarding = ({ eventModalHandler }) => {
           onClick={() => setIsOpenEventClicked(true)}
         >Open Hackathons</StyledButton>
       </StyledRowHead>
-      {
-        !isOpenEventClicked ? (
-          <StyledRowBody spacing="start">
+      <StyledRowBody spacing="start">
+      {!isOpenEventClicked ? (
+          <>
             {globalEvents.map(event => (
               <EventCard key={event.id} event={event} {...{eventModalHandler}} />
             ))}
-          </StyledRowBody>
+          </>
         ) : (
-          <StyledRowBody spacing="start">
+          <>
             {globalEvents.map(event => {
               const startTime = new Date(event.start_date).getTime();
               if(today <= startTime) {
                 return <EventCard key={event.id} event={event} {...{eventModalHandler}} />
               } 
             })}
-          </StyledRowBody> 
-        )
-      }
-      
+          </>
+      )}
+      </StyledRowBody> 
     </BodyContainer> 
   );
 };
@@ -101,4 +99,4 @@ const MapFormContainer = styled.div`
   width: 300px; height: 200px;
   background-color: ${props => props.theme.color.white.bg};
   border: 3px solid ${props => props.theme.color.primary.regular}; border-radius: 5px;
-`;
+`; 
