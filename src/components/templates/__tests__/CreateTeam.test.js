@@ -49,4 +49,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
       component.queryByText(/You are creating a team for/i)
     ).toBeInTheDocument();
   });
+  it("The text node for the team being created for the selected event 'EuroHack' <span>, renders properly", () => {
+    expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
+  });
 });
