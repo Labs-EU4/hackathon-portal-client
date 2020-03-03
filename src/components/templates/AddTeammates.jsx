@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import isEmail from "validator/lib/isEmail";
+import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import { Footer } from "../organisms/index";
@@ -12,14 +11,16 @@ import { CardWide } from "../atoms/Card";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import Nav from "../molecules/Nav";
 import { BodyContainerColumn } from "../styles/templates/AddTeammatesStyling";
-import { SearchWidget, RoleWidget, InviteWidget } from "./widgets";
+import { SearchWidget, TeamRoleWidget, TeamInviteWidget } from "./widgets";
+import { useHistory } from "react-router-dom";
 
 const AddTeammates = () => {
   const [selectedUser, setSelectedUser] = useState(null);
-  const [role] = useState("");
+  const [role, setRole] = useState("");
   const dispatch = useDispatch();
   const { id } = useParams();
   const [noneUser, setNoneUser] = useState(null);
+  const history = useHistory();
 
   const handleSubmit = () => {
     const { email } = selectedUser;
@@ -58,15 +59,16 @@ const AddTeammates = () => {
                     setNoneUser={setNoneUser}
                   />
                 ) : (
-                    <RoleWidget
-                      selectedUser={selectedUser}
+                    <TeamRoleWidget
+                      setRole={setRole}
+                      role={role}
                       handleSubmit={handleSubmit}
                     />
                   )
 
               }
               {noneUser ? (
-                <InviteWidget noneUser={noneUser} sendInvite={sendInvite} />
+                <TeamInviteWidget noneUser={noneUser} sendInvite={sendInvite} />
               ) : null}
             </CardWide>
           </Column>

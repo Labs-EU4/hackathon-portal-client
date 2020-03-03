@@ -10,7 +10,7 @@ import { RowHead } from "../atoms/RowHead";
 import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
 import Nav from "../molecules/Nav";
-import { SearchWidget, RoleWidget, InviteWidget } from "./widgets";
+import { SearchWidget, ParticipantRoleWidget, ParticipantInviteWidget } from "./widgets";
 import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 
 const AddParticipantTeam = () => {
@@ -57,14 +57,14 @@ const AddParticipantTeam = () => {
                     setNoneUser={setNoneUser}
                   />
                 ) : (
-                    <RoleWidget
+                    <ParticipantRoleWidget
                       selectedUser={selectedUser}
                       handleSubmit={handleSubmit}
                     />
                   )
 
               }
-              {noneUser ? <InviteWidget noneUser={noneUser} sendInvite={sendInvite} /> : null}
+              {noneUser ? <ParticipantInviteWidget noneUser={noneUser} sendInvite={sendInvite} /> : null}
             </CardWide>
           </Column>
         </BodyContainerColumn>
