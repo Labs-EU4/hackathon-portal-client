@@ -4,7 +4,7 @@ import WideFooter from '../atoms/WideFooter';
 import FooterContainer from '../atoms/FooterContainer';
 import Group from '../atoms/Group';
 import SocialIcon from '../atoms/SocialIcon';
-import { FooterNavAnchor } from '../atoms/Anchor';
+import { FooterNavAnchor } from '../../assets/styles/atoms/Anchor';
 import { PlainParagraph } from '../atoms/Paragraph';
 
 import linkedin from '../../assets/Icon-linkedin.png';
