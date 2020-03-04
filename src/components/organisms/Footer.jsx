@@ -1,11 +1,11 @@
 import React from 'react';
 
-import WideFooter from '../../components/atoms/WideFooter';
-import FooterContainer from '../../components/atoms/FooterContainer';
-import Group from '../../components/atoms/Group';
-import SocialIcon from '../../components/atoms/SocialIcon';
-import { FooterNavAnchor } from '../../components/atoms/Anchor';
-import { PlainParagraph } from '../../components/atoms/Paragraph';
+import WideFooter from '../atoms/WideFooter';
+import FooterContainer from '../atoms/FooterContainer';
+import Group from '../atoms/Group';
+import SocialIcon from '../atoms/SocialIcon';
+import { FooterNavAnchor } from '../atoms/Anchor';
+import { PlainParagraph } from '../atoms/Paragraph';
 
 import linkedin from '../../assets/Icon-linkedin.png';
 import twitter from '../../assets/Icon-twitter.png';

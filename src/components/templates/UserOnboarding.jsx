@@ -11,13 +11,13 @@ const UserOnboarding = ({
   return (
     <div>
       <Header />
-      <FormLayout
-        ctaText={ctaText}
-        imageType={imageType}
-        imageText={imageText}
-        formHeader={formHeader}
-        formParagraph={formParagraph}
-      />
+        <FormLayout
+          ctaText={ctaText}
+          imageType={imageType}
+          imageText={imageText}
+          formHeader={formHeader}
+          formParagraph={formParagraph}
+        />
       <Footer />
     </div>
   );
