@@ -1,17 +1,12 @@
 import styled from "styled-components";
-import { Solid, media } from "../index";
+import { media } from "../../assets/styles/variables/media";
 
 export const Card = styled.div`
-  background-color: ${Solid.WHITE};
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 302px;
-  min-height: 220px;
-  border: 1px solid ${Solid.BORDER_GREY};
-  border-radius: 6px;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  ${props => props.theme.shadow.card};
+  ${props => props.theme.flex.column};
+  position: relative;
+  background-color: white;
+  width: 300px; min-height: 380px;
   margin: 10px;
 `;
 
