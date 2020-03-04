@@ -5,8 +5,7 @@ import { DateIcon } from "../atoms/Icon";
 import { Span } from "../atoms/Span";
 
 const StyledCardFooter = styled.div`
-  display: flex;
-  align-items: center;
+  display: flex; align-items: center;
 `;
 
 const StyledSpan = styled(Span)`
