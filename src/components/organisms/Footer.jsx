@@ -1,38 +1,32 @@
 import React from 'react';
 
-import WideFooter from '../atoms/WideFooter';
-import FooterContainer from '../atoms/FooterContainer';
+import FooterContainer from '../../assets/styles/atoms/FooterContainer';
 import Group from '../atoms/Group';
-import SocialIcon from '../atoms/SocialIcon';
 import { FooterNavAnchor } from '../../assets/styles/atoms/Anchor';
-import { PlainParagraph } from '../atoms/Paragraph';
-
-import linkedin from '../../assets/Icon-linkedin.png';
-import twitter from '../../assets/Icon-twitter.png';
-import facebook from '../../assets/Icon-facebook.png';
+import { Paragraph } from '../../assets/styles/atoms/Paragraph';
 
 const Footer = () => (
-  <WideFooter>
-    <FooterContainer>
-      <Group>
-        <SocialIcon src={linkedin} alt="LinkedIn" />
-        <SocialIcon src={twitter} alt="Twitter" />
-        <SocialIcon src={facebook} alt="Facebook" />
-      </Group>
+  <FooterContainer>
+    <Paragraph left>
+      International Crafters © 2020
+    </Paragraph>
 
-      <Group>
-        <FooterNavAnchor href="https://hackton.co/#team">Team</FooterNavAnchor>
-        <FooterNavAnchor href="#">Privacy</FooterNavAnchor>
-        <FooterNavAnchor href="#">Contacts</FooterNavAnchor>
-      </Group>
+    <Group>
+      <FooterNavAnchor href="#">Privacy</FooterNavAnchor>
+      <FooterNavAnchor href="#">Contacts</FooterNavAnchor>
+    </Group>
 
-      <Group>
-        <PlainParagraph>
-          International Crafters © 2020
-        </PlainParagraph>
-      </Group>
-    </FooterContainer>
-  </WideFooter>
+  </FooterContainer>
 );
 
 export default Footer;
+
+
+// import linkedin from '../../assets/Icon-linkedin.png';
+// import twitter from '../../assets/Icon-twitter.png';
+// import facebook from '../../assets/Icon-facebook.png';
+{/* <Group>
+  <SocialIcon src={linkedin} alt="LinkedIn" />
+  <SocialIcon src={twitter} alt="Twitter" />
+  <SocialIcon src={facebook} alt="Facebook" />
+</Group> */}
