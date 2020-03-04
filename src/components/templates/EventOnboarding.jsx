@@ -8,10 +8,8 @@ import {
   MapContainer,
   MapFormContainer
 } from '../../assets/styles/templates/EventOnboarding';
+import { StyledRowHead, StyledButton } from '../../assets/styles/templates/UserEventsDashboard';
 import EventCard from "../molecules/EventCard";
-
-//CHANGE IMPORT TO THE ASSETS FOLDER AFTER REFACTORING CODE
-import { StyledRowHead, StyledButton } from '../templates/UserEventsDashboard';
 
 const EventOnboarding = ({ eventModalHandler }) => {
   const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
