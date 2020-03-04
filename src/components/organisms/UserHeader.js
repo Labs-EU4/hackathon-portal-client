@@ -13,9 +13,9 @@ const UserHeader = () => {
   return (
     <WideHeader>
       <HeaderContainer>
-        <Link to="/">
+        <StyledLink to="/">
           <Logo />
-        </Link>
+        </StyledLink>
         <Navigation>
           <PublicNav />
         </Navigation>
@@ -29,4 +29,8 @@ export default UserHeader;
 const Navigation = styled.div`
   width: 100%;
   display: flex; align-items: center;
+`;
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
 `;

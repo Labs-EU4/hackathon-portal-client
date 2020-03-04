@@ -50,7 +50,7 @@ const EventCard = ({ event, eventModalHandler }) => {
             }
           </DateParagraph>
           <H4>{event_title}</H4>
-          <LocationParagraph>{location}</LocationParagraph>
+          <LocationParagraph bold>{location}</LocationParagraph>
           <Paragraph>{excerpt}</Paragraph>
           <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
@@ -150,7 +150,7 @@ const DateParagraph = styled(Paragraph)`
 
 const LocationParagraph = styled(Paragraph)`
   margin: -5px 0 8px;
-  color: ${props => props.theme.color.grey.regular};
+  color: ${props => props.theme.color.grey.light};
 `;
 
 const CardCountDown = styled.div`

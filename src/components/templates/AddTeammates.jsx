@@ -85,14 +85,15 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
         font-size: 1.6rem;
         font-weight: 500;
         color: ${props => props.theme.color.black.regular};
-        border: 2px solid ${props => props.theme.color.primary.regular};
+        border: 2px solid ${props => props.theme.color.grey.regular};
         border-radius: 6px;
         padding: 10px;
         ${({ display }) =>
         display === "wide" ? `width: 100%;` : `width: 180px;`}
 
         &:focus {
-          transition: all 0.5s;
+          border: 2px solid ${props => props.theme.color.primary.regular};
+          transition: all 0.4s ease;
           box-shadow: 0 0 3px #ddd;
 
           & + svg {
@@ -439,6 +440,7 @@ const UserWidget = ({ user, selected, ...otherProps }) => {
 
   const selectedJudgeHandler = (e) => {
     e.currentTarget.classList.add('selected');
+    // Add option to deselect user with conditional to check for that
     selected(user);
   }
 

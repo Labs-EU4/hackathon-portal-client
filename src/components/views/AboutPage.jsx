@@ -64,10 +64,12 @@ const AboutPage = () => {
     return (
         <AboutContainer>
             <AboutHeaderContainer>
-                <StyledLogo />
-                <HeaderContent>
-                    Let's make your next hackathon a success!
-                </HeaderContent>
+                <HeroContainer>
+                    <Logo size="5rem"/>
+                    <HeroText>
+                        Let's make your next hackathon a success!
+                    </HeroText>
+                </HeroContainer>
             </AboutHeaderContainer>
             <MainContent>
                 <SectionTitle lineWidth="30%">Meet our team of superstars<hr/></SectionTitle>
@@ -106,16 +108,16 @@ const AboutHeaderContainer = styled.div`
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 `;
 
-const StyledLogo = styled(Logo)`
-    margin-top: -100px; margin-left: -10px;
-    width: 30%; height: 80px;
+const HeroContainer = styled.div`
+    ${props => props.theme.flex.columnCenter};
+    margin-top: -100px;
 `;
 
-const HeaderContent = styled.div`
+const HeroText = styled.div`
     ${props => props.theme.shadow.text};
     ${props => props.theme.fontSize.h4};
-    padding: 10px;
-    color: ${props => props.theme.color.blue.regular};
+    padding: 0 10px 10px;
+    color: ${props => props.theme.color.white.regular};
 `;
 
 const MainContent = styled.div`
