@@ -1,18 +1,23 @@
 import React, { useEffect, useRef } from "react";
-import Button from "../atoms/Button";
-import { RowBody } from "../atoms/RowBody";
 import { useHistory } from "react-router-dom";
+
+import Button from "../atoms/Button";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { useSearchUserByEmail } from "../../hooks";
 import {
   StyledContainer,
   Container,
   StyledWidget
-} from "../styles/templates/AppParticipantTeams";
-import { ContainerRadio } from "../styles/templates/AddTeammatesStyling";
+} from "../../assets/styles/templates/AppParticipantTeams";
+import { ContainerRadio } from "../../assets/styles/templates/AddTeammatesStyling";
 import isEmail from "validator/lib/isEmail";
 
 
-export const UserWidget = ({ user, select, ...otherProps }) => {
+const UserWidget = ({ user, select, ...otherProps }) => {
+  const StyledWidget = styled.div`
+    margin-bottom: 10px;
+    cursor: pointer;
+  `;
   return (
     <StyledWidget key={user.id} onClick={() => select(user)} {...otherProps}>
       {user.email}
@@ -21,22 +26,18 @@ export const UserWidget = ({ user, select, ...otherProps }) => {
 };
 
 export const SearchWidget = props => {
-
-  const setSelectedUser = props.setSelectedUser;
-  const setNoneUser = props.setNoneUser;
+  const { setSelectedUser, setNoneUser } = props;
   const history = useHistory();
   const [matches, searchString, setSearchString] = useSearchUserByEmail();
   const validateEmail = email => {
     return isEmail(email);
   };
-
   const redirect = (location = "/dashboard") => {
     history.push(location);
   };
   const inputRef = useRef(null);
   useEffect(() => {
     inputRef.current.focus();
-
   }, []);
 
   return (
@@ -56,7 +57,9 @@ export const SearchWidget = props => {
       {!matches && validateEmail(searchString)
         ? setNoneUser(searchString)
         : setNoneUser(null)}
-      <Button color="grey" onClick={() => redirect(history)}>
+      <Button 
+        color="grey" 
+        onClick={() => redirect(history)}>
         Back to dashboard
       </Button>
     </Container>
@@ -65,13 +68,12 @@ export const SearchWidget = props => {
 
 
 export const ParticipantRoleWidget = props => {
-  const selectedUser = props.selectedUser;
-  const handleSubmit = props.handleSubmit;
+  const { selectedUser, handleSubmit} = props;
   const history = useHistory();
-
   const redirect = (location = "/dashboard") => {
     history.push(location);
   };
+
   return (
     <StyledContainer>
       <RowBody direction="column-reverse">
@@ -137,10 +139,10 @@ export const TeamRoleWidget = (props) => {
   const role = props.role
   const handleSubmit = props.handleSubmit;
   const history = useHistory();
-
   const redirect = (location = "/dashboard") => {
     history.push(location);
   };
+
   return (
     <StyledContainer>
       <RowBody direction="column-reverse">
