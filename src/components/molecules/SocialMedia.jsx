@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialMediaContainer } from "../atoms/SocialIcon";
+import { SocialMediaContainer } from "../../assets/styles/atoms/SocialIconContainer";
 import MediaIcons from "./MediaIcons";
 import { StrikedSpan } from "../atoms/Span";
 
