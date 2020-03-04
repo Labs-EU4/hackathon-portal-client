@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styled from 'styled-components';
 
 const Icon = ({ icon, onClick, ...props }) => {
-    
     return (
         <StyledIcon
             icon={icon}
