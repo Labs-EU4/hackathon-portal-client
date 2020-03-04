@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { CardWide } from "../../../components/atoms/Card";
 import { LetterIcon } from "../../../components/atoms/Icon";
-import BodyContainer from "../../../components/atoms/BodyContainer";
+import BodyContainer from "../atoms/BodyContainer";
 import { BoldSpan } from "../../../components/atoms/Span";
 import { Paragraph } from "../../../components/atoms/Paragraph";
 import { media } from "../../../components/index";
