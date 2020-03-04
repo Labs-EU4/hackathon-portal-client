@@ -19,8 +19,6 @@ import {
   updateUserProfile
 } from "../../store/user/actions";
 
-
-
 const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
   const dispatch = useDispatch();
   const history = useHistory();

@@ -2,20 +2,18 @@ import React from "react";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
-import Input from "../../atoms/Input";
-import WideBody from "../../atoms/WideBody";
-import BodyContainer from "../../atoms/BodyContainer";
-import HeroImage from "../../atoms/HeroImage";
-import image from "../../../assets/Signup.png";
-import Container from "../../atoms/Container";
-import { H1 } from "../../atoms/Heading";
-import { Paragraph } from "../../atoms/Paragraph";
-import { RowBody } from "../../atoms/RowBody";
-import { Header, Footer } from "../../organisms/index";
-import Button from "../../atoms/Button";
-import { ErrorSpan } from "../../atoms/Span";
-import { resetPassword } from "../../../store/user/actions";
 import { useHistory } from "react-router-dom";
+
+import WideBody from "../../../assets/styles/atoms/WideBody";
+import BodyContainer from "../../../assets/styles/atoms/BodyContainer";
+import Container from "../../../assets/styles/atoms/Container";
+import { H1 } from "../../../assets/styles/atoms/Heading";
+import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
+import { RowBody } from "../../../assets/styles/atoms/RowBody";
+import { ErrorSpan } from "../../../assets/styles/atoms/Span";
+import Button from "../../atoms/Button";
+import Input from "../../atoms/Input";
+import { resetPassword } from "../../../store/user/actions";
 
 const ResetPassword = () => {
   const dispatch = useDispatch();
@@ -39,10 +37,9 @@ const ResetPassword = () => {
 
   return (
     <div>
-      <Header />
       <WideBody>
         <BodyContainer justify="center">
-          <HeroImage src={image} alt="Reset passowrd" />
+          {/* <HeroImage src={image} alt="Reset passowrd" /> */}
           <Container>
             <H1>Change the password</H1>
             <Paragraph>
@@ -91,7 +88,6 @@ const ResetPassword = () => {
           </Container>
         </BodyContainer>
       </WideBody>
-      <Footer />
     </div>
   );
 };
