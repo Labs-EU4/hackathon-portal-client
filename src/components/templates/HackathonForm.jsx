@@ -11,16 +11,16 @@ import {
   StyledColumn,
   StyledFormBtn
 } from '../../assets/styles/templates/HackathonForm';
-import { RowBody } from "../atoms/RowBody";
-import { Column } from "../atoms/Column";
-import Label from "../atoms/Label";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
+import { Column } from "../../assets/styles/atoms/Column";
+import Label from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
-import Checkbox from "../atoms/Checkbox";
+import Checkbox from "../molecules/Checkbox";
 import TextArea from "../atoms/TextArea";
 import Select from "../atoms/Select";
-import { Paragraph } from "../atoms/Paragraph";
-import { ErrorSpan } from "../atoms/Span";
-import InputTag from "../atoms/TagsInput.js";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
+import { ErrorSpan } from "../../assets/styles/atoms/Span";
+import InputTag from "../molecules/TagsInput";
 import {
   createEvent,
   fetchEventCategories,
@@ -88,17 +88,6 @@ const HackathonForm = ({ initialState }) => {
       .positive()
       .integer()
   });
-
-  const ButtonGroup = styled.div`
-    display: block;
-    width: 100%;
-
-    a,
-    button {
-      width: 100%;
-      margin: 0 0 10px 0;
-    }
-  `;
 
   const today = format(new Date());
 
