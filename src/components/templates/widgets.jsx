@@ -8,8 +8,18 @@ import {
   StyledContainer,
   Container,
   StyledWidget
-} from "../../assets/styles/templates/AppParticipantTeams";
-import { ContainerRadio } from "../../assets/styles/templates/AddTeammatesStyling";
+} from "../../assets/styles/templates/AddParticipantTeams";
+import { 
+  Container,
+  ContainerRadio,
+  UsersList,
+  ChosenJudgesContainer,
+  ChosenJudgeImg,
+  StyledSearchIcon,
+  StyledJudgeWidget,
+  UserAvatar,
+  UserInfo
+} from "../../assets/styles/templates/AddTeammates";
 import isEmail from "validator/lib/isEmail";
 
 
@@ -65,7 +75,6 @@ export const SearchWidget = props => {
     </Container>
   );
 };
-
 
 export const ParticipantRoleWidget = props => {
   const { selectedUser, handleSubmit} = props;
@@ -209,5 +218,114 @@ export const TeamInviteWidget = props => {
       </Button>
       </RowBody>
     </StyledContainer>
+  );
+};
+
+export const JudgesSearchWidget = props => {
+  const { 
+    selectedUsersHadler, 
+    selectedUserArr,
+    setNoneUser,
+    handleExit,
+    handleSubmit
+  } = props;
+  const inputRef = useRef(null);
+  useEffect(() => {
+    inputRef.current.focus();
+  }, []);
+
+  return (
+    <Container display="wide">
+      <input
+        type="text"
+        value={searchString}
+        onChange={e => {
+          setSearchString(e.target.value);
+        }}
+        placeholder="Search by email"
+        ref={inputRef}
+      />
+      {
+        searchString.length > 0 
+          ? <StyledSearchIcon icon="times" onClick={() => setSearchString('')}/> 
+          : <StyledSearchIcon icon="search" />
+      }
+      <div style={{ display: "flex", flexDirection: "column"}}>
+        <UsersList>
+          {matches.map(user => (
+            // <UserWidget key={user.id} user={user} select={setSelectedUser} />
+            <JudgeWidget key={user.id} user={user} selected={selectedUsersHadler} />
+          ))}
+          {
+            !!matches && validateEmail(searchString) 
+              ? setNoneUser(searchString) 
+              : setNoneUser(null)
+          }
+        </UsersList>
+        <ChosenJudgesContainer>
+          {
+            selectedUserArr.current.length > 0 && (
+              selectedUserArr.current.map(user => {
+                let memberProfile = JSON.parse(user.image_url);
+                return user.image_url !== null ? (
+                  <ChosenJudgeImg src={memberProfile.avatar} alt={user.username}/>
+                ) : (
+                  <ChosenJudgeImg 
+                    src="https://media.giphy.com/media/g0QET2Iejaa4EQ0eBV/giphy.gif" alt="default-img" 
+                  />
+                )
+              }) 
+            )
+          }
+        </ChosenJudgesContainer>
+      </div>
+      <RowBody>
+        <Button 
+          color="grey" 
+          size="half" 
+          onClick={handleExit}
+        >Back</Button>
+        <Button 
+          color="green" 
+          size="half" 
+          onClick={handleSubmit}
+        >Add Judge</Button>
+      </RowBody>
+    </Container>
+  );
+};
+
+const JudgeWidget = ({ user, selected, ...otherProps }) => {
+  let memberProfile = JSON.parse(user.image_url);
+
+  const selectedJudgeHandler = (e) => {
+    e.currentTarget.classList.add('selected');
+    // Add option to deselect user with conditional to check for that
+    selected(user);
+  }
+
+  return (
+    <StyledJudgeWidget 
+      key={user.id} 
+      // onClick={() => selected(user)} 
+      onClick={selectedJudgeHandler} 
+      {...otherProps}
+    >
+      <UserAvatar>
+        {
+          user.image_url !== null ? (
+            <img src={memberProfile.avatar} alt={user.username}/>
+          ) : (
+            <img 
+              src="https://media.giphy.com/media/g0QET2Iejaa4EQ0eBV/giphy.gif" alt="default-img" 
+            />
+          )
+        }
+      </UserAvatar>
+      <UserInfo>
+        <p>{user.username}</p>
+        <p>{user.email}</p>
+      </UserInfo>
+    </StyledJudgeWidget>
   );
 };
