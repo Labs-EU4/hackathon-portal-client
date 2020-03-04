@@ -7,8 +7,8 @@ import {
   DashboardContent,
   StyledButton
 } from '../../assets/styles/templates/UserEventsdashboard';
-import EventCard from "../molecules/EventCard";
 import { H3, H4 } from "../../assets/styles/atoms/Heading";
+import EventCard from "../molecules/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 
 const UserEventsDashboard = ({ eventModalHandler }) => {
