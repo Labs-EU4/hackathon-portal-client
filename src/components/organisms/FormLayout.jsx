@@ -1,5 +1,5 @@
 import React from "react";
-import WideBody from "../atoms/WideBody";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import BodyContainer from "../../assets/styles/atoms/BodyContainer";
 import HeroImage from "../atoms/HeroImage";
 import Form from "./Form";
