@@ -18,7 +18,12 @@ export const initialState = {
               "https://res.cloudinary.com/ibkrice-com/video/upload/v1581259780/Harvesting_ifato8.mp4"
           }
         ],
-
+        ProfileImage: [
+          {
+            image_url:
+              "https://res.cloudinary.com/ibkrice-com/video/upload/v1581259780/Harvesting_ifato8.mp4"
+          }
+        ],
         rubrics: [
           "Presentation",
           "Product Fit",

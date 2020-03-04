@@ -28,6 +28,7 @@ beforeEach(() => {
   );
 });
 
+
 describe("Renders Without Crashing", () => {
   it("Renders Without Crashing.", () => {
     expect(jestFeatures).toMatchSnapshot();
