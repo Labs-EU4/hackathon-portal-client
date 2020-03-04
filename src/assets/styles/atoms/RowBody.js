@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media } from "../index";
+import { media } from "../variables/media";
 
 export const RowBody = styled.div`
   width: 100%;
@@ -9,7 +9,8 @@ export const RowBody = styled.div`
   ${({ spacing }) => 
     spacing ? `justify-content: ${spacing};` : `justify-content: space-between;`}
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin: 5px 0;
+  
 
   @media ${media.tablet} {
     flex-direction: row;
