@@ -1,5 +1,6 @@
 import React from "react";
-import image from "../../assets/Login.png";
+
+import image from "../../assets/images/Login.png";
 import { UserOnboarding } from "../templates";
 
 const LoginPage = () => {
@@ -9,7 +10,9 @@ const LoginPage = () => {
       imageType={image}
       imageText="Log In now!!"
       formHeader="Log into Portal"
-      formParagraph="We missed you, you missed us now get back into action."
+      formParagraph={
+        "We missed you, you missed us." + <br/> + "Now let's get back into action."
+      }
     />
   );
 };
