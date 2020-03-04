@@ -1,0 +1,682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shows all the text nodes on HackathonForm.js that are contained on the making an event form Renders Without Crashing. 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="sc-ifAKCX kjqdgS"
+        >
+          <div
+            class="sc-EHOje cawcRW"
+          >
+            <a
+              href="/dashboard"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-bZQynM cMGtGG"
+                src="Hackton-logo.png"
+              />
+            </a>
+            <div
+              class="sc-eqIVtm bwgFBK"
+            >
+              <div
+                class="sc-htoDjs iAtLjJ"
+              >
+                <span>
+                  <svg>
+                    link-burger-icon.svg
+                  </svg>
+                  Menu
+                </span>
+                <ul>
+                  <li>
+                    <a
+                      class="sc-dnqmqq gRMNAQ"
+                      href="/dashboard"
+                    >
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="sc-dnqmqq gRMNAQ"
+                      href="/dashboard/profile"
+                    >
+                      Profile
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="sc-iwsKbI fnOUWl"
+              >
+                8
+                <ul
+                  class="sc-gZMcBi hjGwiG"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-cMljjf hEMCcP"
+        >
+          <div
+            class="sc-gzVnrw ehKlJb"
+          >
+            <a
+              class="sc-dnqmqq gRMNAQ"
+              href="/dashboard"
+            >
+              <svg>
+                link-dashboard-icon.svg
+              </svg>
+              Dashboard
+            </a>
+            <a
+              class="sc-dnqmqq gRMNAQ"
+              href="/dashboard/profile"
+            >
+              <svg>
+                link-profile-icon.svg
+              </svg>
+              Profile
+            </a>
+          </div>
+          <div
+            class="sc-bwzfXH cwdcdI sc-hzDkRC jKFHeq"
+          >
+            <div
+              class="sc-jDwBTQ hADVSm"
+            >
+              <h3
+                class="sc-eNQAEJ faMTgL"
+              >
+                Edit Profile
+              </h3>
+            </div>
+            <div
+              class="sc-gPEVay iDLFnH"
+            >
+              <div
+                class="sc-csuQGl sc-Rmtcm sc-fBuWsC hsTvRg"
+              >
+                <form
+                  action="#"
+                >
+                  <label
+                    class="sc-bdVaJa sc-jhAzac hwNaGJ"
+                    for="image"
+                  >
+                    Profile picture
+                  </label>
+                  <div
+                    class="sc-gipzik cBFlCz"
+                  >
+                    <div>
+                      <img
+                        alt=""
+                        src="profile-image.png"
+                      />
+                    </div>
+                    <p />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="fullname"
+                    >
+                      Full Name
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="fullname"
+                      placeholder="Full Name"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="image"
+                    >
+                      Profile Image
+                    </label>
+                    <input
+                      accept="image/*"
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="image_url"
+                      placeholder="Profile picture"
+                      type="file"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="email"
+                      >
+                        Email
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        name="email"
+                        placeholder="Email"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="username"
+                      >
+                        Username
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        name="username"
+                        placeholder="Username"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="bio"
+                    >
+                      Bio
+                    </label>
+                    <div
+                      class="sc-jlyJG cSTOjY"
+                    >
+                      <textarea
+                        name="bio"
+                        placeholder="bio"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gPEVay sc-fMiknA jXofwC"
+                  >
+                    <a
+                      href="/dashboard"
+                    >
+                      <button
+                        class="sc-kkGfuU gHAtIj"
+                        color="grey"
+                        to="/dashboard"
+                      >
+                        Cancel
+                      </button>
+                    </a>
+                    <button
+                      class="sc-kkGfuU gKOqPB sc-dVhcbM dXAdsf"
+                      color="green"
+                      type="submit"
+                    >
+                      Save Changes
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-gqjmRU gUOFMN"
+        >
+          <div
+            class="sc-VigVT fmYOuc"
+          >
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-jTzLTM dCoQrq"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-jTzLTM dCoQrq"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-jTzLTM dCoQrq"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-cSHVUG sc-chPdSV tifze"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-cSHVUG sc-chPdSV tifze"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-cSHVUG sc-chPdSV tifze"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                class="sc-kgoBCf sc-kGXeez iYoAqE"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="sc-ifAKCX kjqdgS"
+      >
+        <div
+          class="sc-EHOje cawcRW"
+        >
+          <a
+            href="/dashboard"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-bZQynM cMGtGG"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-eqIVtm bwgFBK"
+          >
+            <div
+              class="sc-htoDjs iAtLjJ"
+            >
+              <span>
+                <svg>
+                  link-burger-icon.svg
+                </svg>
+                Menu
+              </span>
+              <ul>
+                <li>
+                  <a
+                    class="sc-dnqmqq gRMNAQ"
+                    href="/dashboard"
+                  >
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="sc-dnqmqq gRMNAQ"
+                    href="/dashboard/profile"
+                  >
+                    Profile
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="sc-iwsKbI fnOUWl"
+            >
+              8
+              <ul
+                class="sc-gZMcBi hjGwiG"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-cMljjf hEMCcP"
+      >
+        <div
+          class="sc-gzVnrw ehKlJb"
+        >
+          <a
+            class="sc-dnqmqq gRMNAQ"
+            href="/dashboard"
+          >
+            <svg>
+              link-dashboard-icon.svg
+            </svg>
+            Dashboard
+          </a>
+          <a
+            class="sc-dnqmqq gRMNAQ"
+            href="/dashboard/profile"
+          >
+            <svg>
+              link-profile-icon.svg
+            </svg>
+            Profile
+          </a>
+        </div>
+        <div
+          class="sc-bwzfXH cwdcdI sc-hzDkRC jKFHeq"
+        >
+          <div
+            class="sc-jDwBTQ hADVSm"
+          >
+            <h3
+              class="sc-eNQAEJ faMTgL"
+            >
+              Edit Profile
+            </h3>
+          </div>
+          <div
+            class="sc-gPEVay iDLFnH"
+          >
+            <div
+              class="sc-csuQGl sc-Rmtcm sc-fBuWsC hsTvRg"
+            >
+              <form
+                action="#"
+              >
+                <label
+                  class="sc-bdVaJa sc-jhAzac hwNaGJ"
+                  for="image"
+                >
+                  Profile picture
+                </label>
+                <div
+                  class="sc-gipzik cBFlCz"
+                >
+                  <div>
+                    <img
+                      alt=""
+                      src="profile-image.png"
+                    />
+                  </div>
+                  <p />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="fullname"
+                  >
+                    Full Name
+                  </label>
+                  <input
+                    class="sc-kEYyzF cZhFQx"
+                    display="wide"
+                    name="fullname"
+                    placeholder="Full Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="image"
+                  >
+                    Profile Image
+                  </label>
+                  <input
+                    accept="image/*"
+                    class="sc-kEYyzF cZhFQx"
+                    display="wide"
+                    name="image_url"
+                    placeholder="Profile picture"
+                    type="file"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="email"
+                    >
+                      Email
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="email"
+                      placeholder="Email"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="username"
+                    >
+                      Username
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="username"
+                      placeholder="Username"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="bio"
+                  >
+                    Bio
+                  </label>
+                  <div
+                    class="sc-jlyJG cSTOjY"
+                  >
+                    <textarea
+                      name="bio"
+                      placeholder="bio"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-gPEVay sc-fMiknA jXofwC"
+                >
+                  <a
+                    href="/dashboard"
+                  >
+                    <button
+                      class="sc-kkGfuU gHAtIj"
+                      color="grey"
+                      to="/dashboard"
+                    >
+                      Cancel
+                    </button>
+                  </a>
+                  <button
+                    class="sc-kkGfuU gKOqPB sc-dVhcbM dXAdsf"
+                    color="green"
+                    type="submit"
+                  >
+                    Save Changes
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gqjmRU gUOFMN"
+      >
+        <div
+          class="sc-VigVT fmYOuc"
+        >
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-jTzLTM dCoQrq"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-jTzLTM dCoQrq"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-jTzLTM dCoQrq"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-cSHVUG sc-chPdSV tifze"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-cSHVUG sc-chPdSV tifze"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-cSHVUG sc-chPdSV tifze"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              class="sc-kgoBCf sc-kGXeez iYoAqE"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

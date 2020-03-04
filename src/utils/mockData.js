@@ -61,9 +61,8 @@ export const initialState = {
     fullname: "Jake Tom",
     email: "8omemail@google.com",
     username: "Jake22",
-    bio: "",
-    image: "",
-    image_url: {}
+    bio: "I like coding ",
+    image: ""
   },
 
   submissions: [

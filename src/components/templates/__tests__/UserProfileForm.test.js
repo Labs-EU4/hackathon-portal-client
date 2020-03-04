@@ -18,19 +18,23 @@ let store;
 
 beforeEach(() => {
   mockStore = configureStore();
-  // let wrapper;
   store = mockStore(initialState);
   jestFeatures = render(
     <Router history={history}>
       <Provider store={store}>
-        <UserProfileForm />
+        <UserProfileForm initialState={initialState} />
       </Provider>
     </Router>
   );
 });
 
-describe("Shows all the text nodes on HackathonForm.js that are contained on the making an event form", () => {
-  it("should be displaying the label text node for the Name", () => {
-    expect(jestFeatures.getByText("Full Name")).toBeInTheDocument();
+
+describe("Renders Without Crashing", () => {
+  it("Renders Without Crashing.", () => {
+    expect(jestFeatures).toMatchSnapshot();
+  });
+  it("should be displaying the label text node for the Heading Edit Profile", () => {
+    let mainHeader = () => jestFeatures.getByText("Edit Profile");
+    expect(mainHeader()).toBeInTheDocument();
   });
 });
