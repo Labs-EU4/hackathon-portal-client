@@ -29,7 +29,7 @@ import {
 const UserProfileForm = ({ initialState }) => {
   const dispatch = useDispatch();
   const history = useHistory();
-  const [selectedImage, setSelectedImage] = useState(initialState?.image_url);
+  const [selectedImage, setSelectedImage] = useState(initialState ?.image_url);
 
   const handleSubmit = (values, a) => {
     const formData = new FormData();
@@ -42,10 +42,10 @@ const UserProfileForm = ({ initialState }) => {
   };
 
   const defaultState = {
-    bio: initialState?.bio || "",
-    fullname: initialState?.fullname || "",
-    email: initialState?.email || "",
-    username: initialState?.username || ""
+    bio: initialState ?.bio || "",
+    fullname: initialState ?.fullname || "",
+    email: initialState ?.email || "",
+    username: initialState ?.username || ""
   };
 
   const schema = Yup.object().shape({
@@ -82,9 +82,9 @@ const UserProfileForm = ({ initialState }) => {
                           initialState.image_url
                             ? initialState.image_url[0]
                             : null
-                        )?.avatar || profileImg
+                        ) ?.avatar || profileImg
                       }
-                      name={initialState?.username}
+                      name={initialState ?.username}
                     />
 
                     <RowBody>
@@ -95,6 +95,7 @@ const UserProfileForm = ({ initialState }) => {
                         display="wide"
                         placeholder="Full Name"
                       />
+                      <ErrorMessage name="fullname" />
                     </RowBody>
 
                     <RowBody>

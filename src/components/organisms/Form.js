@@ -36,20 +36,8 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     const { email, password } = values;
     if (ctaText.toLowerCase() === "log in") {
       dispatch(login(email, password));
-      // toast.info("Loading...", {
-      //   position: toast.POSITION.TOP_RIGHT
-      // })
-      // toast.success("🦄 Logging you in!", {
-      //   position: toast.POSITION.BOTTOM_RIGHT
-      // });
     } else {
       dispatch(register(email, password, role, team));
-      // toast.info("Loading...", {
-      //   position: toast.POSITION.TOP_RIGHT
-      // })
-      // toast.success(" 🚀 A moment while we record your details!", {
-      //   position: toast.POSITION.BOTTOM_RIGHT
-      // });
     }
   };
 
