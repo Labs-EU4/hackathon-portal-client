@@ -33,11 +33,11 @@ describe("Asserts that text nodes on ResetPasswordConfirmation.js,render properl
   it("The text node for the <H1> Check your inbox, renders properly ", () => {
     expect(component.queryByText(/Check your inbox/i)).toBeInTheDocument();
   });
-  //   it("The text node for the <paragraph> enter email address, renders properly ", () => {
-  //     expect(
-  //       component.queryByText(
-  //         /Enter your email address so we can reset your password and send a link to your inbox./i
-  //       )
-  //     ).toBeInTheDocument();
-  //   });
+  it("The text node for the  email confirmation, renders properly ", () => {
+    expect(
+      component.queryByText(
+        "Please check your email inbox for directions on how to reset your password."
+      )
+    ).toBeInTheDocument();
+  });
 });
