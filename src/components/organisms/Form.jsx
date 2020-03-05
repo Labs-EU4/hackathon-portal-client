@@ -1,21 +1,21 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import { Link, useLocation, Redirect } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
 
-import Container from "../atoms/Container";
-import { H1 } from "../atoms/Heading";
-import { Paragraph } from "../atoms/Paragraph";
-import Input from "../atoms/Input";
+import Container from "../../assets/styles/atoms/Container";
+import { H1 } from "../../assets/styles/atoms/Heading";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
+import { ErrorSpan } from "../../assets/styles/atoms/Span";
+import Label from '../../assets/styles/atoms/Label';
 import Button from "../atoms/Button";
-import { ErrorSpan } from "../atoms/Span";
-import Label from '../atoms/Label';
-import { useDispatch, useSelector } from "react-redux";
-import { register, login } from "../../store/user/actions";
+import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
+import { register, login } from "../../store/user/actions";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
 
 
@@ -66,15 +66,15 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     })
   ) : (
     Yup.object().shape({
-      firstName: Yup.string()
-      .required("First name is required.")
-      .min(2, "Your name should be at least 2 characters long."),
-      lastName: Yup.string()
-      .required("Last name is required.")
-      .min(2, "Your surname should be at least 2 characters long."),
-      username: Yup.string()
-      .required("Please provide also a nickname for your profile.")
-      .min(3, "Your username should be at least 3 characters long."),
+      // firstName: Yup.string()
+      // .required("First name is required.")
+      // .min(2, "Your name should be at least 2 characters long."),
+      // lastName: Yup.string()
+      // .required("Last name is required.")
+      // .min(2, "Your surname should be at least 2 characters long."),
+      // username: Yup.string()
+      // .required("Please provide also a nickname for your profile.")
+      // .min(3, "Your username should be at least 3 characters long."),
       email: Yup.string()
       .email("Please use a valid email address.")
       .required("Email address is required."),

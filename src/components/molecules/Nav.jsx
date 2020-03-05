@@ -33,7 +33,7 @@ const items = [
   }
 ];
 
-const SideBar = ({ setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarOpen }) => {
+const Nav = ({ setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarOpen }) => {
   const [ isEditProfileHovered, setIsEditProfileHovered ] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(state => state.currentUser);
 
@@ -100,4 +100,4 @@ const SideBar = ({ setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarO
   );
 };
 
-export default SideBar;
+export default Nav;

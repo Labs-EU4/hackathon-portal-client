@@ -8,7 +8,10 @@ import {
   MapContainer,
   MapFormContainer
 } from '../../assets/styles/templates/EventOnboarding';
-import { StyledRowHead, StyledButton } from '../../assets/styles/templates/UserEventsDashboard';
+import { 
+  StyledRowHead, 
+  StyledButton 
+} from '../../assets/styles/templates/UserEventsDashboard';
 import EventCard from "../molecules/EventCard";
 
 const EventOnboarding = ({ eventModalHandler }) => {

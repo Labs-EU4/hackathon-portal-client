@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 import * as solid from "../variables/colors";
 import { media } from "../variables/media";
-import Button from '../atoms/Button';
+import Button from '../../../components/atoms/Button';
+import Icon from '../../../components/atoms/Icon';
 
 export const StyledEditIcon = styled(Icon)`
   position: absolute; top: 50%; left: 50%;
@@ -46,7 +47,7 @@ export const UserInfoContent = styled.div`
   }
 `;
 
-const StyledNav = styled.div`
+export const StyledNav = styled.div`
   ${props => props.theme.flex.custom('start', 'center', 'column')};
   position: relative;
   width: ${({ active }) => active ? '60px' : '250px'}; 

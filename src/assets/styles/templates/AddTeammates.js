@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { media } from '../variable/media';
+import { media } from '../variables/media';
 import BodyContainer from "../atoms/BodyContainer";
 import { CardWide } from "../atoms/Card";
 import Icon from '../../../components/atoms/Icon';

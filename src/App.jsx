@@ -10,7 +10,7 @@ import { media } from './assets/styles/variables/media';
 
 import UserHeader from './components/organisms/UserHeader';
 import { Footer } from './components/organisms/index';
-import SideBar from './components/molecules/SideBar';
+import Nav from './components/molecules/Nav';
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";
@@ -162,7 +162,7 @@ function App() {
               />
             )
           }
-          <SideBar 
+          <Nav 
             {...{isProfileOpen}}
             {...{setIsProfileOpen}} 
             {...{isSideBarOpen}}

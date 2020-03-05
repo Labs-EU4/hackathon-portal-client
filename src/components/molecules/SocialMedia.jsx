@@ -1,7 +1,8 @@
 import React from "react";
+
 import { SocialMediaContainer } from "../../assets/styles/atoms/SocialIconContainer";
+import { StrikedSpan } from "../../assets/styles/atoms/Span";
 import MediaIcons from "./MediaIcons";
-import { StrikedSpan } from "../atoms/Span";
 
 const SocialMedia = () => (
   <SocialMediaContainer>

@@ -9,10 +9,10 @@ import {
   ButtonRowBody,
   NewButton
 } from '../../assets/styles/templates/UserProfileForm';
-import { H3 } from "../atoms/Heading";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
-import Label from "../atoms/Label";
+import { H3 } from "../../assets/styles/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
+import Label from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import {

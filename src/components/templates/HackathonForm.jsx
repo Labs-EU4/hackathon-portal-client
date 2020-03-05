@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, ErrorMessage } from "formik";
@@ -15,7 +14,7 @@ import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { Column } from "../../assets/styles/atoms/Column";
 import Label from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
-import Checkbox from "../molecules/Checkbox";
+import Checkbox from "../molecules/CheckBox";
 import TextArea from "../atoms/TextArea";
 import Select from "../atoms/Select";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";

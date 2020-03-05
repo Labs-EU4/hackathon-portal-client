@@ -25,18 +25,16 @@ import {
   ExitButton
 } from '../../assets/styles/templates/HackathonSingle';
 import { NormalSpan } from "../../assets/styles/atoms/Span";
+import { H2, H3 } from "../../assets/styles/atoms/Heading";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
+import AddTeammates from '../templates/AddTeammates';
+import Button from "../atoms/Button";
+import Icon from '../atoms/Icon';
+import ContentTitle from "../molecules/ContentTitle";
 import HackathonProjectsPage from '../views/HackathonProjectsPage';
 import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
-import AddTeammates from '../templates/AddTeammates';
-
-import { H2, H3 } from "../atoms/Heading";
-
-import { Paragraph } from "../atoms/Paragraph";
-import Button from "../atoms/Button";
-import ContentTitle from "../molecules/ContentTitle";
 import userImg from "../../assets/images/user_icon.svg";
 import eventImg from "../../assets/images/event-img.jpg";
-import Icon from '../atoms/Icon';
 // import { useEventTeam } from "../../hooks";
 
 import {

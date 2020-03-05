@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { media } from "../variables/media";
-import Icon from '../atoms/Icon';
+import Icon from '../../../components/atoms/Icon';
 
 export const StyledLogo = styled.figure`
   ${props => props.theme.flex.custom('flex-start', 'center')};
