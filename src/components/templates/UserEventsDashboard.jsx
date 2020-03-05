@@ -7,7 +7,7 @@ import {
   DashboardContent,
   StyledButton
 } from '../../assets/styles/templates/UserEventsDashboard';
-import { H3, H4 } from "../../assets/styles/atoms/Heading";
+import { H4 } from "../../assets/styles/atoms/Heading";
 import EventCard from "../molecules/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 

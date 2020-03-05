@@ -1,5 +1,6 @@
-import BodyContainer from "../atoms/BodyContainer";
 import styled from "styled-components";
+
+import BodyContainer from "../atoms/BodyContainer";
 
 export const BodyRow = styled(BodyContainer)`
   flex-direction: column;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { media } from '../../assets/styles/variables/media';
+
+import { media } from '../variables/media';
 
 const WideFooter = styled.div`
   display: flex;

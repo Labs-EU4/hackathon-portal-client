@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 import { media } from "../variables/media";
 
 export const RowBody = styled.div`

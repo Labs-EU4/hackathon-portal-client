@@ -10,9 +10,9 @@ import {
 } from '../../assets/styles/templates/CreateTeam';
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { H3 } from "../../assets/styles/atoms/Heading";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import Button from "../atoms/Button";
 import TeamView from "./TeamView";
-import WideBody from "../../assets/styles/atoms/WideBody";
 import { createTeamName } from "../../store/participantTeams/actions";
 import { useTeams } from "../../hooks";
 

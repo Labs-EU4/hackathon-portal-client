@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
+// import uuid from 'uuid';
 
 import {
   StyledEditIcon,
@@ -78,9 +79,9 @@ const Nav = ({ setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarOpen 
         size="wide"
         activeClassName="current"
       >Create{ isSideBarOpen && <br/>} Event</StyledButton>
-      {items.map(({ title, url, icon }) => {
+      {items.map(({ title, url, icon }, idx) => {
         return (
-          <div style={{ width: '100%', position: 'relative'}}>
+          <div key={idx} style={{ width: '100%', position: 'relative'}}>
             <StyledNavLink active={isSideBarOpen} exact to={url} key={title} activeClassName="current">
               <Icon {...{icon}} />
               {!isSideBarOpen && <span>{title}</span>}

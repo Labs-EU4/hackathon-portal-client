@@ -34,55 +34,77 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     }
   }, [google, github, verified, dispatch]);
   
+  // const handleSubmit = values => {
+  //   const fullname = `${values.firstName} ${values.lastName}`
+  //   const {
+  //     username,
+  //     email, 
+  //     password 
+  //   } = values;
+  //   if (ctaText.toLowerCase() === "log in") {
+  //     dispatch(login(email, password));
+  //     toast(" 🎉 Logging you in!", {
+  //       position: toast.POSITION.TOP_RIGHT,
+  //       className: 'green'
+  //     });
+  //   } else {
+  //     dispatch(register(fullname, username, email, password, role, team));
+  //     toast.success(" 🚀 A moment while we record your details!", {
+  //       position: toast.POSITION.TOP_RIGHT
+  //     });
+  //   }
+  // };
+
   const handleSubmit = values => {
-    const fullname = `${values.firstName} ${values.lastName}`
-    const {
-      username,
-      email, 
-      password 
-    } = values;
+    const { email, password } = values;
     if (ctaText.toLowerCase() === "log in") {
       dispatch(login(email, password));
-      toast(" 🎉 Logging you in!", {
-        position: toast.POSITION.TOP_RIGHT,
-        className: 'green'
-      });
     } else {
-      dispatch(register(fullname, username, email, password, role, team));
+      dispatch(register(email, password, role, team));
       toast.success(" 🚀 A moment while we record your details!", {
-        position: toast.POSITION.TOP_RIGHT
+        position: toast.POSITION.BOTTOM_RIGHT
       });
     }
   };
   
-  const schema = ctaText.toLowerCase() === "log in" ? (
-    Yup.object().shape({
-      email: Yup.string()
+  // const schema = ctaText.toLowerCase() === "log in" ? (
+  //   Yup.object().shape({
+  //     email: Yup.string()
+  //     .email("Please use a valid email address.")
+  //     .required("Email address is required."),
+  //     password: Yup.string()
+  //     .required("Password is required.")
+  //     .min(8, "Password must be at least 8 characters long.")
+  //   })
+  // ) : (
+  //   Yup.object().shape({
+  //     firstName: Yup.string()
+  //     .required("First name is required.")
+  //     .min(2, "Your name should be at least 2 characters long."),
+  //     lastName: Yup.string()
+  //     .required("Last name is required.")
+  //     .min(2, "Your surname should be at least 2 characters long."),
+  //     username: Yup.string()
+  //     .required("Please provide also a nickname for your profile.")
+  //     .min(3, "Your username should be at least 3 characters long."),
+  //     email: Yup.string()
+  //     .email("Please use a valid email address.")
+  //     .required("Email address is required."),
+  //     password: Yup.string()
+  //     .required("Password is required.")
+  //     .min(8, "Password must be at least 8 characters long.")
+  //   })
+  // )
+
+  const schema = Yup.object().shape({
+    email: Yup.string()
       .email("Please use a valid email address.")
       .required("Email address is required."),
-      password: Yup.string()
+    password: Yup.string()
       .required("Password is required.")
       .min(8, "Password must be at least 8 characters long.")
-    })
-  ) : (
-    Yup.object().shape({
-      // firstName: Yup.string()
-      // .required("First name is required.")
-      // .min(2, "Your name should be at least 2 characters long."),
-      // lastName: Yup.string()
-      // .required("Last name is required.")
-      // .min(2, "Your surname should be at least 2 characters long."),
-      // username: Yup.string()
-      // .required("Please provide also a nickname for your profile.")
-      // .min(3, "Your username should be at least 3 characters long."),
-      email: Yup.string()
-      .email("Please use a valid email address.")
-      .required("Email address is required."),
-      password: Yup.string()
-      .required("Password is required.")
-      .min(8, "Password must be at least 8 characters long.")
-    })
-  )
+      .max(50, "Password cannot be more than 50 characters long.")
+  });
   
   if (token) {
     return <Redirect to={state?.from || ref || '/dashboard'} />;
@@ -99,7 +121,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
         >
         {({ errors, touched }) => (
           <Form>
-            {ctaText.toLowerCase() === "create my free account" && (
+            {/* {ctaText.toLowerCase() === "create my free account" && (
               <>
                 <Label>First name</Label>
                 <Input
@@ -135,7 +157,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
                   <ErrorMessage name="username" />
                 </ErrorSpan>
               </>
-            )}
+            )} */}
             <Label>Email</Label>
             <Input
               display="wide"
