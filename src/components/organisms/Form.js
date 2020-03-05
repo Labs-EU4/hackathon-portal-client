@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useLocation, Redirect } from "react-router-dom";
-import { toast } from "react-toastify";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
