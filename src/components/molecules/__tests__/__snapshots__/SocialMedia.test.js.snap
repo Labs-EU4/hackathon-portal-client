@@ -17,7 +17,7 @@ Object {
           class="sc-bwzfXH fmAuD"
         >
           <a
-            href="https://hackathon-review-deployment.herokuapp.com//api/auth/github"
+            href="https://labseu4-hackathon-staging.herokuapp.com//api/auth/github"
             rel="me"
             title="github"
           >
@@ -26,7 +26,7 @@ Object {
             />
           </a>
           <a
-            href="https://hackathon-review-deployment.herokuapp.com//api/auth/google"
+            href="https://labseu4-hackathon-staging.herokuapp.com//api/auth/google"
             rel="me"
             title="google"
           >
@@ -51,7 +51,7 @@ Object {
         class="sc-bwzfXH fmAuD"
       >
         <a
-          href="https://hackathon-review-deployment.herokuapp.com//api/auth/github"
+          href="https://labseu4-hackathon-staging.herokuapp.com//api/auth/github"
           rel="me"
           title="github"
         >
@@ -60,7 +60,7 @@ Object {
           />
         </a>
         <a
-          href="https://hackathon-review-deployment.herokuapp.com//api/auth/google"
+          href="https://labseu4-hackathon-staging.herokuapp.com//api/auth/google"
           rel="me"
           title="google"
         >
