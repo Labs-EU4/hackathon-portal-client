@@ -11,7 +11,6 @@ import {
 import { ContainerRadio } from "../styles/templates/AddTeammatesStyling";
 import isEmail from "validator/lib/isEmail";
 
-
 export const UserWidget = ({ user, select, ...otherProps }) => {
   return (
     <StyledWidget key={user.id} onClick={() => select(user)} {...otherProps}>
@@ -21,7 +20,6 @@ export const UserWidget = ({ user, select, ...otherProps }) => {
 };
 
 export const SearchWidget = props => {
-
   const setSelectedUser = props.setSelectedUser;
   const setNoneUser = props.setNoneUser;
   const history = useHistory();
@@ -36,7 +34,6 @@ export const SearchWidget = props => {
   const inputRef = useRef(null);
   useEffect(() => {
     inputRef.current.focus();
-
   }, []);
 
   return (
@@ -62,7 +59,6 @@ export const SearchWidget = props => {
     </Container>
   );
 };
-
 
 export const ParticipantRoleWidget = props => {
   const selectedUser = props.selectedUser;
@@ -132,9 +128,9 @@ const Radio = ({ label, value, type = "radio", ...radioProps }) => {
   );
 };
 
-export const TeamRoleWidget = (props) => {
+export const TeamRoleWidget = props => {
   const setRole = props.setRole;
-  const role = props.role
+  const role = props.role;
   const handleSubmit = props.handleSubmit;
   const history = useHistory();
 
@@ -173,19 +169,19 @@ export const TeamInviteWidget = props => {
   const noneUser = props.noneUser;
   const sendInvite = props.sendInvite;
   const setRole = props.setRole;
-  const role = props.role
+  const role = props.role;
 
   return (
     <StyledContainer>
       <RowBody direction="column-reverse">
         <h6>
-          This user is not on this platform. Please select a role for
-        click send to invite {" "}
+          This user is not on this platform. Please select a role for click send
+          to invite{" "}
           <span style={{ color: "#273F92", backgroundColor: "aliceblue" }}>
             {noneUser}
           </span>{" "}
           to join your team
-      </h6>
+        </h6>
       </RowBody>
       <RowBody direction="column-reverse">
         <Radio
@@ -204,7 +200,7 @@ export const TeamInviteWidget = props => {
       <RowBody>
         <Button color="green" onClick={sendInvite}>
           Send Invite
-      </Button>
+        </Button>
       </RowBody>
     </StyledContainer>
   );
