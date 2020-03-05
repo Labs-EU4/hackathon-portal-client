@@ -30,9 +30,9 @@ describe("Asserts that text nodes on NewPassword.js,render properly", () => {
   it("ResetPassword.js component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
-  //   it("The text node for the <H1> Check your inbox, renders properly ", () => {
-  //     expect(component.queryByText(/Check your inbox/i)).toBeInTheDocument();
-  //   });
+  it("The text node for the <H1> Change the password, renders properly ", () => {
+    expect(component.queryByText(/Change the password/i)).toBeInTheDocument();
+  });
   //   it("The text node for the  email confirmation, renders properly ", () => {
   //     expect(
   //       component.queryByText(
