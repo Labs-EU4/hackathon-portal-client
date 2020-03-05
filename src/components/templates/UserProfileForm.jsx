@@ -16,12 +16,15 @@ import Input from "../atoms/Input";
 import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
 import profileImg from "../../assets/profile-image.png";
-import ProfileImage from '../molecules/ProfileImage';
+import ProfileImage from "../molecules/ProfileImage";
+import { updateUserProfile } from "../../store/user/actions";
 import {
-  updateUserProfile
-} from "../../store/user/actions";
-import { BodyContainerColumn, NewLabel, CardWider, ButtonRowBody, NewButton } from "../styles/templates/UserProfileFormStyling";
-
+  BodyContainerColumn,
+  NewLabel,
+  CardWider,
+  ButtonRowBody,
+  NewButton
+} from "../styles/templates/UserProfileFormStyling";
 
 const UserProfileForm = ({ initialState }) => {
   const dispatch = useDispatch();
@@ -30,11 +33,11 @@ const UserProfileForm = ({ initialState }) => {
 
   const handleSubmit = (values, a) => {
     const formData = new FormData();
-    formData.append('image_url', selectedImage);
-    formData.append('bio', values.bio);
-    formData.append('fullname', values.fullname);
-    formData.append('email', values.email);
-    formData.append('username', values.username);
+    formData.append("image_url", selectedImage);
+    formData.append("bio", values.bio);
+    formData.append("fullname", values.fullname);
+    formData.append("email", values.email);
+    formData.append("username", values.username);
     dispatch(updateUserProfile(formData, history));
   };
 
@@ -43,7 +46,7 @@ const UserProfileForm = ({ initialState }) => {
     fullname: initialState ?.fullname || "",
     email: initialState ?.email || "",
     username: initialState ?.username || ""
-  }
+  };
 
   const schema = Yup.object().shape({
     fullname: Yup.string().required("fullname is required"),
@@ -74,7 +77,13 @@ const UserProfileForm = ({ initialState }) => {
                   <Form>
                     <NewLabel htmlFor="image">Profile picture</NewLabel>
                     <ProfileImage
-                      image={JSON.parse(initialState.image_url ? initialState.image_url[0] : null) ?.avatar || profileImg}
+                      image={
+                        JSON.parse(
+                          initialState.image_url
+                            ? initialState.image_url[0]
+                            : null
+                        ) ?.avatar || profileImg
+                      }
                       name={initialState ?.username}
                     />
 
@@ -86,6 +95,7 @@ const UserProfileForm = ({ initialState }) => {
                         display="wide"
                         placeholder="Full Name"
                       />
+                      <ErrorMessage name="fullname" />
                     </RowBody>
 
                     <RowBody>
@@ -96,7 +106,7 @@ const UserProfileForm = ({ initialState }) => {
                         display="wide"
                         placeholder="Profile picture"
                         accept="image/*"
-                        onChange={(e) => setSelectedImage(e.target.files[0])}
+                        onChange={e => setSelectedImage(e.target.files[0])}
                       />
                     </RowBody>
                     <RowBody>

@@ -8,6 +8,7 @@ import "@testing-library/jest-dom/extend-expect";
 import AddTeammates from "../AddTeammates";
 import { initialState } from "../../../utils/mockData";
 
+
 const history = createMemoryHistory();
 
 afterEach(cleanup);
@@ -16,9 +17,16 @@ let jestFeatures;
 let mockStore;
 let store;
 
+jest.mock("react-router-dom", () => ({
+  ...jest.requireActual("react-router-dom"), // use actual for all non-hook parts
+  useParams: () => ({
+    id: 1
+  })
+}));
+
+
 beforeEach(() => {
   mockStore = configureStore();
-  // let wrapper;
   store = mockStore(initialState);
   jestFeatures = render(
     <Router history={history}>

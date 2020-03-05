@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { render, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
-import Header from "../../organisms/Header";
+import UserProfileForm from "../UserProfileForm";
 import { initialState } from "../../../utils/mockData";
 
 const history = createMemoryHistory();
@@ -22,25 +22,19 @@ beforeEach(() => {
   jestFeatures = render(
     <Router history={history}>
       <Provider store={store}>
-        <Header />
+        <UserProfileForm initialState={initialState} />
       </Provider>
     </Router>
   );
 });
 
-describe("Component Header.js renders properly", () => {
-  it("asserts that the component renders properly", () => {
+
+describe("Renders Without Crashing", () => {
+  it("Renders Without Crashing.", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
-  it("the Image within the component is rendering properly", () => {
-    expect(
-      jestFeatures.getByAltText("Hackton - Organise hackathons")
-    ).toBeInTheDocument();
-  });
-  it("the text node Log In is rendering properly", () => {
-    expect(jestFeatures.queryByText(/Log In/i)).toBeInTheDocument();
-  });
-  it("the text node Sign Up is rendering properly", () => {
-    expect(jestFeatures.queryByText(/Sign Up/i)).toBeInTheDocument();
+  it("should be displaying the label text node for the Heading Edit Profile", () => {
+    let mainHeader = () => jestFeatures.getByText("Edit Profile");
+    expect(mainHeader()).toBeInTheDocument();
   });
 });

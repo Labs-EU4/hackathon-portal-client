@@ -50,6 +50,7 @@ const InputTag = props => {
           <input
             type="text"
             onKeyDown={inputKeyDown}
+            maxLength="20"
             ref={c => {
               tagInput = c;
             }}

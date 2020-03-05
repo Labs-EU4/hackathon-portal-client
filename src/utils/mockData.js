@@ -18,7 +18,12 @@ export const initialState = {
               "https://res.cloudinary.com/ibkrice-com/video/upload/v1581259780/Harvesting_ifato8.mp4"
           }
         ],
-
+        ProfileImage: [
+          {
+            image_url:
+              "https://res.cloudinary.com/ibkrice-com/video/upload/v1581259780/Harvesting_ifato8.mp4"
+          }
+        ],
         rubrics: [
           "Presentation",
           "Product Fit",
@@ -54,11 +59,10 @@ export const initialState = {
     token: 347534574536,
     userId: 1,
     fullname: "Jake Tom",
-    email: "somemail@google.com",
+    email: "8omemail@google.com",
     username: "Jake22",
-    bio: "",
-    image: "",
-    image_url: {}
+    bio: "I like coding ",
+    image: ""
   },
 
   submissions: [

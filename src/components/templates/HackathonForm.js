@@ -47,18 +47,18 @@ const HackathonForm = ({ initialState }) => {
   }, [dispatch]);
 
   const defaultState = {
-    id: initialState ?.id,
-    event_title: initialState ?.event_title || "",
-    start_date: initialState ?.start_date || "",
-    end_date: initialState ?.end_date || "",
-    event_description: initialState ?.event_description || "",
-    location: initialState ?.location || "",
-    tag_name: initialState ?.tag_name || [],
-    rubrics: initialState ?.rubrics || [],
-    requirements: initialState ?.requirements || [],
-    guidelines: initialState ?.guidelines || "",
-    participation_type: initialState ?.participation_type || "individual",
-    category_id: initialState ?.category_id || 1
+    id: initialState?.id,
+    event_title: initialState?.event_title || "",
+    start_date: initialState?.start_date || "",
+    end_date: initialState?.end_date || "",
+    event_description: initialState?.event_description || "",
+    location: initialState?.location || "",
+    tag_name: initialState?.tag_name || [],
+    rubrics: initialState?.rubrics || [],
+    requirements: initialState?.requirements || [],
+    guidelines: initialState?.guidelines || "",
+    participation_type: initialState?.participation_type || "individual",
+    category_id: initialState?.category_id || 1
   };
 
   const handleSubmit = values => {
@@ -79,16 +79,24 @@ const HackathonForm = ({ initialState }) => {
 
   const schema = Yup.object().shape({
     event_title: Yup.string()
+      .matches(/\b.*[a-zA-Z]+.*\b/, "Hackathon title cannot be just a number.")
       .min(10, "Title must be at least 10 characters long.")
+      .max(60, "Event title cannot be more than 60 characters long.")
       .required("Title is required."),
     start_date: Yup.string().required("Start date is required."),
     end_date: Yup.string().required("End date is required."),
     event_description: Yup.string()
       .min(50, "Description must be at least 50 characters long.")
+      .max(500, "Description cannot be more than 500 characters long.")
       .required("Description is required."),
-    location: Yup.string().required("Location is required."),
+    location: Yup.string()
+      .matches(/\b.*[a-zA-Z]+.*\b/, "Location cannot be just a number.")
+      .min(5, "Location must be at least 5 characters long.")
+      .max(20, "Location cannot be more than 20 characters long.")
+      .required("Location is required."),
     guidelines: Yup.string()
       .min(50, "Guidelines must be at least 50 characters long.")
+      .max(300, "Guidelines cannot be more than 300 characters long.")
       .required("Guidelines are required."),
     participation_type: Yup.string().required(
       "Participation type is required."
@@ -96,7 +104,11 @@ const HackathonForm = ({ initialState }) => {
     category_id: Yup.number()
       .required("Please select event category.")
       .positive()
-      .integer()
+      .integer(),
+    rubrics: Yup.array().required("Please select a grading rubric."),
+    requirements: Yup.array().required(
+      "Please select a submission requirement."
+    )
   });
 
   const ButtonGroup = styled.div`
@@ -243,7 +255,7 @@ const HackathonForm = ({ initialState }) => {
                           <div>{errors.name}</div>
                         ) : null}
                         <ErrorSpan>
-                          <ErrorMessage name="event_category" />
+                          <ErrorMessage name="category_id" />
                         </ErrorSpan>
                       </Column>
                     </RowBody>
@@ -300,6 +312,9 @@ const HackathonForm = ({ initialState }) => {
                         value="extensibility"
                         label="Extensibility"
                       />
+                      <ErrorSpan>
+                        <ErrorMessage name="rubrics" />
+                      </ErrorSpan>
                     </RowBody>
                     <RowBody justify="start">
                       <Label htmlFor="guidelines">Guidelines</Label>
@@ -336,6 +351,9 @@ const HackathonForm = ({ initialState }) => {
                         value="github_url"
                         label="GitHub URL"
                       />
+                      <ErrorSpan>
+                        <ErrorMessage name="requirements" />
+                      </ErrorSpan>
                     </RowBody>
                     <RowBody justify="start">
                       <ButtonGroup>

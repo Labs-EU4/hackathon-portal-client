@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on EventOnboarding.js renders without crashing  1`] = `
+exports[`Renders Without Crashing Renders Without Crashing. 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-gisBJw lgqQtr"
+              class="sc-eqIVtm bwgFBK"
             >
               <div
                 class="sc-htoDjs iAtLjJ"
@@ -102,117 +102,163 @@ Object {
             </a>
           </div>
           <div
-            class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+            class="sc-bwzfXH cwdcdI sc-hzDkRC jKFHeq"
           >
             <div
-              class="sc-hzDkRC bkkbax"
+              class="sc-jDwBTQ hADVSm"
             >
               <h3
                 class="sc-eNQAEJ faMTgL"
               >
-                My hackathons
-              </h3>
-              <a
-                href="/dashboard/new"
-              >
-                <button
-                  class="sc-kkGfuU gKOqPB"
-                  color="green"
-                >
-                  Create New
-                </button>
-              </a>
-            </div>
-            <div
-              class="sc-jhAzac hhkJyU"
-              spacing="start"
-            >
-              <a
-                class="sc-bRBYWo jvQaxX"
-                href="/dashboard/event/1"
-              >
-                <div
-                  class="sc-jDwBTQ umkbw"
-                >
-                  <div
-                    class="sc-gipzik epLwGU"
-                  >
-                    E
-                  </div>
-                  <h4
-                    class="sc-hMqMXs bkVxBD"
-                  >
-                    EuroHack
-                  </h4>
-                  <p
-                    class="sc-kgoBCf fzXYvN"
-                  >
-                    the best event hack hack hack macbook...
-                  </p>
-                  <div
-                    class="sc-csuQGl fUdZHz"
-                  >
-                    <div
-                      class="sc-jlyJG dxlnBr"
-                    />
-                    <span
-                      class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                    >
-                      09/10/2011
-                    </span>
-                  </div>
-                </div>
-              </a>
-              <a
-                class="sc-bRBYWo jvQaxX"
-                href="/dashboard/event/2"
-              >
-                <div
-                  class="sc-jDwBTQ umkbw"
-                >
-                  <div
-                    class="sc-gipzik epLwGU"
-                  >
-                    W
-                  </div>
-                  <h4
-                    class="sc-hMqMXs bkVxBD"
-                  >
-                    World
-                  </h4>
-                  <p
-                    class="sc-kgoBCf fzXYvN"
-                  >
-                    number one hacker event in the world...
-                  </p>
-                  <div
-                    class="sc-csuQGl fUdZHz"
-                  >
-                    <div
-                      class="sc-jlyJG dxlnBr"
-                    />
-                    <span
-                      class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                    >
-                      09/07/2011
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div
-              class="sc-hzDkRC bkkbax"
-            >
-              <h3
-                class="sc-eNQAEJ faMTgL"
-              >
-                Global hackathons
+                Edit Profile
               </h3>
             </div>
             <div
-              class="sc-jhAzac hhkJyU"
-              spacing="start"
-            />
+              class="sc-gPEVay iDLFnH"
+            >
+              <div
+                class="sc-csuQGl sc-Rmtcm sc-fBuWsC hsTvRg"
+              >
+                <form
+                  action="#"
+                >
+                  <label
+                    class="sc-bdVaJa sc-jhAzac hwNaGJ"
+                    for="image"
+                  >
+                    Profile picture
+                  </label>
+                  <div
+                    class="sc-gipzik cBFlCz"
+                  >
+                    <div>
+                      <img
+                        alt=""
+                        src="profile-image.png"
+                      />
+                    </div>
+                    <p />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="fullname"
+                    >
+                      Full Name
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="fullname"
+                      placeholder="Full Name"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="image"
+                    >
+                      Profile Image
+                    </label>
+                    <input
+                      accept="image/*"
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="image_url"
+                      placeholder="Profile picture"
+                      type="file"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="email"
+                      >
+                        Email
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        name="email"
+                        placeholder="Email"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      class="sc-iRbamj dQdMNk"
+                    >
+                      <label
+                        class="sc-bdVaJa cvMTJw"
+                        for="username"
+                      >
+                        Username
+                      </label>
+                      <input
+                        class="sc-kEYyzF cZhFQx"
+                        display="wide"
+                        name="username"
+                        placeholder="Username"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gPEVay iDLFnH"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="bio"
+                    >
+                      Bio
+                    </label>
+                    <div
+                      class="sc-jlyJG cSTOjY"
+                    >
+                      <textarea
+                        name="bio"
+                        placeholder="bio"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-gPEVay sc-fMiknA jXofwC"
+                  >
+                    <a
+                      href="/dashboard"
+                    >
+                      <button
+                        class="sc-kkGfuU gHAtIj"
+                        color="grey"
+                        to="/dashboard"
+                      >
+                        Cancel
+                      </button>
+                    </a>
+                    <button
+                      class="sc-kkGfuU gKOqPB sc-dVhcbM dXAdsf"
+                      color="green"
+                      type="submit"
+                    >
+                      Save Changes
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -288,7 +334,7 @@ Object {
             />
           </a>
           <div
-            class="sc-gisBJw lgqQtr"
+            class="sc-eqIVtm bwgFBK"
           >
             <div
               class="sc-htoDjs iAtLjJ"
@@ -368,117 +414,163 @@ Object {
           </a>
         </div>
         <div
-          class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+          class="sc-bwzfXH cwdcdI sc-hzDkRC jKFHeq"
         >
           <div
-            class="sc-hzDkRC bkkbax"
+            class="sc-jDwBTQ hADVSm"
           >
             <h3
               class="sc-eNQAEJ faMTgL"
             >
-              My hackathons
-            </h3>
-            <a
-              href="/dashboard/new"
-            >
-              <button
-                class="sc-kkGfuU gKOqPB"
-                color="green"
-              >
-                Create New
-              </button>
-            </a>
-          </div>
-          <div
-            class="sc-jhAzac hhkJyU"
-            spacing="start"
-          >
-            <a
-              class="sc-bRBYWo jvQaxX"
-              href="/dashboard/event/1"
-            >
-              <div
-                class="sc-jDwBTQ umkbw"
-              >
-                <div
-                  class="sc-gipzik epLwGU"
-                >
-                  E
-                </div>
-                <h4
-                  class="sc-hMqMXs bkVxBD"
-                >
-                  EuroHack
-                </h4>
-                <p
-                  class="sc-kgoBCf fzXYvN"
-                >
-                  the best event hack hack hack macbook...
-                </p>
-                <div
-                  class="sc-csuQGl fUdZHz"
-                >
-                  <div
-                    class="sc-jlyJG dxlnBr"
-                  />
-                  <span
-                    class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                  >
-                    09/10/2011
-                  </span>
-                </div>
-              </div>
-            </a>
-            <a
-              class="sc-bRBYWo jvQaxX"
-              href="/dashboard/event/2"
-            >
-              <div
-                class="sc-jDwBTQ umkbw"
-              >
-                <div
-                  class="sc-gipzik epLwGU"
-                >
-                  W
-                </div>
-                <h4
-                  class="sc-hMqMXs bkVxBD"
-                >
-                  World
-                </h4>
-                <p
-                  class="sc-kgoBCf fzXYvN"
-                >
-                  number one hacker event in the world...
-                </p>
-                <div
-                  class="sc-csuQGl fUdZHz"
-                >
-                  <div
-                    class="sc-jlyJG dxlnBr"
-                  />
-                  <span
-                    class="sc-hSdWYo sc-Rmtcm fkRdDS"
-                  >
-                    09/07/2011
-                  </span>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div
-            class="sc-hzDkRC bkkbax"
-          >
-            <h3
-              class="sc-eNQAEJ faMTgL"
-            >
-              Global hackathons
+              Edit Profile
             </h3>
           </div>
           <div
-            class="sc-jhAzac hhkJyU"
-            spacing="start"
-          />
+            class="sc-gPEVay iDLFnH"
+          >
+            <div
+              class="sc-csuQGl sc-Rmtcm sc-fBuWsC hsTvRg"
+            >
+              <form
+                action="#"
+              >
+                <label
+                  class="sc-bdVaJa sc-jhAzac hwNaGJ"
+                  for="image"
+                >
+                  Profile picture
+                </label>
+                <div
+                  class="sc-gipzik cBFlCz"
+                >
+                  <div>
+                    <img
+                      alt=""
+                      src="profile-image.png"
+                    />
+                  </div>
+                  <p />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="fullname"
+                  >
+                    Full Name
+                  </label>
+                  <input
+                    class="sc-kEYyzF cZhFQx"
+                    display="wide"
+                    name="fullname"
+                    placeholder="Full Name"
+                    type="text"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="image"
+                  >
+                    Profile Image
+                  </label>
+                  <input
+                    accept="image/*"
+                    class="sc-kEYyzF cZhFQx"
+                    display="wide"
+                    name="image_url"
+                    placeholder="Profile picture"
+                    type="file"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="email"
+                    >
+                      Email
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="email"
+                      placeholder="Email"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="sc-iRbamj dQdMNk"
+                  >
+                    <label
+                      class="sc-bdVaJa cvMTJw"
+                      for="username"
+                    >
+                      Username
+                    </label>
+                    <input
+                      class="sc-kEYyzF cZhFQx"
+                      display="wide"
+                      name="username"
+                      placeholder="Username"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-gPEVay iDLFnH"
+                >
+                  <label
+                    class="sc-bdVaJa cvMTJw"
+                    for="bio"
+                  >
+                    Bio
+                  </label>
+                  <div
+                    class="sc-jlyJG cSTOjY"
+                  >
+                    <textarea
+                      name="bio"
+                      placeholder="bio"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-gPEVay sc-fMiknA jXofwC"
+                >
+                  <a
+                    href="/dashboard"
+                  >
+                    <button
+                      class="sc-kkGfuU gHAtIj"
+                      color="grey"
+                      to="/dashboard"
+                    >
+                      Cancel
+                    </button>
+                  </a>
+                  <button
+                    class="sc-kkGfuU gKOqPB sc-dVhcbM dXAdsf"
+                    color="green"
+                    type="submit"
+                  >
+                    Save Changes
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
       <div
