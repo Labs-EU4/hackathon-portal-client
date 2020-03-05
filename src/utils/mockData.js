@@ -64,7 +64,6 @@ export const initialState = {
     bio: "I like coding ",
     image: ""
   },
-
   submissions: [
     {
       id: 1,
