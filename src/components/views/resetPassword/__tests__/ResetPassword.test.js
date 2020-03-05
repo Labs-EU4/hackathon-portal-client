@@ -30,9 +30,9 @@ describe("Asserts that text nodes on ResetPassword.js,render properly", () => {
   it("ResetPassword.js component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
-  //   it("The text node for the first character of the current user mail, renders properly on the menu", () => {
-  //     expect(component.queryByText(/8/i)).toBeInTheDocument();
-  //   });
+  it("The text node for the <H1> Reset the password, renders properly ", () => {
+    expect(component.queryByText(/Reset the password/i)).toBeInTheDocument();
+  });
   //   it("The text node for the <h3> Participant Teams text node, renders properly", () => {
   //     expect(component.queryByText(/Participant Teams/i)).toBeInTheDocument();
   //   });
