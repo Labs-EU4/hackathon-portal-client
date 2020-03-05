@@ -1,12 +1,9 @@
 import styled from "styled-components";
+
+import { media } from "../variables/media";
 import BodyContainer from "../../atoms/BodyContainer";
-import { type, Solid, media } from "../../index";
 
-import React from "react";
-
-export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
-))`
+export const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
   justify-content: start;
 `;
@@ -15,7 +12,7 @@ export const StyledContainer = styled.div`
   display: block;
 `;
 
-export const Container = styled.div`
+export const AddTeamParticipantContainer = styled.div`
   input {
     font-size: 16px;
     font-weight: 500;

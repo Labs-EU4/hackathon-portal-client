@@ -24,6 +24,7 @@ import {
   PHosted,
   ExitButton
 } from '../../assets/styles/templates/HackathonSingle';
+import { NormalSpan } from "../../assets/styles/atoms/Span";
 import HackathonProjectsPage from '../views/HackathonProjectsPage';
 import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
 import AddTeammates from '../templates/AddTeammates';

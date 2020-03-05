@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 import { media } from "../variables/media";
-import { BoldSpan, NormalSpan } from "../atoms/Span";
+import { BoldSpan } from "../atoms/Span";
 import { CardWide } from "../atoms/Card";
+import { Paragraph } from "../atoms/Paragraph";
 
 export const SpanContent = styled(BoldSpan)`
   ${props => props.theme.fontSize.medium};

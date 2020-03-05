@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { useParams, useHistory } from "react-router-dom";
 
@@ -9,11 +9,10 @@ import { Column } from "../../assets/styles/atoms/Column";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { JudgesSearchWidget, TeamRoleWidget, TeamInviteWidget } from "./widgets";
 
-const AddTeammates = () => {
+const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }) => {
   const selectedUserArr = useRef([]);
   const [role, setRole] = useState("judge");
   const dispatch = useDispatch();
-  const { id } = useParams();
   const [noneUser, setNoneUser] = useState(null);
   const history = useHistory();
 

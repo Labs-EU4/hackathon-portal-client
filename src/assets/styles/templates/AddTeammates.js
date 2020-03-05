@@ -1,12 +1,11 @@
-import { type, Solid, media } from "../../index";
-import BodyContainer from "../../atoms/BodyContainer";
 import styled from "styled-components";
-import React from 'react'
 
+import { media } from "../../index";
+import BodyContainer from "../../atoms/BodyContainer";
+import { CardWide } from "../../atoms/Card";
+import Icon from '../../../components/atoms/Icon';
 
-export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
-))`
+export const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
   justify-content: start;
 `;

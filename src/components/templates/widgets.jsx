@@ -1,12 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
+import styled from 'styled-components';
 
 import Button from "../atoms/Button";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { useSearchUserByEmail } from "../../hooks";
 import {
   StyledContainer,
-  Container,
+  AddTeamParticipantContainer,
   StyledWidget
 } from "../../assets/styles/templates/AddParticipantTeams";
 import { 
@@ -51,7 +52,7 @@ export const SearchWidget = props => {
   }, []);
 
   return (
-    <Container display="wide">
+    <AddTeamParticipantContainer display="wide">
       <input
         type="text"
         value={searchString}
@@ -72,7 +73,7 @@ export const SearchWidget = props => {
         onClick={() => redirect(history)}>
         Back to dashboard
       </Button>
-    </Container>
+    </AddTeamParticipantContainer>
   );
 };
 
@@ -227,9 +228,14 @@ export const JudgesSearchWidget = props => {
     selectedUserArr,
     setNoneUser,
     handleExit,
-    handleSubmit
+    handleSubmit,
   } = props;
+  const [matches, searchString, setSearchString] = useSearchUserByEmail();
+  const validateEmail = email => {
+    return isEmail(email);
+  };
   const inputRef = useRef(null);
+
   useEffect(() => {
     inputRef.current.focus();
   }, []);

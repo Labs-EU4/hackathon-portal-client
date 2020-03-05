@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import { media } from '../variables/media';
 import WideBody from "../atoms/WideBody";
+import { RowBody } from "../atoms/RowBody";
 import Button from "../../../components/atoms/Button";
 
 export const StyledWideBody = styled(WideBody)`

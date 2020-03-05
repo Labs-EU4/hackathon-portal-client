@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { media } from "../variables/media";
 import { RowBody } from "../atoms/RowBody";
 import { CardWide } from "../atoms/Card";
+import { Paragraph } from "../atoms/Paragraph";
 
 export const StyledWideBody = styled.div`
   position: absolute; top: 0; left: 0;

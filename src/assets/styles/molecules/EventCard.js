@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { IconLetter } from "../atoms/IconLetter";
+import { Paragraph } from "../atoms/Paragraph";
 import Icon from "../../../components/atoms/Icon";
 
 export const StyledEventCard = styled.div`
