@@ -1,5 +1,10 @@
 import React from 'react';
 // import image from "./../../assets/images/Hackton-logo.png";
+import {
+  StyledLogo,
+  StyledAimIcon,
+  StyledLaptopIcon
+} from '../../assets/styles/atoms/Logo';
 
 const Logo = ({ size }) => {
   return (

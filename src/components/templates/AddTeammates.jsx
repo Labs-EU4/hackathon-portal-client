@@ -65,7 +65,7 @@ const AddTeammates = ({ id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
             {...{handleSubmit}}
           />
           {noneUser && (
-            <InviteWidget 
+            <TeamInviteWidget 
               {...{noneUser}}
               {...{sendInvite}}
             />
