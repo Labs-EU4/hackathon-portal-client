@@ -19,7 +19,7 @@ jest.mock("react-router-dom", () => ({
   useParams: () => ({
     id: 1
   }),
-  useRouteMatch: () => ({ url: "/dashboard/event/:id/participant_submission" })
+  useRouteMatch: () => ({ url: "/dashboard/event/1/edit" })
 }));
 
 beforeEach(() => {
@@ -28,7 +28,7 @@ beforeEach(() => {
   component = render(
     <Router history={history}>
       <Provider store={store}>
-        <EditHackathon/>
+        <EditHackathon />
       </Provider>
     </Router>
   );
@@ -38,9 +38,9 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("CreateTeam.js component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
-  // it("The text node for the first character of the current user mail, renders properly on the menu", () => {
-  //   expect(component.queryByText(/8/i)).toBeInTheDocument();
-  // });
+  it("The text node for <h3> the Edit Hackathon  for the selected Event, renders properly on the menu", () => {
+    expect(component.queryByText(/Edit Hackathon/i)).toBeInTheDocument();
+  });
   // it("The text node for the <h3> Participant Teams text node, renders properly", () => {
   //   expect(component.queryByText(/Participant Teams/i)).toBeInTheDocument();
   // });
