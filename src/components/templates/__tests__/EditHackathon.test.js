@@ -41,12 +41,12 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node for <h3> the Edit Hackathon  for the selected Event, renders properly on the menu", () => {
     expect(component.queryByText(/Edit Hackathon/i)).toBeInTheDocument();
   });
-  // it("The text node for the <h3> Participant Teams text node, renders properly", () => {
-  //   expect(component.queryByText(/Participant Teams/i)).toBeInTheDocument();
-  // });
+  it("The value for the event title of the Hackathon being edited, renders properly", () => {
+    expect(component.queryByDisplayValue(/EuroHack/i)).toBeInTheDocument();
+  });
   // it("The text node for the <h4> You are creating a team for text node, renders properly", () => {
   //   expect(
-  //     component.queryByText(/You are creating a team for/i)
+  //     component.queryByT(/You are creating a team for/i)
   //   ).toBeInTheDocument();
   // });
   // it("The text node for the team being created for the selected event 'EuroHack' <span>, renders properly", () => {
