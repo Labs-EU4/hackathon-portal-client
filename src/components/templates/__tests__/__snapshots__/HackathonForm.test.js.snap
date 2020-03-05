@@ -235,6 +235,7 @@ Object {
                           class="input-tag__tags__input"
                         >
                           <input
+                            maxlength="20"
                             type="text"
                           />
                         </li>
@@ -473,6 +474,9 @@ Object {
                         Extensibility
                       </label>
                     </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
                   </div>
                   <div
                     class="sc-gPEVay flXgEr"
@@ -545,6 +549,9 @@ Object {
                         GitHub URL
                       </label>
                     </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
                   </div>
                   <div
                     class="sc-gPEVay flXgEr"
@@ -859,6 +866,7 @@ Object {
                         class="input-tag__tags__input"
                       >
                         <input
+                          maxlength="20"
                           type="text"
                         />
                       </li>
@@ -1097,6 +1105,9 @@ Object {
                       Extensibility
                     </label>
                   </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
                 </div>
                 <div
                   class="sc-gPEVay flXgEr"
@@ -1169,6 +1180,9 @@ Object {
                       GitHub URL
                     </label>
                   </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
                 </div>
                 <div
                   class="sc-gPEVay flXgEr"
