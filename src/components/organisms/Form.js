@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { useLocation, Redirect } from "react-router-dom";
-import { toast } from "react-toastify";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
@@ -38,9 +37,6 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       dispatch(login(email, password));
     } else {
       dispatch(register(email, password, role, team));
-      toast.success(" 🚀 A moment while we record your details!", {
-        position: toast.POSITION.BOTTOM_RIGHT
-      });
     }
   };
 
