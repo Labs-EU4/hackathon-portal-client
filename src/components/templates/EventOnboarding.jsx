@@ -11,7 +11,7 @@ import {
 import { 
   StyledRowHead, 
   StyledButton 
-} from '../../assets/styles/templates/UserEventsDashboard';
+} from '../../assets/styles/templates/UserEventsdashboard';
 import EventCard from "../molecules/EventCard";
 
 const EventOnboarding = ({ eventModalHandler }) => {

@@ -6,7 +6,7 @@ import {
   StyledRowHead,
   DashboardContent,
   StyledButton
-} from '../../assets/styles/templates/UserEventsDashboard';
+} from '../../assets/styles/templates/UserEventsdashboard';
 import { H4 } from "../../assets/styles/atoms/Heading";
 import EventCard from "../molecules/EventCard";
 import { useRegisteredEvents } from "../../hooks";
