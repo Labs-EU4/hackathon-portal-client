@@ -28,7 +28,7 @@ beforeEach(() => {
   );
 });
 
-describe("Component widgets.js renders the button text correctly", () => {
+describe("Component participantinvitewidget renders the text correctly", () => {
   it("the h6 tag within the component is rendering properly", () => {
     expect(jestFeatures.queryByText(/This user/i)).toBeInTheDocument();
   });
