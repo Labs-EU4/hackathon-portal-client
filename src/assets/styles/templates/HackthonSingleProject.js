@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 import { media } from "../variables/media";
+import { Paragraph } from "../atoms/Paragraph";
 import WideBody from "../atoms/WideBody";
+import Button from "../../../components/atoms/Button";
 
 export const StyledWideBody = styled(WideBody)`
   ${props => props.theme.flex.center};

@@ -136,7 +136,7 @@ function* addTeamMemberAsync({ payload, history }) {
     if (data) {
       yield showSuccess(`Added successfully`);
     }
-    history.push(`/dashboard/event/${eventId}`);
+    // history.push(`/dashboard/event/${eventId}`);
   } catch (error) {
     yield handleError(error, put, history);
   }
@@ -153,7 +153,9 @@ function* sendEventTeamInviteAsync({ payload, history }) {
     const { data } = yield axiosWithAuth(token).post(`/api/events/event-teams/invite/${eventId}`, { email, role_type: role });
     if (data) {
       yield showSuccess(`invite sent successfully to ${email}`);
-      history.push(`/dashboard/event/${eventId}`);
+      // This push might need some changes
+      // history.push(`/dashboard/event/${eventId}`);
+      history.push(`/dashboard`);
     }
   } catch (error) {
     yield handleError(error, put, history);

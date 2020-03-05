@@ -45,4 +45,3 @@ export const useGrades = (projectId) => {
 
   return [grades, fetchGrades];
 }
-

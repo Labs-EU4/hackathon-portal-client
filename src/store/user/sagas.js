@@ -41,7 +41,7 @@ function* watchLogin() {
   yield takeLatest(UserTypes.LOGIN, loginAsync);
 }
 
-function* registerAsync({ payload: { team, role, email, password } }) {
+function* registerAsync({ payload: { team, role, fullname, username, email, password } }) {
   const teamRegistration = () => axios.post(`/api/auth/register/${team}?role=${role}
 `, { email, password });
   const participantRegistration = () => axios.post(`/api/auth/register/${team}`, { email, password });
@@ -119,7 +119,7 @@ function* updateUserProfileAsync({ payload, history }) {
     } = yield axiosWithAuth(token).put("/api/users/profile", payload);
     yield put(setUserProfile(userUpdates));
     yield showSuccess(`🎉 ${message}`);
-    yield history.push("/dashboard/profile");
+    // yield history.push("/dashboard/profile");
   } catch (error) {
     yield handleError(error, put);
   }

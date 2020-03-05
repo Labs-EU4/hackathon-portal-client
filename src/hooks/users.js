@@ -32,7 +32,7 @@ export const useSearchUserByEmail = () => {
         .filter(user =>
           user?.email.toUpperCase().includes(searchString.toUpperCase())
         )
-        .filter((_, i) => i < 5)
+        // .filter((_, i) => i < 5)
       : [];
     setMatches(match);
   }, [searchString, users]);
