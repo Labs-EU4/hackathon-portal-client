@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-import { media } from "../../index";
-import BodyContainer from "../../atoms/BodyContainer";
-import { CardWide } from "../../atoms/Card";
+import { media } from '../variable/media';
+import BodyContainer from "../atoms/BodyContainer";
+import { CardWide } from "../atoms/Card";
 import Icon from '../../../components/atoms/Icon';
 
 export const BodyContainerColumn = styled(BodyContainer)`

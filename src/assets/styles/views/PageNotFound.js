@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import BodyContainer from "../atoms/BodyContainer";
-import { H2 } from "../../../components/atoms/Heading";
+import { H2 } from "../atoms/Heading";
 
 export const BodyColumn = styled(BodyContainer)`
   flex-direction: column;

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { media } from "../../assets/styles/variables/media";
+
+import { media } from '../variable/media';
 
 export const Span = styled.span`
   font-size: 12px;

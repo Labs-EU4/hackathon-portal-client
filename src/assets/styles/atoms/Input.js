@@ -1,6 +1,7 @@
-import styled from "styled-components";
-import { media } from "../../assets/styles/variables/media";
 import { Field } from "formik";
+import styled from "styled-components";
+
+import { media } from '../variable/media';
 
 export const StyledInput = styled(Field)`
   width: 180px;
