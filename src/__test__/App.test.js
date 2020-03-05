@@ -29,7 +29,6 @@ beforeEach(() => {
 describe("Shows all the text nodes on CreateTeam.js that are contained on the making an event form", () => {
   it("App.js component renders properly,with all the Private Routes", () => {
     expect(component).toMatchSnapshot();
-    expect(component.debug())
   });
   it("The text node for the first character of the current user mail, renders properly on the menu", () => {
     expect(component.queryByText(/8/i)).toBeInTheDocument();
@@ -51,10 +50,10 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
       component.queryByText("number one hacker event in the world...")
     ).toBeInTheDocument();
   });
-  // it("The text node <p> for the Eurohack hackathon event card date, renders properly", () => {
-  //   expect(component.queryByText("09/10/2011")).toBeInTheDocument();
-  // });
-  // it("The text node <p> for the World hackathon event card date, renders properly", () => {
-  //   expect(component.queryByText("09/07/2011")).toBeInTheDocument();
-  // });
+  it("The text node <p> for the Eurohack hackathon event card date, renders properly", () => {
+    expect(component.queryByText("09/10/2011")).toBeInTheDocument();
+  });
+  it("The text node <p> for the World hackathon event card date, renders properly", () => {
+    expect(component.queryByText("09/07/2011")).toBeInTheDocument();
+  });
 });
