@@ -37,8 +37,6 @@ function App() {
   const [ isSideBarOpen, setIsSideBarOpen ] = useState(false);
   const [ eventId, setEventId ] = useState(null);
 
-  console.log('Event id -->', eventId);
-
   const eventModalHandler = (id) => {
     setEventId(id);
     setIsEventModalOpen(true);

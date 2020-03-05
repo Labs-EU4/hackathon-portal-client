@@ -51,7 +51,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
               const startTime = new Date(event.start_date).getTime();
               if(today <= startTime) {
                 return <EventCard key={event.id} event={event} {...{eventModalHandler}} />
-              } 
+              }
             })}
           </>
       )}
