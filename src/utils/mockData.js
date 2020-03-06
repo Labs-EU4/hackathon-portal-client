@@ -1,3 +1,5 @@
+import format from "./date";
+
 export const initialState = {
   events: {
     data: [
@@ -6,8 +8,8 @@ export const initialState = {
         event_title: "EuroHack",
         event_description: "the best event hack hack hack macbook",
         creator_id: 1,
-        start_date: "10/09/11",
-        end_date: "08/07/13",
+        start_date: format("10/09/11"),
+        end_date: format("08/07/13"),
         location: "Europe",
         guidelines: "cool hekhkdsjfhsdkjf skdjfhskdjfhkjsdfh skjdfhksjdfh",
         participation_type: "Team",
@@ -38,8 +40,8 @@ export const initialState = {
         event_title: "World",
         event_description: "number one hacker event in the world",
         creator_id: 1,
-        start_date: "07/09/11",
-        end_date: "08/07/13",
+        start_date: format("07/09/11"),
+        end_date: format("08/07/13"),
         location: "Asia",
         guidelines: "come well prepared,no cheating,no fighting",
         participation_type: "Team",
@@ -74,8 +76,8 @@ export const initialState = {
       git_url: "https://www.google.com/",
       project_writeups: "No mock write up",
       submitted_by: 14,
-      created_at: "2020-03-02",
-      updated_at: "2020-03-02",
+      created_at: format("2020-03-02"),
+      updated_at: format("2020-03-02"),
       average_rating: 0,
       acted_judges: 0,
       number_of_judges: 0
