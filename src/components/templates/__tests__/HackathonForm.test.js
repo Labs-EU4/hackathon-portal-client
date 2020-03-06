@@ -18,12 +18,12 @@ let store;
 
 beforeEach(() => {
   mockStore = configureStore();
-  // let wrapper;
   store = mockStore(initialState);
+  const event = initialState.events.data[0];
   jestFeatures = render(
     <Router history={history}>
       <Provider store={store}>
-        <HackathonForm />
+        <HackathonForm event={event} />
       </Provider>
     </Router>
   );
