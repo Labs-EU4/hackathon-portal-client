@@ -56,5 +56,5 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   });
   it("The text node <p> for the World hackathon event card date, renders properly", () => {
     expect(component.queryByTestId("date-EuroHack")).toBeInTheDocument();
-  });
+  }); 
 });
