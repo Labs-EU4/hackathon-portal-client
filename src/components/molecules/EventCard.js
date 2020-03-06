@@ -30,7 +30,7 @@ const EventCard = ({ event }) => {
         <LetterIcon>{letter}</LetterIcon>
         <H4>{event_title}</H4>
         <Paragraph>{excerpt}</Paragraph>
-        <CardFooter date={formattedDate} />
+        <CardFooter event_title={event_title} date={formattedDate} />
       </Card>
     </StyledCardLink>
   );

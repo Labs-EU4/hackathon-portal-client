@@ -157,8 +157,9 @@ Object {
                     />
                     <span
                       class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                      data-testid="date-EuroHack"
                     >
-                      09/10/2011
+                      10/9/2011
                     </span>
                   </div>
                 </div>
@@ -193,8 +194,9 @@ Object {
                     />
                     <span
                       class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                      data-testid="date-World"
                     >
-                      09/07/2011
+                      7/9/2011
                     </span>
                   </div>
                 </div>
@@ -423,8 +425,9 @@ Object {
                   />
                   <span
                     class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                    data-testid="date-EuroHack"
                   >
-                    09/10/2011
+                    10/9/2011
                   </span>
                 </div>
               </div>
@@ -459,8 +462,9 @@ Object {
                   />
                   <span
                     class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                    data-testid="date-World"
                   >
-                    09/07/2011
+                    7/9/2011
                   </span>
                 </div>
               </div>
