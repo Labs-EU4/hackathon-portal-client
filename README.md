@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Labs-EU4/hackathon-portal-client.svg?branch=develop)](https://travis-ci.org/Labs-EU4/hackathon-portal-client) [![Coverage Status](https://coveralls.io/repos/github/Labs-EU4/hackathon-portal-client/badge.svg?branch=develop)](https://coveralls.io/github/Labs-EU4/hackathon-portal-client?branch=develop) [![Netlify Status](https://api.netlify.com/api/v1/badges/c76b92d4-4a5a-4340-b38e-d9411cfb4560/deploy-status)](https://app.netlify.com/sites/suspicious-kare-dc8a3a/deploys)
+[![Build Status](https://travis-ci.com/Labs-EU4/hackathon-portal-client.svg?branch=develop)](https://travis-ci.com/Labs-EU4/hackathon-portal-client) [![Coverage Status](https://coveralls.io/repos/github/Labs-EU4/hackathon-portal-client/badge.svg?branch=develop)](https://coveralls.io/github/Labs-EU4/hackathon-portal-client?branch=develop) [![Netlify Status](https://api.netlify.com/api/v1/badges/c76b92d4-4a5a-4340-b38e-d9411cfb4560/deploy-status)](https://app.netlify.com/sites/suspicious-kare-dc8a3a/deploys)
 
 
 # Hackton
