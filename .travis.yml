@@ -4,9 +4,9 @@ node_js:
 cache:
   directories:
   - node_modules
-bundler_args: --retry 5
-script:
+before_script:
   - travis_wait 30 sleep 1800 &
+script:
   - npm test
   - npm run build
 after_success:
