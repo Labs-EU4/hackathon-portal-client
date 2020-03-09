@@ -13,10 +13,10 @@ const StyledSpan = styled(Span)`
   margin: 0 0 0 5px;
 `;
 
-const CardFooter = ({ date }) => (
+const CardFooter = ({ date, event_title }) => (
   <StyledCardFooter>
     <DateIcon />
-    <StyledSpan>{date}</StyledSpan>
+    <StyledSpan data-testid={`date-${event_title}`}>{date}</StyledSpan>
   </StyledCardFooter>
 );
 

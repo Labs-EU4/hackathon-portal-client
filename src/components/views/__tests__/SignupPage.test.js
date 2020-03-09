@@ -1,23 +1,47 @@
-import React from 'react'
-import { Router, Route } from 'react-router';
-import { createMemoryHistory } from 'history';
-import { render } from '@testing-library/react'
-import SignupPage from '../SignupPage';
-const history = createMemoryHistory()
+import React from "react";
+import { Router } from "react-router";
+import { createMemoryHistory } from "history";
+import { Provider } from "react-redux";
+import { render, cleanup } from "@testing-library/react";
+import configureStore from "redux-mock-store";
+import "@testing-library/jest-dom/extend-expect";
+import SignupPage from "../SignupPage";
+import { initialState } from "../../../utils/mockData";
 
-const renderWithRouter = Component => render(
-  <Router history={history}>
-    <Route component={Component} />
-  </Router>
-)
+const history = createMemoryHistory();
 
-describe("It should render signup page correctly", () => {
-  
-    it("renders the SignUp component correctly", () => {
-      const render = () => renderWithRouter(SignupPage)
-      // const { getByText } = render(render);
-      // const formTitle = getByText(/Create an account/i);
-      expect(render).toMatchSnapshot();
-      // expect(formTitle).toBeInTheDocument();
-    });
+afterEach(cleanup);
+
+let jestFeatures;
+let mockStore;
+let store;
+
+beforeEach(() => {
+  mockStore = configureStore();
+  store = mockStore(initialState);
+  jestFeatures = render(
+    <Router history={history}>
+      <Provider store={store}>
+        <SignupPage />
+      </Provider>
+    </Router>
+  );
+});
+
+describe("Component UserProfile.js text nodes renders properly", () => {
+  it("asserts that the component renders properly", () => {
+    expect(jestFeatures).toMatchSnapshot();
   });
+  it("asserts that the text node Log In renders properly", () => {
+    expect(jestFeatures.getByText("Log In")).toBeInTheDocument();
+  });
+  it("asserts that the text node Sign Up renders properly", () => {
+    expect(jestFeatures.getByText("Sign Up")).toBeInTheDocument();
+  });
+
+  it("asserts that the img for hackton logo renders properly", () => {
+    expect(
+      jestFeatures.getByAltText("Hackton - Organise hackathons")
+    ).toBeInTheDocument();
+  });
+});

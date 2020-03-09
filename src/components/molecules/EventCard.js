@@ -10,7 +10,7 @@ import CardFooter from "./CardFooter";
 const StyledCardLink = styled(Link)`
   text-decoration: none;
   transition: all 0.5s;
-
+  overflow-wrap: break-word;
   &:hover > div {
     transition: all 0.5s;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
@@ -30,7 +30,7 @@ const EventCard = ({ event }) => {
         <LetterIcon>{letter}</LetterIcon>
         <H4>{event_title}</H4>
         <Paragraph>{excerpt}</Paragraph>
-        <CardFooter date={formattedDate} />
+        <CardFooter event_title={event_title} date={formattedDate} />
       </Card>
     </StyledCardLink>
   );

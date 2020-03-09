@@ -13,9 +13,13 @@ import { RowBody } from "../atoms/RowBody";
 import Button from "../atoms/Button";
 import { useSelector } from "react-redux";
 
-const BodyContainerColumn = styled(BodyContainer)`
+
+
+export const BodyContainerColumn = styled(props => (
+  <BodyContainer {...props} />
+))`
   flex-direction: column;
-  align-items: start;
+  justify-content: start;
 `;
 
 const EventOnboarding = () => {
@@ -43,7 +47,7 @@ const EventOnboarding = () => {
                 <EventCard key={event.event_title} event={event} />
               ))
             ) : (
-              <H4>You haven't created any events yet. Why wait?</H4>
+              <H4>You have not created any events yet. Why wait?</H4>
             )}
           </RowBody>
 

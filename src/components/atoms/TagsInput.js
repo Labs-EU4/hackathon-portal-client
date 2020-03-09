@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./TagsInput.css";
+import "../styles/atoms/TagsInput.css";
 
 const InputTag = props => {
   let tagInput;
@@ -50,6 +50,7 @@ const InputTag = props => {
           <input
             type="text"
             onKeyDown={inputKeyDown}
+            maxLength="20"
             ref={c => {
               tagInput = c;
             }}

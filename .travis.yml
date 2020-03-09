@@ -1,9 +1,11 @@
 language: node_js
 node_js:
-  - "stable"
+  - "lts/*"
 cache:
   directories:
   - node_modules
+before_script:
+  - travis_wait 30 sleep 1800 &
 script:
   - npm test
   - npm run build
