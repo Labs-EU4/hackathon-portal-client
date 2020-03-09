@@ -16,11 +16,11 @@ const Footer = () => (
       International Crafters © 2020
     </Paragraph>
 
-    <Group>
+    {/* <Group>
       <SocialIcon src={linkedin} alt="LinkedIn" />
       <SocialIcon src={twitter} alt="Twitter" />
       <SocialIcon src={facebook} alt="Facebook" />
-    </Group>
+    </Group> */}
 
     <Group>
       <FooterNavAnchor href="#">Privacy</FooterNavAnchor>

@@ -5,7 +5,8 @@ import {
   BodyContainer,
   StyledRowHead,
   DashboardContent,
-  StyledButton
+  StyledButton, 
+  StyledH4
 } from '../../assets/styles/templates/UserEventsdashboard';
 import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import EventCard from "../molecules/EventCard";
@@ -24,9 +25,11 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
       <StyledRowHead>
         <StyledButton
           start
+          bottomSpace
           onClick={() => setIsRegisteredEvents(false)}
         >My hackathons</StyledButton>
         <StyledButton
+          bottomSpace
           onClick={() => setIsRegisteredEvents(true)}
         >Hackathon(s) you registered for</StyledButton>
       </StyledRowHead>
@@ -43,7 +46,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
                   />
                 ))
               ) : (
-                <H4>You haven't created any events yet. Why wait?</H4>
+                <StyledH4>You haven't created any events yet. Why wait?</StyledH4>
               )}
             </>
           ) : (
@@ -57,7 +60,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
                     />
                   ))
                 ) : (
-                  <H4>You haven't registered to any events yet. Why wait?</H4>
+                  <StyledH4>You haven't registered to any events yet. Why wait?</StyledH4>
               )}
             </>
           )
