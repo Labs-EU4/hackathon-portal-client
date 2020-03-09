@@ -4,7 +4,7 @@ import {
   StyledLink,
   StyledAnchor,
   StyledButton
-} from '../../assets/styles/atoms/Button';
+} from '../../assets/styles/atoms/ButtonStyling';
 
 export default function Button({ children, anchor, link, color, ...props }) {
   if (link) {

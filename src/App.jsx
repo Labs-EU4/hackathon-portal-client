@@ -2,15 +2,15 @@ import React, { useState, useRef } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
-import styled, { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./assets/styles/GlobalStyles";
-import { theme } from './assets/styles/Theme';
-import { media } from './assets/styles/variables/media';
+import { theme } from "./assets/styles/Theme";
+import { media } from "./assets/styles/variables/media";
 
-import UserHeader from './components/organisms/UserHeader';
-import { Footer } from './components/organisms/index';
-import SideBar from './components/molecules/SideBar';
+import UserHeader from "./components/organisms/UserHeader";
+import { Footer } from "./components/organisms/index";
+import Nav from "./components/molecules/Nav";
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";
@@ -25,10 +25,10 @@ import PageNotFound from "./components/views/PageNotFound";
 import UserProfileFormPage from "./components/views/UserProfileFormPage";
 import CreateTeam from "./components/templates/CreateTeam";
 import AddParticipantTeam from "./components/templates/AddParticipantTeams";
-import ResetPassword from './components/views/resetPassword/ResetPassword';
-import ResetPasswordConfirmation from './components/views/resetPassword/ResetPasswordConfirmation';
-import NewPassword from './components/views/resetPassword/NewPassword';
-import HomePage from './components/views/HomePage';
+import ResetPassword from "./components/views/resetPassword/ResetPassword";
+import ResetPasswordConfirmation from "./components/views/resetPassword/ResetPasswordConfirmation";
+import NewPassword from "./components/views/resetPassword/NewPassword";
+import HomePage from "./components/views/HomePage";
 import HackathonProjectsPage from "./components/views/HackathonProjectsPage";
 import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
@@ -36,21 +36,21 @@ import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionP
 
 function App() {
   const { token } = useSelector(state => state.currentUser);
-  const [ isProfileOpen, setIsProfileOpen ] = useState(false);
-  const [ isEventModalOpen, setIsEventModalOpen ] = useState(false);
-  const [ isSideBarOpen, setIsSideBarOpen ] = useState(false);
-  const [ eventId, setEventId ] = useState(null);
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [isEventModalOpen, setIsEventModalOpen] = useState(false);
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
+  const [eventId, setEventId] = useState(null);
 
-  console.log('Event id -->', eventId);
+  console.log("Event id -->", eventId);
 
-  const eventModalHandler = (id) => {
+  const eventModalHandler = id => {
     setEventId(id);
     setIsEventModalOpen(true);
-  }
+  };
 
   const renderPrivateRoutes = () => {
-   return (
-     <>
+    return (
+      <>
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
         <PrivateRoute exact path="/" component={Dashboard} />
         <PrivateRoute
@@ -108,11 +108,11 @@ function App() {
           component={CreateTeam}
         />
       </>
-   );
- };
+    );
+  };
 
   return (
-    <>  
+    <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <AppContainer>
@@ -120,56 +120,59 @@ function App() {
             <UserHeader />
             <RoutesContainer>
               <Switch>
-                <Route  
+                <Route
                   exact
-                  path="/" 
-                  render={() => <HomePage {...{eventModalHandler}} />} 
+                  path="/"
+                  render={() => <HomePage {...{ eventModalHandler }} />}
                 />
                 <Route path="/about" component={AboutPage} />
                 <Route path="/not-found" component={PageNotFound} />
                 <Route path="/register" component={SignupPage} />
                 <Route path="/login" component={LoginPage} />
                 <Route path="/forgotpassword" component={ResetPassword} />
-                <Route path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
+                <Route
+                  path="/resetPasswordConfirmation"
+                  component={ResetPasswordConfirmation}
+                />
                 <Route path="/resetpassword" component={NewPassword} />
-                { renderPrivateRoutes() }
+                {renderPrivateRoutes()}
                 <Redirect to="/not-found" />
               </Switch>
-              {
-                token && !isEventModalOpen && (
-                  <UserProfileFormPage 
-                    {...{isProfileOpen}}
-                    {...{setIsProfileOpen}}
-                  />
-                )
-              }
+              {token && !isEventModalOpen && (
+                <UserProfileFormPage
+                  {...{ isProfileOpen }}
+                  {...{ setIsProfileOpen }}
+                />
+              )}
             </RoutesContainer>
             <Footer />
           </MainContent>
-          <SideBar 
-            {...{isProfileOpen}}
-            {...{setIsProfileOpen}} 
-            {...{isSideBarOpen}}
-            {...{setIsSideBarOpen}}
+          <Nav
+            {...{ isProfileOpen }}
+            {...{ setIsProfileOpen }}
+            {...{ isSideBarOpen }}
+            {...{ setIsSideBarOpen }}
           />
         </AppContainer>
         <ToastContainer />
       </ThemeProvider>
     </>
   );
-};
+}
 
 export default App;
 
 const AppContainer = styled.main`
   display: flex;
-  width: 100vw; height: 100vh;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
 `;
 
 const MainContent = styled.div`
   ${props => props.theme.flex.column};
-  width: ${({ active }) => active ? 'calc(100vw - 60px)' : 'calc(100vw - 250px)'};
+  width: ${({ active }) =>
+    active ? "calc(100vw - 60px)" : "calc(100vw - 250px)"};
 
   @media ${media.tablet} {
     width: calc(100vw - 60px);
@@ -179,21 +182,18 @@ const MainContent = styled.div`
 const RoutesContainer = styled.div`
   ${props => props.theme.shadow.box};
   position: relative;
-  width: calc(100% - 20px); height: 100%;
+  width: calc(100% - 20px);
+  height: 100%;
   background-color: ${props => props.theme.color.white.bg};
-  margin-left: 20px; 
+  margin-left: 20px;
   border-radius: 5px;
   overflow: hidden;
 
   &::-webkit-scrollbar {
-    width: 0px; height: 0;
+    width: 0px;
+    height: 0;
   }
 `;
-
-
-
-
-
 
 // import React from "react";
 // import { Route, Switch, Redirect } from "react-router-dom";
