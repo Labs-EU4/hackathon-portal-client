@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { EventOnboarding } from "../templates";
+
+import { UserEventsDashboard } from "../templates";
 import { fetchAllEvents } from "../../store/events/actions";
 
 const Dashboard = () => {
@@ -10,7 +11,7 @@ const Dashboard = () => {
     dispatch(fetchAllEvents());
   }, [dispatch]);
 
-  return <EventOnboarding />;
+  return <UserEventsDashboard />;
 };
 
 export default Dashboard;

@@ -1,5 +1,5 @@
 import React from "react";
-import { FormLayout, Header, Footer } from "../organisms/index";
+import { FormLayout } from "../organisms/index";
 
 const UserOnboarding = ({
   ctaText,
@@ -10,15 +10,13 @@ const UserOnboarding = ({
 }) => {
   return (
     <div>
-      <Header />
-      <FormLayout
-        ctaText={ctaText}
-        imageType={imageType}
-        imageText={imageText}
-        formHeader={formHeader}
-        formParagraph={formParagraph}
-      />
-      <Footer />
+        <FormLayout
+          ctaText={ctaText}
+          imageType={imageType}
+          imageText={imageText}
+          formHeader={formHeader}
+          formParagraph={formParagraph}
+        />
     </div>
   );
 };

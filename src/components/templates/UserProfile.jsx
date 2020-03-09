@@ -10,11 +10,11 @@ import { RowHead } from "../atoms/RowHead";
 import { RowBody } from "../atoms/RowBody";
 import { Column } from "../atoms/Column";
 import { CardWide } from "../atoms/Card";
-import profileImg from "../../assets/profile-image.png";
 import { media } from "../index";
 import Button from "../atoms/Button";
 import { Paragraph } from "../atoms/Paragraph";
-import mailIcon from "../../assets/Icon-mail-24px.png";
+import profileImg from "../../assets/images/profile-image.png";
+import mailIcon from "../../assets/images/Icon-mail-24px.png";
 import EventCard from "../molecules/EventCard";
 
 import { useRegisteredEvents } from "../../hooks";
