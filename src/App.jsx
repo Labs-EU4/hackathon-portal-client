@@ -6,7 +6,7 @@ import styled, { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./assets/styles/GlobalStyles";
 import { theme } from "./assets/styles/Theme";
-import { media } from "./assets/styles/variables/media";
+// import { media } from "./assets/styles/variables/media";
 
 import UserHeader from "./components/organisms/UserHeader";
 import { Footer } from "./components/organisms/index";
@@ -20,7 +20,7 @@ import PrivateRoute from "./components/organisms/PrivateRoute";
 import EditHackathon from "./components/templates/EditHackathon";
 import AddTeammates from "./components/templates/AddTeammates";
 import "react-toastify/dist/ReactToastify.css";
-import AboutPage from "./components/views/AboutPage";
+import AboutPage from './components/views/AboutPage';
 import PageNotFound from "./components/views/PageNotFound";
 import UserProfileFormPage from "./components/views/UserProfileFormPage";
 import CreateTeam from "./components/templates/CreateTeam";
@@ -36,16 +36,13 @@ import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionP
 function App() {
   const { token } = useSelector(state => state.currentUser);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
-  const [isEventModalOpen, setIsEventModalOpen] = useState(false);
+  // const [isEventModalOpen, setIsEventModalOpen] = useState(false);
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
-  const [eventId, setEventId] = useState(null);
 
-  console.log("Event id -->", eventId);
-
-  const eventModalHandler = id => {
-    setEventId(id);
-    setIsEventModalOpen(true);
-  };
+  // const eventModalHandler = id => {
+  //   setEventId(id);
+  //   setIsEventModalOpen(true);
+  // };
 
   const renderPrivateRoutes = () => {
     return (
@@ -131,12 +128,13 @@ function App() {
               {renderPrivateRoutes()}
               <Redirect to="/not-found" />
             </Switch>
-            {!token && (
+            {token ? (
               <UserProfileFormPage
                 {...{ isProfileOpen }}
                 {...{ setIsProfileOpen }}
               />
-            )}
+              ) : null
+            }
           </RoutesContainer>
           <Footer />
           <Nav
