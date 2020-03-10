@@ -7,6 +7,7 @@ import Button from "../../../components/atoms/Button";
 
 export const StyledWideBody = styled(WideBody)`
   ${props => props.theme.shadow.box};
+  display: ${({ active }) => !active && `none`};
   position: absolute; top: 0; right: 0;
   width: 300px; height: 100%;
   background-color: ${props => props.theme.color.white.bg};
