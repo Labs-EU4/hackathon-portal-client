@@ -4,8 +4,8 @@ import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import styled, { ThemeProvider } from "styled-components";
 
-import { GlobalStyles } from "./assets/styles/GlobalStyles";
-import { theme } from "./assets/styles/Theme";
+import { GlobalStyles } from "./assets/styles/GlobalStylesStyling";
+import { theme } from "./assets/styles/ThemeStyling";
 // import { media } from "./assets/styles/variables/media";
 
 import UserHeader from "./components/organisms/UserHeader";

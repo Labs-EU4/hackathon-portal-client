@@ -5,7 +5,7 @@ import {
   BodyColumn,
   BodyRow,
   Header2
-} from '../../assets/styles/views/PageNotFound';
+} from '../../assets/styles/views/PageNotFoundStyling';
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import notFound_icon from "../../assets/images/notFound_icon.svg";
 
