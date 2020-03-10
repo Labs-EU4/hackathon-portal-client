@@ -36,26 +36,25 @@ import ContentTitle from "../molecules/ContentTitle";
 import HackathonProjectsPage from "../views/HackathonProjectsPage";
 import ParticipantSubmissionPage from "../views/ParticipantSubmissionPage";
 import AddTeammates from "../templates/AddTeammates";
+import CreateTeam from "../templates/CreateTeam";
 import userImg from "../../assets/images/user_icon.svg";
 import eventImg from "../../assets/images/event-img.jpg";
-
 import Spinner from "../molecules/Spinner";
 import {
   registerEvent,
   unregisterEvent
 } from "../../store/eventParticipants/actions";
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
-import { 
-  initialMenuState, 
-  MenuReducer
-} from '../../hooks/reducers';
 
 const HackathonSingle = ({ isSideBarOpen }) => {
   const { id } = useParams();
   const [isAddJudgeOpen, setIsAddJudgeOpen] = useState(false);
   const [isSubmissionsPageOpen, setIsSubmissionsPageOpen] = useState(false);
   const [isSubmitProjectOpen, setIsSubmitProjectOpen] = useState(false);
+  const [registerTeam, setRegisterTeam] = useState(false);
+  //!!REMOVE THIS BIT AND ALL CORRELATED STYLES
   const [isSlideForm, setIsSlideForm] = useState(false);
+
   const history = useHistory();
   const dispatch = useDispatch();
   const { pathname } = useLocation();
@@ -67,6 +66,8 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const createdTeam = teams.find(t => t.team_lead === userId);
 
   const [data, loading] = useEvent(id);
+
+  console.log('THis is a team in hackathonSingle --> ', team);
 
   // Filter out event by URL param & grab user ID
   const [
@@ -156,6 +157,10 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     }
     return fetchParticipants();
   };
+
+  const handleTeamRegistration = () => {
+    setRegisterTeam(true);
+  }
 
   const toTittleCase = item => {
     return item
@@ -283,11 +288,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                     <Button
                       color={isRegistered ? "grey" : "green"}
                       {...{
-                        link: !individualParticipation,
-                        onClick: individualParticipation && handleRegistration,
-                        to:
-                          !individualParticipation &&
-                          `/${currentPath}/event/${id}/participant-teams`
+                        onClick: individualParticipation 
+                        ? handleRegistration 
+                        : handleTeamRegistration
                       }}
                     >{isRegistered ? `Unregister` : `Register`}</Button>
                   ) : (
@@ -333,11 +336,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                   )}
                   {isEventCreator && !isEnded && (
                     <Button
-                      // link
                       size="wide"
                       color="green"
                       uppercase
-                      // to={`/${currentPath}/event/${id}/team`}
                       onClick={() => setIsAddJudgeOpen(true)}
                     >
                       Add Judges
@@ -345,34 +346,29 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                   )}
                   {isTeamLead && !isEnded && (
                     <Button
-                      link
                       size="wide"
                       color="green"
                       uppercase
-                      to={`/${currentPath}/event/${id}/participant-teams`}
+                      onClick={() => setRegisterTeam(true)}
                     >
                       Add teamate
                     </Button>
                   )}
                   {isRegistered && !isEnded && (
                     <Button
-                      // link
                       size="wide"
                       color="green"
                       uppercase
                       onClick={() => setIsSubmitProjectOpen(true)}
-                      // to={`/${currentPath}/event/${id}/participant_submission`}
                     >
                       Submit Project
                     </Button>
                   )}
                   <Button
-                    // link
                     size="wide"
                     color="blue"
                     uppercase
                     onClick={() => setIsSubmissionsPageOpen(true)}
-                    // to={`/${currentPath}/event/${id}/projects`}
                   >
                     View submissions
                   </Button>
@@ -387,6 +383,17 @@ const HackathonSingle = ({ isSideBarOpen }) => {
       </ModalBody>
     );
   };
+
+  if (registerTeam) {
+    return (
+      <>
+        {renderSingleEvent()}
+        <CreateTeam 
+          {...{ id }}
+        />
+      </>
+    )
+  }
 
   if (isAddJudgeOpen) {
     return (
