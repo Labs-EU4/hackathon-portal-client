@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import styled from 'styled-components';
 
@@ -80,10 +80,18 @@ const TeamView = ({ team, isAddTeamMemberOpen, setIsAddTeamMemberOpen }) => {
           Hackathon Name:
           <NormalSpan>{event_title}</NormalSpan>
         </FancyBoldSpan>
-        <Button 
-          color="green"
-          onClick={() => setIsAddTeamMemberOpen(true)}
-        >Add Teammate</Button>
+        <div style={{ display: "flex"}}>
+          <Button 
+            size="half"
+            color="grey"
+            // onClick={() => setIsAddTeamMemberOpen(true)}
+          >Back to event</Button>
+          <Button 
+            size="half"
+            color="green"
+            onClick={() => setIsAddTeamMemberOpen(true)}
+          >Add Teammate</Button>
+        </div>
       </TeamsContainer>
     );
   };

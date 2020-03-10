@@ -149,7 +149,6 @@ const HackathonSingle = ({ isSideBarOpen }) => {
 
   const handleRegistration = e => {
     e.preventDefault();
-
     if (isRegistered) {
       dispatch(unregisterEvent(id, history));
     } else {

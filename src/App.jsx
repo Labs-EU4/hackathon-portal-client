@@ -44,30 +44,33 @@ function App() {
   const renderPrivateRoutes = () => {
     return (
       <>
-        <PrivateRoute path="/dashboard" component={Dashboard} />
-        <PrivateRoute path="/home" component={HomePage} />
-        <PrivateRoute exact path="/event/new" component={HackathonFormPage} />
+        <PrivateRoute path="/dashboard" render={() => <Dashboard />} />
+        {/* <PrivateRoute path="/home" component={HomePage} /> */}
+        <PrivateRoute path="/home" render={() => <HomePage/>} />
+        <PrivateRoute exact path="/event/new" render={() => <HackathonFormPage />} />
+        <PrivateRoute
+          path={`/${currentPath}/event/:id`}
+          render={() => <HackathonSinglePage {...{isSideBarOpen}} />}
+          />
+        <PrivateRoute exact path="/event/:id/edit" render={() => <EditHackathon />} />
+        //!! ROUTE USED FOR TESTING
+        <PrivateRoute exact path={`/results`} render={() => <ResultPage />} />
+        {/* <PrivateRoute
+          exact
+          path={`/${currentPath}/event/:id/projects`}
+          component={HackathonProjectsPage}
+        /> */}
         {/* <PrivateRoute
           exact
           path={`/${currentPath}/event/:id/participant_submission`}
           component={ParticipantSubmissionPage}
         /> */}
-        <PrivateRoute
-          path={`/${currentPath}/event/:id`}
-          // component={HackathonSinglePage}
-          render={() => <HackathonSinglePage {...{isSideBarOpen}} />}
-        />
-        <PrivateRoute exact path="/event/:id/edit" component={EditHackathon} />
         {/* <PrivateRoute
           exact
           path="dashboard/event/:id/team"
           component={AddTeammates}
         /> */}
-        <PrivateRoute
-          exact
-          path={`/${currentPath}/event/:id/projects`}
-          component={HackathonProjectsPage}
-        />
+        
         {/* <PrivateRoute
           exact
           path={`/${currentPath}/event/:id/project/:projectId`}
@@ -83,8 +86,6 @@ function App() {
           path={`/${currentPath}/event/:id/participant-teams`}
           component={CreateTeam}
         /> */}
-
-        <PrivateRoute exact path={`/results`} component={ResultPage} />
       </>
     );
   };

@@ -44,5 +44,5 @@ export const MapFormContainer = styled.div`
   background-color: ${props => props.theme.color.white.bg};
   border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 5px;
-  z-index: 100;
+  z-index: 50;
 `;

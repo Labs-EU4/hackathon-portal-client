@@ -144,6 +144,7 @@ export const LinkDetails = styled.div`
   border-top-left-radius: 3px; border-bottom-left-radius: 3px;
   padding: 0 20px;
   transform: translate(-100%, -60%);
+  z-index: 100;
   visibility: hidden;
 `;
 

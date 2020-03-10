@@ -4,11 +4,10 @@ import BodyContainer from "../atoms/BodyContainerStyling";
 import { BoldSpan } from "../atoms/SpanStyling";
 
 export const TeamsContainer = styled(BodyContainer)`
-  background-color: white;
+  ${({ theme }) => theme.shadow.box};
+  background-color: ${({ theme }) => theme.color.white.regular};
   width: 50%;
-  height: 40%;
   overflow-y: auto;
-  border: 1px solid lightgray;
   display: flex;
   flex-direction: column;
   align-items: center;
