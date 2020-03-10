@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
 
-import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeams';
+import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeamsStyling';
 import WideBody from "../../assets/styles/atoms/WideBodyStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";

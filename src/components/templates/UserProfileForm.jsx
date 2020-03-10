@@ -8,7 +8,7 @@ import {
   StyledWideBody,
   ButtonRowBody,
   NewButton
-} from '../../assets/styles/templates/UserProfileForm';
+} from '../../assets/styles/templates/UserProfileFormStyling';
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";

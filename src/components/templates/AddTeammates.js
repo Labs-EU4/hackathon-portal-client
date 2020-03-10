@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { useParams, useHistory } from "react-router-dom";
 
-import { StyledWideBody, StyledCardWide } from '../../assets/styles/templates/AddTeammates';
+import { StyledWideBody, StyledCardWide } from '../../assets/styles/templates/AddTeammatesStyling';
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";

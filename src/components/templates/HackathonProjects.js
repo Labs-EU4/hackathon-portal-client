@@ -15,7 +15,7 @@ import {
   Description,
   RatingGroup,
   JudgeCount
-} from '../../assets/styles/templates/HackathonProjects';
+} from '../../assets/styles/templates/HackathonProjectsStyling';
 import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";

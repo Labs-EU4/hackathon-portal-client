@@ -22,7 +22,7 @@ import {
   UserContainer,
   Image,
   PHosted
-} from '../../assets/styles/templates/HackathonSingle';
+} from '../../assets/styles/templates/HackathonSingleStyling';
 import { NormalSpan } from "../../assets/styles/atoms/SpanStyling";
 import { H2, H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";

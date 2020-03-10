@@ -9,12 +9,12 @@ import {
   HeaderContent,
   MapContainer,
   MapFormContainer
-} from '../../assets/styles/templates/EventOnboarding';
+} from '../../assets/styles/templates/EventOnboardingStyling';
 import { 
   StyledRowHead, 
   StyledButton,
   StyledH4
-} from '../../assets/styles/templates/UserEventsdashboard';
+} from '../../assets/styles/templates/UserEventsdashboardStyling';
 import EventCard from "../molecules/EventCard";
 
 const EventOnboarding = ({ eventModalHandler }) => {

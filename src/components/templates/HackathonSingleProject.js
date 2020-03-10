@@ -18,7 +18,7 @@ import {
   StyledParagraph,
   ButtonGroup,
   StyledButton
-} from '../../assets/styles/templates/HackthonSingleProject';
+} from '../../assets/styles/templates/HackthonSingleProjectStyling';
 import { H3, H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";

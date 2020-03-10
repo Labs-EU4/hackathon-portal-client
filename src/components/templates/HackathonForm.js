@@ -10,7 +10,7 @@ import {
   StyledColumn,
   StyledFormBtn,
   StyledH3
-} from '../../assets/styles/templates/HackathonForm';
+} from '../../assets/styles/templates/HackathonFormStyling';
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";

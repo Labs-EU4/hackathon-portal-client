@@ -7,7 +7,7 @@ import {
   BodyRow,
   BodyColumn,
   Form
-} from '../../assets/styles/templates/CreateTeam';
+} from '../../assets/styles/templates/CreateTeamStyling';
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import WideBody from "../../assets/styles/atoms/WideBodyStyling";

@@ -9,7 +9,7 @@ import {
   StyledContainer,
   AddTeamParticipantContainer,
   StyledWidget
-} from "../../assets/styles/templates/AddParticipantTeams";
+} from "../../assets/styles/templates/AddParticipantTeamsStyling";
 import { 
   Container,
   ContainerRadio,
@@ -20,7 +20,7 @@ import {
   StyledJudgeWidget,
   UserAvatar,
   UserInfo
-} from "../../assets/styles/templates/AddTeammates";
+} from "../../assets/styles/templates/AddTeammatesStyling";
 import isEmail from "validator/lib/isEmail";
 
 
