@@ -2,7 +2,7 @@ import React from "react";
 
 import HackathonSingle from "../templates/HackathonSingle";
 
-const HackathonSinglePage = () => <HackathonSingle />;
+const HackathonSinglePage = ({ isSideBarOpen }) => <HackathonSingle {...{isSideBarOpen}} />;
 
 export default HackathonSinglePage;
 

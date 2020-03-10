@@ -108,7 +108,9 @@ export const JudgeInfo = styled.div`
 
 export const TagsCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
-  position: fixed; left: ${({ menuOpen }) => menuOpen ? 'calc(100% - 395px)' : 'calc(100% - 580px)'}; 
+  position: fixed; left: ${({ menuOpen }) => menuOpen 
+    ? 'calc(100% - 400px)' : 'calc(100% - 580px)'
+  }; 
   top: 70px;
   display: ${({ active }) => active && 'none'};
   width: 300px; max-height: calc(100vh - 130px);

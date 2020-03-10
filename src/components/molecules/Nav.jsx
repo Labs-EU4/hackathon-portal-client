@@ -43,8 +43,7 @@ const Nav = ({
   setIsProfileOpen,
   isProfileOpen,
   isSideBarOpen,
-  dispatch
-  // setIsSideBarOpen
+  setIsSideBarOpen
 }) => {
   const [isEditProfileHovered, setIsEditProfileHovered] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(
@@ -110,8 +109,7 @@ const Nav = ({
       <StyledExpandIcon
         icon="angle-double-down"
         active={isSideBarOpen}
-        // onClick={() => setIsSideBarOpen(!isSideBarOpen)}
-        onClick={() => dispatch({ type: 'toggle' })}
+        onClick={() => setIsSideBarOpen(!isSideBarOpen)}
       />
     </StyledNav>
   );

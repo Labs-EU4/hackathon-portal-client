@@ -33,29 +33,25 @@ import Icon from "../atoms/Icon";
 import ContentTitle from "../molecules/ContentTitle";
 // import HackathonProjectsPage from '../views/HackathonProjectsPage';
 // import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
-import userImg from "../../assets/images/user_icon.svg";
-import eventImg from "../../assets/images/event-img.jpg";
-// import { useEventTeam } from "../../hooks";
-
 import HackathonProjectsPage from "../views/HackathonProjectsPage";
 import ParticipantSubmissionPage from "../views/ParticipantSubmissionPage";
 import AddTeammates from "../templates/AddTeammates";
+import userImg from "../../assets/images/user_icon.svg";
+import eventImg from "../../assets/images/event-img.jpg";
 
+import Spinner from "../molecules/Spinner";
 import {
   registerEvent,
   unregisterEvent
 } from "../../store/eventParticipants/actions";
-
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
-import Spinner from "../molecules/Spinner";
+import { 
+  initialMenuState, 
+  MenuReducer
+} from '../../hooks/reducers';
 
-const HackathonSingle = ({
-  // eventId, setEventId, isEventModalOpen,
-  setIsEventModalOpen,
-  isSideBarOpen
-}) => {
+const HackathonSingle = ({ isSideBarOpen }) => {
   const { id } = useParams();
-  // const [isSlideForm, setIsSlideForm] = useState(false);
   const [isAddJudgeOpen, setIsAddJudgeOpen] = useState(false);
   const [isSubmissionsPageOpen, setIsSubmissionsPageOpen] = useState(false);
   const [isSubmitProjectOpen, setIsSubmitProjectOpen] = useState(false);
@@ -398,7 +394,6 @@ const HackathonSingle = ({
         {renderSingleEvent()}
         <AddTeammates
           {...{ id }}
-          {...{ setIsEventModalOpen }}
           {...{ setIsAddJudgeOpen }}
         />
       </>
