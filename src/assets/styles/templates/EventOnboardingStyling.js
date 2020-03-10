@@ -35,4 +35,5 @@ export const MapFormContainer = styled.div`
   width: 280px; height: 200px;
   background-color: ${props => props.theme.color.white.bg};
   border: 3px solid ${props => props.theme.color.primary.regular}; border-radius: 5px;
+  z-index: 100;
 `; 

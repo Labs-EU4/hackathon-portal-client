@@ -153,7 +153,7 @@ const RoutesContainer = styled.div`
   grid-area: main;
   background-color: ${props => props.theme.color.white.bg};
   border-radius: 5px;
-  overflow: hidden;
+  overflow: scroll;
 
   &::-webkit-scrollbar {
     width: 0px;
