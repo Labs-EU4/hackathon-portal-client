@@ -26,8 +26,10 @@ import Spinner from "../molecules/Spinner";
 import HackathonProjectPage from "../views/HackathonProjectPage";
 import { useSubmissions } from "../../hooks";
 
-const HackathonProjects = () => {
+const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
   const { id } = useParams();
+  const [isProjectPageOpen, setIsProjectPageOpen] = useState(false);
+  const [projectId, setProjectId] = useState(null);
   const { pathname } = useLocation();
   const currentPath = pathname.split("/")[1];
   const { event_title } = useSelector(state =>
@@ -38,6 +40,11 @@ const HackathonProjects = () => {
   useEffect(() => {
     fetchSubmissions();
   }, [fetchSubmissions]);
+
+  const viewProjectHandler = submissionId => {
+    setProjectId(submissionId);
+    setIsProjectPageOpen(true);
+  };
 
   const renderSubmission = s => {
     return (
@@ -61,9 +68,10 @@ const HackathonProjects = () => {
             <Paragraph strong>Not rated</Paragraph>
           )}
           <Button
-            link
+            // link
             color="blue"
-            to={`/${currentPath}/event/${id}/project/${s.id}`}
+            // to={`/${currentPath}/event/${id}/project/${s.id}`}
+            onClick={() => viewProjectHandler(s.id)}
           >
             View Project
           </Button>
@@ -98,6 +106,13 @@ const HackathonProjects = () => {
           </>
         )}
       </StyledCardWide>
+      {isProjectPageOpen && (
+        <HackathonProjectPage
+          {...{ id }}
+          {...{ projectId }}
+          {...{ setIsProjectPageOpen }}
+        />
+      )}
     </StyledWideBody>
   );
 };

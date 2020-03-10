@@ -1,28 +1,35 @@
 import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
-import { useParams, useHistory } from "react-router-dom";
+import { useParams, useHistory, useLocation } from "react-router-dom";
 
-import { StyledWideBody, StyledCardWide } from '../../assets/styles/templates/AddTeammatesStyling';
+import {
+  StyledWideBody,
+  StyledCardWide
+} from "../../assets/styles/templates/AddTeammatesStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
-import { JudgesSearchWidget, TeamRoleWidget, TeamInviteWidget } from "./widgets";
+import {
+  JudgesSearchWidget,
+  TeamRoleWidget,
+  TeamInviteWidget
+} from "./widgets";
 
-const AddTeammates = ({setIsAddJudgeOpen}
-  // { id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
-) => {
+const AddTeammates = ({ setIsAddJudgeOpen }) => {
   const selectedUserArr = useRef([]);
   const role = "judge";
   const dispatch = useDispatch();
+  const { pathname } = useLocation();
+  const currentPath = pathname.split("/")[1];
   const [noneUser, setNoneUser] = useState(null);
   const history = useHistory();
   const { id } = useParams();
 
-  const selectedUsersHandler = async(addedUser) => {
+  const selectedUsersHandler = async addedUser => {
     const newArray = [...selectedUserArr.current, addedUser];
     selectedUserArr.current = newArray;
-  }
+  };
 
   const handleSubmit = () => {
     selectedUserArr.current.map(selectedUser => {
@@ -34,9 +41,8 @@ const AddTeammates = ({setIsAddJudgeOpen}
       };
       return dispatch(addTeamMember(data, history));
     });
-    // setIsEventModalOpen(false);
-    // setIsAddJudgeOpen(false);
-    // setEventId(null);
+    setIsAddJudgeOpen(false);
+    history.push(`/${currentPath}/event/${id}`);
   };
 
   const handleExit = () => {
@@ -60,18 +66,15 @@ const AddTeammates = ({setIsAddJudgeOpen}
           <RowHead>
             <H3>Add Judge</H3>
           </RowHead>
-          <JudgesSearchWidget 
-            {...{selectedUsersHandler}}
-            {...{selectedUserArr}}
-            {...{setNoneUser}}
-            {...{handleExit}}
-            {...{handleSubmit}}
+          <JudgesSearchWidget
+            {...{ selectedUsersHandler }}
+            {...{ selectedUserArr }}
+            {...{ setNoneUser }}
+            {...{ handleExit }}
+            {...{ handleSubmit }}
           />
           {noneUser && (
-            <TeamInviteWidget 
-              {...{noneUser}}
-              {...{sendInvite}}
-            />
+            <TeamInviteWidget {...{ noneUser }} {...{ sendInvite }} />
           )}
         </StyledCardWide>
       </Column>
@@ -80,7 +83,6 @@ const AddTeammates = ({setIsAddJudgeOpen}
 };
 
 export default AddTeammates;
-
 
 // import React, { useState } from "react";
 // import { useDispatch } from "react-redux";

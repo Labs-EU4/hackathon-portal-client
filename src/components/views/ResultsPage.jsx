@@ -27,23 +27,42 @@ const ResultPage = () => {
   const globalEvents = events.filter(event => event.creator_id !== userId);
   const today = new Date().getTime();
 
-  const client = new Client({});
+  const googleMapsClient = require("@google/maps").createClient({
+    key: "AIzaSyBlSZRd1pc8t73WzRU7jDmnovZl287cxL8"
+  });
 
-  client
-    .elevation({
-      params: {
-        locations: [{ lat: 45, lng: -110 }],
-        key: process.env.GOOGLE_MAPS_API_KEY
-      },
-      timeout: 1000 // milliseconds
-    })
-    .then(r => {
-      console.log("GOOGLE API LOCATION MAP", r.data.results[0].elevation);
-    })
-    .catch(e => {
-      console.log("GOOGLE ERROR", e);
-    });
-  return <div>Google api</div>;
+  googleMapsClient.geocode(
+    {
+      address: "1600 Amphitheatre Parkway, Mountain View, CA"
+    },
+    function(err, response) {
+      if (!err) {
+        console.log("LOCATION", response.json.results);
+      }
+    }
+  );
+  // const client = new Client({});
+
+  // client
+  //   .elevation({
+  //     params: {
+  //       locations: [{ lat: 45, lng: -110 }],
+  //       key: process.env.GOOGLE_MAPS_API_KEY
+  //     },
+  //     timeout: 1000 // milliseconds
+  //   })
+  //   .then(r => {
+  //     console.log("GOOGLE API LOCATION MAP", r.data.results[0].elevation);
+  //   })
+  //   .catch(e => {
+  //     console.log("GOOGLE ERROR", e);
+  //   });
+  return (
+    <div>
+      Google api
+      <p></p>
+    </div>
+  );
 };
 
 export default ResultPage;

@@ -362,21 +362,23 @@ const HackathonSingle = ({
                   )}
                   {isRegistered && !isEnded && (
                     <Button
-                      link
+                      // link
                       size="wide"
                       color="green"
                       uppercase
-                      to={`/${currentPath}/event/${id}/participant_submission`}
+                      onClick={() => setIsSubmitProjectOpen(true)}
+                      // to={`/${currentPath}/event/${id}/participant_submission`}
                     >
                       Submit Project
                     </Button>
                   )}
                   <Button
-                    link
+                    // link
                     size="wide"
                     color="blue"
                     uppercase
-                    to={`/${currentPath}/event/${id}/projects`}
+                    onClick={() => setIsSubmissionsPageOpen(true)}
+                    // to={`/${currentPath}/event/${id}/projects`}
                   >
                     View submissions
                   </Button>

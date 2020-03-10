@@ -30,9 +30,9 @@ import fullStar from "../../assets/images/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
 import { useJudges, useGrades, useSubmissions } from "../../hooks";
 
-const HackathonSingleProject = () => {
+const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
   const history = useHistory();
-  const { id, projectId } = useParams();
+  // const { id, projectId } = useParams();
   const dispatch = useDispatch();
   const { event_title, rubrics } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
