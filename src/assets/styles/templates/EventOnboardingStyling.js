@@ -30,7 +30,7 @@ export const MapContainer = styled.div`
 `;
 
 export const MapFormContainer = styled.div`
-  position: absolute; top: 50%; left: 77%;
+  position: absolute; top: 50%; left: calc(100% - 230px);
   transform: translateY(-50%);
   width: 280px; height: 200px;
   background-color: ${props => props.theme.color.white.bg};
