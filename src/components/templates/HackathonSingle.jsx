@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import { useParams, useHistory, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import {
@@ -37,6 +37,10 @@ import userImg from "../../assets/images/user_icon.svg";
 import eventImg from "../../assets/images/event-img.jpg";
 // import { useEventTeam } from "../../hooks";
 
+import HackathonProjectsPage from "../views/HackathonProjectsPage";
+import ParticipantSubmissionPage from "../views/ParticipantSubmissionPage";
+import AddTeammates from "../templates/AddTeammates";
+
 import {
   registerEvent,
   unregisterEvent
@@ -51,13 +55,15 @@ const HackathonSingle = ({
   isSideBarOpen
 }) => {
   const { id } = useParams();
-  // const id = eventId;
-  // const [ isAddJudgeOpen, setIsAddJudgeOpen ] = useState(false);
-  // const [ isSubmissionsPageOpen, setIsSubmissionsPageOpen ] = useState(false);
-  // const [ isSubmitProjectOpen, setIsSubmitProjectOpen ] = useState(false);
+  // const [isSlideForm, setIsSlideForm] = useState(false);
+  const [isAddJudgeOpen, setIsAddJudgeOpen] = useState(false);
+  const [isSubmissionsPageOpen, setIsSubmissionsPageOpen] = useState(false);
+  const [isSubmitProjectOpen, setIsSubmitProjectOpen] = useState(false);
   const [isSlideForm, setIsSlideForm] = useState(false);
   const history = useHistory();
   const dispatch = useDispatch();
+  const { pathname } = useLocation();
+  const currentPath = pathname.split("/")[1];
   const { userId } = useSelector(state => state.currentUser);
   const [participants, fetchParticipants] = useParticipants(id);
   const [team] = useEventTeam(id);
@@ -163,8 +169,7 @@ const HackathonSingle = ({
   };
 
   const handleExit = () => {
-    //!!THIS NEED TO BE CHANGED(MAYBE USER HISTORY.PUSH())
-    history.push("/home");
+    history.push(`/${currentPath}`);
   };
 
   const renderSingleEvent = () => {
@@ -286,7 +291,7 @@ const HackathonSingle = ({
                         onClick: individualParticipation && handleRegistration,
                         to:
                           !individualParticipation &&
-                          `/dashboard/event/${id}/participant-teams`
+                          `/${currentPath}/event/${id}/participant-teams`
                       }}
                     >
                       {isRegistered ? `Unregister` : `Register`}
@@ -327,20 +332,19 @@ const HackathonSingle = ({
                       link
                       color="blue"
                       uppercase
-                      to={`/dashboard/event/${id}/edit`}
-                      // onClick={() => setIsEventModalOpen(false)}
+                      to={`/event/${id}/edit`}
                     >
                       Edit event
                     </Button>
                   )}
                   {isEventCreator && !isEnded && (
                     <Button
-                      link
+                      // link
                       size="wide"
                       color="green"
                       uppercase
-                      // onClick={() => setIsAddJudgeOpen(true)}
-                      to={`/event/${id}/team`}
+                      // to={`/${currentPath}/event/${id}/team`}
+                      onClick={() => setIsAddJudgeOpen(true)}
                     >
                       Add Judges
                     </Button>
@@ -351,7 +355,7 @@ const HackathonSingle = ({
                       size="wide"
                       color="green"
                       uppercase
-                      to={`/event/${id}/participant-teams`}
+                      to={`/${currentPath}/event/${id}/participant-teams`}
                     >
                       Add teamate
                     </Button>
@@ -362,8 +366,7 @@ const HackathonSingle = ({
                       size="wide"
                       color="green"
                       uppercase
-                      // onClick={() => setIsSubmitProjectOpen(true)}
-                      to={`/event/${id}/participant_submission`}
+                      to={`/${currentPath}/event/${id}/participant_submission`}
                     >
                       Submit Project
                     </Button>
@@ -373,8 +376,7 @@ const HackathonSingle = ({
                     size="wide"
                     color="blue"
                     uppercase
-                    // onClick={() => setIsSubmissionsPageOpen(true)}
-                    to={`/event/${id}/projects`}
+                    to={`/${currentPath}/event/${id}/projects`}
                   >
                     View submissions
                   </Button>
@@ -389,6 +391,40 @@ const HackathonSingle = ({
       </ModalBody>
     );
   };
+
+  if (isAddJudgeOpen) {
+    return (
+      <>
+        {renderSingleEvent()}
+        <AddTeammates
+          {...{ id }}
+          {...{ setIsEventModalOpen }}
+          {...{ setIsAddJudgeOpen }}
+        />
+      </>
+    );
+  }
+
+  if (isSubmissionsPageOpen) {
+    return (
+      <>
+        {renderSingleEvent()}
+        <HackathonProjectsPage {...{ id }} {...{ setIsSubmissionsPageOpen }} />
+      </>
+    );
+  }
+
+  if (isSubmitProjectOpen) {
+    return (
+      <>
+        {renderSingleEvent()}
+        <ParticipantSubmissionPage
+          {...{ id }}
+          {...{ setIsSubmitProjectOpen }}
+        />
+      </>
+    );
+  }
 
   return renderSingleEvent();
 };

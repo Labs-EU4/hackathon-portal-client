@@ -82,7 +82,6 @@ const EventCard = ({ event, eventModalHandler }) => {
               link
               color="primary-reverse"
               to={`${pathname}/event/${event_id || id}`}
-              // onClick={() => eventModalHandler(event_id || id)}
             >
               More Info
             </Button>

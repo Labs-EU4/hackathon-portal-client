@@ -14,11 +14,7 @@ const Dashboard = () => {
     dispatch(fetchAllEvents());
   }, [dispatch]);
 
-  return (
-    <>
-      <UserEventsDashboard />
-    </>
-  );
+  return <UserEventsDashboard />;
 };
 
 export default Dashboard;

@@ -1,23 +1,25 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import styled from 'styled-components';
+import styled from "styled-components";
 // import { useRouteMatch, Switch, Route } from "react-router-dom";
+import { Client } from "@googlemaps/google-maps-services-js";
 
-import {
-  BodyContainer,
-  StyledRowBody,
-  HeaderContent,
-  MapContainer,
-  MapFormContainer
-} from '../../assets/styles/templates/EventOnboarding';
-import { 
-  StyledRowHead, 
-  StyledButton,
-  StyledH4
-} from '../../assets/styles/templates/UserEventsdashboard';
+// import {
+//   BodyContainer,
+//   StyledRowBody,
+//   HeaderContent,
+//   MapContainer,
+//   MapFormContainer
+// } from "../../assets/styles/templates/EventOnboarding";
+// import {
+//   StyledRowHead,
+//   StyledButton,
+//   StyledH4
+// } from "../../assets/styles/templates/UserEventsdashboard";
+
 import EventCard from "../molecules/EventCard";
 
-const EventOnboarding = ({ eventModalHandler }) => {
+const ResultPage = () => {
   // const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
   // let { path, url } = useRouteMatch();
   const events = useSelector(state => state.events.data);
@@ -25,8 +27,39 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const globalEvents = events.filter(event => event.creator_id !== userId);
   const today = new Date().getTime();
 
-  return (
-    <BodyContainer>
+  const client = new Client({});
+
+  client
+    .elevation({
+      params: {
+        locations: [{ lat: 45, lng: -110 }],
+        key: process.env.GOOGLE_MAPS_API_KEY
+      },
+      timeout: 1000 // milliseconds
+    })
+    .then(r => {
+      console.log("GOOGLE API LOCATION MAP", r.data.results[0].elevation);
+    })
+    .catch(e => {
+      console.log("GOOGLE ERROR", e);
+    });
+  return <div>Google api</div>;
+};
+
+export default ResultPage;
+
+const StyledSectionTitle = styled.h2`
+  margin-right: 10px;
+  padding: 8px 22px;
+  border: 2px solid ${props => props.theme.color.primary.regular};
+  border-left: none;
+  border-bottom: none;
+
+  ${({ gap }) => gap === true && `margin-left: 10px;`}
+`;
+
+{
+  /* <BodyContainer>
       <HeaderContent id="open">
         <MapContainer>
           <MapFormContainer/>
@@ -52,18 +85,5 @@ const EventOnboarding = ({ eventModalHandler }) => {
           )
         }
       </StyledRowBody> 
-    </BodyContainer> 
-  );
-};
-
-export default EventOnboarding;
-
-const StyledSectionTitle = styled.h2`
-  margin-right: 10px;
-  padding: 8px 22px;
-  border: 2px solid ${props => props.theme.color.primary.regular};
-  border-left: none;
-  border-bottom: none;
-
-  ${({gap}) => gap === true && `margin-left: 10px;` }
-`;
+</BodyContainer> */
+}

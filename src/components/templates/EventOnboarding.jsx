@@ -17,7 +17,7 @@ import {
 } from "../../assets/styles/templates/UserEventsdashboardStyling";
 import EventCard from "../molecules/EventCard";
 
-const EventOnboarding = ({ eventModalHandler, pathname }) => {
+const EventOnboarding = ({ eventModalHandler }) => {
   // const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
   // let { path, url } = useRouteMatch();
   const events = useSelector(state => state.events.data);

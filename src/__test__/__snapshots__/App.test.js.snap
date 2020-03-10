@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <main
-        class="sc-iGrrsa filZtJ"
+        class="sc-bmyXtO gNOcFw"
       >
         <div
           class="sc-bwzfXH dNrEvZ"
@@ -39,10 +39,10 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bmyXtO jAlBns"
+          class="sc-dEoRIm eLBSrz"
         >
           <div
-            class="sc-jWBwVP sc-eilVRo eDKJFX"
+            class="sc-jWBwVP sc-giadOv ciBkEB"
           >
             <form
               action="#"
@@ -139,7 +139,7 @@ Object {
                   Bio
                 </label>
                 <div
-                  class="sc-gwVKww gwCAsv"
+                  class="sc-exAgwC bcxlII"
                 >
                   <textarea
                     name="bio"
@@ -150,10 +150,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-caSCKo sc-eerKOB bLzjvJ"
+                class="sc-caSCKo sc-fONwsr fYeqcz"
               >
                 <button
-                  class="sc-bZQynM kRVgna sc-emmjRN bUEvMM"
+                  class="sc-bZQynM kRVgna sc-VJcYb jkgbuT"
                   color="green"
                   type="submit"
                 >
@@ -278,7 +278,7 @@ Object {
   </body>,
   "container": <div>
     <main
-      class="sc-iGrrsa filZtJ"
+      class="sc-bmyXtO gNOcFw"
     >
       <div
         class="sc-bwzfXH dNrEvZ"
@@ -311,10 +311,10 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bmyXtO jAlBns"
+        class="sc-dEoRIm eLBSrz"
       >
         <div
-          class="sc-jWBwVP sc-eilVRo eDKJFX"
+          class="sc-jWBwVP sc-giadOv ciBkEB"
         >
           <form
             action="#"
@@ -411,7 +411,7 @@ Object {
                 Bio
               </label>
               <div
-                class="sc-gwVKww gwCAsv"
+                class="sc-exAgwC bcxlII"
               >
                 <textarea
                   name="bio"
@@ -422,10 +422,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-caSCKo sc-eerKOB bLzjvJ"
+              class="sc-caSCKo sc-fONwsr fYeqcz"
             >
               <button
-                class="sc-bZQynM kRVgna sc-emmjRN bUEvMM"
+                class="sc-bZQynM kRVgna sc-VJcYb jkgbuT"
                 color="green"
                 type="submit"
               >

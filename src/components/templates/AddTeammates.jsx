@@ -9,7 +9,7 @@ import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { JudgesSearchWidget, TeamRoleWidget, TeamInviteWidget } from "./widgets";
 
-const AddTeammates = (
+const AddTeammates = ({setIsAddJudgeOpen}
   // { id, setEventId, setIsEventModalOpen, setIsAddJudgeOpen }
 ) => {
   const selectedUserArr = useRef([]);
@@ -41,9 +41,7 @@ const AddTeammates = (
 
   const handleExit = () => {
     //!!See if it works, otherwise make changes
-    history.back();
-    // setIsEventModalOpen(true);
-    // setIsAddJudgeOpen(false);
+    setIsAddJudgeOpen(false);
   };
 
   const sendInvite = () => {

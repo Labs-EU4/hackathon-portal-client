@@ -31,6 +31,8 @@ import HomePage from "./components/views/HomePage";
 import HackathonProjectsPage from "./components/views/HackathonProjectsPage";
 import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
+import ResultPage from "./components/views/ResultsPage";
+
 
 function App() {
   const { pathname } = useLocation();
@@ -51,35 +53,37 @@ function App() {
           component={ParticipantSubmissionPage}
         />
         <PrivateRoute
-          // exact
           path={`/${currentPath}/event/:id`}
           component={HackathonSinglePage}
         />
+        <PrivateRoute exact path="/event/:id/edit" component={EditHackathon} />
         <PrivateRoute
           exact
-          path={`/${currentPath}/event/:id/edit`}
-          component={EditHackathon}
+          path="dashboard/event/:id/team"
+          component={AddTeammates}
         />
-        <PrivateRoute exact path="/event/:id/team" component={AddTeammates} />
         <PrivateRoute
-          path="/event/:id/projects"
+          exact
+          path={`/${currentPath}/event/:id/projects`}
           component={HackathonProjectsPage}
         />
         <PrivateRoute
           exact
-          path="/event/:id/project/:projectId"
+          path={`/${currentPath}/event/:id/project/:projectId`}
           component={HackathonProjectPage}
         />
         <PrivateRoute
           exact
-          path="/event/:eventId/participant-teams/:teamId"
+          path={`/${currentPath}/event/:eventId/participant-teams/:teamId`}
           component={AddParticipantTeam}
         />
         <PrivateRoute
           exact
-          path="/event/:id/participant-teams"
+          path={`/${currentPath}/event/:id/participant-teams`}
           component={CreateTeam}
         />
+
+        <PrivateRoute exact path={`/results`} component={ResultPage} />
       </>
     );
   };
