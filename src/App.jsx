@@ -29,6 +29,7 @@ import ResetPassword from './components/views/resetPassword/ResetPassword';
 import ResetPasswordConfirmation from './components/views/resetPassword/ResetPasswordConfirmation';
 import NewPassword from './components/views/resetPassword/NewPassword';
 import HomePage from './components/views/HomePage';
+import Trial from './components/views/Trial';
 
 function App() {
   const { token } = useSelector(state => state.currentUser);
@@ -76,6 +77,10 @@ function App() {
           exact
           path="/dashboard/event/:id/participant-teams"
           component={CreateTeam}
+        /> 
+        <PrivateRoute
+          path="/trial"
+          component={Trial}
         />
         {/* <PrivateRoute
           path="/dashboard/registered"

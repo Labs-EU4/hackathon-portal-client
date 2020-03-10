@@ -24,7 +24,12 @@ const items = [
     title: "About",
     url: "/about",
     icon: "info-circle"
-  }
+  },
+  {
+    title: "Trial",
+    url: "/trial",
+    icon: "info-circle"
+  },
 ];
 
 const SideBar = ({ setIsProfileOpen, isProfileOpen, isSideBarOpen, setIsSideBarOpen }) => {
