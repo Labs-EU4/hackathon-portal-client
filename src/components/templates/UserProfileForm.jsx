@@ -52,7 +52,7 @@ const UserProfileForm = ({ initialState }) => {
     fullname: Yup.string().required("fullname is required"),
     email: Yup.string().required("email is required"),
     username: Yup.string().required("username is required"),
-    bio: Yup.string()
+    bio: Yup.string().required("bio is required")
   });
 
   return (
@@ -145,9 +145,9 @@ const UserProfileForm = ({ initialState }) => {
                         name="bio"
                         placeholder="bio"
                       />
-                      {errors.name && touched.name ? (
+                      {/* {errors.name && touched.name ? (
                         <div>{errors.name}</div>
-                      ) : null}
+                      ) : null} */}
                       <ErrorMessage name="bio" />
                     </RowBody>
                     <ButtonRowBody>
