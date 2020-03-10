@@ -48,10 +48,11 @@ export const UserInfoContent = styled.div`
 `;
 
 export const StyledNav = styled.div`
-  ${props => props.theme.flex.custom('start', 'center', 'column')};
+  grid-area: aside;
+  /* ${props => props.theme.flex.custom('start', 'center', 'column')}; */
   position: relative;
-  width: ${({ active }) => active ? '60px' : '250px'}; 
-  max-width: 300px;
+  /* width: ${({ active }) => active ? '60px' : '250px'}; 
+  max-width: 300px; */
   padding: ${({ active }) => active ? '90px 0' : '90px 20px 30px'};
 
   @media ${media.tablet} {

@@ -115,38 +115,36 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <AppContainer>
-          <MainContent active={isSideBarOpen}>
-            <UserHeader />
-            <RoutesContainer>
-              <Switch>
-                <Route
-                  exact
-                  path="/"
-                  render={() => <HomePage {...{ eventModalHandler }} />}
-                />
-                <Route path="/about" component={AboutPage} />
-                <Route path="/not-found" component={PageNotFound} />
-                <Route path="/register" component={SignupPage} />
-                <Route path="/login" component={LoginPage} />
-                <Route path="/forgotpassword" component={ResetPassword} />
-                <Route
-                  path="/resetPasswordConfirmation"
-                  component={ResetPasswordConfirmation}
-                />
-                <Route path="/resetpassword" component={NewPassword} />
-                {renderPrivateRoutes()}
-                <Redirect to="/not-found" />
-              </Switch>
-              {token && !isEventModalOpen && (
-                <UserProfileFormPage
-                  {...{ isProfileOpen }}
-                  {...{ setIsProfileOpen }}
-                />
-              )}
-            </RoutesContainer>
-            <Footer />
-          </MainContent>
+        <AppContainer active={isSideBarOpen}>
+          <UserHeader />
+          <RoutesContainer>
+            <Switch>
+              <Route
+                exact
+                path="/"
+                render={() => <HomePage {...{ eventModalHandler }} />}
+              />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/not-found" component={PageNotFound} />
+              <Route path="/register" component={SignupPage} />
+              <Route path="/login" component={LoginPage} />
+              <Route path="/forgotpassword" component={ResetPassword} />
+              <Route
+                path="/resetPasswordConfirmation"
+                component={ResetPasswordConfirmation}
+              />
+              <Route path="/resetpassword" component={NewPassword} />
+              {renderPrivateRoutes()}
+              <Redirect to="/not-found" />
+            </Switch>
+            {token && !isEventModalOpen && (
+              <UserProfileFormPage
+                {...{ isProfileOpen }}
+                {...{ setIsProfileOpen }}
+              />
+            )}
+          </RoutesContainer>
+          <Footer />
           <Nav
             {...{ isProfileOpen }}
             {...{ setIsProfileOpen }}
@@ -163,29 +161,26 @@ function App() {
 export default App;
 
 const AppContainer = styled.main`
-  display: flex;
+  display: grid;
+  grid-template-columns: ${({ active }) => active ? 
+    '20px auto auto 60px' : '20px auto auto 250px'
+  };
+  grid-template-rows: 60px auto  auto 25px;
+  grid-template-areas: 
+    " header header header aside"
+    "  gap    main   main  aside"
+    "  gap    main   main  aside"
+    " footer footer footer aside";
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 `;
 
-const MainContent = styled.div`
-  ${props => props.theme.flex.column};
-  width: ${({ active }) =>
-    active ? "calc(100vw - 60px)" : "calc(100vw - 250px)"};
-
-  @media ${media.tablet} {
-    width: calc(100vw - 60px);
-  }
-`;
-
 const RoutesContainer = styled.div`
   ${props => props.theme.shadow.box};
   position: relative;
-  width: calc(100% - 20px);
-  height: 100%;
+  grid-area: main;
   background-color: ${props => props.theme.color.white.bg};
-  margin-left: 20px;
   border-radius: 5px;
   overflow: hidden;
 

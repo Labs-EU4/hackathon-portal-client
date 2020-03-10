@@ -9,16 +9,14 @@ import PublicNav from "../molecules/PublicNav";
 
 const UserHeader = () => {
   return (
-    <WideHeader>
-      <HeaderContainer>
-        <StyledLink to="/">
-          <Logo />
-        </StyledLink>
-        <Navigation>
-          <PublicNav />
-        </Navigation>
-      </HeaderContainer>
-    </WideHeader>
+    <HeaderContainer>
+      <StyledLink to="/">
+        <Logo />
+      </StyledLink>
+      <Navigation>
+        <PublicNav />
+      </Navigation>
+    </HeaderContainer>
   );
 };
 

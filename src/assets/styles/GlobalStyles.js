@@ -318,7 +318,7 @@ export const GlobalStyles = createGlobalStyle`
       }
   }
 
-  #root > div:first-child {
+  /* #root > div:first-child {
     display: flex;
     flex-direction: column;
     height: 100%; min-height: 100vh;
@@ -326,7 +326,7 @@ export const GlobalStyles = createGlobalStyle`
 
   #root > div:first-child > div:nth-child(2) {
     flex: 2;
-  }
+  } */
 
   .particles {
       position: fixed;
@@ -337,31 +337,3 @@ export const GlobalStyles = createGlobalStyle`
       z-index: 10;
   }
 `;
-
-/*
-DARK MODE
-    .dark-mode {
-        color: #fff;
-        background-color: #02101f;
-    }
-
-    .dark-aside {
-        background-color: #15202B;
-        box-shadow: -1px 1px 5px rgba(64, 224, 208, .4), 2px -1px 3px rgba(64, 224, 208, .2);
-    } */
-
-/* h1 {
-  font-size: ${h1FontSize};
-}
-
-h2 {
-  font-size: ${h2FontSize};
-}
-
-h3 {
-  font-size: ${h3FontSize};
-}
-
-h3 {
-  font-size: ${h4FontSize};
-} */
