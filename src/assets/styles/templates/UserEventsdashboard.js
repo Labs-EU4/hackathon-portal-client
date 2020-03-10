@@ -61,6 +61,5 @@ export const HackathonCard = styled.div`
 `;
 
 export const StyledH4 = styled(H4)`
-  margin-top: 60px;
-
+  margin: 70px auto;
 `;

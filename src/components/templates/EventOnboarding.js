@@ -12,7 +12,8 @@ import {
 } from '../../assets/styles/templates/EventOnboarding';
 import { 
   StyledRowHead, 
-  StyledButton 
+  StyledButton,
+  StyledH4
 } from '../../assets/styles/templates/UserEventsdashboard';
 import EventCard from "../molecules/EventCard";
 
@@ -31,23 +32,27 @@ const EventOnboarding = ({ eventModalHandler }) => {
           <MapFormContainer/>
         </MapContainer>
       </HeaderContent>
-      <StyledRowHead>
-        <StyledSectionTitle>Open Hackathons</StyledSectionTitle>
-        <StyledButton 
-          anchor
-          gap
-          href="/#global"
-          // onClick={() => setIsOpenEventClicked(false)}
-        >Global Hackathons</StyledButton>  
-      </StyledRowHead>
-      <StyledRowBody spacing="start">
-        {globalEvents.map(event => {
-          const startTime = new Date(event.start_date).getTime();
-          if(today <= startTime) {
-            return <EventCard key={event.id} event={event} {...{eventModalHandler}} />
-          }
-        })}
-      </StyledRowBody> 
+      {globalEvents.length !== 0 && (
+        <>
+          <StyledRowHead>
+            <StyledSectionTitle>Open Hackathons</StyledSectionTitle>
+            <StyledButton 
+              anchor
+              gap
+              href="/#global"
+              // onClick={() => setIsOpenEventClicked(false)}
+            >Global Hackathons</StyledButton>  
+          </StyledRowHead>
+          <StyledRowBody spacing="start">
+            {globalEvents.map(event => {
+                const startTime = new Date(event.start_date).getTime();
+                if(today <= startTime) {
+                  return <EventCard key={event.id} event={event} {...{eventModalHandler}} />
+                }
+            })}
+          </StyledRowBody> 
+        </>
+      )}
       <StyledRowHead>
         <StyledSectionTitle>Global Hackathons</StyledSectionTitle>
         <StyledButton
@@ -57,9 +62,16 @@ const EventOnboarding = ({ eventModalHandler }) => {
         >Open Hackathons</StyledButton>
       </StyledRowHead>
       <StyledRowBody spacing="start" id="global">
-        {globalEvents.map(event => (
-          <EventCard key={event.id} event={event} {...{eventModalHandler}} />
-        ))}
+        { globalEvents.length !== 0 ? (
+            globalEvents.map(event => (
+              <EventCard key={event.id} event={event} {...{eventModalHandler}} />
+            ))
+          ) : (
+            <StyledH4>
+              There are no global events available
+            </StyledH4>
+          )
+        }
       </StyledRowBody> 
     </BodyContainer> 
   );
