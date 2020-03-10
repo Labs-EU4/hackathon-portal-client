@@ -30,16 +30,14 @@ const mapStyles = {
   height: "100%"
 };
 const EventOnboarding = ({ eventModalHandler }) => {
-  // const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
-  // let { path, url } = useRouteMatch();
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
   const today = new Date().getTime();
-  // const openEvents = globalEvents.filter(event => {
-  //   const startTime = new Date(event.start_date).getTime();
-  //   if(today <= startTime) return event
-  // })
+  const openEvents = globalEvents.filter(event => {
+    const startTime = new Date(event.start_date).getTime();
+    if(today <= startTime) return event
+  })
 
   const googleMapRef = React.createRef();
   const googleMap = useRef(null);
@@ -78,6 +76,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
       marker.current = createMarker();
     });
   });
+  
   return (
     <BodyContainer>
       <HeaderContent id="open">
@@ -90,8 +89,8 @@ const EventOnboarding = ({ eventModalHandler }) => {
         <StyledSectionTitle>Global Hackathons</StyledSectionTitle>
       </StyledRowHead>
       <StyledRowBody spacing="start">
-        {globalEvents.length !== 0 ? (
-          globalEvents.map(event => (
+        {openEvents.length !== 0 ? (
+          openEvents.map(event => (
             <EventCard
               key={event.id}
               event={event}

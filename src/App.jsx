@@ -96,7 +96,7 @@ function App() {
           <UserHeader />
           <RoutesContainer>
             <Switch>
-              <Route path="/about" component={AboutPage} />
+              <Route exact path="/" component={AboutPage} />
               <Route path="/not-found" component={PageNotFound} />
               <Route path="/register" component={SignupPage} />
               <Route path="/login" component={LoginPage} />
