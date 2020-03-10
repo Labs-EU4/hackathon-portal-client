@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import styled from 'styled-components';
+import styled from "styled-components";
 // import { useRouteMatch, Switch, Route } from "react-router-dom";
 
 import {
@@ -9,15 +9,15 @@ import {
   HeaderContent,
   MapContainer,
   MapFormContainer
-} from '../../assets/styles/templates/EventOnboardingStyling';
-import { 
-  StyledRowHead, 
+} from "../../assets/styles/templates/EventOnboardingStyling";
+import {
+  StyledRowHead,
   StyledButton,
   StyledH4
-} from '../../assets/styles/templates/UserEventsdashboardStyling';
+} from "../../assets/styles/templates/UserEventsdashboardStyling";
 import EventCard from "../molecules/EventCard";
 
-const EventOnboarding = ({ eventModalHandler }) => {
+const EventOnboarding = ({ eventModalHandler, pathname }) => {
   // const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
   // let { path, url } = useRouteMatch();
   const events = useSelector(state => state.events.data);
@@ -33,7 +33,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
     <BodyContainer>
       <HeaderContent id="open">
         <MapContainer>
-          <MapFormContainer/>
+          <MapFormContainer />
         </MapContainer>
       </HeaderContent>
       <StyledRowHead>
@@ -42,15 +42,17 @@ const EventOnboarding = ({ eventModalHandler }) => {
       <StyledRowBody spacing="start">
         {globalEvents.length !== 0 ? (
           globalEvents.map(event => (
-            <EventCard key={event.id} event={event} {...{eventModalHandler}} />
-          )) 
+            <EventCard
+              key={event.id}
+              event={event}
+              {...{ eventModalHandler }}
+            />
+          ))
         ) : (
-          <StyledH4>
-            There are no hackathons yet available
-          </StyledH4>
+          <StyledH4>There are no hackathons yet available</StyledH4>
         )}
       </StyledRowBody>
-    </BodyContainer> 
+    </BodyContainer>
   );
 };
 
@@ -63,11 +65,8 @@ const StyledSectionTitle = styled.h2`
   border-left: none;
   border-bottom: none;
 
-  ${({gap}) => gap === true && `margin-left: 10px;` }
+  ${({ gap }) => gap === true && `margin-left: 10px;`}
 `;
-
-
-
 
 // import React from "react";
 // import styled from "styled-components";
@@ -83,8 +82,6 @@ const StyledSectionTitle = styled.h2`
 // import { RowBody } from "../atoms/RowBody";
 // import Button from "../atoms/Button";
 // import { useSelector } from "react-redux";
-
-
 
 // export const BodyContainerColumn = styled(props => (
 //   <BodyContainer {...props} />

@@ -241,7 +241,7 @@ const HackathonSingleProject = (
             link
             color="grey"
             // onClick={() => setIsProjectPageOpen(false)}
-            to={`/dashboard/event/${id}/projects`}
+            to={`/event/${id}/projects`}
           >Back to projects</Button>
           {isJudge && !hasGraded && (
             <Button color="green" onClick={handleSubmit}>

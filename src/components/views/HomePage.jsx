@@ -5,13 +5,17 @@ import { EventOnboarding } from "../templates";
 import { fetchAllEvents } from "../../store/events/actions";
 
 const HomePage = ({ eventModalHandler }) => {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-    React.useEffect(() => {
-        dispatch(fetchAllEvents());
-    }, [dispatch]);
+  React.useEffect(() => {
+    dispatch(fetchAllEvents());
+  }, [dispatch]);
 
-    return <EventOnboarding {...{eventModalHandler}} />;
+  return (
+    <>
+      <EventOnboarding {...{ eventModalHandler }} />
+    </>
+  );
 };
 
 export default HomePage;

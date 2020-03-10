@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import styled, { ThemeProvider } from "styled-components";
@@ -33,6 +33,8 @@ import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
 
 function App() {
+  const { pathname } = useLocation();
+  const currentPath = pathname.split("/")[1];
   const { token } = useSelector(state => state.currentUser);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
@@ -40,13 +42,9 @@ function App() {
   const renderPrivateRoutes = () => {
     return (
       <>
-        <PrivateRoute exact path="/dashboard" component={Dashboard} />
-        <PrivateRoute exact path="/home" component={HomePage} />
-        <PrivateRoute
-          exact
-          path="/dashboard/new"
-          component={HackathonFormPage}
-        />
+        <PrivateRoute path="/dashboard" component={Dashboard} />
+        <PrivateRoute path="/home" component={HomePage} />
+        <PrivateRoute exact path="/event/new" component={HackathonFormPage} />
         <PrivateRoute
           exact
           path="/event/:id/participant_submission"
@@ -54,12 +52,12 @@ function App() {
         />
         <PrivateRoute
           // exact
-          path="/event/:id"
+          path={`/${currentPath}/event/:id`}
           component={HackathonSinglePage}
         />
         <PrivateRoute
           exact
-          path="/dashboard/event/:id/edit"
+          path={`/${currentPath}/event/:id/edit`}
           component={EditHackathon}
         />
         <PrivateRoute exact path="/event/:id/team" component={AddTeammates} />

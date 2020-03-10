@@ -82,7 +82,7 @@ const Nav = ({
         active={isSideBarOpen}
         exact
         link
-        to="/dashboard/new"
+        to="/event/new"
         color="primary"
         size="wide"
         activeClassName="current"

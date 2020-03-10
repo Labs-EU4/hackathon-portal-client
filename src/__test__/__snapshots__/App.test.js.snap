@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <main
-        class="sc-iGrrsa gYBvPb"
+        class="sc-iGrrsa filZtJ"
       >
         <div
           class="sc-bwzfXH dNrEvZ"
@@ -139,7 +139,7 @@ Object {
                   Bio
                 </label>
                 <div
-                  class="sc-elJkPf kaxVzG"
+                  class="sc-gwVKww gwCAsv"
                 >
                   <textarea
                     name="bio"
@@ -216,7 +216,7 @@ Object {
             activeclassname="current"
             class="sc-gzVnrw dVqqDe sc-bRBYWo cbUONd"
             color="primary"
-            href="/dashboard/new"
+            href="/event/new"
           >
             Create
              Event
@@ -278,7 +278,7 @@ Object {
   </body>,
   "container": <div>
     <main
-      class="sc-iGrrsa gYBvPb"
+      class="sc-iGrrsa filZtJ"
     >
       <div
         class="sc-bwzfXH dNrEvZ"
@@ -411,7 +411,7 @@ Object {
                 Bio
               </label>
               <div
-                class="sc-elJkPf kaxVzG"
+                class="sc-gwVKww gwCAsv"
               >
                 <textarea
                   name="bio"
@@ -488,7 +488,7 @@ Object {
           activeclassname="current"
           class="sc-gzVnrw dVqqDe sc-bRBYWo cbUONd"
           color="primary"
-          href="/dashboard/new"
+          href="/event/new"
         >
           Create
            Event

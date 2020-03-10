@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 import {
   StyledEventCard,
@@ -12,17 +13,27 @@ import {
   CardCountDown,
   StyledBookmarkIcon,
   StyledStarIcon
-} from '../../assets/styles/molecules/EventCardStyling';
+} from "../../assets/styles/molecules/EventCardStyling";
 import { Card } from "../../assets/styles/atoms/CardStyling";
 import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
-import eventImg from '../../assets/images/event-img.jpg';
+import eventImg from "../../assets/images/event-img.jpg";
 
 const EventCard = ({ event, eventModalHandler }) => {
-  const { id, event_id, event_title, event_description, organizer_name, organizer_profile_pic, location } = event;
+  const {
+    id,
+    event_id,
+    event_title,
+    event_description,
+    organizer_name,
+    organizer_profile_pic,
+    location
+  } = event;
+  const { pathname } = useLocation();
   const letter = organizer_name && organizer_name.split("")[0];
-  const organizerImg = organizer_profile_pic && JSON.parse(organizer_profile_pic[0]);
+  const organizerImg =
+    organizer_profile_pic && JSON.parse(organizer_profile_pic[0]);
   const excerpt = event_description.substr(0, 100) + "...";
 
   // Date formatting
@@ -34,7 +45,7 @@ const EventCard = ({ event, eventModalHandler }) => {
   const endDate = String(new Date(event.end_date)).split(" ");
   const endDay = endDate[2];
   const endMonth = endDate[1];
-  
+
   return (
     <StyledEventCard>
       <Card>
@@ -42,21 +53,25 @@ const EventCard = ({ event, eventModalHandler }) => {
           <img src={eventImg} alt={event_title} />
         </EventImage>
         <EventCardContent>
-          { 
-            organizer_profile_pic ? (
-              <OrgImg src={organizerImg.avatar} alt={organizer_name} />
-            ) : letter && <StyledIconLetter>{letter}</StyledIconLetter>
-          }
+          {organizer_profile_pic ? (
+            <OrgImg src={organizerImg.avatar} alt={organizer_name} />
+          ) : (
+            letter && <StyledIconLetter>{letter}</StyledIconLetter>
+          )}
           <DateParagraph bold>
-            {
-              startMonth !== endMonth ? (
-                <>{startMonth} {startDay} - {endMonth} {endDay}, {startYear}</>
-              ) : startDay === endDay ? (
-                <>{startMonth} {startDay}, {startYear}</>
-              ) : (
-                <>{startMonth} {startDay} - {endDay}, {startYear}</>
-              )
-            }
+            {startMonth !== endMonth ? (
+              <>
+                {startMonth} {startDay} - {endMonth} {endDay}, {startYear}
+              </>
+            ) : startDay === endDay ? (
+              <>
+                {startMonth} {startDay}, {startYear}
+              </>
+            ) : (
+              <>
+                {startMonth} {startDay} - {endDay}, {startYear}
+              </>
+            )}
           </DateParagraph>
           <H4>{event_title}</H4>
           <LocationParagraph bold>{location}</LocationParagraph>
@@ -66,14 +81,14 @@ const EventCard = ({ event, eventModalHandler }) => {
             <Button
               link
               color="primary-reverse"
-              to={`/event/${event_id || id}`}
+              to={`${pathname}/event/${event_id || id}`}
               // onClick={() => eventModalHandler(event_id || id)}
-            >More Info</Button>
-            <Button 
-              link
-              color="primary"
-              to={`/`}
-            >Join Event</Button>
+            >
+              More Info
+            </Button>
+            <Button link color="primary" to={`/`}>
+              Join Event
+            </Button>
           </EventCTA>
         </EventCardContent>
         <StyledBookmarkIcon icon="bookmark" />
