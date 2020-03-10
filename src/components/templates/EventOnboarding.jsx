@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
 import styled from "styled-components";
 // import { useRouteMatch, Switch, Route } from "react-router-dom";
@@ -17,6 +17,18 @@ import {
 } from "../../assets/styles/templates/UserEventsdashboardStyling";
 import EventCard from "../molecules/EventCard";
 
+// Variables
+const GOOGLE_MAP_API_KEY = process.env.GOOGLE_MAP_API_KEY;
+const myLocation = {
+  // CN Tower Landmark
+  lat: 35.6762,
+  lng: 139.6503
+};
+// styles
+const mapStyles = {
+  width: "100%",
+  height: "100%"
+};
 const EventOnboarding = ({ eventModalHandler }) => {
   // const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
   // let { path, url } = useRouteMatch();
@@ -29,11 +41,49 @@ const EventOnboarding = ({ eventModalHandler }) => {
   //   if(today <= startTime) return event
   // })
 
+  const googleMapRef = React.createRef();
+  const googleMap = useRef(null);
+  const marker = useRef(null);
+
+  // helper functions
+  const createGoogleMap = () =>
+    new window.google.maps.Map(googleMapRef.current, {
+      zoom: 12,
+      zoomControlOptions: {
+        position: window.google.maps.ControlPosition.LEFT_CENTER
+      },
+
+      fullscreenControlOptions: {
+        position: window.google.maps.ControlPosition.LEFT_TOP
+      },
+      center: {
+        lat: myLocation.lat,
+        lng: myLocation.lng
+      }
+    });
+
+  const createMarker = () =>
+    new window.google.maps.Marker({
+      position: { lat: myLocation.lat, lng: myLocation.lng },
+      map: googleMap.current
+    });
+
+  useEffect(() => {
+    const googleMapScript = document.createElement("script");
+    googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAP_API_KEY}&libraries=places`;
+    window.document.body.appendChild(googleMapScript);
+
+    googleMapScript.addEventListener("load", () => {
+      googleMap.current = createGoogleMap();
+      marker.current = createMarker();
+    });
+  });
   return (
     <BodyContainer>
       <HeaderContent id="open">
         <MapContainer>
           <MapFormContainer />
+          <div id="google-map" ref={googleMapRef} style={mapStyles} />
         </MapContainer>
       </HeaderContent>
       <StyledRowHead>

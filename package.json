@@ -17,6 +17,7 @@
     "dotenv": "^8.2.0",
     "enzyme-adapter-react-15": "^1.4.1",
     "formik": "^2.1.2",
+    "google-map-react": "^1.1.6",
     "jest-enzyme": "^7.1.2",
     "jwt-decode": "^2.2.0",
     "moment": "^2.24.0",
