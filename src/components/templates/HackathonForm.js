@@ -107,9 +107,9 @@ const HackathonForm = ({ initialState }) => {
   return (
     <FormContainer>
       <RowHead>
-          <StyledH3>
-            {defaultState.id ? `Edit Hackathon` : `Create New Hackathon`}
-          </StyledH3>
+        <StyledH3>
+          {defaultState.id ? `Edit Hackathon` : `Create New Hackathon`}
+        </StyledH3>
       </RowHead>    
       <Formik
         onSubmit={handleSubmit}

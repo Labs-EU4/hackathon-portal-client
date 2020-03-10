@@ -9,7 +9,7 @@ import Icon from '../../../components/atoms/Icon';
 export const StyledEditIcon = styled(Icon)`
   position: absolute; top: 50%; left: 50%;
   font-size: 2.5rem;
-  color: ${props => props.theme.color.primary.regular};
+  color: ${props => props.theme.color.green.regular};
   z-index: 500;
   transform: translate(-40%, -50%);
 `;

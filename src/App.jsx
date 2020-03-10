@@ -36,13 +36,7 @@ import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionP
 function App() {
   const { token } = useSelector(state => state.currentUser);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
-  // const [isEventModalOpen, setIsEventModalOpen] = useState(false);
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
-
-  // const eventModalHandler = id => {
-  //   setEventId(id);
-  //   setIsEventModalOpen(true);
-  // };
 
   const renderPrivateRoutes = () => {
     return (
@@ -74,16 +68,6 @@ function App() {
           path="/dashboard/event/:id/team"
           component={AddTeammates}
         />
-        {/* <PrivateRoute
-          exact
-          path="/dashboard/profile"
-          component={UserProfilePage}
-        />
-        <PrivateRoute
-          exact
-          path="/dashboard/profile/edit"
-          component={UserProfileFormPage}
-        /> */}
         <PrivateRoute
           path="/dashboard/event/:id/projects"
           component={HackathonProjectsPage}

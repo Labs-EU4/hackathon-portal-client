@@ -184,11 +184,11 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <Button type="submit" size="wide" color="blue">
               {ctaText}
             </Button>
-              {ctaText.toLowerCase() === "log in" && (
-                <StyledAnchor to="/forgotpassword">
-                  Forgot password?
-                </StyledAnchor>
-              )}
+            {ctaText.toLowerCase() === "log in" && (
+              <StyledAnchor to="/forgotpassword">
+                Forgot password?
+              </StyledAnchor>
+            )}
           </Form>
         )}
       </Formik>
