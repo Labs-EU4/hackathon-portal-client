@@ -31,6 +31,11 @@ const items = [
     title: "About",
     url: "/about",
     icon: "info-circle"
+  },
+  {
+    title: "Results",
+    url: "/results",
+    icon: "trophy"
   }
 ];
 

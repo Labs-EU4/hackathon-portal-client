@@ -24,6 +24,10 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
   const today = new Date().getTime();
+  const openEvents = globalEvents.filter(event => {
+    const startTime = new Date(event.start_date).getTime();
+    if(today <= startTime) return event
+  })
 
   return (
     <BodyContainer>
@@ -32,47 +36,20 @@ const EventOnboarding = ({ eventModalHandler }) => {
           <MapFormContainer/>
         </MapContainer>
       </HeaderContent>
-      {globalEvents.length !== 0 && (
-        <>
-          <StyledRowHead>
-            <StyledSectionTitle>Open Hackathons</StyledSectionTitle>
-            <StyledButton 
-              anchor
-              gap
-              href="/#global"
-              // onClick={() => setIsOpenEventClicked(false)}
-            >Global Hackathons</StyledButton>  
-          </StyledRowHead>
-          <StyledRowBody spacing="start">
-            {globalEvents.map(event => {
-                const startTime = new Date(event.start_date).getTime();
-                if(today <= startTime) {
-                  return <EventCard key={event.id} event={event} {...{eventModalHandler}} />
-                }
-            })}
-          </StyledRowBody> 
-        </>
-      )}
       <StyledRowHead>
         <StyledSectionTitle>Global Hackathons</StyledSectionTitle>
-        <StyledButton
-          anchor
-          gap
-          href="/#open"
-        >Open Hackathons</StyledButton>
       </StyledRowHead>
-      <StyledRowBody spacing="start" id="global">
-        { globalEvents.length !== 0 ? (
-            globalEvents.map(event => (
-              <EventCard key={event.id} event={event} {...{eventModalHandler}} />
-            ))
-          ) : (
-            <StyledH4>
-              There are no global events available
-            </StyledH4>
-          )
-        }
-      </StyledRowBody> 
+      <StyledRowBody spacing="start">
+        {openEvents.length !== 0 ? (
+          openEvents.map(event => (
+            <EventCard key={event.id} event={event} {...{eventModalHandler}} />
+          )) 
+        ) : (
+          <StyledH4>
+            There are no hackathons yet available
+          </StyledH4>
+        )}
+      </StyledRowBody>
     </BodyContainer> 
   );
 };
