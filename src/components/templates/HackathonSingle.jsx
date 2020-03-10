@@ -287,15 +287,13 @@ const HackathonSingle = ({
                     <Button
                       color={isRegistered ? "grey" : "green"}
                       {...{
-                        anchor: !individualParticipation,
+                        link: !individualParticipation,
                         onClick: individualParticipation && handleRegistration,
                         to:
                           !individualParticipation &&
                           `/${currentPath}/event/${id}/participant-teams`
                       }}
-                    >
-                      {isRegistered ? `Unregister` : `Register`}
-                    </Button>
+                    >{isRegistered ? `Unregister` : `Register`}</Button>
                   ) : (
                     !isOpen && <Button disabled>Registration Closed</Button>
                   )}

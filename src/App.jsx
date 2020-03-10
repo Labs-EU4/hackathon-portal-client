@@ -47,21 +47,21 @@ function App() {
         <PrivateRoute path="/dashboard" component={Dashboard} />
         <PrivateRoute path="/home" component={HomePage} />
         <PrivateRoute exact path="/event/new" component={HackathonFormPage} />
-        <PrivateRoute
+        {/* <PrivateRoute
           exact
-          path="/event/:id/participant_submission"
+          path={`/${currentPath}/event/:id/participant_submission`}
           component={ParticipantSubmissionPage}
-        />
+        /> */}
         <PrivateRoute
           path={`/${currentPath}/event/:id`}
           component={HackathonSinglePage}
         />
         <PrivateRoute exact path="/event/:id/edit" component={EditHackathon} />
-        <PrivateRoute
+        {/* <PrivateRoute
           exact
           path="dashboard/event/:id/team"
           component={AddTeammates}
-        />
+        /> */}
         <PrivateRoute
           exact
           path={`/${currentPath}/event/:id/projects`}

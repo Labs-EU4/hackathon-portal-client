@@ -25,14 +25,14 @@ export const HeaderContent = styled.div`
 
 export const MapContainer = styled.div`
   position: relative;
-  width: 70%; height: 90%;
+  width: 90%; height: 90%;
   border: 3px solid ${props => props.theme.color.grey.border};
 `;
 
 export const MapFormContainer = styled.div`
-  position: absolute; top: 50%; left: 75%;
+  position: absolute; top: 50%; left: 77%;
   transform: translateY(-50%);
-  width: 300px; height: 200px;
+  width: 280px; height: 200px;
   background-color: ${props => props.theme.color.white.bg};
   border: 3px solid ${props => props.theme.color.primary.regular}; border-radius: 5px;
 `; 

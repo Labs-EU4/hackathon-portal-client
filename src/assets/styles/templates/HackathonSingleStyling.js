@@ -47,18 +47,15 @@ export const ModalBody = styled.div`
   position: absolute; top: 0; left: 0;
   background-color: rgba(0, 0, 0, .4);
   width: 100%; height: 100%;
-  /* padding: 60px 20px; */
+  padding-right: 10px;
   z-index: 100;
 `;
 
 export const StyledEventCard = styled(CardWide)`
   position: relative;
-  min-width: 100%; height: 100%;
-  /* min-width: ${({ menuOpen }) => menuOpen ? 'calc(100% - 60px)' : 'calc(100% - 250px)'}; */
-  /* height: calc(100vh - 110px); */
+  min-width: 99%; height: 100%;
   background-color: ${props => props.active ? 'rgba(0, 0, 0, .8)' : props.theme.color.grey.bg};
   transform: ${props => props.active && 'translateY(80%)'};
-  /* padding-left: 45px; */
   overflow-y: scroll;
   box-shadow: 3px 3px 10px ${props => props.theme.color.black.regular};
   transition: ${props => props.active && 'transform .5s ease'};
@@ -111,11 +108,10 @@ export const JudgeInfo = styled.div`
 
 export const TagsCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
-  position: fixed; left: ${({ menuOpen }) => menuOpen ? 'calc(100% - 395px)' : 'calc(100% - 585px)'}; 
+  position: fixed; left: ${({ menuOpen }) => menuOpen ? 'calc(100% - 395px)' : 'calc(100% - 580px)'}; 
   top: 70px;
   display: ${({ active }) => active && 'none'};
   width: 300px; max-height: calc(100vh - 130px);
-  /* border: 1px solid ${props => props.theme.color.primary.regular}; */
   padding: 8px 5px;
   overflow-y: scroll;
 
