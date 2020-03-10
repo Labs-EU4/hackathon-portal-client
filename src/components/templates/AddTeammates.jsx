@@ -42,7 +42,7 @@ const AddTeammates = ({ setIsAddJudgeOpen }) => {
       return dispatch(addTeamMember(data, history));
     });
     setIsAddJudgeOpen(false);
-    history.push(`/${currentPath}/event/${id}`);
+    history.push(`/${currentPath}`);
   };
 
   const handleExit = () => {

@@ -32,7 +32,6 @@ import { useJudges, useGrades, useSubmissions } from "../../hooks";
 
 const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
   const history = useHistory();
-  // const { id, projectId } = useParams();
   const dispatch = useDispatch();
   const { event_title, rubrics } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
@@ -236,10 +235,8 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
         </SubmissionEntry>
         <ButtonGroup>
           <Button
-            link
             color="grey"
-            // onClick={() => setIsProjectPageOpen(false)}
-            to={`/event/${id}/projects`}
+            onClick={() => setIsProjectPageOpen(false)}
           >Back to projects</Button>
           {isJudge && !hasGraded && (
             <Button color="green" onClick={handleSubmit}>

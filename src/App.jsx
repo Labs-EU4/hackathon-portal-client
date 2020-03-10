@@ -67,11 +67,11 @@ function App() {
           path={`/${currentPath}/event/:id/projects`}
           component={HackathonProjectsPage}
         />
-        <PrivateRoute
+        {/* <PrivateRoute
           exact
           path={`/${currentPath}/event/:id/project/:projectId`}
           component={HackathonProjectPage}
-        />
+        /> */}
         <PrivateRoute
           exact
           path={`/${currentPath}/event/:eventId/participant-teams/:teamId`}

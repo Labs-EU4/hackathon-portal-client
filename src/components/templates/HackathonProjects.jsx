@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Rating from "react-rating";
 
@@ -30,8 +30,6 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
   const { id } = useParams();
   const [isProjectPageOpen, setIsProjectPageOpen] = useState(false);
   const [projectId, setProjectId] = useState(null);
-  const { pathname } = useLocation();
-  const currentPath = pathname.split("/")[1];
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
@@ -100,7 +98,7 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
               )}
               {submissions.map(s => renderSubmission(s))}
             </StyledRowBody>
-            <Button link to={`/${currentPath}/event/${id}`} color="grey">
+            <Button onClick={() => setIsSubmissionsPageOpen(false)} color="grey">
               Back to event
             </Button>
           </>
