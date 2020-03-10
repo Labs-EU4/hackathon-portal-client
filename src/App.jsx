@@ -33,13 +33,19 @@ import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
 import ResultPage from "./components/views/ResultsPage";
 
+import { 
+  initialMenuState, 
+  MenuReducer
+} from './hooks/reducers';
+
 
 function App() {
+  const [state, dispatch] = React.useReducer(MenuReducer, initialMenuState);
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
   const { pathname } = useLocation();
   const currentPath = pathname.split("/")[1];
   const { token } = useSelector(state => state.currentUser);
-  const [isProfileOpen, setIsProfileOpen] = useState(false);
-  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
+  
 
   const renderPrivateRoutes = () => {
     return (
@@ -92,7 +98,7 @@ function App() {
     <>
       <ThemeProvider theme={theme}>
         <GlobalStyles />
-        <AppContainer active={isSideBarOpen}>
+        <AppContainer active={state.isSideBarOpen}>
           <UserHeader />
           <RoutesContainer>
             <Switch>
@@ -120,8 +126,10 @@ function App() {
           <Nav
             {...{ isProfileOpen }}
             {...{ setIsProfileOpen }}
-            {...{ isSideBarOpen }}
-            {...{ setIsSideBarOpen }}
+            isSideBarOpen={state.isSideBarOpen}
+            {...{ dispatch }}
+            // {...{ isSideBarOpen }}
+            // {...{ setIsSideBarOpen }}
           />
         </AppContainer>
         <ToastContainer />
