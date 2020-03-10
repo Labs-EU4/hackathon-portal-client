@@ -8,12 +8,12 @@ import {
   FormContainer,
   StyledForm,
   StyledColumn,
-  StyledFormBtn
+  StyledFormBtn,
+  StyledH3
 } from '../../assets/styles/templates/HackathonForm';
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import Label from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
@@ -107,9 +107,9 @@ const HackathonForm = ({ initialState }) => {
   return (
     <FormContainer>
       <RowHead>
-          <H3>
+          <StyledH3>
             {defaultState.id ? `Edit Hackathon` : `Create New Hackathon`}
-          </H3>
+          </StyledH3>
       </RowHead>    
       <Formik
         onSubmit={handleSubmit}

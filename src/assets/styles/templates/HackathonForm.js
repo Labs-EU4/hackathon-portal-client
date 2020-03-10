@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Form } from "formik";
 
 import Button from "../../../components/atoms/Button";
+import { H3 } from "../atoms/HeadingStyling";
 
 export const FormContainer = styled.div`
   position: relative;
@@ -11,7 +12,7 @@ export const FormContainer = styled.div`
 
 export const StyledForm = styled(Form)`
   display: flex;
-  padding: 20px;
+  padding: 0 20px;
 `;
 
 export const StyledColumn = styled.div`
@@ -28,4 +29,9 @@ export const StyledFormBtn = styled(Button)`
   width: 50%;
   margin-top: 30px;
   transform: translateX(-50%);
+`;
+
+export const StyledH3 = styled(H3)`
+  margin-left: auto; margin-right: auto;
+  font-weight: bold;
 `;
