@@ -7,5 +7,9 @@ export const RowHead = styled.div`
   margin-bottom: 10px;
 
   ${({ center }) => center && `justify-content: center`};
-  ${({ bold }) => bold && `font-weight: bold`};
+  ${({ bold }) => bold && `
+    & * {
+      font-weight: bold
+    }
+  `};
 `;

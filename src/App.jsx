@@ -32,7 +32,6 @@ import HomePage from "./components/views/HomePage";
 import HackathonProjectsPage from "./components/views/HackathonProjectsPage";
 import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
-// import Trial from './components/views/Trial';
 
 function App() {
   const { token } = useSelector(state => state.currentUser);
@@ -52,7 +51,7 @@ function App() {
     return (
       <>
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
-        <PrivateRoute exact path="/" component={Dashboard} />
+        <PrivateRoute exact path="/" component={HomePage} />
         <PrivateRoute
           exact
           path="/dashboard/new"
@@ -119,11 +118,6 @@ function App() {
           <UserHeader />
           <RoutesContainer>
             <Switch>
-              <Route
-                exact
-                path="/"
-                render={() => <HomePage {...{ eventModalHandler }} />}
-              />
               <Route path="/about" component={AboutPage} />
               <Route path="/not-found" component={PageNotFound} />
               <Route path="/register" component={SignupPage} />
@@ -137,7 +131,7 @@ function App() {
               {renderPrivateRoutes()}
               <Redirect to="/not-found" />
             </Switch>
-            {token && !isEventModalOpen && (
+            {!token && (
               <UserProfileFormPage
                 {...{ isProfileOpen }}
                 {...{ setIsProfileOpen }}

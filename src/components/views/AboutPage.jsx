@@ -142,7 +142,6 @@ const SectionTitle = styled.h1`
     }
 `;
 
-    /* ${props => props.theme.flex.custom('flex-start', 'flex-start', 'row', 'wrap')}; */
 const TeamContainer = styled.div`
     ${props => props.theme.shadow.box};
     display: grid;
@@ -151,7 +150,6 @@ const TeamContainer = styled.div`
     margin: 0 auto;
 `;
 
-
 const StarCard = props => {
     return (
         <StyledCard>
@@ -159,8 +157,6 @@ const StarCard = props => {
         </StyledCard>
     );
 };
-
-// export default StarCard;
 
 const StyledCard = styled.div`
     height: 250px;
