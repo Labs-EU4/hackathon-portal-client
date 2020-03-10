@@ -47,17 +47,18 @@ export const ModalBody = styled.div`
   position: absolute; top: 0; left: 0;
   background-color: rgba(0, 0, 0, .4);
   width: 100%; height: 100%;
-  padding: 60px 20px;
+  /* padding: 60px 20px; */
   z-index: 100;
 `;
 
 export const StyledEventCard = styled(CardWide)`
   position: relative;
-  min-width: ${({ menuOpen }) => menuOpen ? 'calc(100% - 60px)' : 'calc(100% - 250px)'};
-  height: calc(100vh - 110px);
+  min-width: 100%; height: 100%;
+  /* min-width: ${({ menuOpen }) => menuOpen ? 'calc(100% - 60px)' : 'calc(100% - 250px)'}; */
+  /* height: calc(100vh - 110px); */
   background-color: ${props => props.active ? 'rgba(0, 0, 0, .8)' : props.theme.color.grey.bg};
   transform: ${props => props.active && 'translateY(80%)'};
-  padding-left: 45px;
+  /* padding-left: 45px; */
   overflow-y: scroll;
   box-shadow: 3px 3px 10px ${props => props.theme.color.black.regular};
   transition: ${props => props.active && 'transform .5s ease'};
@@ -148,26 +149,4 @@ export const PHosted = styled(Paragraph)`
   margin-bottom: 0;
   font-weight: bold;
   color: ${props => props.theme.color.black.regular};
-`;
-
-export const ExitButton = styled.p`
-  ${props => props.theme.flex.center};
-  ${props => props.theme.shadow.box};
-  position: fixed; top: 77px; left: 35px;
-  width: 35px; height: 35px;
-  background-image: linear-gradient(to right, 
-    ${props => props.theme.color.white.regular} 50%, 
-    ${props => props.theme.color.primary.regular} 50%, 
-    ${props => props.theme.color.primary.regular} 100%);
-  background-size: 204%;
-  border-radius: 50%;
-  color: ${props => props.theme.color.black.regular};
-  transition: all .2s;
-  cursor: pointer;
-
-  &:hover {
-    transform: scale(1.1);
-    background-position: 100%;
-    color: ${props => props.theme.color.white.regular};
-  }
 `;

@@ -64,8 +64,10 @@ const EventCard = ({ event, eventModalHandler }) => {
           <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
             <Button
+              link
               color="primary-reverse"
-              onClick={() => eventModalHandler(event_id || id)}
+              to={`/dashboard/event/${event_id || id}`}
+              // onClick={() => eventModalHandler(event_id || id)}
             >More Info</Button>
             <Button 
               link

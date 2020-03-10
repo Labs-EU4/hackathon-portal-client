@@ -54,7 +54,7 @@ function App() {
           component={ParticipantSubmissionPage}
         />
         <PrivateRoute
-          exact
+          // exact
           path="/dashboard/event/:id"
           component={HackathonSinglePage}
         />

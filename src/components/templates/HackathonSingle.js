@@ -21,12 +21,12 @@ import {
   TagCard,
   UserContainer,
   Image,
-  PHosted,
-  ExitButton
+  PHosted
 } from '../../assets/styles/templates/HackathonSingle';
 import { NormalSpan } from "../../assets/styles/atoms/SpanStyling";
 import { H2, H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';
 import Button from "../atoms/Button";
 import Icon from '../atoms/Icon';
@@ -162,6 +162,7 @@ const HackathonSingle = ({
   };
 
   const handleExit = () => {
+    //!!THIS NEED TO BE CHANGED(MAYBE USER HISTORY.PUSH())
     setIsEventModalOpen(false);
     setIsSlideForm(false);
   };

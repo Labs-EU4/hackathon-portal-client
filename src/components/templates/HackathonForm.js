@@ -14,7 +14,9 @@ import {
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
+import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 import Label from "../../assets/styles/atoms/LabelStyling";
+import Icon from "../atoms/Icon";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
 import TextArea from "../atoms/TextArea";
@@ -68,6 +70,10 @@ const HackathonForm = ({ initialState }) => {
     }
   };
 
+  const handleExit = () => {
+    history.push('/dashboard');
+  };
+
   const schema = Yup.object().shape({
     event_title: Yup.string()
       .matches(/\b.*[a-zA-Z]+.*\b/, "Hackathon title cannot be just a number.")
@@ -110,6 +116,10 @@ const HackathonForm = ({ initialState }) => {
         <StyledH3>
           {defaultState.id ? `Edit Hackathon` : `Create New Hackathon`}
         </StyledH3>
+        <ExitButton 
+          onClick={handleExit}
+          color="primary"
+        ><Icon icon="times" /></ExitButton>
       </RowHead>    
       <Formik
         onSubmit={handleSubmit}
