@@ -42,7 +42,7 @@ function App() {
     return (
       <>
         <PrivateRoute exact path="/dashboard" component={Dashboard} />
-        <PrivateRoute exact path="/" component={HomePage} />
+        <PrivateRoute exact path="/home" component={HomePage} />
         <PrivateRoute
           exact
           path="/dashboard/new"
@@ -50,12 +50,12 @@ function App() {
         />
         <PrivateRoute
           exact
-          path="/dashboard/event/:id/participant_submission"
+          path="/event/:id/participant_submission"
           component={ParticipantSubmissionPage}
         />
         <PrivateRoute
           // exact
-          path="/dashboard/event/:id"
+          path="/event/:id"
           component={HackathonSinglePage}
         />
         <PrivateRoute
@@ -65,26 +65,26 @@ function App() {
         />
         <PrivateRoute
           exact
-          path="/dashboard/event/:id/team"
+          path="/event/:id/team"
           component={AddTeammates}
         />
         <PrivateRoute
-          path="/dashboard/event/:id/projects"
+          path="/event/:id/projects"
           component={HackathonProjectsPage}
         />
         <PrivateRoute
           exact
-          path="/dashboard/event/:id/project/:projectId"
+          path="/event/:id/project/:projectId"
           component={HackathonProjectPage}
         />
         <PrivateRoute
           exact
-          path="/dashboard/event/:eventId/participant-teams/:teamId"
+          path="/event/:eventId/participant-teams/:teamId"
           component={AddParticipantTeam}
         />
         <PrivateRoute
           exact
-          path="/dashboard/event/:id/participant-teams"
+          path="/event/:id/participant-teams"
           component={CreateTeam}
         />
       </>

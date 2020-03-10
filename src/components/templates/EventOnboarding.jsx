@@ -24,10 +24,10 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
   const today = new Date().getTime();
-  const openEvents = globalEvents.filter(event => {
-    const startTime = new Date(event.start_date).getTime();
-    if(today <= startTime) return event
-  })
+  // const openEvents = globalEvents.filter(event => {
+  //   const startTime = new Date(event.start_date).getTime();
+  //   if(today <= startTime) return event
+  // })
 
   return (
     <BodyContainer>
@@ -40,8 +40,8 @@ const EventOnboarding = ({ eventModalHandler }) => {
         <StyledSectionTitle>Global Hackathons</StyledSectionTitle>
       </StyledRowHead>
       <StyledRowBody spacing="start">
-        {openEvents.length !== 0 ? (
-          openEvents.map(event => (
+        {globalEvents.length !== 0 ? (
+          globalEvents.map(event => (
             <EventCard key={event.id} event={event} {...{eventModalHandler}} />
           )) 
         ) : (

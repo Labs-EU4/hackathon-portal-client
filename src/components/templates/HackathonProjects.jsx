@@ -79,7 +79,7 @@ const HackathonProjects = (
           <Button
             link
             color="blue"
-            to={`/dashboard/event/${id}/project/${s.id}`}
+            to={`/event/${id}/project/${s.id}`}
           >View Project</Button>
         </SubmissionContent>
       </SubmissionEntry>
@@ -107,7 +107,7 @@ const HackathonProjects = (
             {/* <Button onClick={() => setIsSubmissionsPageOpen(false)} color="grey">
               Back to event
             </Button> */}
-            <Button link to={`/dashboard/event/${id}`} color="grey">
+            <Button link to={`/event/${id}`} color="grey">
                 Back to event
             </Button>
           </>

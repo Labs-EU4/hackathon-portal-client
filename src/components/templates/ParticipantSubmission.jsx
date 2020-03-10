@@ -178,7 +178,7 @@ const ParticipantSubmission = ({
                   link
                   color="grey"
                   //!! CHANGE THIS INTO A DYNAMIC ROUTE BASED OR GO BACK IN HISTORY
-                  to="/dashboard"
+                  to="/dashboard" 
                   // to={pathname === "/" ? "/" : "/dashboard"}
                   // onClick={() => setIsSubmitProjectOpen(false)}
                 >

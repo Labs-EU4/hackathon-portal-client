@@ -42,41 +42,6 @@ Object {
           class="sc-bmyXtO jAlBns"
         >
           <div
-            class="sc-jhAzac eVpTYA"
-          >
-            <div
-              class="sc-fMiknA NLBYm"
-              id="open"
-            >
-              <div
-                class="sc-dVhcbM uRyTZ"
-              >
-                <div
-                  class="sc-eqIVtm fcTRNo"
-                />
-              </div>
-            </div>
-            <div
-              class="sc-fAjcbJ sc-kjoXOD fcBEiV"
-            >
-              <h2
-                class="sc-ktHwxA hWxKzg"
-              >
-                Global Hackathons
-              </h2>
-            </div>
-            <div
-              class="sc-fBuWsC jpumSj"
-              spacing="start"
-            >
-              <h4
-                class="sc-dxgOiQ sc-cJSrbW fsnAYy"
-              >
-                There are no hackathons yet available
-              </h4>
-            </div>
-          </div>
-          <div
             class="sc-jWBwVP sc-eilVRo eDKJFX"
           >
             <form
@@ -260,9 +225,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              aria-current="page"
-              class="sc-gipzik hCERMa current"
-              href="/"
+              class="sc-gipzik hCERMa"
+              href="/home"
             >
               <span>
                 Home
@@ -349,41 +313,6 @@ Object {
       <div
         class="sc-bmyXtO jAlBns"
       >
-        <div
-          class="sc-jhAzac eVpTYA"
-        >
-          <div
-            class="sc-fMiknA NLBYm"
-            id="open"
-          >
-            <div
-              class="sc-dVhcbM uRyTZ"
-            >
-              <div
-                class="sc-eqIVtm fcTRNo"
-              />
-            </div>
-          </div>
-          <div
-            class="sc-fAjcbJ sc-kjoXOD fcBEiV"
-          >
-            <h2
-              class="sc-ktHwxA hWxKzg"
-            >
-              Global Hackathons
-            </h2>
-          </div>
-          <div
-            class="sc-fBuWsC jpumSj"
-            spacing="start"
-          >
-            <h4
-              class="sc-dxgOiQ sc-cJSrbW fsnAYy"
-            >
-              There are no hackathons yet available
-            </h4>
-          </div>
-        </div>
         <div
           class="sc-jWBwVP sc-eilVRo eDKJFX"
         >
@@ -568,9 +497,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            aria-current="page"
-            class="sc-gipzik hCERMa current"
-            href="/"
+            class="sc-gipzik hCERMa"
+            href="/home"
           >
             <span>
               Home
