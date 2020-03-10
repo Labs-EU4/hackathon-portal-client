@@ -6,7 +6,6 @@ import styled, { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./assets/styles/GlobalStylesStyling";
 import { theme } from "./assets/styles/ThemeStyling";
-// import { media } from "./assets/styles/variables/media";
 
 import UserHeader from "./components/organisms/UserHeader";
 import { Footer } from "./components/organisms/index";
@@ -20,7 +19,7 @@ import PrivateRoute from "./components/organisms/PrivateRoute";
 import EditHackathon from "./components/templates/EditHackathon";
 import AddTeammates from "./components/templates/AddTeammates";
 import "react-toastify/dist/ReactToastify.css";
-import AboutPage from './components/views/AboutPage';
+import AboutPage from "./components/views/AboutPage";
 import PageNotFound from "./components/views/PageNotFound";
 import UserProfileFormPage from "./components/views/UserProfileFormPage";
 import CreateTeam from "./components/templates/CreateTeam";
@@ -63,11 +62,7 @@ function App() {
           path="/dashboard/event/:id/edit"
           component={EditHackathon}
         />
-        <PrivateRoute
-          exact
-          path="/event/:id/team"
-          component={AddTeammates}
-        />
+        <PrivateRoute exact path="/event/:id/team" component={AddTeammates} />
         <PrivateRoute
           path="/event/:id/projects"
           component={HackathonProjectsPage}
@@ -117,8 +112,7 @@ function App() {
                 {...{ isProfileOpen }}
                 {...{ setIsProfileOpen }}
               />
-              ) : null
-            }
+            ) : null}
           </RoutesContainer>
           <Footer />
           <Nav
@@ -138,11 +132,10 @@ export default App;
 
 const AppContainer = styled.main`
   display: grid;
-  grid-template-columns: ${({ active }) => active ? 
-    '20px auto auto 60px' : '20px auto auto 250px'
-  };
-  grid-template-rows: 60px auto  auto 25px;
-  grid-template-areas: 
+  grid-template-columns: ${({ active }) =>
+    active ? "20px auto auto 60px" : "20px auto auto 250px"};
+  grid-template-rows: 60px auto auto 25px;
+  grid-template-areas:
     " header header header aside"
     "  gap    main   main  aside"
     "  gap    main   main  aside"
@@ -165,104 +158,3 @@ const RoutesContainer = styled.div`
     height: 0;
   }
 `;
-
-// import React from "react";
-// import { Route, Switch, Redirect } from "react-router-dom";
-// import { ToastContainer } from "react-toastify";
-
-// import { GlobalStyles } from "./components/index";
-// import SignupPage from "./components/views/SignupPage";
-// import LoginPage from "./components/views/LoginPage";
-// import Dashboard from "./components/views/Dashboard";
-// import HackathonFormPage from "./components/views/HackathonFormPage";
-// import HackathonSinglePage from "./components/views/HackathonSinglePage";
-
-// import PrivateRoute from "./components/organisms/PrivateRoute";
-// import EditHackathon from "./components/templates/EditHackathon";
-// import AddTeammates from "./components/templates/AddTeammates";
-
-// import "react-toastify/dist/ReactToastify.css";
-// import PageNotFound from "./components/views/PageNotFound";
-// import UserProfileFormPage from "./components/views/UserProfileFormPage";
-// import UserProfilePage from "./components/views/UserProfilePage";
-// import CreateTeam from "./components/templates/CreateTeam";
-// import AddParticipantTeam from "./components/templates/AddParticipantTeams";
-// import ResetPassword from './components/views/resetPassword/ResetPassword';
-// import ResetPasswordConfirmation from './components/views/resetPassword/ResetPasswordConfirmation';
-// import NewPassword from './components/views/resetPassword/NewPassword';
-
-// function App() {
-//   return (
-//     <>
-//       <GlobalStyles />
-//       <Switch>
-//         <Route exact path="/not-found" component={PageNotFound} />
-//         <Route path="/register" component={SignupPage} />
-//         <Route exact path="/login" component={LoginPage} />
-//         <Route exact path="/forgotpassword" component={ResetPassword} />
-//         <Route exact path="/resetPasswordConfirmation" component={ResetPasswordConfirmation} />
-//         <Route exact path="/resetpassword" component={NewPassword} />
-//         <PrivateRoute exact path="/dashboard" component={Dashboard} />
-//         <PrivateRoute exact path="/" component={Dashboard} />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/new"
-//           component={HackathonFormPage}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/event/:id/participant_submission"
-//           component={ParticipantSubmissionPage}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/event/:id"
-//           component={HackathonSinglePage}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/event/:id/edit"
-//           component={EditHackathon}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/event/:id/team"
-//           component={AddTeammates}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/profile"
-//           component={UserProfilePage}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/profile/edit"
-//           component={UserProfileFormPage}
-//         />
-//         <PrivateRoute
-//           path="/dashboard/event/:id/projects"
-//           component={HackathonProjectsPage}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/event/:id/project/:projectId"
-//           component={HackathonProjectPage}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/event/:eventId/participant-teams/:teamId"
-//           component={AddParticipantTeam}
-//         />
-//         <PrivateRoute
-//           exact
-//           path="/dashboard/event/:id/participant-teams"
-//           component={CreateTeam}
-//         />
-//         <Redirect to="/not-found" />
-//       </Switch>
-//       <ToastContainer />
-//     </>
-//   );
-// }
-
-// export default App;
