@@ -18,7 +18,7 @@ import {
 import EventCard from "../molecules/EventCard";
 
 // Variables
-const GOOGLE_MAP_API_KEY = process.env.GOOGLE_MAP_API_KEY;
+const GOOGLE_MAP_API_KEY = "AIzaSyBlSZRd1pc8t73WzRU7jDmnovZl287cxL8";
 const myLocation = {
   // CN Tower Landmark
   lat: 35.6762,
