@@ -5,542 +5,658 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <main
+        class="sc-dEoRIm iELkaD"
+      >
         <div
-          class="sc-hMqMXs czlISr"
+          class="sc-bwzfXH dNrEvZ"
         >
-          <div
-            class="sc-kEYyzF cNoziI"
+          <a
+            class="sc-gqjmRU eYqZJu"
+            href="/"
           >
-            <a
-              href="/dashboard"
+            <figure
+              class="sc-bxivhb bUTdeA"
             >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-kkGfuU bOdlBp"
-                src="Hackton-logo.png"
-              />
-            </a>
+              <p>
+                HackHunt
+              </p>
+            </figure>
+          </a>
+          <div
+            class="sc-gZMcBi eWgQP"
+          >
             <div
-              class="sc-bXGyLb ZQJbb"
+              class="sc-dnqmqq dbnRJu"
             >
-              <div
-                class="sc-jWBwVP jdnOGp"
+              <button
+                class="sc-bZQynM bBNbpz sc-iwsKbI bcPqlG"
+                color="grey"
               >
-                <span>
-                  <svg>
-                    link-burger-icon.svg
-                  </svg>
-                  Menu
-                </span>
-                <ul>
-                  <li>
-                    <a
-                      class="sc-brqgnP gKNmlg"
-                      href="/dashboard"
-                    >
-                      Dashboard
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="sc-brqgnP gKNmlg"
-                      href="/dashboard/profile"
-                    >
-                      Profile
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="sc-cMljjf fTRGqC"
-              >
-                8
-                <ul
-                  class="sc-jAaTju dnJrQh"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
         <div
-          class="sc-hSdWYo hwSTiP"
+          class="sc-jtggT ipAkPH"
         >
           <div
-            class="sc-cvbbAY hChxuq"
-          >
-            <a
-              class="sc-brqgnP gKNmlg"
-              href="/dashboard"
-            >
-              <svg>
-                link-dashboard-icon.svg
-              </svg>
-              Dashboard
-            </a>
-            <a
-              class="sc-brqgnP gKNmlg"
-              href="/dashboard/profile"
-            >
-              <svg>
-                link-profile-icon.svg
-              </svg>
-              Profile
-            </a>
-          </div>
-          <div
-            class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+            class="sc-kUaPvJ kIJmjB"
           >
             <div
-              class="sc-hzDkRC bkkbax"
+              class="sc-giadOv hrJtEp"
             >
-              <h3
-                class="sc-kAzzGY eOJFvg"
+              <div
+                class="sc-fONwsr dSGExm"
               >
-                My hackathons
-              </h3>
-              <a
-                href="/dashboard/new"
+                <figure
+                  class="sc-bxivhb dATcbn"
+                >
+                  <p>
+                    HackHunt
+                  </p>
+                </figure>
+                <div
+                  class="sc-VJcYb cktpud"
+                >
+                  Let's make your next hackathon a success!
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-ipXKqB gWThCM"
+            >
+              <h1
+                class="sc-hmXxxW dJjTyE"
+              >
+                Meet our team of superstars
+                <hr />
+              </h1>
+              <div
+                class="sc-cqCuEk gbfjrE"
+              >
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-jWBwVP sc-ipZHIp hDcgBY"
+          >
+            <form
+              action="#"
+            >
+              <div
+                class="sc-fAjcbJ mKnJd"
+              >
+                <h3
+                  class="sc-kpOJdX bVmkrR"
+                >
+                  Edit Profile
+                </h3>
+              </div>
+              <div
+                class="sc-caSCKo boEoJN"
+              >
+                <label
+                  class="sc-kkGfuU jVfFVH"
+                  for="fullname"
+                >
+                  Full Name
+                </label>
+                <input
+                  class="sc-iAyFgw fcSPUw"
+                  display="wide"
+                  name="fullname"
+                  placeholder="Full Name"
+                  type="text"
+                  value="Jake Tom"
+                />
+              </div>
+              <div
+                class="sc-caSCKo boEoJN"
+              >
+                <label
+                  class="sc-kkGfuU jVfFVH"
+                  for="username"
+                >
+                  Username
+                </label>
+                <input
+                  class="sc-iAyFgw fcSPUw"
+                  display="wide"
+                  name="username"
+                  placeholder="Username"
+                  type="text"
+                  value="Jake22"
+                />
+              </div>
+              <div
+                class="sc-caSCKo boEoJN"
+              >
+                <label
+                  class="sc-kkGfuU jVfFVH"
+                  for="email"
+                >
+                  Email
+                </label>
+                <input
+                  class="sc-iAyFgw fcSPUw"
+                  display="wide"
+                  name="email"
+                  placeholder="Email"
+                  type="text"
+                  value="8omemail@google.com"
+                />
+              </div>
+              <div
+                class="sc-caSCKo boEoJN"
+              >
+                <label
+                  class="sc-kkGfuU jVfFVH"
+                  for="image"
+                >
+                  Profile Image
+                </label>
+                <input
+                  accept="image/*"
+                  class="sc-iAyFgw fcSPUw"
+                  display="wide"
+                  name="image_url"
+                  placeholder="Profile picture"
+                  type="file"
+                  value=""
+                />
+              </div>
+              <div
+                class="sc-caSCKo boEoJN"
+              >
+                <label
+                  class="sc-kkGfuU jVfFVH"
+                  for="bio"
+                >
+                  Bio
+                </label>
+                <div
+                  class="sc-exAgwC bcxlII"
+                >
+                  <textarea
+                    name="bio"
+                    placeholder="bio"
+                  >
+                    I like coding 
+                  </textarea>
+                </div>
+              </div>
+              <div
+                class="sc-caSCKo sc-iGrrsa daaZgQ"
               >
                 <button
-                  class="sc-kGXeez eIcrHu"
+                  class="sc-bZQynM kRVgna sc-bmyXtO gtRxxA"
                   color="green"
+                  type="submit"
                 >
-                  Create New
+                  Save Changes
                 </button>
-              </a>
-            </div>
-            <div
-              class="sc-jhAzac hhkJyU"
-              spacing="start"
-            >
-              <a
-                class="sc-bRBYWo jvQaxX"
-                href="/dashboard/event/1"
-              >
-                <div
-                  class="sc-jDwBTQ umkbw"
-                >
-                  <div
-                    class="sc-gipzik epLwGU"
-                  >
-                    E
-                  </div>
-                  <h4
-                    class="sc-chPdSV eqzTuS"
-                  >
-                    EuroHack
-                  </h4>
-                  <p
-                    class="sc-gqjmRU hBlNFb"
-                  >
-                    the best event hack hack hack macbook...
-                  </p>
-                  <div
-                    class="sc-csuQGl fUdZHz"
-                  >
-                    <div
-                      class="sc-jlyJG dxlnBr"
-                    />
-                    <span
-                      class="sc-dxgOiQ sc-Rmtcm fkRdDS"
-                      data-testid="date-EuroHack"
-                    >
-                      10/9/2011
-                    </span>
-                  </div>
-                </div>
-              </a>
-              <a
-                class="sc-bRBYWo jvQaxX"
-                href="/dashboard/event/2"
-              >
-                <div
-                  class="sc-jDwBTQ umkbw"
-                >
-                  <div
-                    class="sc-gipzik epLwGU"
-                  >
-                    W
-                  </div>
-                  <h4
-                    class="sc-chPdSV eqzTuS"
-                  >
-                    World
-                  </h4>
-                  <p
-                    class="sc-gqjmRU hBlNFb"
-                  >
-                    number one hacker event in the world...
-                  </p>
-                  <div
-                    class="sc-csuQGl fUdZHz"
-                  >
-                    <div
-                      class="sc-jlyJG dxlnBr"
-                    />
-                    <span
-                      class="sc-dxgOiQ sc-Rmtcm fkRdDS"
-                      data-testid="date-World"
-                    >
-                      7/9/2011
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div
-              class="sc-hzDkRC bkkbax"
-            >
-              <h3
-                class="sc-kAzzGY eOJFvg"
-              >
-                Global hackathons
-              </h3>
-            </div>
-            <div
-              class="sc-jhAzac hhkJyU"
-              spacing="start"
-            />
+              </div>
+            </form>
           </div>
         </div>
         <div
-          class="sc-ifAKCX gzLxUf"
+          class="sc-VigVT hLMaDr"
         >
-          <div
-            class="sc-EHOje vwgiQ"
+          <p
+            class="sc-cSHVUG dgJmvK"
           >
-            <div>
-              <img
-                alt="LinkedIn"
-                class="sc-bZQynM cBEFRm"
-                src="Icon-linkedin.png"
-              />
-              <img
-                alt="Twitter"
-                class="sc-bZQynM cBEFRm"
-                src="Icon-twitter.png"
-              />
-              <img
-                alt="Facebook"
-                class="sc-bZQynM cBEFRm"
-                src="Icon-facebook.png"
-              />
-            </div>
-            <div>
-              <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
-                href="https://hackton.co/#team"
-              >
-                Team
-              </a>
-              <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
-                href="#"
-              >
-                Privacy
-              </a>
-              <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
-                href="#"
-              >
-                Contacts
-              </a>
-            </div>
-            <div>
-              <p
-                class="sc-gqjmRU sc-VigVT jKKcEs"
-              >
-                International Crafters © 2020
-              </p>
-            </div>
+            International Crafters © 2020
+          </p>
+          <div>
+            <a
+              class="sc-jTzLTM sc-jzJRlG dvjhjb"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-jTzLTM sc-jzJRlG dvjhjb"
+              href="#"
+            >
+              Contacts
+            </a>
           </div>
         </div>
-      </div>
+        <div
+          class="sc-iRbamj boWdgo"
+        >
+          <div
+            class="sc-Rmtcm eRdoZN"
+          >
+            <div
+              class="sc-jlyJG iszuWf"
+            >
+              <img
+                alt="Jake22"
+                class="sc-hzDkRC isQXDX"
+                src="user_icon.svg"
+              />
+              <div
+                class="sc-gPEVay kKNemZ"
+              >
+                <p>
+                  Jake Tom
+                </p>
+                <p>
+                  8omemail@google.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            activeclassname="current"
+            class="sc-gzVnrw dVqqDe sc-bRBYWo cbUONd"
+            color="primary"
+            href="/event/new"
+          >
+            Create
+             Event
+          </a>
+          <div
+            style="width: 100%; position: relative;"
+          >
+            <a
+              class="sc-gipzik hCERMa"
+              href="/home"
+            >
+              <span>
+                Home
+              </span>
+            </a>
+          </div>
+          <div
+            style="width: 100%; position: relative;"
+          >
+            <a
+              class="sc-gipzik hCERMa"
+              href="/dashboard"
+            >
+              <span>
+                Dashboard
+              </span>
+            </a>
+          </div>
+          <div
+            style="width: 100%; position: relative;"
+          >
+            <a
+              aria-current="page"
+              class="sc-gipzik hCERMa current"
+              href="/"
+            >
+              <span>
+                About
+              </span>
+            </a>
+          </div>
+          <div
+            style="width: 100%; position: relative;"
+          >
+            <a
+              class="sc-gipzik hCERMa"
+              href="/results"
+            >
+              <span>
+                Results
+              </span>
+            </a>
+          </div>
+        </div>
+      </main>
       <div
         class="Toastify"
       />
     </div>
   </body>,
   "container": <div>
-    <div>
+    <main
+      class="sc-dEoRIm iELkaD"
+    >
       <div
-        class="sc-hMqMXs czlISr"
+        class="sc-bwzfXH dNrEvZ"
       >
-        <div
-          class="sc-kEYyzF cNoziI"
+        <a
+          class="sc-gqjmRU eYqZJu"
+          href="/"
         >
-          <a
-            href="/dashboard"
+          <figure
+            class="sc-bxivhb bUTdeA"
           >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-kkGfuU bOdlBp"
-              src="Hackton-logo.png"
-            />
-          </a>
+            <p>
+              HackHunt
+            </p>
+          </figure>
+        </a>
+        <div
+          class="sc-gZMcBi eWgQP"
+        >
           <div
-            class="sc-bXGyLb ZQJbb"
+            class="sc-dnqmqq dbnRJu"
           >
-            <div
-              class="sc-jWBwVP jdnOGp"
+            <button
+              class="sc-bZQynM bBNbpz sc-iwsKbI bcPqlG"
+              color="grey"
             >
-              <span>
-                <svg>
-                  link-burger-icon.svg
-                </svg>
-                Menu
-              </span>
-              <ul>
-                <li>
-                  <a
-                    class="sc-brqgnP gKNmlg"
-                    href="/dashboard"
-                  >
-                    Dashboard
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="sc-brqgnP gKNmlg"
-                    href="/dashboard/profile"
-                  >
-                    Profile
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="sc-cMljjf fTRGqC"
-            >
-              8
-              <ul
-                class="sc-jAaTju dnJrQh"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
       <div
-        class="sc-hSdWYo hwSTiP"
+        class="sc-jtggT ipAkPH"
       >
         <div
-          class="sc-cvbbAY hChxuq"
-        >
-          <a
-            class="sc-brqgnP gKNmlg"
-            href="/dashboard"
-          >
-            <svg>
-              link-dashboard-icon.svg
-            </svg>
-            Dashboard
-          </a>
-          <a
-            class="sc-brqgnP gKNmlg"
-            href="/dashboard/profile"
-          >
-            <svg>
-              link-profile-icon.svg
-            </svg>
-            Profile
-          </a>
-        </div>
-        <div
-          class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+          class="sc-kUaPvJ kIJmjB"
         >
           <div
-            class="sc-hzDkRC bkkbax"
+            class="sc-giadOv hrJtEp"
           >
-            <h3
-              class="sc-kAzzGY eOJFvg"
+            <div
+              class="sc-fONwsr dSGExm"
             >
-              My hackathons
-            </h3>
-            <a
-              href="/dashboard/new"
+              <figure
+                class="sc-bxivhb dATcbn"
+              >
+                <p>
+                  HackHunt
+                </p>
+              </figure>
+              <div
+                class="sc-VJcYb cktpud"
+              >
+                Let's make your next hackathon a success!
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-ipXKqB gWThCM"
+          >
+            <h1
+              class="sc-hmXxxW dJjTyE"
+            >
+              Meet our team of superstars
+              <hr />
+            </h1>
+            <div
+              class="sc-cqCuEk gbfjrE"
+            >
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-jWBwVP sc-ipZHIp hDcgBY"
+        >
+          <form
+            action="#"
+          >
+            <div
+              class="sc-fAjcbJ mKnJd"
+            >
+              <h3
+                class="sc-kpOJdX bVmkrR"
+              >
+                Edit Profile
+              </h3>
+            </div>
+            <div
+              class="sc-caSCKo boEoJN"
+            >
+              <label
+                class="sc-kkGfuU jVfFVH"
+                for="fullname"
+              >
+                Full Name
+              </label>
+              <input
+                class="sc-iAyFgw fcSPUw"
+                display="wide"
+                name="fullname"
+                placeholder="Full Name"
+                type="text"
+                value="Jake Tom"
+              />
+            </div>
+            <div
+              class="sc-caSCKo boEoJN"
+            >
+              <label
+                class="sc-kkGfuU jVfFVH"
+                for="username"
+              >
+                Username
+              </label>
+              <input
+                class="sc-iAyFgw fcSPUw"
+                display="wide"
+                name="username"
+                placeholder="Username"
+                type="text"
+                value="Jake22"
+              />
+            </div>
+            <div
+              class="sc-caSCKo boEoJN"
+            >
+              <label
+                class="sc-kkGfuU jVfFVH"
+                for="email"
+              >
+                Email
+              </label>
+              <input
+                class="sc-iAyFgw fcSPUw"
+                display="wide"
+                name="email"
+                placeholder="Email"
+                type="text"
+                value="8omemail@google.com"
+              />
+            </div>
+            <div
+              class="sc-caSCKo boEoJN"
+            >
+              <label
+                class="sc-kkGfuU jVfFVH"
+                for="image"
+              >
+                Profile Image
+              </label>
+              <input
+                accept="image/*"
+                class="sc-iAyFgw fcSPUw"
+                display="wide"
+                name="image_url"
+                placeholder="Profile picture"
+                type="file"
+                value=""
+              />
+            </div>
+            <div
+              class="sc-caSCKo boEoJN"
+            >
+              <label
+                class="sc-kkGfuU jVfFVH"
+                for="bio"
+              >
+                Bio
+              </label>
+              <div
+                class="sc-exAgwC bcxlII"
+              >
+                <textarea
+                  name="bio"
+                  placeholder="bio"
+                >
+                  I like coding 
+                </textarea>
+              </div>
+            </div>
+            <div
+              class="sc-caSCKo sc-iGrrsa daaZgQ"
             >
               <button
-                class="sc-kGXeez eIcrHu"
+                class="sc-bZQynM kRVgna sc-bmyXtO gtRxxA"
                 color="green"
+                type="submit"
               >
-                Create New
+                Save Changes
               </button>
-            </a>
-          </div>
-          <div
-            class="sc-jhAzac hhkJyU"
-            spacing="start"
-          >
-            <a
-              class="sc-bRBYWo jvQaxX"
-              href="/dashboard/event/1"
-            >
-              <div
-                class="sc-jDwBTQ umkbw"
-              >
-                <div
-                  class="sc-gipzik epLwGU"
-                >
-                  E
-                </div>
-                <h4
-                  class="sc-chPdSV eqzTuS"
-                >
-                  EuroHack
-                </h4>
-                <p
-                  class="sc-gqjmRU hBlNFb"
-                >
-                  the best event hack hack hack macbook...
-                </p>
-                <div
-                  class="sc-csuQGl fUdZHz"
-                >
-                  <div
-                    class="sc-jlyJG dxlnBr"
-                  />
-                  <span
-                    class="sc-dxgOiQ sc-Rmtcm fkRdDS"
-                    data-testid="date-EuroHack"
-                  >
-                    10/9/2011
-                  </span>
-                </div>
-              </div>
-            </a>
-            <a
-              class="sc-bRBYWo jvQaxX"
-              href="/dashboard/event/2"
-            >
-              <div
-                class="sc-jDwBTQ umkbw"
-              >
-                <div
-                  class="sc-gipzik epLwGU"
-                >
-                  W
-                </div>
-                <h4
-                  class="sc-chPdSV eqzTuS"
-                >
-                  World
-                </h4>
-                <p
-                  class="sc-gqjmRU hBlNFb"
-                >
-                  number one hacker event in the world...
-                </p>
-                <div
-                  class="sc-csuQGl fUdZHz"
-                >
-                  <div
-                    class="sc-jlyJG dxlnBr"
-                  />
-                  <span
-                    class="sc-dxgOiQ sc-Rmtcm fkRdDS"
-                    data-testid="date-World"
-                  >
-                    7/9/2011
-                  </span>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div
-            class="sc-hzDkRC bkkbax"
-          >
-            <h3
-              class="sc-kAzzGY eOJFvg"
-            >
-              Global hackathons
-            </h3>
-          </div>
-          <div
-            class="sc-jhAzac hhkJyU"
-            spacing="start"
-          />
+            </div>
+          </form>
         </div>
       </div>
       <div
-        class="sc-ifAKCX gzLxUf"
+        class="sc-VigVT hLMaDr"
       >
-        <div
-          class="sc-EHOje vwgiQ"
+        <p
+          class="sc-cSHVUG dgJmvK"
         >
-          <div>
-            <img
-              alt="LinkedIn"
-              class="sc-bZQynM cBEFRm"
-              src="Icon-linkedin.png"
-            />
-            <img
-              alt="Twitter"
-              class="sc-bZQynM cBEFRm"
-              src="Icon-twitter.png"
-            />
-            <img
-              alt="Facebook"
-              class="sc-bZQynM cBEFRm"
-              src="Icon-facebook.png"
-            />
-          </div>
-          <div>
-            <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
-              href="https://hackton.co/#team"
-            >
-              Team
-            </a>
-            <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-          <div>
-            <p
-              class="sc-gqjmRU sc-VigVT jKKcEs"
-            >
-              International Crafters © 2020
-            </p>
-          </div>
+          International Crafters © 2020
+        </p>
+        <div>
+          <a
+            class="sc-jTzLTM sc-jzJRlG dvjhjb"
+            href="#"
+          >
+            Privacy
+          </a>
+          <a
+            class="sc-jTzLTM sc-jzJRlG dvjhjb"
+            href="#"
+          >
+            Contacts
+          </a>
         </div>
       </div>
-    </div>
+      <div
+        class="sc-iRbamj boWdgo"
+      >
+        <div
+          class="sc-Rmtcm eRdoZN"
+        >
+          <div
+            class="sc-jlyJG iszuWf"
+          >
+            <img
+              alt="Jake22"
+              class="sc-hzDkRC isQXDX"
+              src="user_icon.svg"
+            />
+            <div
+              class="sc-gPEVay kKNemZ"
+            >
+              <p>
+                Jake Tom
+              </p>
+              <p>
+                8omemail@google.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          activeclassname="current"
+          class="sc-gzVnrw dVqqDe sc-bRBYWo cbUONd"
+          color="primary"
+          href="/event/new"
+        >
+          Create
+           Event
+        </a>
+        <div
+          style="width: 100%; position: relative;"
+        >
+          <a
+            class="sc-gipzik hCERMa"
+            href="/home"
+          >
+            <span>
+              Home
+            </span>
+          </a>
+        </div>
+        <div
+          style="width: 100%; position: relative;"
+        >
+          <a
+            class="sc-gipzik hCERMa"
+            href="/dashboard"
+          >
+            <span>
+              Dashboard
+            </span>
+          </a>
+        </div>
+        <div
+          style="width: 100%; position: relative;"
+        >
+          <a
+            aria-current="page"
+            class="sc-gipzik hCERMa current"
+            href="/"
+          >
+            <span>
+              About
+            </span>
+          </a>
+        </div>
+        <div
+          style="width: 100%; position: relative;"
+        >
+          <a
+            class="sc-gipzik hCERMa"
+            href="/results"
+          >
+            <span>
+              Results
+            </span>
+          </a>
+        </div>
+      </div>
+    </main>
     <div
       class="Toastify"
     />
