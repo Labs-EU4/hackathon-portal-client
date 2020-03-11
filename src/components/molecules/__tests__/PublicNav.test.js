@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { render, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
-import PublicNav from "../../molecules/PublicNav";
+import PublicNav from "../PublicNav";
 import { initialState } from "../../../utils/mockData";
 
 const history = createMemoryHistory();
