@@ -64,10 +64,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const [team] = useEventTeam(id);
   const [teams] = useTeams(id);
   const createdTeam = teams.find(t => t.team_lead === userId);
-
   const [data, loading] = useEvent(id);
-
-  console.log('THis is a team in hackathonSingle --> ', team);
 
   // Filter out event by URL param & grab user ID
   const [

@@ -34,20 +34,24 @@ describe("It should render <Footer/> template correctly", () => {
     expect(component).toMatchSnapshot();
   });
 
-  it("renders a linkedIn icon", () => {
-    expect(component.queryByAltText(/LinkedIn/i)).toBeInTheDocument();
-  });
+  // it("renders a linkedIn icon", () => {
+  //   expect(component.queryByAltText(/LinkedIn/i)).toBeInTheDocument();
+  // });
 
-  it("renders a Twitter icon", () => {
-    expect(component.queryByAltText(/Twitter/i)).toBeInTheDocument();
-  });
+  // it("renders a Twitter icon", () => {
+  //   expect(component.queryByAltText(/Twitter/i)).toBeInTheDocument();
+  // });
 
-  it("renders a Facebook icon", () => {
-    expect(component.queryByAltText(/Facebook/i)).toBeInTheDocument();
-  });
+  // it("renders a Facebook icon", () => {
+  //   expect(component.queryByAltText(/Facebook/i)).toBeInTheDocument();
+  // });
 
   it("renders the Privacy link", () => {
     expect(component.queryByText(/Privacy/i)).toBeInTheDocument();
+  });
+
+  it("renders the Contacts link", () => {
+    expect(component.queryByText(/Contacts/i)).toBeInTheDocument();
   });
 
 });
