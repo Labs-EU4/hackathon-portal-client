@@ -14,6 +14,8 @@ const UserHeader = () => {
         <Logo />
       </StyledLink>
       <Navigation>
+        {/* //!! PLACE HERE THE SEARCH BAR AND OTHER COMPONENT RELATED TO THE NAVIGATION */}
+
         <PublicNav />
       </Navigation>
     </HeaderContainer>
@@ -23,7 +25,7 @@ const UserHeader = () => {
 export default UserHeader;
 
 const Navigation = styled.div`
-  width: 100%;
+  width: 100%; height: 100%;
   display: flex; align-items: center;
 `;
 

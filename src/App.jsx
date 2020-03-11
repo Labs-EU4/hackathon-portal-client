@@ -44,8 +44,8 @@ function App() {
   const renderPrivateRoutes = () => {
     return (
       <>
+        {/* //!! ALL PRIVATE ROUTES SHOULD USE RENDER (NOT COMPONENT) */}
         <PrivateRoute path="/dashboard" render={() => <Dashboard />} />
-        {/* <PrivateRoute path="/home" component={HomePage} /> */}
         <PrivateRoute path="/home" render={() => <HomePage/>} />
         <PrivateRoute exact path="/event/new" render={() => <HackathonFormPage />} />
         <PrivateRoute
