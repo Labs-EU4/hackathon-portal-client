@@ -37,7 +37,7 @@ export const UserInfoContent = styled.div`
 
   p {
     &:last-child {
-      ${props => props.theme.fontSize.small};
+      ${props => props.theme.fontSize.smaller};
       color: ${props => props.theme.color.grey.regular};
     }
   }
