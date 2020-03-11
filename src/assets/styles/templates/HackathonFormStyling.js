@@ -3,6 +3,12 @@ import { Form } from "formik";
 
 import Button from "../../../components/atoms/Button";
 import { H3 } from "../atoms/HeadingStyling";
+import { RowHead } from "../atoms/RowHeadStyling";
+
+export const StyledRowHead = styled(RowHead)`
+  margin-bottom: 0;
+
+`;
 
 export const FormContainer = styled.div`
   position: relative;
@@ -12,20 +18,26 @@ export const FormContainer = styled.div`
 
 export const StyledForm = styled(Form)`
   display: flex;
+  height: calc(100% - 35px);
   padding: 0 20px;
 `;
 
 export const StyledColumn = styled.div`
-  width: 50%; min-height: 70vh;
-  padding: 0 10px;
+  width: 50%; height: 100%;
+  padding: 0 10px 50px;
+  overflow: scroll;
 
   &:first-child {
     border-right: 2px solid ${props => props.theme.color.grey.border};
   }
+
+  &:last-child {
+    margin-bottom: 30px;
+  }
 `;
 
 export const StyledFormBtn = styled(Button)`
-  position: absolute; top: calc(100% - 100px); left: 50%;
+  position: absolute; top: calc(100% - 80px); left: 50%;
   width: 50%;
   margin-top: 30px;
   transform: translateX(-50%);

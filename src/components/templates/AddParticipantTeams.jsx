@@ -11,13 +11,14 @@ import { CardWide } from "../../assets/styles/atoms/CardStyling";
 import { SearchWidget, ParticipantRoleWidget, ParticipantInviteWidget } from "./widgets";
 import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 
-const AddParticipantTeam = () => {
+const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
   const [selectedUser, setSelectedUser] = useState(null);
   const dispatch = useDispatch();
   const history = useHistory();
-  const { eventId, teamId } = useParams();
+  // const { eventId, teamId } = useParams();
   const [noneUser, setNoneUser] = useState(null);
  
+  //!!This needs fixing
   //Part of the ParticipantRoleWidget component widget (i.e. chose judge or organizer)
   // const handleSubmit = () => {
   //   const data = {

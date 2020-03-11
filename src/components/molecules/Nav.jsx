@@ -29,7 +29,7 @@ const items = [
   },
   {
     title: "About",
-    url: "/about",
+    url: "/",
     icon: "info-circle"
   },
   {

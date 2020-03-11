@@ -50,7 +50,10 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
   });
 
   return (
-    <StyledWideBody active={isProfileOpen}>
+    <StyledWideBody 
+      active={isProfileOpen}
+      onMouseLeave={() => setIsProfileOpen(false)}
+    >
       <Formik
         onSubmit={handleSubmit}
         initialValues={defaultState}

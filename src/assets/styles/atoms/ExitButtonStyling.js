@@ -20,4 +20,6 @@ export const ExitButton = styled.p`
     background-position: 100%;
     color: ${props => props.theme.color.white.regular};
   }
+
+  ${({ right }) => right && `top: 70px;`}
 `;

@@ -33,57 +33,59 @@ import HackathonProjectPage from "./components/views/HackathonProjectPage";
 import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
 import ResultPage from "./components/views/ResultsPage";
 
-
 function App() {
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
   const { pathname } = useLocation();
   const currentPath = pathname.split("/")[1];
   const { token } = useSelector(state => state.currentUser);
-  const [isProfileOpen, setIsProfileOpen] = useState(false);
-  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
+  
 
   const renderPrivateRoutes = () => {
     return (
       <>
-        <PrivateRoute path="/dashboard" component={Dashboard} />
-        <PrivateRoute path="/home" component={HomePage} />
-        <PrivateRoute exact path="/event/new" component={HackathonFormPage} />
+        {/* //!! ALL PRIVATE ROUTES SHOULD USE RENDER (NOT COMPONENT) */}
+        <PrivateRoute path="/dashboard" render={() => <Dashboard />} />
+        <PrivateRoute path="/home" render={() => <HomePage/>} />
+        <PrivateRoute exact path="/event/new" render={() => <HackathonFormPage />} />
+        <PrivateRoute
+          path={`/${currentPath}/event/:id`}
+          render={() => <HackathonSinglePage {...{isSideBarOpen}} />}
+          />
+        <PrivateRoute exact path="/event/:id/edit" render={() => <EditHackathon />} />
+        //!! ROUTE USED FOR TESTING
+        <PrivateRoute exact path={`/results`} render={() => <ResultPage />} />
+        {/* <PrivateRoute
+          exact
+          path={`/${currentPath}/event/:id/projects`}
+          component={HackathonProjectsPage}
+        /> */}
         {/* <PrivateRoute
           exact
           path={`/${currentPath}/event/:id/participant_submission`}
           component={ParticipantSubmissionPage}
         /> */}
-        <PrivateRoute
-          path={`/${currentPath}/event/:id`}
-          component={HackathonSinglePage}
-        />
-        <PrivateRoute exact path="/event/:id/edit" component={EditHackathon} />
         {/* <PrivateRoute
           exact
           path="dashboard/event/:id/team"
           component={AddTeammates}
         /> */}
-        <PrivateRoute
-          exact
-          path={`/${currentPath}/event/:id/projects`}
-          component={HackathonProjectsPage}
-        />
+        
         {/* <PrivateRoute
           exact
           path={`/${currentPath}/event/:id/project/:projectId`}
           component={HackathonProjectPage}
         /> */}
-        <PrivateRoute
+        {/* <PrivateRoute
           exact
           path={`/${currentPath}/event/:eventId/participant-teams/:teamId`}
           component={AddParticipantTeam}
-        />
-        <PrivateRoute
+        /> */}
+        {/* <PrivateRoute
           exact
           path={`/${currentPath}/event/:id/participant-teams`}
           component={CreateTeam}
-        />
-
-        <PrivateRoute exact path={`/results`} component={ResultPage} />
+        /> */}
       </>
     );
   };
@@ -96,7 +98,7 @@ function App() {
           <UserHeader />
           <RoutesContainer>
             <Switch>
-              <Route path="/about" component={AboutPage} />
+              <Route exact path="/" component={AboutPage} />
               <Route path="/not-found" component={PageNotFound} />
               <Route path="/register" component={SignupPage} />
               <Route path="/login" component={LoginPage} />
@@ -153,7 +155,7 @@ const RoutesContainer = styled.div`
   grid-area: main;
   background-color: ${props => props.theme.color.white.bg};
   border-radius: 5px;
-  overflow: scroll;
+  overflow: hidden;
 
   &::-webkit-scrollbar {
     width: 0px;

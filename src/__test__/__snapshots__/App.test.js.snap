@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <main
-        class="sc-iGrrsa filZtJ"
+        class="sc-dEoRIm iELkaD"
       >
         <div
           class="sc-bwzfXH dNrEvZ"
@@ -24,7 +24,7 @@ Object {
             </figure>
           </a>
           <div
-            class="sc-gZMcBi ernugP"
+            class="sc-gZMcBi eWgQP"
           >
             <div
               class="sc-dnqmqq dbnRJu"
@@ -39,10 +39,66 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bmyXtO hlIrvS"
+          class="sc-jtggT ipAkPH"
         >
           <div
-            class="sc-jWBwVP sc-giadOv dycHMf"
+            class="sc-kUaPvJ kIJmjB"
+          >
+            <div
+              class="sc-giadOv hrJtEp"
+            >
+              <div
+                class="sc-fONwsr dSGExm"
+              >
+                <figure
+                  class="sc-bxivhb dATcbn"
+                >
+                  <p>
+                    HackHunt
+                  </p>
+                </figure>
+                <div
+                  class="sc-VJcYb cktpud"
+                >
+                  Let's make your next hackathon a success!
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-ipXKqB gWThCM"
+            >
+              <h1
+                class="sc-hmXxxW dJjTyE"
+              >
+                Meet our team of superstars
+                <hr />
+              </h1>
+              <div
+                class="sc-cqCuEk gbfjrE"
+              >
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+                <div
+                  class="sc-dliRfk eWGeQS"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-jWBwVP sc-ipZHIp hDcgBY"
           >
             <form
               action="#"
@@ -150,10 +206,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-caSCKo sc-fONwsr fYeqcz"
+                class="sc-caSCKo sc-iGrrsa daaZgQ"
               >
                 <button
-                  class="sc-bZQynM kRVgna sc-VJcYb jkgbuT"
+                  class="sc-bZQynM kRVgna sc-bmyXtO gtRxxA"
                   color="green"
                   type="submit"
                 >
@@ -201,7 +257,7 @@ Object {
                 src="user_icon.svg"
               />
               <div
-                class="sc-gPEVay daEBjo"
+                class="sc-gPEVay kKNemZ"
               >
                 <p>
                   Jake Tom
@@ -249,8 +305,9 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-gipzik hCERMa"
-              href="/about"
+              aria-current="page"
+              class="sc-gipzik hCERMa current"
+              href="/"
             >
               <span>
                 About
@@ -278,7 +335,7 @@ Object {
   </body>,
   "container": <div>
     <main
-      class="sc-iGrrsa filZtJ"
+      class="sc-dEoRIm iELkaD"
     >
       <div
         class="sc-bwzfXH dNrEvZ"
@@ -296,7 +353,7 @@ Object {
           </figure>
         </a>
         <div
-          class="sc-gZMcBi ernugP"
+          class="sc-gZMcBi eWgQP"
         >
           <div
             class="sc-dnqmqq dbnRJu"
@@ -311,10 +368,66 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bmyXtO hlIrvS"
+        class="sc-jtggT ipAkPH"
       >
         <div
-          class="sc-jWBwVP sc-giadOv dycHMf"
+          class="sc-kUaPvJ kIJmjB"
+        >
+          <div
+            class="sc-giadOv hrJtEp"
+          >
+            <div
+              class="sc-fONwsr dSGExm"
+            >
+              <figure
+                class="sc-bxivhb dATcbn"
+              >
+                <p>
+                  HackHunt
+                </p>
+              </figure>
+              <div
+                class="sc-VJcYb cktpud"
+              >
+                Let's make your next hackathon a success!
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-ipXKqB gWThCM"
+          >
+            <h1
+              class="sc-hmXxxW dJjTyE"
+            >
+              Meet our team of superstars
+              <hr />
+            </h1>
+            <div
+              class="sc-cqCuEk gbfjrE"
+            >
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+              <div
+                class="sc-dliRfk eWGeQS"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-jWBwVP sc-ipZHIp hDcgBY"
         >
           <form
             action="#"
@@ -422,10 +535,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-caSCKo sc-fONwsr fYeqcz"
+              class="sc-caSCKo sc-iGrrsa daaZgQ"
             >
               <button
-                class="sc-bZQynM kRVgna sc-VJcYb jkgbuT"
+                class="sc-bZQynM kRVgna sc-bmyXtO gtRxxA"
                 color="green"
                 type="submit"
               >
@@ -473,7 +586,7 @@ Object {
               src="user_icon.svg"
             />
             <div
-              class="sc-gPEVay daEBjo"
+              class="sc-gPEVay kKNemZ"
             >
               <p>
                 Jake Tom
@@ -521,8 +634,9 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-gipzik hCERMa"
-            href="/about"
+            aria-current="page"
+            class="sc-gipzik hCERMa current"
+            href="/"
           >
             <span>
               About

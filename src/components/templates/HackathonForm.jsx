@@ -9,10 +9,10 @@ import {
   StyledForm,
   StyledColumn,
   StyledFormBtn,
-  StyledH3
+  StyledH3,
+  StyledRowHead
 } from '../../assets/styles/templates/HackathonFormStyling';
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
-import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 import Label from "../../assets/styles/atoms/LabelStyling";
@@ -112,15 +112,16 @@ const HackathonForm = ({ initialState }) => {
 
   return (
     <FormContainer>
-      <RowHead>
+      <StyledRowHead>
         <StyledH3>
           {defaultState.id ? `Edit Hackathon` : `Create New Hackathon`}
         </StyledH3>
         <ExitButton 
+          right
           onClick={handleExit}
           color="primary"
         ><Icon icon="times" /></ExitButton>
-      </RowHead>    
+      </StyledRowHead>    
       <Formik
         onSubmit={handleSubmit}
         initialValues={defaultState}

@@ -41,9 +41,9 @@ function* createTeamNameAsync({ payload, history }) {
       teamId = team.id;
       return teamId;
     });
-    yield history.push(
-      `/dashboard/event/${eventId}/participant-teams/${teamId}`
-    );
+    // yield history.push(
+    //   `/dashboard/event/${eventId}/participant-teams/${teamId}`
+    // );
   } catch (error) {
     yield handleError(error, put, history);
   }

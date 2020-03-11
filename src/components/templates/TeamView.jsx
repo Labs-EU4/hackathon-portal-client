@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
 import styled from 'styled-components';
 
 import {
@@ -8,12 +10,11 @@ import {
   NormalSpan
 } from '../../assets/styles/templates/TeamViewStyling';
 import Button from "../atoms/Button";
-import { NavLink, useParams } from "react-router-dom";
-import { useSelector } from "react-redux";
+import AddParticipantTeam from '../templates/AddParticipantTeams';
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
 
-const TeamView = ({ team }) => {
+const TeamView = ({ team, isAddTeamMemberOpen, setIsAddTeamMemberOpen }) => {
   const { id } = useParams();
 
   const { event_title } = useSelector(state =>
@@ -29,65 +30,83 @@ const TeamView = ({ team }) => {
     fetchTeammates();
   }, [fetchTeammates]);
 
-  return (
-    <TeamsContainer>
-      <StyledLetterIcon icon="">{initial}</StyledLetterIcon>
-      <FancyBoldSpan>Your Team</FancyBoldSpan>
-      <FancyBoldSpan>
-        Team Name:
-        <NormalSpan>{team.team_name}</NormalSpan>
-      </FancyBoldSpan>
-      <FancyBoldSpan style={{ borderBottom: "none" }}>
-        Team Members:
-      </FancyBoldSpan>
-      {teammates.length !== 0 ? (
-        <div
-          style={{
-            borderBottom: "1px solid lightgray",
-            width: "100%",
-            paddingBottom: "10px"
-          }}
-        >
-          {" "}
-          {teammates.map((member, idx) =>
-            member.team_member_avatar === null ? (
-              <StyledImg
-                key={idx}
-                alt="team member profile pic"
-                src={user_icon}
-              />
-            ) : (
-              member.team_member_avatar.map((mem, index) => {
-                memberProfile = JSON.parse(mem);
-                return (
-                  <StyledImg
-                    radius
-                    key={index}
-                    alt="team member profile pic"
-                    src={memberProfile.avatar}
-                  />
-                );
-              })
-            )
-          )}
+  const renderTeamViewComponent = () => {
+    return (
+      <TeamsContainer>
+        <StyledLetterIcon icon="">{initial}</StyledLetterIcon>
+        <FancyBoldSpan>Your Team</FancyBoldSpan>
+        <FancyBoldSpan>
+          Team Name:
+          <NormalSpan>{team.team_name}</NormalSpan>
+        </FancyBoldSpan>
+        <FancyBoldSpan style={{ borderBottom: "none" }}>
+          Team Members:
+        </FancyBoldSpan>
+        {teammates.length !== 0 ? (
+          <div
+            style={{
+              borderBottom: "1px solid lightgray",
+              width: "100%",
+              paddingBottom: "10px"
+            }}
+          >
+            {" "}
+            {teammates.map((member, idx) =>
+              member.team_member_avatar === null ? (
+                <StyledImg
+                  key={idx}
+                  alt="team member profile pic"
+                  src={user_icon}
+                />
+              ) : (
+                member.team_member_avatar.map((mem, index) => {
+                  memberProfile = JSON.parse(mem);
+                  return (
+                    <StyledImg
+                      radius
+                      key={index}
+                      alt="team member profile pic"
+                      src={memberProfile.avatar}
+                    />
+                  );
+                })
+              )
+            )}
+          </div>
+        ) : (
+          <FancyBoldSpan>This team has no members</FancyBoldSpan>
+        )}
+        <FancyBoldSpan>
+          Hackathon Name:
+          <NormalSpan>{event_title}</NormalSpan>
+        </FancyBoldSpan>
+        <div style={{ display: "flex"}}>
+          <Button 
+            size="half"
+            color="grey"
+            // onClick={() => setIsAddTeamMemberOpen(true)}
+          >Back to event</Button>
+          <Button 
+            size="half"
+            color="green"
+            onClick={() => setIsAddTeamMemberOpen(true)}
+          >Add Teammate</Button>
         </div>
-      ) : (
-        <FancyBoldSpan>This team has no members</FancyBoldSpan>
-      )}
-      <FancyBoldSpan>
-        Hackathon Name:
-        <NormalSpan>{event_title}</NormalSpan>
-      </FancyBoldSpan>
-      <Button color="green">
-        <NavLink
-          style={{ textDecoration: "none", color: "white" }}
-          to={`/event/${id}/participant-teams/${team.id}`}
-        >
-          Add Teammate
-        </NavLink>{" "}
-      </Button>
-    </TeamsContainer>
-  );
+      </TeamsContainer>
+    );
+  };
+
+  if (isAddTeamMemberOpen) {
+    return (
+      <AddParticipantTeam
+        eventId={id}
+        teamId={team.id}
+        {...{setIsAddTeamMemberOpen}}
+      />
+    ) 
+  }
+
+  return renderTeamViewComponent();
 };
 
 export default TeamView;
