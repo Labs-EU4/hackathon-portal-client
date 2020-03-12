@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { type, Solid, media } from "../../assets/styles/GlobalStyles";
+import { type, Solid, media } from "../../assets/styles/variables/index";
 import { Field } from "formik";
 
 const InputField = styled(Field)`

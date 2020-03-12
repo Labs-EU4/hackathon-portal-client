@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { type, Solid, Gradient, media } from "../../assets/styles/GlobalStyles";
+import { type, Solid, Gradient, media } from "../../assets/styles/variables/index";
 
 export const ProfileImg = styled.div`
   position: relative;
