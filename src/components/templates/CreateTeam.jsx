@@ -11,12 +11,12 @@ import {
 } from "../../assets/styles/templates/CreateTeamStyling";
 import { Footer } from "../organisms/index";
 import UserHeader from "../organisms/UserHeader";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { H3 } from "../../assets/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { H3 } from "../../assets/styles/atoms/Heading";
 import Button from "../atoms/Button";
 import TeamView from "./TeamView";
 import { useTeams } from "../../hooks";
-import WideBody from "../../assets/atoms/WideBody";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
 
 const CreateTeam = () => {

@@ -13,12 +13,12 @@ import {
 } from "../../assets/styles/templates/HackathonProjectsStyling";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import { H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import { Column } from "../../assets/atoms/Column";
+import { H3 } from "../../assets/styles/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
+import { Column } from "../../assets/styles/atoms/Column";
 import Button from "../atoms/Button";
 import Rating from "react-rating";
 import emptyStar from "../../assets/images/star-hollow.png";

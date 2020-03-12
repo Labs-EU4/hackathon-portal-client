@@ -5,19 +5,19 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import { H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import { Column } from "../../assets/atoms/Column";
-import { CardForm } from "../../assets/atoms/Card";
-import { ErrorSpan } from "../../assets/atoms/Span";
+import { H3 } from "../../assets/styles/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
+import { Column } from "../../assets/styles/atoms/Column";
+import { CardForm } from "../../assets/styles/atoms/Card";
+import { ErrorSpan } from "../../assets/styles/atoms/Span";
 import Input from "../atoms/Input";
-import Label from "../../assets/atoms/Label";
+import Label from "../../assets/styles/atoms/Label";
 import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
-import { Paragraph } from "../../assets/atoms/Paragraph";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import {
   fetchAllSubmissions,
   submitProject
