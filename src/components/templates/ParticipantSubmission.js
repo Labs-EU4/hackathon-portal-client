@@ -22,7 +22,7 @@ import {
   fetchAllSubmissions,
   submitProject
 } from "../../store/projectSubmission/actions";
-import { InputFull, BodyContainerColumn } from "../../assets/styles/variables/index";
+import { InputFull, BodyContainerColumn } from "../../assets/styles/GlobalStyles";
 
 const defaultState = {
   project_title: "",
