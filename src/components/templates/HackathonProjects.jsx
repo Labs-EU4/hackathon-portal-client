@@ -1,30 +1,31 @@
-import React, { useEffect } from "react";
+
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+import Rating from "react-rating";
+
 import {
-  BodyContainerColumn,
-  Card,
+  StyledWideBody,
+  StyledCardWide,
+  StyledParagraph,
+  StyledRowBody,
   Team,
+  SubmissionEntry,
+  SubmissionContent,
   Strong,
   Description,
   RatingGroup,
-  JudgeCount,
-  SubmissionEntry
+  JudgeCount
 } from "../../assets/styles/templates/HackathonProjectsStyling";
-import UserHeader from "../organisms/UserHeader";
-import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
-import Nav from "../molecules/Nav";
-import { H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import { Column } from "../../assets/atoms/Column";
-import Button from "../atoms/Button";
-import Rating from "react-rating";
 import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
-import { useSubmissions } from "../../hooks";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import Button from "../atoms/Button";
 import Spinner from "../molecules/Spinner";
+import HackathonProjectPage from "../views/HackathonProjectPage";
+import { useSubmissions } from "../../hooks";
 
 const HackathonProjects = () => {
   const { id } = useParams();

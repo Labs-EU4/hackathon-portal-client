@@ -1,10 +1,19 @@
+
 import React, { useEffect } from "react";
-import Button from "../atoms/Button";
-import { NavLink, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+import styled from 'styled-components';
+
+import {
+  TeamsContainer,
+  FancyBoldSpan,
+  StyledLetterIcon,
+  NormalSpan
+} from '../../assets/styles/templates/TeamViewStyling';
+import Button from "../atoms/Button";
+import AddParticipantTeam from '../templates/AddParticipantTeams';
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
-import { TeamsCont, FancyBoldSpan, StyledLetterIcon, NormalSpan, TeamMateDiv, Img, ImgWithBorder } from "../../assets/styles/templates/TeamViewStyling"
 
 const TeamView = ({ team }) => {
   const { id } = useParams();

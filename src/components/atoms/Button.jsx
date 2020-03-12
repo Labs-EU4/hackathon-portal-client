@@ -1,7 +1,10 @@
 import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { type, smallFontSize, Gradient, Solid, media } from "../../assets/styles/GlobalStyles";
+
+import {
+  StyledLink,
+  StyledAnchor,
+  StyledButton
+} from "../../assets/styles/atoms/ButtonStyling";
 
 export default function Button({ children, anchor, color, ...props }) {
   if (anchor) {

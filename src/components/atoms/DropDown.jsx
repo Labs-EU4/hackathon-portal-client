@@ -1,10 +1,10 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import styled from "styled-components";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
+
+import { UL } from "../../assets/styles/atoms/DropDown";
 import { resetUser } from "../../store/user/actions";
-import { Solid, type, Gradient } from "../../assets/styles/GlobalStyles";
 
 export const UL = styled.ul`
   position: relative;

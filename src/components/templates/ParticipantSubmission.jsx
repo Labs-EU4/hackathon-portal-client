@@ -1,28 +1,26 @@
 import React, { useEffect } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import styled from "styled-components";
+import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import UserHeader from "../organisms/UserHeader";
-import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
-import Nav from "../molecules/Nav";
-import { H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import { Column } from "../../assets/atoms/Column";
-import { CardForm } from "../../assets/atoms/Card";
-import { ErrorSpan } from "../../assets/atoms/Span";
-import Input from "../atoms/Input";
-import Label from "../../assets/atoms/Label";
-import TextArea from "../molecules/TextArea";
+
+import WideBody from "../../assets/styles/atoms/WideBodyStyling";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
+import { Column } from "../../assets/styles/atoms/ColumnStyling";
+import { CardForm } from "../../assets/styles/atoms/CardStyling";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import Label from "../../assets/styles/atoms/LabelStyling";
 import Button from "../atoms/Button";
-import { Paragraph } from "../../assets/atoms/Paragraph";
+import Input from "../atoms/Input";
+import TextArea from "../atoms/TextArea";
 import {
   fetchAllSubmissions,
   submitProject
 } from "../../store/projectSubmission/actions";
-import { InputFull, BodyContainerColumn } from "../../assets/styles/GlobalStyles";
 
 const defaultState = {
   project_title: "",

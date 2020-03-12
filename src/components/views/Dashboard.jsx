@@ -1,8 +1,11 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { EventOnboarding } from "../templates";
-import { fetchAllEvents } from "../../store/events/actions";
 
+import PrivateRoute from "../organisms/PrivateRoute";
+import { UserEventsDashboard } from "../templates";
+import { EventOnboarding } from "../templates";
+import HackathonSinglePage from "./HackathonSinglePage";
+import { fetchAllEvents } from "../../store/events/actions";
 const Dashboard = () => {
   const dispatch = useDispatch();
 

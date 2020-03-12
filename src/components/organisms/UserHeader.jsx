@@ -1,13 +1,11 @@
 import React from "react";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
-import WideHeader from "../../assets/atoms/WideHeader";
-import HeaderContainer from "../../assets/atoms/HeaderContainer";
+import styled from "styled-components";
+
+import WideHeader from "../../assets/styles/atoms/WideHeaderStyling";
+import HeaderContainer from "../../assets/styles/atoms/HeaderContainerStyling";
 import Logo from "../atoms/Logo";
-import Nav from "../molecules/Nav";
-import { ProfileImg } from "../atoms/ProfileImg";
-import { Dropdown } from "../atoms/DropDown";
+import PublicNav from "../molecules/PublicNav";
 
 const UserHeader = () => {
   const { email: user } = useSelector(state => state.currentUser);

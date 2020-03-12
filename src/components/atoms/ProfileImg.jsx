@@ -1,6 +1,9 @@
-import styled from "styled-components";
-import { type, Solid, Gradient, media } from "../../assets/styles/GlobalStyles";
 
+import React from "react";
+import styled from "styled-components";
+// import { media } from "../../assets/styles/variables/media";
+
+import userImg from "../../assets/images/user_icon.svg";
 export const ProfileImg = styled.div`
   position: relative;
   font-family: ${type.ROBOTO_MONO};

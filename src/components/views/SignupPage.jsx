@@ -1,6 +1,6 @@
 import React from "react";
 
-import image from "../../assets/Signup.png";
+import image from "../../assets/images/Signup.png";
 import { UserOnboarding } from "../templates";
 
 const SignupPage = () => {

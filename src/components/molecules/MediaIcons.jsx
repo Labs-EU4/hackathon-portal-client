@@ -1,5 +1,5 @@
 import React from "react";
-import { Social } from "../atoms/SocialIcon";
+import { Social } from "../../assets/styles/atoms/SocialIconContainerStyling";
 
 const baseUrl = process.env.REACT_APP_API_URL;
 const MediaIcons = () => {

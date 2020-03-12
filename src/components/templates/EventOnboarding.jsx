@@ -1,17 +1,21 @@
 import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import UserHeader from "../organisms/UserHeader";
-import Nav from "../molecules/Nav";
-import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
-import BodyContainer from "../../assets/atoms/BodyContainer";
-import EventCard from "../molecules/EventCard";
-import { H3, H4 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import Button from "../atoms/Button";
 import { useSelector } from "react-redux";
+import styled from "styled-components";
+// import { useRouteMatch, Switch, Route } from "react-router-dom";
+
+import {
+  BodyContainer,
+  StyledRowBody,
+  HeaderContent,
+  MapContainer,
+  MapFormContainer
+} from "../../assets/styles/templates/EventOnboardingStyling";
+import {
+  StyledRowHead,
+  StyledButton,
+  StyledH4
+} from "../../assets/styles/templates/UserEventsdashboardStyling";
+import EventCard from "../molecules/EventCard";
 
 
 

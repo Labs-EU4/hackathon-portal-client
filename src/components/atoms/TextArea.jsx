@@ -1,6 +1,7 @@
 import React from "react";
 import { Field } from "formik";
-import { InputField } from "../../assets/styles/molecules/TextAreaStyling";
+
+import { TextAreaContainer } from "../../assets/styles/atoms/TextAreaStyling";
 
 const TextArea = ({ wide, ...inputProps }) => {
   return (

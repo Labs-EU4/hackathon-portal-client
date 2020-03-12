@@ -1,12 +1,25 @@
-import React from "react";
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { Card } from "../../assets/atoms/Card";
-import { H4 } from "../../assets//atoms/Heading";
-import { LetterIcon } from "../atoms/Icon";
-import { Paragraph } from "../../assets/atoms/Paragraph";
-import CardFooter from "./CardFooter";
 
+import React from "react";
+import { useLocation } from "react-router-dom";
+
+import {
+  StyledEventCard,
+  EventImage,
+  OrgImg,
+  StyledIconLetter,
+  EventCardContent,
+  EventCTA,
+  DateParagraph,
+  LocationParagraph,
+  CardCountDown,
+  StyledBookmarkIcon,
+  StyledStarIcon
+} from "../../assets/styles/molecules/EventCardStyling";
+import { Card } from "../../assets/styles/atoms/CardStyling";
+import { H4 } from "../../assets/styles/atoms/HeadingStyling";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import Button from "../atoms/Button";
+import eventImg from "../../assets/images/event-img.jpg";
 const StyledCardLink = styled(Link)`
   text-decoration: none;
   transition: all 0.5s;

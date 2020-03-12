@@ -2,24 +2,23 @@ import React from "react";
 import styled from "styled-components";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
+import WideBody from "../atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainer from "../../assets/atoms/BodyContainer";
-import { H2, H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import { Column } from "../../assets/atoms/Column";
-import { CardWide } from "../../assets/atoms/Card";
-import profileImg from "../../assets/image/profile-image.png";
-import { media } from "../../assets/styles/GlobalStyles";
+import BodyContainer from "../atoms/BodyContainer";
+import { H2, H3 } from "../atoms/Heading";
+import { RowHead } from "../atoms/RowHead";
+import { RowBody } from "../atoms/RowBody";
+import { Column } from "../atoms/Column";
+import { CardWide } from "../atoms/Card";
+import { media } from "../index";
 import Button from "../atoms/Button";
-import { Paragraph } from "../../assets/atoms/Paragraph";
-import mailIcon from "../../assets/image/Icon-mail-24px.png";
+import { Paragraph } from "../atoms/Paragraph";
+import profileImg from "../../assets/images/profile-image.png";
+import mailIcon from "../../assets/images/Icon-mail-24px.png";
 import EventCard from "../molecules/EventCard";
 
 import { useRegisteredEvents } from "../../hooks";
 import Spinner from "../molecules/Spinner";
-
 
 export const BodyContainerColumn = styled(props => (
   <BodyContainer {...props} />

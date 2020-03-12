@@ -1,30 +1,24 @@
+  
 import React, { useState } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import UserHeader from "../organisms/UserHeader";
-import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
-import Nav from "../molecules/Nav";
-import { H3 } from "../../assets/atoms/Heading";
-import Label from "../../assets/atoms/Label";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import { Column } from "../../assets/atoms/Column";
-import Input from "../atoms/Input";
-import TextArea from "../molecules/TextArea";
-import Button from "../atoms/Button";
-import profileImg from "../../assets/image/profile-image.png";
-import ProfileImage from "../molecules/ProfileImage";
-import { updateUserProfile } from "../../store/user/actions";
+
 import {
-  BodyContainerColumn,
-  NewLabel,
-  CardWider,
+  StyledWideBody,
   ButtonRowBody,
   NewButton
-} from "../../assets/styles/templates/UserProfileFormStyling";
+} from '../../assets/styles/templates/UserProfileFormStyling';
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
+import Label from "../../assets/styles/atoms/LabelStyling";
+import Input from "../atoms/Input";
+import TextArea from "../atoms/TextArea";
+import {
+  updateUserProfile
+} from "../../store/user/actions";
 
 const UserProfileForm = ({ initialState }) => {
   const dispatch = useDispatch();

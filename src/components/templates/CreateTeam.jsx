@@ -1,23 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { createTeamName } from "../../store/participantTeams/actions";
 import { Formik } from "formik";
+
 import {
+  StyledWideBody,
   BodyRow,
   BodyColumn,
-  Form,
-  Title
+  Form
 } from "../../assets/styles/templates/CreateTeamStyling";
-import { Footer } from "../organisms/index";
-import UserHeader from "../organisms/UserHeader";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { H3 } from "../../assets/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+// import WideBody from "../../assets/styles/atoms/WideBodyStyling";
 import Button from "../atoms/Button";
+import AddParticipantTeam from "../templates/AddParticipantTeams";
 import TeamView from "./TeamView";
+import { createTeamName } from "../../store/participantTeams/actions";
 import { useTeams } from "../../hooks";
-import WideBody from "../../assets/atoms/WideBody";
-import Nav from "../molecules/Nav";
 
 const CreateTeam = () => {
   const dispatch = useDispatch();

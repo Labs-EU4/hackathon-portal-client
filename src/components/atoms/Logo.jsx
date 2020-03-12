@@ -1,7 +1,10 @@
-import styled from "styled-components";
-import { media } from "../../assets/styles/GlobalStyles"
-import image from "./../../assets/images/Hackton-logo.png";
-
+import React from "react";
+// import image from "./../../assets/images/Hackton-logo.png";
+import {
+  StyledLogo,
+  StyledAimIcon,
+  StyledLaptopIcon
+} from "../../assets/styles/atoms/LogoStyling";
 const Logo = styled.img.attrs({
   alt: "Hackton - Organise hackathons",
   src: image

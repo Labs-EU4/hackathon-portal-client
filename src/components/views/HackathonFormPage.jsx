@@ -1,8 +1,9 @@
 import React from "react";
-
-import HackathonForm from "../templates/HackathonForm";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+
+import HackathonForm from "../templates/HackathonForm";
+
 
 const HackathonFormPage = () => {
   const { id } = useParams();

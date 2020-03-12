@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import { axiosWithAuth, selectToken } from '../utils/api';
+
+import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
+import { axiosWithAuth, selectToken } from "../utils/api";
 
 export const useUsers = () => {
   const [users, setUsers] = useState([]);

@@ -1,14 +1,14 @@
 import React from "react";
-import BodyContainer from "../../atoms/BodyContainer";
-import HeroImage from "../../atoms/HeroImage";
-import Container from "../../atoms/Container";
-import { H1 } from "../../atoms/Heading";
-import { Paragraph } from "../../atoms/Paragraph";
-import { RowBody } from "../../atoms/RowBody";
-import WideBody from "../../atoms/WideBody";
-import { Header, Footer } from "../../organisms/index";
+
+import BodyContainer from "../../../assets/styles/atoms/BodyContainerStyling";
+import Container from "../../../assets/styles/atoms/ContainerStyling";
+import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
+import { Paragraph } from "../../../assets/styles/atoms/ParagraphStyling";
+import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
+import WideBody from "../../../assets/styles/atoms/WideBodyStyling";
 import Button from "../../atoms/Button";
-import image from "../../../assets/Password-sent.png";
+import HeroImage from "../../atoms/HeroImage";
+import image from "../../../assets/images/Password-sent.png";
 
 function ResetPasswordConfirmation() {
   return (

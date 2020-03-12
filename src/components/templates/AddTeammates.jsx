@@ -1,18 +1,21 @@
-import React, { useState } from "react";
+
+import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
-import { useParams } from "react-router-dom";
-import { Footer } from "../organisms/index";
-import UserHeader from "../organisms/UserHeader";
-import WideBody from "../../assets/atoms/WideBody";
-import { H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { Column } from "../../assets/atoms/Column";
-import { CardWide } from "../../assets/atoms/Card";
+import { useParams, useHistory, useLocation } from "react-router-dom";
+
+import {
+  StyledWideBody,
+  StyledCardWide
+} from "../../assets/styles/templates/AddTeammatesStyling";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
-import Nav from "../molecules/Nav";
-import { BodyContainerColumn } from "../../assets/styles/templates/AddTeammatesStyling";
-import { SearchWidget, TeamRoleWidget, TeamInviteWidget } from "./widgets";
-import { useHistory } from "react-router-dom";
+import {
+  JudgesSearchWidget,
+  TeamRoleWidget,
+  TeamInviteWidget
+} from "./widgets";
 
 const AddTeammates = () => {
   const [selectedUser, setSelectedUser] = useState(null);

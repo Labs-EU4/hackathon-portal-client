@@ -1,36 +1,34 @@
 import React, { useEffect } from "react";
-import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { Formik, Form, ErrorMessage } from "formik";
+import { Formik, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-import UserHeader from "../organisms/UserHeader";
-import { Footer } from "../organisms/index";
-import WideBody from "../../assets/atoms/WideBody";
-import Nav from "../molecules/Nav";
-import BodyContainer from "../../assets/atoms/BodyContainer";
-import { H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { RowBody } from "../../assets/atoms/RowBody";
-import { Column } from "../../assets/atoms/Column";
-import { CardForm } from "../../assets/atoms/Card";
-import Label from "../../assets/atoms/Label";
+import {
+  FormContainer,
+  StyledForm,
+  StyledColumn,
+  StyledFormBtn,
+  StyledH3,
+  StyledRowHead
+} from "../../assets/styles/templates/HackathonFormStyling";
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
+import { Column } from "../../assets/styles/atoms/ColumnStyling";
+import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
+import Label from "../../assets/styles/atoms/LabelStyling";
+import Icon from "../atoms/Icon";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
-import TextArea from "../molecules/TextArea";
+import TextArea from "../atoms/TextArea";
 import Select from "../atoms/Select";
-import Button from "../atoms/Button";
-import { Paragraph } from "../../assets/atoms/Paragraph";
-import { ErrorSpan } from "../../assets/atoms/Span";
-import InputTag from "../../assets/atoms/TagsInput.js";
-
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
+import InputTag from "../molecules/TagsInput";
 import {
   createEvent,
   fetchEventCategories,
   updateEvent
 } from "../../store/events/actions";
-
 import { format } from "../../utils/date";
 
 const BodyContainerColumn = styled(BodyContainer)`

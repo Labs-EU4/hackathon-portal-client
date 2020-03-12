@@ -1,8 +1,20 @@
-import React from "react";
-import { ReactComponent as DashboardIcon } from "./../../assets/images/link-dashboard-icon.svg";
-import { ReactComponent as ProfileIcon } from "./../../assets/images/link-profile-icon.svg";
-import { ReactComponent as BurgerIcon } from "../../assets/images/link-burger-icon.svg";
-import { StyledNav, StyledMobileNav, StyledNavLink } from "../../assets/styles/molecules/NavStyling";
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
+// import uuid from 'uuid';
+
+import {
+  StyledEditIcon,
+  StyledExpandIcon,
+  UserInfoContent,
+  StyledNav,
+  StyledProfileImage,
+  StyledNavLink,
+  LinkDetails,
+  UserContainer,
+  StyledButton
+} from "../../assets/styles/molecules/NavStyling";
+import ProfileImg from "../atoms/ProfileImg";
+import Icon from "../atoms/Icon";
 
 const items = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
-import WideBody from "../../assets/atoms/WideBody";
-import BodyContainer from "../../assets/atoms/BodyContainer";
+import WideBody from "../../assets/styles/atoms/WideBodyStyling";
+import BodyContainer from "../../assets/styles/atoms/BodyContainerStyling";
 import HeroImage from "../atoms/HeroImage";
 import Form from "./Form";
 

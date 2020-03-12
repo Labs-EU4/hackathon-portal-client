@@ -1,18 +1,21 @@
 import React, { useEffect } from "react";
-import { useLocation, Redirect } from "react-router-dom";
+import styled from "styled-components";
+import { Link, useLocation, Redirect } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { toast } from "react-toastify";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
-import { StyledAnchor } from "../../assets/styles/organisms/FormStyling";
-import Container from "../../assets/atoms/Container";
-import { H1 } from "../../assets/atoms/Heading";
-import { Paragraph } from "../../assets/atoms/Paragraph";
-import Input from "../atoms/Input";
+
+import Container from "../../assets/styles/atoms/ContainerStyling";
+import { H1 } from "../../assets/styles/atoms/HeadingStyling";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
+import Label from "../../assets/styles/atoms/LabelStyling";
 import Button from "../atoms/Button";
-import { ErrorSpan } from "../../assets/atoms/Span";
-import { useDispatch, useSelector } from "react-redux";
-import { register, login } from "../../store/user/actions";
+import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
+import { register, login } from "../../store/user/actions";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
 
 

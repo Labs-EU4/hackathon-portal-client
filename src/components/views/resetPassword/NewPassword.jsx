@@ -2,20 +2,18 @@ import React from "react";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
-import Input from "../../../assets/atoms/Input";
-import WideBody from "../../../assets/atoms/WideBody";
-import BodyContainer from "../../../assets/atoms/BodyContainer";
-import HeroImage from "../../../assets/atoms/HeroImage";
-import image from "../../../assets/imagesSignup.png";
-import Container from "../../../assets/atoms/Container";
-import { H1 } from "../../../assets/atoms/Heading";
-import { Paragraph } from "../../../assets/atoms/Paragraph";
-import { RowBody } from "../../../assets/atoms/RowBody";
-import { Header, Footer } from "../../organisms/index";
-import Button from "../../atoms/Button";
-import { ErrorSpan } from "../../atoms/Span";
-import { resetPassword } from "../../../store/user/actions";
 import { useHistory } from "react-router-dom";
+
+import WideBody from "../../../assets/styles/atoms/WideBodyStyling";
+import BodyContainer from "../../../assets/styles/atoms/BodyContainerStyling";
+import Container from "../../../assets/styles/atoms/ContainerStyling";
+import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
+import { Paragraph } from "../../../assets/styles/atoms/ParagraphStyling";
+import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
+import { ErrorSpan } from "../../../assets/styles/atoms/SpanStyling";
+import Button from "../../atoms/Button";
+import Input from "../../atoms/Input";
+import { resetPassword } from "../../../store/user/actions";
 
 const ResetPassword = () => {
   const dispatch = useDispatch();
@@ -83,7 +81,9 @@ const ResetPassword = () => {
                     <ErrorMessage name="newPasswordConfirm" />
                   </ErrorSpan>
                   <RowBody>
-                    <Button type="submit" size="wide" color="blue">Change Password</Button>
+                    <Button type="submit" size="wide" color="blue">
+                      Change Password
+                    </Button>
                   </RowBody>
                 </Form>
               )}

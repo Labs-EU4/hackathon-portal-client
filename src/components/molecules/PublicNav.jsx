@@ -1,7 +1,11 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useHistory } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
 import styled from "styled-components";
+
 import Button from "../atoms/Button";
+import { resetUser } from "../../store/user/actions";
+// import { media } from '../../assets/styles/variables/media';
 
 const StyledPublicNav = styled.div`
   & a:first-child {
@@ -14,10 +18,18 @@ const PublicNav = () => {
 
   return (
     <StyledPublicNav>
-      <Button anchor to={state ?.from ? `/login?ref=${state ?.from}` : `/login`}>Log In</Button>
-      <Button anchor color="blue" to={state ?.from ? `/register?ref=${state ?.from}` : `/register`}>Sign Up</Button>
+      <Button anchor to={state?.from ? `/login?ref=${state?.from}` : `/login`}>
+        Log In
+      </Button>
+      <Button
+        anchor
+        color="blue"
+        to={state?.from ? `/register?ref=${state?.from}` : `/register`}
+      >
+        Sign Up
+      </Button>
     </StyledPublicNav>
   );
-}
+};
 
 export default PublicNav;

@@ -1,6 +1,8 @@
-import styled from 'styled-components';
-import { type, Solid, Gradient } from "../../assets/styles/GlobalStyles";
-import dateIcon from '../../assets/Icon-time.png';
+
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import styled from "styled-components";
+
 
 export const DateIcon = styled.div`
   width: 20px;

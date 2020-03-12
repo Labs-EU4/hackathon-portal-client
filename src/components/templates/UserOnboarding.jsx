@@ -1,5 +1,6 @@
+
 import React from "react";
-import { FormLayout, Header, Footer } from "../organisms/index";
+import { FormLayout } from "../organisms/index";
 
 const UserOnboarding = ({
   ctaText,

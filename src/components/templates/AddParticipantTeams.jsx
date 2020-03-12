@@ -1,18 +1,22 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
-import { BodyContainerColumn } from "../../assets/styles/templates/AppParticipantTeams";
-import { Footer } from "../organisms";
-import UserHeader from "../organisms/UserHeader";
-import WideBody from "../../assets/atoms/WideBody";
-import { H3 } from "../../assets/atoms/Heading";
-import { RowHead } from "../../assets/atoms/RowHead";
-import { Column } from "../../assets/atoms/Column";
-import { CardWide } from "../../assets/atoms/Card";
-import Nav from "../molecules/Nav";
-import { SearchWidget, ParticipantRoleWidget, ParticipantInviteWidget } from "./widgets";
-import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 
+import { BodyContainerColumn } from "../../assets/styles/templates/AddParticipantTeamsStyling";
+import WideBody from "../../assets/styles/atoms/WideBodyStyling";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { Column } from "../../assets/styles/atoms/ColumnStyling";
+import { CardWide } from "../../assets/styles/atoms/CardStyling";
+import {
+  SearchWidget,
+  ParticipantRoleWidget,
+  ParticipantInviteWidget
+} from "./widgets";
+import {
+  addParticipantTeamMember,
+  sendParticipantInvite
+} from "../../store/participantTeams/actions";
 const AddParticipantTeam = () => {
 
   const [selectedUser, setSelectedUser] = useState(null);
