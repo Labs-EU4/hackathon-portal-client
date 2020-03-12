@@ -7,25 +7,25 @@ Object {
     <div>
       <div>
         <div
-          class="sc-hMqMXs czlISr"
+          class="sc-dxgOiQ kJAkoI"
         >
           <div
-            class="sc-kEYyzF cNoziI"
+            class="sc-ckVGcZ hCpDZq"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-kkGfuU bOdlBp"
+                class="sc-jKJlTe jIUxxJ"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-fMiknA eZGPpY"
+              class="sc-hzDkRC hlQwlE"
             >
               <div
-                class="sc-jWBwVP jdnOGp"
+                class="sc-hSdWYo daAihy"
               >
                 <span>
                   <svg>
@@ -36,7 +36,7 @@ Object {
                 <ul>
                   <li>
                     <a
-                      class="sc-brqgnP gKNmlg"
+                      class="sc-eHgmQL fGsefk"
                       href="/dashboard"
                     >
                       Dashboard
@@ -44,7 +44,7 @@ Object {
                   </li>
                   <li>
                     <a
-                      class="sc-brqgnP gKNmlg"
+                      class="sc-eHgmQL fGsefk"
                       href="/dashboard/profile"
                     >
                       Profile
@@ -53,11 +53,11 @@ Object {
                 </ul>
               </div>
               <div
-                class="sc-cMljjf fTRGqC"
+                class="sc-cvbbAY kaoRIz"
               >
                 8
                 <ul
-                  class="sc-jAaTju dnJrQh"
+                  class="sc-jWBwVP jLXfAe"
                 >
                   <li>
                     <a
@@ -77,13 +77,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hSdWYo hwSTiP"
+          class="sc-hMqMXs bfdQTe"
         >
           <div
-            class="sc-cvbbAY hChxuq"
+            class="sc-iAyFgw eLjhMm"
           >
             <a
-              class="sc-brqgnP gKNmlg"
+              class="sc-eHgmQL fGsefk"
               href="/dashboard"
             >
               <svg>
@@ -92,7 +92,7 @@ Object {
               Dashboard
             </a>
             <a
-              class="sc-brqgnP gKNmlg"
+              class="sc-eHgmQL fGsefk"
               href="/dashboard/profile"
             >
               <svg>
@@ -102,13 +102,13 @@ Object {
             </a>
           </div>
           <div
-            class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+            class="sc-kEYyzF dSiEaf sc-bRBYWo csJunq"
           >
             <div
-              class="sc-hzDkRC bkkbax"
+              class="sc-csuQGl heuYDR"
             >
               <h3
-                class="sc-kAzzGY eOJFvg"
+                class="sc-jTzLTM ennJjK"
               >
                 My hackathons
               </h3>
@@ -116,7 +116,7 @@ Object {
                 href="/dashboard/new"
               >
                 <button
-                  class="sc-kGXeez eIcrHu"
+                  class="sc-cSHVUG jxEeoA"
                   color="green"
                 >
                   Create New
@@ -124,39 +124,39 @@ Object {
               </a>
             </div>
             <div
-              class="sc-jhAzac hhkJyU"
+              class="sc-Rmtcm iYNQWk"
               spacing="start"
             >
               <a
-                class="sc-bRBYWo jvQaxX"
+                class="sc-gipzik bYMMIe"
                 href="/dashboard/event/1"
               >
                 <div
-                  class="sc-jDwBTQ umkbw"
+                  class="sc-brqgnP gpmiCh"
                 >
                   <div
-                    class="sc-gipzik epLwGU"
+                    class="sc-gPEVay caWtHY"
                   >
                     E
                   </div>
                   <h4
-                    class="sc-chPdSV eqzTuS"
+                    class="sc-fjdhpX cpbxNE"
                   >
                     EuroHack
                   </h4>
                   <p
-                    class="sc-gqjmRU hBlNFb"
+                    class="sc-htoDjs dUnCBl"
                   >
                     the best event hack hack hack macbook...
                   </p>
                   <div
-                    class="sc-csuQGl fUdZHz"
+                    class="sc-iRbamj gOXIQQ"
                   >
                     <div
-                      class="sc-jlyJG dxlnBr"
+                      class="sc-jDwBTQ bTFNnA"
                     />
                     <span
-                      class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                      class="sc-chPdSV sc-jlyJG gNaYUo"
                       data-testid="date-EuroHack"
                     >
                       10/9/2011
@@ -165,35 +165,35 @@ Object {
                 </div>
               </a>
               <a
-                class="sc-bRBYWo jvQaxX"
+                class="sc-gipzik bYMMIe"
                 href="/dashboard/event/2"
               >
                 <div
-                  class="sc-jDwBTQ umkbw"
+                  class="sc-brqgnP gpmiCh"
                 >
                   <div
-                    class="sc-gipzik epLwGU"
+                    class="sc-gPEVay caWtHY"
                   >
                     W
                   </div>
                   <h4
-                    class="sc-chPdSV eqzTuS"
+                    class="sc-fjdhpX cpbxNE"
                   >
                     World
                   </h4>
                   <p
-                    class="sc-gqjmRU hBlNFb"
+                    class="sc-htoDjs dUnCBl"
                   >
                     number one hacker event in the world...
                   </p>
                   <div
-                    class="sc-csuQGl fUdZHz"
+                    class="sc-iRbamj gOXIQQ"
                   >
                     <div
-                      class="sc-jlyJG dxlnBr"
+                      class="sc-jDwBTQ bTFNnA"
                     />
                     <span
-                      class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                      class="sc-chPdSV sc-jlyJG gNaYUo"
                       data-testid="date-World"
                     >
                       7/9/2011
@@ -203,58 +203,58 @@ Object {
               </a>
             </div>
             <div
-              class="sc-hzDkRC bkkbax"
+              class="sc-csuQGl heuYDR"
             >
               <h3
-                class="sc-kAzzGY eOJFvg"
+                class="sc-jTzLTM ennJjK"
               >
                 Global hackathons
               </h3>
             </div>
             <div
-              class="sc-jhAzac hhkJyU"
+              class="sc-Rmtcm iYNQWk"
               spacing="start"
             />
           </div>
         </div>
         <div
-          class="sc-ifAKCX gzLxUf"
+          class="sc-bdVaJa bDiKvh"
         >
           <div
-            class="sc-EHOje vwgiQ"
+            class="sc-bwzfXH ldOoJf"
           >
             <div>
               <img
                 alt="LinkedIn"
-                class="sc-bZQynM cBEFRm"
+                class="sc-htpNat hwcHdo"
                 src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
-                class="sc-bZQynM cBEFRm"
+                class="sc-htpNat hwcHdo"
                 src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
-                class="sc-bZQynM cBEFRm"
+                class="sc-htpNat hwcHdo"
                 src="Icon-facebook.png"
               />
             </div>
             <div>
               <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
+                class="sc-EHOje sc-gzVnrw iKqYXF"
                 href="https://hackton.co/#team"
               >
                 Team
               </a>
               <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
+                class="sc-EHOje sc-gzVnrw iKqYXF"
                 href="#"
               >
                 Privacy
               </a>
               <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
+                class="sc-EHOje sc-gzVnrw iKqYXF"
                 href="#"
               >
                 Contacts
@@ -262,7 +262,7 @@ Object {
             </div>
             <div>
               <p
-                class="sc-gqjmRU sc-VigVT jKKcEs"
+                class="sc-htoDjs sc-dnqmqq xAsmd"
               >
                 International Crafters © 2020
               </p>
@@ -275,25 +275,25 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-hMqMXs czlISr"
+        class="sc-dxgOiQ kJAkoI"
       >
         <div
-          class="sc-kEYyzF cNoziI"
+          class="sc-ckVGcZ hCpDZq"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-kkGfuU bOdlBp"
+              class="sc-jKJlTe jIUxxJ"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-fMiknA eZGPpY"
+            class="sc-hzDkRC hlQwlE"
           >
             <div
-              class="sc-jWBwVP jdnOGp"
+              class="sc-hSdWYo daAihy"
             >
               <span>
                 <svg>
@@ -304,7 +304,7 @@ Object {
               <ul>
                 <li>
                   <a
-                    class="sc-brqgnP gKNmlg"
+                    class="sc-eHgmQL fGsefk"
                     href="/dashboard"
                   >
                     Dashboard
@@ -312,7 +312,7 @@ Object {
                 </li>
                 <li>
                   <a
-                    class="sc-brqgnP gKNmlg"
+                    class="sc-eHgmQL fGsefk"
                     href="/dashboard/profile"
                   >
                     Profile
@@ -321,11 +321,11 @@ Object {
               </ul>
             </div>
             <div
-              class="sc-cMljjf fTRGqC"
+              class="sc-cvbbAY kaoRIz"
             >
               8
               <ul
-                class="sc-jAaTju dnJrQh"
+                class="sc-jWBwVP jLXfAe"
               >
                 <li>
                   <a
@@ -345,13 +345,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hSdWYo hwSTiP"
+        class="sc-hMqMXs bfdQTe"
       >
         <div
-          class="sc-cvbbAY hChxuq"
+          class="sc-iAyFgw eLjhMm"
         >
           <a
-            class="sc-brqgnP gKNmlg"
+            class="sc-eHgmQL fGsefk"
             href="/dashboard"
           >
             <svg>
@@ -360,7 +360,7 @@ Object {
             Dashboard
           </a>
           <a
-            class="sc-brqgnP gKNmlg"
+            class="sc-eHgmQL fGsefk"
             href="/dashboard/profile"
           >
             <svg>
@@ -370,13 +370,13 @@ Object {
           </a>
         </div>
         <div
-          class="sc-bwzfXH cwdcdI sc-fBuWsC btaEJW"
+          class="sc-kEYyzF dSiEaf sc-bRBYWo csJunq"
         >
           <div
-            class="sc-hzDkRC bkkbax"
+            class="sc-csuQGl heuYDR"
           >
             <h3
-              class="sc-kAzzGY eOJFvg"
+              class="sc-jTzLTM ennJjK"
             >
               My hackathons
             </h3>
@@ -384,7 +384,7 @@ Object {
               href="/dashboard/new"
             >
               <button
-                class="sc-kGXeez eIcrHu"
+                class="sc-cSHVUG jxEeoA"
                 color="green"
               >
                 Create New
@@ -392,39 +392,39 @@ Object {
             </a>
           </div>
           <div
-            class="sc-jhAzac hhkJyU"
+            class="sc-Rmtcm iYNQWk"
             spacing="start"
           >
             <a
-              class="sc-bRBYWo jvQaxX"
+              class="sc-gipzik bYMMIe"
               href="/dashboard/event/1"
             >
               <div
-                class="sc-jDwBTQ umkbw"
+                class="sc-brqgnP gpmiCh"
               >
                 <div
-                  class="sc-gipzik epLwGU"
+                  class="sc-gPEVay caWtHY"
                 >
                   E
                 </div>
                 <h4
-                  class="sc-chPdSV eqzTuS"
+                  class="sc-fjdhpX cpbxNE"
                 >
                   EuroHack
                 </h4>
                 <p
-                  class="sc-gqjmRU hBlNFb"
+                  class="sc-htoDjs dUnCBl"
                 >
                   the best event hack hack hack macbook...
                 </p>
                 <div
-                  class="sc-csuQGl fUdZHz"
+                  class="sc-iRbamj gOXIQQ"
                 >
                   <div
-                    class="sc-jlyJG dxlnBr"
+                    class="sc-jDwBTQ bTFNnA"
                   />
                   <span
-                    class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                    class="sc-chPdSV sc-jlyJG gNaYUo"
                     data-testid="date-EuroHack"
                   >
                     10/9/2011
@@ -433,35 +433,35 @@ Object {
               </div>
             </a>
             <a
-              class="sc-bRBYWo jvQaxX"
+              class="sc-gipzik bYMMIe"
               href="/dashboard/event/2"
             >
               <div
-                class="sc-jDwBTQ umkbw"
+                class="sc-brqgnP gpmiCh"
               >
                 <div
-                  class="sc-gipzik epLwGU"
+                  class="sc-gPEVay caWtHY"
                 >
                   W
                 </div>
                 <h4
-                  class="sc-chPdSV eqzTuS"
+                  class="sc-fjdhpX cpbxNE"
                 >
                   World
                 </h4>
                 <p
-                  class="sc-gqjmRU hBlNFb"
+                  class="sc-htoDjs dUnCBl"
                 >
                   number one hacker event in the world...
                 </p>
                 <div
-                  class="sc-csuQGl fUdZHz"
+                  class="sc-iRbamj gOXIQQ"
                 >
                   <div
-                    class="sc-jlyJG dxlnBr"
+                    class="sc-jDwBTQ bTFNnA"
                   />
                   <span
-                    class="sc-dxgOiQ sc-Rmtcm fkRdDS"
+                    class="sc-chPdSV sc-jlyJG gNaYUo"
                     data-testid="date-World"
                   >
                     7/9/2011
@@ -471,58 +471,58 @@ Object {
             </a>
           </div>
           <div
-            class="sc-hzDkRC bkkbax"
+            class="sc-csuQGl heuYDR"
           >
             <h3
-              class="sc-kAzzGY eOJFvg"
+              class="sc-jTzLTM ennJjK"
             >
               Global hackathons
             </h3>
           </div>
           <div
-            class="sc-jhAzac hhkJyU"
+            class="sc-Rmtcm iYNQWk"
             spacing="start"
           />
         </div>
       </div>
       <div
-        class="sc-ifAKCX gzLxUf"
+        class="sc-bdVaJa bDiKvh"
       >
         <div
-          class="sc-EHOje vwgiQ"
+          class="sc-bwzfXH ldOoJf"
         >
           <div>
             <img
               alt="LinkedIn"
-              class="sc-bZQynM cBEFRm"
+              class="sc-htpNat hwcHdo"
               src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
-              class="sc-bZQynM cBEFRm"
+              class="sc-htpNat hwcHdo"
               src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
-              class="sc-bZQynM cBEFRm"
+              class="sc-htpNat hwcHdo"
               src="Icon-facebook.png"
             />
           </div>
           <div>
             <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
+              class="sc-EHOje sc-gzVnrw iKqYXF"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
+              class="sc-EHOje sc-gzVnrw iKqYXF"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
+              class="sc-EHOje sc-gzVnrw iKqYXF"
               href="#"
             >
               Contacts
@@ -530,7 +530,7 @@ Object {
           </div>
           <div>
             <p
-              class="sc-gqjmRU sc-VigVT jKKcEs"
+              class="sc-htoDjs sc-dnqmqq xAsmd"
             >
               International Crafters © 2020
             </p>

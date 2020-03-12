@@ -6,16 +6,16 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bZQynM fBpDUV"
+        class="sc-htpNat DCunk"
       >
         <a
-          class="sc-EHOje cqogig"
+          class="sc-bwzfXH CKkqa"
           href="/login"
         >
           Log In
         </a>
         <a
-          class="sc-EHOje jlYWHr"
+          class="sc-bwzfXH fyFSpy"
           color="blue"
           href="/register"
         >
@@ -26,16 +26,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bZQynM fBpDUV"
+      class="sc-htpNat DCunk"
     >
       <a
-        class="sc-EHOje cqogig"
+        class="sc-bwzfXH CKkqa"
         href="/login"
       >
         Log In
       </a>
       <a
-        class="sc-EHOje jlYWHr"
+        class="sc-bwzfXH fyFSpy"
         color="blue"
         href="/register"
       >

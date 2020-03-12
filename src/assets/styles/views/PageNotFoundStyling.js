@@ -1,5 +1,5 @@
-import BodyContainer from "../../atoms/BodyContainer";
-import { H2 } from "../../atoms/Heading";
+import BodyContainer from "../atoms/BodyContainer";
+import { H2 } from "../atoms/Heading";
 import styled from "styled-components";
 
 export const BodyColumn = styled(BodyContainer)`

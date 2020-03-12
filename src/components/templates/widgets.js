@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Button from "../../assets/styles/atoms/Button";
+import Button from "../atoms/Button";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { useHistory } from "react-router-dom";
 import { useSearchUserByEmail } from "../../hooks";

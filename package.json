@@ -33,7 +33,7 @@
   "scripts": {
     "start": "node node_modules/react-scripts/bin/react-scripts.js start",
     "build": "react-scripts build",
-    "test": "react-scripts test --update-snapshot --coverage --runInBand --forceExit",
+    "test": "react-scripts test --update-snapshot --watchAll --coverage --runInBand --forceExit",
     "clear_jest": "jest --clearCache",
     "eject": "react-scripts eject",
     "coverage": "react-scripts test --update-snapshot --env=jsdom --watchAll=false --coverage",
