@@ -6,7 +6,7 @@ import { render } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../utils/mockData";
-import App from "../App";
+import App from "../App.jsx";
 
 const history = createMemoryHistory();
 
@@ -56,5 +56,5 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   });
   it("The text node <p> for the World hackathon event card date, renders properly", () => {
     expect(component.queryByTestId("date-EuroHack")).toBeInTheDocument();
-  }); 
+  });
 });

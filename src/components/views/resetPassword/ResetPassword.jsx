@@ -2,8 +2,8 @@ import React from "react";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
-import Input from "../../atoms/Input";
-import WideBody from "../../atoms/WideBody";
+import Input from "../../../../assets/atoms/Input";
+import WideBody from "../../../../assets/atoms/WideBody";
 import BodyContainer from "../../atoms/BodyContainer";
 import { RowBody } from "../../atoms/RowBody";
 import { Footer } from "../../organisms/index";
@@ -51,7 +51,7 @@ const ResetPassword = () => {
             >
               {({ errors, touched }) => (
                 <Form>
-                  <Input display="wide" id="email" type="email" name="email" placeholder="Email address"/>
+                  <Input display="wide" id="email" type="email" name="email" placeholder="Email address" />
                   {errors.name && touched.name ? (
                     <div>{errors.name}</div>
                   ) : null}
