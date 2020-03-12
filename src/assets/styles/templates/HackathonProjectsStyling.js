@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { media } from "../GlobalStyles";
-import BodyContainer from "../../atoms/BodyContainer";
-import { CardWide } from "../../atoms/Card";
-import { Paragraph } from "../../atoms/Paragraph";
+import { media } from "../variables/index";
+import BodyContainer from "../atoms/BodyContainer";
+import { CardWide } from "../atoms/Card";
+import { Paragraph } from "../atoms/Paragraph";
 import React from "react";
 
 export const BodyContainerColumn = styled(props => (

@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import BodyContainer from "../../atoms/BodyContainer";
-import Label from "../../atoms/Label";
-import { CardWide } from "../../atoms/Card";
-import { RowBody } from "../../atoms/RowBody";
-import Button from "../../atoms/Button";
-import { media } from '../../variables/media';
+import BodyContainer from "../atoms/BodyContainer";
+import Label from "../atoms/Label";
+import { CardWide } from "../atoms/Card";
+import { RowBody } from "../atoms/RowBody";
+import Button from "../../../components/atoms/Button";
+import { media } from '../variables/index';
 
 import React from "react";
 

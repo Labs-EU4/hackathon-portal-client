@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import { Solid, media, type, Gradient } from "../GlobalStyles";
+import { Solid, media, type, Gradient } from "../variables/index";
 
 export const StyledNav = styled.div`
 display: none;

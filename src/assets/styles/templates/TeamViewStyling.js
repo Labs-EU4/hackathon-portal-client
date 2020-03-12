@@ -1,7 +1,7 @@
-import BodyContainer from "../../atoms/BodyContainer";
+import BodyContainer from "../atoms/BodyContainer";
 import styled from "styled-components";
-import { BoldSpan } from "../../atoms/Span";
-import { LetterIcon } from "../../atoms/Icon";
+import { BoldSpan } from "../atoms/Span";
+import { LetterIcon } from "../../../components/atoms/Icon";
 
 export const TeamsCont = styled(BodyContainer)`
   background-color: white;

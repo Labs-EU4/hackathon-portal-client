@@ -1,4 +1,4 @@
-import BodyContainer from "../../atoms/BodyContainer";
+import BodyContainer from "../atoms/BodyContainer";
 import styled from "styled-components";
 
 export const BodyRow = styled(BodyContainer)`

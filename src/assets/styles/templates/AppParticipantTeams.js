@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import BodyContainer from "../../atoms/BodyContainer";
-import { type, Solid, media } from "../GlobalStyles";
+import BodyContainer from "../atoms/BodyContainer";
+import { type, Solid, media } from "../variables/index";
 
 import React from "react";
 

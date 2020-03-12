@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import { CardWide } from "../../atoms/Card";
-import { LetterIcon } from "../../atoms/Icon";
-import BodyContainer from "../../atoms/BodyContainer";
-import { BoldSpan } from "../../atoms/Span";
-import { Paragraph } from "../../atoms/Paragraph";
-import { media } from "../GlobalStyles";
-import Button from "../../atoms/Button";
+import { CardWide } from "../atoms/Card";
+import { LetterIcon } from "../../../components/atoms/Icon";
+import BodyContainer from "../atoms/BodyContainer";
+import { BoldSpan } from "../atoms/Span";
+import { Paragraph } from "../atoms/Paragraph";
+import { media } from "../variables/index";
+import Button from "../../../components/atoms/Button";
 
 import React from "react";
 
