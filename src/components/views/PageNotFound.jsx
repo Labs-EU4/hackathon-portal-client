@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Header, Footer } from "../organisms/index";
-import { H3 } from "../atoms/Heading";
+import { H3 } from "../../assets/styles/atoms/Heading";
 import notFound_icon from "../../assets/images/notFound_icon.svg";
 import { BodyColumn, BodyRow, Header2 } from "../../assets/styles/views/PageNotFoundStyling";
 
