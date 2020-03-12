@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media } from "../../index";
+import { media } from "../GlobalStyles";
 
 
 export const Team = styled.div`
@@ -92,8 +92,8 @@ export const Feedback = styled.textarea`
   }
 
   ${({ wide }) =>
-        wide &&
-        `
+    wide &&
+    `
     width: 100%;
   `};
 `;

@@ -7,23 +7,23 @@ import * as Yup from "yup";
 
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../atoms/WideBody";
+import WideBody from "../../assets/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainer from "../atoms/BodyContainer";
-import { H3 } from "../atoms/Heading";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
-import { Column } from "../atoms/Column";
-import { CardForm } from "../atoms/Card";
-import Label from "../atoms/Label";
+import BodyContainer from "../../assets/atoms/BodyContainer";
+import { H3 } from "../../assets/atoms/Heading";
+import { RowHead } from "../../assets/atoms/RowHead";
+import { RowBody } from "../../assets/atoms/RowBody";
+import { Column } from "../../assets/atoms/Column";
+import { CardForm } from "../../assets/atoms/Card";
+import Label from "../../assets/atoms/Label";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
 import TextArea from "../molecules/TextArea";
 import Select from "../atoms/Select";
 import Button from "../atoms/Button";
-import { Paragraph } from "../atoms/Paragraph";
-import { ErrorSpan } from "../atoms/Span";
-import InputTag from "../atoms/TagsInput.js";
+import { Paragraph } from "../../assets/atoms/Paragraph";
+import { ErrorSpan } from "../../assets/atoms/Span";
+import InputTag from "../../assets/atoms/TagsInput.js";
 
 import {
   createEvent,
@@ -47,18 +47,18 @@ const HackathonForm = ({ initialState }) => {
   }, [dispatch]);
 
   const defaultState = {
-    id: initialState?.id,
-    event_title: initialState?.event_title || "",
-    start_date: initialState?.start_date || "",
-    end_date: initialState?.end_date || "",
-    event_description: initialState?.event_description || "",
-    location: initialState?.location || "",
-    tag_name: initialState?.tag_name || [],
-    rubrics: initialState?.rubrics || [],
-    requirements: initialState?.requirements || [],
-    guidelines: initialState?.guidelines || "",
-    participation_type: initialState?.participation_type || "individual",
-    category_id: initialState?.category_id || 1
+    id: initialState ?.id,
+    event_title: initialState ?.event_title || "",
+    start_date: initialState ?.start_date || "",
+    end_date: initialState ?.end_date || "",
+    event_description: initialState ?.event_description || "",
+    location: initialState ?.location || "",
+    tag_name: initialState ?.tag_name || [],
+    rubrics: initialState ?.rubrics || [],
+    requirements: initialState ?.requirements || [],
+    guidelines: initialState ?.guidelines || "",
+    participation_type: initialState ?.participation_type || "individual",
+    category_id: initialState ?.category_id || 1
   };
 
   const handleSubmit = values => {

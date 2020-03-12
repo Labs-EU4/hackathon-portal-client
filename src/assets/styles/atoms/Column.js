@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { media } from "./../index";
+import { media } from "../GlobalStyles";
 
 export const Column = styled.div`
   display: flex;

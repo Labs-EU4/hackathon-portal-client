@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Solid } from "../index";
+import { Solid } from "../GlobalStyles";
 
 export const RowHead = styled.div`
   display: flex;

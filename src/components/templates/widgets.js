@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from "react";
-import Button from "../atoms/Button";
-import { RowBody } from "../atoms/RowBody";
+import Button from "../../assets/atoms/Button";
+import { RowBody } from "../../assets/atoms/RowBody";
 import { useHistory } from "react-router-dom";
 import { useSearchUserByEmail } from "../../hooks";
 import {
   StyledContainer,
   Container,
   StyledWidget
-} from "../styles/templates/AppParticipantTeams";
-import { ContainerRadio } from "../styles/templates/AddTeammatesStyling";
+} from "../../assets/styles/templates/AppParticipantTeams";
+import { ContainerRadio } from "../../assets/styles/templates/AddTeammatesStyling";
 import isEmail from "validator/lib/isEmail";
 
 export const UserWidget = ({ user, select, ...otherProps }) => {

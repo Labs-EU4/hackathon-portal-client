@@ -1,8 +1,8 @@
 import React from "react";
-import { ReactComponent as DashboardIcon } from "./../../assets/link-dashboard-icon.svg";
-import { ReactComponent as ProfileIcon } from "./../../assets/link-profile-icon.svg";
-import { ReactComponent as BurgerIcon } from "../../assets/link-burger-icon.svg";
-import { StyledNav, StyledMobileNav, StyledNavLink } from "../styles/molecules/NavStyling";
+import { ReactComponent as DashboardIcon } from "./../../assets/images/link-dashboard-icon.svg";
+import { ReactComponent as ProfileIcon } from "./../../assets/images/link-profile-icon.svg";
+import { ReactComponent as BurgerIcon } from "../../assets/images/link-burger-icon.svg";
+import { StyledNav, StyledMobileNav, StyledNavLink } from "../../assets/styles/molecules/NavStyling";
 
 const items = [
   {

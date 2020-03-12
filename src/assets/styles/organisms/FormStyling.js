@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { type, smallFontSize } from "../../index";
+import { type, smallFontSize } from "../GlobalStyles";
 
 export const StyledAnchor = styled(Link)`
   display: block;

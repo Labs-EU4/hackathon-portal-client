@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { type, Solid, Gradient } from '../index';
+import { type, Solid, Gradient } from "../../assets/styles/GlobalStyles";
 import dateIcon from '../../assets/Icon-time.png';
 
 export const DateIcon = styled.div`

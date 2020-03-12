@@ -4,7 +4,7 @@ import { LetterIcon } from "../../atoms/Icon";
 import BodyContainer from "../../atoms/BodyContainer";
 import { BoldSpan } from "../../atoms/Span";
 import { Paragraph } from "../../atoms/Paragraph";
-import { media } from "../../index";
+import { media } from "../GlobalStyles";
 import Button from "../../atoms/Button";
 
 import React from "react";

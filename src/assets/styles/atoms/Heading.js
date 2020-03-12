@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { type, Solid } from "../index";
+import { type, Solid } from "../GlobalStyles";
 
 export const H1 = styled.h1`
   font-family: ${type.ROBOTO};

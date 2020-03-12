@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import BodyContainer from "../../atoms/BodyContainer";
-import { type, Solid, media } from "../../index";
+import { type, Solid, media } from "../GlobalStyles";
 
 import React from "react";
 
@@ -26,7 +26,7 @@ input {
   padding: 10px;
   margin: 0 20px 10px 0;
   ${({ display }) =>
-        display === "wide" ? `width: 100%;` : `width: 180px;`}
+    display === "wide" ? `width: 100%;` : `width: 180px;`}
 
   &:focus {
     transition: all 0.5s;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media } from "../../index";
+import { media } from "../GlobalStyles";
 import BodyContainer from "../../atoms/BodyContainer";
 import { CardWide } from "../../atoms/Card";
 import { Paragraph } from "../../atoms/Paragraph";

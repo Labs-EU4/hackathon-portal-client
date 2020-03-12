@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { type, smallFontSize, baseFontSize, Solid } from '../index';
+import { type, smallFontSize, baseFontSize, Solid } from "../GlobalStyles";
 
 export const Anchor = styled.a`
   font-family: ${type.ROBOTO_MONO};

@@ -1,4 +1,4 @@
-import { type, Solid, media } from "../../index";
+import { type, Solid, media } from "../GlobalStyles";
 import BodyContainer from "../../atoms/BodyContainer";
 import styled from "styled-components";
 import React from 'react'

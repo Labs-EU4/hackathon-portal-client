@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { type, Solid } from "../../index";
+import { type, Solid } from "../GlobalStyles";
 
 export const InputField = styled.div`
   display: flex;

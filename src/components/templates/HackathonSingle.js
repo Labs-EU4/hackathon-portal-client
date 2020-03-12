@@ -3,19 +3,19 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../atoms/WideBody";
+import WideBody from "../../assets/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import { H2, H3 } from "../atoms/Heading";
-import { BoldSpan } from "../atoms/Span";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
-import { Paragraph } from "../atoms/Paragraph";
+import { H2, H3 } from "../../assets/atoms/Heading";
+import { BoldSpan } from "../../assets/atoms/Span";
+import { RowHead } from "../../assets/atoms/RowHead";
+import { RowBody } from "../../assets/atoms/RowBody";
+import { Paragraph } from "../../assets/atoms/Paragraph";
 import Button from "../atoms/Button";
-import user_icon from "../../assets/user_icon.svg";
+import user_icon from "../../assets/image/user_icon.svg";
 import { registerEvent, unregisterEvent } from "../../store/eventParticipants/actions";
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 import Spinner from "../molecules/Spinner";
-import { BodyContainerColumn, NormalSpan, Image, PTags, PHosted, EventCardWide, TagsCardWide, TitleContainer, StyledLetterIcon, Details, ButtonsDashGroup, Separator, TagsGroup, ImgPlaceHolder, AvatarImg, PBold, RegButton } from "../styles/templates/HackathonSingleStyling";
+import { BodyContainerColumn, NormalSpan, Image, PTags, PHosted, EventCardWide, TagsCardWide, TitleContainer, StyledLetterIcon, Details, ButtonsDashGroup, Separator, TagsGroup, ImgPlaceHolder, AvatarImg, PBold, RegButton } from "../../assets/styles/templates/HackathonSingleStyling";
 
 
 const HackathonSingle = () => {

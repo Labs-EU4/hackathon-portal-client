@@ -10,19 +10,19 @@ import {
   RatingGroup,
   JudgeCount,
   SubmissionEntry
-} from "../styles/templates/HackathonProjectsStyling";
+} from "../../assets/styles/templates/HackathonProjectsStyling";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../atoms/WideBody";
+import WideBody from "../../assets/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import { H3 } from "../atoms/Heading";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
-import { Column } from "../atoms/Column";
+import { H3 } from "../../assets/atoms/Heading";
+import { RowHead } from "../../assets/atoms/RowHead";
+import { RowBody } from "../../assets/atoms/RowBody";
+import { Column } from "../../assets/atoms/Column";
 import Button from "../atoms/Button";
 import Rating from "react-rating";
-import emptyStar from "../../assets/star-hollow.png";
-import fullStar from "../../assets/star-full.png";
+import emptyStar from "../../assets/images/star-hollow.png";
+import fullStar from "../../assets/images/star-full.png";
 import { useSubmissions } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 

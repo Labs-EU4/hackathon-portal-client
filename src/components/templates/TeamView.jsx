@@ -3,8 +3,8 @@ import Button from "../atoms/Button";
 import { NavLink, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useTeammates } from "../../hooks";
-import user_icon from "../../assets/user_icon.svg";
-import { TeamsCont, FancyBoldSpan, StyledLetterIcon, NormalSpan, TeamMateDiv, Img, ImgWithBorder } from "../styles/templates/TeamViewStyling"
+import user_icon from "../../assets/images/user_icon.svg";
+import { TeamsCont, FancyBoldSpan, StyledLetterIcon, NormalSpan, TeamMateDiv, Img, ImgWithBorder } from "../../assets/styles/templates/TeamViewStyling"
 
 const TeamView = ({ team }) => {
   const { id } = useParams();

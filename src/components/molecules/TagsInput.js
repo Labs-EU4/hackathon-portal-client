@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/atoms/TagsInput.css";
+import "../assets/styles/atoms/TagsInput.css";
 
 const InputTag = props => {
   let tagInput;
