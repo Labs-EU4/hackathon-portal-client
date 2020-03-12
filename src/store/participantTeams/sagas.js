@@ -11,7 +11,6 @@ import {
   setTeamMates,
   fetchTeams
 } from "./actions";
-
 export function* participantTeamSagas() {
   yield all([
     call(watchCreateTeamName),
@@ -21,7 +20,6 @@ export function* participantTeamSagas() {
     call(watchSendParticipantInvite)
   ]);
 }
-
 
 function* createTeamNameAsync({ payload, history }) {
   try {
@@ -119,7 +117,9 @@ function* sendParticipantInviteAsync({ payload, history }) {
   try {
     const { email, teamId, eventId } = payload;
     const token = yield select(selectToken);
-    yield axiosWithAuth(token).post(`/api/events/participant-teams/invite/${teamId}`, { email });
+    yield axiosWithAuth(
+      token
+    ).post(`/api/events/participant-teams/invite/${teamId}`, { email });
     yield showSuccess(`invite sent successfully to ${email}`);
     history.push(`/dashboard/event/${eventId}/participant-teams`);
   } catch (error) {
