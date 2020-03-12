@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { type } from "../GlobalStyles";
+import { type } from "../variables/index";
 
 const Label = styled.label`
   font-family: ${type.ROBOTO};

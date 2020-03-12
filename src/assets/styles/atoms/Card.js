@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Solid, media } from "../GlobalStyles";
+import { Solid, media } from "../variables/index";
 
 export const Card = styled.div`
   background-color: ${Solid.WHITE};

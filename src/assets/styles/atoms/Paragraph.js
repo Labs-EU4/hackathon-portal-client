@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { type, Solid } from "../GlobalStyles";
+import { type, Solid } from "../variables/index";
 
 export const Paragraph = styled.p`
   font-family: ${type.ROBOTO};

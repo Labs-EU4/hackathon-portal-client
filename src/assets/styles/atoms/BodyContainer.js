@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media } from "../GlobalStyles";
+import { media } from "../variables/index";
 
 const BodyContainer = styled.div`
   width: 100%;

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { type, Solid, media } from "../GlobalStyles";
+import { type, Solid, media } from "../variables/index";
 
 export const Span = styled.span`
   font-family: ${type.ROBOTO};
