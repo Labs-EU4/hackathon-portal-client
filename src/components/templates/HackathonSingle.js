@@ -11,7 +11,7 @@ import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import Button from "../atoms/Button";
-import user_icon from "../../assets/image/user_icon.svg";
+import { user_icon } from "../../assets/images/user_icon.svg";
 import { registerEvent, unregisterEvent } from "../../store/eventParticipants/actions";
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 import Spinner from "../molecules/Spinner";

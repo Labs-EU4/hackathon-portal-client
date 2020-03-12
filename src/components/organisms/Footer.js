@@ -7,9 +7,9 @@ import SocialIcon from '../../components/atoms/SocialIcon';
 import { FooterNavAnchor } from '../../assets/styles/atoms/Anchor';
 import { PlainParagraph } from '../../assets/styles/atoms/Paragraph';
 
-import linkedin from '../../assets/images/Icon-linkedin.png';
-import twitter from '../../assets/images/Icon-twitter.png';
-import facebook from '../../assets/images/Icon-facebook.png';
+import { linkedin } from '../../assets/images/Icon-linkedin.png';
+import { twitter } from '../../assets/images/Icon-twitter.png';
+import { facebook } from '../../assets/images/Icon-facebook.png';
 
 const Footer = () => (
   <WideFooter>

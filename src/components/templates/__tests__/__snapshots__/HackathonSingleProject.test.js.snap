@@ -7,25 +7,24 @@ Object {
     <div>
       <div>
         <div
-          class="sc-ifAKCX kjqdgS"
+          class="sc-bdVaJa gOhKpA"
         >
           <div
-            class="sc-EHOje cawcRW"
+            class="sc-bwzfXH fFUqyI"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-bZQynM cMGtGG"
-                src="Hackton-logo.png"
+                class="sc-htpNat Tzmao"
               />
             </a>
             <div
-              class="sc-ksYbfQ hjqsWu"
+              class="sc-kgAjT jIKiCc"
             >
               <div
-                class="sc-htoDjs iAtLjJ"
+                class="sc-ifAKCX kdrsqy"
               >
                 <span>
                   <svg>
@@ -36,7 +35,7 @@ Object {
                 <ul>
                   <li>
                     <a
-                      class="sc-dnqmqq gRMNAQ"
+                      class="sc-EHOje hzuIpJ"
                       href="/dashboard"
                     >
                       Dashboard
@@ -44,7 +43,7 @@ Object {
                   </li>
                   <li>
                     <a
-                      class="sc-dnqmqq gRMNAQ"
+                      class="sc-EHOje hzuIpJ"
                       href="/dashboard/profile"
                     >
                       Profile
@@ -53,11 +52,11 @@ Object {
                 </ul>
               </div>
               <div
-                class="sc-iwsKbI fnOUWl"
+                class="sc-bZQynM jmEhMx"
               >
                 8
                 <ul
-                  class="sc-gZMcBi hjGwiG"
+                  class="sc-gzVnrw jDXfTH"
                 >
                   <li>
                     <a
@@ -77,13 +76,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-cMljjf hEMCcP"
+          class="sc-eHgmQL bjfMmQ"
         >
           <div
-            class="sc-gzVnrw ehKlJb"
+            class="sc-bxivhb gaIiMZ"
           >
             <a
-              class="sc-dnqmqq gRMNAQ"
+              class="sc-EHOje hzuIpJ"
               href="/dashboard"
             >
               <svg>
@@ -92,7 +91,7 @@ Object {
               Dashboard
             </a>
             <a
-              class="sc-dnqmqq gRMNAQ"
+              class="sc-EHOje hzuIpJ"
               href="/dashboard/profile"
             >
               <svg>
@@ -102,17 +101,17 @@ Object {
             </a>
           </div>
           <div
-            class="sc-bwzfXH cwdcdI sc-csuQGl bhGfDy"
+            class="sc-cvbbAY iPOLWR sc-jlyJG cZXMfX"
           >
             <div
-              class="sc-jDwBTQ hADVSm"
+              class="sc-brqgnP fmVBbM"
             >
               <h3
-                class="sc-eNQAEJ faMTgL"
+                class="sc-kpOJdX idJNmT"
               >
                 Submitted project for 
                 <strong
-                  class="sc-hzDkRC kofypC"
+                  class="sc-Rmtcm jVkHAT"
                 >
                   "
                   EuroHack
@@ -121,48 +120,48 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-gPEVay flBdod"
+              class="sc-cMljjf bwzsDm"
             >
               <div
-                class="sc-iRbamj sc-jlyJG sc-Rmtcm fpnErS"
+                class="sc-jDwBTQ sc-gPEVay sc-gipzik jKBHOi"
               >
                 <div
-                  class="sc-caSCKo irVKbQ"
+                  class="sc-eqIVtm hOZvYG"
                 >
                   <div
-                    class="sc-eqIVtm fsbuqC"
+                    class="sc-fMiknA loVlFO"
                   >
                     <h3
-                      class="sc-eNQAEJ faMTgL"
+                      class="sc-kpOJdX idJNmT"
                     />
                   </div>
                   <label
-                    class="sc-bdVaJa cvMTJw"
+                    class="sc-jAaTju fTLCWG"
                     for="project_writeup"
                   >
                     Project writeup
                   </label>
                   <div
-                    class="sc-fAjcbJ frQaPT"
+                    class="sc-dVhcbM oAYXy"
                     id="project_writeup"
                   >
                     <p
-                      class="sc-kgoBCf fzXYvN"
+                      class="sc-jzJRlG eWJCf"
                     />
                   </div>
                   <div
-                    class="sc-TOsTZ kKwWBR"
+                    class="sc-kjoXOD dievKS"
                   >
                     <label
-                      class="sc-bdVaJa cvMTJw"
+                      class="sc-jAaTju fTLCWG"
                       for="rubrics"
                     />
                     <div
-                      class="sc-gisBJw jwfOwJ"
+                      class="sc-fAjcbJ iGYLhA"
                       id="rubrics"
                     >
                       <div
-                        class="sc-kjoXOD hPKvS"
+                        class="sc-caSCKo jzoaqr"
                       >
                         Presentation
                         <span
@@ -174,7 +173,6 @@ Object {
                             <span>
                               <img
                                 alt="Presentation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -182,7 +180,6 @@ Object {
                             >
                               <img
                                 alt="Presentation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -192,7 +189,6 @@ Object {
                             <span>
                               <img
                                 alt="Presentation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -200,7 +196,6 @@ Object {
                             >
                               <img
                                 alt="Presentation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -210,7 +205,6 @@ Object {
                             <span>
                               <img
                                 alt="Presentation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -218,7 +212,6 @@ Object {
                             >
                               <img
                                 alt="Presentation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -228,7 +221,6 @@ Object {
                             <span>
                               <img
                                 alt="Presentation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -236,7 +228,6 @@ Object {
                             >
                               <img
                                 alt="Presentation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -246,7 +237,6 @@ Object {
                             <span>
                               <img
                                 alt="Presentation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -254,14 +244,13 @@ Object {
                             >
                               <img
                                 alt="Presentation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
                         </span>
                       </div>
                       <div
-                        class="sc-kjoXOD hPKvS"
+                        class="sc-caSCKo jzoaqr"
                       >
                         Product Fit
                         <span
@@ -273,7 +262,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Fit"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -281,7 +269,6 @@ Object {
                             >
                               <img
                                 alt="Product Fit"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -291,7 +278,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Fit"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -299,7 +285,6 @@ Object {
                             >
                               <img
                                 alt="Product Fit"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -309,7 +294,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Fit"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -317,7 +301,6 @@ Object {
                             >
                               <img
                                 alt="Product Fit"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -327,7 +310,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Fit"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -335,7 +317,6 @@ Object {
                             >
                               <img
                                 alt="Product Fit"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -345,7 +326,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Fit"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -353,14 +333,13 @@ Object {
                             >
                               <img
                                 alt="Product Fit"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
                         </span>
                       </div>
                       <div
-                        class="sc-kjoXOD hPKvS"
+                        class="sc-caSCKo jzoaqr"
                       >
                         Functionality
                         <span
@@ -372,7 +351,6 @@ Object {
                             <span>
                               <img
                                 alt="Functionality"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -380,7 +358,6 @@ Object {
                             >
                               <img
                                 alt="Functionality"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -390,7 +367,6 @@ Object {
                             <span>
                               <img
                                 alt="Functionality"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -398,7 +374,6 @@ Object {
                             >
                               <img
                                 alt="Functionality"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -408,7 +383,6 @@ Object {
                             <span>
                               <img
                                 alt="Functionality"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -416,7 +390,6 @@ Object {
                             >
                               <img
                                 alt="Functionality"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -426,7 +399,6 @@ Object {
                             <span>
                               <img
                                 alt="Functionality"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -434,7 +406,6 @@ Object {
                             >
                               <img
                                 alt="Functionality"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -444,7 +415,6 @@ Object {
                             <span>
                               <img
                                 alt="Functionality"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -452,14 +422,13 @@ Object {
                             >
                               <img
                                 alt="Functionality"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
                         </span>
                       </div>
                       <div
-                        class="sc-kjoXOD hPKvS"
+                        class="sc-caSCKo jzoaqr"
                       >
                         Innovation
                         <span
@@ -471,7 +440,6 @@ Object {
                             <span>
                               <img
                                 alt="Innovation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -479,7 +447,6 @@ Object {
                             >
                               <img
                                 alt="Innovation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -489,7 +456,6 @@ Object {
                             <span>
                               <img
                                 alt="Innovation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -497,7 +463,6 @@ Object {
                             >
                               <img
                                 alt="Innovation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -507,7 +472,6 @@ Object {
                             <span>
                               <img
                                 alt="Innovation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -515,7 +479,6 @@ Object {
                             >
                               <img
                                 alt="Innovation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -525,7 +488,6 @@ Object {
                             <span>
                               <img
                                 alt="Innovation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -533,7 +495,6 @@ Object {
                             >
                               <img
                                 alt="Innovation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -543,7 +504,6 @@ Object {
                             <span>
                               <img
                                 alt="Innovation"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -551,14 +511,13 @@ Object {
                             >
                               <img
                                 alt="Innovation"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
                         </span>
                       </div>
                       <div
-                        class="sc-kjoXOD hPKvS"
+                        class="sc-caSCKo jzoaqr"
                       >
                         Product Design
                         <span
@@ -570,7 +529,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Design"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -578,7 +536,6 @@ Object {
                             >
                               <img
                                 alt="Product Design"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -588,7 +545,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Design"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -596,7 +552,6 @@ Object {
                             >
                               <img
                                 alt="Product Design"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -606,7 +561,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Design"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -614,7 +568,6 @@ Object {
                             >
                               <img
                                 alt="Product Design"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -624,7 +577,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Design"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -632,7 +584,6 @@ Object {
                             >
                               <img
                                 alt="Product Design"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -642,7 +593,6 @@ Object {
                             <span>
                               <img
                                 alt="Product Design"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -650,14 +600,13 @@ Object {
                             >
                               <img
                                 alt="Product Design"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
                         </span>
                       </div>
                       <div
-                        class="sc-kjoXOD hPKvS"
+                        class="sc-caSCKo jzoaqr"
                       >
                         Extensibility
                         <span
@@ -669,7 +618,6 @@ Object {
                             <span>
                               <img
                                 alt="Extensibility"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -677,7 +625,6 @@ Object {
                             >
                               <img
                                 alt="Extensibility"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -687,7 +634,6 @@ Object {
                             <span>
                               <img
                                 alt="Extensibility"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -695,7 +641,6 @@ Object {
                             >
                               <img
                                 alt="Extensibility"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -705,7 +650,6 @@ Object {
                             <span>
                               <img
                                 alt="Extensibility"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -713,7 +657,6 @@ Object {
                             >
                               <img
                                 alt="Extensibility"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -723,7 +666,6 @@ Object {
                             <span>
                               <img
                                 alt="Extensibility"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -731,7 +673,6 @@ Object {
                             >
                               <img
                                 alt="Extensibility"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -741,7 +682,6 @@ Object {
                             <span>
                               <img
                                 alt="Extensibility"
-                                src="star-hollow.png"
                               />
                             </span>
                             <span
@@ -749,7 +689,6 @@ Object {
                             >
                               <img
                                 alt="Extensibility"
-                                src="star-full.png"
                               />
                             </span>
                           </span>
@@ -757,23 +696,23 @@ Object {
                       </div>
                     </div>
                     <label
-                      class="sc-bdVaJa cvMTJw"
+                      class="sc-jAaTju fTLCWG"
                       for="feedback"
                     >
                       Feedback
                     </label>
                     <p
-                      class="sc-kgoBCf fzXYvN"
+                      class="sc-jzJRlG eWJCf"
                     >
                       No comments on this project
                     </p>
                   </div>
                 </div>
                 <div
-                  class="sc-kgAjT cxlKyT"
+                  class="sc-cHGsZl iQwIeC"
                 >
                   <a
-                    class="sc-iAyFgw kpEmSz"
+                    class="sc-eNQAEJ cEtlkd"
                     color="grey"
                     href="/dashboard/event/1/projects"
                   >
@@ -785,43 +724,40 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gqjmRU gUOFMN"
+          class="sc-htoDjs kiXwGm"
         >
           <div
-            class="sc-VigVT fmYOuc"
+            class="sc-dnqmqq dBtDWt"
           >
             <div>
               <img
                 alt="LinkedIn"
-                class="sc-jTzLTM dCoQrq"
-                src="Icon-linkedin.png"
+                class="sc-iwsKbI hPLzwN"
               />
               <img
                 alt="Twitter"
-                class="sc-jTzLTM dCoQrq"
-                src="Icon-twitter.png"
+                class="sc-iwsKbI hPLzwN"
               />
               <img
                 alt="Facebook"
-                class="sc-jTzLTM dCoQrq"
-                src="Icon-facebook.png"
+                class="sc-iwsKbI hPLzwN"
               />
             </div>
             <div>
               <a
-                class="sc-cSHVUG sc-chPdSV tifze"
+                class="sc-VigVT sc-fjdhpX eRdrck"
                 href="https://hackton.co/#team"
               >
                 Team
               </a>
               <a
-                class="sc-cSHVUG sc-chPdSV tifze"
+                class="sc-VigVT sc-fjdhpX eRdrck"
                 href="#"
               >
                 Privacy
               </a>
               <a
-                class="sc-cSHVUG sc-chPdSV tifze"
+                class="sc-VigVT sc-fjdhpX eRdrck"
                 href="#"
               >
                 Contacts
@@ -829,7 +765,7 @@ Object {
             </div>
             <div>
               <p
-                class="sc-kgoBCf sc-kGXeez iYoAqE"
+                class="sc-jzJRlG sc-cSHVUG iodlNy"
               >
                 International Crafters © 2020
               </p>
@@ -842,25 +778,24 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-ifAKCX kjqdgS"
+        class="sc-bdVaJa gOhKpA"
       >
         <div
-          class="sc-EHOje cawcRW"
+          class="sc-bwzfXH fFUqyI"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-bZQynM cMGtGG"
-              src="Hackton-logo.png"
+              class="sc-htpNat Tzmao"
             />
           </a>
           <div
-            class="sc-ksYbfQ hjqsWu"
+            class="sc-kgAjT jIKiCc"
           >
             <div
-              class="sc-htoDjs iAtLjJ"
+              class="sc-ifAKCX kdrsqy"
             >
               <span>
                 <svg>
@@ -871,7 +806,7 @@ Object {
               <ul>
                 <li>
                   <a
-                    class="sc-dnqmqq gRMNAQ"
+                    class="sc-EHOje hzuIpJ"
                     href="/dashboard"
                   >
                     Dashboard
@@ -879,7 +814,7 @@ Object {
                 </li>
                 <li>
                   <a
-                    class="sc-dnqmqq gRMNAQ"
+                    class="sc-EHOje hzuIpJ"
                     href="/dashboard/profile"
                   >
                     Profile
@@ -888,11 +823,11 @@ Object {
               </ul>
             </div>
             <div
-              class="sc-iwsKbI fnOUWl"
+              class="sc-bZQynM jmEhMx"
             >
               8
               <ul
-                class="sc-gZMcBi hjGwiG"
+                class="sc-gzVnrw jDXfTH"
               >
                 <li>
                   <a
@@ -912,13 +847,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-cMljjf hEMCcP"
+        class="sc-eHgmQL bjfMmQ"
       >
         <div
-          class="sc-gzVnrw ehKlJb"
+          class="sc-bxivhb gaIiMZ"
         >
           <a
-            class="sc-dnqmqq gRMNAQ"
+            class="sc-EHOje hzuIpJ"
             href="/dashboard"
           >
             <svg>
@@ -927,7 +862,7 @@ Object {
             Dashboard
           </a>
           <a
-            class="sc-dnqmqq gRMNAQ"
+            class="sc-EHOje hzuIpJ"
             href="/dashboard/profile"
           >
             <svg>
@@ -937,17 +872,17 @@ Object {
           </a>
         </div>
         <div
-          class="sc-bwzfXH cwdcdI sc-csuQGl bhGfDy"
+          class="sc-cvbbAY iPOLWR sc-jlyJG cZXMfX"
         >
           <div
-            class="sc-jDwBTQ hADVSm"
+            class="sc-brqgnP fmVBbM"
           >
             <h3
-              class="sc-eNQAEJ faMTgL"
+              class="sc-kpOJdX idJNmT"
             >
               Submitted project for 
               <strong
-                class="sc-hzDkRC kofypC"
+                class="sc-Rmtcm jVkHAT"
               >
                 "
                 EuroHack
@@ -956,48 +891,48 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-gPEVay flBdod"
+            class="sc-cMljjf bwzsDm"
           >
             <div
-              class="sc-iRbamj sc-jlyJG sc-Rmtcm fpnErS"
+              class="sc-jDwBTQ sc-gPEVay sc-gipzik jKBHOi"
             >
               <div
-                class="sc-caSCKo irVKbQ"
+                class="sc-eqIVtm hOZvYG"
               >
                 <div
-                  class="sc-eqIVtm fsbuqC"
+                  class="sc-fMiknA loVlFO"
                 >
                   <h3
-                    class="sc-eNQAEJ faMTgL"
+                    class="sc-kpOJdX idJNmT"
                   />
                 </div>
                 <label
-                  class="sc-bdVaJa cvMTJw"
+                  class="sc-jAaTju fTLCWG"
                   for="project_writeup"
                 >
                   Project writeup
                 </label>
                 <div
-                  class="sc-fAjcbJ frQaPT"
+                  class="sc-dVhcbM oAYXy"
                   id="project_writeup"
                 >
                   <p
-                    class="sc-kgoBCf fzXYvN"
+                    class="sc-jzJRlG eWJCf"
                   />
                 </div>
                 <div
-                  class="sc-TOsTZ kKwWBR"
+                  class="sc-kjoXOD dievKS"
                 >
                   <label
-                    class="sc-bdVaJa cvMTJw"
+                    class="sc-jAaTju fTLCWG"
                     for="rubrics"
                   />
                   <div
-                    class="sc-gisBJw jwfOwJ"
+                    class="sc-fAjcbJ iGYLhA"
                     id="rubrics"
                   >
                     <div
-                      class="sc-kjoXOD hPKvS"
+                      class="sc-caSCKo jzoaqr"
                     >
                       Presentation
                       <span
@@ -1009,7 +944,6 @@ Object {
                           <span>
                             <img
                               alt="Presentation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1017,7 +951,6 @@ Object {
                           >
                             <img
                               alt="Presentation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1027,7 +960,6 @@ Object {
                           <span>
                             <img
                               alt="Presentation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1035,7 +967,6 @@ Object {
                           >
                             <img
                               alt="Presentation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1045,7 +976,6 @@ Object {
                           <span>
                             <img
                               alt="Presentation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1053,7 +983,6 @@ Object {
                           >
                             <img
                               alt="Presentation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1063,7 +992,6 @@ Object {
                           <span>
                             <img
                               alt="Presentation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1071,7 +999,6 @@ Object {
                           >
                             <img
                               alt="Presentation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1081,7 +1008,6 @@ Object {
                           <span>
                             <img
                               alt="Presentation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1089,14 +1015,13 @@ Object {
                           >
                             <img
                               alt="Presentation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
                       </span>
                     </div>
                     <div
-                      class="sc-kjoXOD hPKvS"
+                      class="sc-caSCKo jzoaqr"
                     >
                       Product Fit
                       <span
@@ -1108,7 +1033,6 @@ Object {
                           <span>
                             <img
                               alt="Product Fit"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1116,7 +1040,6 @@ Object {
                           >
                             <img
                               alt="Product Fit"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1126,7 +1049,6 @@ Object {
                           <span>
                             <img
                               alt="Product Fit"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1134,7 +1056,6 @@ Object {
                           >
                             <img
                               alt="Product Fit"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1144,7 +1065,6 @@ Object {
                           <span>
                             <img
                               alt="Product Fit"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1152,7 +1072,6 @@ Object {
                           >
                             <img
                               alt="Product Fit"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1162,7 +1081,6 @@ Object {
                           <span>
                             <img
                               alt="Product Fit"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1170,7 +1088,6 @@ Object {
                           >
                             <img
                               alt="Product Fit"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1180,7 +1097,6 @@ Object {
                           <span>
                             <img
                               alt="Product Fit"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1188,14 +1104,13 @@ Object {
                           >
                             <img
                               alt="Product Fit"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
                       </span>
                     </div>
                     <div
-                      class="sc-kjoXOD hPKvS"
+                      class="sc-caSCKo jzoaqr"
                     >
                       Functionality
                       <span
@@ -1207,7 +1122,6 @@ Object {
                           <span>
                             <img
                               alt="Functionality"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1215,7 +1129,6 @@ Object {
                           >
                             <img
                               alt="Functionality"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1225,7 +1138,6 @@ Object {
                           <span>
                             <img
                               alt="Functionality"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1233,7 +1145,6 @@ Object {
                           >
                             <img
                               alt="Functionality"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1243,7 +1154,6 @@ Object {
                           <span>
                             <img
                               alt="Functionality"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1251,7 +1161,6 @@ Object {
                           >
                             <img
                               alt="Functionality"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1261,7 +1170,6 @@ Object {
                           <span>
                             <img
                               alt="Functionality"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1269,7 +1177,6 @@ Object {
                           >
                             <img
                               alt="Functionality"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1279,7 +1186,6 @@ Object {
                           <span>
                             <img
                               alt="Functionality"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1287,14 +1193,13 @@ Object {
                           >
                             <img
                               alt="Functionality"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
                       </span>
                     </div>
                     <div
-                      class="sc-kjoXOD hPKvS"
+                      class="sc-caSCKo jzoaqr"
                     >
                       Innovation
                       <span
@@ -1306,7 +1211,6 @@ Object {
                           <span>
                             <img
                               alt="Innovation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1314,7 +1218,6 @@ Object {
                           >
                             <img
                               alt="Innovation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1324,7 +1227,6 @@ Object {
                           <span>
                             <img
                               alt="Innovation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1332,7 +1234,6 @@ Object {
                           >
                             <img
                               alt="Innovation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1342,7 +1243,6 @@ Object {
                           <span>
                             <img
                               alt="Innovation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1350,7 +1250,6 @@ Object {
                           >
                             <img
                               alt="Innovation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1360,7 +1259,6 @@ Object {
                           <span>
                             <img
                               alt="Innovation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1368,7 +1266,6 @@ Object {
                           >
                             <img
                               alt="Innovation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1378,7 +1275,6 @@ Object {
                           <span>
                             <img
                               alt="Innovation"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1386,14 +1282,13 @@ Object {
                           >
                             <img
                               alt="Innovation"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
                       </span>
                     </div>
                     <div
-                      class="sc-kjoXOD hPKvS"
+                      class="sc-caSCKo jzoaqr"
                     >
                       Product Design
                       <span
@@ -1405,7 +1300,6 @@ Object {
                           <span>
                             <img
                               alt="Product Design"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1413,7 +1307,6 @@ Object {
                           >
                             <img
                               alt="Product Design"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1423,7 +1316,6 @@ Object {
                           <span>
                             <img
                               alt="Product Design"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1431,7 +1323,6 @@ Object {
                           >
                             <img
                               alt="Product Design"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1441,7 +1332,6 @@ Object {
                           <span>
                             <img
                               alt="Product Design"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1449,7 +1339,6 @@ Object {
                           >
                             <img
                               alt="Product Design"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1459,7 +1348,6 @@ Object {
                           <span>
                             <img
                               alt="Product Design"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1467,7 +1355,6 @@ Object {
                           >
                             <img
                               alt="Product Design"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1477,7 +1364,6 @@ Object {
                           <span>
                             <img
                               alt="Product Design"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1485,14 +1371,13 @@ Object {
                           >
                             <img
                               alt="Product Design"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
                       </span>
                     </div>
                     <div
-                      class="sc-kjoXOD hPKvS"
+                      class="sc-caSCKo jzoaqr"
                     >
                       Extensibility
                       <span
@@ -1504,7 +1389,6 @@ Object {
                           <span>
                             <img
                               alt="Extensibility"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1512,7 +1396,6 @@ Object {
                           >
                             <img
                               alt="Extensibility"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1522,7 +1405,6 @@ Object {
                           <span>
                             <img
                               alt="Extensibility"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1530,7 +1412,6 @@ Object {
                           >
                             <img
                               alt="Extensibility"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1540,7 +1421,6 @@ Object {
                           <span>
                             <img
                               alt="Extensibility"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1548,7 +1428,6 @@ Object {
                           >
                             <img
                               alt="Extensibility"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1558,7 +1437,6 @@ Object {
                           <span>
                             <img
                               alt="Extensibility"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1566,7 +1444,6 @@ Object {
                           >
                             <img
                               alt="Extensibility"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1576,7 +1453,6 @@ Object {
                           <span>
                             <img
                               alt="Extensibility"
-                              src="star-hollow.png"
                             />
                           </span>
                           <span
@@ -1584,7 +1460,6 @@ Object {
                           >
                             <img
                               alt="Extensibility"
-                              src="star-full.png"
                             />
                           </span>
                         </span>
@@ -1592,23 +1467,23 @@ Object {
                     </div>
                   </div>
                   <label
-                    class="sc-bdVaJa cvMTJw"
+                    class="sc-jAaTju fTLCWG"
                     for="feedback"
                   >
                     Feedback
                   </label>
                   <p
-                    class="sc-kgoBCf fzXYvN"
+                    class="sc-jzJRlG eWJCf"
                   >
                     No comments on this project
                   </p>
                 </div>
               </div>
               <div
-                class="sc-kgAjT cxlKyT"
+                class="sc-cHGsZl iQwIeC"
               >
                 <a
-                  class="sc-iAyFgw kpEmSz"
+                  class="sc-eNQAEJ cEtlkd"
                   color="grey"
                   href="/dashboard/event/1/projects"
                 >
@@ -1620,43 +1495,40 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gqjmRU gUOFMN"
+        class="sc-htoDjs kiXwGm"
       >
         <div
-          class="sc-VigVT fmYOuc"
+          class="sc-dnqmqq dBtDWt"
         >
           <div>
             <img
               alt="LinkedIn"
-              class="sc-jTzLTM dCoQrq"
-              src="Icon-linkedin.png"
+              class="sc-iwsKbI hPLzwN"
             />
             <img
               alt="Twitter"
-              class="sc-jTzLTM dCoQrq"
-              src="Icon-twitter.png"
+              class="sc-iwsKbI hPLzwN"
             />
             <img
               alt="Facebook"
-              class="sc-jTzLTM dCoQrq"
-              src="Icon-facebook.png"
+              class="sc-iwsKbI hPLzwN"
             />
           </div>
           <div>
             <a
-              class="sc-cSHVUG sc-chPdSV tifze"
+              class="sc-VigVT sc-fjdhpX eRdrck"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-cSHVUG sc-chPdSV tifze"
+              class="sc-VigVT sc-fjdhpX eRdrck"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-cSHVUG sc-chPdSV tifze"
+              class="sc-VigVT sc-fjdhpX eRdrck"
               href="#"
             >
               Contacts
@@ -1664,7 +1536,7 @@ Object {
           </div>
           <div>
             <p
-              class="sc-kgoBCf sc-kGXeez iYoAqE"
+              class="sc-jzJRlG sc-cSHVUG iodlNy"
             >
               International Crafters © 2020
             </p>

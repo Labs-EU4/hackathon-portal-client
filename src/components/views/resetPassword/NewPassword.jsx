@@ -6,7 +6,7 @@ import Input from "../../atoms/Input";
 import WideBody from "../../../assets/styles/atoms/WideBody";
 import BodyContainer from "../../../assets/styles/atoms/BodyContainer";
 import HeroImage from "../../atoms/HeroImage";
-import image from "../../../assets/images/imagesSignup";
+import { image } from "../../../assets/images/imagesSignup";
 import Container from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/Heading";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";

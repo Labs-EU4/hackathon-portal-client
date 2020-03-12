@@ -16,7 +16,7 @@ import HeroImage from "../../atoms/HeroImage";
 import Container from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/Heading";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
-import image from "../../../assets/images/Password.png";
+import { image } from "../../../assets/images/Password.png";
 
 const ResetPassword = () => {
   const dispatch = useDispatch();

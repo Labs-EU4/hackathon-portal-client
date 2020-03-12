@@ -8,7 +8,7 @@ import { RowBody } from "../../../assets/styles/atoms/RowBody";
 import WideBody from "../../../assets/styles/atoms/WideBody";
 import { Header, Footer } from "../../organisms/index";
 import Button from "../../atoms/Button";
-import image from "../../../assets/images/Password-sent.png";
+import { image } from "../../../assets/images/Password-sent.png";
 
 function ResetPasswordConfirmation() {
   return (

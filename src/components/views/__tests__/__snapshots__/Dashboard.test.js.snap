@@ -18,7 +18,6 @@ Object {
               <img
                 alt="Hackton - Organise hackathons"
                 class="sc-jKJlTe jIUxxJ"
-                src="Hackton-logo.png"
               />
             </a>
             <div
@@ -153,7 +152,7 @@ Object {
                     class="sc-iRbamj gOXIQQ"
                   >
                     <div
-                      class="sc-jDwBTQ bTFNnA"
+                      class="sc-jDwBTQ hLGCXc"
                     />
                     <span
                       class="sc-chPdSV sc-jlyJG gNaYUo"
@@ -190,7 +189,7 @@ Object {
                     class="sc-iRbamj gOXIQQ"
                   >
                     <div
-                      class="sc-jDwBTQ bTFNnA"
+                      class="sc-jDwBTQ hLGCXc"
                     />
                     <span
                       class="sc-chPdSV sc-jlyJG gNaYUo"
@@ -227,17 +226,14 @@ Object {
               <img
                 alt="LinkedIn"
                 class="sc-htpNat hwcHdo"
-                src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
                 class="sc-htpNat hwcHdo"
-                src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
                 class="sc-htpNat hwcHdo"
-                src="Icon-facebook.png"
               />
             </div>
             <div>
@@ -286,7 +282,6 @@ Object {
             <img
               alt="Hackton - Organise hackathons"
               class="sc-jKJlTe jIUxxJ"
-              src="Hackton-logo.png"
             />
           </a>
           <div
@@ -421,7 +416,7 @@ Object {
                   class="sc-iRbamj gOXIQQ"
                 >
                   <div
-                    class="sc-jDwBTQ bTFNnA"
+                    class="sc-jDwBTQ hLGCXc"
                   />
                   <span
                     class="sc-chPdSV sc-jlyJG gNaYUo"
@@ -458,7 +453,7 @@ Object {
                   class="sc-iRbamj gOXIQQ"
                 >
                   <div
-                    class="sc-jDwBTQ bTFNnA"
+                    class="sc-jDwBTQ hLGCXc"
                   />
                   <span
                     class="sc-chPdSV sc-jlyJG gNaYUo"
@@ -495,17 +490,14 @@ Object {
             <img
               alt="LinkedIn"
               class="sc-htpNat hwcHdo"
-              src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
               class="sc-htpNat hwcHdo"
-              src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
               class="sc-htpNat hwcHdo"
-              src="Icon-facebook.png"
             />
           </div>
           <div>
