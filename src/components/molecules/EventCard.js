@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { Card } from "../../assets/atoms/Card";
-import { H4 } from "../../assets//atoms/Heading";
+import { Card } from "../../assets/styles/atoms/Card";
+import { H4 } from "../../assets/styles/atoms/Heading";
 import { LetterIcon } from "../atoms/Icon";
-import { Paragraph } from "../../assets/atoms/Paragraph";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import CardFooter from "./CardFooter";
 
 const StyledCardLink = styled(Link)`
