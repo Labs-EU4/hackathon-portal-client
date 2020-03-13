@@ -22,7 +22,7 @@ import {
   fetchAllSubmissions,
   submitProject
 } from "../../store/projectSubmission/actions";
-import { InputFull, BodyContainerColumn } from "../../assets/styles/GlobalStyles";
+import { BodyContainerColumn } from "../../assets/styles/GlobalStyles";
 
 const defaultState = {
   project_title: "",
@@ -153,16 +153,18 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                     {requireVideoUrl && (
                       <RowBody justify="start">
                         <Label htmlFor="video_url">Video URL</Label>
-                        <InputFull
+                        <Input
                           type="text"
                           name="video_url"
                           id="video_url"
+                          display="wide"
                         />
                         <ErrorSpan>
                           <ErrorMessage name="video_url" component="div" />
                         </ErrorSpan>
                       </RowBody>
                     )}
+
                     <RowBody justify="start">
                       <Label htmlFor="project_writeups">Project Writeup</Label>
                       <TextArea
