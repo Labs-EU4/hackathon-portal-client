@@ -17,6 +17,7 @@ Object {
             <img
               alt="Hackton - Organise hackathons"
               class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
             />
           </a>
           <div
@@ -53,6 +54,7 @@ Object {
           <img
             alt="Hackton - Organise hackathons"
             class="sc-htpNat Tzmao"
+            src="Hackton-logo.png"
           />
         </a>
         <div

@@ -15,14 +15,17 @@ Object {
             <img
               alt="LinkedIn"
               class="sc-htpNat hwcHdo"
+              src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
               class="sc-htpNat hwcHdo"
+              src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
               class="sc-htpNat hwcHdo"
+              src="Icon-facebook.png"
             />
           </div>
           <div>
@@ -67,14 +70,17 @@ Object {
           <img
             alt="LinkedIn"
             class="sc-htpNat hwcHdo"
+            src="Icon-linkedin.png"
           />
           <img
             alt="Twitter"
             class="sc-htpNat hwcHdo"
+            src="Icon-twitter.png"
           />
           <img
             alt="Facebook"
             class="sc-htpNat hwcHdo"
+            src="Icon-facebook.png"
           />
         </div>
         <div>

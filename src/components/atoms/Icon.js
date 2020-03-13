@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { type, Solid, Gradient } from "../../assets/styles/variables/index";
-import { dateIcon } from "../../assets/images/Icon-time.png";
+import dateIcon from "../../assets/images/Icon-time.png";
 
 export const DateIcon = styled.div`
   width: 20px;

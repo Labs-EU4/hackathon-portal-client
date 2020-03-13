@@ -15,7 +15,7 @@ import { Column } from "../../assets/styles/atoms/Column";
 import Input from "../atoms/Input";
 import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
-import { profileImg } from "../../assets/images/profile-image.png";
+import profileImg from "../../assets/images/profile-image.png";
 import ProfileImage from "../molecules/ProfileImage";
 import { updateUserProfile } from "../../store/user/actions";
 import {

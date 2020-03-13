@@ -21,8 +21,8 @@ import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { Column } from "../../assets/styles/atoms/Column";
 import Button from "../atoms/Button";
 import Rating from "react-rating";
-import { emptyStar } from "../../assets/images/star-hollow.png";
-import { fullStar } from "../../assets/images/star-full.png";
+import emptyStar from "../../assets/images/star-hollow.png";
+import fullStar from "../../assets/images/star-full.png";
 import { useSubmissions } from "../../hooks";
 import Spinner from "../molecules/Spinner";
 

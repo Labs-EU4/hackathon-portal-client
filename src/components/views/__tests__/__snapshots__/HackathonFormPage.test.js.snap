@@ -18,6 +18,7 @@ Object {
               <img
                 alt="Hackton - Organise hackathons"
                 class="sc-htpNat Tzmao"
+                src="Hackton-logo.png"
               />
             </a>
             <div
@@ -157,11 +158,11 @@ Object {
                       <input
                         class="sc-ckVGcZ dXSzti"
                         id="start_date"
-                        min="2020-03-12"
+                        min="2020-03-13"
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
-                        value="2020-03-12"
+                        value="2020-03-13"
                       />
                       <span
                         class="sc-hMqMXs sc-iAyFgw cklGIw"
@@ -183,7 +184,7 @@ Object {
                         name="end_date"
                         placeholder="Event ends"
                         type="date"
-                        value="2020-03-12"
+                        value="2020-03-13"
                       />
                       <span
                         class="sc-hMqMXs sc-iAyFgw cklGIw"
@@ -589,14 +590,17 @@ Object {
               <img
                 alt="LinkedIn"
                 class="sc-iwsKbI hPLzwN"
+                src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
                 class="sc-iwsKbI hPLzwN"
+                src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
                 class="sc-iwsKbI hPLzwN"
+                src="Icon-facebook.png"
               />
             </div>
             <div>
@@ -645,6 +649,7 @@ Object {
             <img
               alt="Hackton - Organise hackathons"
               class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
             />
           </a>
           <div
@@ -784,11 +789,11 @@ Object {
                     <input
                       class="sc-ckVGcZ dXSzti"
                       id="start_date"
-                      min="2020-03-12"
+                      min="2020-03-13"
                       name="start_date"
                       placeholder="Event starts"
                       type="date"
-                      value="2020-03-12"
+                      value="2020-03-13"
                     />
                     <span
                       class="sc-hMqMXs sc-iAyFgw cklGIw"
@@ -810,7 +815,7 @@ Object {
                       name="end_date"
                       placeholder="Event ends"
                       type="date"
-                      value="2020-03-12"
+                      value="2020-03-13"
                     />
                     <span
                       class="sc-hMqMXs sc-iAyFgw cklGIw"
@@ -1216,14 +1221,17 @@ Object {
             <img
               alt="LinkedIn"
               class="sc-iwsKbI hPLzwN"
+              src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
               class="sc-iwsKbI hPLzwN"
+              src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
               class="sc-iwsKbI hPLzwN"
+              src="Icon-facebook.png"
             />
           </div>
           <div>

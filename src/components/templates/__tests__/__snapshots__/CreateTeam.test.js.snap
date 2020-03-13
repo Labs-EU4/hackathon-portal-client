@@ -18,6 +18,7 @@ Object {
               <img
                 alt="Hackton - Organise hackathons"
                 class="sc-iAyFgw ZnYDG"
+                src="Hackton-logo.png"
               />
             </a>
             <div
@@ -155,14 +156,17 @@ Object {
               <img
                 alt="LinkedIn"
                 class="sc-gzVnrw hEzmkf"
+                src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
                 class="sc-gzVnrw hEzmkf"
+                src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
                 class="sc-gzVnrw hEzmkf"
+                src="Icon-facebook.png"
               />
             </div>
             <div>
@@ -211,6 +215,7 @@ Object {
             <img
               alt="Hackton - Organise hackathons"
               class="sc-iAyFgw ZnYDG"
+              src="Hackton-logo.png"
             />
           </a>
           <div
@@ -348,14 +353,17 @@ Object {
             <img
               alt="LinkedIn"
               class="sc-gzVnrw hEzmkf"
+              src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
               class="sc-gzVnrw hEzmkf"
+              src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
               class="sc-gzVnrw hEzmkf"
+              src="Icon-facebook.png"
             />
           </div>
           <div>
