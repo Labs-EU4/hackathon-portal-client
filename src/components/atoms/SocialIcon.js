@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Solid } from '../variables/colors';
-import { h1FontSize } from '../variables/fonts';
+import { Solid, h1FontSize } from '../../assets/styles/variables/index';
 
 const IMG = styled.img`
   margin: 0 15px 0 0;

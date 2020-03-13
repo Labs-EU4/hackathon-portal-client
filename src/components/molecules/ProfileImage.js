@@ -1,5 +1,5 @@
 import React from 'react';
-import StyledImage from '../atoms/StyledImage';
+import StyledImage from '../../assets/styles/atoms/StyledImage';
 
 const ProfileImage = ({ name, image }) => (
   <StyledImage>

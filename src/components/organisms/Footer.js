@@ -1,15 +1,15 @@
 import React from 'react';
 
-import WideFooter from '../../components/atoms/WideFooter';
-import FooterContainer from '../../components/atoms/FooterContainer';
+import WideFooter from '../../assets/styles/atoms/WideFooter';
+import FooterContainer from '../../assets/styles/atoms/FooterContainer';
 import Group from '../../components/atoms/Group';
 import SocialIcon from '../../components/atoms/SocialIcon';
-import { FooterNavAnchor } from '../../components/atoms/Anchor';
-import { PlainParagraph } from '../../components/atoms/Paragraph';
+import { FooterNavAnchor } from '../../assets/styles/atoms/Anchor';
+import { PlainParagraph } from '../../assets/styles/atoms/Paragraph';
 
-import linkedin from '../../assets/Icon-linkedin.png';
-import twitter from '../../assets/Icon-twitter.png';
-import facebook from '../../assets/Icon-facebook.png';
+import linkedin from '../../assets/images/Icon-linkedin.png';
+import twitter from '../../assets/images/Icon-twitter.png';
+import facebook from '../../assets/images/Icon-facebook.png';
 
 const Footer = () => (
   <WideFooter>

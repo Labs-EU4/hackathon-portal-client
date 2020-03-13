@@ -5,24 +5,24 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../atoms/WideBody";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import { H3 } from "../atoms/Heading";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
-import { Column } from "../atoms/Column";
-import { CardForm } from "../atoms/Card";
-import { ErrorSpan } from "../atoms/Span";
+import { H3 } from "../../assets/styles/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
+import { Column } from "../../assets/styles/atoms/Column";
+import { CardForm } from "../../assets/styles/atoms/Card";
+import { ErrorSpan } from "../../assets/styles/atoms/Span";
 import Input from "../atoms/Input";
-import Label from "../atoms/Label";
+import Label from "../../assets/styles/atoms/Label";
 import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
-import { Paragraph } from "../atoms/Paragraph";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import {
   fetchAllSubmissions,
   submitProject
 } from "../../store/projectSubmission/actions";
-import { InputFull, BodyContainerColumn } from "../styles/GlobalStyles";
+import { BodyContainerColumn } from "../../assets/styles/GlobalStyles";
 
 const defaultState = {
   project_title: "",
@@ -153,16 +153,18 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                     {requireVideoUrl && (
                       <RowBody justify="start">
                         <Label htmlFor="video_url">Video URL</Label>
-                        <InputFull
+                        <Input
                           type="text"
                           name="video_url"
                           id="video_url"
+                          display="wide"
                         />
                         <ErrorSpan>
                           <ErrorMessage name="video_url" component="div" />
                         </ErrorSpan>
                       </RowBody>
                     )}
+
                     <RowBody justify="start">
                       <Label htmlFor="project_writeups">Project Writeup</Label>
                       <TextArea

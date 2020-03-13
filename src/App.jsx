@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 
-import { GlobalStyles } from "./components/index";
+import { GlobalStyles } from "./assets/styles/GlobalStyles";
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";

@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-htoDjs kRTjmS"
+        class="sc-EHOje hAWvWD"
       >
         <div
-          class="sc-bZQynM ezHsoY"
+          class="sc-htpNat EcbPZ"
           direction="column-reverse"
         >
           <h6>
@@ -23,10 +23,10 @@ Object {
           </h6>
         </div>
         <div
-          class="sc-bZQynM fdfMuk"
+          class="sc-htpNat eUeknk"
         >
           <button
-            class="sc-ifAKCX bsuoob"
+            class="sc-bdVaJa fbkUTl"
             color="green"
           >
             Send Invite
@@ -34,14 +34,14 @@ Object {
         </div>
       </div>
       <div
-        class="sc-htoDjs kRTjmS"
+        class="sc-EHOje hAWvWD"
       >
         <div
-          class="sc-bZQynM ezHsoY"
+          class="sc-htpNat EcbPZ"
           direction="column-reverse"
         >
           <label
-            class="sc-fjdhpX ghmXRR"
+            class="sc-gqjmRU hXJgUt"
           >
             organizer
             <input
@@ -51,7 +51,7 @@ Object {
             <span />
           </label>
           <label
-            class="sc-fjdhpX ghmXRR"
+            class="sc-gqjmRU hXJgUt"
           >
             judge
             <input
@@ -62,16 +62,16 @@ Object {
           </label>
         </div>
         <div
-          class="sc-bZQynM fdfMuk"
+          class="sc-htpNat eUeknk"
         >
           <button
-            class="sc-ifAKCX iXnszI"
+            class="sc-bdVaJa fsvayC"
             color="grey"
           >
             Back to dashboard
           </button>
           <button
-            class="sc-ifAKCX bsuoob"
+            class="sc-bdVaJa fbkUTl"
             color="green"
           >
             Add teammate
@@ -82,10 +82,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-htoDjs kRTjmS"
+      class="sc-EHOje hAWvWD"
     >
       <div
-        class="sc-bZQynM ezHsoY"
+        class="sc-htpNat EcbPZ"
         direction="column-reverse"
       >
         <h6>
@@ -99,10 +99,10 @@ Object {
         </h6>
       </div>
       <div
-        class="sc-bZQynM fdfMuk"
+        class="sc-htpNat eUeknk"
       >
         <button
-          class="sc-ifAKCX bsuoob"
+          class="sc-bdVaJa fbkUTl"
           color="green"
         >
           Send Invite
@@ -110,14 +110,14 @@ Object {
       </div>
     </div>
     <div
-      class="sc-htoDjs kRTjmS"
+      class="sc-EHOje hAWvWD"
     >
       <div
-        class="sc-bZQynM ezHsoY"
+        class="sc-htpNat EcbPZ"
         direction="column-reverse"
       >
         <label
-          class="sc-fjdhpX ghmXRR"
+          class="sc-gqjmRU hXJgUt"
         >
           organizer
           <input
@@ -127,7 +127,7 @@ Object {
           <span />
         </label>
         <label
-          class="sc-fjdhpX ghmXRR"
+          class="sc-gqjmRU hXJgUt"
         >
           judge
           <input
@@ -138,16 +138,16 @@ Object {
         </label>
       </div>
       <div
-        class="sc-bZQynM fdfMuk"
+        class="sc-htpNat eUeknk"
       >
         <button
-          class="sc-ifAKCX iXnszI"
+          class="sc-bdVaJa fsvayC"
           color="grey"
         >
           Back to dashboard
         </button>
         <button
-          class="sc-ifAKCX bsuoob"
+          class="sc-bdVaJa fbkUTl"
           color="green"
         >
           Add teammate

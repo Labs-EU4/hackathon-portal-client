@@ -7,31 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-hMqMXs czlISr"
+          class="sc-dxgOiQ kJAkoI"
         >
           <div
-            class="sc-kEYyzF cNoziI"
+            class="sc-ckVGcZ hCpDZq"
           >
             <a
               href="/"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-kkGfuU bOdlBp"
+                class="sc-jKJlTe jIUxxJ"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-iAyFgw fsHJKb"
+              class="sc-eNQAEJ ezIcbr"
             >
               <a
-                class="sc-kpOJdX lkkPQn"
+                class="sc-kAzzGY huPosN"
                 href="/login"
               >
                 Log In
               </a>
               <a
-                class="sc-kpOJdX cKgctx"
+                class="sc-kAzzGY aFrCs"
                 color="blue"
                 href="/register"
               >
@@ -41,18 +41,18 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bwzfXH sc-jWBwVP bePEDC"
+          class="sc-kEYyzF sc-hSdWYo iXExQx"
         >
           <div
-            class="sc-bwzfXH sc-cvbbAY fGUYsk"
+            class="sc-kEYyzF sc-iAyFgw bVEvwb"
           >
             <h2
-              class="sc-cSHVUG sc-brqgnP HZphS"
+              class="sc-VigVT sc-eHgmQL cQzbgy"
             >
               Ooops!
             </h2>
             <h3
-              class="sc-kAzzGY eOJFvg"
+              class="sc-jTzLTM ennJjK"
             >
               We can't seem to find the page  you are looking for
             </h3>
@@ -67,7 +67,7 @@ Object {
             </a>
           </div>
           <div
-            class="sc-bwzfXH sc-cvbbAY fGUYsk"
+            class="sc-kEYyzF sc-iAyFgw bVEvwb"
           >
             <img
               alt="404 icon"
@@ -76,43 +76,43 @@ Object {
           </div>
         </div>
         <div
-          class="sc-ifAKCX gzLxUf"
+          class="sc-bdVaJa bDiKvh"
         >
           <div
-            class="sc-EHOje vwgiQ"
+            class="sc-bwzfXH ldOoJf"
           >
             <div>
               <img
                 alt="LinkedIn"
-                class="sc-bZQynM cBEFRm"
+                class="sc-htpNat hwcHdo"
                 src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
-                class="sc-bZQynM cBEFRm"
+                class="sc-htpNat hwcHdo"
                 src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
-                class="sc-bZQynM cBEFRm"
+                class="sc-htpNat hwcHdo"
                 src="Icon-facebook.png"
               />
             </div>
             <div>
               <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
+                class="sc-EHOje sc-gzVnrw iKqYXF"
                 href="https://hackton.co/#team"
               >
                 Team
               </a>
               <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
+                class="sc-EHOje sc-gzVnrw iKqYXF"
                 href="#"
               >
                 Privacy
               </a>
               <a
-                class="sc-dnqmqq sc-gZMcBi htVLRo"
+                class="sc-EHOje sc-gzVnrw iKqYXF"
                 href="#"
               >
                 Contacts
@@ -120,7 +120,7 @@ Object {
             </div>
             <div>
               <p
-                class="sc-gqjmRU sc-VigVT jKKcEs"
+                class="sc-htoDjs sc-dnqmqq xAsmd"
               >
                 International Crafters © 2020
               </p>
@@ -133,31 +133,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-hMqMXs czlISr"
+        class="sc-dxgOiQ kJAkoI"
       >
         <div
-          class="sc-kEYyzF cNoziI"
+          class="sc-ckVGcZ hCpDZq"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-kkGfuU bOdlBp"
+              class="sc-jKJlTe jIUxxJ"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-iAyFgw fsHJKb"
+            class="sc-eNQAEJ ezIcbr"
           >
             <a
-              class="sc-kpOJdX lkkPQn"
+              class="sc-kAzzGY huPosN"
               href="/login"
             >
               Log In
             </a>
             <a
-              class="sc-kpOJdX cKgctx"
+              class="sc-kAzzGY aFrCs"
               color="blue"
               href="/register"
             >
@@ -167,18 +167,18 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bwzfXH sc-jWBwVP bePEDC"
+        class="sc-kEYyzF sc-hSdWYo iXExQx"
       >
         <div
-          class="sc-bwzfXH sc-cvbbAY fGUYsk"
+          class="sc-kEYyzF sc-iAyFgw bVEvwb"
         >
           <h2
-            class="sc-cSHVUG sc-brqgnP HZphS"
+            class="sc-VigVT sc-eHgmQL cQzbgy"
           >
             Ooops!
           </h2>
           <h3
-            class="sc-kAzzGY eOJFvg"
+            class="sc-jTzLTM ennJjK"
           >
             We can't seem to find the page  you are looking for
           </h3>
@@ -193,7 +193,7 @@ Object {
           </a>
         </div>
         <div
-          class="sc-bwzfXH sc-cvbbAY fGUYsk"
+          class="sc-kEYyzF sc-iAyFgw bVEvwb"
         >
           <img
             alt="404 icon"
@@ -202,43 +202,43 @@ Object {
         </div>
       </div>
       <div
-        class="sc-ifAKCX gzLxUf"
+        class="sc-bdVaJa bDiKvh"
       >
         <div
-          class="sc-EHOje vwgiQ"
+          class="sc-bwzfXH ldOoJf"
         >
           <div>
             <img
               alt="LinkedIn"
-              class="sc-bZQynM cBEFRm"
+              class="sc-htpNat hwcHdo"
               src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
-              class="sc-bZQynM cBEFRm"
+              class="sc-htpNat hwcHdo"
               src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
-              class="sc-bZQynM cBEFRm"
+              class="sc-htpNat hwcHdo"
               src="Icon-facebook.png"
             />
           </div>
           <div>
             <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
+              class="sc-EHOje sc-gzVnrw iKqYXF"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
+              class="sc-EHOje sc-gzVnrw iKqYXF"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-dnqmqq sc-gZMcBi htVLRo"
+              class="sc-EHOje sc-gzVnrw iKqYXF"
               href="#"
             >
               Contacts
@@ -246,7 +246,7 @@ Object {
           </div>
           <div>
             <p
-              class="sc-gqjmRU sc-VigVT jKKcEs"
+              class="sc-htoDjs sc-dnqmqq xAsmd"
             >
               International Crafters © 2020
             </p>

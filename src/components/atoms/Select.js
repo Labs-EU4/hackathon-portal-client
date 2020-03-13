@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Field } from "formik";
-import { media } from "../index";
-import { type, Solid } from "../index";
+import { media, type, Solid } from "../../assets/styles/variables/index";
 
 const SelectField = styled(Field)`
   font-family: ${type.ROBOTO};

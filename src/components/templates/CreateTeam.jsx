@@ -8,15 +8,15 @@ import {
   BodyColumn,
   Form,
   Title
-} from "../styles/templates/CreateTeamStyling";
+} from "../../assets/styles/templates/CreateTeamStyling";
 import { Footer } from "../organisms/index";
 import UserHeader from "../organisms/UserHeader";
-import { RowHead } from "../atoms/RowHead";
-import { H3 } from "../atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { H3 } from "../../assets/styles/atoms/Heading";
 import Button from "../atoms/Button";
 import TeamView from "./TeamView";
 import { useTeams } from "../../hooks";
-import WideBody from "../atoms/WideBody";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
 
 const CreateTeam = () => {

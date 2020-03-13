@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 import { DateIcon } from "../atoms/Icon";
-import { Span } from "../atoms/Span";
+import { Span } from "../../assets/styles/atoms/Span";
 
 const StyledCardFooter = styled.div`
   display: flex;

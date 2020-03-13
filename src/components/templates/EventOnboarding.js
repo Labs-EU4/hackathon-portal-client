@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import UserHeader from "../organisms/UserHeader";
 import Nav from "../molecules/Nav";
 import { Footer } from "../organisms/index";
-import WideBody from "../atoms/WideBody";
-import BodyContainer from "../atoms/BodyContainer";
+import WideBody from "../../assets/styles/atoms/WideBody";
+import BodyContainer from "../../assets/styles/atoms/BodyContainer";
 import EventCard from "../molecules/EventCard";
-import { H3, H4 } from "../atoms/Heading";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
+import { H3, H4 } from "../../assets/styles/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
 import Button from "../atoms/Button";
 import { useSelector } from "react-redux";
 
@@ -47,8 +47,8 @@ const EventOnboarding = () => {
                 <EventCard key={event.event_title} event={event} />
               ))
             ) : (
-              <H4>You have not created any events yet. Why wait?</H4>
-            )}
+                <H4>You have not created any events yet. Why wait?</H4>
+              )}
           </RowBody>
 
           <RowHead>

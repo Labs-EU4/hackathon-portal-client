@@ -3,19 +3,19 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../atoms/WideBody";
+import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import { H2, H3 } from "../atoms/Heading";
-import { BoldSpan } from "../atoms/Span";
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
-import { Paragraph } from "../atoms/Paragraph";
+import { H2, H3 } from "../../assets/styles/atoms/Heading";
+import { BoldSpan } from "../../assets/styles/atoms/Span";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import Button from "../atoms/Button";
-import user_icon from "../../assets/user_icon.svg";
+import user_icon from "../../assets/images/user_icon.svg";
 import { registerEvent, unregisterEvent } from "../../store/eventParticipants/actions";
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 import Spinner from "../molecules/Spinner";
-import { BodyContainerColumn, NormalSpan, Image, PTags, PHosted, EventCardWide, TagsCardWide, TitleContainer, StyledLetterIcon, Details, ButtonsDashGroup, Separator, TagsGroup, ImgPlaceHolder, AvatarImg, PBold, RegButton } from "../styles/templates/HackathonSingleStyling";
+import { BodyContainerColumn, NormalSpan, Image, PTags, PHosted, EventCardWide, TagsCardWide, TitleContainer, StyledLetterIcon, Details, ButtonsDashGroup, Separator, TagsGroup, ImgPlaceHolder, AvatarImg, PBold, RegButton } from "../../assets/styles/templates/HackathonSingleStyling";
 
 
 const HackathonSingle = () => {
