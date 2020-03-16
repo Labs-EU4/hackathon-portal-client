@@ -108,7 +108,7 @@ Object {
               class="sc-frDJqD fRtUrX"
             >
               <h3
-                class="sc-iRbamj kJVjSY"
+                class="sc-jDwBTQ hjdOhs"
               >
                 Submit Project
               </h3>
@@ -126,7 +126,7 @@ Object {
                     class="sc-hqyNC VUQUd"
                   >
                     <p
-                      class="sc-eHgmQL gFYXkR"
+                      class="sc-iAyFgw biCLNl"
                     >
                       You are making a submission for the
                        
@@ -149,7 +149,7 @@ Object {
                         Project Title
                       </label>
                       <input
-                        class="sc-hzDkRC eNRQRz"
+                        class="sc-Rmtcm eDxmtq"
                         display="wide"
                         id="project_title"
                         name="project_title"
@@ -157,7 +157,7 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-jhAzac sc-dVhcbM kRCOiP"
+                        class="sc-bRBYWo sc-fBuWsC jeuvRF"
                       />
                     </div>
                     <div
@@ -170,7 +170,7 @@ Object {
                         Team/Participant name
                       </label>
                       <input
-                        class="sc-hzDkRC eNRQRz"
+                        class="sc-Rmtcm eDxmtq"
                         display="wide"
                         id="participant_or_team_name"
                         name="participant_or_team_name"
@@ -178,7 +178,7 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-jhAzac sc-dVhcbM kRCOiP"
+                        class="sc-bRBYWo sc-fBuWsC jeuvRF"
                       />
                     </div>
                   </div>
@@ -201,7 +201,7 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-jhAzac sc-dVhcbM kRCOiP"
+                      class="sc-bRBYWo sc-fBuWsC jeuvRF"
                     />
                   </div>
                   <div
@@ -236,35 +236,35 @@ Object {
             <div>
               <img
                 alt="LinkedIn"
-                class="sc-dxgOiQ hmxsRJ"
+                class="sc-dxgOiQ bFxHcU"
                 src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
-                class="sc-dxgOiQ hmxsRJ"
+                class="sc-dxgOiQ bFxHcU"
                 src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
-                class="sc-dxgOiQ hmxsRJ"
+                class="sc-dxgOiQ bFxHcU"
                 src="Icon-facebook.png"
               />
             </div>
             <div>
               <a
-                class="sc-eNQAEJ sc-kEYyzF iReQnV"
+                class="sc-ckVGcZ sc-eNQAEJ hmdVzP"
                 href="https://hackton.co/#team"
               >
                 Team
               </a>
               <a
-                class="sc-eNQAEJ sc-kEYyzF iReQnV"
+                class="sc-ckVGcZ sc-eNQAEJ hmdVzP"
                 href="#"
               >
                 Privacy
               </a>
               <a
-                class="sc-eNQAEJ sc-kEYyzF iReQnV"
+                class="sc-ckVGcZ sc-eNQAEJ hmdVzP"
                 href="#"
               >
                 Contacts
@@ -272,7 +272,7 @@ Object {
             </div>
             <div>
               <p
-                class="sc-eHgmQL sc-cvbbAY bIcsnl"
+                class="sc-iAyFgw sc-hSdWYo hIDUxh"
               >
                 International Crafters © 2020
               </p>
@@ -386,7 +386,7 @@ Object {
             class="sc-frDJqD fRtUrX"
           >
             <h3
-              class="sc-iRbamj kJVjSY"
+              class="sc-jDwBTQ hjdOhs"
             >
               Submit Project
             </h3>
@@ -404,7 +404,7 @@ Object {
                   class="sc-hqyNC VUQUd"
                 >
                   <p
-                    class="sc-eHgmQL gFYXkR"
+                    class="sc-iAyFgw biCLNl"
                   >
                     You are making a submission for the
                      
@@ -427,7 +427,7 @@ Object {
                       Project Title
                     </label>
                     <input
-                      class="sc-hzDkRC eNRQRz"
+                      class="sc-Rmtcm eDxmtq"
                       display="wide"
                       id="project_title"
                       name="project_title"
@@ -435,7 +435,7 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-jhAzac sc-dVhcbM kRCOiP"
+                      class="sc-bRBYWo sc-fBuWsC jeuvRF"
                     />
                   </div>
                   <div
@@ -448,7 +448,7 @@ Object {
                       Team/Participant name
                     </label>
                     <input
-                      class="sc-hzDkRC eNRQRz"
+                      class="sc-Rmtcm eDxmtq"
                       display="wide"
                       id="participant_or_team_name"
                       name="participant_or_team_name"
@@ -456,7 +456,7 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-jhAzac sc-dVhcbM kRCOiP"
+                      class="sc-bRBYWo sc-fBuWsC jeuvRF"
                     />
                   </div>
                 </div>
@@ -479,7 +479,7 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-jhAzac sc-dVhcbM kRCOiP"
+                    class="sc-bRBYWo sc-fBuWsC jeuvRF"
                   />
                 </div>
                 <div
@@ -514,35 +514,35 @@ Object {
           <div>
             <img
               alt="LinkedIn"
-              class="sc-dxgOiQ hmxsRJ"
+              class="sc-dxgOiQ bFxHcU"
               src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
-              class="sc-dxgOiQ hmxsRJ"
+              class="sc-dxgOiQ bFxHcU"
               src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
-              class="sc-dxgOiQ hmxsRJ"
+              class="sc-dxgOiQ bFxHcU"
               src="Icon-facebook.png"
             />
           </div>
           <div>
             <a
-              class="sc-eNQAEJ sc-kEYyzF iReQnV"
+              class="sc-ckVGcZ sc-eNQAEJ hmdVzP"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-eNQAEJ sc-kEYyzF iReQnV"
+              class="sc-ckVGcZ sc-eNQAEJ hmdVzP"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-eNQAEJ sc-kEYyzF iReQnV"
+              class="sc-ckVGcZ sc-eNQAEJ hmdVzP"
               href="#"
             >
               Contacts
@@ -550,7 +550,7 @@ Object {
           </div>
           <div>
             <p
-              class="sc-eHgmQL sc-cvbbAY bIcsnl"
+              class="sc-iAyFgw sc-hSdWYo hIDUxh"
             >
               International Crafters © 2020
             </p>
