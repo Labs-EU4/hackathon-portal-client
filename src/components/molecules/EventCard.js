@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Card } from "../../assets/styles/atoms/Card";
 import { H4 } from "../../assets/styles/atoms/Heading";
-import { LetterIcon } from "../atoms/Icon";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import CardFooter from "./CardFooter";
 
@@ -19,7 +18,6 @@ const StyledCardLink = styled(Link)`
 
 const EventCard = ({ event }) => {
   const { id, event_id, event_title, event_description, start_date } = event;
-  const letter = event_title && event_title[0];
   const excerpt = event_description.substr(0, 100) + "...";
 
   // Date formatting
@@ -27,7 +25,6 @@ const EventCard = ({ event }) => {
   return (
     <StyledCardLink to={`/dashboard/event/${event_id || id}`}>
       <Card>
-        <LetterIcon>{letter}</LetterIcon>
         <H4>{event_title}</H4>
         <Paragraph>{excerpt}</Paragraph>
         <CardFooter event_title={event_title} date={formattedDate} />

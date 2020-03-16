@@ -4,7 +4,14 @@ import { NavLink, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
-import { TeamsCont, FancyBoldSpan, StyledLetterIcon, NormalSpan, TeamMateDiv, Img, ImgWithBorder } from "../../assets/styles/templates/TeamViewStyling"
+import {
+  TeamsCont,
+  FancyBoldSpan,
+  NormalSpan,
+  TeamMateDiv,
+  Img,
+  ImgWithBorder
+} from "../../assets/styles/templates/TeamViewStyling";
 
 const TeamView = ({ team }) => {
   const { id } = useParams();
@@ -13,8 +20,7 @@ const TeamView = ({ team }) => {
     state.events.data.find(event => event.id === Number(id))
   );
 
-  const [teammates, fetchTeammates] = useTeammates(team ?.id);
-  const initial = team ?.team_name[0] || "U";
+  const [teammates, fetchTeammates] = useTeammates(team?.id);
 
   let memberProfile;
 
@@ -22,10 +28,8 @@ const TeamView = ({ team }) => {
     fetchTeammates();
   }, [fetchTeammates]);
 
-
   return (
     <TeamsCont>
-      <StyledLetterIcon>{initial}</StyledLetterIcon>
       <FancyBoldSpan>Your Team</FancyBoldSpan>
       <FancyBoldSpan>
         Team Name:
@@ -38,28 +42,24 @@ const TeamView = ({ team }) => {
         <TeamMateDiv>
           {teammates.map((member, i) =>
             member.team_member_avatar === null ? (
-              <Img
-                key={i}
-                alt="team member profile pic"
-                src={user_icon}
-              />
+              <Img key={i} alt="team member profile pic" src={user_icon} />
             ) : (
-                member.team_member_avatar.map((mem, index) => {
-                  memberProfile = JSON.parse(mem);
-                  return (
-                    <ImgWithBorder
-                      key={index}
-                      alt="team member profile pic"
-                      src={memberProfile.avatar}
-                    />
-                  );
-                })
-              )
+              member.team_member_avatar.map((mem, index) => {
+                memberProfile = JSON.parse(mem);
+                return (
+                  <ImgWithBorder
+                    key={index}
+                    alt="team member profile pic"
+                    src={memberProfile.avatar}
+                  />
+                );
+              })
+            )
           )}
         </TeamMateDiv>
       ) : (
-          <FancyBoldSpan>This team has no members</FancyBoldSpan>
-        )}
+        <FancyBoldSpan>This team has no members</FancyBoldSpan>
+      )}
       <FancyBoldSpan>
         Hackathon Name:
         <NormalSpan>{event_title}</NormalSpan>

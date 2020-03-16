@@ -1,7 +1,6 @@
 import { BodyContainer, BodyContainerN } from "../atoms/BodyContainer";
 import styled from "styled-components";
 import { BoldSpan, BoldSpanN } from "../atoms/Span";
-import { LetterIcon } from "../../../components/atoms/Icon";
 
 export const TeamsCont = styled(BodyContainer)`
   background-color: white;
@@ -33,40 +32,33 @@ export const FancyBoldSpan = styled(BoldSpan)`
   width: 100%;
 `;
 
-export const StyledLetterIcon = styled(LetterIcon)`
-  margin: 0 20px 0 0 !important;
-`;
-
 export const NormalSpan = styled(BoldSpan)`
   font-weight: normal;
   padding: 5px;
 `;
 
 export const TeamMateDiv = styled.div`
-    border-bottom: 1px solid lightgray;
-    width: 100%;
-    padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  padding-bottom: 10px;
 `;
 
 export const Img = styled.img`
-    width: 7%;
-    height: 7%;
-    margin-left: 1%;
-    object-fit: cover;
+  width: 7%;
+  height: 7%;
+  margin-left: 1%;
+  object-fit: cover;
 `;
 
 export const ImgWithBorder = styled.img`
-    width: 7%;
-    height: 7%;
-    margin-left: 1%;
-    object-fit: cover;
-    border-radius: 5px;
+  width: 7%;
+  height: 7%;
+  margin-left: 1%;
+  object-fit: cover;
+  border-radius: 5px;
 `;
 
-
 // --------------------------------- NEW // --------------------------------- //
-
-
 
 export const TeamsContainerN = styled(BodyContainerN)`
   ${({ theme }) => theme.shadow.box};
@@ -96,7 +88,8 @@ export const FancyBoldSpanN = styled(BoldSpanN)`
 `;
 
 export const StyledLetterIconN = styled.div`
-  border: none; border-radius: 50%;
+  border: none;
+  border-radius: 50%;
 `;
 
 export const NormalSpanN = styled(BoldSpanN)`
