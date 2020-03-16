@@ -6,7 +6,7 @@ import { WideHeader } from "../../assets/styles/atoms/WideHeader";
 import { HeaderContainer } from "../../assets/styles/atoms/HeaderContainer";
 import Logo from "../atoms/Logo";
 import Nav from "../molecules/Nav";
-import { ProfileImg } from "../atoms/ProfileImg";
+import ProfileImg from "../atoms/ProfileImg";
 import { Dropdown } from "../atoms/DropDown";
 
 const UserHeader = () => {

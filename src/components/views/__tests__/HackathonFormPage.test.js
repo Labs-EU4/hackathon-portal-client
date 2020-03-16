@@ -35,9 +35,9 @@ describe("Component HackathonFormPage.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
-  it("asserts that the first character of the user's email shows up on the menu", () => {
-    expect(component.getByText("8")).toBeInTheDocument();
-  });
+  // it("asserts that the first character of the user's email shows up on the menu", () => {
+  //   expect(component.getByText("8")).toBeInTheDocument();
+  // });
   it("asserts that the Create New Hackathon text node renders properly on the form component", () => {
     expect(component.getByText("Create New Hackathon")).toBeInTheDocument();
   });

@@ -45,7 +45,7 @@ describe("Shows all the text nodes on HackathonSingle.js that are contained on t
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
-  it("The text node for the first character of the current user mail, renders properly on the menu", () => {
-    expect(jestFeatures.queryByText(/8/i)).toBeInTheDocument();
-  });
+  // it("The text node for the first character of the current user mail, renders properly on the menu", () => {
+  //   expect(jestFeatures.queryByText(/8/i)).toBeInTheDocument();
+  // });
 });
