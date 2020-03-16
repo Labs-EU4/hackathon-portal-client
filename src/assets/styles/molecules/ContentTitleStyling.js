@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledContentTitle = styled.div`
+export const StyledContentTitleN = styled.div`
     position: relative;
     width: 100%; height: 20px;
     border-bottom: 2px solid ${props => props.theme.color.grey.border};

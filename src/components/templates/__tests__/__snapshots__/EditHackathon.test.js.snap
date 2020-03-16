@@ -375,7 +375,7 @@ Object {
                       Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
                     </p>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -385,14 +385,14 @@ Object {
                         value="presentation"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="presentation"
                       >
                         Presentation
                       </label>
                     </div>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -402,14 +402,14 @@ Object {
                         value="product_fit"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="product_fit"
                       >
                         Product Fit
                       </label>
                     </div>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -419,14 +419,14 @@ Object {
                         value="functionality"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="functionality"
                       >
                         Functionality
                       </label>
                     </div>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -436,14 +436,14 @@ Object {
                         value="innovation"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="innovation"
                       >
                         Innovation
                       </label>
                     </div>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -453,14 +453,14 @@ Object {
                         value="product_design"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="product_design"
                       >
                         Product Design
                       </label>
                     </div>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -470,7 +470,7 @@ Object {
                         value="extensibility"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="extensibility"
                       >
                         Extensibility
@@ -520,7 +520,7 @@ Object {
                       Participants will be expected to submit which one of the following (tick on all that apply)
                     </p>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -530,14 +530,14 @@ Object {
                         value="video_url"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="video_url"
                       >
                         Video URL
                       </label>
                     </div>
                     <div
-                      class="sc-cIShpX gAZDWp"
+                      class="sc-kafWEX eHKTpI"
                     >
                       <input
                         class="sc-iELTvK eVWTAe"
@@ -547,7 +547,7 @@ Object {
                         value="github_url"
                       />
                       <label
-                        class="sc-hEsumM knPaJS"
+                        class="sc-ktHwxA fhRYHS"
                         for="github_url"
                       >
                         GitHub URL
@@ -1010,7 +1010,7 @@ Object {
                     Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
                   </p>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1020,14 +1020,14 @@ Object {
                       value="presentation"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="presentation"
                     >
                       Presentation
                     </label>
                   </div>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1037,14 +1037,14 @@ Object {
                       value="product_fit"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="product_fit"
                     >
                       Product Fit
                     </label>
                   </div>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1054,14 +1054,14 @@ Object {
                       value="functionality"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="functionality"
                     >
                       Functionality
                     </label>
                   </div>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1071,14 +1071,14 @@ Object {
                       value="innovation"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="innovation"
                     >
                       Innovation
                     </label>
                   </div>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1088,14 +1088,14 @@ Object {
                       value="product_design"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="product_design"
                     >
                       Product Design
                     </label>
                   </div>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1105,7 +1105,7 @@ Object {
                       value="extensibility"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="extensibility"
                     >
                       Extensibility
@@ -1155,7 +1155,7 @@ Object {
                     Participants will be expected to submit which one of the following (tick on all that apply)
                   </p>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1165,14 +1165,14 @@ Object {
                       value="video_url"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="video_url"
                     >
                       Video URL
                     </label>
                   </div>
                   <div
-                    class="sc-cIShpX gAZDWp"
+                    class="sc-kafWEX eHKTpI"
                   >
                     <input
                       class="sc-iELTvK eVWTAe"
@@ -1182,7 +1182,7 @@ Object {
                       value="github_url"
                     />
                     <label
-                      class="sc-hEsumM knPaJS"
+                      class="sc-ktHwxA fhRYHS"
                       for="github_url"
                     >
                       GitHub URL

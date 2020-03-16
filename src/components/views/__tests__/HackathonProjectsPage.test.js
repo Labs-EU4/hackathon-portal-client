@@ -7,6 +7,8 @@ import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
 import HackathonProjectsPage from "../HackathonProjectsPage";
+import { theme } from "../../../assets/styles/ThemeStyling";
+import { ThemeProvider } from "styled-components";
 
 const history = createMemoryHistory();
 
@@ -29,7 +31,9 @@ beforeEach(() => {
   component = render(
     <Router history={history}>
       <Provider store={store}>
-        <HackathonProjectsPage />
+        <ThemeProvider theme={theme}>
+          <HackathonProjectsPage />
+        </ThemeProvider>
       </Provider>
     </Router>
   );

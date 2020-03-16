@@ -23,3 +23,25 @@ export const LetterIcon = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+// ----------------------------------- NEW ------------------------------- //
+
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import styled from 'styled-components';
+
+export const IconN = ({ icon, onClick, ...props }) => {
+  return (
+    <StyledIcon
+      icon={icon}
+      onClick={onClick ? onClick : null}
+      {...props}
+    />
+  );
+};
+
+
+const StyledIcon = styled(FontAwesomeIcon)`
+    font-size: 2.3rem;
+    color: ${props => props.theme.color.white};
+`;

@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-lhVmIH fkQLhH"
+              class="sc-hwwEjo euTjD"
             >
               <div
                 class="sc-htoDjs iAtLjJ"
@@ -102,10 +102,10 @@ Object {
             </a>
           </div>
           <div
-            class="sc-cJSrbW kIFCtD sc-kafWEX ITOMh"
+            class="sc-cJSrbW kIFCtD sc-kTUwUJ bUZrwS"
           >
             <div
-              class="sc-tilXH fvoVKC"
+              class="sc-lhVmIH cFzKWV"
             >
               <h3
                 class="sc-iRbamj kJVjSY"
@@ -124,86 +124,214 @@ Object {
               </a>
             </div>
             <div
-              class="sc-ktHwxA ZNDEc"
+              class="sc-elJkPf bSuQQZ"
               spacing="start"
             >
-              <a
-                class="sc-fYxtnH jleuzV"
-                href="/dashboard/event/1"
+              <div
+                class="sc-dNLxif dPndao"
               >
                 <div
-                  class="sc-frDJqD gFPRxN"
+                  class="sc-cmTdod jyMVYc"
                 >
-                  <div
-                    class="sc-bbmXgH iluglM"
+                  <figure
+                    class="sc-jqCOkK eYQolA"
                   >
-                    E
-                  </div>
-                  <h4
-                    class="sc-jlyJG hNBKrV"
-                  >
-                    EuroHack
-                  </h4>
-                  <p
-                    class="sc-eHgmQL gFYXkR"
-                  >
-                    the best event hack hack hack macbook...
-                  </p>
-                  <div
-                    class="sc-gGBfsJ akAhW"
-                  >
-                    <div
-                      class="sc-uJMKN htmFvD"
+                    <img
+                      alt="EuroHack"
+                      src="event-img.jpg"
                     />
-                    <span
-                      class="sc-jhAzac sc-jnlKLf fVFqYE"
-                      data-testid="date-EuroHack"
+                  </figure>
+                  <div
+                    class="sc-gGBfsJ irUouU"
+                  >
+                    <p
+                      class="sc-jWBwVP sc-fYxtnH dfzmXg"
+                    >
+                      Oct
+                       
+                      09
+                       - 
+                      Aug
+                       
+                      07
+                      , 
+                      2011
+                    </p>
+                    <h4
+                      class="sc-bRBYWo hHkgnE"
+                    >
+                      EuroHack
+                    </h4>
+                    <p
+                      class="sc-jWBwVP sc-tilXH lgKrAN"
+                    >
+                      Europe
+                    </p>
+                    <p
+                      class="sc-jWBwVP boczSS"
+                    >
+                      the best event hack hack hack macbook...
+                    </p>
+                    <div
+                      class="sc-hEsumM eRCtha"
                     >
                       10/9/2011
-                    </span>
+                    </div>
+                    <div
+                      class="sc-jnlKLf bWrXaE"
+                    >
+                      <button
+                        class="sc-EHOje fGtccY"
+                        color="primary-reverse"
+                        to="//event/1"
+                      >
+                        More Info
+                      </button>
+                      <button
+                        class="sc-EHOje fGtccY"
+                        color="primary"
+                        to="/"
+                      >
+                        Join Event
+                      </button>
+                    </div>
                   </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-jbKcbu blEVuW sc-ktHwxA dzTcOo"
+                    data-icon="bookmark"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 384 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-star fa-w-18 sc-jbKcbu blEVuW sc-cIShpX cDRGNy"
+                    data-icon="star"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                      fill="currentColor"
+                    />
+                  </svg>
                 </div>
-              </a>
-              <a
-                class="sc-fYxtnH jleuzV"
-                href="/dashboard/event/2"
+              </div>
+              <div
+                class="sc-dNLxif dPndao"
               >
                 <div
-                  class="sc-frDJqD gFPRxN"
+                  class="sc-cmTdod jyMVYc"
                 >
-                  <div
-                    class="sc-bbmXgH iluglM"
+                  <figure
+                    class="sc-jqCOkK eYQolA"
                   >
-                    W
-                  </div>
-                  <h4
-                    class="sc-jlyJG hNBKrV"
-                  >
-                    World
-                  </h4>
-                  <p
-                    class="sc-eHgmQL gFYXkR"
-                  >
-                    number one hacker event in the world...
-                  </p>
-                  <div
-                    class="sc-gGBfsJ akAhW"
-                  >
-                    <div
-                      class="sc-uJMKN htmFvD"
+                    <img
+                      alt="World"
+                      src="event-img.jpg"
                     />
-                    <span
-                      class="sc-jhAzac sc-jnlKLf fVFqYE"
-                      data-testid="date-World"
+                  </figure>
+                  <div
+                    class="sc-gGBfsJ irUouU"
+                  >
+                    <p
+                      class="sc-jWBwVP sc-fYxtnH dfzmXg"
+                    >
+                      Jul
+                       
+                      09
+                       - 
+                      Aug
+                       
+                      07
+                      , 
+                      2011
+                    </p>
+                    <h4
+                      class="sc-bRBYWo hHkgnE"
+                    >
+                      World
+                    </h4>
+                    <p
+                      class="sc-jWBwVP sc-tilXH lgKrAN"
+                    >
+                      Asia
+                    </p>
+                    <p
+                      class="sc-jWBwVP boczSS"
+                    >
+                      number one hacker event in the world...
+                    </p>
+                    <div
+                      class="sc-hEsumM eRCtha"
                     >
                       7/9/2011
-                    </span>
+                    </div>
+                    <div
+                      class="sc-jnlKLf bWrXaE"
+                    >
+                      <button
+                        class="sc-EHOje fGtccY"
+                        color="primary-reverse"
+                        to="//event/2"
+                      >
+                        More Info
+                      </button>
+                      <button
+                        class="sc-EHOje fGtccY"
+                        color="primary"
+                        to="/"
+                      >
+                        Join Event
+                      </button>
+                    </div>
                   </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-jbKcbu blEVuW sc-ktHwxA dzTcOo"
+                    data-icon="bookmark"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 384 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-star fa-w-18 sc-jbKcbu blEVuW sc-cIShpX cDRGNy"
+                    data-icon="star"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                      fill="currentColor"
+                    />
+                  </svg>
                 </div>
-              </a>
+              </div>
             </div>
             <div
-              class="sc-tilXH fvoVKC"
+              class="sc-lhVmIH cFzKWV"
             >
               <h3
                 class="sc-iRbamj kJVjSY"
@@ -212,7 +340,7 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-ktHwxA ZNDEc"
+              class="sc-elJkPf bSuQQZ"
               spacing="start"
             />
           </div>
@@ -290,7 +418,7 @@ Object {
             />
           </a>
           <div
-            class="sc-lhVmIH fkQLhH"
+            class="sc-hwwEjo euTjD"
           >
             <div
               class="sc-htoDjs iAtLjJ"
@@ -370,10 +498,10 @@ Object {
           </a>
         </div>
         <div
-          class="sc-cJSrbW kIFCtD sc-kafWEX ITOMh"
+          class="sc-cJSrbW kIFCtD sc-kTUwUJ bUZrwS"
         >
           <div
-            class="sc-tilXH fvoVKC"
+            class="sc-lhVmIH cFzKWV"
           >
             <h3
               class="sc-iRbamj kJVjSY"
@@ -392,86 +520,214 @@ Object {
             </a>
           </div>
           <div
-            class="sc-ktHwxA ZNDEc"
+            class="sc-elJkPf bSuQQZ"
             spacing="start"
           >
-            <a
-              class="sc-fYxtnH jleuzV"
-              href="/dashboard/event/1"
+            <div
+              class="sc-dNLxif dPndao"
             >
               <div
-                class="sc-frDJqD gFPRxN"
+                class="sc-cmTdod jyMVYc"
               >
-                <div
-                  class="sc-bbmXgH iluglM"
+                <figure
+                  class="sc-jqCOkK eYQolA"
                 >
-                  E
-                </div>
-                <h4
-                  class="sc-jlyJG hNBKrV"
-                >
-                  EuroHack
-                </h4>
-                <p
-                  class="sc-eHgmQL gFYXkR"
-                >
-                  the best event hack hack hack macbook...
-                </p>
-                <div
-                  class="sc-gGBfsJ akAhW"
-                >
-                  <div
-                    class="sc-uJMKN htmFvD"
+                  <img
+                    alt="EuroHack"
+                    src="event-img.jpg"
                   />
-                  <span
-                    class="sc-jhAzac sc-jnlKLf fVFqYE"
-                    data-testid="date-EuroHack"
+                </figure>
+                <div
+                  class="sc-gGBfsJ irUouU"
+                >
+                  <p
+                    class="sc-jWBwVP sc-fYxtnH dfzmXg"
+                  >
+                    Oct
+                     
+                    09
+                     - 
+                    Aug
+                     
+                    07
+                    , 
+                    2011
+                  </p>
+                  <h4
+                    class="sc-bRBYWo hHkgnE"
+                  >
+                    EuroHack
+                  </h4>
+                  <p
+                    class="sc-jWBwVP sc-tilXH lgKrAN"
+                  >
+                    Europe
+                  </p>
+                  <p
+                    class="sc-jWBwVP boczSS"
+                  >
+                    the best event hack hack hack macbook...
+                  </p>
+                  <div
+                    class="sc-hEsumM eRCtha"
                   >
                     10/9/2011
-                  </span>
+                  </div>
+                  <div
+                    class="sc-jnlKLf bWrXaE"
+                  >
+                    <button
+                      class="sc-EHOje fGtccY"
+                      color="primary-reverse"
+                      to="//event/1"
+                    >
+                      More Info
+                    </button>
+                    <button
+                      class="sc-EHOje fGtccY"
+                      color="primary"
+                      to="/"
+                    >
+                      Join Event
+                    </button>
+                  </div>
                 </div>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-jbKcbu blEVuW sc-ktHwxA dzTcOo"
+                  data-icon="bookmark"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-star fa-w-18 sc-jbKcbu blEVuW sc-cIShpX cDRGNy"
+                  data-icon="star"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    fill="currentColor"
+                  />
+                </svg>
               </div>
-            </a>
-            <a
-              class="sc-fYxtnH jleuzV"
-              href="/dashboard/event/2"
+            </div>
+            <div
+              class="sc-dNLxif dPndao"
             >
               <div
-                class="sc-frDJqD gFPRxN"
+                class="sc-cmTdod jyMVYc"
               >
-                <div
-                  class="sc-bbmXgH iluglM"
+                <figure
+                  class="sc-jqCOkK eYQolA"
                 >
-                  W
-                </div>
-                <h4
-                  class="sc-jlyJG hNBKrV"
-                >
-                  World
-                </h4>
-                <p
-                  class="sc-eHgmQL gFYXkR"
-                >
-                  number one hacker event in the world...
-                </p>
-                <div
-                  class="sc-gGBfsJ akAhW"
-                >
-                  <div
-                    class="sc-uJMKN htmFvD"
+                  <img
+                    alt="World"
+                    src="event-img.jpg"
                   />
-                  <span
-                    class="sc-jhAzac sc-jnlKLf fVFqYE"
-                    data-testid="date-World"
+                </figure>
+                <div
+                  class="sc-gGBfsJ irUouU"
+                >
+                  <p
+                    class="sc-jWBwVP sc-fYxtnH dfzmXg"
+                  >
+                    Jul
+                     
+                    09
+                     - 
+                    Aug
+                     
+                    07
+                    , 
+                    2011
+                  </p>
+                  <h4
+                    class="sc-bRBYWo hHkgnE"
+                  >
+                    World
+                  </h4>
+                  <p
+                    class="sc-jWBwVP sc-tilXH lgKrAN"
+                  >
+                    Asia
+                  </p>
+                  <p
+                    class="sc-jWBwVP boczSS"
+                  >
+                    number one hacker event in the world...
+                  </p>
+                  <div
+                    class="sc-hEsumM eRCtha"
                   >
                     7/9/2011
-                  </span>
+                  </div>
+                  <div
+                    class="sc-jnlKLf bWrXaE"
+                  >
+                    <button
+                      class="sc-EHOje fGtccY"
+                      color="primary-reverse"
+                      to="//event/2"
+                    >
+                      More Info
+                    </button>
+                    <button
+                      class="sc-EHOje fGtccY"
+                      color="primary"
+                      to="/"
+                    >
+                      Join Event
+                    </button>
+                  </div>
                 </div>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-jbKcbu blEVuW sc-ktHwxA dzTcOo"
+                  data-icon="bookmark"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-star fa-w-18 sc-jbKcbu blEVuW sc-cIShpX cDRGNy"
+                  data-icon="star"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    fill="currentColor"
+                  />
+                </svg>
               </div>
-            </a>
+            </div>
           </div>
           <div
-            class="sc-tilXH fvoVKC"
+            class="sc-lhVmIH cFzKWV"
           >
             <h3
               class="sc-iRbamj kJVjSY"
@@ -480,7 +736,7 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-ktHwxA ZNDEc"
+            class="sc-elJkPf bSuQQZ"
             spacing="start"
           />
         </div>
