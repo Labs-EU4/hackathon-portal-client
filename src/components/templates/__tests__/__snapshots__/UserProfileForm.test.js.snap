@@ -17,7 +17,11 @@ Object {
             >
               <figure
                 class="sc-EHOje evAtGa"
-              />
+              >
+                <p>
+                  HackHunt
+                </p>
+              </figure>
             </a>
             <div
               class="sc-gzOgki iASdyb"
@@ -287,6 +291,7 @@ Object {
             </div>
             <div>
               <p
+                alt="Hackton - Organise hackathons"
                 class="sc-cMljjf sc-jAaTju cvsrrP"
               >
                 International Crafters © 2020
@@ -310,7 +315,11 @@ Object {
           >
             <figure
               class="sc-EHOje evAtGa"
-            />
+            >
+              <p>
+                HackHunt
+              </p>
+            </figure>
           </a>
           <div
             class="sc-gzOgki iASdyb"
@@ -580,6 +589,7 @@ Object {
           </div>
           <div>
             <p
+              alt="Hackton - Organise hackathons"
               class="sc-cMljjf sc-jAaTju cvsrrP"
             >
               International Crafters © 2020

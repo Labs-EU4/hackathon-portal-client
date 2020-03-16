@@ -16,7 +16,11 @@ Object {
           >
             <figure
               class="sc-EHOje evAtGa"
-            />
+            >
+              <p>
+                HackHunt
+              </p>
+            </figure>
           </a>
           <div
             class="sc-gZMcBi gigkgm"
@@ -51,7 +55,11 @@ Object {
         >
           <figure
             class="sc-EHOje evAtGa"
-          />
+          >
+            <p>
+              HackHunt
+            </p>
+          </figure>
         </a>
         <div
           class="sc-gZMcBi gigkgm"
