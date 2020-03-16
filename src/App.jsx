@@ -99,7 +99,6 @@ function App() {
           />
           <Redirect to="/not-found" />
         </Switch>
-
         <ToastContainer />
       </ThemeProvider>
     </>
