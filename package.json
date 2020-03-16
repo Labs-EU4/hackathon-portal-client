@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
