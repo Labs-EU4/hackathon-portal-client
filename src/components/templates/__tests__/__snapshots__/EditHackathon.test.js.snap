@@ -378,7 +378,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="presentation"
                         name="rubrics"
                         type="checkbox"
@@ -395,7 +395,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="product_fit"
                         name="rubrics"
                         type="checkbox"
@@ -412,7 +412,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="functionality"
                         name="rubrics"
                         type="checkbox"
@@ -429,7 +429,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="innovation"
                         name="rubrics"
                         type="checkbox"
@@ -446,7 +446,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="product_design"
                         name="rubrics"
                         type="checkbox"
@@ -463,7 +463,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="extensibility"
                         name="rubrics"
                         type="checkbox"
@@ -523,7 +523,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="video_url"
                         name="requirements"
                         type="checkbox"
@@ -540,7 +540,7 @@ Object {
                       class="sc-cIShpX gAZDWp"
                     >
                       <input
-                        class="sc-feJyhm fyfMwe"
+                        class="sc-iELTvK eVWTAe"
                         id="github_url"
                         name="requirements"
                         type="checkbox"
@@ -1013,7 +1013,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="presentation"
                       name="rubrics"
                       type="checkbox"
@@ -1030,7 +1030,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="product_fit"
                       name="rubrics"
                       type="checkbox"
@@ -1047,7 +1047,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="functionality"
                       name="rubrics"
                       type="checkbox"
@@ -1064,7 +1064,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="innovation"
                       name="rubrics"
                       type="checkbox"
@@ -1081,7 +1081,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="product_design"
                       name="rubrics"
                       type="checkbox"
@@ -1098,7 +1098,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="extensibility"
                       name="rubrics"
                       type="checkbox"
@@ -1158,7 +1158,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="video_url"
                       name="requirements"
                       type="checkbox"
@@ -1175,7 +1175,7 @@ Object {
                     class="sc-cIShpX gAZDWp"
                   >
                     <input
-                      class="sc-feJyhm fyfMwe"
+                      class="sc-iELTvK eVWTAe"
                       id="github_url"
                       name="requirements"
                       type="checkbox"
