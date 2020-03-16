@@ -41,3 +41,4 @@ export const ProfileImg = styled.div`
     height: 30px;
   }
 `;
+
