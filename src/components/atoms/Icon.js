@@ -1,3 +1,5 @@
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import styled from 'styled-components';
 import { type, Solid, Gradient } from "../../assets/styles/variables/index";
 import dateIcon from "../../assets/images/Icon-time.png";
@@ -26,9 +28,6 @@ export const LetterIcon = styled.div`
 
 // ----------------------------------- NEW ------------------------------- //
 
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import styled from 'styled-components';
 
 export const IconN = ({ icon, onClick, ...props }) => {
   return (
