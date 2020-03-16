@@ -1,5 +1,4 @@
 import React from "react";
-// import image from "./../../assets/images/Hackton-logo.png";
 import {
   StyledLogo,
   StyledAimIcon,
