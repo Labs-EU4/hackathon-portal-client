@@ -5,71 +5,15 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="sc-bwzfXH bnRCBH"
-      >
-        <span
-          class="sc-htpNat sc-ifAKCX iUqoHV"
-        >
-          OR LOGIN WITH
-        </span>
-        <div
-          class="sc-bdVaJa gsuEvB"
-        >
-          <a
-            href="https://labseu4-hackathon.herokuapp.com//api/auth/github"
-            rel="me"
-            title="github"
-          >
-            <i
-              class="fab fa-github"
-            />
-          </a>
-          <a
-            href="https://labseu4-hackathon.herokuapp.com//api/auth/google"
-            rel="me"
-            title="google"
-          >
-            <i
-              class="fab fa-google"
-            />
-          </a>
-        </div>
-      </div>
+      <img
+        class="sc-bdVaJa KZukk"
+      />
     </div>
   </body>,
   "container": <div>
-    <div
-      class="sc-bwzfXH bnRCBH"
-    >
-      <span
-        class="sc-htpNat sc-ifAKCX iUqoHV"
-      >
-        OR LOGIN WITH
-      </span>
-      <div
-        class="sc-bdVaJa gsuEvB"
-      >
-        <a
-          href="https://labseu4-hackathon.herokuapp.com//api/auth/github"
-          rel="me"
-          title="github"
-        >
-          <i
-            class="fab fa-github"
-          />
-        </a>
-        <a
-          href="https://labseu4-hackathon.herokuapp.com//api/auth/google"
-          rel="me"
-          title="google"
-        >
-          <i
-            class="fab fa-google"
-          />
-        </a>
-      </div>
-    </div>
+    <img
+      class="sc-bdVaJa KZukk"
+    />
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

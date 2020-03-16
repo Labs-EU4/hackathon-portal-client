@@ -78,8 +78,8 @@ Object {
                   >
                     Profile picture
                   </label>
-                  <div
-                    class="sc-hmzhuo hNyoFK"
+                  <figure
+                    class="sc-frDJqD ycfaW"
                   >
                     <div>
                       <img
@@ -88,7 +88,7 @@ Object {
                       />
                     </div>
                     <p />
-                  </div>
+                  </figure>
                   <div
                     class="sc-cHGsZl eIVmdX"
                   >
@@ -340,8 +340,8 @@ Object {
                 >
                   Profile picture
                 </label>
-                <div
-                  class="sc-hmzhuo hNyoFK"
+                <figure
+                  class="sc-frDJqD ycfaW"
                 >
                   <div>
                     <img
@@ -350,7 +350,7 @@ Object {
                     />
                   </div>
                   <p />
-                </div>
+                </figure>
                 <div
                   class="sc-cHGsZl eIVmdX"
                 >

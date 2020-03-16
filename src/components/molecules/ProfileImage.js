@@ -1,13 +1,13 @@
 import React from 'react';
-import { StyledImage } from '../../assets/styles/atoms/StyledImage';
+import { StyledImageN } from '../../assets/styles/atoms/StyledImage';
 
 const ProfileImage = ({ name, image }) => (
-  <StyledImage>
+  <StyledImageN>
     <div>
       <img src={image} alt="" />
     </div>
     <p>{name}</p>
-  </StyledImage>
+  </StyledImageN>
 );
 
 export default ProfileImage;

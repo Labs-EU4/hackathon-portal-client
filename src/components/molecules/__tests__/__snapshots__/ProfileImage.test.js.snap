@@ -5,8 +5,8 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="sc-bdVaJa gBqAnH"
+      <figure
+        class="sc-bwzfXH kSXoxa"
       >
         <div>
           <img
@@ -14,12 +14,12 @@ Object {
           />
         </div>
         <p />
-      </div>
+      </figure>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="sc-bdVaJa gBqAnH"
+    <figure
+      class="sc-bwzfXH kSXoxa"
     >
       <div>
         <img
@@ -27,7 +27,7 @@ Object {
         />
       </div>
       <p />
-    </div>
+    </figure>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
