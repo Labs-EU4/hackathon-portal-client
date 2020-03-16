@@ -15,4 +15,4 @@ const MediaIcons = () => {
   );
 };
 
-export default MediaIcons;
+export default MediaIcons

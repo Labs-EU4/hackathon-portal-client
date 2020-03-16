@@ -17,7 +17,7 @@ import Button from "../atoms/Button";
 import TeamView from "./TeamView";
 import { useTeams } from "../../hooks";
 import { WideBody } from "../../assets/styles/atoms/WideBody";
-import Nav from "../molecules/Nav";
+// import Nav from "../molecules/Nav";
 
 const CreateTeam = () => {
   const dispatch = useDispatch();
@@ -47,7 +47,7 @@ const CreateTeam = () => {
     <div>
       <UserHeader />
       <WideBody>
-        <Nav />
+        {/* <Nav /> */}
         <BodyRow>
           <RowHead>
             <H3>Participant Teams</H3>

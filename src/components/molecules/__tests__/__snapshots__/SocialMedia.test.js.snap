@@ -6,15 +6,15 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-htpNat jOvXYa"
+        class="sc-bwzfXH bnRCBH"
       >
         <span
-          class="sc-bxivhb sc-EHOje kTvpNa"
+          class="sc-bZQynM sc-dnqmqq jUgGXv"
         >
           OR LOGIN WITH
         </span>
         <div
-          class="sc-bwzfXH fmAuD"
+          class="sc-bdVaJa gsuEvB"
         >
           <a
             href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"
@@ -40,15 +40,15 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-htpNat jOvXYa"
+      class="sc-bwzfXH bnRCBH"
     >
       <span
-        class="sc-bxivhb sc-EHOje kTvpNa"
+        class="sc-bZQynM sc-dnqmqq jUgGXv"
       >
         OR LOGIN WITH
       </span>
       <div
-        class="sc-bwzfXH fmAuD"
+        class="sc-bdVaJa gsuEvB"
       >
         <a
           href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"

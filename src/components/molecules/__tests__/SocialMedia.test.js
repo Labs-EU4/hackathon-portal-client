@@ -5,10 +5,16 @@ import { Provider } from "react-redux";
 import { render, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
-import SocialMedia from "../../molecules/SocialMedia";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import SocialMedia from "../SocialMedia"
+
+library.add(fas, far, fab);
 
 const history = createMemoryHistory();
 

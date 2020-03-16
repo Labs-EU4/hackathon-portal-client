@@ -1,10 +1,10 @@
 import React from 'react'
 import Loader from 'react-loader-spinner';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import { RowBody } from '../../assets/styles/atoms/RowBody';
+import { RowBodyN } from '../../assets/styles/atoms/RowBody';
 
 export default () => (
-  <RowBody spacing='center'>
+  <RowBodyN spacing='center'>
     <Loader
       type="Puff"
       color="#2559a1"
@@ -12,5 +12,5 @@ export default () => (
       width={100}
       visible={true}
     />
-  </RowBody>
+  </RowBodyN>
 );

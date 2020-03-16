@@ -1,17 +1,17 @@
+// ----------------- THIS IS NOT USED IN THE NEW CODE BASE ----------------------- //
+
 import React from "react";
+import { DateIcon } from "../atoms/Icon";
 import styled from "styled-components";
 
-// import { DateIcon } from "../atoms/Icon";
-import { Span } from "../../assets/styles/atoms/Span";
-
 const StyledCardFooter = styled.div`
-  display: flex;
-  align-items: center;
+  display: flex; align-items: center;
 `;
 
 const StyledSpan = styled(Span)`
   margin: 0 0 0 5px;
 `;
+
 
 const CardFooter = ({ date, event_title }) => (
   <StyledCardFooter>

@@ -6,39 +6,44 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bxivhb sc-jTzLTM gTYIQS"
+        class="sc-htpNat sc-jzJRlG jQpsDA"
       >
+        <div
+          class="sc-jTzLTM sc-kAzzGY bsxWfE"
+        >
+          T
+        </div>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
         >
           Your Team
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
         >
           Team Name:
           <span
-            class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+            class="sc-ifAKCX sc-EHOje sc-chPdSV ceTllk"
           >
             The A team
           </span>
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
         >
           Team Members:
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
         >
           This team has no members
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
         >
           Hackathon Name:
           <span
-            class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+            class="sc-ifAKCX sc-EHOje sc-chPdSV ceTllk"
           >
             EuroHack
           </span>
@@ -60,39 +65,44 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bxivhb sc-jTzLTM gTYIQS"
+      class="sc-htpNat sc-jzJRlG jQpsDA"
     >
+      <div
+        class="sc-jTzLTM sc-kAzzGY bsxWfE"
+      >
+        T
+      </div>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
       >
         Your Team
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
       >
         Team Name:
         <span
-          class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+          class="sc-ifAKCX sc-EHOje sc-chPdSV ceTllk"
         >
           The A team
         </span>
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
       >
         Team Members:
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
       >
         This team has no members
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-ifAKCX sc-EHOje sc-cSHVUG ggODwx"
       >
         Hackathon Name:
         <span
-          class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+          class="sc-ifAKCX sc-EHOje sc-chPdSV ceTllk"
         >
           EuroHack
         </span>

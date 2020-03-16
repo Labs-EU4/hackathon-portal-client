@@ -24,76 +24,43 @@ Object {
               </figure>
             </a>
             <div
-              class="sc-eXEjpC kxPYPY"
+              class="sc-bYSBpT ikxKzt"
             >
               <div
-                class="sc-Rmtcm bhqisH"
+                class="sc-jAaTju hMumwu"
               >
-                <span>
-                  <svg>
-                    link-burger-icon.svg
-                  </svg>
-                  Menu
-                </span>
-                <ul>
+                8
+                <ul
+                  class="sc-jDwBTQ hwBHO"
+                >
                   <li>
                     <a
-                      class="sc-bRBYWo bQifjF"
-                      href="/dashboard"
+                      href="/dashboard/profile/edit"
                     >
-                      Dashboard
+                      Settings
                     </a>
                   </li>
                   <li>
-                    <a
-                      class="sc-bRBYWo bQifjF"
-                      href="/dashboard/profile"
-                    >
-                      Profile
-                    </a>
+                    <span>
+                      LogOut
+                    </span>
                   </li>
                 </ul>
               </div>
-              <img
-                class="sc-caSCKo jAIuPP"
-                src="user_icon.svg"
-              />
             </div>
           </div>
         </div>
         <div
-          class="sc-dfVpRl lbgvaS"
+          class="sc-cIShpX itEEzN"
         >
-          <div
-            class="sc-csuQGl fPcsMJ"
-          >
-            <a
-              class="sc-bRBYWo bQifjF"
-              href="/dashboard"
-            >
-              <svg>
-                link-dashboard-icon.svg
-              </svg>
-              Dashboard
-            </a>
-            <a
-              class="sc-bRBYWo bQifjF"
-              href="/dashboard/profile"
-            >
-              <svg>
-                link-profile-icon.svg
-              </svg>
-              Profile
-            </a>
-          </div>
           <div
             class="sc-bdVaJa cdzpxt sc-VigVT kLsUCd"
           >
             <div
-              class="sc-hwwEjo bSgcUF"
+              class="sc-iELTvK eeyRPl"
             >
               <h3
-                class="sc-tilXH exDjNd"
+                class="sc-kjoXOD jdYCyP"
               >
                 Submitted projects for 
                 <strong
@@ -106,13 +73,13 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-kfGgVZ bEPHhF"
+              class="sc-jwKygS bplyQm"
             >
               <div
                 class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
               >
                 <div
-                  class="sc-gZMcBi iOlOKS"
+                  class="sc-gqjmRU gdlAwH"
                   spacing="center"
                 >
                   <div
@@ -193,43 +160,43 @@ Object {
           </div>
         </div>
         <div
-          class="sc-kjoXOD kpWsxL"
+          class="sc-gPEVay ktgxDQ"
         >
           <div
-            class="sc-TOsTZ cbCbeo"
+            class="sc-jlyJG kTrrju"
           >
             <div>
               <img
                 alt="LinkedIn"
-                class="sc-cJSrbW hORQFt"
+                class="sc-csuQGl hfxgpF"
                 src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
-                class="sc-cJSrbW hORQFt"
+                class="sc-csuQGl hfxgpF"
                 src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
-                class="sc-cJSrbW hORQFt"
+                class="sc-csuQGl hfxgpF"
                 src="Icon-facebook.png"
               />
             </div>
             <div>
               <a
-                class="sc-frDJqD sc-hqyNC iwmLnJ"
+                class="sc-Rmtcm sc-hzDkRC ilxCYq"
                 href="https://hackton.co/#team"
               >
                 Team
               </a>
               <a
-                class="sc-frDJqD sc-hqyNC iwmLnJ"
+                class="sc-Rmtcm sc-hzDkRC ilxCYq"
                 href="#"
               >
                 Privacy
               </a>
               <a
-                class="sc-frDJqD sc-hqyNC iwmLnJ"
+                class="sc-Rmtcm sc-hzDkRC ilxCYq"
                 href="#"
               >
                 Contacts
@@ -268,76 +235,43 @@ Object {
             </figure>
           </a>
           <div
-            class="sc-eXEjpC kxPYPY"
+            class="sc-bYSBpT ikxKzt"
           >
             <div
-              class="sc-Rmtcm bhqisH"
+              class="sc-jAaTju hMumwu"
             >
-              <span>
-                <svg>
-                  link-burger-icon.svg
-                </svg>
-                Menu
-              </span>
-              <ul>
+              8
+              <ul
+                class="sc-jDwBTQ hwBHO"
+              >
                 <li>
                   <a
-                    class="sc-bRBYWo bQifjF"
-                    href="/dashboard"
+                    href="/dashboard/profile/edit"
                   >
-                    Dashboard
+                    Settings
                   </a>
                 </li>
                 <li>
-                  <a
-                    class="sc-bRBYWo bQifjF"
-                    href="/dashboard/profile"
-                  >
-                    Profile
-                  </a>
+                  <span>
+                    LogOut
+                  </span>
                 </li>
               </ul>
             </div>
-            <img
-              class="sc-caSCKo jAIuPP"
-              src="user_icon.svg"
-            />
           </div>
         </div>
       </div>
       <div
-        class="sc-dfVpRl lbgvaS"
+        class="sc-cIShpX itEEzN"
       >
-        <div
-          class="sc-csuQGl fPcsMJ"
-        >
-          <a
-            class="sc-bRBYWo bQifjF"
-            href="/dashboard"
-          >
-            <svg>
-              link-dashboard-icon.svg
-            </svg>
-            Dashboard
-          </a>
-          <a
-            class="sc-bRBYWo bQifjF"
-            href="/dashboard/profile"
-          >
-            <svg>
-              link-profile-icon.svg
-            </svg>
-            Profile
-          </a>
-        </div>
         <div
           class="sc-bdVaJa cdzpxt sc-VigVT kLsUCd"
         >
           <div
-            class="sc-hwwEjo bSgcUF"
+            class="sc-iELTvK eeyRPl"
           >
             <h3
-              class="sc-tilXH exDjNd"
+              class="sc-kjoXOD jdYCyP"
             >
               Submitted projects for 
               <strong
@@ -350,13 +284,13 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-kfGgVZ bEPHhF"
+            class="sc-jwKygS bplyQm"
           >
             <div
               class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
             >
               <div
-                class="sc-gZMcBi iOlOKS"
+                class="sc-gqjmRU gdlAwH"
                 spacing="center"
               >
                 <div
@@ -437,43 +371,43 @@ Object {
         </div>
       </div>
       <div
-        class="sc-kjoXOD kpWsxL"
+        class="sc-gPEVay ktgxDQ"
       >
         <div
-          class="sc-TOsTZ cbCbeo"
+          class="sc-jlyJG kTrrju"
         >
           <div>
             <img
               alt="LinkedIn"
-              class="sc-cJSrbW hORQFt"
+              class="sc-csuQGl hfxgpF"
               src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
-              class="sc-cJSrbW hORQFt"
+              class="sc-csuQGl hfxgpF"
               src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
-              class="sc-cJSrbW hORQFt"
+              class="sc-csuQGl hfxgpF"
               src="Icon-facebook.png"
             />
           </div>
           <div>
             <a
-              class="sc-frDJqD sc-hqyNC iwmLnJ"
+              class="sc-Rmtcm sc-hzDkRC ilxCYq"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-frDJqD sc-hqyNC iwmLnJ"
+              class="sc-Rmtcm sc-hzDkRC ilxCYq"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-frDJqD sc-hqyNC iwmLnJ"
+              class="sc-Rmtcm sc-hzDkRC ilxCYq"
               href="#"
             >
               Contacts

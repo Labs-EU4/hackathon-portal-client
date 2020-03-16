@@ -9,6 +9,12 @@ import { initialState } from "../utils/mockData";
 import App from "../App";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../assets/styles/ThemeStyling";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fas, far, fab);
 
 const history = createMemoryHistory();
 
@@ -55,10 +61,9 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
     ).toBeInTheDocument();
   });
   it("The text node <p> for the Eurohack hackathon event card date, renders properly", () => {
-    // expect(component.debug())
-    expect(component.queryByTestId("date-EuroHack")).toBeInTheDocument();
+    expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
   });
   it("The text node <p> for the World hackathon event card date, renders properly", () => {
-    expect(component.queryByTestId("date-EuroHack")).toBeInTheDocument();
+    expect(component.queryByText(/Asia/i)).toBeInTheDocument();
   });
 });

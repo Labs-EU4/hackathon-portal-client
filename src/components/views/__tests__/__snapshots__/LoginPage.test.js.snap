@@ -27,13 +27,13 @@ Object {
               class="sc-fBuWsC fafkCC"
             >
               <a
-                class="sc-iAyFgw eDxeGi"
-                to="/login"
+                class="sc-hMqMXs dgpFZN"
+                href="/login"
               >
                 Log In
               </a>
               <a
-                class="sc-iAyFgw bZGiCG"
+                class="sc-hMqMXs hwKVTy"
                 color="blue"
                 to="/register"
               >
@@ -64,35 +64,35 @@ Object {
             <div>
               <img
                 alt="LinkedIn"
-                class="sc-ifAKCX zCzIi"
+                class="sc-ifAKCX ckrETo"
                 src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
-                class="sc-ifAKCX zCzIi"
+                class="sc-ifAKCX ckrETo"
                 src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
-                class="sc-ifAKCX zCzIi"
+                class="sc-ifAKCX ckrETo"
                 src="Icon-facebook.png"
               />
             </div>
             <div>
               <a
-                class="sc-gzVnrw sc-dnqmqq bGScqw"
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
                 href="https://hackton.co/#team"
               >
                 Team
               </a>
               <a
-                class="sc-gzVnrw sc-dnqmqq bGScqw"
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
                 href="#"
               >
                 Privacy
               </a>
               <a
-                class="sc-gzVnrw sc-dnqmqq bGScqw"
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
                 href="#"
               >
                 Contacts
@@ -100,8 +100,7 @@ Object {
             </div>
             <div>
               <p
-                alt="Hackton - Organise hackathons"
-                class="sc-VigVT sc-jTzLTM gBKmld"
+                class="sc-gZMcBi sc-gqjmRU kdNvVY"
               >
                 International Crafters © 2020
               </p>
@@ -134,13 +133,13 @@ Object {
             class="sc-fBuWsC fafkCC"
           >
             <a
-              class="sc-iAyFgw eDxeGi"
-              to="/login"
+              class="sc-hMqMXs dgpFZN"
+              href="/login"
             >
               Log In
             </a>
             <a
-              class="sc-iAyFgw bZGiCG"
+              class="sc-hMqMXs hwKVTy"
               color="blue"
               to="/register"
             >
@@ -171,35 +170,35 @@ Object {
           <div>
             <img
               alt="LinkedIn"
-              class="sc-ifAKCX zCzIi"
+              class="sc-ifAKCX ckrETo"
               src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
-              class="sc-ifAKCX zCzIi"
+              class="sc-ifAKCX ckrETo"
               src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
-              class="sc-ifAKCX zCzIi"
+              class="sc-ifAKCX ckrETo"
               src="Icon-facebook.png"
             />
           </div>
           <div>
             <a
-              class="sc-gzVnrw sc-dnqmqq bGScqw"
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-gzVnrw sc-dnqmqq bGScqw"
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-gzVnrw sc-dnqmqq bGScqw"
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
               href="#"
             >
               Contacts
@@ -207,8 +206,7 @@ Object {
           </div>
           <div>
             <p
-              alt="Hackton - Organise hackathons"
-              class="sc-VigVT sc-jTzLTM gBKmld"
+              class="sc-gZMcBi sc-gqjmRU kdNvVY"
             >
               International Crafters © 2020
             </p>
