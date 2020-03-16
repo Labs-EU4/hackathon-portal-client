@@ -36,7 +36,4 @@ describe("Component SocialMedia.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
-  it("the text node on <StrikedSpan/> is rendering properly", () => {
-    expect(jestFeatures.getByText("OR LOGIN WITH")).toBeInTheDocument();
-  });
 });

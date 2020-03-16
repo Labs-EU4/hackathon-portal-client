@@ -1,30 +1,27 @@
-import React from 'react';
-import styled from 'styled-components';
-import { Solid, h1FontSize } from '../../assets/styles/variables/index';
-
-const IMG = styled.img`
-  margin: 0 15px 0 0;
-`;
+import styled from "styled-components";
 
 export const Social = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 0.5rem;
+
   a {
-    color: ${Solid.SlateGrey};
+    color: ${props => props.theme.color.grey.regular};
     padding: 0;
     margin: 20px 15px 0 15px;
-    font-size: ${h1FontSize};
+    ${props => props.theme.fontSize.h1};
     display: inline-block;
     cursor: pointer;
+
     i {
       font-size: 5rem;
       transition: transform 0.25s ease-in;
       margin: 0 auto;
     }
+
     &:hover i {
-      color: ${Solid.BLUE};
+      color: ${props => props.theme.color.grey.regular};
     }
   }
 `;
@@ -38,7 +35,7 @@ export const SocialMediaContainer = styled.div`
   padding: 1rem;
   margin-top: 3rem;
   text-transform: uppercase;
-  color: ${Solid.White};
+  color: ${props => props.theme.color.white.regular};
   font-weight: 500;
   line-height: 1.4rem;
 
@@ -48,17 +45,14 @@ export const SocialMediaContainer = styled.div`
     width: 100%;
     font-weight: 50;
     font-size: 10px;
-    p{
+
+    p {
       width: 40%;
     }
+
     .divider {
       padding: 1rem;
       width: 47%;
     }
   }
 `;
-const SocialIcon = ({ src, alt }) => (
-  <IMG src={src} alt={alt} />
-);
-
-export default SocialIcon;
