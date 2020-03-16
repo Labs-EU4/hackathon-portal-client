@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { CardWide, CardWideN } from "../atoms/Card";
-import { LetterIcon } from "../../../components/atoms/Icon";
 import { BodyContainer } from "../atoms/BodyContainer";
 import { BoldSpan, BoldSpanN } from "../atoms/Span";
 import { Paragraph, ParagraphN } from "../atoms/Paragraph";
@@ -93,10 +92,6 @@ export const TitleContainer = styled.div`
   margin: 0 0 20px 0;
   display: flex;
   align-items: baseline;
-`;
-
-export const StyledLetterIcon = styled(LetterIcon)`
-  margin: 0 20px 0 0 !important;
 `;
 
 export const Details = styled.div`

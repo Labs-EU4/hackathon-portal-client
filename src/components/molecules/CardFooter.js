@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import { DateIcon } from "../atoms/Icon";
+// import { DateIcon } from "../atoms/Icon";
 import { Span } from "../../assets/styles/atoms/Span";
 
 const StyledCardFooter = styled.div`
@@ -15,7 +15,7 @@ const StyledSpan = styled(Span)`
 
 const CardFooter = ({ date, event_title }) => (
   <StyledCardFooter>
-    <DateIcon />
+    {/* <DateIcon /> */}
     <StyledSpan data-testid={`date-${event_title}`}>{date}</StyledSpan>
   </StyledCardFooter>
 );

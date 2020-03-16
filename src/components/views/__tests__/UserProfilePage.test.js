@@ -4,11 +4,12 @@ import { createMemoryHistory } from "history";
 import { render } from "@testing-library/react";
 import UserProfilePage from "../UserProfilePage";
 const history = createMemoryHistory();
+import { theme } from "../../../assets/styles/ThemeStyling";
 
 const renderWithRouter = Component =>
   render(
     <Router history={history}>
-      <Route component={Component} />
+      <Route component={Component} theme={theme} />
     </Router>
   );
 
