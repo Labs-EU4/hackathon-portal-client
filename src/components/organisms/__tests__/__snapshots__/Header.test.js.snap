@@ -14,25 +14,23 @@ Object {
           <a
             href="/"
           >
-            <figure
-              class="sc-EHOje evAtGa"
-            >
-              <p>
-                HackHunt
-              </p>
-            </figure>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-ifAKCX gCNDrT"
+              src="Hackton-logo.png"
+            />
           </a>
           <div
-            class="sc-gZMcBi gigkgm"
+            class="sc-htoDjs uoYeN"
           >
             <a
-              class="sc-iwsKbI ecAcly"
+              class="sc-gzVnrw iMlYtV"
               to="/login"
             >
               Log In
             </a>
             <a
-              class="sc-iwsKbI eTedGo"
+              class="sc-gzVnrw ckmzAY"
               color="blue"
               to="/register"
             >
@@ -53,25 +51,23 @@ Object {
         <a
           href="/"
         >
-          <figure
-            class="sc-EHOje evAtGa"
-          >
-            <p>
-              HackHunt
-            </p>
-          </figure>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-ifAKCX gCNDrT"
+            src="Hackton-logo.png"
+          />
         </a>
         <div
-          class="sc-gZMcBi gigkgm"
+          class="sc-htoDjs uoYeN"
         >
           <a
-            class="sc-iwsKbI ecAcly"
+            class="sc-gzVnrw iMlYtV"
             to="/login"
           >
             Log In
           </a>
           <a
-            class="sc-iwsKbI eTedGo"
+            class="sc-gzVnrw ckmzAY"
             color="blue"
             to="/register"
           >
