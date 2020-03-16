@@ -14,5 +14,4 @@ function Checkbox({ label, ...props }) {
     </CheckGroup>
   );
 }
-
 export default Checkbox;
