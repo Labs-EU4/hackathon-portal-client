@@ -7,25 +7,23 @@ Object {
     <div>
       <div>
         <div
-          class="sc-gPEVay hHsTgf"
+          class="sc-iRbamj liaLaB"
         >
           <div
-            class="sc-jlyJG cIVATY"
+            class="sc-gipzik gYIzbI"
           >
             <a
               href="/dashboard"
             >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-csuQGl kFceIF"
-                src="Hackton-logo.png"
+              <figure
+                class="sc-bRBYWo czjYxr"
               />
             </a>
             <div
-              class="sc-bwCtUz jWNvJn"
+              class="sc-hXRMBi Vyllq"
             >
               <div
-                class="sc-eqIVtm jQSgEo"
+                class="sc-kjoXOD LrRDY"
               >
                 <span>
                   <svg>
@@ -36,7 +34,7 @@ Object {
                 <ul>
                   <li>
                     <a
-                      class="sc-fAjcbJ elxIav"
+                      class="sc-cHGsZl bMwAHR"
                       href="/dashboard"
                     >
                       Dashboard
@@ -44,7 +42,7 @@ Object {
                   </li>
                   <li>
                     <a
-                      class="sc-fAjcbJ elxIav"
+                      class="sc-cHGsZl bMwAHR"
                       href="/dashboard/profile"
                     >
                       Profile
@@ -52,38 +50,21 @@ Object {
                   </li>
                 </ul>
               </div>
-              <div
-                class="sc-ksYbfQ jyEYcc"
-              >
-                8
-                <ul
-                  class="sc-hmzhuo gBgYAd"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+              <img
+                class="sc-hqyNC gZXmwY"
+                src="user_icon.svg"
+              />
             </div>
           </div>
         </div>
         <div
-          class="sc-bRBYWo hDVxac"
+          class="sc-fMiknA gLARYc"
         >
           <div
-            class="sc-dVhcbM utVEl"
+            class="sc-gisBJw dVDYcw"
           >
             <a
-              class="sc-fAjcbJ elxIav"
+              class="sc-cHGsZl bMwAHR"
               href="/dashboard"
             >
               <svg>
@@ -92,7 +73,7 @@ Object {
               Dashboard
             </a>
             <a
-              class="sc-fAjcbJ elxIav"
+              class="sc-cHGsZl bMwAHR"
               href="/dashboard/profile"
             >
               <svg>
@@ -102,10 +83,10 @@ Object {
             </a>
           </div>
           <div
-            class="sc-jhAzac lliFtL sc-fYxtnH imfBlL"
+            class="sc-eqIVtm hvmLNT sc-cIShpX dTlsAK"
           >
             <div
-              class="sc-frDJqD fRtUrX"
+              class="sc-dNLxif imKLHn"
             >
               <h3
                 class="sc-kGXeez lolzGQ"
@@ -114,13 +95,13 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-hqyNC gEHmJN"
+              class="sc-uJMKN eujmAt"
             >
               <div
-                class="sc-dNLxif sc-jqCOkK ipcrxk"
+                class="sc-gGBfsJ sc-jnlKLf kvMLTu"
               >
                 <div
-                  class="sc-kPVwWT hqMnMf"
+                  class="sc-eXEjpC zsXnf"
                   display="wide"
                 >
                   <input
@@ -129,7 +110,7 @@ Object {
                     value=""
                   />
                   <button
-                    class="sc-kEYyzF exfAZC"
+                    class="sc-kEYyzF kbIspq"
                     color="grey"
                   >
                     Back to dashboard
@@ -197,25 +178,23 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-gPEVay hHsTgf"
+        class="sc-iRbamj liaLaB"
       >
         <div
-          class="sc-jlyJG cIVATY"
+          class="sc-gipzik gYIzbI"
         >
           <a
             href="/dashboard"
           >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-csuQGl kFceIF"
-              src="Hackton-logo.png"
+            <figure
+              class="sc-bRBYWo czjYxr"
             />
           </a>
           <div
-            class="sc-bwCtUz jWNvJn"
+            class="sc-hXRMBi Vyllq"
           >
             <div
-              class="sc-eqIVtm jQSgEo"
+              class="sc-kjoXOD LrRDY"
             >
               <span>
                 <svg>
@@ -226,7 +205,7 @@ Object {
               <ul>
                 <li>
                   <a
-                    class="sc-fAjcbJ elxIav"
+                    class="sc-cHGsZl bMwAHR"
                     href="/dashboard"
                   >
                     Dashboard
@@ -234,7 +213,7 @@ Object {
                 </li>
                 <li>
                   <a
-                    class="sc-fAjcbJ elxIav"
+                    class="sc-cHGsZl bMwAHR"
                     href="/dashboard/profile"
                   >
                     Profile
@@ -242,38 +221,21 @@ Object {
                 </li>
               </ul>
             </div>
-            <div
-              class="sc-ksYbfQ jyEYcc"
-            >
-              8
-              <ul
-                class="sc-hmzhuo gBgYAd"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+            <img
+              class="sc-hqyNC gZXmwY"
+              src="user_icon.svg"
+            />
           </div>
         </div>
       </div>
       <div
-        class="sc-bRBYWo hDVxac"
+        class="sc-fMiknA gLARYc"
       >
         <div
-          class="sc-dVhcbM utVEl"
+          class="sc-gisBJw dVDYcw"
         >
           <a
-            class="sc-fAjcbJ elxIav"
+            class="sc-cHGsZl bMwAHR"
             href="/dashboard"
           >
             <svg>
@@ -282,7 +244,7 @@ Object {
             Dashboard
           </a>
           <a
-            class="sc-fAjcbJ elxIav"
+            class="sc-cHGsZl bMwAHR"
             href="/dashboard/profile"
           >
             <svg>
@@ -292,10 +254,10 @@ Object {
           </a>
         </div>
         <div
-          class="sc-jhAzac lliFtL sc-fYxtnH imfBlL"
+          class="sc-eqIVtm hvmLNT sc-cIShpX dTlsAK"
         >
           <div
-            class="sc-frDJqD fRtUrX"
+            class="sc-dNLxif imKLHn"
           >
             <h3
               class="sc-kGXeez lolzGQ"
@@ -304,13 +266,13 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-hqyNC gEHmJN"
+            class="sc-uJMKN eujmAt"
           >
             <div
-              class="sc-dNLxif sc-jqCOkK ipcrxk"
+              class="sc-gGBfsJ sc-jnlKLf kvMLTu"
             >
               <div
-                class="sc-kPVwWT hqMnMf"
+                class="sc-eXEjpC zsXnf"
                 display="wide"
               >
                 <input
@@ -319,7 +281,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-kEYyzF exfAZC"
+                  class="sc-kEYyzF kbIspq"
                   color="grey"
                 >
                   Back to dashboard

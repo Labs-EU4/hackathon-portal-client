@@ -8,9 +8,11 @@ import {
 const Logo = ({ size }) => {
   return (
     <StyledLogo {...{ size }}>
-      <StyledAimIcon icon="crosshairs" />
-      <StyledLaptopIcon icon="laptop-code" />
-      <p>HackHunt</p>
+      <StyledAimIcon icon="crosshairs" alt="Hackton - Organise hackathons" />
+      <StyledLaptopIcon
+        icon="laptop-code"
+        alt="Hackton - Organise hackathons"
+      />
     </StyledLogo>
   );
 };
