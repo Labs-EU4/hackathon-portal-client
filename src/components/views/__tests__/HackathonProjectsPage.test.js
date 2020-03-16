@@ -7,6 +7,8 @@ import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
 import HackathonProjectsPage from "../HackathonProjectsPage";
+import { theme } from "../../../assets/styles/ThemeStyling";
+import { ThemeProvider } from "styled-components";
 
 const history = createMemoryHistory();
 
@@ -29,7 +31,9 @@ beforeEach(() => {
   component = render(
     <Router history={history}>
       <Provider store={store}>
-        <HackathonProjectsPage />
+        <ThemeProvider theme={theme}>
+          <HackathonProjectsPage />
+        </ThemeProvider>
       </Provider>
     </Router>
   );
@@ -41,13 +45,9 @@ describe("Component HackathonProjectsPage.js renders properly", () => {
   });
 
   it("asserts that the Title of the event text node renders properly ", () => {
-    expect(
-      component.queryByText(/World/i)
-    ).toBeInTheDocument();
+    expect(component.queryByText(/World/i)).toBeInTheDocument();
   });
   it("asserts that the <img> logo for the FB icon renders properly ", () => {
-    expect(
-      component.queryByAltText(/facebook/i)
-    ).toBeInTheDocument();
+    expect(component.queryByAltText(/facebook/i)).toBeInTheDocument();
   });
 });

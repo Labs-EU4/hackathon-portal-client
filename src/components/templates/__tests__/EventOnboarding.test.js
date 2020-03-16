@@ -6,6 +6,8 @@ import { render, fireEvent, cleanup } from "@testing-library/react";
 import configureStore from "redux-mock-store";
 import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
+import { theme } from "../../../assets/styles/ThemeStyling";
+import { ThemeProvider } from "styled-components";
 
 import EventOnboarding from "../EventOnboarding";
 
@@ -23,7 +25,9 @@ beforeEach(() => {
   jestFeatures = render(
     <Router history={history}>
       <Provider store={store}>
-        <EventOnboarding />
+        <ThemeProvider theme={theme}>
+          <EventOnboarding />
+        </ThemeProvider>
       </Provider>
     </Router>
   );
