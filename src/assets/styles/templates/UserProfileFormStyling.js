@@ -1,20 +1,20 @@
 import styled from "styled-components";
-import BodyContainer from "../atoms/BodyContainer";
-import Label from "../atoms/Label";
-import { CardWide } from "../atoms/Card";
-import { RowBody } from "../atoms/RowBody";
+import BodyContainerO from "../atoms/BodyContainer";
+import LabelO from "../atoms/Label";
+import { CardWideO } from "../atoms/Card";
+import { RowBodyO } from "../atoms/RowBody";
 import Button from "../../../components/atoms/Button";
 import { media } from '../variables/index';
 
 import React from "react";
 
 export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
+  <BodyContainerO {...props} />
 ))`
   flex-direction: column;
   justify-content: start;
 `;
-export const NewLabel = styled(Label)`
+export const NewLabel = styled(LabelO)`
 padding-left: 3px;
 @media ${media.tablet} {
   display: none;
@@ -24,7 +24,7 @@ padding-left: 3px;
 }f
 `;
 
-export const CardWider = styled(CardWide)`
+export const CardWider = styled(CardWideO)`
 margin-left: 150px;
 @media ${media.tablet} {
   margin-left: 0px;
@@ -34,7 +34,7 @@ margin-left: 150px;
 }
 `;
 
-export const ButtonRowBody = styled(RowBody)`
+export const ButtonRowBody = styled(RowBodyO)`
 @media ${media.tablet} {
 justify-content: space-around;
 }

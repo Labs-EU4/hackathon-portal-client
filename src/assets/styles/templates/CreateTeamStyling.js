@@ -1,7 +1,7 @@
-import BodyContainer from "../atoms/BodyContainer";
+import BodyContainerO from "../atoms/BodyContainer";
 import styled from "styled-components";
 
-export const BodyRow = styled(BodyContainer)`
+export const BodyRow = styled(BodyContainerO)`
   flex-direction: column;
   align-items: flex-start;
   height: 100%;
@@ -9,7 +9,7 @@ export const BodyRow = styled(BodyContainer)`
   max-width: 100vw;
 `;
 
-export const BodyColumn = styled(BodyContainer)`
+export const BodyColumn = styled(BodyContainerO)`
   flex-direction: row;
   align-items: flex-start;
   height: 100%;

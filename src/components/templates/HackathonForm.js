@@ -9,7 +9,7 @@ import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainer from "../../assets/styles/atoms/BodyContainer";
+import BodyContainerO from "../../assets/styles/atoms/BodyContainer";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
@@ -33,7 +33,7 @@ import {
 
 import { format } from "../../utils/date";
 
-const BodyContainerColumn = styled(BodyContainer)`
+const BodyContainerColumn = styled(BodyContainerO)`
   flex-direction: column;
   justify-content: start;
 `;

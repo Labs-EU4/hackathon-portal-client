@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import Input from "../../atoms/Input";
 import WideBody from "../../../assets/styles/atoms/WideBody";
-import BodyContainer from "../../../assets/styles/atoms/BodyContainer";
+import BodyContainerO from "../../../assets/styles/atoms/BodyContainer";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
 import { Footer } from "../../organisms/index";
 import Button from "../../atoms/Button";
@@ -37,7 +37,7 @@ const ResetPassword = () => {
     <div>
       <Header />
       <WideBody>
-        <BodyContainer justify="center">
+        <BodyContainerO justify="center">
           <HeroImage src={image} alt="Reset passowrd" />
           <Container>
             <H1>Reset the password</H1>
@@ -67,7 +67,7 @@ const ResetPassword = () => {
               )}
             </Formik>
           </Container>
-        </BodyContainer>
+        </BodyContainerO>
       </WideBody>
       <Footer />
     </div>

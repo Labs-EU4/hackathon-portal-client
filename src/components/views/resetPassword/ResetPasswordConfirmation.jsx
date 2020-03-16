@@ -1,5 +1,5 @@
 import React from "react";
-import BodyContainer from "../../../assets/styles/atoms/BodyContainer";
+import BodyContainerO from "../../../assets/styles/atoms/BodyContainer";
 import HeroImage from "../../atoms/HeroImage";
 import Container from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/Heading";
@@ -15,7 +15,7 @@ function ResetPasswordConfirmation() {
     <div>
       <Header />
       <WideBody>
-        <BodyContainer justify="center">
+        <BodyContainerO justify="center">
           <HeroImage src={image} alt="Password Sent" />
           <Container>
             <H1>Check your inbox</H1>
@@ -29,7 +29,7 @@ function ResetPasswordConfirmation() {
               </Button>
             </RowBody>
           </Container>
-        </BodyContainer>
+        </BodyContainerO>
       </WideBody>
       <Footer />
     </div>

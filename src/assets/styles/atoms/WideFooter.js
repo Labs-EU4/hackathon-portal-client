@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media, Solid } from "../variables/index";
 
-const WideFooter = styled.div`
+export const WideFooterO = styled.div`
   display: flex;
   justify-content: center;
   border-top: 1px solid ${Solid.BORDER_GREY};
@@ -12,4 +12,17 @@ const WideFooter = styled.div`
   }
 `;
 
-export default WideFooter;
+
+// --------------------------------- NEW // --------------------------------- //
+
+// import styled from "styled-components";
+
+// import { media } from '../variables/media';
+
+export const WideFooter = styled.div`
+  display: flex;
+  justify-content: center;
+  @media ${media.mobile} {
+    min-width: 335px;
+  }
+`;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
 
-const HeaderContainer = styled.div`
+export const HeaderContainerO = styled.div`
   width: 100%;
   height: 90px;
   padding: 0 45px;
@@ -20,4 +20,17 @@ const HeaderContainer = styled.div`
   }
 `;
 
-export default HeaderContainer;
+
+
+// --------------------------------- NEW // --------------------------------- //
+
+// import styled from "styled-components";
+
+export const HeaderContainer = styled.div`
+  width: 100%; min-height: 60px;
+  padding-left: 20px;
+  display: flex;
+  grid-area: header;
+  align-items: center;
+  justify-content: space-between;
+`;

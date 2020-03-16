@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
 
-const FooterContainer = styled.div`
+export const FooterContainerO = styled.div`
   width: 1152px;
   max-width: 1152px;
   height: 76px;
@@ -32,4 +32,19 @@ const FooterContainer = styled.div`
   }
 `;
 
-export default FooterContainer;
+
+
+// --------------------------------- NEW // --------------------------------- //
+
+// import styled from "styled-components";
+// import { media } from "../variables/media";
+
+export const FooterContainer = styled.div`
+  grid-area: footer;
+  ${props => props.theme.flex.center};
+  position: relative;
+  
+  * > {
+    color: white;
+  }
+`;

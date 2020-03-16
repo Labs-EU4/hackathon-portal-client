@@ -4,7 +4,7 @@ import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import WideBody from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainer from "../../assets/styles/atoms/BodyContainer";
+import BodyContainerO from "../../assets/styles/atoms/BodyContainer";
 import { H2, H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
@@ -22,7 +22,7 @@ import Spinner from "../molecules/Spinner";
 
 
 export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
+  <BodyContainerO {...props} />
 ))`
   flex-direction: column;
   justify-content: start;

@@ -1,9 +1,9 @@
-import BodyContainer from "../atoms/BodyContainer";
+import O from "../atoms/BodyContainer";
 import styled from "styled-components";
-import { BoldSpan } from "../atoms/Span";
+import { BoldSpanO } from "../atoms/Span";
 import { LetterIcon } from "../../../components/atoms/Icon";
 
-export const TeamsCont = styled(BodyContainer)`
+export const TeamsCont = styled(BodyContainerO)`
   background-color: white;
   width: 50%;
   height: 40%;
@@ -26,7 +26,7 @@ export const TeamsCont = styled(BodyContainer)`
   }
 `;
 
-export const FancyBoldSpan = styled(BoldSpan)`
+export const FancyBoldSpan = styled(BoldSpanO)`
   border-bottom: 1px solid lightgray;
   padding-top: 10px;
   padding-bottom: 10px;

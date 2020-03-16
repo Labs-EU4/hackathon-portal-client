@@ -1,18 +1,18 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
-import BodyContainer from "../atoms/BodyContainer";
-import { CardWide } from "../atoms/Card";
-import { Paragraph } from "../atoms/Paragraph";
+import BodyContainerO from "../atoms/BodyContainer";
+import { CardWideO } from "../atoms/Card";
+import { ParagraphO } from "../atoms/Paragraph";
 import React from "react";
 
 export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
+  <BodyContainerO {...props} />
 ))`
   flex-direction: column;
   justify-content: start;
 `;
 
-export const Card = styled(CardWide)`
+export const Card = styled(CardWideO)`
   width: 800px;
 `;
 
@@ -29,7 +29,7 @@ export const Strong = styled.strong`
   font-weight: bold;
 `;
 
-export const Description = styled(Paragraph)`
+export const Description = styled(ParagraphO)`
   display: block;
   max-width: 240px;
   margin: 0;

@@ -1,22 +1,22 @@
 import styled from "styled-components";
-import { CardWide } from "../atoms/Card";
+import { CardWideO } from "../atoms/Card";
 import { LetterIcon } from "../../../components/atoms/Icon";
-import BodyContainer from "../atoms/BodyContainer";
-import { BoldSpan } from "../atoms/Span";
-import { Paragraph } from "../atoms/Paragraph";
+import BodyContainerO from "../atoms/BodyContainer";
+import { BoldSpanO } from "../atoms/Span";
+import { ParagraphO } from "../atoms/Paragraph";
 import { media } from "../variables/index";
 import Button from "../../../components/atoms/Button";
 
 import React from "react";
 
 export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
+  <BodyContainerO {...props} />
 ))`
   flex-direction: column;
   justify-content: start;
 `;
 
-export const NormalSpan = styled(BoldSpan)`
+export const NormalSpan = styled(BoldSpanO)`
   font-weight: normal;
   text-transform: capitalize;
 `;
@@ -30,7 +30,7 @@ export const Image = styled.img`
   border-radius: 30px;
 `;
 
-export const PTags = styled(Paragraph)`
+export const PTags = styled(ParagraphO)`
   display: inline-block;
   text-align: center;
   border: 1px solid #e9b75f;
@@ -43,7 +43,7 @@ export const PTags = styled(Paragraph)`
   padding: 7px 8px;
 `;
 
-export const PHosted = styled(Paragraph)`
+export const PHosted = styled(ParagraphO)`
   font-size: 14px;
   color: darkgray;
   margin: 3px 0 20px 0;
@@ -53,7 +53,7 @@ export const PBold = styled(Paragraph)`
   font-weight: bold;
 `;
 
-export const EventCardWide = styled(CardWide)`
+export const EventCardWide = styled(CardWideO)`
   min-width: 55%;
   overflow-wrap: break-word;
   @media ${media.tablet} {
@@ -61,7 +61,7 @@ export const EventCardWide = styled(CardWide)`
   }
 `;
 
-export const TagsCardWide = styled(CardWide)`
+export const TagsCardWide = styled(CardWideO)`
   max-width: 35%;
   height: 100%;
   justify-content: flex-start;
@@ -149,7 +149,7 @@ export const AvatarImg = styled.img`
   border-radius: "5px";
 `;
 
-export const RegButton = styled(Button)`
+export const RegButton = styled(ButtonO)`
   border: 2px solid lightgray;
   color: lightgray;
 `;

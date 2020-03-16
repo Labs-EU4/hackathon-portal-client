@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import BodyContainer from "../atoms/BodyContainer";
+import BodyContainerO from "../atoms/BodyContainer";
 import { type, Solid, media } from "../variables/index";
 
 import React from "react";
 
 export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
+  <BodyContainerO {...props} />
 ))`
   flex-direction: column;
   justify-content: start;

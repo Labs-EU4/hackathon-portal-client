@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledImage = styled.div`
+export const StyledImageO = styled.div`
 	width: 100%;
 	height: 12rem;
 	display: flex;
@@ -30,4 +30,29 @@ const StyledImage = styled.div`
 		color: #444;
 	}
 `;
-export default StyledImage;
+
+
+// --------------------------------- NEW // --------------------------------- //
+
+// import styled from 'styled-components';
+
+export const StyledImage = styled.figure`
+    ${props => props.theme.flex.columnCenter};
+	
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			width: 100%;
+			border-radius: 50%;
+		}
+	}
+	p {
+        ${props => props.theme.flex.center};
+		width: 100%;
+		padding: 0.5rem;
+		font-size: 1.8rem;
+		color: ${props => props.theme.color.grey.dark};
+	}
+`;
