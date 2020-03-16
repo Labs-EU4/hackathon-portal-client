@@ -26,8 +26,12 @@ import AddParticipantTeam from "./components/templates/AddParticipantTeams";
 import ResetPassword from './components/views/resetPassword/ResetPassword';
 import ResetPasswordConfirmation from './components/views/resetPassword/ResetPasswordConfirmation';
 import NewPassword from './components/views/resetPassword/NewPassword';
+import Nav from "./components/molecules/Nav";
 
 function App() {
+
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
   return (
     <>
       <ThemeProvider theme={theme}>
@@ -97,6 +101,12 @@ function App() {
           />
           <Redirect to="/not-found" />
         </Switch>
+        <Nav
+          {...{ isProfileOpen }}
+          {...{ setIsProfileOpen }}
+          {...{ isSideBarOpen }}
+          {...{ setIsSideBarOpen }}
+        />
         <ToastContainer />
       </ThemeProvider>
     </>

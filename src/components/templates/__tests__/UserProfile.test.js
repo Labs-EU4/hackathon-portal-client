@@ -9,6 +9,12 @@ import UserProfile from "../UserProfile";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fas, far, fab);
 
 const history = createMemoryHistory();
 

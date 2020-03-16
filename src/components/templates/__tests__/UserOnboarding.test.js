@@ -3,6 +3,12 @@ import { Router, Route } from 'react-router';
 import { createMemoryHistory } from 'history';
 import { render } from '@testing-library/react'
 import UserOnboarding from '../UserOnboarding';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { far } from '@fortawesome/free-regular-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+library.add(fas, far, fab);
 
 
 const history = createMemoryHistory()

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import Button from '../../../components/atoms/Button';
-// import Icon from '../../../components/atoms/Icon';
+import { IconN } from '../../../components/atoms/Icon';
 import { Solid, media, type, Gradient } from "../variables/index";
 
 export const StyledNav = styled.div`
@@ -134,29 +134,29 @@ svg path {
 // --------------------------------- NEW // --------------------------------- //
 
 
-// export const StyledEditIconN = styled(Icon)`
-//   position: absolute; top: 50%; left: 50%;
-//   font-size: 2.5rem;
-//   color: ${props => props.theme.color.green.regular};
-//   z-index: 500;
-//   transform: translate(-40%, -50%);
-// `;
+export const StyledEditIconN = styled(IconN)`
+  position: absolute; top: 50%; left: 50%;
+  font-size: 2.5rem;
+  color: ${props => props.theme.color.green.regular};
+  z-index: 500;
+  transform: translate(-40%, -50%);
+`;
 
-// export const StyledExpandIconN = styled(Icon)`
-//   position: absolute; bottom: 70px; left: 50%;
-//   font-size: 3rem;
-//   transform: ${({ active }) => active ? 'translateX(-50%) rotate(90deg);' : 'translateX(-50%) rotate(-90deg);'};
-//   cursor: pointer;
-//   &:hover {
-//     transform: ${({ active }) => active
-//     ? 'translateX(-50%) rotate(90deg) scale(1.1);'
-//     : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
-//     color: ${props => props.theme.color.white.regular};
-//   }
-//   @media ${media.tablet} { 
-//     display: none;
-//   }
-// `;
+export const StyledExpandIconN = styled(IconN)`
+  position: absolute; bottom: 70px; left: 50%;
+  font-size: 3rem;
+  transform: ${({ active }) => active ? 'translateX(-50%) rotate(90deg);' : 'translateX(-50%) rotate(-90deg);'};
+  cursor: pointer;
+  &:hover {
+    transform: ${({ active }) => active
+    ? 'translateX(-50%) rotate(90deg) scale(1.1);'
+    : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
+    color: ${props => props.theme.color.white.regular};
+  }
+  @media ${media.tablet} { 
+    display: none;
+  }
+`;
 
 export const UserInfoContentN = styled.div`
   margin-left: 5px;
