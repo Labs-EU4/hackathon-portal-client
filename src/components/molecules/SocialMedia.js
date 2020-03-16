@@ -1,13 +1,13 @@
 import React from "react";
-import { SocialMediaContainer } from "../atoms/SocialIcon";
+import SocialIcon from "../atoms/SocialIcon";
 import MediaIcons from "./MediaIcons";
 import { StrikedSpan } from "../../assets/styles/atoms/Span";
 
 const SocialMedia = () => (
-  <SocialMediaContainer>
+  <SocialIcon>
     <StrikedSpan>OR LOGIN WITH</StrikedSpan>
     <MediaIcons />
-  </SocialMediaContainer>
+  </SocialIcon>
 );
 
 export default SocialMedia;
