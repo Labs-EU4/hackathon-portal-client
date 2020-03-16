@@ -1,4 +1,5 @@
 import React from "react";
+// import image from "./../../assets/images/Hackton-logo.png";
 import {
   StyledLogo,
   StyledAimIcon,
@@ -8,11 +9,9 @@ import {
 const Logo = ({ size }) => {
   return (
     <StyledLogo {...{ size }}>
-      <StyledAimIcon icon="crosshairs" alt="Hackton - Organise hackathons" />
-      <StyledLaptopIcon
-        icon="laptop-code"
-        alt="Hackton - Organise hackathons"
-      />
+      <StyledAimIcon icon="crosshairs" />
+      <StyledLaptopIcon icon="laptop-code" />
+      <p>HackHunt</p>
     </StyledLogo>
   );
 };
