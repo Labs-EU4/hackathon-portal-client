@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import { WideFooter } from '../../assets/styles/atoms/WideFooter';
-import { FooterContainer } from '../../assets/styles/atoms/FooterContainer';
-import Group from '../../components/atoms/Group';
-import SocialIcon from '../../components/atoms/SocialIcon';
-import { FooterNavAnchor } from '../../assets/styles/atoms/Anchor';
-import { PlainParagraph } from '../../assets/styles/atoms/Paragraph';
+import { WideFooter } from "../../assets/styles/atoms/WideFooter";
+import { FooterContainer } from "../../assets/styles/atoms/FooterContainer";
+import Group from "../../components/atoms/Group";
+import SocialIcon from "../../components/atoms/SocialIcon";
+import { FooterNavAnchor } from "../../assets/styles/atoms/Anchor";
+import { PlainParagraph } from "../../assets/styles/atoms/Paragraph";
 
-import linkedin from '../../assets/images/Icon-linkedin.png';
-import twitter from '../../assets/images/Icon-twitter.png';
-import facebook from '../../assets/images/Icon-facebook.png';
+import linkedin from "../../assets/images/Icon-linkedin.png";
+import twitter from "../../assets/images/Icon-twitter.png";
+import facebook from "../../assets/images/Icon-facebook.png";
 
 const Footer = () => (
   <WideFooter>
@@ -27,7 +27,7 @@ const Footer = () => (
       </Group>
 
       <Group>
-        <PlainParagraph>
+        <PlainParagraph alt="Hackton - Organise hackathons">
           International Crafters © 2020
         </PlainParagraph>
       </Group>
