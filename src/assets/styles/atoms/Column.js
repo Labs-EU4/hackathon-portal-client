@@ -11,3 +11,13 @@ export const Column = styled.div`
     width: 100%;
   }
 `;
+
+// --------------------------------- NEW // --------------------------------- //
+
+
+export const ColumnN = styled.div`
+  ${props => props.theme.flex.custom('center', 'flex-start', 'column', 'wrap')};
+  @media ${media.tablet} {
+    width: 100%;
+  }
+`;

@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
-import Label from "./atoms/Label";
-import BodyContainer from "./atoms/BodyContainer";
+import { Label } from "./atoms/Label";
+import { BodyContainer } from "./atoms/BodyContainer";
 import {
   baseFontSize,
   h1FontSize,

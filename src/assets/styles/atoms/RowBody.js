@@ -23,3 +23,28 @@ export const RowBody = styled.div`
     justify ? `justify-content: ${justify}l` : `justify-content: center;`}
   }
 `;
+
+// --------------------------------- NEW --------------------------------- //
+
+
+export const RowBodyN = styled.div`
+  width: 100%;
+  display: flex;
+  ${({ direction }) =>
+    direction ? `flex-direction: ${direction};` : `flex-direction: row;`}
+  ${({ spacing }) =>
+    spacing ? `justify-content: ${spacing};` : `justify-content: space-between;`}
+  flex-wrap: wrap;
+  margin: 5px 0;
+  
+  @media ${media.tablet} {
+    flex-direction: row;
+    ${({ justify }) =>
+    justify ? `justify-content: ${justify}l` : `justify-content: center;`}
+  }
+  @media ${media.mobile} {
+    flex-direction: row;
+    ${({ justify }) =>
+    justify ? `justify-content: ${justify}l` : `justify-content: center;`}
+  }
+`;

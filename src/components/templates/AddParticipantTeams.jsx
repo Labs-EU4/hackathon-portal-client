@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory, useParams } from "react-router-dom";
-import { BodyContainerColumn } from "../../assets/styles/templates/AppParticipantTeams";
+import { BodyContainerColumn } from "../../assets/styles/templates/AddParticipantTeams";
 import { Footer } from "../organisms";
 import UserHeader from "../organisms/UserHeader";
-import WideBody from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBody";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";

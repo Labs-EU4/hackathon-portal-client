@@ -1,4 +1,4 @@
-import BodyContainer from "../atoms/BodyContainer";
+import { BodyContainer } from "../atoms/BodyContainer";
 import { H2 } from "../atoms/Heading";
 import styled from "styled-components";
 

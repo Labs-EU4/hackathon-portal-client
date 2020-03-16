@@ -7,7 +7,7 @@ import {
   StyledContainer,
   Container,
   StyledWidget
-} from "../../assets/styles/templates/AppParticipantTeams";
+} from "../../assets/styles/templates/AddParticipantTeams";
 import { ContainerRadio } from "../../assets/styles/templates/AddTeammatesStyling";
 import isEmail from "validator/lib/isEmail";
 

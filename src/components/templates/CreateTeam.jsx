@@ -16,7 +16,7 @@ import { H3 } from "../../assets/styles/atoms/Heading";
 import Button from "../atoms/Button";
 import TeamView from "./TeamView";
 import { useTeams } from "../../hooks";
-import WideBody from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
 
 const CreateTeam = () => {

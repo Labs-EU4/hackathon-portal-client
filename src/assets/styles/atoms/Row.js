@@ -6,3 +6,11 @@ export const Row = styled.div`
   margin-top: 20px;
   margin-right: 20px;
 `;
+
+// --------------------------------- NEW --------------------------------- //
+
+
+export const RowN = styled.div`
+  display: flex;
+  margin-top: 20px; margin-right: 20px;
+`;

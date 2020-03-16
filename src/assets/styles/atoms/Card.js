@@ -48,3 +48,47 @@ export const CardForm = styled(Card)`
     justify-content: start;
   }
 `;
+
+
+
+// --------------------------------- NEW // --------------------------------- //
+
+
+export const CardN = styled.div`
+  ${props => props.theme.shadow.card};
+  ${props => props.theme.flex.column};
+  position: relative;
+  background-color: white;
+  width: 300px; min-height: 380px;
+  margin: 10px;
+`;
+
+export const CardWideN = styled(CardN)`
+  max-width: 650px;
+  width: 100%;
+  padding: 40px;
+  @media ${media.tablet} {
+    width: 100%;
+  }
+  @media ${media.mobile} {
+    width: 100%;
+  }
+`;
+
+export const CardFormN = styled(CardN)`
+  width: 650px;
+  padding: 40px;
+  height: auto;
+  @media ${media.tablet} {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    justify-content: start;
+  }
+  @media ${media.mobile} {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    justify-content: start;
+  }
+`;

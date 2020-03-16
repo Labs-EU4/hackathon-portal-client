@@ -3,7 +3,7 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
 import { H2, H3 } from "../../assets/styles/atoms/Heading";
 import { BoldSpan } from "../../assets/styles/atoms/Span";

@@ -1,7 +1,7 @@
 import React from "react";
 import { useField } from "formik";
-import CheckGroup from '../../assets/styles/atoms/CheckGroup';
-import Label from "../../assets/styles/atoms/Label";
+import { CheckGroup } from '../../assets/styles/atoms/CheckGroup';
+import { Label } from "../../assets/styles/atoms/Label";
 import { StyledCheckboxField } from "../../assets/styles/molecules/CheckboxStyling"
 
 function Checkbox({ label, ...props }) {

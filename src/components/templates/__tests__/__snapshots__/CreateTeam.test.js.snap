@@ -7,25 +7,25 @@ Object {
     <div>
       <div>
         <div
-          class="sc-kEYyzF gJEGTB"
+          class="sc-eqIVtm iRSQpR"
         >
           <div
-            class="sc-kkGfuU jkZJhz"
+            class="sc-caSCKo dBrOqz"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-iAyFgw ZnYDG"
+                class="sc-kjoXOD berwiQ"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-fMiknA eZGPpY"
+              class="sc-elJkPf cDdFgb"
             >
               <div
-                class="sc-brqgnP fSJAGO"
+                class="sc-cJSrbW iLuRss"
               >
                 <span>
                   <svg>
@@ -36,7 +36,7 @@ Object {
                 <ul>
                   <li>
                     <a
-                      class="sc-cMljjf itvyOd"
+                      class="sc-ksYbfQ bAZFuP"
                       href="/dashboard"
                     >
                       Dashboard
@@ -44,7 +44,7 @@ Object {
                   </li>
                   <li>
                     <a
-                      class="sc-cMljjf itvyOd"
+                      class="sc-ksYbfQ bAZFuP"
                       href="/dashboard/profile"
                     >
                       Profile
@@ -53,11 +53,11 @@ Object {
                 </ul>
               </div>
               <div
-                class="sc-jAaTju hMumwu"
+                class="sc-uJMKN gGtOyE"
               >
                 8
                 <ul
-                  class="sc-jDwBTQ hwBHO"
+                  class="sc-bbmXgH dvlAne"
                 >
                   <li>
                     <a
@@ -77,13 +77,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-eHgmQL bjfMmQ"
+          class="sc-htpNat exbEkn"
         >
           <div
-            class="sc-jWBwVP kJjCpZ"
+            class="sc-kgAjT jahFoy"
           >
             <a
-              class="sc-cMljjf itvyOd"
+              class="sc-ksYbfQ bAZFuP"
               href="/dashboard"
             >
               <svg>
@@ -92,7 +92,7 @@ Object {
               Dashboard
             </a>
             <a
-              class="sc-cMljjf itvyOd"
+              class="sc-ksYbfQ bAZFuP"
               href="/dashboard/profile"
             >
               <svg>
@@ -102,27 +102,27 @@ Object {
             </a>
           </div>
           <div
-            class="sc-bdVaJa sc-bwzfXH fJHjk"
+            class="sc-bdVaJa sc-ifAKCX gTytNp"
           >
             <div
-              class="sc-gPEVay gFxRIy"
+              class="sc-gGBfsJ ewJdPk"
             >
               <h3
-                class="sc-chPdSV jQbecn"
+                class="sc-cvbbAY gBxxrf"
               >
                 Participant Teams
               </h3>
             </div>
             <div
-              class="sc-bdVaJa sc-htpNat hUanpX"
+              class="sc-bdVaJa sc-EHOje fDLSoA"
             >
               <form
-                class="sc-bxivhb XbdQG"
+                class="sc-bZQynM cJKeup"
               >
                 <h4>
                   You are creating a team for 
                   <span
-                    class="sc-ifAKCX bIsFTr"
+                    class="sc-gzVnrw fMruPZ"
                   >
                     EuroHack
                   </span>
@@ -136,7 +136,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-kpOJdX iraxgQ"
+                  class="sc-iRbamj jKhFlT"
                   color="green"
                   type="submit"
                 >
@@ -147,43 +147,43 @@ Object {
           </div>
         </div>
         <div
-          class="sc-EHOje cqpFke"
+          class="sc-gqjmRU gUOFMN"
         >
           <div
-            class="sc-bZQynM kJGrDQ"
+            class="sc-jTzLTM gPYHcv"
           >
             <div>
               <img
                 alt="LinkedIn"
-                class="sc-gzVnrw hEzmkf"
+                class="sc-jzJRlG gmSBYK"
                 src="Icon-linkedin.png"
               />
               <img
                 alt="Twitter"
-                class="sc-gzVnrw hEzmkf"
+                class="sc-jzJRlG gmSBYK"
                 src="Icon-twitter.png"
               />
               <img
                 alt="Facebook"
-                class="sc-gzVnrw hEzmkf"
+                class="sc-jzJRlG gmSBYK"
                 src="Icon-facebook.png"
               />
             </div>
             <div>
               <a
-                class="sc-iwsKbI sc-gqjmRU berxEG"
+                class="sc-chPdSV sc-kGXeez eIiwNY"
                 href="https://hackton.co/#team"
               >
                 Team
               </a>
               <a
-                class="sc-iwsKbI sc-gqjmRU berxEG"
+                class="sc-chPdSV sc-kGXeez eIiwNY"
                 href="#"
               >
                 Privacy
               </a>
               <a
-                class="sc-iwsKbI sc-gqjmRU berxEG"
+                class="sc-chPdSV sc-kGXeez eIiwNY"
                 href="#"
               >
                 Contacts
@@ -191,7 +191,7 @@ Object {
             </div>
             <div>
               <p
-                class="sc-VigVT sc-jTzLTM gBKmld"
+                class="sc-jKJlTe sc-eNQAEJ kIYaiP"
               >
                 International Crafters © 2020
               </p>
@@ -204,25 +204,25 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-kEYyzF gJEGTB"
+        class="sc-eqIVtm iRSQpR"
       >
         <div
-          class="sc-kkGfuU jkZJhz"
+          class="sc-caSCKo dBrOqz"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-iAyFgw ZnYDG"
+              class="sc-kjoXOD berwiQ"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-fMiknA eZGPpY"
+            class="sc-elJkPf cDdFgb"
           >
             <div
-              class="sc-brqgnP fSJAGO"
+              class="sc-cJSrbW iLuRss"
             >
               <span>
                 <svg>
@@ -233,7 +233,7 @@ Object {
               <ul>
                 <li>
                   <a
-                    class="sc-cMljjf itvyOd"
+                    class="sc-ksYbfQ bAZFuP"
                     href="/dashboard"
                   >
                     Dashboard
@@ -241,7 +241,7 @@ Object {
                 </li>
                 <li>
                   <a
-                    class="sc-cMljjf itvyOd"
+                    class="sc-ksYbfQ bAZFuP"
                     href="/dashboard/profile"
                   >
                     Profile
@@ -250,11 +250,11 @@ Object {
               </ul>
             </div>
             <div
-              class="sc-jAaTju hMumwu"
+              class="sc-uJMKN gGtOyE"
             >
               8
               <ul
-                class="sc-jDwBTQ hwBHO"
+                class="sc-bbmXgH dvlAne"
               >
                 <li>
                   <a
@@ -274,13 +274,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-eHgmQL bjfMmQ"
+        class="sc-htpNat exbEkn"
       >
         <div
-          class="sc-jWBwVP kJjCpZ"
+          class="sc-kgAjT jahFoy"
         >
           <a
-            class="sc-cMljjf itvyOd"
+            class="sc-ksYbfQ bAZFuP"
             href="/dashboard"
           >
             <svg>
@@ -289,7 +289,7 @@ Object {
             Dashboard
           </a>
           <a
-            class="sc-cMljjf itvyOd"
+            class="sc-ksYbfQ bAZFuP"
             href="/dashboard/profile"
           >
             <svg>
@@ -299,27 +299,27 @@ Object {
           </a>
         </div>
         <div
-          class="sc-bdVaJa sc-bwzfXH fJHjk"
+          class="sc-bdVaJa sc-ifAKCX gTytNp"
         >
           <div
-            class="sc-gPEVay gFxRIy"
+            class="sc-gGBfsJ ewJdPk"
           >
             <h3
-              class="sc-chPdSV jQbecn"
+              class="sc-cvbbAY gBxxrf"
             >
               Participant Teams
             </h3>
           </div>
           <div
-            class="sc-bdVaJa sc-htpNat hUanpX"
+            class="sc-bdVaJa sc-EHOje fDLSoA"
           >
             <form
-              class="sc-bxivhb XbdQG"
+              class="sc-bZQynM cJKeup"
             >
               <h4>
                 You are creating a team for 
                 <span
-                  class="sc-ifAKCX bIsFTr"
+                  class="sc-gzVnrw fMruPZ"
                 >
                   EuroHack
                 </span>
@@ -333,7 +333,7 @@ Object {
                 value=""
               />
               <button
-                class="sc-kpOJdX iraxgQ"
+                class="sc-iRbamj jKhFlT"
                 color="green"
                 type="submit"
               >
@@ -344,43 +344,43 @@ Object {
         </div>
       </div>
       <div
-        class="sc-EHOje cqpFke"
+        class="sc-gqjmRU gUOFMN"
       >
         <div
-          class="sc-bZQynM kJGrDQ"
+          class="sc-jTzLTM gPYHcv"
         >
           <div>
             <img
               alt="LinkedIn"
-              class="sc-gzVnrw hEzmkf"
+              class="sc-jzJRlG gmSBYK"
               src="Icon-linkedin.png"
             />
             <img
               alt="Twitter"
-              class="sc-gzVnrw hEzmkf"
+              class="sc-jzJRlG gmSBYK"
               src="Icon-twitter.png"
             />
             <img
               alt="Facebook"
-              class="sc-gzVnrw hEzmkf"
+              class="sc-jzJRlG gmSBYK"
               src="Icon-facebook.png"
             />
           </div>
           <div>
             <a
-              class="sc-iwsKbI sc-gqjmRU berxEG"
+              class="sc-chPdSV sc-kGXeez eIiwNY"
               href="https://hackton.co/#team"
             >
               Team
             </a>
             <a
-              class="sc-iwsKbI sc-gqjmRU berxEG"
+              class="sc-chPdSV sc-kGXeez eIiwNY"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-iwsKbI sc-gqjmRU berxEG"
+              class="sc-chPdSV sc-kGXeez eIiwNY"
               href="#"
             >
               Contacts
@@ -388,7 +388,7 @@ Object {
           </div>
           <div>
             <p
-              class="sc-VigVT sc-jTzLTM gBKmld"
+              class="sc-jKJlTe sc-eNQAEJ kIYaiP"
             >
               International Crafters © 2020
             </p>

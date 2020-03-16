@@ -1,7 +1,7 @@
 import React from 'react';
 
-import WideFooter from '../../assets/styles/atoms/WideFooter';
-import FooterContainer from '../../assets/styles/atoms/FooterContainer';
+import { WideFooter } from '../../assets/styles/atoms/WideFooter';
+import { FooterContainer } from '../../assets/styles/atoms/FooterContainer';
 import Group from '../../components/atoms/Group';
 import SocialIcon from '../../components/atoms/SocialIcon';
 import { FooterNavAnchor } from '../../assets/styles/atoms/Anchor';

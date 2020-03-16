@@ -4,7 +4,7 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
 import { StyledAnchor } from "../../assets/styles/organisms/FormStyling";
-import Container from "../../assets/styles/atoms/Container";
+import { Container } from "../../assets/styles/atoms/Container";
 import { H1 } from "../../assets/styles/atoms/Heading";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import Input from "../atoms/Input";
