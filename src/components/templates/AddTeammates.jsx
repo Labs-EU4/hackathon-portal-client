@@ -9,7 +9,7 @@ import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";
 import { CardWide } from "../../assets/styles/atoms/Card";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
-import Nav from "../molecules/Nav";
+// import Nav from "../molecules/Nav";
 import { BodyContainerColumn } from "../../assets/styles/templates/AddTeammatesStyling";
 import { SearchWidget, TeamRoleWidget, TeamInviteWidget } from "./widgets";
 import { useHistory } from "react-router-dom";
@@ -45,7 +45,7 @@ const AddTeammates = () => {
     <div>
       <UserHeader />
       <WideBody>
-        <Nav />
+        {/* <Nav /> */}
         <BodyContainerColumn>
           <RowHead>
             <H3>Add Teammates</H3>

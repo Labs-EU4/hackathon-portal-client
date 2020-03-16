@@ -1,3 +1,580 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component UserProfile.js text nodes renders properly asserts that the component renders properly 1`] = `undefined`;
+exports[`Component UserProfile.js text nodes renders properly asserts that the component renders properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="sc-bdVaJa gOhKpA"
+        >
+          <div
+            class="sc-htpNat dAVxPZ"
+          >
+            <a
+              href="/dashboard"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-ifAKCX gCNDrT"
+                src="Hackton-logo.png"
+              />
+            </a>
+            <div
+              class="sc-dfVpRl YViCd"
+            >
+              <div
+                class="sc-EHOje kXozTT"
+              >
+                8
+                <ul
+                  class="sc-bZQynM fVGedF"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-jhAzac jsMUOz"
+        >
+          <div
+            class="sc-fMiknA heulbj sc-iELTvK dUAlfN"
+          >
+            <div
+              class="sc-fAjcbJ kUlDMA"
+            >
+              <h3
+                class="sc-eNQAEJ faMTgL"
+              >
+                Your Profile
+              </h3>
+            </div>
+            <div
+              class="sc-kgAjT sc-cJSrbW sc-cmTdod bxsBFl"
+            >
+              <div
+                class="sc-jwKygS iJUiKc"
+              >
+                <div
+                  class="sc-bYSBpT gPymgu"
+                >
+                  <img
+                    class="sc-lhVmIH jOdkar"
+                    src="profile-image.png"
+                  />
+                  <a
+                    class="sc-jWBwVP iAogdl sc-dqBHgY fPtsEY"
+                    color="green"
+                    href="/dashboard/profile/edit"
+                  >
+                    Edit profile
+                  </a>
+                </div>
+                <div
+                  class="sc-cHGsZl cEmgZG"
+                >
+                  <h2
+                    class="sc-jKJlTe efZNGi"
+                    style="margin-bottom: 0px;"
+                  />
+                  <p
+                    class="sc-kAzzGY brIVdx"
+                    style="color: gray;"
+                  >
+                    @
+                  </p>
+                </div>
+                <div
+                  class="sc-kTUwUJ lppiZC"
+                >
+                  <p
+                    class="sc-kAzzGY brIVdx"
+                  />
+                </div>
+                <div
+                  class="sc-kTUwUJ lppiZC"
+                >
+                  <div
+                    class="sc-jtRfpW ggpbDm"
+                  />
+                  <p
+                    class="sc-kAzzGY brIVdx"
+                    style="color: blue; margin-left: 3px;"
+                  />
+                </div>
+              </div>
+              <div
+                class="sc-btzYZH ojCzw"
+              >
+                <div
+                  class="sc-fAjcbJ kUlDMA"
+                >
+                  <h3
+                    class="sc-eNQAEJ faMTgL"
+                  >
+                    Hackathon(s) you registered for
+                  </h3>
+                </div>
+                <div
+                  class="sc-gisBJw eRpQzh"
+                  spacing="center"
+                >
+                  <div
+                    aria-busy="true"
+                    class=""
+                  >
+                    <svg
+                      aria-label="audio-loading"
+                      height="100"
+                      stroke="#2559a1"
+                      viewBox="0 0 44 44"
+                      width="100"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fill-rule="evenodd"
+                        stroke-width="2"
+                      >
+                        <circle
+                          cx="22"
+                          cy="22"
+                          r="1"
+                        >
+                          <animate
+                            attributeName="r"
+                            begin="0s"
+                            calcMode="spline"
+                            dur="1.8s"
+                            keySplines="0.165, 0.84, 0.44, 1"
+                            keyTimes="0; 1"
+                            repeatCount="indefinite"
+                            values="1; 20"
+                          />
+                          <animate
+                            attributeName="strokeOpacity"
+                            begin="0s"
+                            calcMode="spline"
+                            dur="1.8s"
+                            keySplines="0.3, 0.61, 0.355, 1"
+                            keyTimes="0; 1"
+                            repeatCount="indefinite"
+                            values="1; 0"
+                          />
+                        </circle>
+                        <circle
+                          cx="22"
+                          cy="22"
+                          r="1"
+                        >
+                          <animate
+                            attributeName="r"
+                            begin="-0.9s"
+                            calcMode="spline"
+                            dur="1.8s"
+                            keySplines="0.165, 0.84, 0.44, 1"
+                            keyTimes="0; 1"
+                            repeatCount="indefinite"
+                            values="1; 20"
+                          />
+                          <animate
+                            attributeName="strokeOpacity"
+                            begin="-0.9s"
+                            calcMode="spline"
+                            dur="1.8s"
+                            keySplines="0.3, 0.61, 0.355, 1"
+                            keyTimes="0; 1"
+                            repeatCount="indefinite"
+                            values="1; 0"
+                          />
+                        </circle>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-gzVnrw bRGEaa"
+        >
+          <div
+            class="sc-dnqmqq dBtDWt"
+          >
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                class="sc-kAzzGY sc-chPdSV gAkGJE"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="sc-bdVaJa gOhKpA"
+      >
+        <div
+          class="sc-htpNat dAVxPZ"
+        >
+          <a
+            href="/dashboard"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-ifAKCX gCNDrT"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-dfVpRl YViCd"
+          >
+            <div
+              class="sc-EHOje kXozTT"
+            >
+              8
+              <ul
+                class="sc-bZQynM fVGedF"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-jhAzac jsMUOz"
+      >
+        <div
+          class="sc-fMiknA heulbj sc-iELTvK dUAlfN"
+        >
+          <div
+            class="sc-fAjcbJ kUlDMA"
+          >
+            <h3
+              class="sc-eNQAEJ faMTgL"
+            >
+              Your Profile
+            </h3>
+          </div>
+          <div
+            class="sc-kgAjT sc-cJSrbW sc-cmTdod bxsBFl"
+          >
+            <div
+              class="sc-jwKygS iJUiKc"
+            >
+              <div
+                class="sc-bYSBpT gPymgu"
+              >
+                <img
+                  class="sc-lhVmIH jOdkar"
+                  src="profile-image.png"
+                />
+                <a
+                  class="sc-jWBwVP iAogdl sc-dqBHgY fPtsEY"
+                  color="green"
+                  href="/dashboard/profile/edit"
+                >
+                  Edit profile
+                </a>
+              </div>
+              <div
+                class="sc-cHGsZl cEmgZG"
+              >
+                <h2
+                  class="sc-jKJlTe efZNGi"
+                  style="margin-bottom: 0px;"
+                />
+                <p
+                  class="sc-kAzzGY brIVdx"
+                  style="color: gray;"
+                >
+                  @
+                </p>
+              </div>
+              <div
+                class="sc-kTUwUJ lppiZC"
+              >
+                <p
+                  class="sc-kAzzGY brIVdx"
+                />
+              </div>
+              <div
+                class="sc-kTUwUJ lppiZC"
+              >
+                <div
+                  class="sc-jtRfpW ggpbDm"
+                />
+                <p
+                  class="sc-kAzzGY brIVdx"
+                  style="color: blue; margin-left: 3px;"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-btzYZH ojCzw"
+            >
+              <div
+                class="sc-fAjcbJ kUlDMA"
+              >
+                <h3
+                  class="sc-eNQAEJ faMTgL"
+                >
+                  Hackathon(s) you registered for
+                </h3>
+              </div>
+              <div
+                class="sc-gisBJw eRpQzh"
+                spacing="center"
+              >
+                <div
+                  aria-busy="true"
+                  class=""
+                >
+                  <svg
+                    aria-label="audio-loading"
+                    height="100"
+                    stroke="#2559a1"
+                    viewBox="0 0 44 44"
+                    width="100"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="evenodd"
+                      stroke-width="2"
+                    >
+                      <circle
+                        cx="22"
+                        cy="22"
+                        r="1"
+                      >
+                        <animate
+                          attributeName="r"
+                          begin="0s"
+                          calcMode="spline"
+                          dur="1.8s"
+                          keySplines="0.165, 0.84, 0.44, 1"
+                          keyTimes="0; 1"
+                          repeatCount="indefinite"
+                          values="1; 20"
+                        />
+                        <animate
+                          attributeName="strokeOpacity"
+                          begin="0s"
+                          calcMode="spline"
+                          dur="1.8s"
+                          keySplines="0.3, 0.61, 0.355, 1"
+                          keyTimes="0; 1"
+                          repeatCount="indefinite"
+                          values="1; 0"
+                        />
+                      </circle>
+                      <circle
+                        cx="22"
+                        cy="22"
+                        r="1"
+                      >
+                        <animate
+                          attributeName="r"
+                          begin="-0.9s"
+                          calcMode="spline"
+                          dur="1.8s"
+                          keySplines="0.165, 0.84, 0.44, 1"
+                          keyTimes="0; 1"
+                          repeatCount="indefinite"
+                          values="1; 20"
+                        />
+                        <animate
+                          attributeName="strokeOpacity"
+                          begin="-0.9s"
+                          calcMode="spline"
+                          dur="1.8s"
+                          keySplines="0.3, 0.61, 0.355, 1"
+                          keyTimes="0; 1"
+                          repeatCount="indefinite"
+                          values="1; 0"
+                        />
+                      </circle>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gzVnrw bRGEaa"
+      >
+        <div
+          class="sc-dnqmqq dBtDWt"
+        >
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              class="sc-kAzzGY sc-chPdSV gAkGJE"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

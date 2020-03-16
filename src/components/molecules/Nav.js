@@ -1,8 +1,8 @@
 // import React from "react";
-// import { ReactComponent as DashboardIcon } from "./../../assets/images/link-dashboard-icon.svg";
-// import { ReactComponent as ProfileIcon } from "./../../assets/images/link-profile-icon.svg";
-// import { ReactComponent as BurgerIcon } from "../../assets/images/link-burger-icon.svg";
-// import { StyledNav, StyledMobileNav, StyledNavLink } from "../../assets/styles/molecules/NavStyling";
+import { ReactComponent as DashboardIcon } from "./../../assets/images/link-dashboard-icon.svg";
+import { ReactComponent as ProfileIcon } from "./../../assets/images/link-profile-icon.svg";
+import { ReactComponent as BurgerIcon } from "../../assets/images/link-burger-icon.svg";
+import { StyledNav, StyledMobileNav, StyledNavLink } from "../../assets/styles/molecules/NavStyling";
 
 // const items = [
 //   {
@@ -51,11 +51,9 @@
 //     );
 // };
 
-// export default Nav;
-
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-// import uuid from 'uuid';
+// // import uuid from 'uuid';
 
 import {
   StyledEditIconN,

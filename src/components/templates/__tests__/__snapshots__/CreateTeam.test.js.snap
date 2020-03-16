@@ -1,3 +1,352 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on CreateTeam.js that are contained on the making an event form CreateTeam.js component renders properly 1`] = `undefined`;
+exports[`Shows all the text nodes on CreateTeam.js that are contained on the making an event form CreateTeam.js component renders properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="sc-eqIVtm iRSQpR"
+        >
+          <div
+            class="sc-caSCKo dBrOqz"
+          >
+            <a
+              href="/dashboard"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-kjoXOD berwiQ"
+                src="Hackton-logo.png"
+              />
+            </a>
+            <div
+              class="sc-cIShpX hBPzbI"
+            >
+              <div
+                class="sc-kgAjT gdEPLo"
+              >
+                8
+                <ul
+                  class="sc-cJSrbW chYLXV"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-htpNat exbEkn"
+        >
+          <div
+            class="sc-bdVaJa sc-ifAKCX gTytNp"
+          >
+            <div
+              class="sc-ksYbfQ rSrHB"
+            >
+              <h3
+                class="sc-hSdWYo ImZbB"
+              >
+                Participant Teams
+              </h3>
+            </div>
+            <div
+              class="sc-bdVaJa sc-EHOje fDLSoA"
+            >
+              <form
+                class="sc-bZQynM cJKeup"
+              >
+                <h4>
+                  You are creating a team for 
+                  <span
+                    class="sc-gzVnrw fMruPZ"
+                  >
+                    EuroHack
+                  </span>
+                </h4>
+                <label>
+                  Team Name
+                </label>
+                <input
+                  name="team_name"
+                  type="text"
+                  value=""
+                />
+                <button
+                  class="sc-jDwBTQ fUrotf"
+                  color="green"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-gqjmRU gUOFMN"
+        >
+          <div
+            class="sc-jTzLTM gPYHcv"
+          >
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-jzJRlG bgJdbi"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-jzJRlG bgJdbi"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-jzJRlG bgJdbi"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-cSHVUG sc-chPdSV kwCQSq"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-cSHVUG sc-chPdSV kwCQSq"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-cSHVUG sc-chPdSV kwCQSq"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                class="sc-dxgOiQ sc-ckVGcZ kIQphu"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="sc-eqIVtm iRSQpR"
+      >
+        <div
+          class="sc-caSCKo dBrOqz"
+        >
+          <a
+            href="/dashboard"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-kjoXOD berwiQ"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-cIShpX hBPzbI"
+          >
+            <div
+              class="sc-kgAjT gdEPLo"
+            >
+              8
+              <ul
+                class="sc-cJSrbW chYLXV"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-htpNat exbEkn"
+      >
+        <div
+          class="sc-bdVaJa sc-ifAKCX gTytNp"
+        >
+          <div
+            class="sc-ksYbfQ rSrHB"
+          >
+            <h3
+              class="sc-hSdWYo ImZbB"
+            >
+              Participant Teams
+            </h3>
+          </div>
+          <div
+            class="sc-bdVaJa sc-EHOje fDLSoA"
+          >
+            <form
+              class="sc-bZQynM cJKeup"
+            >
+              <h4>
+                You are creating a team for 
+                <span
+                  class="sc-gzVnrw fMruPZ"
+                >
+                  EuroHack
+                </span>
+              </h4>
+              <label>
+                Team Name
+              </label>
+              <input
+                name="team_name"
+                type="text"
+                value=""
+              />
+              <button
+                class="sc-jDwBTQ fUrotf"
+                color="green"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gqjmRU gUOFMN"
+      >
+        <div
+          class="sc-jTzLTM gPYHcv"
+        >
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-jzJRlG bgJdbi"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-jzJRlG bgJdbi"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-jzJRlG bgJdbi"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-cSHVUG sc-chPdSV kwCQSq"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-cSHVUG sc-chPdSV kwCQSq"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-cSHVUG sc-chPdSV kwCQSq"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              class="sc-dxgOiQ sc-ckVGcZ kIQphu"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

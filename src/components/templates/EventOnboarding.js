@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import UserHeader from "../organisms/UserHeader";
-import Nav from "../molecules/Nav";
+// import Nav from "../molecules/Nav";
 import { Footer } from "../organisms/index";
 import { WideBody } from "../../assets/styles/atoms/WideBody";
 import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
@@ -32,7 +32,7 @@ const EventOnboarding = () => {
     <div>
       <UserHeader />
       <WideBody>
-        <Nav />
+        {/* <Nav /> */}
         <BodyContainerColumn>
           <RowHead>
             <H3>My hackathons</H3>

@@ -30,8 +30,6 @@ import Nav from "./components/molecules/Nav";
 
 function App() {
 
-  const [isProfileOpen, setIsProfileOpen] = useState(false);
-  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
   return (
     <>
       <ThemeProvider theme={theme}>
@@ -101,12 +99,7 @@ function App() {
           />
           <Redirect to="/not-found" />
         </Switch>
-        <Nav
-          {...{ isProfileOpen }}
-          {...{ setIsProfileOpen }}
-          {...{ isSideBarOpen }}
-          {...{ setIsSideBarOpen }}
-        />
+
         <ToastContainer />
       </ThemeProvider>
     </>

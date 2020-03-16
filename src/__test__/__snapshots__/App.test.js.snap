@@ -1,3 +1,756 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on CreateTeam.js that are contained on the making an event form App.js component renders properly,with all the Private Routes 1`] = `undefined`;
+exports[`Shows all the text nodes on CreateTeam.js that are contained on the making an event form App.js component renders properly,with all the Private Routes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="sc-bRBYWo hpdRYt"
+        >
+          <div
+            class="sc-jhAzac gLIRKj"
+          >
+            <a
+              href="/dashboard"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-fMiknA hWLGWA"
+                src="Hackton-logo.png"
+              />
+            </a>
+            <div
+              class="sc-iYUSvU gSZryl"
+            >
+              <div
+                class="sc-gisBJw fKUlnJ"
+              >
+                8
+                <ul
+                  class="sc-kjoXOD cbkrLX"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-eqIVtm kyIptX"
+        >
+          <div
+            class="sc-htpNat fUzptc sc-jwKygS jcfdSR"
+          >
+            <div
+              class="sc-kafWEX bgvrha"
+            >
+              <h3
+                class="sc-jKJlTe giRPFq"
+              >
+                My hackathons
+              </h3>
+              <a
+                href="/dashboard/new"
+              >
+                <button
+                  class="sc-eHgmQL ercCyC"
+                  color="green"
+                >
+                  Create New
+                </button>
+              </a>
+            </div>
+            <div
+              class="sc-iELTvK eWfaOU"
+              spacing="start"
+            >
+              <div
+                class="sc-ksYbfQ gbRCba"
+              >
+                <div
+                  class="sc-hEsumM cniKPQ"
+                >
+                  <figure
+                    class="sc-hmzhuo bKgrwF"
+                  >
+                    <img
+                      alt="EuroHack"
+                      src="event-img.jpg"
+                    />
+                  </figure>
+                  <div
+                    class="sc-hqyNC bjCDGs"
+                  >
+                    <p
+                      class="sc-chPdSV sc-dNLxif eKJybw"
+                    >
+                      Oct
+                       
+                      09
+                       - 
+                      Aug
+                       
+                      07
+                      , 
+                      2011
+                    </p>
+                    <h4
+                      class="sc-iAyFgw hWcCaN"
+                    >
+                      EuroHack
+                    </h4>
+                    <p
+                      class="sc-chPdSV sc-jqCOkK bEYBEb"
+                    >
+                      Europe
+                    </p>
+                    <p
+                      class="sc-chPdSV bOHAFa"
+                    >
+                      the best event hack hack hack macbook...
+                    </p>
+                    <div
+                      class="sc-uJMKN fJNZLq"
+                    >
+                      10/9/2011
+                    </div>
+                    <div
+                      class="sc-jbKcbu kbmrlN"
+                    >
+                      <button
+                        class="sc-eHgmQL bSgApB"
+                        color="primary-reverse"
+                        to="//event/1"
+                      >
+                        More Info
+                      </button>
+                      <button
+                        class="sc-eHgmQL bSgApB"
+                        color="primary"
+                        to="/"
+                      >
+                        Join Event
+                      </button>
+                    </div>
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-cJSrbW kSQXza sc-bbmXgH cafVvc"
+                    data-icon="bookmark"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 384 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-star fa-w-18 sc-cJSrbW kSQXza sc-gGBfsJ clkxLj"
+                    data-icon="star"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="sc-ksYbfQ gbRCba"
+              >
+                <div
+                  class="sc-hEsumM cniKPQ"
+                >
+                  <figure
+                    class="sc-hmzhuo bKgrwF"
+                  >
+                    <img
+                      alt="World"
+                      src="event-img.jpg"
+                    />
+                  </figure>
+                  <div
+                    class="sc-hqyNC bjCDGs"
+                  >
+                    <p
+                      class="sc-chPdSV sc-dNLxif eKJybw"
+                    >
+                      Jul
+                       
+                      09
+                       - 
+                      Aug
+                       
+                      07
+                      , 
+                      2011
+                    </p>
+                    <h4
+                      class="sc-iAyFgw hWcCaN"
+                    >
+                      World
+                    </h4>
+                    <p
+                      class="sc-chPdSV sc-jqCOkK bEYBEb"
+                    >
+                      Asia
+                    </p>
+                    <p
+                      class="sc-chPdSV bOHAFa"
+                    >
+                      number one hacker event in the world...
+                    </p>
+                    <div
+                      class="sc-uJMKN fJNZLq"
+                    >
+                      7/9/2011
+                    </div>
+                    <div
+                      class="sc-jbKcbu kbmrlN"
+                    >
+                      <button
+                        class="sc-eHgmQL bSgApB"
+                        color="primary-reverse"
+                        to="//event/2"
+                      >
+                        More Info
+                      </button>
+                      <button
+                        class="sc-eHgmQL bSgApB"
+                        color="primary"
+                        to="/"
+                      >
+                        Join Event
+                      </button>
+                    </div>
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-cJSrbW kSQXza sc-bbmXgH cafVvc"
+                    data-icon="bookmark"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 384 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-star fa-w-18 sc-cJSrbW kSQXza sc-gGBfsJ clkxLj"
+                    data-icon="star"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-kafWEX bgvrha"
+            >
+              <h3
+                class="sc-jKJlTe giRPFq"
+              >
+                Global hackathons
+              </h3>
+            </div>
+            <div
+              class="sc-iELTvK eWfaOU"
+              spacing="start"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-bZQynM evbRlW"
+        >
+          <div
+            class="sc-htoDjs fNWpfq"
+          >
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-iwsKbI jLwxuA"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-iwsKbI jLwxuA"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-iwsKbI jLwxuA"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-gZMcBi sc-VigVT cAEcDw"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-gZMcBi sc-VigVT cAEcDw"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-gZMcBi sc-VigVT cAEcDw"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                class="sc-cSHVUG sc-kAzzGY kEmEMJ"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Toastify"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="sc-bRBYWo hpdRYt"
+      >
+        <div
+          class="sc-jhAzac gLIRKj"
+        >
+          <a
+            href="/dashboard"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-fMiknA hWLGWA"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-iYUSvU gSZryl"
+          >
+            <div
+              class="sc-gisBJw fKUlnJ"
+            >
+              8
+              <ul
+                class="sc-kjoXOD cbkrLX"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-eqIVtm kyIptX"
+      >
+        <div
+          class="sc-htpNat fUzptc sc-jwKygS jcfdSR"
+        >
+          <div
+            class="sc-kafWEX bgvrha"
+          >
+            <h3
+              class="sc-jKJlTe giRPFq"
+            >
+              My hackathons
+            </h3>
+            <a
+              href="/dashboard/new"
+            >
+              <button
+                class="sc-eHgmQL ercCyC"
+                color="green"
+              >
+                Create New
+              </button>
+            </a>
+          </div>
+          <div
+            class="sc-iELTvK eWfaOU"
+            spacing="start"
+          >
+            <div
+              class="sc-ksYbfQ gbRCba"
+            >
+              <div
+                class="sc-hEsumM cniKPQ"
+              >
+                <figure
+                  class="sc-hmzhuo bKgrwF"
+                >
+                  <img
+                    alt="EuroHack"
+                    src="event-img.jpg"
+                  />
+                </figure>
+                <div
+                  class="sc-hqyNC bjCDGs"
+                >
+                  <p
+                    class="sc-chPdSV sc-dNLxif eKJybw"
+                  >
+                    Oct
+                     
+                    09
+                     - 
+                    Aug
+                     
+                    07
+                    , 
+                    2011
+                  </p>
+                  <h4
+                    class="sc-iAyFgw hWcCaN"
+                  >
+                    EuroHack
+                  </h4>
+                  <p
+                    class="sc-chPdSV sc-jqCOkK bEYBEb"
+                  >
+                    Europe
+                  </p>
+                  <p
+                    class="sc-chPdSV bOHAFa"
+                  >
+                    the best event hack hack hack macbook...
+                  </p>
+                  <div
+                    class="sc-uJMKN fJNZLq"
+                  >
+                    10/9/2011
+                  </div>
+                  <div
+                    class="sc-jbKcbu kbmrlN"
+                  >
+                    <button
+                      class="sc-eHgmQL bSgApB"
+                      color="primary-reverse"
+                      to="//event/1"
+                    >
+                      More Info
+                    </button>
+                    <button
+                      class="sc-eHgmQL bSgApB"
+                      color="primary"
+                      to="/"
+                    >
+                      Join Event
+                    </button>
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-cJSrbW kSQXza sc-bbmXgH cafVvc"
+                  data-icon="bookmark"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-star fa-w-18 sc-cJSrbW kSQXza sc-gGBfsJ clkxLj"
+                  data-icon="star"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div
+              class="sc-ksYbfQ gbRCba"
+            >
+              <div
+                class="sc-hEsumM cniKPQ"
+              >
+                <figure
+                  class="sc-hmzhuo bKgrwF"
+                >
+                  <img
+                    alt="World"
+                    src="event-img.jpg"
+                  />
+                </figure>
+                <div
+                  class="sc-hqyNC bjCDGs"
+                >
+                  <p
+                    class="sc-chPdSV sc-dNLxif eKJybw"
+                  >
+                    Jul
+                     
+                    09
+                     - 
+                    Aug
+                     
+                    07
+                    , 
+                    2011
+                  </p>
+                  <h4
+                    class="sc-iAyFgw hWcCaN"
+                  >
+                    World
+                  </h4>
+                  <p
+                    class="sc-chPdSV sc-jqCOkK bEYBEb"
+                  >
+                    Asia
+                  </p>
+                  <p
+                    class="sc-chPdSV bOHAFa"
+                  >
+                    number one hacker event in the world...
+                  </p>
+                  <div
+                    class="sc-uJMKN fJNZLq"
+                  >
+                    7/9/2011
+                  </div>
+                  <div
+                    class="sc-jbKcbu kbmrlN"
+                  >
+                    <button
+                      class="sc-eHgmQL bSgApB"
+                      color="primary-reverse"
+                      to="//event/2"
+                    >
+                      More Info
+                    </button>
+                    <button
+                      class="sc-eHgmQL bSgApB"
+                      color="primary"
+                      to="/"
+                    >
+                      Join Event
+                    </button>
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-cJSrbW kSQXza sc-bbmXgH cafVvc"
+                  data-icon="bookmark"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-star fa-w-18 sc-cJSrbW kSQXza sc-gGBfsJ clkxLj"
+                  data-icon="star"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-kafWEX bgvrha"
+          >
+            <h3
+              class="sc-jKJlTe giRPFq"
+            >
+              Global hackathons
+            </h3>
+          </div>
+          <div
+            class="sc-iELTvK eWfaOU"
+            spacing="start"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-bZQynM evbRlW"
+      >
+        <div
+          class="sc-htoDjs fNWpfq"
+        >
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-iwsKbI jLwxuA"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-iwsKbI jLwxuA"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-iwsKbI jLwxuA"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-gZMcBi sc-VigVT cAEcDw"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-gZMcBi sc-VigVT cAEcDw"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-gZMcBi sc-VigVT cAEcDw"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              class="sc-cSHVUG sc-kAzzGY kEmEMJ"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="Toastify"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
