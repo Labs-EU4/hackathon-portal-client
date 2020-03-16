@@ -7,15 +7,15 @@ import * as Yup from "yup";
 
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import WideBody from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBody";
 import Nav from "../molecules/Nav";
-import BodyContainerO from "../../assets/styles/atoms/BodyContainer";
+import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { Column } from "../../assets/styles/atoms/Column";
 import { CardForm } from "../../assets/styles/atoms/Card";
-import Label from "../../assets/styles/atoms/Label";
+import { Label } from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
 import TextArea from "../molecules/TextArea";
@@ -33,7 +33,7 @@ import {
 
 import { format } from "../../utils/date";
 
-const BodyContainerColumn = styled(BodyContainerO)`
+const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
   justify-content: start;
 `;

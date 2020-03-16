@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
 
-export const BodyContainerO = styled.div`
+export const BodyContainer = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
@@ -30,11 +30,7 @@ export const BodyContainerO = styled.div`
 // --------------------------------- NEW // --------------------------------- //
 
 
-
-// import styled from "styled-components";
-// import { media } from "../variables/media";
-
-export const BodyContainer = styled.div`
+export const BodyContainerN = styled.div`
   width: 100%; height: 100%;
   display: flex;
   align-items: center;

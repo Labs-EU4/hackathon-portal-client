@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media, Solid } from "../variables/index";
 
-export const WideHeaderO = styled.div`
+export const WideHeader = styled.div`
   display: flex;
   justify-content: center;
   border-bottom: 1px solid ${Solid.BORDER_GREY};
@@ -15,11 +15,7 @@ export const WideHeaderO = styled.div`
 
 // --------------------------------- NEW // --------------------------------- //
 
-// import styled from "styled-components";
-
-// import { media } from '../variables/media';
-
-export const WideHeader = styled.div`
+export const WideHeaderN = styled.div`
   display: flex; justify-content: center;
   @media ${media.mobile} {}
 `;

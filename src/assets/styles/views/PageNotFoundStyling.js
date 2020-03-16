@@ -1,8 +1,8 @@
-import BodyContainerO from "../atoms/BodyContainer";
-import { H2O } from "../atoms/Heading";
+import { BodyContainer } from "../atoms/BodyContainer";
+import { H2 } from "../atoms/Heading";
 import styled from "styled-components";
 
-export const BodyColumn = styled(BodyContainerO)`
+export const BodyColumn = styled(BodyContainer)`
       flex-direction: column;
       align-items: start;
       height: 100%;
@@ -13,7 +13,7 @@ export const BodyColumn = styled(BodyContainerO)`
         height:100%;
       }
     `;
-export const BodyRow = styled(BodyContainerO)`
+export const BodyRow = styled(BodyContainer)`
      flex-direction: row;
      justify-content: space-between;
      height: 100%;
@@ -21,6 +21,6 @@ export const BodyRow = styled(BodyContainerO)`
      max-width: 100vw;
    `;
 
-export const Header2 = styled(H2O)`
+export const Header2 = styled(H2)`
     font-size: 70px;
     `;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
 
-export const HeaderContainerO = styled.div`
+export const HeaderContainer = styled.div`
   width: 100%;
   height: 90px;
   padding: 0 45px;
@@ -24,9 +24,7 @@ export const HeaderContainerO = styled.div`
 
 // --------------------------------- NEW // --------------------------------- //
 
-// import styled from "styled-components";
-
-export const HeaderContainer = styled.div`
+export const HeaderContainerN = styled.div`
   width: 100%; min-height: 60px;
   padding-left: 20px;
   display: flex;

@@ -15,9 +15,7 @@ export const RowHead = styled.div`
 // --------------------------------- NEW --------------------------------- //
 
 
-// import styled from "styled-components";
-
-export const RowHead = styled.div`
+export const RowHeadN = styled.div`
   ${props => props.theme.flex.custom('space-between', 'center')};
   width: 100%;
   border-bottom: 1px solid ${props => props.theme.color.grey.border};

@@ -34,3 +34,8 @@ export const InputField = styled.div`
   `};
   }
 `;
+
+
+// --------------------------------- NEW // --------------------------------- //
+
+// is in atoms folder

@@ -1,3 +1,690 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component UserProfileFormPage.js renders properly asserts that the component renders properly 1`] = `undefined`;
+exports[`Component UserProfileFormPage.js renders properly asserts that the component renders properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="sc-bdVaJa gOhKpA"
+        >
+          <div
+            class="sc-htpNat dAVxPZ"
+          >
+            <a
+              href="/dashboard"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-ifAKCX gCNDrT"
+                src="Hackton-logo.png"
+              />
+            </a>
+            <div
+              class="sc-kTUwUJ iSfdYA"
+            >
+              <div
+                class="sc-htoDjs iAtLjJ"
+              >
+                <span>
+                  <svg>
+                    link-burger-icon.svg
+                  </svg>
+                  Menu
+                </span>
+                <ul>
+                  <li>
+                    <a
+                      class="sc-dnqmqq gRMNAQ"
+                      href="/dashboard"
+                    >
+                      Dashboard
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="sc-dnqmqq gRMNAQ"
+                      href="/dashboard/profile"
+                    >
+                      Profile
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="sc-cSHVUG ixXJkh"
+              >
+                8
+                <ul
+                  class="sc-kAzzGY itLCGk"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-TOsTZ hFtKkX"
+        >
+          <div
+            class="sc-gzVnrw ehKlJb"
+          >
+            <a
+              class="sc-dnqmqq gRMNAQ"
+              href="/dashboard"
+            >
+              <svg>
+                link-dashboard-icon.svg
+              </svg>
+              Dashboard
+            </a>
+            <a
+              class="sc-dnqmqq gRMNAQ"
+              href="/dashboard/profile"
+            >
+              <svg>
+                link-profile-icon.svg
+              </svg>
+              Profile
+            </a>
+          </div>
+          <div
+            class="sc-cJSrbW kIFCtD sc-iELTvK dUAlfN"
+          >
+            <div
+              class="sc-hqyNC gijbZH"
+            >
+              <h3
+                class="sc-iRbamj kJVjSY"
+              >
+                Edit Profile
+              </h3>
+            </div>
+            <div
+              class="sc-dNLxif etGQAl"
+            >
+              <div
+                class="sc-tilXH sc-hEsumM sc-jwKygS hkBkTZ"
+              >
+                <form
+                  action="#"
+                >
+                  <label
+                    class="sc-frDJqD sc-cmTdod eelwQZ"
+                    for="image"
+                  >
+                    Profile picture
+                  </label>
+                  <div
+                    class="sc-jnlKLf bWaUHD"
+                  >
+                    <div>
+                      <img
+                        alt=""
+                        src="profile-image.png"
+                      />
+                    </div>
+                    <p>
+                      Jake22
+                    </p>
+                  </div>
+                  <div
+                    class="sc-dNLxif etGQAl"
+                  >
+                    <label
+                      class="sc-frDJqD hvyHUX"
+                      for="fullname"
+                    >
+                      Full Name
+                    </label>
+                    <input
+                      class="sc-hzDkRC eNRQRz"
+                      display="wide"
+                      name="fullname"
+                      placeholder="Full Name"
+                      type="text"
+                      value="Jake Tom"
+                    />
+                  </div>
+                  <div
+                    class="sc-dNLxif etGQAl"
+                  >
+                    <label
+                      class="sc-frDJqD hvyHUX"
+                      for="image"
+                    >
+                      Profile Image
+                    </label>
+                    <input
+                      accept="image/*"
+                      class="sc-hzDkRC eNRQRz"
+                      display="wide"
+                      name="image_url"
+                      placeholder="Profile picture"
+                      type="file"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    class="sc-dNLxif etGQAl"
+                  >
+                    <div
+                      class="sc-uJMKN eujmAt"
+                    >
+                      <label
+                        class="sc-frDJqD hvyHUX"
+                        for="email"
+                      >
+                        Email
+                      </label>
+                      <input
+                        class="sc-hzDkRC eNRQRz"
+                        display="wide"
+                        name="email"
+                        placeholder="Email"
+                        type="text"
+                        value="8omemail@google.com"
+                      />
+                    </div>
+                    <div
+                      class="sc-uJMKN eujmAt"
+                    >
+                      <label
+                        class="sc-frDJqD hvyHUX"
+                        for="username"
+                      >
+                        Username
+                      </label>
+                      <input
+                        class="sc-hzDkRC eNRQRz"
+                        display="wide"
+                        name="username"
+                        placeholder="Username"
+                        type="text"
+                        value="Jake22"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-dNLxif etGQAl"
+                  >
+                    <label
+                      class="sc-frDJqD hvyHUX"
+                      for="bio"
+                    >
+                      Bio
+                    </label>
+                    <div
+                      class="sc-gGBfsJ iilUTs"
+                    >
+                      <textarea
+                        name="bio"
+                        placeholder="bio"
+                      >
+                        I like coding 
+                      </textarea>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-dNLxif sc-btzYZH eklgAz"
+                  >
+                    <a
+                      href="/dashboard"
+                    >
+                      <button
+                        class="sc-EHOje ghtFbK"
+                        color="grey"
+                        to="/dashboard"
+                      >
+                        Cancel
+                      </button>
+                    </a>
+                    <button
+                      class="sc-EHOje llfMNy sc-lhVmIH gczUcz"
+                      color="green"
+                      type="submit"
+                    >
+                      Save Changes
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-chPdSV cXvnWW"
+        >
+          <div
+            class="sc-kGXeez ccyIWe"
+          >
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-dxgOiQ hmxsRJ"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-dxgOiQ hmxsRJ"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-dxgOiQ hmxsRJ"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-eNQAEJ sc-kEYyzF iReQnV"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-eNQAEJ sc-kEYyzF iReQnV"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-eNQAEJ sc-kEYyzF iReQnV"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                class="sc-eHgmQL sc-cvbbAY bIcsnl"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="sc-bdVaJa gOhKpA"
+      >
+        <div
+          class="sc-htpNat dAVxPZ"
+        >
+          <a
+            href="/dashboard"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-ifAKCX gCNDrT"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-kTUwUJ iSfdYA"
+          >
+            <div
+              class="sc-htoDjs iAtLjJ"
+            >
+              <span>
+                <svg>
+                  link-burger-icon.svg
+                </svg>
+                Menu
+              </span>
+              <ul>
+                <li>
+                  <a
+                    class="sc-dnqmqq gRMNAQ"
+                    href="/dashboard"
+                  >
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="sc-dnqmqq gRMNAQ"
+                    href="/dashboard/profile"
+                  >
+                    Profile
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="sc-cSHVUG ixXJkh"
+            >
+              8
+              <ul
+                class="sc-kAzzGY itLCGk"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-TOsTZ hFtKkX"
+      >
+        <div
+          class="sc-gzVnrw ehKlJb"
+        >
+          <a
+            class="sc-dnqmqq gRMNAQ"
+            href="/dashboard"
+          >
+            <svg>
+              link-dashboard-icon.svg
+            </svg>
+            Dashboard
+          </a>
+          <a
+            class="sc-dnqmqq gRMNAQ"
+            href="/dashboard/profile"
+          >
+            <svg>
+              link-profile-icon.svg
+            </svg>
+            Profile
+          </a>
+        </div>
+        <div
+          class="sc-cJSrbW kIFCtD sc-iELTvK dUAlfN"
+        >
+          <div
+            class="sc-hqyNC gijbZH"
+          >
+            <h3
+              class="sc-iRbamj kJVjSY"
+            >
+              Edit Profile
+            </h3>
+          </div>
+          <div
+            class="sc-dNLxif etGQAl"
+          >
+            <div
+              class="sc-tilXH sc-hEsumM sc-jwKygS hkBkTZ"
+            >
+              <form
+                action="#"
+              >
+                <label
+                  class="sc-frDJqD sc-cmTdod eelwQZ"
+                  for="image"
+                >
+                  Profile picture
+                </label>
+                <div
+                  class="sc-jnlKLf bWaUHD"
+                >
+                  <div>
+                    <img
+                      alt=""
+                      src="profile-image.png"
+                    />
+                  </div>
+                  <p>
+                    Jake22
+                  </p>
+                </div>
+                <div
+                  class="sc-dNLxif etGQAl"
+                >
+                  <label
+                    class="sc-frDJqD hvyHUX"
+                    for="fullname"
+                  >
+                    Full Name
+                  </label>
+                  <input
+                    class="sc-hzDkRC eNRQRz"
+                    display="wide"
+                    name="fullname"
+                    placeholder="Full Name"
+                    type="text"
+                    value="Jake Tom"
+                  />
+                </div>
+                <div
+                  class="sc-dNLxif etGQAl"
+                >
+                  <label
+                    class="sc-frDJqD hvyHUX"
+                    for="image"
+                  >
+                    Profile Image
+                  </label>
+                  <input
+                    accept="image/*"
+                    class="sc-hzDkRC eNRQRz"
+                    display="wide"
+                    name="image_url"
+                    placeholder="Profile picture"
+                    type="file"
+                    value=""
+                  />
+                </div>
+                <div
+                  class="sc-dNLxif etGQAl"
+                >
+                  <div
+                    class="sc-uJMKN eujmAt"
+                  >
+                    <label
+                      class="sc-frDJqD hvyHUX"
+                      for="email"
+                    >
+                      Email
+                    </label>
+                    <input
+                      class="sc-hzDkRC eNRQRz"
+                      display="wide"
+                      name="email"
+                      placeholder="Email"
+                      type="text"
+                      value="8omemail@google.com"
+                    />
+                  </div>
+                  <div
+                    class="sc-uJMKN eujmAt"
+                  >
+                    <label
+                      class="sc-frDJqD hvyHUX"
+                      for="username"
+                    >
+                      Username
+                    </label>
+                    <input
+                      class="sc-hzDkRC eNRQRz"
+                      display="wide"
+                      name="username"
+                      placeholder="Username"
+                      type="text"
+                      value="Jake22"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-dNLxif etGQAl"
+                >
+                  <label
+                    class="sc-frDJqD hvyHUX"
+                    for="bio"
+                  >
+                    Bio
+                  </label>
+                  <div
+                    class="sc-gGBfsJ iilUTs"
+                  >
+                    <textarea
+                      name="bio"
+                      placeholder="bio"
+                    >
+                      I like coding 
+                    </textarea>
+                  </div>
+                </div>
+                <div
+                  class="sc-dNLxif sc-btzYZH eklgAz"
+                >
+                  <a
+                    href="/dashboard"
+                  >
+                    <button
+                      class="sc-EHOje ghtFbK"
+                      color="grey"
+                      to="/dashboard"
+                    >
+                      Cancel
+                    </button>
+                  </a>
+                  <button
+                    class="sc-EHOje llfMNy sc-lhVmIH gczUcz"
+                    color="green"
+                    type="submit"
+                  >
+                    Save Changes
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-chPdSV cXvnWW"
+      >
+        <div
+          class="sc-kGXeez ccyIWe"
+        >
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-dxgOiQ hmxsRJ"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-dxgOiQ hmxsRJ"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-dxgOiQ hmxsRJ"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-eNQAEJ sc-kEYyzF iReQnV"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-eNQAEJ sc-kEYyzF iReQnV"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-eNQAEJ sc-kEYyzF iReQnV"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              class="sc-eHgmQL sc-cvbbAY bIcsnl"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

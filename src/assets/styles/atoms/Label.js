@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { type } from "../variables/index";
 
-export const LabelO = styled.label`
+export const Label = styled.label`
   font-family: ${type.ROBOTO};
   font-weight: bold;
   color: #696969;
@@ -11,9 +11,8 @@ export const LabelO = styled.label`
 
 // --------------------------------- NEW --------------------------------- //
 
-// import styled from "styled-components";
 
-export const Label = styled.label`
+export const LabelN = styled.label`
   display: inline-block;
   font-weight: bold;
   color: ${props => props.theme.color.grey.light};

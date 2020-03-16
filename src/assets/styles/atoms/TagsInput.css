@@ -3,82 +3,6 @@
   font-size: 16px;
 }
 
-.input-tagO {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #212121;
-  border: 1px solid #c3cfd9;
-  border-radius: 6px;
-  padding: 10px;
-  width: 180px;
-  margin: 0 20px 10px 0;
-  width: 100%;
-}
-
-.input-tagO input:focus {
-  outline: 0;
-}
-
-.input-tagO input {
-  border: none;
-  width: 100%;
-}
-
-.input-tag__tagsO {
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.input-tag__tagsO li {
-  align-items: center;
-  background: #e9b75f;
-  border-radius: 6px;
-  color: white;
-  font-weight: bold;
-  font-size: 14px;
-  text-transform: uppercase;
-  display: flex;
-  list-style: none;
-  margin: 5px 5px 5px 0;
-  padding: 10px 15px;
-}
-
-.input-tag__tagsO li button {
-  align-items: center;
-  appearance: none;
-  background: #333333;
-  border: none;
-  border-radius: 50%;
-  color: white;
-  cursor: pointer;
-  display: inline-flex;
-  font-size: 12px;
-  height: 15px;
-  justify-content: center;
-  line-height: 0;
-  margin-left: 8px;
-  transform: rotate(45deg);
-  width: 15px;
-}
-
-.input-tag__tagsO li.input-tag__tags__input {
-  background: none;
-  flex-grow: 1;
-  padding: 0;
-}
-
-/* --------------------------------- NEW // --------------------------------- */
-
-
-* {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-}
-
 .input-tag {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -96,7 +20,7 @@
   outline: 0;
 }
 
-.input-tag input {
+.input-tagO input {
   border: none;
   width: 100%;
 }
@@ -142,6 +66,82 @@
 }
 
 .input-tag__tags li.input-tag__tags__input {
+  background: none;
+  flex-grow: 1;
+  padding: 0;
+}
+
+/* --------------------------------- NEW // --------------------------------- */
+
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.input-tagN {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212121;
+  border: 1px solid #c3cfd9;
+  border-radius: 6px;
+  padding: 10px;
+  width: 180px;
+  margin: 0 20px 10px 0;
+  width: 100%;
+}
+
+.input-tagN input:focus {
+  outline: 0;
+}
+
+.input-tagN input {
+  border: none;
+  width: 100%;
+}
+
+.input-tag__tagsN {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.input-tag__tagsN li {
+  align-items: center;
+  background: #e9b75f;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  list-style: none;
+  margin: 5px 5px 5px 0;
+  padding: 10px 15px;
+}
+
+.input-tag__tagsN li button {
+  align-items: center;
+  appearance: none;
+  background: #333333;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  height: 15px;
+  justify-content: center;
+  line-height: 0;
+  margin-left: 8px;
+  transform: rotate(45deg);
+  width: 15px;
+}
+
+.input-tag__tagsN li.input-tag__tags__input {
   background: none;
   flex-grow: 1;
   padding: 0;

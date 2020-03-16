@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media, Solid } from "../variables/index";
 
-export const WideFooterO = styled.div`
+export const WideFooter = styled.div`
   display: flex;
   justify-content: center;
   border-top: 1px solid ${Solid.BORDER_GREY};
@@ -15,11 +15,8 @@ export const WideFooterO = styled.div`
 
 // --------------------------------- NEW // --------------------------------- //
 
-// import styled from "styled-components";
 
-// import { media } from '../variables/media';
-
-export const WideFooter = styled.div`
+export const WideFooterN = styled.div`
   display: flex;
   justify-content: center;
   @media ${media.mobile} {

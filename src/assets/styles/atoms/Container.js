@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { media, Solid } from "../variables/index";
 
-const ContainerO = styled.div`
+export const Container = styled.div`
   max-width: 380px;
   padding: 60px 40px;
   border: 1px solid ${Solid.BORDER_GREY};
@@ -22,11 +22,8 @@ const ContainerO = styled.div`
 
 // --------------------------------- NEW // --------------------------------- //
 
-// import styled from 'styled-components';
 
-// import { media } from '../variables/media';
-
-export const Container = styled.div`
+export const ContainerN = styled.div`
   max-width: 380px;
   border: 1px solid ${props => props.theme.color.grey.border};
   border-radius: 6px;

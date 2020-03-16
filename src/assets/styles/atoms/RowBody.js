@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
 
-export const RowBodyO = styled.div`
+export const RowBody = styled.div`
   width: 100%;
   display: flex;
   ${({ direction }) =>
@@ -27,11 +27,7 @@ export const RowBodyO = styled.div`
 // --------------------------------- NEW --------------------------------- //
 
 
-// import styled from "styled-components";
-
-// import { media } from "../variables/media";
-
-export const RowBody = styled.div`
+export const RowBodyN = styled.div`
   width: 100%;
   display: flex;
   ${({ direction }) =>

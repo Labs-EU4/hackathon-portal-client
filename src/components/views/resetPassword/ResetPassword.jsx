@@ -3,8 +3,8 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import Input from "../../atoms/Input";
-import WideBody from "../../../assets/styles/atoms/WideBody";
-import BodyContainerO from "../../../assets/styles/atoms/BodyContainer";
+import { WideBody } from "../../../assets/styles/atoms/WideBody";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainer";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
 import { Footer } from "../../organisms/index";
 import Button from "../../atoms/Button";
@@ -13,7 +13,7 @@ import { forgotPassword } from "../../../store/user/actions";
 import Header from "../../organisms/Header";
 import { useHistory } from "react-router-dom";
 import HeroImage from "../../atoms/HeroImage";
-import Container from "../../../assets/styles/atoms/Container";
+import { Container } from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/Heading";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
 import image from "../../../assets/images/Password.png";
@@ -37,7 +37,7 @@ const ResetPassword = () => {
     <div>
       <Header />
       <WideBody>
-        <BodyContainerO justify="center">
+        <BodyContainer justify="center">
           <HeroImage src={image} alt="Reset passowrd" />
           <Container>
             <H1>Reset the password</H1>
@@ -67,7 +67,7 @@ const ResetPassword = () => {
               )}
             </Formik>
           </Container>
-        </BodyContainerO>
+        </BodyContainer>
       </WideBody>
       <Footer />
     </div>

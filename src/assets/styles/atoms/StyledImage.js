@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledImageO = styled.div`
+export const StyledImage = styled.div`
 	width: 100%;
 	height: 12rem;
 	display: flex;
@@ -34,9 +34,8 @@ export const StyledImageO = styled.div`
 
 // --------------------------------- NEW // --------------------------------- //
 
-// import styled from 'styled-components';
 
-export const StyledImage = styled.figure`
+export const StyledImageN = styled.figure`
     ${props => props.theme.flex.columnCenter};
 	
 	div {

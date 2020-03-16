@@ -9,28 +9,28 @@ Object {
         class="sc-bdVaJa gOhKpA"
       >
         <div
-          class="sc-bwzfXH fFUqyI"
+          class="sc-htpNat dAVxPZ"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-htpNat Tzmao"
+              class="sc-ifAKCX gCNDrT"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-EHOje dHtKuh"
+            class="sc-gzVnrw dzGwVf"
           >
             <a
-              class="sc-ifAKCX eLeDLV"
+              class="sc-bZQynM boWtfy"
               href="/login"
             >
               Log In
             </a>
             <a
-              class="sc-ifAKCX fMPhmd"
+              class="sc-bZQynM dbWdcj"
               color="blue"
               href="/register"
             >
@@ -46,28 +46,28 @@ Object {
       class="sc-bdVaJa gOhKpA"
     >
       <div
-        class="sc-bwzfXH fFUqyI"
+        class="sc-htpNat dAVxPZ"
       >
         <a
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-htpNat Tzmao"
+            class="sc-ifAKCX gCNDrT"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-EHOje dHtKuh"
+          class="sc-gzVnrw dzGwVf"
         >
           <a
-            class="sc-ifAKCX eLeDLV"
+            class="sc-bZQynM boWtfy"
             href="/login"
           >
             Log In
           </a>
           <a
-            class="sc-ifAKCX fMPhmd"
+            class="sc-bZQynM dbWdcj"
             color="blue"
             href="/register"
           >

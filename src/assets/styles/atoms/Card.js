@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Solid, media } from "../variables/index";
 
-export const CardO = styled.div`
+export const Card = styled.div`
   background-color: ${Solid.WHITE};
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@ export const CardO = styled.div`
   margin: 10px;
 `;
 
-export const CardWideO = styled(Card)`
+export const CardWide = styled(Card)`
   max-width: 650px;
   width: 100%;
   padding: 40px;
@@ -29,7 +29,7 @@ export const CardWideO = styled(Card)`
   }
 `;
 
-export const CardFormO = styled(Card)`
+export const CardForm = styled(Card)`
   width: 650px;
   padding: 40px;
   height: auto;
@@ -53,10 +53,8 @@ export const CardFormO = styled(Card)`
 
 // --------------------------------- NEW // --------------------------------- //
 
-// import styled from "styled-components";
-// import { media } from "../variables/media";
 
-export const Card = styled.div`
+export const CardN = styled.div`
   ${props => props.theme.shadow.card};
   ${props => props.theme.flex.column};
   position: relative;
@@ -65,7 +63,7 @@ export const Card = styled.div`
   margin: 10px;
 `;
 
-export const CardWide = styled(Card)`
+export const CardWideN = styled(CardN)`
   max-width: 650px;
   width: 100%;
   padding: 40px;
@@ -77,7 +75,7 @@ export const CardWide = styled(Card)`
   }
 `;
 
-export const CardForm = styled(Card)`
+export const CardFormN = styled(CardN)`
   width: 650px;
   padding: 40px;
   height: auto;

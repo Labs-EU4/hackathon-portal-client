@@ -1,6 +1,6 @@
 import React from "react";
-import WideBody from "../../assets/styles/atoms/WideBody";
-import BodyContainerO from "../../assets/styles/atoms/BodyContainer";
+import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
 import HeroImage from "../atoms/HeroImage";
 import Form from "./Form";
 
@@ -12,14 +12,14 @@ const FormLayout = ({
   formParagraph
 }) => (
     <WideBody>
-      <BodyContainerO justify="center">
+      <BodyContainer justify="center">
         <HeroImage src={imageType} alt={imageText} />
         <Form
           ctaText={ctaText}
           formHeader={formHeader}
           formParagraph={formParagraph}
         />
-      </BodyContainerO>
+      </BodyContainer>
     </WideBody>
   );
 

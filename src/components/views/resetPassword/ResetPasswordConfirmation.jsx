@@ -1,11 +1,11 @@
 import React from "react";
-import BodyContainerO from "../../../assets/styles/atoms/BodyContainer";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainer";
 import HeroImage from "../../atoms/HeroImage";
-import Container from "../../../assets/styles/atoms/Container";
+import { Container } from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/Heading";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
-import WideBody from "../../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../../assets/styles/atoms/WideBody";
 import { Header, Footer } from "../../organisms/index";
 import Button from "../../atoms/Button";
 import image from "../../../assets/images/Password-sent.png";
@@ -15,7 +15,7 @@ function ResetPasswordConfirmation() {
     <div>
       <Header />
       <WideBody>
-        <BodyContainerO justify="center">
+        <BodyContainer justify="center">
           <HeroImage src={image} alt="Password Sent" />
           <Container>
             <H1>Check your inbox</H1>
@@ -29,7 +29,7 @@ function ResetPasswordConfirmation() {
               </Button>
             </RowBody>
           </Container>
-        </BodyContainerO>
+        </BodyContainer>
       </WideBody>
       <Footer />
     </div>

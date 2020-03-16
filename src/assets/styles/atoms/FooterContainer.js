@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
 
-export const FooterContainerO = styled.div`
+export const FooterContainer = styled.div`
   width: 1152px;
   max-width: 1152px;
   height: 76px;
@@ -36,10 +36,8 @@ export const FooterContainerO = styled.div`
 
 // --------------------------------- NEW // --------------------------------- //
 
-// import styled from "styled-components";
-// import { media } from "../variables/media";
 
-export const FooterContainer = styled.div`
+export const FooterContainerN = styled.div`
   grid-area: footer;
   ${props => props.theme.flex.center};
   position: relative;

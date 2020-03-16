@@ -1,10 +1,10 @@
 import React from 'react';
 
-import WideFooter from '../../assets/styles/atoms/WideFooter';
-import FooterContainer from '../../assets/styles/atoms/FooterContainer';
+import { WideFooter } from '../../assets/styles/atoms/WideFooter';
+import { FooterContainer } from '../../assets/styles/atoms/FooterContainer';
 import Group from '../../components/atoms/Group';
 import SocialIcon from '../../components/atoms/SocialIcon';
-import { FooterNavAnchorO } from '../../assets/styles/atoms/Anchor';
+import { FooterNavAnchor } from '../../assets/styles/atoms/Anchor';
 import { PlainParagraph } from '../../assets/styles/atoms/Paragraph';
 
 import linkedin from '../../assets/images/Icon-linkedin.png';
@@ -21,9 +21,9 @@ const Footer = () => (
       </Group>
 
       <Group>
-        <FooterNavAnchorO href="https://hackton.co/#team">Team</FooterNavAnchorO>
-        <FooterNavAnchorO href="#">Privacy</FooterNavAnchorO>
-        <FooterNavAnchorO href="#">Contacts</FooterNavAnchorO>
+        <FooterNavAnchor href="https://hackton.co/#team">Team</FooterNavAnchor>
+        <FooterNavAnchor href="#">Privacy</FooterNavAnchor>
+        <FooterNavAnchor href="#">Contacts</FooterNavAnchor>
       </Group>
 
       <Group>

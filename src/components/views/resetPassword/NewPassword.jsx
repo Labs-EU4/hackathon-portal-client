@@ -3,11 +3,11 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import Input from "../../atoms/Input";
-import WideBody from "../../../assets/styles/atoms/WideBody";
-import BodyContainerO from "../../../assets/styles/atoms/BodyContainer";
+import { WideBody } from "../../../assets/styles/atoms/WideBody";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainer";
 import HeroImage from "../../atoms/HeroImage";
 import image from "../../../assets/images/Signup.png";
-import Container from "../../../assets/styles/atoms/Container";
+import { Container } from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/Heading";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
@@ -41,7 +41,7 @@ const ResetPassword = () => {
     <div>
       <Header />
       <WideBody>
-        <BodyContainerO justify="center">
+        <BodyContainer justify="center">
           <HeroImage src={image} alt="Reset passowrd" />
           <Container>
             <H1>Change the password</H1>
@@ -89,7 +89,7 @@ const ResetPassword = () => {
               )}
             </Formik>
           </Container>
-        </BodyContainerO>
+        </BodyContainer>
       </WideBody>
       <Footer />
     </div>

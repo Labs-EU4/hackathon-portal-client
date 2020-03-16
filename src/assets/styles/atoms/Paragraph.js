@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { type, Solid } from "../variables/index";
 
-export const ParagraphO = styled.p`
+export const Paragraph = styled.p`
   font-family: ${type.ROBOTO};
   color: ${Solid.BLACK};
   font-size: 15px;
@@ -20,9 +20,8 @@ export const PlainParagraph = styled(Paragraph)`
 
 // --------------------------------- NEW --------------------------------- //
 
-// import styled from 'styled-components';
 
-export const Paragraph = styled.p`
+export const ParagraphN = styled.p`
   color: ${props => props.theme.color.black.regular};
   font-size: 1.5rem;
   font-weight: 400;

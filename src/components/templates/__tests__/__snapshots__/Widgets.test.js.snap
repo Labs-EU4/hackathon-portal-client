@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-EHOje hAWvWD"
+        class="sc-gzVnrw fmWjsP"
       >
         <div
           class="sc-htpNat EcbPZ"
@@ -34,14 +34,14 @@ Object {
         </div>
       </div>
       <div
-        class="sc-EHOje hAWvWD"
+        class="sc-gzVnrw fmWjsP"
       >
         <div
           class="sc-htpNat EcbPZ"
           direction="column-reverse"
         >
           <label
-            class="sc-gqjmRU hXJgUt"
+            class="sc-ckVGcZ fUGPcM"
           >
             organizer
             <input
@@ -51,7 +51,7 @@ Object {
             <span />
           </label>
           <label
-            class="sc-gqjmRU hXJgUt"
+            class="sc-ckVGcZ fUGPcM"
           >
             judge
             <input
@@ -82,7 +82,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-EHOje hAWvWD"
+      class="sc-gzVnrw fmWjsP"
     >
       <div
         class="sc-htpNat EcbPZ"
@@ -110,14 +110,14 @@ Object {
       </div>
     </div>
     <div
-      class="sc-EHOje hAWvWD"
+      class="sc-gzVnrw fmWjsP"
     >
       <div
         class="sc-htpNat EcbPZ"
         direction="column-reverse"
       >
         <label
-          class="sc-gqjmRU hXJgUt"
+          class="sc-ckVGcZ fUGPcM"
         >
           organizer
           <input
@@ -127,7 +127,7 @@ Object {
           <span />
         </label>
         <label
-          class="sc-gqjmRU hXJgUt"
+          class="sc-ckVGcZ fUGPcM"
         >
           judge
           <input
