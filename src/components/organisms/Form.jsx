@@ -1,25 +1,29 @@
 import React, { useEffect } from "react";
-import { useLocation, Redirect } from "react-router-dom";
+import styled from "styled-components";
+import { Link, useLocation, Redirect } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { toast } from "react-toastify";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
-import { StyledAnchor } from "../../assets/styles/organisms/FormStyling";
-import { Container } from "../../assets/styles/atoms/Container";
-import { H1 } from "../../assets/styles/atoms/Heading";
-import { Paragraph } from "../../assets/styles/atoms/Paragraph";
-import Input from "../atoms/Input";
-import Button from "../atoms/Button";
-import { ErrorSpan } from "../../assets/styles/atoms/Span";
-import { useDispatch, useSelector } from "react-redux";
-import { register, login } from "../../store/user/actions";
-import SocialMedia from "../molecules/SocialMedia";
-import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
 
+import { Container } from "../../assets/styles/atoms/ContainerStyling";
+import { H1 } from "../../assets/styles/atoms/HeadingStyling";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
+import Label from "../../assets/styles/atoms/LabelStyling";
+import Button from "../atoms/Button";
+import Input from "../atoms/Input";
+import SocialMedia from "../molecules/SocialMedia";
+import { register, login } from "../../store/user/actions";
+import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
 
 const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   const dispatch = useDispatch();
   const { search, state } = useLocation();
-  const { team, role, google, github, verified, ref } = queryString.parse(search);
+  const { team, role, google, github, verified, ref } = queryString.parse(
+    search
+  );
   const { token } = useSelector(state => state.currentUser);
 
   useEffect(() => {
@@ -37,6 +41,9 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       dispatch(login(email, password));
     } else {
       dispatch(register(email, password, role, team));
+      toast.success(" 🚀 A moment while we record your details!", {
+        position: toast.POSITION.BOTTOM_RIGHT
+      });
     }
   };
 
@@ -51,13 +58,12 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   });
 
   if (token) {
-    return <Redirect to={state ?.from || ref || '/dashboard'} />;
+    return <Redirect to={state?.from || ref || "/dashboard"} />;
   }
 
   return (
     <Container>
       <H1>{formHeader}</H1>
-
       <Paragraph>{formParagraph}</Paragraph>
       <Formik
         initialValues={{ email: "", password: "" }}
@@ -66,6 +72,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       >
         {({ errors, touched }) => (
           <Form>
+            <Label>Email</Label>
             <Input
               display="wide"
               type="text"
@@ -76,6 +83,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <ErrorSpan>
               <ErrorMessage name="email" />
             </ErrorSpan>
+            <Label>Password</Label>
             <Input
               display="wide"
               type="password"
@@ -91,9 +99,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               {ctaText}
             </Button>
             {ctaText.toLowerCase() === "log in" && (
-              <StyledAnchor to="/forgotpassword">
-                Forgot password?
-                </StyledAnchor>
+              <StyledAnchor to="/forgotpassword">Forgot password?</StyledAnchor>
             )}
           </Form>
         )}
@@ -105,3 +111,17 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
 };
 
 export default CustomForm;
+
+const StyledAnchor = styled(Link)`
+  display: block;
+  margin: 20px 0 0 0;
+  font-size: ${props => props.theme.fontSize.small};
+  font-weight: 500;
+  color: ${props => props.theme.color.blue.regular};
+  text-decoration: none;
+  text-transform: none;
+  text-align: center;
+  &:hover {
+    color: ${props => props.theme.color.blue.light};
+  }
+`;

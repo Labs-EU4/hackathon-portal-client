@@ -6,7 +6,7 @@ export const BodyContainer = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: ${({ justify }) => justify ? justify : "start"};
+  justify-content: ${({ justify }) => (justify ? justify : "start")};
   padding: 60px 45px;
 
   @media ${media.tablet} {
@@ -25,16 +25,14 @@ export const BodyContainer = styled.div`
   }
 `;
 
-
-
 // --------------------------------- NEW // --------------------------------- //
 
-
 export const BodyContainerN = styled.div`
-  width: 100%; height: 100%;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
-  justify-content: ${({ justify }) => justify ? justify : "start"};
+  justify-content: ${({ justify }) => (justify ? justify : "start")};
   padding: 60px 45px;
   @media ${media.tablet} {
     flex-direction: column;
