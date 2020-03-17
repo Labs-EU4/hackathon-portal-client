@@ -4,17 +4,23 @@ import { useHistory, useParams } from "react-router-dom";
 import { BodyContainerColumn } from "../../assets/styles/templates/AddParticipantTeams";
 import { Footer } from "../organisms";
 import UserHeader from "../organisms/UserHeader";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";
 import { CardWide } from "../../assets/styles/atoms/Card";
 // import Nav from "../organisms/Nav";
-import { SearchWidget, ParticipantRoleWidget, ParticipantInviteWidget } from "./widgets";
-import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
+import {
+  SearchWidget,
+  ParticipantRoleWidget,
+  ParticipantInviteWidget
+} from "./widgets";
+import {
+  addParticipantTeamMember,
+  sendParticipantInvite
+} from "../../store/participantTeams/actions";
 
 const AddParticipantTeam = () => {
-
   const [selectedUser, setSelectedUser] = useState(null);
   const dispatch = useDispatch();
   const history = useHistory();
@@ -30,14 +36,14 @@ const AddParticipantTeam = () => {
     dispatch(addParticipantTeamMember(data, history));
   };
 
-  const sendInvite = (props) => {
+  const sendInvite = props => {
     const data = {
       teamId,
       email: noneUser,
       eventId
     };
-    props.dispatch(sendParticipantInvite(data, history))
-  }
+    props.dispatch(sendParticipantInvite(data, history));
+  };
 
   return (
     <div>
@@ -50,21 +56,23 @@ const AddParticipantTeam = () => {
           </RowHead>
           <Column>
             <CardWide>
-              {
-                !selectedUser ? (
-                  <SearchWidget
-                    setSelectedUser={setSelectedUser}
-                    setNoneUser={setNoneUser}
-                  />
-                ) : (
-                    <ParticipantRoleWidget
-                      selectedUser={selectedUser}
-                      handleSubmit={handleSubmit}
-                    />
-                  )
-
-              }
-              {noneUser ? <ParticipantInviteWidget noneUser={noneUser} sendInvite={sendInvite} /> : null}
+              {!selectedUser ? (
+                <SearchWidget
+                  setSelectedUser={setSelectedUser}
+                  setNoneUser={setNoneUser}
+                />
+              ) : (
+                <ParticipantRoleWidget
+                  selectedUser={selectedUser}
+                  handleSubmit={handleSubmit}
+                />
+              )}
+              {noneUser ? (
+                <ParticipantInviteWidget
+                  noneUser={noneUser}
+                  sendInvite={sendInvite}
+                />
+              ) : null}
             </CardWide>
           </Column>
         </BodyContainerColumn>
@@ -75,4 +83,3 @@ const AddParticipantTeam = () => {
 };
 
 export default AddParticipantTeam;
-

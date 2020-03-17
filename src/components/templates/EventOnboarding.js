@@ -4,16 +4,14 @@ import { Link } from "react-router-dom";
 import UserHeader from "../organisms/UserHeader";
 // import Nav from "../organisms/Nav";
 import { Footer } from "../organisms/index";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
-import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
+import { BodyContainer } from "../../assets/styles/atoms/BodyContainerStyling";
 import EventCard from "../organisms/EventCard";
 import { H3, H4 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import Button from "../atoms/Button";
 import { useSelector } from "react-redux";
-
-
 
 export const BodyContainerColumn = styled(props => (
   <BodyContainer {...props} />
@@ -47,8 +45,8 @@ const EventOnboarding = () => {
                 <EventCard key={event.event_title} event={event} />
               ))
             ) : (
-                <H4>You have not created any events yet. Why wait?</H4>
-              )}
+              <H4>You have not created any events yet. Why wait?</H4>
+            )}
           </RowBody>
 
           <RowHead>

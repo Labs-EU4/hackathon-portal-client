@@ -5,7 +5,7 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 // import Nav from "../organisms/Nav";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
@@ -61,13 +61,13 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
       .required("Team/participants name is required."),
     git_url: requireGithubUrl
       ? Yup.string()
-        .min(8, "GitHub URL must be at least 8 characters long.")
-        .required("GitHub URL is required.")
+          .min(8, "GitHub URL must be at least 8 characters long.")
+          .required("GitHub URL is required.")
       : Yup.string(),
     video_url: requireVideoUrl
       ? Yup.string()
-        .min(8, "Video URL must be at least 8 characters long.")
-        .required("Video URL is required.")
+          .min(8, "Video URL must be at least 8 characters long.")
+          .required("Video URL is required.")
       : Yup.string(),
     project_writeups: Yup.string()
       .min(8, "Project writeup must be at least 8 characters long.")
@@ -166,7 +166,9 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                     )}
 
                     <RowBody justify="start">
-                      <LabelN htmlFor="project_writeups">Project Writeup</LabelN>
+                      <LabelN htmlFor="project_writeups">
+                        Project Writeup
+                      </LabelN>
                       <TextArea
                         wide
                         as="textarea"
