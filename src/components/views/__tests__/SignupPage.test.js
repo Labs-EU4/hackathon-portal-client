@@ -9,10 +9,10 @@ import SignupPage from "../SignupPage";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -42,11 +42,11 @@ describe("Component UserProfile.js text nodes renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });
-  it("asserts that the text node Log In renders properly", () => {
-    expect(jestFeatures.getByText("Log In")).toBeInTheDocument();
+  it("the component image with alt tag", () => {
+    expect(jestFeatures.queryByAltText(/Sign Up now/i)).toBeInTheDocument();
   });
   it("asserts that the text node Sign Up renders properly", () => {
-    expect(jestFeatures.getByText("Sign Up")).toBeInTheDocument();
+    expect(jestFeatures.getByTestId("label")).toBeInTheDocument();
   });
 
   it("asserts that the img for hackton logo renders properly", () => {
