@@ -4,7 +4,7 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 // import Nav from "../organisms/Nav";
 import { H3, H4 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
@@ -16,8 +16,21 @@ import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
 import { useJudges, useGrades, useSubmissions } from "../../hooks";
-import { BodyContainerColumn, Card, Strong } from "../../assets/styles/templates/HackathonProjectsStyling";
-import { Team, Description, SubmissionEntry, Rubrics, RubricRow, Feedback, JudgeView, ButtonGroup } from "../../assets/styles/templates/HackthonSingleProjectStyling";
+import {
+  BodyContainerColumn,
+  Card,
+  Strong
+} from "../../assets/styles/templates/HackathonProjectsStyling";
+import {
+  Team,
+  Description,
+  SubmissionEntry,
+  Rubrics,
+  RubricRow,
+  Feedback,
+  JudgeView,
+  ButtonGroup
+} from "../../assets/styles/templates/HackthonSingleProjectStyling";
 
 const HackathonSingleProject = () => {
   const history = useHistory();
@@ -119,37 +132,37 @@ const HackathonSingleProject = () => {
               <SubmissionEntry>
                 <Team>
                   <H3>
-                    {submission ?.participant_or_team_name ||
-                      submission ?.project_title}
+                    {submission?.participant_or_team_name ||
+                      submission?.project_title}
                   </H3>
                 </Team>
                 <LabelN htmlFor="project_writeup">Project writeup</LabelN>
                 <Description id="project_writeup">
-                  <Paragraph>{submission ?.project_writeups}</Paragraph>
-                  {submission ?.git_url && (
+                  <Paragraph>{submission?.project_writeups}</Paragraph>
+                  {submission?.git_url && (
                     <>
                       <LabelN htmlFor="github_url">GitHub URL</LabelN>
                       <Paragraph id="github_url">
                         <a
-                          href={submission ?.git_url}
+                          href={submission?.git_url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {submission ?.git_url}
+                          {submission?.git_url}
                         </a>
                       </Paragraph>
                     </>
                   )}
-                  {submission ?.video_url && (
+                  {submission?.video_url && (
                     <>
                       <LabelN htmlFor="video_url">Video URL</LabelN>
                       <Paragraph id="video_url">
                         <a
-                          href={submission ?.video_url}
+                          href={submission?.video_url}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {submission ?.video_url}
+                          {submission?.video_url}
                         </a>
                       </Paragraph>
                     </>
@@ -202,43 +215,43 @@ const HackathonSingleProject = () => {
                     />
                   </JudgeView>
                 ) : (
-                    <JudgeView>
-                      <LabelN htmlFor="rubrics"></LabelN>
-                      <Rubrics id="rubrics">
-                        {Object.keys(averages).map(rubric => {
-                          return rubric !== "comments" ? (
-                            <RubricRow key={rubric}>
-                              {toTittleCase(rubric)}
-                              <Rating
-                                emptySymbol={
-                                  <img
-                                    alt={toTittleCase(rubric)}
-                                    src={emptyStar}
-                                  />
-                                }
-                                fullSymbol={
-                                  <img
-                                    alt={toTittleCase(rubric)}
-                                    src={fullStar}
-                                  />
-                                }
-                                initialRating={averages[rubric]}
-                                readonly
-                              />
-                            </RubricRow>
-                          ) : null;
-                        })}
-                      </Rubrics>
-                      <LabelN htmlFor="feedback">Feedback</LabelN>
-                      {averages.comments ?.length > 0 ? (
-                        averages.comments.map(comment => (
-                          <Paragraph key={comment}>{comment}</Paragraph>
-                        ))
-                      ) : (
-                          <Paragraph>No comments on this project</Paragraph>
-                        )}
-                    </JudgeView>
-                  )}
+                  <JudgeView>
+                    <LabelN htmlFor="rubrics"></LabelN>
+                    <Rubrics id="rubrics">
+                      {Object.keys(averages).map(rubric => {
+                        return rubric !== "comments" ? (
+                          <RubricRow key={rubric}>
+                            {toTittleCase(rubric)}
+                            <Rating
+                              emptySymbol={
+                                <img
+                                  alt={toTittleCase(rubric)}
+                                  src={emptyStar}
+                                />
+                              }
+                              fullSymbol={
+                                <img
+                                  alt={toTittleCase(rubric)}
+                                  src={fullStar}
+                                />
+                              }
+                              initialRating={averages[rubric]}
+                              readonly
+                            />
+                          </RubricRow>
+                        ) : null;
+                      })}
+                    </Rubrics>
+                    <LabelN htmlFor="feedback">Feedback</LabelN>
+                    {averages.comments?.length > 0 ? (
+                      averages.comments.map(comment => (
+                        <Paragraph key={comment}>{comment}</Paragraph>
+                      ))
+                    ) : (
+                      <Paragraph>No comments on this project</Paragraph>
+                    )}
+                  </JudgeView>
+                )}
               </SubmissionEntry>
               <ButtonGroup>
                 <Button

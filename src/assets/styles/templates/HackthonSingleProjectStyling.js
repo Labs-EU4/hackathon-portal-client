@@ -1,9 +1,8 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
 import { ParagraphN } from "../atoms/Paragraph";
-import { WideBody } from "../atoms/WideBody";
+import { WideBody } from "../atoms/WideBodyStyling";
 import Button from "../../../components/atoms/Button";
-
 
 export const Team = styled.div`
   width: 100%;
@@ -118,20 +117,20 @@ export const ButtonGroup = styled.div`
   }
 `;
 
-
 // --------------------------------- NEW // --------------------------------- //
-
 
 export const StyledWideBodyN = styled(WideBody)`
   ${props => props.theme.flex.center};
   position: relative;
-  width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 300;
 `;
 
 export const ProjectCardN = styled.div`
-  min-width: 80%; max-width: 700px;
+  min-width: 80%;
+  max-width: 700px;
   max-height: calc(100vh - 80px);
   background-color: ${props => props.theme.color.white.regular};
   border-radius: 5px;
@@ -157,7 +156,8 @@ export const StrongN = styled.strong`
 export const DescriptionN = styled.div`
   border-bottom: 1px solid #c8c8c8;
   margin-bottom: 20px;
-  padding: 20px; padding-top: 0;
+  padding: 20px;
+  padding-top: 0;
 `;
 
 export const SubmissionEntryN = styled.div`
@@ -198,7 +198,8 @@ export const RubricsN = styled.div`
 `;
 
 export const RubricRowN = styled.div`
-  display: flex; justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   font-weight: bold;
   & > span {
@@ -207,7 +208,8 @@ export const RubricRowN = styled.div`
 `;
 
 export const FeedbackN = styled.textarea`
-  font-size: 16px; font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
   color: #212121;
   border: 1px solid #e8e8e8;
   border-radius: 6px;

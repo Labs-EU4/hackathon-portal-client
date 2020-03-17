@@ -7,9 +7,9 @@ import * as Yup from "yup";
 
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 // import Nav from "../organisms/Nav";
-import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
+import { BodyContainer } from "../../assets/styles/atoms/BodyContainerStyling";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
@@ -47,18 +47,18 @@ const HackathonForm = ({ initialState }) => {
   }, [dispatch]);
 
   const defaultState = {
-    id: initialState ?.id,
-    event_title: initialState ?.event_title || "",
-    start_date: initialState ?.start_date || "",
-    end_date: initialState ?.end_date || "",
-    event_description: initialState ?.event_description || "",
-    location: initialState ?.location || "",
-    tag_name: initialState ?.tag_name || [],
-    rubrics: initialState ?.rubrics || [],
-    requirements: initialState ?.requirements || [],
-    guidelines: initialState ?.guidelines || "",
-    participation_type: initialState ?.participation_type || "individual",
-    category_id: initialState ?.category_id || 1
+    id: initialState?.id,
+    event_title: initialState?.event_title || "",
+    start_date: initialState?.start_date || "",
+    end_date: initialState?.end_date || "",
+    event_description: initialState?.event_description || "",
+    location: initialState?.location || "",
+    tag_name: initialState?.tag_name || [],
+    rubrics: initialState?.rubrics || [],
+    requirements: initialState?.requirements || [],
+    guidelines: initialState?.guidelines || "",
+    participation_type: initialState?.participation_type || "individual",
+    category_id: initialState?.category_id || 1
   };
 
   const handleSubmit = values => {

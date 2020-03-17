@@ -16,7 +16,7 @@ import { H3 } from "../../assets/styles/atoms/Heading";
 import Button from "../atoms/Button";
 import TeamView from "./TeamView";
 import { useTeams } from "../../hooks";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 // import Nav from "../organisms/Nav";
 
 const CreateTeam = () => {
@@ -78,8 +78,8 @@ const CreateTeam = () => {
                 )}
               </Formik>
             ) : (
-                <TeamView {...{ team }} />
-              )}
+              <TeamView {...{ team }} />
+            )}
           </BodyColumn>
         </BodyRow>
       </WideBody>

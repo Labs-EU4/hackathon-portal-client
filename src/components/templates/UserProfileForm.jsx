@@ -5,7 +5,7 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 // import Nav from "../organisms/Nav";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { LabelN } from "../../assets/styles/atoms/Label";

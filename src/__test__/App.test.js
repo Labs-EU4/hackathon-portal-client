@@ -40,6 +40,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("App.js component renders properly,with all the Private Routes", () => {
     expect(component).toMatchSnapshot();
   });
+  
   // it("The text node for the first character of the current user mail, renders properly on the menu", () => {
   //   expect(component.queryByText(/8/i)).toBeInTheDocument();
   // });

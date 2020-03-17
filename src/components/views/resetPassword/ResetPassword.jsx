@@ -3,8 +3,8 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import Input from "../../atoms/Input";
-import { WideBody } from "../../../assets/styles/atoms/WideBody";
-import { BodyContainer } from "../../../assets/styles/atoms/BodyContainer";
+import { WideBody } from "../../../assets/styles/atoms/WideBodyStyling";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
 import { Footer } from "../../organisms/index";
 import Button from "../../atoms/Button";
@@ -42,7 +42,8 @@ const ResetPassword = () => {
           <Container>
             <H1>Reset the password</H1>
             <Paragraph>
-              Enter your email address so we can reset your password and send a link to your inbox.
+              Enter your email address so we can reset your password and send a
+              link to your inbox.
             </Paragraph>
             <Formik
               initialValues={{ email: "" }}
@@ -51,7 +52,13 @@ const ResetPassword = () => {
             >
               {({ errors, touched }) => (
                 <Form>
-                  <Input display="wide" id="email" type="email" name="email" placeholder="Email address" />
+                  <Input
+                    display="wide"
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Email address"
+                  />
                   {errors.name && touched.name ? (
                     <div>{errors.name}</div>
                   ) : null}

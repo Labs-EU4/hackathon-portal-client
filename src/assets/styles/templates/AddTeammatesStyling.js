@@ -1,10 +1,9 @@
 import { type, Solid, media } from "../variables/index";
-import { BodyContainer, BodyContainerN } from "../atoms/BodyContainer";
+import { BodyContainer, BodyContainerN } from "../atoms/BodyContainerStyling";
 import { CardWideN } from "../atoms/Card";
 // import Icon from '../../../components/atoms/Icon';
 import styled from "styled-components";
-import React from 'react'
-
+import React from "react";
 
 export const BodyContainerColumn = styled(props => (
   <BodyContainer {...props} />
@@ -113,9 +112,7 @@ export const ContainerRadio = styled.label`
   }
 `;
 
-
 // --------------------------------- NEW // --------------------------------- //
-
 
 export const BodyContainerColumnN = styled(BodyContainerN)`
   flex-direction: column;
@@ -191,7 +188,6 @@ export const ContainerRadioN = styled.label`
   }
 `;
 
-
 //SEARCH WIDGET
 export const ContainerN = styled.div`
   position: relative;
@@ -202,8 +198,7 @@ export const ContainerN = styled.div`
     border: 2px solid ${props => props.theme.color.grey.regular};
     border-radius: 6px;
     padding: 10px;
-    ${({ display }) =>
-    display === "wide" ? `width: 100%;` : `width: 180px;`}
+    ${({ display }) => (display === "wide" ? `width: 100%;` : `width: 180px;`)}
     &:focus {
       border: 2px solid ${props => props.theme.color.primary.regular};
       transition: all 0.4s ease;
@@ -221,8 +216,10 @@ export const ContainerN = styled.div`
 
 export const UsersListN = styled.div`
   ${props => props.theme.shadow.box};
-  width: 100%; height: 48.25vh;
-  border: 2px solid ${props => props.theme.color.primary.regular}; border-bottom: none;
+  width: 100%;
+  height: 48.25vh;
+  border: 2px solid ${props => props.theme.color.primary.regular};
+  border-bottom: none;
   margin: 10px 0 0;
   padding-bottom: 15px;
   overflow-y: scroll;
@@ -234,19 +231,23 @@ export const UsersListN = styled.div`
 
 export const ChosenJudgesContainerN = styled.div`
   position: relative;
-  display: flex; align-items: center;
-  width: 100%; height: 45px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 45px;
   background-color: ${props => props.theme.color.white.regular};
   border: 2px solid ${props => props.theme.color.primary.regular};
   border-radius: 20px;
-  margin-top: -15px; margin-bottom: 20px;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+  margin-top: -15px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   overflow-x: scroll;
   z-index: 500;
 `;
 
 export const ChosenJudgeImgN = styled.img`
-  width: 33px; height: 33px;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   margin-left: 5px;
   object-fit: cover;
@@ -262,23 +263,30 @@ export const ChosenJudgeImgN = styled.img`
 // `;
 
 export const StyledWideBodyN = styled.div`
-  position: absolute; top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 100;
 `;
 
 export const StyledCardWideN = styled(CardWideN)`
   ${props => props.theme.shadow.box};
-  position: absolute; top: 50%; left: 50%;
-  width: 500px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
   transform: translate(-50%, -50%);
   z-index: 200;
 `;
 
 //JUDGE WIDGET
 export const StyledJudgeWidgetN = styled.div`
-  position: sticky; top: 0; left: 0;
+  position: sticky;
+  top: 0;
+  left: 0;
   display: flex;
   width: calc(100% - 10px);
   background-color: ${props => props.theme.color.white.regular};
@@ -288,17 +296,18 @@ export const StyledJudgeWidgetN = styled.div`
   margin-bottom: 2px;
   cursor: pointer;
   &:hover {
-    background-color:  ${props => props.theme.color.primary.regular};
+    background-color: ${props => props.theme.color.primary.regular};
     color: ${props => props.theme.color.white.regular};
   }
   &.selected {
     background-color: ${props => props.theme.color.primary.regular};
-    opacity: .5;
+    opacity: 0.5;
   }
 `;
 
 export const UserAvatarN = styled.figure`
-  width: 50px; height: 50px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 10px;
@@ -308,7 +317,7 @@ export const UserAvatarN = styled.figure`
 `;
 
 export const UserInfoN = styled.div`
-  ${props => props.theme.flex.custom('center', 'flex-start', 'column')};
+  ${props => props.theme.flex.custom("center", "flex-start", "column")};
   margin-left: 5px;
   p {
     &:last-child {
