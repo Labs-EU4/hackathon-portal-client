@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { BodyContainer } from "../atoms/BodyContainer";
-import { Label } from "../atoms/Label";
+import { LabelN } from "../atoms/Label";
 import { CardWide } from "../atoms/Card";
 import { RowBody, RowBodyN } from "../atoms/RowBody";
 import Button from "../../../components/atoms/Button";
