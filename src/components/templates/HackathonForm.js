@@ -15,7 +15,7 @@ import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { Column } from "../../assets/styles/atoms/Column";
 import { CardForm } from "../../assets/styles/atoms/Card";
-import { Label } from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
 import TextArea from "../molecules/TextArea";
@@ -147,7 +147,7 @@ const HackathonForm = ({ initialState }) => {
                 {({ errors, touched, values: { start_date, end_date } }) => (
                   <Form>
                     <RowBody justify="start">
-                      <Label htmlFor="event_title">Hackathon Title</Label>
+                      <LabelN htmlFor="event_title">Hackathon Title</LabelN>
                       <Input
                         id="event_title"
                         display="wide"
@@ -163,7 +163,7 @@ const HackathonForm = ({ initialState }) => {
                     </RowBody>
                     <RowBody justify="start">
                       <Column>
-                        <Label htmlFor="start_date">Event Starts</Label>
+                        <LabelN htmlFor="start_date">Event Starts</LabelN>
                         <Input
                           id="start_date"
                           type="date"
@@ -180,7 +180,7 @@ const HackathonForm = ({ initialState }) => {
                         </ErrorSpan>
                       </Column>
                       <Column>
-                        <Label htmlFor="end_date">Event Ends</Label>
+                        <LabelN htmlFor="end_date">Event Ends</LabelN>
                         <Input
                           id="end_date"
                           type="date"
@@ -198,7 +198,7 @@ const HackathonForm = ({ initialState }) => {
                       </Column>
                     </RowBody>
                     <RowBody justify="start">
-                      <Label htmlFor="event_description">Description</Label>
+                      <LabelN htmlFor="event_description">Description</LabelN>
                       <TextArea
                         wide
                         id="event_description"
@@ -215,14 +215,14 @@ const HackathonForm = ({ initialState }) => {
                     </RowBody>
                     <RowBody justify="start">
                       {" "}
-                      <Label htmlFor="input_tags">Tags</Label>
+                      <LabelN htmlFor="input_tags">Tags</LabelN>
                       <InputTag id="input_tags" tags={defaultState.tag_name} />
                     </RowBody>
                     <RowBody justify="start">
                       <Column>
-                        <Label htmlFor="participation_type">
+                        <LabelN htmlFor="participation_type">
                           Participation Type
-                        </Label>
+                        </LabelN>
                         <Select
                           id="participation_type"
                           name="participation_type"
@@ -242,7 +242,7 @@ const HackathonForm = ({ initialState }) => {
                         </ErrorSpan>
                       </Column>
                       <Column>
-                        <Label htmlFor="event_category">Event Category</Label>
+                        <LabelN htmlFor="event_category">Event Category</LabelN>
                         <Select id="event_category" name="event_category">
                           <option value="">Choose</option>
                           {categories.map(({ id, category_name }, index) => (
@@ -260,7 +260,7 @@ const HackathonForm = ({ initialState }) => {
                       </Column>
                     </RowBody>
                     <RowBody justify="start">
-                      <Label htmlFor="location">Location</Label>
+                      <LabelN htmlFor="location">Location</LabelN>
                       <Input
                         display="wide"
                         id="location"
@@ -276,7 +276,7 @@ const HackathonForm = ({ initialState }) => {
                     </RowBody>
 
                     <RowBody id="grading_rubrics" justify="start">
-                      <Label htmlFor="grading_rubrics">Grading Rubrics</Label>
+                      <LabelN htmlFor="grading_rubrics">Grading Rubrics</LabelN>
                       <Paragraph>
                         Judges will be expected to grade project submissions on
                         which one of the following* (tick on all that apply)
@@ -317,7 +317,7 @@ const HackathonForm = ({ initialState }) => {
                       </ErrorSpan>
                     </RowBody>
                     <RowBody justify="start">
-                      <Label htmlFor="guidelines">Guidelines</Label>
+                      <LabelN htmlFor="guidelines">Guidelines</LabelN>
                       <TextArea
                         id="guidelines"
                         wide
@@ -332,9 +332,9 @@ const HackathonForm = ({ initialState }) => {
                         <ErrorMessage name="guidelines" />
                       </ErrorSpan>
                     </RowBody>
-                    <Label htmlFor="submission_requirements">
+                    <LabelN htmlFor="submission_requirements">
                       Project Submission Requirements
-                    </Label>
+                    </LabelN>
                     <RowBody id="submission_requirements" justify="start">
                       <Paragraph>
                         Participants will be expected to submit which one of the

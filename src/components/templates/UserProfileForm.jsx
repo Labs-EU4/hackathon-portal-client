@@ -8,7 +8,7 @@ import { Footer } from "../organisms/index";
 import { WideBody } from "../../assets/styles/atoms/WideBody";
 // import Nav from "../organisms/Nav";
 import { H3 } from "../../assets/styles/atoms/Heading";
-import { Label } from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { Column } from "../../assets/styles/atoms/Column";
@@ -29,7 +29,7 @@ import {
 const UserProfileForm = ({ initialState }) => {
   const dispatch = useDispatch();
   const history = useHistory();
-  const [selectedImage, setSelectedImage] = useState(initialState ?.image_url);
+  const [selectedImage, setSelectedImage] = useState(initialState?.image_url);
 
   const handleSubmit = (values, a) => {
     const formData = new FormData();
@@ -42,10 +42,10 @@ const UserProfileForm = ({ initialState }) => {
   };
 
   const defaultState = {
-    bio: initialState ?.bio || "",
-    fullname: initialState ?.fullname || "",
-    email: initialState ?.email || "",
-    username: initialState ?.username || ""
+    bio: initialState?.bio || "",
+    fullname: initialState?.fullname || "",
+    email: initialState?.email || "",
+    username: initialState?.username || ""
   };
 
   const schema = Yup.object().shape({
@@ -82,13 +82,13 @@ const UserProfileForm = ({ initialState }) => {
                           initialState.image_url
                             ? initialState.image_url[0]
                             : null
-                        ) ?.avatar || profileImg
+                        )?.avatar || profileImg
                       }
-                      name={initialState ?.username}
+                      name={initialState?.username}
                     />
 
                     <RowBody>
-                      <Label htmlFor="fullname">Full Name</Label>
+                      <LabelN htmlFor="fullname">Full Name</LabelN>
                       <Input
                         type="text"
                         name="fullname"
@@ -99,7 +99,7 @@ const UserProfileForm = ({ initialState }) => {
                     </RowBody>
 
                     <RowBody>
-                      <Label htmlFor="image">Profile Image</Label>
+                      <LabelN htmlFor="image">Profile Image</LabelN>
                       <Input
                         type="file"
                         name="image_url"
@@ -111,7 +111,7 @@ const UserProfileForm = ({ initialState }) => {
                     </RowBody>
                     <RowBody>
                       <Column>
-                        <Label htmlFor="email">Email</Label>
+                        <LabelN htmlFor="email">Email</LabelN>
                         <Input
                           type="text"
                           name="email"
@@ -124,7 +124,7 @@ const UserProfileForm = ({ initialState }) => {
                         <ErrorMessage name="email" />
                       </Column>
                       <Column>
-                        <Label htmlFor="username">Username</Label>
+                        <LabelN htmlFor="username">Username</LabelN>
                         <Input
                           type="text"
                           name="username"
@@ -138,7 +138,7 @@ const UserProfileForm = ({ initialState }) => {
                       </Column>
                     </RowBody>
                     <RowBody>
-                      <Label htmlFor="bio">Bio</Label>
+                      <LabelN htmlFor="bio">Bio</LabelN>
                       <TextArea
                         wide
                         as="textarea"
