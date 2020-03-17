@@ -7,29 +7,29 @@ Object {
     <div>
       <div>
         <div
-          class="sc-jhAzac kPrHAk"
+          class="sc-fAjcbJ dFpOsz"
         >
           <div
-            class="sc-fMiknA ehgADW"
+            class="sc-gisBJw cQKDkE"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-eqIVtm jVzknM"
+                class="sc-fBuWsC kyHoeo"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-uJMKN dyTyaH"
+              class="sc-gGBfsJ ilfupz"
             >
               <div
-                class="sc-gisBJw fKUlnJ"
+                class="sc-cHGsZl cPfHSi"
               >
                 8
                 <ul
-                  class="sc-kjoXOD hQWFrG"
+                  class="sc-TOsTZ cRsxAO"
                 >
                   <li>
                     <a
@@ -49,30 +49,30 @@ Object {
           </div>
         </div>
         <div
-          class="sc-htpNat exbEkn"
+          class="sc-htpNat flKTZl"
         >
           <div
-            class="sc-bdVaJa sc-ifAKCX gTytNp"
+            class="sc-bdVaJa sc-bxivhb kGXkcm"
           >
             <div
-              class="sc-cHGsZl gYsgeg"
+              class="sc-kgAjT eagLfN"
             >
               <h3
-                class="sc-kGXeez lolzGQ"
+                class="sc-kgoBCf gxiaSr"
               >
                 Participant Teams
               </h3>
             </div>
             <div
-              class="sc-bdVaJa sc-EHOje fDLSoA"
+              class="sc-bdVaJa sc-ifAKCX eTxUZm"
             >
               <form
-                class="sc-bZQynM cJKeup"
+                class="sc-EHOje gcwXic"
               >
                 <h4>
                   You are creating a team for 
                   <span
-                    class="sc-gzVnrw fMruPZ"
+                    class="sc-bZQynM iIlkKe"
                   >
                     EuroHack
                   </span>
@@ -86,7 +86,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-iRbamj IAcLI"
+                  class="sc-gPEVay cgKgRb"
                   color="green"
                   type="submit"
                 >
@@ -97,22 +97,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gqjmRU brMGVS"
+          class="sc-gZMcBi jKbyTj"
         >
           <p
-            class="sc-jzJRlG jHYcKR"
+            class="sc-fjdhpX bjMPwO"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-VigVT sc-fjdhpX jWklxj"
+              class="sc-gqjmRU sc-jTzLTM kFrNrp"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-VigVT sc-fjdhpX jWklxj"
+              class="sc-gqjmRU sc-jTzLTM kFrNrp"
               href="#"
             >
               Contacts
@@ -125,29 +125,29 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-jhAzac kPrHAk"
+        class="sc-fAjcbJ dFpOsz"
       >
         <div
-          class="sc-fMiknA ehgADW"
+          class="sc-gisBJw cQKDkE"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-eqIVtm jVzknM"
+              class="sc-fBuWsC kyHoeo"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-uJMKN dyTyaH"
+            class="sc-gGBfsJ ilfupz"
           >
             <div
-              class="sc-gisBJw fKUlnJ"
+              class="sc-cHGsZl cPfHSi"
             >
               8
               <ul
-                class="sc-kjoXOD hQWFrG"
+                class="sc-TOsTZ cRsxAO"
               >
                 <li>
                   <a
@@ -167,30 +167,30 @@ Object {
         </div>
       </div>
       <div
-        class="sc-htpNat exbEkn"
+        class="sc-htpNat flKTZl"
       >
         <div
-          class="sc-bdVaJa sc-ifAKCX gTytNp"
+          class="sc-bdVaJa sc-bxivhb kGXkcm"
         >
           <div
-            class="sc-cHGsZl gYsgeg"
+            class="sc-kgAjT eagLfN"
           >
             <h3
-              class="sc-kGXeez lolzGQ"
+              class="sc-kgoBCf gxiaSr"
             >
               Participant Teams
             </h3>
           </div>
           <div
-            class="sc-bdVaJa sc-EHOje fDLSoA"
+            class="sc-bdVaJa sc-ifAKCX eTxUZm"
           >
             <form
-              class="sc-bZQynM cJKeup"
+              class="sc-EHOje gcwXic"
             >
               <h4>
                 You are creating a team for 
                 <span
-                  class="sc-gzVnrw fMruPZ"
+                  class="sc-bZQynM iIlkKe"
                 >
                   EuroHack
                 </span>
@@ -204,7 +204,7 @@ Object {
                 value=""
               />
               <button
-                class="sc-iRbamj IAcLI"
+                class="sc-gPEVay cgKgRb"
                 color="green"
                 type="submit"
               >
@@ -215,22 +215,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gqjmRU brMGVS"
+        class="sc-gZMcBi jKbyTj"
       >
         <p
-          class="sc-jzJRlG jHYcKR"
+          class="sc-fjdhpX bjMPwO"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-VigVT sc-fjdhpX jWklxj"
+            class="sc-gqjmRU sc-jTzLTM kFrNrp"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-VigVT sc-fjdhpX jWklxj"
+            class="sc-gqjmRU sc-jTzLTM kFrNrp"
             href="#"
           >
             Contacts

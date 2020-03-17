@@ -7,47 +7,40 @@ Object {
     <div>
       <div>
         <div
-          class="sc-brqgnP bBgAnj"
+          class="sc-brqgnP krViPx"
         >
           <div
-            class="sc-jAaTju dawNNq"
+            class="sc-cMljjf cssdrh"
           >
             <a
               href="/"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-gPEVay dNeFug"
+                class="sc-jAaTju cZyUBe"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-iRbamj jVtJTu"
+              class="sc-jDwBTQ kNciuA"
             >
-              <a
-                class="sc-iAyFgw eDxeGi"
-                to="/login"
+              <button
+                class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
+                color="grey"
               >
-                Log In
-              </a>
-              <a
-                class="sc-iAyFgw bZGiCG"
-                color="blue"
-                to="/register"
-              >
-                Sign Up
-              </a>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
         <div
-          class="sc-csuQGl sc-jhAzac bqDBRr"
+          class="sc-jlyJG sc-bRBYWo hsyZCH"
         >
           <div
-            class="sc-csuQGl sc-hzDkRC dwOkck"
+            class="sc-jlyJG sc-Rmtcm ljXEmM"
           >
             <h2
-              class="sc-htoDjs sc-fBuWsC bADwWR"
+              class="sc-htoDjs sc-hzDkRC hgpGvf"
             >
               Ooops!
             </h2>
@@ -67,7 +60,7 @@ Object {
             </a>
           </div>
           <div
-            class="sc-csuQGl sc-hzDkRC dwOkck"
+            class="sc-jlyJG sc-Rmtcm ljXEmM"
           >
             <img
               alt="404 icon"
@@ -104,47 +97,40 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-brqgnP bBgAnj"
+        class="sc-brqgnP krViPx"
       >
         <div
-          class="sc-jAaTju dawNNq"
+          class="sc-cMljjf cssdrh"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-gPEVay dNeFug"
+              class="sc-jAaTju cZyUBe"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-iRbamj jVtJTu"
+            class="sc-jDwBTQ kNciuA"
           >
-            <a
-              class="sc-iAyFgw eDxeGi"
-              to="/login"
+            <button
+              class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
+              color="grey"
             >
-              Log In
-            </a>
-            <a
-              class="sc-iAyFgw bZGiCG"
-              color="blue"
-              to="/register"
-            >
-              Sign Up
-            </a>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
       <div
-        class="sc-csuQGl sc-jhAzac bqDBRr"
+        class="sc-jlyJG sc-bRBYWo hsyZCH"
       >
         <div
-          class="sc-csuQGl sc-hzDkRC dwOkck"
+          class="sc-jlyJG sc-Rmtcm ljXEmM"
         >
           <h2
-            class="sc-htoDjs sc-fBuWsC bADwWR"
+            class="sc-htoDjs sc-hzDkRC hgpGvf"
           >
             Ooops!
           </h2>
@@ -164,7 +150,7 @@ Object {
           </a>
         </div>
         <div
-          class="sc-csuQGl sc-hzDkRC dwOkck"
+          class="sc-jlyJG sc-Rmtcm ljXEmM"
         >
           <img
             alt="404 icon"

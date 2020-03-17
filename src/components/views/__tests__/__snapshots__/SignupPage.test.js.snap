@@ -7,48 +7,41 @@ Object {
     <div>
       <div>
         <div
-          class="sc-brqgnP bBgAnj"
+          class="sc-brqgnP krViPx"
         >
           <div
-            class="sc-jAaTju dawNNq"
+            class="sc-cMljjf cssdrh"
           >
             <a
               href="/"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-gPEVay dNeFug"
+                class="sc-jAaTju cZyUBe"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-iRbamj jVtJTu"
+              class="sc-jDwBTQ kNciuA"
             >
-              <a
-                class="sc-iAyFgw eDxeGi"
-                to="/login"
+              <button
+                class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
+                color="grey"
               >
-                Log In
-              </a>
-              <a
-                class="sc-iAyFgw bZGiCG"
-                color="blue"
-                to="/register"
-              >
-                Sign Up
-              </a>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
         <div
-          class="sc-jlyJG ewXylb"
+          class="sc-iRbamj dyFMRm"
         >
           <div
-            class="sc-csuQGl ciwzje"
+            class="sc-jlyJG kipBxx"
           >
             <img
               alt="Sign Up now!!"
-              class="sc-bRBYWo kDolwi"
+              class="sc-csuQGl bVjPnR"
               src="Signup.png"
             />
           </div>
@@ -82,48 +75,41 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-brqgnP bBgAnj"
+        class="sc-brqgnP krViPx"
       >
         <div
-          class="sc-jAaTju dawNNq"
+          class="sc-cMljjf cssdrh"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-gPEVay dNeFug"
+              class="sc-jAaTju cZyUBe"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-iRbamj jVtJTu"
+            class="sc-jDwBTQ kNciuA"
           >
-            <a
-              class="sc-iAyFgw eDxeGi"
-              to="/login"
+            <button
+              class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
+              color="grey"
             >
-              Log In
-            </a>
-            <a
-              class="sc-iAyFgw bZGiCG"
-              color="blue"
-              to="/register"
-            >
-              Sign Up
-            </a>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
       <div
-        class="sc-jlyJG ewXylb"
+        class="sc-iRbamj dyFMRm"
       >
         <div
-          class="sc-csuQGl ciwzje"
+          class="sc-jlyJG kipBxx"
         >
           <img
             alt="Sign Up now!!"
-            class="sc-bRBYWo kDolwi"
+            class="sc-csuQGl bVjPnR"
             src="Signup.png"
           />
         </div>

@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-uJMKN dyTyaH"
+              class="sc-gGBfsJ ilfupz"
             >
               <div
                 class="sc-EHOje kXozTT"
@@ -49,13 +49,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-csuQGl iAUCjr"
+          class="sc-hzDkRC cBfjrB"
         >
           <div
-            class="sc-bRBYWo sc-dNLxif fSrwGM"
+            class="sc-jhAzac sc-uJMKN glKXuH"
           >
             <div
-              class="sc-fBuWsC bRNRRb"
+              class="sc-dVhcbM iWcBSy"
             >
               <h3
                 class="sc-jzJRlG dhdOHq"
@@ -64,16 +64,16 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-fAjcbJ jFpqbf"
+              class="sc-gisBJw crwmrK"
             >
               <div
-                class="sc-gisBJw sc-cHGsZl lmxEJp"
+                class="sc-cHGsZl sc-kgAjT VBdqo"
               >
                 <form
                   action="#"
                 >
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -94,10 +94,10 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                     <div
-                      class="sc-fAjcbJ jFpqbf"
+                      class="sc-gisBJw crwmrK"
                     >
                       <label
                         class="sc-jWBwVP hzoveM"
@@ -119,7 +119,7 @@ Object {
                       />
                     </div>
                     <div
-                      class="sc-fAjcbJ jFpqbf"
+                      class="sc-gisBJw crwmrK"
                     >
                       <label
                         class="sc-jWBwVP hzoveM"
@@ -142,7 +142,7 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -151,7 +151,7 @@ Object {
                       Description
                     </label>
                     <div
-                      class="sc-hqyNC cqCZLi"
+                      class="sc-dNLxif cotMDi"
                     >
                       <textarea
                         id="event_description"
@@ -164,7 +164,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                      
                     <label
@@ -193,10 +193,10 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                     <div
-                      class="sc-fAjcbJ jFpqbf"
+                      class="sc-gisBJw crwmrK"
                     >
                       <label
                         class="sc-jWBwVP hzoveM"
@@ -205,7 +205,7 @@ Object {
                         Participation Type
                       </label>
                       <select
-                        class="sc-jbKcbu jceDVy"
+                        class="sc-jqCOkK exTBkg"
                         id="participation_type"
                         name="participation_type"
                       >
@@ -237,7 +237,7 @@ Object {
                       />
                     </div>
                     <div
-                      class="sc-fAjcbJ jFpqbf"
+                      class="sc-gisBJw crwmrK"
                     >
                       <label
                         class="sc-jWBwVP hzoveM"
@@ -246,7 +246,7 @@ Object {
                         Event Category
                       </label>
                       <select
-                        class="sc-jbKcbu jceDVy"
+                        class="sc-jqCOkK exTBkg"
                         id="event_category"
                         name="event_category"
                       >
@@ -287,7 +287,7 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -308,7 +308,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                     id="grading_rubrics"
                   >
                     <label
@@ -323,10 +323,10 @@ Object {
                       Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
                     </p>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="presentation"
                         name="rubrics"
                         type="checkbox"
@@ -340,10 +340,10 @@ Object {
                       </label>
                     </div>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="product_fit"
                         name="rubrics"
                         type="checkbox"
@@ -357,10 +357,10 @@ Object {
                       </label>
                     </div>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="functionality"
                         name="rubrics"
                         type="checkbox"
@@ -374,10 +374,10 @@ Object {
                       </label>
                     </div>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="innovation"
                         name="rubrics"
                         type="checkbox"
@@ -391,10 +391,10 @@ Object {
                       </label>
                     </div>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="product_design"
                         name="rubrics"
                         type="checkbox"
@@ -408,10 +408,10 @@ Object {
                       </label>
                     </div>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="extensibility"
                         name="rubrics"
                         type="checkbox"
@@ -429,7 +429,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -438,7 +438,7 @@ Object {
                       Guidelines
                     </label>
                     <div
-                      class="sc-hqyNC cqCZLi"
+                      class="sc-dNLxif cotMDi"
                     >
                       <textarea
                         id="guidelines"
@@ -457,7 +457,7 @@ Object {
                     Project Submission Requirements
                   </label>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                     id="submission_requirements"
                   >
                     <p
@@ -466,10 +466,10 @@ Object {
                       Participants will be expected to submit which one of the following (tick on all that apply)
                     </p>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="video_url"
                         name="requirements"
                         type="checkbox"
@@ -483,10 +483,10 @@ Object {
                       </label>
                     </div>
                     <div
-                      class="sc-hmzhuo huqXk"
+                      class="sc-kvZOFW eohSWF"
                     >
                       <input
-                        class="sc-kvZOFW cUjVtP"
+                        class="sc-jbKcbu hCKwjI"
                         id="github_url"
                         name="requirements"
                         type="checkbox"
@@ -504,10 +504,10 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-dVhcbM jPmXlz"
+                    class="sc-fAjcbJ kGDcbI"
                   >
                     <div
-                      class="sc-jqCOkK kKJvJM"
+                      class="sc-bbmXgH fZQmuc"
                     >
                       <a
                         class="sc-jAaTju cfXvnD"
@@ -574,7 +574,7 @@ Object {
             />
           </a>
           <div
-            class="sc-uJMKN dyTyaH"
+            class="sc-gGBfsJ ilfupz"
           >
             <div
               class="sc-EHOje kXozTT"
@@ -601,13 +601,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-csuQGl iAUCjr"
+        class="sc-hzDkRC cBfjrB"
       >
         <div
-          class="sc-bRBYWo sc-dNLxif fSrwGM"
+          class="sc-jhAzac sc-uJMKN glKXuH"
         >
           <div
-            class="sc-fBuWsC bRNRRb"
+            class="sc-dVhcbM iWcBSy"
           >
             <h3
               class="sc-jzJRlG dhdOHq"
@@ -616,16 +616,16 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-fAjcbJ jFpqbf"
+            class="sc-gisBJw crwmrK"
           >
             <div
-              class="sc-gisBJw sc-cHGsZl lmxEJp"
+              class="sc-cHGsZl sc-kgAjT VBdqo"
             >
               <form
                 action="#"
               >
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                   <label
                     class="sc-jWBwVP hzoveM"
@@ -646,10 +646,10 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                   <div
-                    class="sc-fAjcbJ jFpqbf"
+                    class="sc-gisBJw crwmrK"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -671,7 +671,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-fAjcbJ jFpqbf"
+                    class="sc-gisBJw crwmrK"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -694,7 +694,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                   <label
                     class="sc-jWBwVP hzoveM"
@@ -703,7 +703,7 @@ Object {
                     Description
                   </label>
                   <div
-                    class="sc-hqyNC cqCZLi"
+                    class="sc-dNLxif cotMDi"
                   >
                     <textarea
                       id="event_description"
@@ -716,7 +716,7 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                    
                   <label
@@ -745,10 +745,10 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                   <div
-                    class="sc-fAjcbJ jFpqbf"
+                    class="sc-gisBJw crwmrK"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -757,7 +757,7 @@ Object {
                       Participation Type
                     </label>
                     <select
-                      class="sc-jbKcbu jceDVy"
+                      class="sc-jqCOkK exTBkg"
                       id="participation_type"
                       name="participation_type"
                     >
@@ -789,7 +789,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-fAjcbJ jFpqbf"
+                    class="sc-gisBJw crwmrK"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -798,7 +798,7 @@ Object {
                       Event Category
                     </label>
                     <select
-                      class="sc-jbKcbu jceDVy"
+                      class="sc-jqCOkK exTBkg"
                       id="event_category"
                       name="event_category"
                     >
@@ -839,7 +839,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                   <label
                     class="sc-jWBwVP hzoveM"
@@ -860,7 +860,7 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                   id="grading_rubrics"
                 >
                   <label
@@ -875,10 +875,10 @@ Object {
                     Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
                   </p>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="presentation"
                       name="rubrics"
                       type="checkbox"
@@ -892,10 +892,10 @@ Object {
                     </label>
                   </div>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="product_fit"
                       name="rubrics"
                       type="checkbox"
@@ -909,10 +909,10 @@ Object {
                     </label>
                   </div>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="functionality"
                       name="rubrics"
                       type="checkbox"
@@ -926,10 +926,10 @@ Object {
                     </label>
                   </div>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="innovation"
                       name="rubrics"
                       type="checkbox"
@@ -943,10 +943,10 @@ Object {
                     </label>
                   </div>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="product_design"
                       name="rubrics"
                       type="checkbox"
@@ -960,10 +960,10 @@ Object {
                     </label>
                   </div>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="extensibility"
                       name="rubrics"
                       type="checkbox"
@@ -981,7 +981,7 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                   <label
                     class="sc-jWBwVP hzoveM"
@@ -990,7 +990,7 @@ Object {
                     Guidelines
                   </label>
                   <div
-                    class="sc-hqyNC cqCZLi"
+                    class="sc-dNLxif cotMDi"
                   >
                     <textarea
                       id="guidelines"
@@ -1009,7 +1009,7 @@ Object {
                   Project Submission Requirements
                 </label>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                   id="submission_requirements"
                 >
                   <p
@@ -1018,10 +1018,10 @@ Object {
                     Participants will be expected to submit which one of the following (tick on all that apply)
                   </p>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="video_url"
                       name="requirements"
                       type="checkbox"
@@ -1035,10 +1035,10 @@ Object {
                     </label>
                   </div>
                   <div
-                    class="sc-hmzhuo huqXk"
+                    class="sc-kvZOFW eohSWF"
                   >
                     <input
-                      class="sc-kvZOFW cUjVtP"
+                      class="sc-jbKcbu hCKwjI"
                       id="github_url"
                       name="requirements"
                       type="checkbox"
@@ -1056,10 +1056,10 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-dVhcbM jPmXlz"
+                  class="sc-fAjcbJ kGDcbI"
                 >
                   <div
-                    class="sc-jqCOkK kKJvJM"
+                    class="sc-bbmXgH fZQmuc"
                   >
                     <a
                       class="sc-jAaTju cfXvnD"
