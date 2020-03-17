@@ -159,7 +159,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
                 </ErrorSpan>
               </>
             )} */}
-            <Label>Email</Label>
+            <LabelN>Email</LabelN>
             <Input
               display="wide"
               type="text"
