@@ -54,6 +54,5 @@ describe("LoginPage.js", () => {
 
   it("the component renders an a tag to signup", () => {
     expect(component.queryByTestId("label")).toBeInTheDocument();
-    component.debug();
   });
 });
