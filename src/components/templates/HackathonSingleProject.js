@@ -123,12 +123,12 @@ const HackathonSingleProject = () => {
                       submission ?.project_title}
                   </H3>
                 </Team>
-                <Label htmlFor="project_writeup">Project writeup</Label>
+                <LabelN htmlFor="project_writeup">Project writeup</LabelN>
                 <Description id="project_writeup">
                   <Paragraph>{submission ?.project_writeups}</Paragraph>
                   {submission ?.git_url && (
                     <>
-                      <Label htmlFor="github_url">GitHub URL</Label>
+                      <LabelN htmlFor="github_url">GitHub URL</LabelN>
                       <Paragraph id="github_url">
                         <a
                           href={submission ?.git_url}
@@ -142,7 +142,7 @@ const HackathonSingleProject = () => {
                   )}
                   {submission ?.video_url && (
                     <>
-                      <Label htmlFor="video_url">Video URL</Label>
+                      <LabelN htmlFor="video_url">Video URL</LabelN>
                       <Paragraph id="video_url">
                         <a
                           href={submission ?.video_url}
@@ -163,7 +163,7 @@ const HackathonSingleProject = () => {
                       provided below and leave a feedback explaining your
                       grading.
                     </Paragraph>
-                    <Label htmlFor="rubrics"></Label>
+                    <LabelN htmlFor="rubrics"></LabelN>
                     <Rubrics id="rubrics">
                       {rubrics.map(rubric => {
                         return (
@@ -190,7 +190,7 @@ const HackathonSingleProject = () => {
                         );
                       })}
                     </Rubrics>
-                    <Label htmlFor="feedback">Feedback</Label>
+                    <LabelN htmlFor="feedback">Feedback</LabelN>
                     <Feedback
                       wide
                       id="judge_comments"
@@ -203,7 +203,7 @@ const HackathonSingleProject = () => {
                   </JudgeView>
                 ) : (
                     <JudgeView>
-                      <Label htmlFor="rubrics"></Label>
+                      <LabelN htmlFor="rubrics"></LabelN>
                       <Rubrics id="rubrics">
                         {Object.keys(averages).map(rubric => {
                           return rubric !== "comments" ? (
@@ -229,7 +229,7 @@ const HackathonSingleProject = () => {
                           ) : null;
                         })}
                       </Rubrics>
-                      <Label htmlFor="feedback">Feedback</Label>
+                      <LabelN htmlFor="feedback">Feedback</LabelN>
                       {averages.comments ?.length > 0 ? (
                         averages.comments.map(comment => (
                           <Paragraph key={comment}>{comment}</Paragraph>
