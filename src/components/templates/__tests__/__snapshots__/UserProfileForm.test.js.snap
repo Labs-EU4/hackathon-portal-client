@@ -49,16 +49,16 @@ Object {
           </div>
         </div>
         <div
-          class="sc-fBuWsC fppZUK"
+          class="sc-dVhcbM jTpZuX"
         >
           <div
-            class="sc-dVhcbM ciffbw sc-gGBfsJ eVzqKX"
+            class="sc-fAjcbJ cqkjZR sc-gGBfsJ eVzqKX"
           >
             <div
               class="sc-kjoXOD ctwutF"
             >
               <h3
-                class="sc-eNQAEJ faMTgL"
+                class="sc-jKJlTe giRPFq"
               >
                 Edit Profile
               </h3>
@@ -73,7 +73,7 @@ Object {
                   action="#"
                 >
                   <label
-                    class="sc-caSCKo sc-jnlKLf hQEhGb"
+                    class="sc-iRbamj sc-jnlKLf hQEhGb"
                     for="image"
                   >
                     Profile picture
@@ -93,13 +93,13 @@ Object {
                     class="sc-TOsTZ bkEOpz"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-iRbamj juPGQi"
                       for="fullname"
                     >
                       Full Name
                     </label>
                     <input
-                      class="sc-eHgmQL dQYlil"
+                      class="sc-bRBYWo iVahjJ"
                       display="wide"
                       name="fullname"
                       placeholder="Full Name"
@@ -111,14 +111,14 @@ Object {
                     class="sc-TOsTZ bkEOpz"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-iRbamj juPGQi"
                       for="image"
                     >
                       Profile Image
                     </label>
                     <input
                       accept="image/*"
-                      class="sc-eHgmQL dQYlil"
+                      class="sc-bRBYWo iVahjJ"
                       display="wide"
                       name="image_url"
                       placeholder="Profile picture"
@@ -133,13 +133,13 @@ Object {
                       class="sc-cJSrbW gAsXLy"
                     >
                       <label
-                        class="sc-caSCKo dnWYfp"
+                        class="sc-iRbamj juPGQi"
                         for="email"
                       >
                         Email
                       </label>
                       <input
-                        class="sc-eHgmQL dQYlil"
+                        class="sc-bRBYWo iVahjJ"
                         display="wide"
                         name="email"
                         placeholder="Email"
@@ -151,13 +151,13 @@ Object {
                       class="sc-cJSrbW gAsXLy"
                     >
                       <label
-                        class="sc-caSCKo dnWYfp"
+                        class="sc-iRbamj juPGQi"
                         for="username"
                       >
                         Username
                       </label>
                       <input
-                        class="sc-eHgmQL dQYlil"
+                        class="sc-bRBYWo iVahjJ"
                         display="wide"
                         name="username"
                         placeholder="Username"
@@ -170,7 +170,7 @@ Object {
                     class="sc-TOsTZ bkEOpz"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-iRbamj juPGQi"
                       for="bio"
                     >
                       Bio
@@ -191,7 +191,7 @@ Object {
                       href="/dashboard"
                     >
                       <button
-                        class="sc-cvbbAY imUKYf"
+                        class="sc-gipzik bWQaJO"
                         color="grey"
                         to="/dashboard"
                       >
@@ -199,7 +199,7 @@ Object {
                       </button>
                     </a>
                     <button
-                      class="sc-cvbbAY daTPuM sc-hEsumM ehGYSV"
+                      class="sc-gipzik jqwBeG sc-hEsumM ehGYSV"
                       color="green"
                       type="submit"
                     >
@@ -312,16 +312,16 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fBuWsC fppZUK"
+        class="sc-dVhcbM jTpZuX"
       >
         <div
-          class="sc-dVhcbM ciffbw sc-gGBfsJ eVzqKX"
+          class="sc-fAjcbJ cqkjZR sc-gGBfsJ eVzqKX"
         >
           <div
             class="sc-kjoXOD ctwutF"
           >
             <h3
-              class="sc-eNQAEJ faMTgL"
+              class="sc-jKJlTe giRPFq"
             >
               Edit Profile
             </h3>
@@ -336,7 +336,7 @@ Object {
                 action="#"
               >
                 <label
-                  class="sc-caSCKo sc-jnlKLf hQEhGb"
+                  class="sc-iRbamj sc-jnlKLf hQEhGb"
                   for="image"
                 >
                   Profile picture
@@ -356,13 +356,13 @@ Object {
                   class="sc-TOsTZ bkEOpz"
                 >
                   <label
-                    class="sc-caSCKo dnWYfp"
+                    class="sc-iRbamj juPGQi"
                     for="fullname"
                   >
                     Full Name
                   </label>
                   <input
-                    class="sc-eHgmQL dQYlil"
+                    class="sc-bRBYWo iVahjJ"
                     display="wide"
                     name="fullname"
                     placeholder="Full Name"
@@ -374,14 +374,14 @@ Object {
                   class="sc-TOsTZ bkEOpz"
                 >
                   <label
-                    class="sc-caSCKo dnWYfp"
+                    class="sc-iRbamj juPGQi"
                     for="image"
                   >
                     Profile Image
                   </label>
                   <input
                     accept="image/*"
-                    class="sc-eHgmQL dQYlil"
+                    class="sc-bRBYWo iVahjJ"
                     display="wide"
                     name="image_url"
                     placeholder="Profile picture"
@@ -396,13 +396,13 @@ Object {
                     class="sc-cJSrbW gAsXLy"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-iRbamj juPGQi"
                       for="email"
                     >
                       Email
                     </label>
                     <input
-                      class="sc-eHgmQL dQYlil"
+                      class="sc-bRBYWo iVahjJ"
                       display="wide"
                       name="email"
                       placeholder="Email"
@@ -414,13 +414,13 @@ Object {
                     class="sc-cJSrbW gAsXLy"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-iRbamj juPGQi"
                       for="username"
                     >
                       Username
                     </label>
                     <input
-                      class="sc-eHgmQL dQYlil"
+                      class="sc-bRBYWo iVahjJ"
                       display="wide"
                       name="username"
                       placeholder="Username"
@@ -433,7 +433,7 @@ Object {
                   class="sc-TOsTZ bkEOpz"
                 >
                   <label
-                    class="sc-caSCKo dnWYfp"
+                    class="sc-iRbamj juPGQi"
                     for="bio"
                   >
                     Bio
@@ -454,7 +454,7 @@ Object {
                     href="/dashboard"
                   >
                     <button
-                      class="sc-cvbbAY imUKYf"
+                      class="sc-gipzik bWQaJO"
                       color="grey"
                       to="/dashboard"
                     >
@@ -462,7 +462,7 @@ Object {
                     </button>
                   </a>
                   <button
-                    class="sc-cvbbAY daTPuM sc-hEsumM ehGYSV"
+                    class="sc-gipzik jqwBeG sc-hEsumM ehGYSV"
                     color="green"
                     type="submit"
                   >

@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-bsbRJL cFOTnn"
+              class="sc-iQNlJl jfTdcZ"
             >
               <div
                 class="sc-EHOje kXozTT"
@@ -49,20 +49,20 @@ Object {
           </div>
         </div>
         <div
-          class="sc-fBuWsC fppZUK"
+          class="sc-fMiknA gLARYc"
         >
           <div
-            class="sc-dVhcbM ciffbw sc-jqCOkK eOyDaV"
+            class="sc-eqIVtm hvmLNT sc-dNLxif feNZIu"
           >
             <div
-              class="sc-caSCKo ipBruB"
+              class="sc-gisBJw fdfqLi"
             >
               <h3
-                class="sc-eNQAEJ faMTgL"
+                class="sc-jKJlTe giRPFq"
               >
                 Submitted project for 
                 <strong
-                  class="sc-gGBfsJ XndIu"
+                  class="sc-bbmXgH jegrJr"
                 >
                   "
                   EuroHack
@@ -71,29 +71,29 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-kjoXOD gAXpgj"
+              class="sc-cHGsZl cEmgZG"
             >
               <div
-                class="sc-cJSrbW sc-ksYbfQ sc-uJMKN cGJuUV"
+                class="sc-kgAjT sc-cJSrbW sc-jqCOkK eaFvyS"
               >
                 <div
-                  class="sc-dqBHgY cslcUk"
+                  class="sc-kTUwUJ iWvamw"
                 >
                   <div
-                    class="sc-jtRfpW gcAaDR"
+                    class="sc-elJkPf juRclc"
                   >
                     <h3
-                      class="sc-eNQAEJ faMTgL"
+                      class="sc-jKJlTe giRPFq"
                     />
                   </div>
                   <label
-                    class="sc-TOsTZ dwTpLN"
+                    class="sc-iRbamj TTCda"
                     for="project_writeup"
                   >
                     Project writeup
                   </label>
                   <div
-                    class="sc-kTUwUJ fcWLYC"
+                    class="sc-jtRfpW hfQyoR"
                     id="project_writeup"
                   >
                     <p
@@ -101,18 +101,18 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-iyvyFf gOHBQK"
+                    class="sc-gzOgki blBZwA"
                   >
                     <label
-                      class="sc-TOsTZ dwTpLN"
+                      class="sc-iRbamj TTCda"
                       for="rubrics"
                     />
                     <div
-                      class="sc-gxMtzJ fxCzpg"
+                      class="sc-dqBHgY hGoGQn"
                       id="rubrics"
                     >
                       <div
-                        class="sc-dfVpRl kgrKNH"
+                        class="sc-gxMtzJ bJdxep"
                       >
                         Presentation
                         <span
@@ -211,7 +211,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-dfVpRl kgrKNH"
+                        class="sc-gxMtzJ bJdxep"
                       >
                         Product Fit
                         <span
@@ -310,7 +310,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-dfVpRl kgrKNH"
+                        class="sc-gxMtzJ bJdxep"
                       >
                         Functionality
                         <span
@@ -409,7 +409,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-dfVpRl kgrKNH"
+                        class="sc-gxMtzJ bJdxep"
                       >
                         Innovation
                         <span
@@ -508,7 +508,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-dfVpRl kgrKNH"
+                        class="sc-gxMtzJ bJdxep"
                       >
                         Product Design
                         <span
@@ -607,7 +607,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-dfVpRl kgrKNH"
+                        class="sc-gxMtzJ bJdxep"
                       >
                         Extensibility
                         <span
@@ -707,7 +707,7 @@ Object {
                       </div>
                     </div>
                     <label
-                      class="sc-TOsTZ dwTpLN"
+                      class="sc-iRbamj TTCda"
                       for="feedback"
                     >
                       Feedback
@@ -720,10 +720,10 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-hwwEjo kQcBSS"
+                  class="sc-iyvyFf bEhJim"
                 >
                   <a
-                    class="sc-brqgnP hixzyL"
+                    class="sc-csuQGl bmMCJi"
                     color="grey"
                     to="/dashboard/event/1/projects"
                   >
@@ -808,7 +808,7 @@ Object {
             />
           </a>
           <div
-            class="sc-bsbRJL cFOTnn"
+            class="sc-iQNlJl jfTdcZ"
           >
             <div
               class="sc-EHOje kXozTT"
@@ -835,20 +835,20 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fBuWsC fppZUK"
+        class="sc-fMiknA gLARYc"
       >
         <div
-          class="sc-dVhcbM ciffbw sc-jqCOkK eOyDaV"
+          class="sc-eqIVtm hvmLNT sc-dNLxif feNZIu"
         >
           <div
-            class="sc-caSCKo ipBruB"
+            class="sc-gisBJw fdfqLi"
           >
             <h3
-              class="sc-eNQAEJ faMTgL"
+              class="sc-jKJlTe giRPFq"
             >
               Submitted project for 
               <strong
-                class="sc-gGBfsJ XndIu"
+                class="sc-bbmXgH jegrJr"
               >
                 "
                 EuroHack
@@ -857,29 +857,29 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-kjoXOD gAXpgj"
+            class="sc-cHGsZl cEmgZG"
           >
             <div
-              class="sc-cJSrbW sc-ksYbfQ sc-uJMKN cGJuUV"
+              class="sc-kgAjT sc-cJSrbW sc-jqCOkK eaFvyS"
             >
               <div
-                class="sc-dqBHgY cslcUk"
+                class="sc-kTUwUJ iWvamw"
               >
                 <div
-                  class="sc-jtRfpW gcAaDR"
+                  class="sc-elJkPf juRclc"
                 >
                   <h3
-                    class="sc-eNQAEJ faMTgL"
+                    class="sc-jKJlTe giRPFq"
                   />
                 </div>
                 <label
-                  class="sc-TOsTZ dwTpLN"
+                  class="sc-iRbamj TTCda"
                   for="project_writeup"
                 >
                   Project writeup
                 </label>
                 <div
-                  class="sc-kTUwUJ fcWLYC"
+                  class="sc-jtRfpW hfQyoR"
                   id="project_writeup"
                 >
                   <p
@@ -887,18 +887,18 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-iyvyFf gOHBQK"
+                  class="sc-gzOgki blBZwA"
                 >
                   <label
-                    class="sc-TOsTZ dwTpLN"
+                    class="sc-iRbamj TTCda"
                     for="rubrics"
                   />
                   <div
-                    class="sc-gxMtzJ fxCzpg"
+                    class="sc-dqBHgY hGoGQn"
                     id="rubrics"
                   >
                     <div
-                      class="sc-dfVpRl kgrKNH"
+                      class="sc-gxMtzJ bJdxep"
                     >
                       Presentation
                       <span
@@ -997,7 +997,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-dfVpRl kgrKNH"
+                      class="sc-gxMtzJ bJdxep"
                     >
                       Product Fit
                       <span
@@ -1096,7 +1096,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-dfVpRl kgrKNH"
+                      class="sc-gxMtzJ bJdxep"
                     >
                       Functionality
                       <span
@@ -1195,7 +1195,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-dfVpRl kgrKNH"
+                      class="sc-gxMtzJ bJdxep"
                     >
                       Innovation
                       <span
@@ -1294,7 +1294,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-dfVpRl kgrKNH"
+                      class="sc-gxMtzJ bJdxep"
                     >
                       Product Design
                       <span
@@ -1393,7 +1393,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-dfVpRl kgrKNH"
+                      class="sc-gxMtzJ bJdxep"
                     >
                       Extensibility
                       <span
@@ -1493,7 +1493,7 @@ Object {
                     </div>
                   </div>
                   <label
-                    class="sc-TOsTZ dwTpLN"
+                    class="sc-iRbamj TTCda"
                     for="feedback"
                   >
                     Feedback
@@ -1506,10 +1506,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-hwwEjo kQcBSS"
+                class="sc-iyvyFf bEhJim"
               >
                 <a
-                  class="sc-brqgnP hixzyL"
+                  class="sc-csuQGl bmMCJi"
                   color="grey"
                   to="/dashboard/event/1/projects"
                 >

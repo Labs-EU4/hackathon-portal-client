@@ -7,29 +7,29 @@ Object {
     <div>
       <div>
         <div
-          class="sc-iRbamj liaLaB"
+          class="sc-jlyJG kkcpcA"
         >
           <div
-            class="sc-gipzik gYIzbI"
+            class="sc-csuQGl kZulgU"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-Rmtcm gaRwHN"
+                class="sc-bRBYWo kjmXcl"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-hwwEjo euTjD"
+              class="sc-kPVwWT MVsVr"
             >
               <div
-                class="sc-eqIVtm eNnNXz"
+                class="sc-fAjcbJ kShGXO"
               >
                 8
                 <ul
-                  class="sc-fAjcbJ iIzdjT"
+                  class="sc-caSCKo cNjcNT"
                 >
                   <li>
                     <a
@@ -49,28 +49,28 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hzDkRC Lgjin"
+          class="sc-jhAzac jsMUOz"
         >
           <div
-            class="sc-fBuWsC hIAupq sc-kvZOFW XPmfx"
+            class="sc-fMiknA heulbj sc-hqyNC hpIxCz"
           >
             <div
-              class="sc-caSCKo ipBruB"
+              class="sc-gisBJw fdfqLi"
             >
               <h3
-                class="sc-chPdSV jQbecn"
+                class="sc-kAzzGY eOJFvg"
               >
                 Add Teammates
               </h3>
             </div>
             <div
-              class="sc-kjoXOD gAXpgj"
+              class="sc-cHGsZl cEmgZG"
             >
               <div
-                class="sc-TOsTZ sc-kgAjT edRPfL"
+                class="sc-kgAjT sc-cJSrbW gpvLVA"
               >
                 <div
-                  class="sc-elJkPf drXouu"
+                  class="sc-jtRfpW iBDprV"
                   display="wide"
                 >
                   <input
@@ -79,7 +79,7 @@ Object {
                     value=""
                   />
                   <button
-                    class="sc-eNQAEJ dQmkhC"
+                    class="sc-jWBwVP jbHuyu"
                     color="grey"
                   >
                     Back to dashboard
@@ -148,29 +148,29 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-iRbamj liaLaB"
+        class="sc-jlyJG kkcpcA"
       >
         <div
-          class="sc-gipzik gYIzbI"
+          class="sc-csuQGl kZulgU"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-Rmtcm gaRwHN"
+              class="sc-bRBYWo kjmXcl"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-hwwEjo euTjD"
+            class="sc-kPVwWT MVsVr"
           >
             <div
-              class="sc-eqIVtm eNnNXz"
+              class="sc-fAjcbJ kShGXO"
             >
               8
               <ul
-                class="sc-fAjcbJ iIzdjT"
+                class="sc-caSCKo cNjcNT"
               >
                 <li>
                   <a
@@ -190,28 +190,28 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hzDkRC Lgjin"
+        class="sc-jhAzac jsMUOz"
       >
         <div
-          class="sc-fBuWsC hIAupq sc-kvZOFW XPmfx"
+          class="sc-fMiknA heulbj sc-hqyNC hpIxCz"
         >
           <div
-            class="sc-caSCKo ipBruB"
+            class="sc-gisBJw fdfqLi"
           >
             <h3
-              class="sc-chPdSV jQbecn"
+              class="sc-kAzzGY eOJFvg"
             >
               Add Teammates
             </h3>
           </div>
           <div
-            class="sc-kjoXOD gAXpgj"
+            class="sc-cHGsZl cEmgZG"
           >
             <div
-              class="sc-TOsTZ sc-kgAjT edRPfL"
+              class="sc-kgAjT sc-cJSrbW gpvLVA"
             >
               <div
-                class="sc-elJkPf drXouu"
+                class="sc-jtRfpW iBDprV"
                 display="wide"
               >
                 <input
@@ -220,7 +220,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-eNQAEJ dQmkhC"
+                  class="sc-jWBwVP jbHuyu"
                   color="grey"
                 >
                   Back to dashboard
