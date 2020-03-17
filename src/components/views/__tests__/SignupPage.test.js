@@ -45,7 +45,7 @@ describe("Component UserProfile.js text nodes renders properly", () => {
   it("the component image with alt tag", () => {
     expect(jestFeatures.queryByAltText(/Sign Up now/i)).toBeInTheDocument();
   });
-  it("asserts that the text node Sign Up renders properly", () => {
+  it("asserts that the button with data-testid renders properly", () => {
     expect(jestFeatures.getByTestId("label")).toBeInTheDocument();
   });
 

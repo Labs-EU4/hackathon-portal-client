@@ -52,7 +52,7 @@ describe("LoginPage.js", () => {
     expect(component.queryByAltText(/Log In now/i)).toBeInTheDocument();
   });
 
-  it("the component renders an a tag to signup", () => {
+  it("the component renders a button with data-testid", () => {
     expect(component.queryByTestId("label")).toBeInTheDocument();
   });
 });

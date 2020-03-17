@@ -47,10 +47,10 @@ describe("Component Header.js renders properly", () => {
       jestFeatures.getByAltText("Hackton - Organise hackathons")
     ).toBeInTheDocument();
   });
-  it("the text node Log In is rendering properly", () => {
+  it("the text node Log Out is rendering properly", () => {
     expect(jestFeatures.queryByText(/Log Out/i)).toBeInTheDocument();
   });
-  it("the text node Sign Up is rendering properly", () => {
+  it("the button with data-testid is rendering properly", () => {
     expect(jestFeatures.getByTestId(/label/i)).toBeInTheDocument();
   });
 });
