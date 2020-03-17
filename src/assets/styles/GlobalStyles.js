@@ -99,7 +99,7 @@ h3 {
 
 `;
 
-export const InputFull = styled(Label)`
+export const InputFull = styled(LabelN)`
   width: 100%;
 `;
 
