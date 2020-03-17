@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { WideHeader } from "../../assets/styles/atoms/WideHeader";
-import { HeaderContainer } from "../../assets/styles/atoms/HeaderContainer";
+
+import WideHeader from "../../assets/styles/organisms/WideHeaderStyling";
+import HeaderContainer from "../../assets/styles/organisms/HeaderContainerStyling";
 import Logo from "../atoms/Logo";
-import PublicNav from "../organisms/PublicNav";
+import PublicNav from "./PublicNav";
 
 const Header = () => (
   <WideHeader>

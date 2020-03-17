@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-jtRfpW dqDRZr"
+              class="sc-cmTdod hQzsMy"
             >
               <div
                 class="sc-jAaTju hMumwu"
@@ -49,16 +49,16 @@ Object {
           </div>
         </div>
         <div
-          class="sc-feJyhm Sasok"
+          class="sc-fYxtnH bwidqP"
         >
           <div
             class="sc-bdVaJa cdzpxt sc-VigVT kLsUCd"
           >
             <div
-              class="sc-jwKygS DtYxN"
+              class="sc-ktHwxA eqSkqU"
             >
               <h3
-                class="sc-gisBJw kZfdtg"
+                class="sc-fBuWsC fjMhZR"
               >
                 Submitted projects for 
                 <strong
@@ -71,7 +71,7 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-lhVmIH dintQX"
+              class="sc-kafWEX fdkNAA"
             >
               <div
                 class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
@@ -158,56 +158,26 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gPEVay ktgxDQ"
+          class="sc-gPEVay tcNig"
         >
-          <div
-            class="sc-jlyJG kTrrju"
+          <p
+            class="sc-csuQGl ssVAS"
           >
-            <div>
-              <img
-                alt="LinkedIn"
-                class="sc-csuQGl hfxgpF"
-                src="Icon-linkedin.png"
-              />
-              <img
-                alt="Twitter"
-                class="sc-csuQGl hfxgpF"
-                src="Icon-twitter.png"
-              />
-              <img
-                alt="Facebook"
-                class="sc-csuQGl hfxgpF"
-                src="Icon-facebook.png"
-              />
-            </div>
-            <div>
-              <a
-                class="sc-Rmtcm sc-hzDkRC ilxCYq"
-                href="https://hackton.co/#team"
-              >
-                Team
-              </a>
-              <a
-                class="sc-Rmtcm sc-hzDkRC ilxCYq"
-                href="#"
-              >
-                Privacy
-              </a>
-              <a
-                class="sc-Rmtcm sc-hzDkRC ilxCYq"
-                href="#"
-              >
-                Contacts
-              </a>
-            </div>
-            <div>
-              <p
-                alt="Hackton - Organise hackathons"
-                class="sc-htoDjs sc-dnqmqq xAsmd"
-              >
-                International Crafters © 2020
-              </p>
-            </div>
+            International Crafters © 2020
+          </p>
+          <div>
+            <a
+              class="sc-iRbamj sc-gipzik gfZAUH"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-iRbamj sc-gipzik gfZAUH"
+              href="#"
+            >
+              Contacts
+            </a>
           </div>
         </div>
       </div>
@@ -231,7 +201,7 @@ Object {
             />
           </a>
           <div
-            class="sc-jtRfpW dqDRZr"
+            class="sc-cmTdod hQzsMy"
           >
             <div
               class="sc-jAaTju hMumwu"
@@ -258,16 +228,16 @@ Object {
         </div>
       </div>
       <div
-        class="sc-feJyhm Sasok"
+        class="sc-fYxtnH bwidqP"
       >
         <div
           class="sc-bdVaJa cdzpxt sc-VigVT kLsUCd"
         >
           <div
-            class="sc-jwKygS DtYxN"
+            class="sc-ktHwxA eqSkqU"
           >
             <h3
-              class="sc-gisBJw kZfdtg"
+              class="sc-fBuWsC fjMhZR"
             >
               Submitted projects for 
               <strong
@@ -280,7 +250,7 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-lhVmIH dintQX"
+            class="sc-kafWEX fdkNAA"
           >
             <div
               class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
@@ -367,56 +337,26 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gPEVay ktgxDQ"
+        class="sc-gPEVay tcNig"
       >
-        <div
-          class="sc-jlyJG kTrrju"
+        <p
+          class="sc-csuQGl ssVAS"
         >
-          <div>
-            <img
-              alt="LinkedIn"
-              class="sc-csuQGl hfxgpF"
-              src="Icon-linkedin.png"
-            />
-            <img
-              alt="Twitter"
-              class="sc-csuQGl hfxgpF"
-              src="Icon-twitter.png"
-            />
-            <img
-              alt="Facebook"
-              class="sc-csuQGl hfxgpF"
-              src="Icon-facebook.png"
-            />
-          </div>
-          <div>
-            <a
-              class="sc-Rmtcm sc-hzDkRC ilxCYq"
-              href="https://hackton.co/#team"
-            >
-              Team
-            </a>
-            <a
-              class="sc-Rmtcm sc-hzDkRC ilxCYq"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-Rmtcm sc-hzDkRC ilxCYq"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-          <div>
-            <p
-              alt="Hackton - Organise hackathons"
-              class="sc-htoDjs sc-dnqmqq xAsmd"
-            >
-              International Crafters © 2020
-            </p>
-          </div>
+          International Crafters © 2020
+        </p>
+        <div>
+          <a
+            class="sc-iRbamj sc-gipzik gfZAUH"
+            href="#"
+          >
+            Privacy
+          </a>
+          <a
+            class="sc-iRbamj sc-gipzik gfZAUH"
+            href="#"
+          >
+            Contacts
+          </a>
         </div>
       </div>
     </div>
