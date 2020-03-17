@@ -41,7 +41,7 @@ Object {
           direction="column-reverse"
         >
           <label
-            class="sc-jKJlTe jAVqEp"
+            class="sc-eNQAEJ iUxYud"
           >
             organizer
             <input
@@ -51,7 +51,7 @@ Object {
             <span />
           </label>
           <label
-            class="sc-jKJlTe jAVqEp"
+            class="sc-eNQAEJ iUxYud"
           >
             judge
             <input
@@ -117,7 +117,7 @@ Object {
         direction="column-reverse"
       >
         <label
-          class="sc-jKJlTe jAVqEp"
+          class="sc-eNQAEJ iUxYud"
         >
           organizer
           <input
@@ -127,7 +127,7 @@ Object {
           <span />
         </label>
         <label
-          class="sc-jKJlTe jAVqEp"
+          class="sc-eNQAEJ iUxYud"
         >
           judge
           <input

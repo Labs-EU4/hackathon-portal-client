@@ -14,7 +14,7 @@ import {
   StyledButtonN
 } from "../../assets/styles/organisms/NavStyling";
 import { ProfileImg } from "../atoms/ProfileImg";
-import { IconN } from "../atoms/Icon";
+import Icon from "../atoms/IconN";
 
 const items = [
   {
@@ -99,7 +99,7 @@ const Nav = ({
               key={title}
               activeClassName="current"
             >
-              <IconN {...{ icon }} />
+              <Icon {...{ icon }} />
               {!isSideBarOpen && <span>{title}</span>}
             </StyledNavLinkN>
             {isSideBarOpen && <LinkDetailsN>{title}</LinkDetailsN>}
