@@ -7,31 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-gipzik bMKlvW"
+          class="sc-jlyJG kkcpcA"
         >
           <div
-            class="sc-Rmtcm dIjOLd"
+            class="sc-csuQGl kZulgU"
           >
             <a
               href="/"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-hzDkRC dfukKC"
+                class="sc-bRBYWo kjmXcl"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-jhAzac gBwCiP"
+              class="sc-hzDkRC ecbwxY"
             >
               <a
-                class="sc-jAaTju kZvYdc"
+                class="sc-cMljjf hXGLw"
                 to="/login"
               >
                 Log In
               </a>
               <a
-                class="sc-jAaTju EdrCH"
+                class="sc-cMljjf gRWSeY"
                 color="blue"
                 to="/register"
               >
@@ -41,13 +41,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-dVhcbM sc-gisBJw fhJzlO"
+          class="sc-fMiknA sc-caSCKo bnTTpH"
         >
           <div
-            class="sc-dVhcbM sc-caSCKo bgEHnn"
+            class="sc-fMiknA sc-fAjcbJ hxJRCO"
           >
             <h2
-              class="sc-cSHVUG sc-kjoXOD gTzxjq"
+              class="sc-cSHVUG sc-gisBJw EejcY"
             >
               Ooops!
             </h2>
@@ -67,7 +67,7 @@ Object {
             </a>
           </div>
           <div
-            class="sc-dVhcbM sc-caSCKo bgEHnn"
+            class="sc-fMiknA sc-fAjcbJ hxJRCO"
           >
             <img
               alt="404 icon"
@@ -134,31 +134,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-gipzik bMKlvW"
+        class="sc-jlyJG kkcpcA"
       >
         <div
-          class="sc-Rmtcm dIjOLd"
+          class="sc-csuQGl kZulgU"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-hzDkRC dfukKC"
+              class="sc-bRBYWo kjmXcl"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-jhAzac gBwCiP"
+            class="sc-hzDkRC ecbwxY"
           >
             <a
-              class="sc-jAaTju kZvYdc"
+              class="sc-cMljjf hXGLw"
               to="/login"
             >
               Log In
             </a>
             <a
-              class="sc-jAaTju EdrCH"
+              class="sc-cMljjf gRWSeY"
               color="blue"
               to="/register"
             >
@@ -168,13 +168,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-dVhcbM sc-gisBJw fhJzlO"
+        class="sc-fMiknA sc-caSCKo bnTTpH"
       >
         <div
-          class="sc-dVhcbM sc-caSCKo bgEHnn"
+          class="sc-fMiknA sc-fAjcbJ hxJRCO"
         >
           <h2
-            class="sc-cSHVUG sc-kjoXOD gTzxjq"
+            class="sc-cSHVUG sc-gisBJw EejcY"
           >
             Ooops!
           </h2>
@@ -194,7 +194,7 @@ Object {
           </a>
         </div>
         <div
-          class="sc-dVhcbM sc-caSCKo bgEHnn"
+          class="sc-fMiknA sc-fAjcbJ hxJRCO"
         >
           <img
             alt="404 icon"

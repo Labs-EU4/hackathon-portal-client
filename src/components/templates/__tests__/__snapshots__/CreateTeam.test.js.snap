@@ -7,29 +7,29 @@ Object {
     <div>
       <div>
         <div
-          class="sc-gisBJw cLaIZP"
+          class="sc-caSCKo hvSbtb"
         >
           <div
-            class="sc-cHGsZl jZpaFX"
+            class="sc-kjoXOD cdtsKE"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-kgAjT JmOew"
+                class="sc-TOsTZ iHQodK"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-ktHwxA dUQSSI"
+              class="sc-hEsumM eRcHjh"
             >
               <div
-                class="sc-hmzhuo gQLGsA"
+                class="sc-ksYbfQ jyEYcc"
               >
                 8
                 <ul
-                  class="sc-frDJqD coqRQt"
+                  class="sc-hmzhuo beYyPJ"
                 >
                   <li>
                     <a
@@ -55,7 +55,7 @@ Object {
             class="sc-bdVaJa sc-ifAKCX gTytNp"
           >
             <div
-              class="sc-kvZOFW bnzsKz"
+              class="sc-frDJqD fRtUrX"
             >
               <h3
                 class="sc-iAyFgw bfPRwr"
@@ -86,7 +86,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-jhAzac jOBzyC"
+                  class="sc-hzDkRC eBWdmI"
                   color="green"
                   type="submit"
                 >
@@ -155,29 +155,29 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-gisBJw cLaIZP"
+        class="sc-caSCKo hvSbtb"
       >
         <div
-          class="sc-cHGsZl jZpaFX"
+          class="sc-kjoXOD cdtsKE"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-kgAjT JmOew"
+              class="sc-TOsTZ iHQodK"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-ktHwxA dUQSSI"
+            class="sc-hEsumM eRcHjh"
           >
             <div
-              class="sc-hmzhuo gQLGsA"
+              class="sc-ksYbfQ jyEYcc"
             >
               8
               <ul
-                class="sc-frDJqD coqRQt"
+                class="sc-hmzhuo beYyPJ"
               >
                 <li>
                   <a
@@ -203,7 +203,7 @@ Object {
           class="sc-bdVaJa sc-ifAKCX gTytNp"
         >
           <div
-            class="sc-kvZOFW bnzsKz"
+            class="sc-frDJqD fRtUrX"
           >
             <h3
               class="sc-iAyFgw bfPRwr"
@@ -234,7 +234,7 @@ Object {
                 value=""
               />
               <button
-                class="sc-jhAzac jOBzyC"
+                class="sc-hzDkRC eBWdmI"
                 color="green"
                 type="submit"
               >

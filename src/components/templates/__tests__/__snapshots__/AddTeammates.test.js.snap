@@ -7,29 +7,29 @@ Object {
     <div>
       <div>
         <div
-          class="sc-gipzik bMKlvW"
+          class="sc-jlyJG kkcpcA"
         >
           <div
-            class="sc-Rmtcm dIjOLd"
+            class="sc-csuQGl kZulgU"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-hzDkRC dfukKC"
+                class="sc-bRBYWo kjmXcl"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-kfGgVZ bkyJxe"
+              class="sc-kPVwWT MVsVr"
             >
               <div
-                class="sc-caSCKo iDvHqb"
+                class="sc-fAjcbJ kShGXO"
               >
                 8
                 <ul
-                  class="sc-gisBJw oCXtZ"
+                  class="sc-caSCKo cNjcNT"
                 >
                   <li>
                     <a
@@ -49,13 +49,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-fBuWsC fppZUK"
+          class="sc-jhAzac jsMUOz"
         >
           <div
-            class="sc-dVhcbM ciffbw sc-jbKcbu iFCIT"
+            class="sc-fMiknA heulbj sc-hqyNC hpIxCz"
           >
             <div
-              class="sc-kjoXOD ctwutF"
+              class="sc-gisBJw fdfqLi"
             >
               <h3
                 class="sc-kAzzGY eOJFvg"
@@ -64,13 +64,13 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-TOsTZ iGiqFw"
+              class="sc-cHGsZl cEmgZG"
             >
               <div
-                class="sc-cJSrbW sc-ksYbfQ dJbZhV"
+                class="sc-kgAjT sc-cJSrbW gpvLVA"
               >
                 <div
-                  class="sc-kTUwUJ fLwlot"
+                  class="sc-jtRfpW iBDprV"
                   display="wide"
                 >
                   <input
@@ -79,7 +79,7 @@ Object {
                     value=""
                   />
                   <button
-                    class="sc-brqgnP fafvla"
+                    class="sc-jWBwVP jbHuyu"
                     color="grey"
                   >
                     Back to dashboard
@@ -148,29 +148,29 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-gipzik bMKlvW"
+        class="sc-jlyJG kkcpcA"
       >
         <div
-          class="sc-Rmtcm dIjOLd"
+          class="sc-csuQGl kZulgU"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-hzDkRC dfukKC"
+              class="sc-bRBYWo kjmXcl"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-kfGgVZ bkyJxe"
+            class="sc-kPVwWT MVsVr"
           >
             <div
-              class="sc-caSCKo iDvHqb"
+              class="sc-fAjcbJ kShGXO"
             >
               8
               <ul
-                class="sc-gisBJw oCXtZ"
+                class="sc-caSCKo cNjcNT"
               >
                 <li>
                   <a
@@ -190,13 +190,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fBuWsC fppZUK"
+        class="sc-jhAzac jsMUOz"
       >
         <div
-          class="sc-dVhcbM ciffbw sc-jbKcbu iFCIT"
+          class="sc-fMiknA heulbj sc-hqyNC hpIxCz"
         >
           <div
-            class="sc-kjoXOD ctwutF"
+            class="sc-gisBJw fdfqLi"
           >
             <h3
               class="sc-kAzzGY eOJFvg"
@@ -205,13 +205,13 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-TOsTZ iGiqFw"
+            class="sc-cHGsZl cEmgZG"
           >
             <div
-              class="sc-cJSrbW sc-ksYbfQ dJbZhV"
+              class="sc-kgAjT sc-cJSrbW gpvLVA"
             >
               <div
-                class="sc-kTUwUJ fLwlot"
+                class="sc-jtRfpW iBDprV"
                 display="wide"
               >
                 <input
@@ -220,7 +220,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-brqgnP fafvla"
+                  class="sc-jWBwVP jbHuyu"
                   color="grey"
                 >
                   Back to dashboard
