@@ -58,7 +58,7 @@ Object {
               class="sc-feJyhm fWjBMf"
             >
               <h3
-                class="sc-jKJlTe giRPFq"
+                class="sc-ckVGcZ ftCcjZ"
               >
                 My hackathons
               </h3>
@@ -66,7 +66,7 @@ Object {
                 href="/dashboard/new"
               >
                 <button
-                  class="sc-eHgmQL cioPsa"
+                  class="sc-gPEVay cgKgRb"
                   color="green"
                 >
                   Create New
@@ -108,7 +108,7 @@ Object {
                       2011
                     </p>
                     <h4
-                      class="sc-iAyFgw hWcCaN"
+                      class="sc-kkGfuU khiKud"
                     >
                       EuroHack
                     </h4>
@@ -131,14 +131,14 @@ Object {
                       class="sc-dNLxif dknxiy"
                     >
                       <a
-                        class="sc-cvbbAY gxPdts"
+                        class="sc-iRbamj jEjwUW"
                         color="primary-reverse"
                         href="//event/1"
                       >
                         More Info
                       </a>
                       <a
-                        class="sc-cvbbAY ggUSQY"
+                        class="sc-iRbamj gIBsBQ"
                         color="primary"
                         href="/"
                       >
@@ -209,7 +209,7 @@ Object {
                       2011
                     </p>
                     <h4
-                      class="sc-iAyFgw hWcCaN"
+                      class="sc-kkGfuU khiKud"
                     >
                       World
                     </h4>
@@ -232,14 +232,14 @@ Object {
                       class="sc-dNLxif dknxiy"
                     >
                       <a
-                        class="sc-cvbbAY gxPdts"
+                        class="sc-iRbamj jEjwUW"
                         color="primary-reverse"
                         href="//event/2"
                       >
                         More Info
                       </a>
                       <a
-                        class="sc-cvbbAY ggUSQY"
+                        class="sc-iRbamj gIBsBQ"
                         color="primary"
                         href="/"
                       >
@@ -284,7 +284,7 @@ Object {
               class="sc-feJyhm fWjBMf"
             >
               <h3
-                class="sc-jKJlTe giRPFq"
+                class="sc-ckVGcZ ftCcjZ"
               >
                 Global hackathons
               </h3>
@@ -408,7 +408,7 @@ Object {
             class="sc-feJyhm fWjBMf"
           >
             <h3
-              class="sc-jKJlTe giRPFq"
+              class="sc-ckVGcZ ftCcjZ"
             >
               My hackathons
             </h3>
@@ -416,7 +416,7 @@ Object {
               href="/dashboard/new"
             >
               <button
-                class="sc-eHgmQL cioPsa"
+                class="sc-gPEVay cgKgRb"
                 color="green"
               >
                 Create New
@@ -458,7 +458,7 @@ Object {
                     2011
                   </p>
                   <h4
-                    class="sc-iAyFgw hWcCaN"
+                    class="sc-kkGfuU khiKud"
                   >
                     EuroHack
                   </h4>
@@ -481,14 +481,14 @@ Object {
                     class="sc-dNLxif dknxiy"
                   >
                     <a
-                      class="sc-cvbbAY gxPdts"
+                      class="sc-iRbamj jEjwUW"
                       color="primary-reverse"
                       href="//event/1"
                     >
                       More Info
                     </a>
                     <a
-                      class="sc-cvbbAY ggUSQY"
+                      class="sc-iRbamj gIBsBQ"
                       color="primary"
                       href="/"
                     >
@@ -559,7 +559,7 @@ Object {
                     2011
                   </p>
                   <h4
-                    class="sc-iAyFgw hWcCaN"
+                    class="sc-kkGfuU khiKud"
                   >
                     World
                   </h4>
@@ -582,14 +582,14 @@ Object {
                     class="sc-dNLxif dknxiy"
                   >
                     <a
-                      class="sc-cvbbAY gxPdts"
+                      class="sc-iRbamj jEjwUW"
                       color="primary-reverse"
                       href="//event/2"
                     >
                       More Info
                     </a>
                     <a
-                      class="sc-cvbbAY ggUSQY"
+                      class="sc-iRbamj gIBsBQ"
                       color="primary"
                       href="/"
                     >
@@ -634,7 +634,7 @@ Object {
             class="sc-feJyhm fWjBMf"
           >
             <h3
-              class="sc-jKJlTe giRPFq"
+              class="sc-ckVGcZ ftCcjZ"
             >
               Global hackathons
             </h3>

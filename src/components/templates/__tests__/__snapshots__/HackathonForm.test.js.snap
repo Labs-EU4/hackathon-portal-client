@@ -49,40 +49,40 @@ Object {
           </div>
         </div>
         <div
-          class="sc-fBuWsC fppZUK"
+          class="sc-dVhcbM jTpZuX"
         >
           <div
-            class="sc-dVhcbM sc-tilXH hkhXHr"
+            class="sc-fAjcbJ sc-tilXH hkhXHr"
           >
             <div
-              class="sc-caSCKo ipBruB"
+              class="sc-kjoXOD ctwutF"
             >
               <h3
-                class="sc-eNQAEJ faMTgL"
+                class="sc-jKJlTe giRPFq"
               >
                 Create New Hackathon
               </h3>
             </div>
             <div
-              class="sc-TOsTZ iGiqFw"
+              class="sc-cJSrbW gAsXLy"
             >
               <div
-                class="sc-cJSrbW sc-hmzhuo eqFOQs"
+                class="sc-hmzhuo sc-kvZOFW bCDuVu"
               >
                 <form
                   action="#"
                 >
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="event_title"
                     >
                       Hackathon Title
                     </label>
                     <input
-                      class="sc-eHgmQL dQYlil"
+                      class="sc-bRBYWo iVahjJ"
                       display="wide"
                       id="event_title"
                       name="event_title"
@@ -90,23 +90,23 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                     <div
-                      class="sc-TOsTZ iGiqFw"
+                      class="sc-cJSrbW gAsXLy"
                     >
                       <label
-                        class="sc-jbKcbu dsrRTZ"
+                        class="sc-iRbamj juPGQi"
                         for="start_date"
                       >
                         Event Starts
                       </label>
                       <input
-                        class="sc-eHgmQL kfMCUS"
+                        class="sc-bRBYWo kxelx"
                         id="start_date"
                         min="2020-03-17"
                         name="start_date"
@@ -115,20 +115,20 @@ Object {
                         value="2020-03-17"
                       />
                       <span
-                        class="sc-cMljjf sc-gPEVay kmpjMW"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                     <div
-                      class="sc-TOsTZ iGiqFw"
+                      class="sc-cJSrbW gAsXLy"
                     >
                       <label
-                        class="sc-jbKcbu dsrRTZ"
+                        class="sc-iRbamj juPGQi"
                         for="end_date"
                       >
                         Event Ends
                       </label>
                       <input
-                        class="sc-eHgmQL kfMCUS"
+                        class="sc-bRBYWo kxelx"
                         id="end_date"
                         min=""
                         name="end_date"
@@ -137,15 +137,15 @@ Object {
                         value="2020-03-17"
                       />
                       <span
-                        class="sc-cMljjf sc-gPEVay kmpjMW"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="event_description"
                     >
                       Description
@@ -160,15 +160,15 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                      
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="input_tags"
                     >
                       Tags
@@ -193,13 +193,13 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                     <div
-                      class="sc-TOsTZ iGiqFw"
+                      class="sc-cJSrbW gAsXLy"
                     >
                       <label
-                        class="sc-jbKcbu dsrRTZ"
+                        class="sc-iRbamj juPGQi"
                         for="participation_type"
                       >
                         Participation Type
@@ -233,14 +233,14 @@ Object {
                         </option>
                       </select>
                       <span
-                        class="sc-cMljjf sc-gPEVay kmpjMW"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                     <div
-                      class="sc-TOsTZ iGiqFw"
+                      class="sc-cJSrbW gAsXLy"
                     >
                       <label
-                        class="sc-jbKcbu dsrRTZ"
+                        class="sc-iRbamj juPGQi"
                         for="event_category"
                       >
                         Event Category
@@ -282,21 +282,21 @@ Object {
                         </option>
                       </select>
                       <span
-                        class="sc-cMljjf sc-gPEVay kmpjMW"
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
                       />
                     </div>
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="location"
                     >
                       Location
                     </label>
                     <input
-                      class="sc-eHgmQL dQYlil"
+                      class="sc-bRBYWo iVahjJ"
                       display="wide"
                       id="location"
                       name="location"
@@ -304,15 +304,15 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                     id="grading_rubrics"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="grading_rubrics"
                     >
                       Grading Rubrics
@@ -333,7 +333,7 @@ Object {
                         value="presentation"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="presentation"
                       >
                         Presentation
@@ -350,7 +350,7 @@ Object {
                         value="product_fit"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="product_fit"
                       >
                         Product Fit
@@ -367,7 +367,7 @@ Object {
                         value="functionality"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="functionality"
                       >
                         Functionality
@@ -384,7 +384,7 @@ Object {
                         value="innovation"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="innovation"
                       >
                         Innovation
@@ -401,7 +401,7 @@ Object {
                         value="product_design"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="product_design"
                       >
                         Product Design
@@ -418,21 +418,21 @@ Object {
                         value="extensibility"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="extensibility"
                       >
                         Extensibility
                       </label>
                     </div>
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="guidelines"
                     >
                       Guidelines
@@ -447,17 +447,17 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <label
-                    class="sc-jbKcbu dsrRTZ"
+                    class="sc-iRbamj juPGQi"
                     for="submission_requirements"
                   >
                     Project Submission Requirements
                   </label>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                     id="submission_requirements"
                   >
                     <p
@@ -476,7 +476,7 @@ Object {
                         value="video_url"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="video_url"
                       >
                         Video URL
@@ -493,31 +493,31 @@ Object {
                         value="github_url"
                       />
                       <label
-                        class="sc-dNLxif jZjFBC"
+                        class="sc-jlyJG jovkRr"
                         for="github_url"
                       >
                         GitHub URL
                       </label>
                     </div>
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
-                    class="sc-kjoXOD cnjOAZ"
+                    class="sc-TOsTZ dfRbdt"
                   >
                     <div
                       class="sc-iQNlJl fLZNqH"
                     >
                       <a
-                        class="sc-brqgnP hixzyL"
+                        class="sc-Rmtcm cycXcZ"
                         color="grey"
                         to="/dashboard"
                       >
                         Cancel
                       </a>
                       <button
-                        class="sc-cvbbAY fqoWzn"
+                        class="sc-gipzik gBmHul"
                         color="green"
                         type="submit"
                       >
@@ -631,40 +631,40 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fBuWsC fppZUK"
+        class="sc-dVhcbM jTpZuX"
       >
         <div
-          class="sc-dVhcbM sc-tilXH hkhXHr"
+          class="sc-fAjcbJ sc-tilXH hkhXHr"
         >
           <div
-            class="sc-caSCKo ipBruB"
+            class="sc-kjoXOD ctwutF"
           >
             <h3
-              class="sc-eNQAEJ faMTgL"
+              class="sc-jKJlTe giRPFq"
             >
               Create New Hackathon
             </h3>
           </div>
           <div
-            class="sc-TOsTZ iGiqFw"
+            class="sc-cJSrbW gAsXLy"
           >
             <div
-              class="sc-cJSrbW sc-hmzhuo eqFOQs"
+              class="sc-hmzhuo sc-kvZOFW bCDuVu"
             >
               <form
                 action="#"
               >
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                   <label
-                    class="sc-jbKcbu dsrRTZ"
+                    class="sc-iRbamj juPGQi"
                     for="event_title"
                   >
                     Hackathon Title
                   </label>
                   <input
-                    class="sc-eHgmQL dQYlil"
+                    class="sc-bRBYWo iVahjJ"
                     display="wide"
                     id="event_title"
                     name="event_title"
@@ -672,23 +672,23 @@ Object {
                     value=""
                   />
                   <span
-                    class="sc-cMljjf sc-gPEVay kmpjMW"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                   <div
-                    class="sc-TOsTZ iGiqFw"
+                    class="sc-cJSrbW gAsXLy"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="start_date"
                     >
                       Event Starts
                     </label>
                     <input
-                      class="sc-eHgmQL kfMCUS"
+                      class="sc-bRBYWo kxelx"
                       id="start_date"
                       min="2020-03-17"
                       name="start_date"
@@ -697,20 +697,20 @@ Object {
                       value="2020-03-17"
                     />
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
-                    class="sc-TOsTZ iGiqFw"
+                    class="sc-cJSrbW gAsXLy"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="end_date"
                     >
                       Event Ends
                     </label>
                     <input
-                      class="sc-eHgmQL kfMCUS"
+                      class="sc-bRBYWo kxelx"
                       id="end_date"
                       min=""
                       name="end_date"
@@ -719,15 +719,15 @@ Object {
                       value="2020-03-17"
                     />
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                   <label
-                    class="sc-jbKcbu dsrRTZ"
+                    class="sc-iRbamj juPGQi"
                     for="event_description"
                   >
                     Description
@@ -742,15 +742,15 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-cMljjf sc-gPEVay kmpjMW"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                    
                   <label
-                    class="sc-jbKcbu dsrRTZ"
+                    class="sc-iRbamj juPGQi"
                     for="input_tags"
                   >
                     Tags
@@ -775,13 +775,13 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                   <div
-                    class="sc-TOsTZ iGiqFw"
+                    class="sc-cJSrbW gAsXLy"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="participation_type"
                     >
                       Participation Type
@@ -815,14 +815,14 @@ Object {
                       </option>
                     </select>
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                   <div
-                    class="sc-TOsTZ iGiqFw"
+                    class="sc-cJSrbW gAsXLy"
                   >
                     <label
-                      class="sc-jbKcbu dsrRTZ"
+                      class="sc-iRbamj juPGQi"
                       for="event_category"
                     >
                       Event Category
@@ -864,21 +864,21 @@ Object {
                       </option>
                     </select>
                     <span
-                      class="sc-cMljjf sc-gPEVay kmpjMW"
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
                     />
                   </div>
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                   <label
-                    class="sc-jbKcbu dsrRTZ"
+                    class="sc-iRbamj juPGQi"
                     for="location"
                   >
                     Location
                   </label>
                   <input
-                    class="sc-eHgmQL dQYlil"
+                    class="sc-bRBYWo iVahjJ"
                     display="wide"
                     id="location"
                     name="location"
@@ -886,15 +886,15 @@ Object {
                     value=""
                   />
                   <span
-                    class="sc-cMljjf sc-gPEVay kmpjMW"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                   id="grading_rubrics"
                 >
                   <label
-                    class="sc-jbKcbu dsrRTZ"
+                    class="sc-iRbamj juPGQi"
                     for="grading_rubrics"
                   >
                     Grading Rubrics
@@ -915,7 +915,7 @@ Object {
                       value="presentation"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="presentation"
                     >
                       Presentation
@@ -932,7 +932,7 @@ Object {
                       value="product_fit"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="product_fit"
                     >
                       Product Fit
@@ -949,7 +949,7 @@ Object {
                       value="functionality"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="functionality"
                     >
                       Functionality
@@ -966,7 +966,7 @@ Object {
                       value="innovation"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="innovation"
                     >
                       Innovation
@@ -983,7 +983,7 @@ Object {
                       value="product_design"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="product_design"
                     >
                       Product Design
@@ -1000,21 +1000,21 @@ Object {
                       value="extensibility"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="extensibility"
                     >
                       Extensibility
                     </label>
                   </div>
                   <span
-                    class="sc-cMljjf sc-gPEVay kmpjMW"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                   <label
-                    class="sc-jbKcbu dsrRTZ"
+                    class="sc-iRbamj juPGQi"
                     for="guidelines"
                   >
                     Guidelines
@@ -1029,17 +1029,17 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-cMljjf sc-gPEVay kmpjMW"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <label
-                  class="sc-jbKcbu dsrRTZ"
+                  class="sc-iRbamj juPGQi"
                   for="submission_requirements"
                 >
                   Project Submission Requirements
                 </label>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                   id="submission_requirements"
                 >
                   <p
@@ -1058,7 +1058,7 @@ Object {
                       value="video_url"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="video_url"
                     >
                       Video URL
@@ -1075,31 +1075,31 @@ Object {
                       value="github_url"
                     />
                     <label
-                      class="sc-dNLxif jZjFBC"
+                      class="sc-jlyJG jovkRr"
                       for="github_url"
                     >
                       GitHub URL
                     </label>
                   </div>
                   <span
-                    class="sc-cMljjf sc-gPEVay kmpjMW"
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
                   />
                 </div>
                 <div
-                  class="sc-kjoXOD cnjOAZ"
+                  class="sc-TOsTZ dfRbdt"
                 >
                   <div
                     class="sc-iQNlJl fLZNqH"
                   >
                     <a
-                      class="sc-brqgnP hixzyL"
+                      class="sc-Rmtcm cycXcZ"
                       color="grey"
                       to="/dashboard"
                     >
                       Cancel
                     </a>
                     <button
-                      class="sc-cvbbAY fqoWzn"
+                      class="sc-gipzik gBmHul"
                       color="green"
                       type="submit"
                     >

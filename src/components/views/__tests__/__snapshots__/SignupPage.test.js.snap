@@ -7,31 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-iRbamj liaLaB"
+          class="sc-gipzik bMKlvW"
         >
           <div
-            class="sc-gipzik gYIzbI"
+            class="sc-Rmtcm dIjOLd"
           >
             <a
               href="/"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-Rmtcm gaRwHN"
+                class="sc-hzDkRC dfukKC"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-bRBYWo jvZiaU"
+              class="sc-jhAzac gBwCiP"
             >
               <a
-                class="sc-kEYyzF bqfGNC"
+                class="sc-jAaTju kZvYdc"
                 to="/login"
               >
                 Log In
               </a>
               <a
-                class="sc-kEYyzF dzbLNq"
+                class="sc-jAaTju EdrCH"
                 color="blue"
                 to="/register"
               >
@@ -41,14 +41,14 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hzDkRC Lgjin"
+          class="sc-fBuWsC fppZUK"
         >
           <div
-            class="sc-fBuWsC fQToLD"
+            class="sc-dVhcbM gonAka"
           >
             <img
               alt="Sign Up now!!"
-              class="sc-dVhcbM knPQfC"
+              class="sc-fAjcbJ LngSg"
               src="Signup.png"
             />
           </div>
@@ -112,31 +112,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-iRbamj liaLaB"
+        class="sc-gipzik bMKlvW"
       >
         <div
-          class="sc-gipzik gYIzbI"
+          class="sc-Rmtcm dIjOLd"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-Rmtcm gaRwHN"
+              class="sc-hzDkRC dfukKC"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-bRBYWo jvZiaU"
+            class="sc-jhAzac gBwCiP"
           >
             <a
-              class="sc-kEYyzF bqfGNC"
+              class="sc-jAaTju kZvYdc"
               to="/login"
             >
               Log In
             </a>
             <a
-              class="sc-kEYyzF dzbLNq"
+              class="sc-jAaTju EdrCH"
               color="blue"
               to="/register"
             >
@@ -146,14 +146,14 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hzDkRC Lgjin"
+        class="sc-fBuWsC fppZUK"
       >
         <div
-          class="sc-fBuWsC fQToLD"
+          class="sc-dVhcbM gonAka"
         >
           <img
             alt="Sign Up now!!"
-            class="sc-dVhcbM knPQfC"
+            class="sc-fAjcbJ LngSg"
             src="Signup.png"
           />
         </div>

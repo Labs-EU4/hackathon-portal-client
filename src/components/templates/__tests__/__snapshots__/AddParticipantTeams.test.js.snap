@@ -7,29 +7,29 @@ Object {
     <div>
       <div>
         <div
-          class="sc-dVhcbM kfLThC"
+          class="sc-fAjcbJ dFpOsz"
         >
           <div
-            class="sc-fAjcbJ cKUSLm"
+            class="sc-gisBJw cQKDkE"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-gisBJw jETIUb"
+                class="sc-cHGsZl eZzfoW"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-hwwEjo euTjD"
+              class="sc-kfGgVZ bkyJxe"
             >
               <div
-                class="sc-cJSrbW OVGKL"
+                class="sc-hmzhuo gQLGsA"
               >
                 8
                 <ul
-                  class="sc-ksYbfQ gUVtLf"
+                  class="sc-frDJqD coqRQt"
                 >
                   <li>
                     <a
@@ -49,25 +49,25 @@ Object {
           </div>
         </div>
         <div
-          class="sc-cHGsZl dDlztq"
+          class="sc-kgAjT jTsnPh"
         >
           <div
             class="sc-bdVaJa cdzpxt sc-htpNat cSpvfp"
           >
             <div
-              class="sc-hmzhuo gfPRCC"
+              class="sc-kvZOFW bnzsKz"
             >
               <h3
-                class="sc-kkGfuU jBsNXA"
+                class="sc-kEYyzF ipnzbE"
               >
                 Add Teammates
               </h3>
             </div>
             <div
-              class="sc-kvZOFW bYFHGB"
+              class="sc-jbKcbu gDjedv"
             >
               <div
-                class="sc-jbKcbu sc-dNLxif eLTjYd"
+                class="sc-jqCOkK sc-uJMKN fnAvxY"
               >
                 <div
                   class="sc-ifAKCX kkGugQ"
@@ -79,7 +79,7 @@ Object {
                     value=""
                   />
                   <button
-                    class="sc-cMljjf hVvvEw"
+                    class="sc-bRBYWo euhLcr"
                     color="grey"
                   >
                     Back to dashboard
@@ -148,29 +148,29 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-dVhcbM kfLThC"
+        class="sc-fAjcbJ dFpOsz"
       >
         <div
-          class="sc-fAjcbJ cKUSLm"
+          class="sc-gisBJw cQKDkE"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-gisBJw jETIUb"
+              class="sc-cHGsZl eZzfoW"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-hwwEjo euTjD"
+            class="sc-kfGgVZ bkyJxe"
           >
             <div
-              class="sc-cJSrbW OVGKL"
+              class="sc-hmzhuo gQLGsA"
             >
               8
               <ul
-                class="sc-ksYbfQ gUVtLf"
+                class="sc-frDJqD coqRQt"
               >
                 <li>
                   <a
@@ -190,25 +190,25 @@ Object {
         </div>
       </div>
       <div
-        class="sc-cHGsZl dDlztq"
+        class="sc-kgAjT jTsnPh"
       >
         <div
           class="sc-bdVaJa cdzpxt sc-htpNat cSpvfp"
         >
           <div
-            class="sc-hmzhuo gfPRCC"
+            class="sc-kvZOFW bnzsKz"
           >
             <h3
-              class="sc-kkGfuU jBsNXA"
+              class="sc-kEYyzF ipnzbE"
             >
               Add Teammates
             </h3>
           </div>
           <div
-            class="sc-kvZOFW bYFHGB"
+            class="sc-jbKcbu gDjedv"
           >
             <div
-              class="sc-jbKcbu sc-dNLxif eLTjYd"
+              class="sc-jqCOkK sc-uJMKN fnAvxY"
             >
               <div
                 class="sc-ifAKCX kkGugQ"
@@ -220,7 +220,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-cMljjf hVvvEw"
+                  class="sc-bRBYWo euhLcr"
                   color="grey"
                 >
                   Back to dashboard
