@@ -6,36 +6,29 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bdVaJa ePdClf"
       >
         <div
-          class="sc-htpNat dAVxPZ"
+          class="sc-bwzfXH dNrEvZ"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
+              class="sc-htpNat Tzmao"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-htoDjs uoYeN"
+            class="sc-bZQynM ipEubh"
           >
-            <a
-              class="sc-gzVnrw iMlYtV"
-              to="/login"
+            <button
+              class="sc-bxivhb bYbCIa sc-gzVnrw THGLO"
+              color="grey"
             >
-              Log In
-            </a>
-            <a
-              class="sc-gzVnrw ckmzAY"
-              color="blue"
-              to="/register"
-            >
-              Sign Up
-            </a>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -43,36 +36,29 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa gOhKpA"
+      class="sc-bdVaJa ePdClf"
     >
       <div
-        class="sc-htpNat dAVxPZ"
+        class="sc-bwzfXH dNrEvZ"
       >
         <a
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-ifAKCX gCNDrT"
+            class="sc-htpNat Tzmao"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-htoDjs uoYeN"
+          class="sc-bZQynM ipEubh"
         >
-          <a
-            class="sc-gzVnrw iMlYtV"
-            to="/login"
+          <button
+            class="sc-bxivhb bYbCIa sc-gzVnrw THGLO"
+            color="grey"
           >
-            Log In
-          </a>
-          <a
-            class="sc-gzVnrw ckmzAY"
-            color="blue"
-            to="/register"
-          >
-            Sign Up
-          </a>
+            Log Out
+          </button>
         </div>
       </div>
     </div>

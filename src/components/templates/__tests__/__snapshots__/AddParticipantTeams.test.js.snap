@@ -1,92 +1,111 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Asserts that text nodes on ResetPasswordConfirmation.js,render properly ResetPassword.js component renders properly 1`] = `
+exports[`Shows all the text nodes on AddParticipantTeam.js that are contained on the making an event form asserts that the component renders properly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div>
         <div
-          class="sc-jlyJG gqVEMV"
+          class="sc-fAjcbJ dFpOsz"
         >
           <div
-            class="sc-gipzik iMUvor"
+            class="sc-gisBJw cQKDkE"
           >
             <a
-              href="/"
+              href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-csuQGl kFceIF"
+                class="sc-jhAzac ktJPwj"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-Rmtcm dRbFKN"
+              class="sc-iyvyFf doHmSe"
             >
-              <button
-                class="sc-jWBwVP jbHuyu sc-bRBYWo dnJANG"
-                color="grey"
-              >
-                Log Out
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-kAzzGY eizZzY"
-        >
-          <div
-            class="sc-bdVaJa ezLspW"
-          >
-            <img
-              alt="Password Sent"
-              class="sc-htpNat utlBc"
-              src="Password-sent.png"
-            />
-            <div
-              class="sc-bxivhb kghskN"
-            >
-              <h1
-                class="sc-EHOje jRAwg"
-              >
-                Check your inbox
-              </h1>
-              <p
-                class="sc-VigVT kVbxpP"
-              >
-                Please check your email inbox for directions on how to reset your password.
-              </p>
               <div
-                class="sc-jzJRlG kqmEzU"
+                class="sc-cHGsZl cPfHSi"
               >
-                <a
-                  class="sc-cMljjf gyadOy"
-                  to="/login"
+                8
+                <ul
+                  class="sc-TOsTZ cRsxAO"
                 >
-                  Return to Login page
-                </a>
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
         <div
-          class="sc-chPdSV hsceMA"
+          class="sc-dVhcbM dJkUMh"
+        >
+          <div
+            class="sc-bdVaJa iPqVLp sc-htpNat cSpvfp"
+          >
+            <div
+              class="sc-kgAjT eagLfN"
+            >
+              <h3
+                class="sc-chPdSV jQbecn"
+              >
+                Add Teammates
+              </h3>
+            </div>
+            <div
+              class="sc-ksYbfQ jpQrWi"
+            >
+              <div
+                class="sc-frDJqD sc-kvZOFW gbAuwW"
+              >
+                <div
+                  class="sc-ifAKCX kADRUv"
+                  display="wide"
+                >
+                  <input
+                    placeholder="Search by email"
+                    type="text"
+                    value=""
+                  />
+                  <button
+                    class="sc-jDwBTQ jCbaIJ"
+                    color="grey"
+                  >
+                    Back to dashboard
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-iwsKbI hpFEep"
         >
           <p
-            class="sc-dxgOiQ cecdGI"
+            class="sc-jTzLTM iPDHvH"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-kgoBCf sc-kpOJdX hGdEkm"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-kgoBCf sc-kpOJdX hGdEkm"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Contacts
@@ -99,86 +118,105 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-jlyJG gqVEMV"
+        class="sc-fAjcbJ dFpOsz"
       >
         <div
-          class="sc-gipzik iMUvor"
+          class="sc-gisBJw cQKDkE"
         >
           <a
-            href="/"
+            href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-csuQGl kFceIF"
+              class="sc-jhAzac ktJPwj"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-Rmtcm dRbFKN"
+            class="sc-iyvyFf doHmSe"
           >
-            <button
-              class="sc-jWBwVP jbHuyu sc-bRBYWo dnJANG"
-              color="grey"
-            >
-              Log Out
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-kAzzGY eizZzY"
-      >
-        <div
-          class="sc-bdVaJa ezLspW"
-        >
-          <img
-            alt="Password Sent"
-            class="sc-htpNat utlBc"
-            src="Password-sent.png"
-          />
-          <div
-            class="sc-bxivhb kghskN"
-          >
-            <h1
-              class="sc-EHOje jRAwg"
-            >
-              Check your inbox
-            </h1>
-            <p
-              class="sc-VigVT kVbxpP"
-            >
-              Please check your email inbox for directions on how to reset your password.
-            </p>
             <div
-              class="sc-jzJRlG kqmEzU"
+              class="sc-cHGsZl cPfHSi"
             >
-              <a
-                class="sc-cMljjf gyadOy"
-                to="/login"
+              8
+              <ul
+                class="sc-TOsTZ cRsxAO"
               >
-                Return to Login page
-              </a>
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
       <div
-        class="sc-chPdSV hsceMA"
+        class="sc-dVhcbM dJkUMh"
+      >
+        <div
+          class="sc-bdVaJa iPqVLp sc-htpNat cSpvfp"
+        >
+          <div
+            class="sc-kgAjT eagLfN"
+          >
+            <h3
+              class="sc-chPdSV jQbecn"
+            >
+              Add Teammates
+            </h3>
+          </div>
+          <div
+            class="sc-ksYbfQ jpQrWi"
+          >
+            <div
+              class="sc-frDJqD sc-kvZOFW gbAuwW"
+            >
+              <div
+                class="sc-ifAKCX kADRUv"
+                display="wide"
+              >
+                <input
+                  placeholder="Search by email"
+                  type="text"
+                  value=""
+                />
+                <button
+                  class="sc-jDwBTQ jCbaIJ"
+                  color="grey"
+                >
+                  Back to dashboard
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-iwsKbI hpFEep"
       >
         <p
-          class="sc-dxgOiQ cecdGI"
+          class="sc-jTzLTM iPDHvH"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-kgoBCf sc-kpOJdX hGdEkm"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-kgoBCf sc-kpOJdX hGdEkm"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Contacts

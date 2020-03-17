@@ -1,19 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LoginPage.js renders the LoginPage component correctly 1`] = `
+exports[`Shows all the text nodes on AddTeammates.js that are contained on the making an event form asserts that the component renders properly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div>
         <div
-          class="sc-brqgnP krViPx"
+          class="sc-Rmtcm kaTiWC"
         >
           <div
-            class="sc-cMljjf cssdrh"
+            class="sc-hzDkRC bLQLVc"
           >
             <a
-              href="/"
+              href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -22,14 +22,29 @@ Object {
               />
             </a>
             <div
-              class="sc-jDwBTQ kNciuA"
+              class="sc-iyvyFf doHmSe"
             >
-              <button
-                class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
-                color="grey"
+              <div
+                class="sc-fBuWsC kjYLiI"
               >
-                Log Out
-              </button>
+                8
+                <ul
+                  class="sc-fMiknA ixPLQi"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -37,13 +52,41 @@ Object {
           class="sc-iRbamj dyFMRm"
         >
           <div
-            class="sc-jlyJG kipBxx"
+            class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
           >
-            <img
-              alt="Log In now!!"
-              class="sc-csuQGl bVjPnR"
-              src="Login.png"
-            />
+            <div
+              class="sc-dVhcbM iWcBSy"
+            >
+              <h3
+                class="sc-dnqmqq igidRh"
+              >
+                Add Teammates
+              </h3>
+            </div>
+            <div
+              class="sc-fAjcbJ jFpqbf"
+            >
+              <div
+                class="sc-gisBJw sc-kjoXOD jjwBFH"
+              >
+                <div
+                  class="sc-bYSBpT iAZFpI"
+                  display="wide"
+                >
+                  <input
+                    placeholder="Search by email"
+                    type="text"
+                    value=""
+                  />
+                  <button
+                    class="sc-kEYyzF kbIspq"
+                    color="grey"
+                  >
+                    Back to dashboard
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div
@@ -75,13 +118,13 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-brqgnP krViPx"
+        class="sc-Rmtcm kaTiWC"
       >
         <div
-          class="sc-cMljjf cssdrh"
+          class="sc-hzDkRC bLQLVc"
         >
           <a
-            href="/"
+            href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
@@ -90,14 +133,29 @@ Object {
             />
           </a>
           <div
-            class="sc-jDwBTQ kNciuA"
+            class="sc-iyvyFf doHmSe"
           >
-            <button
-              class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
-              color="grey"
+            <div
+              class="sc-fBuWsC kjYLiI"
             >
-              Log Out
-            </button>
+              8
+              <ul
+                class="sc-fMiknA ixPLQi"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -105,13 +163,41 @@ Object {
         class="sc-iRbamj dyFMRm"
       >
         <div
-          class="sc-jlyJG kipBxx"
+          class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
         >
-          <img
-            alt="Log In now!!"
-            class="sc-csuQGl bVjPnR"
-            src="Login.png"
-          />
+          <div
+            class="sc-dVhcbM iWcBSy"
+          >
+            <h3
+              class="sc-dnqmqq igidRh"
+            >
+              Add Teammates
+            </h3>
+          </div>
+          <div
+            class="sc-fAjcbJ jFpqbf"
+          >
+            <div
+              class="sc-gisBJw sc-kjoXOD jjwBFH"
+            >
+              <div
+                class="sc-bYSBpT iAZFpI"
+                display="wide"
+              >
+                <input
+                  placeholder="Search by email"
+                  type="text"
+                  value=""
+                />
+                <button
+                  class="sc-kEYyzF kbIspq"
+                  color="grey"
+                >
+                  Back to dashboard
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div

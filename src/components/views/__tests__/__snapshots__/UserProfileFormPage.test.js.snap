@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-jnlKLf kspEJj"
+              class="sc-tilXH iUsghC"
             >
               <div
                 class="sc-EHOje kXozTT"
@@ -49,13 +49,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-csuQGl iAUCjr"
+          class="sc-hzDkRC cBfjrB"
         >
           <div
-            class="sc-bRBYWo lcPSIx sc-kvZOFW XPmfx"
+            class="sc-jhAzac jxgZSd sc-jbKcbu iFCIT"
           >
             <div
-              class="sc-fBuWsC bRNRRb"
+              class="sc-dVhcbM iWcBSy"
             >
               <h3
                 class="sc-jzJRlG dhdOHq"
@@ -64,22 +64,22 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-dVhcbM dAdOKc"
+              class="sc-fAjcbJ DOSjX"
             >
               <div
-                class="sc-TOsTZ sc-kgAjT sc-jbKcbu iPJENe"
+                class="sc-cJSrbW sc-ksYbfQ sc-jqCOkK jnpjEb"
               >
                 <form
                   action="#"
                 >
                   <label
-                    class="sc-jWBwVP sc-hqyNC gfFNVj"
+                    class="sc-jWBwVP sc-dNLxif hwfiyt"
                     for="image"
                   >
                     Profile picture
                   </label>
                   <figure
-                    class="sc-cHGsZl eOdEzv"
+                    class="sc-kgAjT igvAIP"
                   >
                     <div>
                       <img
@@ -92,7 +92,7 @@ Object {
                     </p>
                   </figure>
                   <div
-                    class="sc-dVhcbM dAdOKc"
+                    class="sc-fAjcbJ DOSjX"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -110,7 +110,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-dVhcbM dAdOKc"
+                    class="sc-fAjcbJ DOSjX"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -129,10 +129,10 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-dVhcbM dAdOKc"
+                    class="sc-fAjcbJ DOSjX"
                   >
                     <div
-                      class="sc-fAjcbJ jFpqbf"
+                      class="sc-gisBJw crwmrK"
                     >
                       <label
                         class="sc-jWBwVP hzoveM"
@@ -150,7 +150,7 @@ Object {
                       />
                     </div>
                     <div
-                      class="sc-fAjcbJ jFpqbf"
+                      class="sc-gisBJw crwmrK"
                     >
                       <label
                         class="sc-jWBwVP hzoveM"
@@ -169,7 +169,7 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-dVhcbM dAdOKc"
+                    class="sc-fAjcbJ DOSjX"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -178,7 +178,7 @@ Object {
                       Bio
                     </label>
                     <div
-                      class="sc-gisBJw kdIAvR"
+                      class="sc-cHGsZl gHdjpq"
                     >
                       <textarea
                         name="bio"
@@ -189,7 +189,7 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-dVhcbM sc-dNLxif fLjDkv"
+                    class="sc-fAjcbJ sc-uJMKN tcxiG"
                   >
                     <a
                       href="/dashboard"
@@ -203,7 +203,7 @@ Object {
                       </button>
                     </a>
                     <button
-                      class="sc-brqgnP gyEPEd sc-jqCOkK dJZlyp"
+                      class="sc-brqgnP gyEPEd sc-bbmXgH eUNjaM"
                       color="green"
                       type="submit"
                     >
@@ -259,7 +259,7 @@ Object {
             />
           </a>
           <div
-            class="sc-jnlKLf kspEJj"
+            class="sc-tilXH iUsghC"
           >
             <div
               class="sc-EHOje kXozTT"
@@ -286,13 +286,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-csuQGl iAUCjr"
+        class="sc-hzDkRC cBfjrB"
       >
         <div
-          class="sc-bRBYWo lcPSIx sc-kvZOFW XPmfx"
+          class="sc-jhAzac jxgZSd sc-jbKcbu iFCIT"
         >
           <div
-            class="sc-fBuWsC bRNRRb"
+            class="sc-dVhcbM iWcBSy"
           >
             <h3
               class="sc-jzJRlG dhdOHq"
@@ -301,22 +301,22 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-dVhcbM dAdOKc"
+            class="sc-fAjcbJ DOSjX"
           >
             <div
-              class="sc-TOsTZ sc-kgAjT sc-jbKcbu iPJENe"
+              class="sc-cJSrbW sc-ksYbfQ sc-jqCOkK jnpjEb"
             >
               <form
                 action="#"
               >
                 <label
-                  class="sc-jWBwVP sc-hqyNC gfFNVj"
+                  class="sc-jWBwVP sc-dNLxif hwfiyt"
                   for="image"
                 >
                   Profile picture
                 </label>
                 <figure
-                  class="sc-cHGsZl eOdEzv"
+                  class="sc-kgAjT igvAIP"
                 >
                   <div>
                     <img
@@ -329,7 +329,7 @@ Object {
                   </p>
                 </figure>
                 <div
-                  class="sc-dVhcbM dAdOKc"
+                  class="sc-fAjcbJ DOSjX"
                 >
                   <label
                     class="sc-jWBwVP hzoveM"
@@ -347,7 +347,7 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-dVhcbM dAdOKc"
+                  class="sc-fAjcbJ DOSjX"
                 >
                   <label
                     class="sc-jWBwVP hzoveM"
@@ -366,10 +366,10 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-dVhcbM dAdOKc"
+                  class="sc-fAjcbJ DOSjX"
                 >
                   <div
-                    class="sc-fAjcbJ jFpqbf"
+                    class="sc-gisBJw crwmrK"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -387,7 +387,7 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-fAjcbJ jFpqbf"
+                    class="sc-gisBJw crwmrK"
                   >
                     <label
                       class="sc-jWBwVP hzoveM"
@@ -406,7 +406,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-dVhcbM dAdOKc"
+                  class="sc-fAjcbJ DOSjX"
                 >
                   <label
                     class="sc-jWBwVP hzoveM"
@@ -415,7 +415,7 @@ Object {
                     Bio
                   </label>
                   <div
-                    class="sc-gisBJw kdIAvR"
+                    class="sc-cHGsZl gHdjpq"
                   >
                     <textarea
                       name="bio"
@@ -426,7 +426,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-dVhcbM sc-dNLxif fLjDkv"
+                  class="sc-fAjcbJ sc-uJMKN tcxiG"
                 >
                   <a
                     href="/dashboard"
@@ -440,7 +440,7 @@ Object {
                     </button>
                   </a>
                   <button
-                    class="sc-brqgnP gyEPEd sc-jqCOkK dJZlyp"
+                    class="sc-brqgnP gyEPEd sc-bbmXgH eUNjaM"
                     color="green"
                     type="submit"
                   >
