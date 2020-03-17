@@ -1,3 +1,1222 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on HackathonForm.js that are contained on the making an event form renders without crashing  1`] = `undefined`;
+exports[`Shows all the text nodes on HackathonForm.js that are contained on the making an event form renders without crashing  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="sc-bdVaJa gOhKpA"
+        >
+          <div
+            class="sc-htpNat dAVxPZ"
+          >
+            <a
+              href="/dashboard"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-ifAKCX gCNDrT"
+                src="Hackton-logo.png"
+              />
+            </a>
+            <div
+              class="sc-iQNlJl jfTdcZ"
+            >
+              <div
+                class="sc-EHOje kXozTT"
+              >
+                8
+                <ul
+                  class="sc-bZQynM dfAYGq"
+                >
+                  <li>
+                    <a
+                      href="/dashboard/profile/edit"
+                    >
+                      Settings
+                    </a>
+                  </li>
+                  <li>
+                    <span>
+                      LogOut
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-fMiknA gLARYc"
+        >
+          <div
+            class="sc-eqIVtm sc-fYxtnH fViRow"
+          >
+            <div
+              class="sc-gisBJw fdfqLi"
+            >
+              <h3
+                class="sc-jKJlTe giRPFq"
+              >
+                Create New Hackathon
+              </h3>
+            </div>
+            <div
+              class="sc-kgAjT fhOGzY"
+            >
+              <div
+                class="sc-ksYbfQ sc-frDJqD gvunhz"
+              >
+                <form
+                  action="#"
+                >
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="event_title"
+                    >
+                      Hackathon Title
+                    </label>
+                    <input
+                      class="sc-Rmtcm gqfbIr"
+                      display="wide"
+                      id="event_title"
+                      name="event_title"
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                    <div
+                      class="sc-kgAjT fhOGzY"
+                    >
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="start_date"
+                      >
+                        Event Starts
+                      </label>
+                      <input
+                        class="sc-Rmtcm lbjKQH"
+                        id="start_date"
+                        min="2020-03-17"
+                        name="start_date"
+                        placeholder="Event starts"
+                        type="date"
+                        value="2020-03-17"
+                      />
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                    <div
+                      class="sc-kgAjT fhOGzY"
+                    >
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="end_date"
+                      >
+                        Event Ends
+                      </label>
+                      <input
+                        class="sc-Rmtcm lbjKQH"
+                        id="end_date"
+                        min=""
+                        name="end_date"
+                        placeholder="Event ends"
+                        type="date"
+                        value="2020-03-17"
+                      />
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="event_description"
+                    >
+                      Description
+                    </label>
+                    <div
+                      class="sc-gGBfsJ iilUTs"
+                    >
+                      <textarea
+                        id="event_description"
+                        name="event_description"
+                        type="text"
+                      />
+                    </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                     
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="input_tags"
+                    >
+                      Tags
+                    </label>
+                    <div
+                      class="input-tag"
+                      id="input_tags"
+                      tags=""
+                    >
+                      <ul
+                        class="input-tag__tags"
+                      >
+                        <li
+                          class="input-tag__tags__input"
+                        >
+                          <input
+                            maxlength="20"
+                            type="text"
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                    <div
+                      class="sc-kgAjT fhOGzY"
+                    >
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="participation_type"
+                      >
+                        Participation Type
+                      </label>
+                      <select
+                        class="sc-jnlKLf jSfQSO"
+                        id="participation_type"
+                        name="participation_type"
+                      >
+                        <option
+                          disabled=""
+                          hidden=""
+                          value=""
+                        >
+                          Choose
+                        </option>
+                        <option
+                          value="individual"
+                        >
+                          Individual
+                        </option>
+                        <option
+                          value="team"
+                        >
+                          Team
+                        </option>
+                        <option
+                          value="both"
+                        >
+                          Both
+                        </option>
+                      </select>
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                    <div
+                      class="sc-kgAjT fhOGzY"
+                    >
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="event_category"
+                      >
+                        Event Category
+                      </label>
+                      <select
+                        class="sc-jnlKLf jSfQSO"
+                        id="event_category"
+                        name="event_category"
+                      >
+                        <option
+                          value=""
+                        >
+                          Choose
+                        </option>
+                        <option
+                          value="2"
+                        >
+                          Summer Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          World Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          Asia Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          Gamer's Hackton
+                        </option>
+                        <option
+                          value="3"
+                        >
+                          Advanced Hackton
+                        </option>
+                      </select>
+                      <span
+                        class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="location"
+                    >
+                      Location
+                    </label>
+                    <input
+                      class="sc-Rmtcm gqfbIr"
+                      display="wide"
+                      id="location"
+                      name="location"
+                      type="text"
+                      value=""
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                    id="grading_rubrics"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="grading_rubrics"
+                    >
+                      Grading Rubrics
+                    </label>
+                    <p
+                      class="sc-kAzzGY brIVdx"
+                    >
+                      Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
+                    </p>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="presentation"
+                        name="rubrics"
+                        type="checkbox"
+                        value="presentation"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="presentation"
+                      >
+                        Presentation
+                      </label>
+                    </div>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="product_fit"
+                        name="rubrics"
+                        type="checkbox"
+                        value="product_fit"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="product_fit"
+                      >
+                        Product Fit
+                      </label>
+                    </div>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="functionality"
+                        name="rubrics"
+                        type="checkbox"
+                        value="functionality"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="functionality"
+                      >
+                        Functionality
+                      </label>
+                    </div>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="innovation"
+                        name="rubrics"
+                        type="checkbox"
+                        value="innovation"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="innovation"
+                      >
+                        Innovation
+                      </label>
+                    </div>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="product_design"
+                        name="rubrics"
+                        type="checkbox"
+                        value="product_design"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="product_design"
+                      >
+                        Product Design
+                      </label>
+                    </div>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="extensibility"
+                        name="rubrics"
+                        type="checkbox"
+                        value="extensibility"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="extensibility"
+                      >
+                        Extensibility
+                      </label>
+                    </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="guidelines"
+                    >
+                      Guidelines
+                    </label>
+                    <div
+                      class="sc-gGBfsJ iilUTs"
+                    >
+                      <textarea
+                        id="guidelines"
+                        name="guidelines"
+                        type="text"
+                      />
+                    </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <label
+                    class="sc-iRbamj TTCda"
+                    for="submission_requirements"
+                  >
+                    Project Submission Requirements
+                  </label>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                    id="submission_requirements"
+                  >
+                    <p
+                      class="sc-kAzzGY brIVdx"
+                    >
+                      Participants will be expected to submit which one of the following (tick on all that apply)
+                    </p>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="video_url"
+                        name="requirements"
+                        type="checkbox"
+                        value="video_url"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="video_url"
+                      >
+                        Video URL
+                      </label>
+                    </div>
+                    <div
+                      class="sc-jqCOkK hRLaDQ"
+                    >
+                      <input
+                        class="sc-bbmXgH hsTpOe"
+                        id="github_url"
+                        name="requirements"
+                        type="checkbox"
+                        value="github_url"
+                      />
+                      <label
+                        class="sc-iRbamj TTCda"
+                        for="github_url"
+                      >
+                        GitHub URL
+                      </label>
+                    </div>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-cHGsZl dmLcSi"
+                  >
+                    <div
+                      class="sc-epnACN bHPajQ"
+                    >
+                      <a
+                        class="sc-csuQGl bmMCJi"
+                        color="grey"
+                        to="/dashboard"
+                      >
+                        Cancel
+                      </a>
+                      <button
+                        class="sc-jlyJG dfJCKF"
+                        color="green"
+                        type="submit"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-gzVnrw bRGEaa"
+        >
+          <div
+            class="sc-dnqmqq dBtDWt"
+          >
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                alt="Hackton - Organise hackathons"
+                class="sc-kAzzGY sc-chPdSV gAkGJE"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="sc-bdVaJa gOhKpA"
+      >
+        <div
+          class="sc-htpNat dAVxPZ"
+        >
+          <a
+            href="/dashboard"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-ifAKCX gCNDrT"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-iQNlJl jfTdcZ"
+          >
+            <div
+              class="sc-EHOje kXozTT"
+            >
+              8
+              <ul
+                class="sc-bZQynM dfAYGq"
+              >
+                <li>
+                  <a
+                    href="/dashboard/profile/edit"
+                  >
+                    Settings
+                  </a>
+                </li>
+                <li>
+                  <span>
+                    LogOut
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-fMiknA gLARYc"
+      >
+        <div
+          class="sc-eqIVtm sc-fYxtnH fViRow"
+        >
+          <div
+            class="sc-gisBJw fdfqLi"
+          >
+            <h3
+              class="sc-jKJlTe giRPFq"
+            >
+              Create New Hackathon
+            </h3>
+          </div>
+          <div
+            class="sc-kgAjT fhOGzY"
+          >
+            <div
+              class="sc-ksYbfQ sc-frDJqD gvunhz"
+            >
+              <form
+                action="#"
+              >
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                  <label
+                    class="sc-iRbamj TTCda"
+                    for="event_title"
+                  >
+                    Hackathon Title
+                  </label>
+                  <input
+                    class="sc-Rmtcm gqfbIr"
+                    display="wide"
+                    id="event_title"
+                    name="event_title"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                  <div
+                    class="sc-kgAjT fhOGzY"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="start_date"
+                    >
+                      Event Starts
+                    </label>
+                    <input
+                      class="sc-Rmtcm lbjKQH"
+                      id="start_date"
+                      min="2020-03-17"
+                      name="start_date"
+                      placeholder="Event starts"
+                      type="date"
+                      value="2020-03-17"
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-kgAjT fhOGzY"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="end_date"
+                    >
+                      Event Ends
+                    </label>
+                    <input
+                      class="sc-Rmtcm lbjKQH"
+                      id="end_date"
+                      min=""
+                      name="end_date"
+                      placeholder="Event ends"
+                      type="date"
+                      value="2020-03-17"
+                    />
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                  <label
+                    class="sc-iRbamj TTCda"
+                    for="event_description"
+                  >
+                    Description
+                  </label>
+                  <div
+                    class="sc-gGBfsJ iilUTs"
+                  >
+                    <textarea
+                      id="event_description"
+                      name="event_description"
+                      type="text"
+                    />
+                  </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                   
+                  <label
+                    class="sc-iRbamj TTCda"
+                    for="input_tags"
+                  >
+                    Tags
+                  </label>
+                  <div
+                    class="input-tag"
+                    id="input_tags"
+                    tags=""
+                  >
+                    <ul
+                      class="input-tag__tags"
+                    >
+                      <li
+                        class="input-tag__tags__input"
+                      >
+                        <input
+                          maxlength="20"
+                          type="text"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                  <div
+                    class="sc-kgAjT fhOGzY"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="participation_type"
+                    >
+                      Participation Type
+                    </label>
+                    <select
+                      class="sc-jnlKLf jSfQSO"
+                      id="participation_type"
+                      name="participation_type"
+                    >
+                      <option
+                        disabled=""
+                        hidden=""
+                        value=""
+                      >
+                        Choose
+                      </option>
+                      <option
+                        value="individual"
+                      >
+                        Individual
+                      </option>
+                      <option
+                        value="team"
+                      >
+                        Team
+                      </option>
+                      <option
+                        value="both"
+                      >
+                        Both
+                      </option>
+                    </select>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                  <div
+                    class="sc-kgAjT fhOGzY"
+                  >
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="event_category"
+                    >
+                      Event Category
+                    </label>
+                    <select
+                      class="sc-jnlKLf jSfQSO"
+                      id="event_category"
+                      name="event_category"
+                    >
+                      <option
+                        value=""
+                      >
+                        Choose
+                      </option>
+                      <option
+                        value="2"
+                      >
+                        Summer Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        World Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        Asia Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        Gamer's Hackton
+                      </option>
+                      <option
+                        value="3"
+                      >
+                        Advanced Hackton
+                      </option>
+                    </select>
+                    <span
+                      class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                  <label
+                    class="sc-iRbamj TTCda"
+                    for="location"
+                  >
+                    Location
+                  </label>
+                  <input
+                    class="sc-Rmtcm gqfbIr"
+                    display="wide"
+                    id="location"
+                    name="location"
+                    type="text"
+                    value=""
+                  />
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                  id="grading_rubrics"
+                >
+                  <label
+                    class="sc-iRbamj TTCda"
+                    for="grading_rubrics"
+                  >
+                    Grading Rubrics
+                  </label>
+                  <p
+                    class="sc-kAzzGY brIVdx"
+                  >
+                    Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
+                  </p>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="presentation"
+                      name="rubrics"
+                      type="checkbox"
+                      value="presentation"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="presentation"
+                    >
+                      Presentation
+                    </label>
+                  </div>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="product_fit"
+                      name="rubrics"
+                      type="checkbox"
+                      value="product_fit"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="product_fit"
+                    >
+                      Product Fit
+                    </label>
+                  </div>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="functionality"
+                      name="rubrics"
+                      type="checkbox"
+                      value="functionality"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="functionality"
+                    >
+                      Functionality
+                    </label>
+                  </div>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="innovation"
+                      name="rubrics"
+                      type="checkbox"
+                      value="innovation"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="innovation"
+                    >
+                      Innovation
+                    </label>
+                  </div>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="product_design"
+                      name="rubrics"
+                      type="checkbox"
+                      value="product_design"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="product_design"
+                    >
+                      Product Design
+                    </label>
+                  </div>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="extensibility"
+                      name="rubrics"
+                      type="checkbox"
+                      value="extensibility"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="extensibility"
+                    >
+                      Extensibility
+                    </label>
+                  </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                  <label
+                    class="sc-iRbamj TTCda"
+                    for="guidelines"
+                  >
+                    Guidelines
+                  </label>
+                  <div
+                    class="sc-gGBfsJ iilUTs"
+                  >
+                    <textarea
+                      id="guidelines"
+                      name="guidelines"
+                      type="text"
+                    />
+                  </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <label
+                  class="sc-iRbamj TTCda"
+                  for="submission_requirements"
+                >
+                  Project Submission Requirements
+                </label>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                  id="submission_requirements"
+                >
+                  <p
+                    class="sc-kAzzGY brIVdx"
+                  >
+                    Participants will be expected to submit which one of the following (tick on all that apply)
+                  </p>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="video_url"
+                      name="requirements"
+                      type="checkbox"
+                      value="video_url"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="video_url"
+                    >
+                      Video URL
+                    </label>
+                  </div>
+                  <div
+                    class="sc-jqCOkK hRLaDQ"
+                  >
+                    <input
+                      class="sc-bbmXgH hsTpOe"
+                      id="github_url"
+                      name="requirements"
+                      type="checkbox"
+                      value="github_url"
+                    />
+                    <label
+                      class="sc-iRbamj TTCda"
+                      for="github_url"
+                    >
+                      GitHub URL
+                    </label>
+                  </div>
+                  <span
+                    class="sc-hSdWYo sc-jWBwVP bnIrCk"
+                  />
+                </div>
+                <div
+                  class="sc-cHGsZl dmLcSi"
+                >
+                  <div
+                    class="sc-epnACN bHPajQ"
+                  >
+                    <a
+                      class="sc-csuQGl bmMCJi"
+                      color="grey"
+                      to="/dashboard"
+                    >
+                      Cancel
+                    </a>
+                    <button
+                      class="sc-jlyJG dfJCKF"
+                      color="green"
+                      type="submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-gzVnrw bRGEaa"
+      >
+        <div
+          class="sc-dnqmqq dBtDWt"
+        >
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              alt="Hackton - Organise hackathons"
+              class="sc-kAzzGY sc-chPdSV gAkGJE"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -15,7 +15,7 @@ export const BodyContainerColumn = styled(props => (
   flex-direction: column;
   justify-content: start;
 `;
-export const NewLabel = styled(Label)`
+export const NewLabel = styled(LabelN)`
 padding-left: 3px;
 @media ${media.tablet} {
   display: none;
