@@ -11,7 +11,7 @@ import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import Button from "../atoms/Button";
-import { Label } from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
