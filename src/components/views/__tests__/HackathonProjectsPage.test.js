@@ -9,10 +9,10 @@ import { initialState } from "../../../utils/mockData";
 import HackathonProjectsPage from "../HackathonProjectsPage";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -53,7 +53,9 @@ describe("Component HackathonProjectsPage.js renders properly", () => {
   it("asserts that the Title of the event text node renders properly ", () => {
     expect(component.queryByText(/World/i)).toBeInTheDocument();
   });
-  it("asserts that the <img> logo for the FB icon renders properly ", () => {
-    expect(component.queryByAltText(/facebook/i)).toBeInTheDocument();
+  it("asserts the text copyright text node is rendering", () => {
+    expect(
+      component.getByText("International Crafters © 2020")
+    ).toBeInTheDocument();
   });
 });

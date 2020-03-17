@@ -9,10 +9,10 @@ import "@testing-library/jest-dom/extend-expect";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -43,19 +43,17 @@ describe("It should render <Footer/> template correctly", () => {
     expect(component).toMatchSnapshot();
   });
 
-  it("renders a linkedIn icon", () => {
-    expect(component.queryByAltText(/LinkedIn/i)).toBeInTheDocument();
-  });
-
-  it("renders a Twitter icon", () => {
-    expect(component.queryByAltText(/Twitter/i)).toBeInTheDocument();
-  });
-
-  it("renders a Facebook icon", () => {
-    expect(component.queryByAltText(/Facebook/i)).toBeInTheDocument();
+  it("renders the footer copyright text", () => {
+    expect(
+      component.queryByText("International Crafters © 2020")
+    ).toBeInTheDocument();
   });
 
   it("renders the Privacy link", () => {
     expect(component.queryByText(/Privacy/i)).toBeInTheDocument();
+  });
+
+  it("renders the Contact link", () => {
+    expect(component.queryByText(/Contact/i)).toBeInTheDocument();
   });
 });
