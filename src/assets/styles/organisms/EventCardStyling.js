@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { IconLetterN } from "../atoms/IconLetter";
 import { ParagraphN } from "../atoms/Paragraph";
-import { IconN } from "../../../components/atoms/Icon";
+import Icon from "../../../components/atoms/IconN";
 
 export const StyledEventCardN = styled.div`
 text-decoration: none;
@@ -68,14 +68,14 @@ border-radius: 3px;
 padding: 5px 10px;
 `;
 
-export const StyledBookmarkIconN = styled(IconN)`
+export const StyledBookmarkIconN = styled(Icon)`
 position: absolute; top: -5px; left: 10px;
 font-size: 3rem;
 color: ${props => props.theme.color.primary.regular};
 cursor: pointer;
 `;
 
-export const StyledStarIconN = styled(IconN)`
+export const StyledStarIconN = styled(Icon)`
 position: absolute; top: 0; left: 11px;
 font-size: 1.8rem;
 color: ${props => props.theme.color.white.regular};
