@@ -12,7 +12,7 @@ import {
   LinkDetailsN,
   UserContainerN,
   StyledButtonN
-} from "../../assets/styles/molecules/NavStyling";
+} from "../../assets/styles/organisms/NavStyling";
 import { ProfileImg } from "../atoms/ProfileImg";
 import { IconN } from "../atoms/Icon";
 
