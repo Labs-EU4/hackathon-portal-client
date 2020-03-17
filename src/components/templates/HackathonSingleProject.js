@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import { WideBody } from "../../assets/styles/atoms/WideBody";
-// import Nav from "../molecules/Nav";
+// import Nav from "../organisms/Nav";
 import { H3, H4 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";

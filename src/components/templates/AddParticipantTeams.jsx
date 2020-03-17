@@ -9,7 +9,7 @@ import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";
 import { CardWide } from "../../assets/styles/atoms/Card";
-// import Nav from "../molecules/Nav";
+// import Nav from "../organisms/Nav";
 import { SearchWidget, ParticipantRoleWidget, ParticipantInviteWidget } from "./widgets";
 import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 

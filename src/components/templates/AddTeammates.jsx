@@ -9,7 +9,7 @@ import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";
 import { CardWide } from "../../assets/styles/atoms/Card";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
-// import Nav from "../molecules/Nav";
+// import Nav from "../organisms/Nav";
 import { BodyContainerColumn } from "../../assets/styles/templates/AddTeammatesStyling";
 import { SearchWidget, TeamRoleWidget, TeamInviteWidget } from "./widgets";
 import { useHistory } from "react-router-dom";

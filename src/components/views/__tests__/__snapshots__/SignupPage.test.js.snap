@@ -15,25 +15,23 @@ Object {
             <a
               href="/"
             >
-              <figure
-                class="sc-bRBYWo czjYxr"
-              >
-                <p>
-                  HackHunt
-                </p>
-              </figure>
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-Rmtcm gaRwHN"
+                src="Hackton-logo.png"
+              />
             </a>
             <div
-              class="sc-fBuWsC fafkCC"
+              class="sc-bRBYWo jvZiaU"
             >
               <a
-                class="sc-hMqMXs dgpFZN"
-                href="/login"
+                class="sc-kEYyzF bqfGNC"
+                to="/login"
               >
                 Log In
               </a>
               <a
-                class="sc-hMqMXs hwKVTy"
+                class="sc-kEYyzF dzbLNq"
                 color="blue"
                 to="/register"
               >
@@ -43,14 +41,14 @@ Object {
           </div>
         </div>
         <div
-          class="sc-fMiknA gLARYc"
+          class="sc-hzDkRC Lgjin"
         >
           <div
-            class="sc-eqIVtm cOkTRS"
+            class="sc-fBuWsC fQToLD"
           >
             <img
               alt="Sign Up now!!"
-              class="sc-caSCKo gnMJWs"
+              class="sc-dVhcbM knPQfC"
               src="Signup.png"
             />
           </div>
@@ -100,6 +98,7 @@ Object {
             </div>
             <div>
               <p
+                alt="Hackton - Organise hackathons"
                 class="sc-gZMcBi sc-gqjmRU kdNvVY"
               >
                 International Crafters © 2020
@@ -121,25 +120,23 @@ Object {
           <a
             href="/"
           >
-            <figure
-              class="sc-bRBYWo czjYxr"
-            >
-              <p>
-                HackHunt
-              </p>
-            </figure>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-Rmtcm gaRwHN"
+              src="Hackton-logo.png"
+            />
           </a>
           <div
-            class="sc-fBuWsC fafkCC"
+            class="sc-bRBYWo jvZiaU"
           >
             <a
-              class="sc-hMqMXs dgpFZN"
-              href="/login"
+              class="sc-kEYyzF bqfGNC"
+              to="/login"
             >
               Log In
             </a>
             <a
-              class="sc-hMqMXs hwKVTy"
+              class="sc-kEYyzF dzbLNq"
               color="blue"
               to="/register"
             >
@@ -149,14 +146,14 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fMiknA gLARYc"
+        class="sc-hzDkRC Lgjin"
       >
         <div
-          class="sc-eqIVtm cOkTRS"
+          class="sc-fBuWsC fQToLD"
         >
           <img
             alt="Sign Up now!!"
-            class="sc-caSCKo gnMJWs"
+            class="sc-dVhcbM knPQfC"
             src="Signup.png"
           />
         </div>
@@ -206,6 +203,7 @@ Object {
           </div>
           <div>
             <p
+              alt="Hackton - Organise hackathons"
               class="sc-gZMcBi sc-gqjmRU kdNvVY"
             >
               International Crafters © 2020

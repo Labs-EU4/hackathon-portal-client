@@ -20,7 +20,7 @@ const TeamView = ({ team }) => {
     state.events.data.find(event => event.id === Number(id))
   );
 
-  const [teammates, fetchTeammates] = useTeammates(team?.id);
+  const [teammates, fetchTeammates] = useTeammates(team ?.id);
 
   let memberProfile;
 
@@ -44,22 +44,22 @@ const TeamView = ({ team }) => {
             member.team_member_avatar === null ? (
               <Img key={i} alt="team member profile pic" src={user_icon} />
             ) : (
-              member.team_member_avatar.map((mem, index) => {
-                memberProfile = JSON.parse(mem);
-                return (
-                  <ImgWithBorder
-                    key={index}
-                    alt="team member profile pic"
-                    src={memberProfile.avatar}
-                  />
-                );
-              })
-            )
+                member.team_member_avatar.map((mem, index) => {
+                  memberProfile = JSON.parse(mem);
+                  return (
+                    <ImgWithBorder
+                      key={index}
+                      alt="team member profile pic"
+                      src={memberProfile.avatar}
+                    />
+                  );
+                })
+              )
           )}
         </TeamMateDiv>
       ) : (
-        <FancyBoldSpan>This team has no members</FancyBoldSpan>
-      )}
+          <FancyBoldSpan>This team has no members</FancyBoldSpan>
+        )}
       <FancyBoldSpan>
         Hackathon Name:
         <NormalSpan>{event_title}</NormalSpan>

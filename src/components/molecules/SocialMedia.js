@@ -7,7 +7,7 @@ const SocialMedia = () => (
   <SocialMediaContainer>
     <StrikedSpanN >OR LOGIN WITH</StrikedSpanN>
     <MediaIcons />
-  </SocialIcon>
+  </SocialMediaContainer>
 );
 
 export default SocialMedia;

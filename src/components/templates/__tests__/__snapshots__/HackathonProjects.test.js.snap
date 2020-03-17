@@ -15,23 +15,21 @@ Object {
             <a
               href="/dashboard"
             >
-              <figure
-                class="sc-jAaTju iIKRbb"
-              >
-                <p>
-                  HackHunt
-                </p>
-              </figure>
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-cMljjf jVjzeq"
+                src="Hackton-logo.png"
+              />
             </a>
             <div
-              class="sc-bYSBpT ikxKzt"
+              class="sc-elJkPf cDdFgb"
             >
               <div
                 class="sc-jAaTju hMumwu"
               >
                 8
                 <ul
-                  class="sc-jDwBTQ hwBHO"
+                  class="sc-jDwBTQ fmKuHP"
                 >
                   <li>
                     <a
@@ -51,13 +49,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-cIShpX itEEzN"
+          class="sc-kafWEX eGCIGd"
         >
           <div
             class="sc-bdVaJa cdzpxt sc-VigVT kLsUCd"
           >
             <div
-              class="sc-iELTvK eeyRPl"
+              class="sc-cmTdod gMJnIG"
             >
               <h3
                 class="sc-kjoXOD jdYCyP"
@@ -73,7 +71,7 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-jwKygS bplyQm"
+              class="sc-btzYZH fgIPSW"
             >
               <div
                 class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
@@ -226,23 +224,21 @@ Object {
           <a
             href="/dashboard"
           >
-            <figure
-              class="sc-jAaTju iIKRbb"
-            >
-              <p>
-                HackHunt
-              </p>
-            </figure>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-cMljjf jVjzeq"
+              src="Hackton-logo.png"
+            />
           </a>
           <div
-            class="sc-bYSBpT ikxKzt"
+            class="sc-elJkPf cDdFgb"
           >
             <div
               class="sc-jAaTju hMumwu"
             >
               8
               <ul
-                class="sc-jDwBTQ hwBHO"
+                class="sc-jDwBTQ fmKuHP"
               >
                 <li>
                   <a
@@ -262,13 +258,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-cIShpX itEEzN"
+        class="sc-kafWEX eGCIGd"
       >
         <div
           class="sc-bdVaJa cdzpxt sc-VigVT kLsUCd"
         >
           <div
-            class="sc-iELTvK eeyRPl"
+            class="sc-cmTdod gMJnIG"
           >
             <h3
               class="sc-kjoXOD jdYCyP"
@@ -284,7 +280,7 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-jwKygS bplyQm"
+            class="sc-btzYZH fgIPSW"
           >
             <div
               class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"

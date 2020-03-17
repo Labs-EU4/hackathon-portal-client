@@ -15,23 +15,21 @@ Object {
             <a
               href="/dashboard"
             >
-              <figure
-                class="sc-EHOje evAtGa"
-              >
-                <p>
-                  HackHunt
-                </p>
-              </figure>
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-ifAKCX gCNDrT"
+                src="Hackton-logo.png"
+              />
             </a>
             <div
-              class="sc-iuJeZd ibupFc"
+              class="sc-esOvli bmAtld"
             >
               <div
                 class="sc-EHOje kXozTT"
               >
                 8
                 <ul
-                  class="sc-bZQynM fVGedF"
+                  class="sc-bZQynM dfAYGq"
                 >
                   <li>
                     <a
@@ -51,20 +49,20 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jhAzac jsMUOz"
+          class="sc-fBuWsC fppZUK"
         >
           <div
-            class="sc-fMiknA heulbj sc-dNLxif feNZIu"
+            class="sc-dVhcbM ciffbw sc-jqCOkK eOyDaV"
           >
             <div
-              class="sc-fAjcbJ kUlDMA"
+              class="sc-caSCKo ipBruB"
             >
               <h3
                 class="sc-eNQAEJ faMTgL"
               >
                 Submitted project for 
                 <strong
-                  class="sc-bbmXgH jegrJr"
+                  class="sc-gGBfsJ XndIu"
                 >
                   "
                   EuroHack
@@ -73,29 +71,29 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-gisBJw crwmrK"
+              class="sc-kjoXOD gAXpgj"
             >
               <div
-                class="sc-kgAjT sc-cJSrbW sc-jqCOkK eaFvyS"
+                class="sc-cJSrbW sc-ksYbfQ sc-uJMKN cGJuUV"
               >
                 <div
-                  class="sc-kTUwUJ iWvamw"
+                  class="sc-dqBHgY cslcUk"
                 >
                   <div
-                    class="sc-elJkPf juRclc"
+                    class="sc-jtRfpW gcAaDR"
                   >
                     <h3
                       class="sc-eNQAEJ faMTgL"
                     />
                   </div>
                   <label
-                    class="sc-cHGsZl bYlQNl"
+                    class="sc-TOsTZ dwTpLN"
                     for="project_writeup"
                   >
                     Project writeup
                   </label>
                   <div
-                    class="sc-jtRfpW hfQyoR"
+                    class="sc-kTUwUJ fcWLYC"
                     id="project_writeup"
                   >
                     <p
@@ -103,18 +101,18 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-gzOgki blBZwA"
+                    class="sc-iyvyFf gOHBQK"
                   >
                     <label
-                      class="sc-cHGsZl bYlQNl"
+                      class="sc-TOsTZ dwTpLN"
                       for="rubrics"
                     />
                     <div
-                      class="sc-dqBHgY hGoGQn"
+                      class="sc-gxMtzJ fxCzpg"
                       id="rubrics"
                     >
                       <div
-                        class="sc-gxMtzJ bJdxep"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Presentation
                         <span
@@ -213,7 +211,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-gxMtzJ bJdxep"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Product Fit
                         <span
@@ -312,7 +310,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-gxMtzJ bJdxep"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Functionality
                         <span
@@ -411,7 +409,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-gxMtzJ bJdxep"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Innovation
                         <span
@@ -510,7 +508,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-gxMtzJ bJdxep"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Product Design
                         <span
@@ -609,7 +607,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-gxMtzJ bJdxep"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Extensibility
                         <span
@@ -709,7 +707,7 @@ Object {
                       </div>
                     </div>
                     <label
-                      class="sc-cHGsZl bYlQNl"
+                      class="sc-TOsTZ dwTpLN"
                       for="feedback"
                     >
                       Feedback
@@ -722,10 +720,10 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-iyvyFf bEhJim"
+                  class="sc-hwwEjo kQcBSS"
                 >
                   <a
-                    class="sc-jWBwVP hQvxVm"
+                    class="sc-brqgnP hixzyL"
                     color="grey"
                     to="/dashboard/event/1/projects"
                   >
@@ -781,6 +779,7 @@ Object {
             </div>
             <div>
               <p
+                alt="Hackton - Organise hackathons"
                 class="sc-kAzzGY sc-chPdSV gAkGJE"
               >
                 International Crafters © 2020
@@ -802,23 +801,21 @@ Object {
           <a
             href="/dashboard"
           >
-            <figure
-              class="sc-EHOje evAtGa"
-            >
-              <p>
-                HackHunt
-              </p>
-            </figure>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-ifAKCX gCNDrT"
+              src="Hackton-logo.png"
+            />
           </a>
           <div
-            class="sc-iuJeZd ibupFc"
+            class="sc-esOvli bmAtld"
           >
             <div
               class="sc-EHOje kXozTT"
             >
               8
               <ul
-                class="sc-bZQynM fVGedF"
+                class="sc-bZQynM dfAYGq"
               >
                 <li>
                   <a
@@ -838,20 +835,20 @@ Object {
         </div>
       </div>
       <div
-        class="sc-jhAzac jsMUOz"
+        class="sc-fBuWsC fppZUK"
       >
         <div
-          class="sc-fMiknA heulbj sc-dNLxif feNZIu"
+          class="sc-dVhcbM ciffbw sc-jqCOkK eOyDaV"
         >
           <div
-            class="sc-fAjcbJ kUlDMA"
+            class="sc-caSCKo ipBruB"
           >
             <h3
               class="sc-eNQAEJ faMTgL"
             >
               Submitted project for 
               <strong
-                class="sc-bbmXgH jegrJr"
+                class="sc-gGBfsJ XndIu"
               >
                 "
                 EuroHack
@@ -860,29 +857,29 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-gisBJw crwmrK"
+            class="sc-kjoXOD gAXpgj"
           >
             <div
-              class="sc-kgAjT sc-cJSrbW sc-jqCOkK eaFvyS"
+              class="sc-cJSrbW sc-ksYbfQ sc-uJMKN cGJuUV"
             >
               <div
-                class="sc-kTUwUJ iWvamw"
+                class="sc-dqBHgY cslcUk"
               >
                 <div
-                  class="sc-elJkPf juRclc"
+                  class="sc-jtRfpW gcAaDR"
                 >
                   <h3
                     class="sc-eNQAEJ faMTgL"
                   />
                 </div>
                 <label
-                  class="sc-cHGsZl bYlQNl"
+                  class="sc-TOsTZ dwTpLN"
                   for="project_writeup"
                 >
                   Project writeup
                 </label>
                 <div
-                  class="sc-jtRfpW hfQyoR"
+                  class="sc-kTUwUJ fcWLYC"
                   id="project_writeup"
                 >
                   <p
@@ -890,18 +887,18 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-gzOgki blBZwA"
+                  class="sc-iyvyFf gOHBQK"
                 >
                   <label
-                    class="sc-cHGsZl bYlQNl"
+                    class="sc-TOsTZ dwTpLN"
                     for="rubrics"
                   />
                   <div
-                    class="sc-dqBHgY hGoGQn"
+                    class="sc-gxMtzJ fxCzpg"
                     id="rubrics"
                   >
                     <div
-                      class="sc-gxMtzJ bJdxep"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Presentation
                       <span
@@ -1000,7 +997,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-gxMtzJ bJdxep"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Product Fit
                       <span
@@ -1099,7 +1096,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-gxMtzJ bJdxep"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Functionality
                       <span
@@ -1198,7 +1195,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-gxMtzJ bJdxep"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Innovation
                       <span
@@ -1297,7 +1294,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-gxMtzJ bJdxep"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Product Design
                       <span
@@ -1396,7 +1393,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-gxMtzJ bJdxep"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Extensibility
                       <span
@@ -1496,7 +1493,7 @@ Object {
                     </div>
                   </div>
                   <label
-                    class="sc-cHGsZl bYlQNl"
+                    class="sc-TOsTZ dwTpLN"
                     for="feedback"
                   >
                     Feedback
@@ -1509,10 +1506,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-iyvyFf bEhJim"
+                class="sc-hwwEjo kQcBSS"
               >
                 <a
-                  class="sc-jWBwVP hQvxVm"
+                  class="sc-brqgnP hixzyL"
                   color="grey"
                   to="/dashboard/event/1/projects"
                 >
@@ -1568,6 +1565,7 @@ Object {
           </div>
           <div>
             <p
+              alt="Hackton - Organise hackathons"
               class="sc-kAzzGY sc-chPdSV gAkGJE"
             >
               International Crafters © 2020

@@ -26,7 +26,7 @@ import AddParticipantTeam from "./components/templates/AddParticipantTeams";
 import ResetPassword from './components/views/resetPassword/ResetPassword';
 import ResetPasswordConfirmation from './components/views/resetPassword/ResetPasswordConfirmation';
 import NewPassword from './components/views/resetPassword/NewPassword';
-import Nav from "./components/molecules/Nav";
+import Nav from "./components/organisms/Nav";
 
 function App() {
 

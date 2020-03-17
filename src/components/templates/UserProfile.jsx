@@ -3,7 +3,7 @@ import styled from "styled-components";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import { WideBody } from "../../assets/styles/atoms/WideBody";
-// import Nav from "../molecules/Nav";
+// import Nav from "../organisms/Nav";
 import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
 import { H2, H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
@@ -15,7 +15,7 @@ import { media } from "../../assets/styles/variables/index";
 import Button from "../atoms/Button";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import mailIcon from "../../assets/images/Icon-mail-24px.png";
-import EventCard from "../molecules/EventCard";
+import EventCard from "../organisms/EventCard";
 
 import { useRegisteredEvents } from "../../hooks";
 import Spinner from "../molecules/Spinner";

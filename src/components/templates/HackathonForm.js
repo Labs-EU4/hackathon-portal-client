@@ -8,7 +8,7 @@ import * as Yup from "yup";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import { WideBody } from "../../assets/styles/atoms/WideBody";
-// import Nav from "../molecules/Nav";
+// import Nav from "../organisms/Nav";
 import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
@@ -23,7 +23,7 @@ import Select from "../atoms/Select";
 import Button from "../atoms/Button";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
-import InputTag from "../molecules/TagsInput";
+import InputTag from "../organisms/TagsInput";
 
 import {
   createEvent,

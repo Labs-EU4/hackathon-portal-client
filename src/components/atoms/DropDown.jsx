@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { UL } from "../../assets/styles/atoms/DropDownStyling";
 import { resetUser } from "../../store/user/actions";
 
-export const Dropdown = () => {
+const Dropdown = () => {
   const dispatch = useDispatch();
   const history = useHistory();
   const handleLogOut = () => {
@@ -23,3 +23,5 @@ export const Dropdown = () => {
     </UL>
   );
 };
+
+export default Dropdown;

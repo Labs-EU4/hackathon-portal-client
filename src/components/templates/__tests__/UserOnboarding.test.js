@@ -13,8 +13,6 @@ library.add(fas, far, fab);
 
 const history = createMemoryHistory()
 
-const history = createMemoryHistory();
-
 const renderWithRouter = Component =>
   render(
     <Router history={history}>

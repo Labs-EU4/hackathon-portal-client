@@ -14,7 +14,7 @@ import {
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
 import { WideBody } from "../../assets/styles/atoms/WideBody";
-// import Nav from "../molecules/Nav";
+// import Nav from "../organisms/Nav";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";

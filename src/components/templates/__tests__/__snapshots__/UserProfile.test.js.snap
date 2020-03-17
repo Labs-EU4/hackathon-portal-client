@@ -15,23 +15,21 @@ Object {
             <a
               href="/dashboard"
             >
-              <figure
-                class="sc-EHOje evAtGa"
-              >
-                <p>
-                  HackHunt
-                </p>
-              </figure>
+              <img
+                alt="Hackton - Organise hackathons"
+                class="sc-ifAKCX gCNDrT"
+                src="Hackton-logo.png"
+              />
             </a>
             <div
-              class="sc-iyvyFf doHmSe"
+              class="sc-gzOgki iASdyb"
             >
               <div
                 class="sc-EHOje kXozTT"
               >
                 8
                 <ul
-                  class="sc-bZQynM fVGedF"
+                  class="sc-bZQynM dfAYGq"
                 >
                   <li>
                     <a
@@ -51,13 +49,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jhAzac jsMUOz"
+          class="sc-fBuWsC fppZUK"
         >
           <div
-            class="sc-fMiknA heulbj sc-iELTvK dUAlfN"
+            class="sc-dVhcbM ciffbw sc-cmTdod hQjNQH"
           >
             <div
-              class="sc-fAjcbJ kUlDMA"
+              class="sc-caSCKo ipBruB"
             >
               <h3
                 class="sc-eNQAEJ faMTgL"
@@ -66,20 +64,20 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-kgAjT sc-cJSrbW sc-cmTdod bxsBFl"
+              class="sc-cJSrbW sc-ksYbfQ sc-jwKygS hnuKfI"
             >
               <div
-                class="sc-lhVmIH kRcCVv"
+                class="sc-btzYZH lmXGkr"
               >
                 <div
-                  class="sc-jtRfpW buiQJr"
+                  class="sc-elJkPf cYPTtE"
                 >
                   <img
-                    class="sc-elJkPf envQZv"
+                    class="sc-bYSBpT cdGmeN"
                     src="profile-image.png"
                   />
                   <a
-                    class="sc-jWBwVP iAogdl sc-dqBHgY fPtsEY"
+                    class="sc-brqgnP isaWRy sc-gxMtzJ czoNRa"
                     color="green"
                     to="/dashboard/profile/edit"
                   >
@@ -87,7 +85,7 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-cHGsZl cEmgZG"
+                  class="sc-TOsTZ iGiqFw"
                 >
                   <h2
                     class="sc-jKJlTe efZNGi"
@@ -101,17 +99,17 @@ Object {
                   </p>
                 </div>
                 <div
-                  class="sc-gxMtzJ bTxcsl"
+                  class="sc-dqBHgY fJUoRH"
                 >
                   <p
                     class="sc-kAzzGY brIVdx"
                   />
                 </div>
                 <div
-                  class="sc-gxMtzJ bTxcsl"
+                  class="sc-dqBHgY fJUoRH"
                 >
                   <div
-                    class="sc-dqBHgY eKyqZ"
+                    class="sc-kTUwUJ kAHnGh"
                   />
                   <p
                     class="sc-kAzzGY brIVdx"
@@ -120,10 +118,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-bYSBpT bkXUhD"
+                class="sc-lhVmIH JSNWJ"
               >
                 <div
-                  class="sc-fAjcbJ kUlDMA"
+                  class="sc-caSCKo ipBruB"
                 >
                   <h3
                     class="sc-eNQAEJ faMTgL"
@@ -132,7 +130,7 @@ Object {
                   </h3>
                 </div>
                 <div
-                  class="sc-kjoXOD bSKvo"
+                  class="sc-cHGsZl cWBssh"
                   spacing="center"
                 >
                   <div
@@ -257,6 +255,7 @@ Object {
             </div>
             <div>
               <p
+                alt="Hackton - Organise hackathons"
                 class="sc-kAzzGY sc-chPdSV gAkGJE"
               >
                 International Crafters © 2020
@@ -278,23 +277,21 @@ Object {
           <a
             href="/dashboard"
           >
-            <figure
-              class="sc-EHOje evAtGa"
-            >
-              <p>
-                HackHunt
-              </p>
-            </figure>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-ifAKCX gCNDrT"
+              src="Hackton-logo.png"
+            />
           </a>
           <div
-            class="sc-iyvyFf doHmSe"
+            class="sc-gzOgki iASdyb"
           >
             <div
               class="sc-EHOje kXozTT"
             >
               8
               <ul
-                class="sc-bZQynM fVGedF"
+                class="sc-bZQynM dfAYGq"
               >
                 <li>
                   <a
@@ -314,13 +311,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-jhAzac jsMUOz"
+        class="sc-fBuWsC fppZUK"
       >
         <div
-          class="sc-fMiknA heulbj sc-iELTvK dUAlfN"
+          class="sc-dVhcbM ciffbw sc-cmTdod hQjNQH"
         >
           <div
-            class="sc-fAjcbJ kUlDMA"
+            class="sc-caSCKo ipBruB"
           >
             <h3
               class="sc-eNQAEJ faMTgL"
@@ -329,20 +326,20 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-kgAjT sc-cJSrbW sc-cmTdod bxsBFl"
+            class="sc-cJSrbW sc-ksYbfQ sc-jwKygS hnuKfI"
           >
             <div
-              class="sc-lhVmIH kRcCVv"
+              class="sc-btzYZH lmXGkr"
             >
               <div
-                class="sc-jtRfpW buiQJr"
+                class="sc-elJkPf cYPTtE"
               >
                 <img
-                  class="sc-elJkPf envQZv"
+                  class="sc-bYSBpT cdGmeN"
                   src="profile-image.png"
                 />
                 <a
-                  class="sc-jWBwVP iAogdl sc-dqBHgY fPtsEY"
+                  class="sc-brqgnP isaWRy sc-gxMtzJ czoNRa"
                   color="green"
                   to="/dashboard/profile/edit"
                 >
@@ -350,7 +347,7 @@ Object {
                 </a>
               </div>
               <div
-                class="sc-cHGsZl cEmgZG"
+                class="sc-TOsTZ iGiqFw"
               >
                 <h2
                   class="sc-jKJlTe efZNGi"
@@ -364,17 +361,17 @@ Object {
                 </p>
               </div>
               <div
-                class="sc-gxMtzJ bTxcsl"
+                class="sc-dqBHgY fJUoRH"
               >
                 <p
                   class="sc-kAzzGY brIVdx"
                 />
               </div>
               <div
-                class="sc-gxMtzJ bTxcsl"
+                class="sc-dqBHgY fJUoRH"
               >
                 <div
-                  class="sc-dqBHgY eKyqZ"
+                  class="sc-kTUwUJ kAHnGh"
                 />
                 <p
                   class="sc-kAzzGY brIVdx"
@@ -383,10 +380,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-bYSBpT bkXUhD"
+              class="sc-lhVmIH JSNWJ"
             >
               <div
-                class="sc-fAjcbJ kUlDMA"
+                class="sc-caSCKo ipBruB"
               >
                 <h3
                   class="sc-eNQAEJ faMTgL"
@@ -395,7 +392,7 @@ Object {
                 </h3>
               </div>
               <div
-                class="sc-kjoXOD bSKvo"
+                class="sc-cHGsZl cWBssh"
                 spacing="center"
               >
                 <div
@@ -520,6 +517,7 @@ Object {
           </div>
           <div>
             <p
+              alt="Hackton - Organise hackathons"
               class="sc-kAzzGY sc-chPdSV gAkGJE"
             >
               International Crafters © 2020
