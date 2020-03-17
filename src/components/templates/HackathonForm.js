@@ -15,7 +15,7 @@ import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
 import { Column } from "../../assets/styles/atoms/Column";
 import { CardForm } from "../../assets/styles/atoms/Card";
-import { Label } from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
 import TextArea from "../molecules/TextArea";
