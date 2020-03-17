@@ -6,31 +6,31 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bdVaJa gJpChM"
       >
         <div
-          class="sc-htpNat dAVxPZ"
+          class="sc-bwzfXH hlmnWR"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
+              class="sc-htpNat Tzmao"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-htoDjs uoYeN"
+            class="sc-bZQynM fBpDUV"
           >
             <a
-              class="sc-gzVnrw iMlYtV"
+              class="sc-EHOje dPpzUU"
               to="/login"
             >
               Log In
             </a>
             <a
-              class="sc-gzVnrw ckmzAY"
+              class="sc-EHOje hokJgT"
               color="blue"
               to="/register"
             >
@@ -43,31 +43,31 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa gOhKpA"
+      class="sc-bdVaJa gJpChM"
     >
       <div
-        class="sc-htpNat dAVxPZ"
+        class="sc-bwzfXH hlmnWR"
       >
         <a
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-ifAKCX gCNDrT"
+            class="sc-htpNat Tzmao"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-htoDjs uoYeN"
+          class="sc-bZQynM fBpDUV"
         >
           <a
-            class="sc-gzVnrw iMlYtV"
+            class="sc-EHOje dPpzUU"
             to="/login"
           >
             Log In
           </a>
           <a
-            class="sc-gzVnrw ckmzAY"
+            class="sc-EHOje hokJgT"
             color="blue"
             to="/register"
           >
