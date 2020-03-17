@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-feJyhm izOsvL"
+              class="sc-cmTdod hQzsMy"
             >
               <div
                 class="sc-EHOje kXozTT"
@@ -49,13 +49,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-fBuWsC fppZUK"
+          class="sc-dVhcbM jTpZuX"
         >
           <div
-            class="sc-dVhcbM ciffbw sc-gGBfsJ eVzqKX"
+            class="sc-fAjcbJ cqkjZR sc-fYxtnH imfBlL"
           >
             <div
-              class="sc-kjoXOD ctwutF"
+              class="sc-TOsTZ dcuHFT"
             >
               <h3
                 class="sc-eNQAEJ faMTgL"
@@ -64,22 +64,22 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-TOsTZ bkEOpz"
+              class="sc-cJSrbW hgUuJY"
             >
               <div
-                class="sc-hqyNC sc-jbKcbu sc-fYxtnH cqgnsP"
+                class="sc-dNLxif sc-jqCOkK sc-hEsumM jdWqKe"
               >
                 <form
                   action="#"
                 >
                   <label
-                    class="sc-caSCKo sc-jnlKLf hQEhGb"
+                    class="sc-kjoXOD sc-tilXH eFlZco"
                     for="image"
                   >
                     Profile picture
                   </label>
                   <figure
-                    class="sc-kvZOFW bZiyMe"
+                    class="sc-jbKcbu hBTNWs"
                   >
                     <div>
                       <img
@@ -92,10 +92,10 @@ Object {
                     </p>
                   </figure>
                   <div
-                    class="sc-TOsTZ bkEOpz"
+                    class="sc-cJSrbW hgUuJY"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-kjoXOD imbxLV"
                       for="fullname"
                     >
                       Full Name
@@ -110,10 +110,10 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-TOsTZ bkEOpz"
+                    class="sc-cJSrbW hgUuJY"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-kjoXOD imbxLV"
                       for="image"
                     >
                       Profile Image
@@ -129,13 +129,13 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-TOsTZ bkEOpz"
+                    class="sc-cJSrbW hgUuJY"
                   >
                     <div
-                      class="sc-cJSrbW gAsXLy"
+                      class="sc-hmzhuo hJMpnL"
                     >
                       <label
-                        class="sc-caSCKo dnWYfp"
+                        class="sc-kjoXOD imbxLV"
                         for="email"
                       >
                         Email
@@ -150,10 +150,10 @@ Object {
                       />
                     </div>
                     <div
-                      class="sc-cJSrbW gAsXLy"
+                      class="sc-hmzhuo hJMpnL"
                     >
                       <label
-                        class="sc-caSCKo dnWYfp"
+                        class="sc-kjoXOD imbxLV"
                         for="username"
                       >
                         Username
@@ -169,16 +169,16 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-TOsTZ bkEOpz"
+                    class="sc-cJSrbW hgUuJY"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-kjoXOD imbxLV"
                       for="bio"
                     >
                       Bio
                     </label>
                     <div
-                      class="sc-hmzhuo iPlCQZ"
+                      class="sc-kvZOFW mlZlR"
                     >
                       <textarea
                         name="bio"
@@ -189,7 +189,7 @@ Object {
                     </div>
                   </div>
                   <div
-                    class="sc-TOsTZ sc-tilXH cQCCje"
+                    class="sc-cJSrbW sc-ktHwxA jPktbP"
                   >
                     <a
                       href="/dashboard"
@@ -203,7 +203,7 @@ Object {
                       </button>
                     </a>
                     <button
-                      class="sc-cvbbAY daTPuM sc-hEsumM ehGYSV"
+                      class="sc-cvbbAY daTPuM sc-cIShpX iVAgPo"
                       color="green"
                       type="submit"
                     >
@@ -289,7 +289,7 @@ Object {
             />
           </a>
           <div
-            class="sc-feJyhm izOsvL"
+            class="sc-cmTdod hQzsMy"
           >
             <div
               class="sc-EHOje kXozTT"
@@ -316,13 +316,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fBuWsC fppZUK"
+        class="sc-dVhcbM jTpZuX"
       >
         <div
-          class="sc-dVhcbM ciffbw sc-gGBfsJ eVzqKX"
+          class="sc-fAjcbJ cqkjZR sc-fYxtnH imfBlL"
         >
           <div
-            class="sc-kjoXOD ctwutF"
+            class="sc-TOsTZ dcuHFT"
           >
             <h3
               class="sc-eNQAEJ faMTgL"
@@ -331,22 +331,22 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-TOsTZ bkEOpz"
+            class="sc-cJSrbW hgUuJY"
           >
             <div
-              class="sc-hqyNC sc-jbKcbu sc-fYxtnH cqgnsP"
+              class="sc-dNLxif sc-jqCOkK sc-hEsumM jdWqKe"
             >
               <form
                 action="#"
               >
                 <label
-                  class="sc-caSCKo sc-jnlKLf hQEhGb"
+                  class="sc-kjoXOD sc-tilXH eFlZco"
                   for="image"
                 >
                   Profile picture
                 </label>
                 <figure
-                  class="sc-kvZOFW bZiyMe"
+                  class="sc-jbKcbu hBTNWs"
                 >
                   <div>
                     <img
@@ -359,10 +359,10 @@ Object {
                   </p>
                 </figure>
                 <div
-                  class="sc-TOsTZ bkEOpz"
+                  class="sc-cJSrbW hgUuJY"
                 >
                   <label
-                    class="sc-caSCKo dnWYfp"
+                    class="sc-kjoXOD imbxLV"
                     for="fullname"
                   >
                     Full Name
@@ -377,10 +377,10 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-TOsTZ bkEOpz"
+                  class="sc-cJSrbW hgUuJY"
                 >
                   <label
-                    class="sc-caSCKo dnWYfp"
+                    class="sc-kjoXOD imbxLV"
                     for="image"
                   >
                     Profile Image
@@ -396,13 +396,13 @@ Object {
                   />
                 </div>
                 <div
-                  class="sc-TOsTZ bkEOpz"
+                  class="sc-cJSrbW hgUuJY"
                 >
                   <div
-                    class="sc-cJSrbW gAsXLy"
+                    class="sc-hmzhuo hJMpnL"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-kjoXOD imbxLV"
                       for="email"
                     >
                       Email
@@ -417,10 +417,10 @@ Object {
                     />
                   </div>
                   <div
-                    class="sc-cJSrbW gAsXLy"
+                    class="sc-hmzhuo hJMpnL"
                   >
                     <label
-                      class="sc-caSCKo dnWYfp"
+                      class="sc-kjoXOD imbxLV"
                       for="username"
                     >
                       Username
@@ -436,16 +436,16 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-TOsTZ bkEOpz"
+                  class="sc-cJSrbW hgUuJY"
                 >
                   <label
-                    class="sc-caSCKo dnWYfp"
+                    class="sc-kjoXOD imbxLV"
                     for="bio"
                   >
                     Bio
                   </label>
                   <div
-                    class="sc-hmzhuo iPlCQZ"
+                    class="sc-kvZOFW mlZlR"
                   >
                     <textarea
                       name="bio"
@@ -456,7 +456,7 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-TOsTZ sc-tilXH cQCCje"
+                  class="sc-cJSrbW sc-ktHwxA jPktbP"
                 >
                   <a
                     href="/dashboard"
@@ -470,7 +470,7 @@ Object {
                     </button>
                   </a>
                   <button
-                    class="sc-cvbbAY daTPuM sc-hEsumM ehGYSV"
+                    class="sc-cvbbAY daTPuM sc-cIShpX iVAgPo"
                     color="green"
                     type="submit"
                   >
