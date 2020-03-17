@@ -5,7 +5,7 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 // import Nav from "../organisms/Nav";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
@@ -14,7 +14,7 @@ import { Column } from "../../assets/styles/atoms/Column";
 import { CardForm } from "../../assets/styles/atoms/Card";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
 import Input from "../atoms/Input";
-import { Label } from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
@@ -61,13 +61,13 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
       .required("Team/participants name is required."),
     git_url: requireGithubUrl
       ? Yup.string()
-        .min(8, "GitHub URL must be at least 8 characters long.")
-        .required("GitHub URL is required.")
+          .min(8, "GitHub URL must be at least 8 characters long.")
+          .required("GitHub URL is required.")
       : Yup.string(),
     video_url: requireVideoUrl
       ? Yup.string()
-        .min(8, "Video URL must be at least 8 characters long.")
-        .required("Video URL is required.")
+          .min(8, "Video URL must be at least 8 characters long.")
+          .required("Video URL is required.")
       : Yup.string(),
     project_writeups: Yup.string()
       .min(8, "Project writeup must be at least 8 characters long.")
@@ -105,7 +105,7 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                     </RowBody>
                     <RowBody>
                       <Column>
-                        <Label htmlFor="project_title">Project Title</Label>
+                        <LabelN htmlFor="project_title">Project Title</LabelN>
                         <Input
                           type="text"
                           id="project_title"
@@ -117,9 +117,9 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                         </ErrorSpan>
                       </Column>
                       <Column>
-                        <Label htmlFor="participant_or_team_nam">
+                        <LabelN htmlFor="participant_or_team_nam">
                           Team/Participant name
-                        </Label>
+                        </LabelN>
                         <Input
                           type="text"
                           name="participant_or_team_name"
@@ -137,7 +137,7 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
 
                     {requireGithubUrl && (
                       <RowBody justify="start">
-                        <Label htmlFor="git_url">GitHub URL</Label>
+                        <LabelN htmlFor="git_url">GitHub URL</LabelN>
                         <Input
                           type="text"
                           name="git_url"
@@ -152,7 +152,7 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
 
                     {requireVideoUrl && (
                       <RowBody justify="start">
-                        <Label htmlFor="video_url">Video URL</Label>
+                        <LabelN htmlFor="video_url">Video URL</LabelN>
                         <Input
                           type="text"
                           name="video_url"
@@ -166,7 +166,9 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
                     )}
 
                     <RowBody justify="start">
-                      <Label htmlFor="project_writeups">Project Writeup</Label>
+                      <LabelN htmlFor="project_writeups">
+                        Project Writeup
+                      </LabelN>
                       <TextArea
                         wide
                         as="textarea"

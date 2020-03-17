@@ -9,10 +9,10 @@ import HackathonSingle from "../HackathonSingle";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -44,9 +44,6 @@ describe("Shows all the text nodes on HackathonSingle.js that are contained on t
     expect(
       jestFeatures.getByText("International Crafters © 2020")
     ).toBeInTheDocument();
-  });
-  it("asserts the text alt for img is rendering", () => {
-    expect(jestFeatures.getByAltText("LinkedIn")).toBeInTheDocument();
   });
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();

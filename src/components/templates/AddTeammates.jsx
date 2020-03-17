@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 import { Footer } from "../organisms/index";
 import UserHeader from "../organisms/UserHeader";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 import { H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { Column } from "../../assets/styles/atoms/Column";
@@ -52,21 +52,18 @@ const AddTeammates = () => {
           </RowHead>
           <Column>
             <CardWide>
-              {
-                !selectedUser ? (
-                  <SearchWidget
-                    setSelectedUser={setSelectedUser}
-                    setNoneUser={setNoneUser}
-                  />
-                ) : (
-                    <TeamRoleWidget
-                      setRole={setRole}
-                      role={role}
-                      handleSubmit={handleSubmit}
-                    />
-                  )
-
-              }
+              {!selectedUser ? (
+                <SearchWidget
+                  setSelectedUser={setSelectedUser}
+                  setNoneUser={setNoneUser}
+                />
+              ) : (
+                <TeamRoleWidget
+                  setRole={setRole}
+                  role={role}
+                  handleSubmit={handleSubmit}
+                />
+              )}
               {noneUser ? (
                 <TeamInviteWidget noneUser={noneUser} sendInvite={sendInvite} />
               ) : null}

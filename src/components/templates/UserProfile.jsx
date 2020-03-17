@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import UserHeader from "../organisms/UserHeader";
 import { Footer } from "../organisms/index";
-import { WideBody } from "../../assets/styles/atoms/WideBody";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 // import Nav from "../organisms/Nav";
-import { BodyContainer } from "../../assets/styles/atoms/BodyContainer";
+import { BodyContainer } from "../../assets/styles/atoms/BodyContainerStyling";
 import { H2, H3 } from "../../assets/styles/atoms/Heading";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
 import { RowBody } from "../../assets/styles/atoms/RowBody";
@@ -19,7 +19,6 @@ import EventCard from "../organisms/EventCard";
 
 import { useRegisteredEvents } from "../../hooks";
 import Spinner from "../molecules/Spinner";
-
 
 export const BodyContainerColumn = styled(props => (
   <BodyContainer {...props} />
@@ -84,7 +83,7 @@ const Buttona = styled(Button)`
 
 export default function UserProfile({ initialState }) {
   const [data, loading] = useRegisteredEvents();
-  const events = data ?.body || [];
+  const events = data?.body || [];
   return (
     <div>
       <UserHeader />
@@ -102,7 +101,7 @@ export default function UserProfile({ initialState }) {
                   src={
                     JSON.parse(
                       initialState.image_url ? initialState.image_url[0] : null
-                    ) ?.avatar || profileImg
+                    )?.avatar || profileImg
                   }
                 />
                 <Buttona color="green" anchor to="/dashboard/profile/edit">
@@ -133,11 +132,12 @@ export default function UserProfile({ initialState }) {
               {loading ? (
                 <Spinner />
               ) : (
-                  <RowBody spacing="start">
-                    {events.map(event => (
-                      <EventCard key={event.id} event={event} />
-                    ))}
-                  </RowBody>)}
+                <RowBody spacing="start">
+                  {events.map(event => (
+                    <EventCard key={event.id} event={event} />
+                  ))}
+                </RowBody>
+              )}
             </HackathonCard>
           </ProfileCardWide>
         </BodyContainerColumn>

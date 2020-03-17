@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-ibxdXY kuZNIK"
+              class="sc-kPVwWT MVsVr"
             >
               <div
                 class="sc-EHOje kXozTT"
@@ -49,13 +49,13 @@ Object {
           </div>
         </div>
         <div
-          class="sc-fBuWsC fppZUK"
+          class="sc-csuQGl iAUCjr"
         >
           <div
-            class="sc-dVhcbM ciffbw sc-kvZOFW XPmfx"
+            class="sc-bRBYWo lcPSIx sc-kgAjT bnbjtj"
           >
             <div
-              class="sc-cHGsZl cWBssh"
+              class="sc-eqIVtm eqvwNq"
               spacing="center"
             >
               <div
@@ -134,56 +134,26 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw bRGEaa"
+          class="sc-gzVnrw cAymxl"
         >
-          <div
-            class="sc-dnqmqq dBtDWt"
+          <p
+            class="sc-gZMcBi dqwYd"
           >
-            <div>
-              <img
-                alt="LinkedIn"
-                class="sc-gZMcBi fKNoMs"
-                src="Icon-linkedin.png"
-              />
-              <img
-                alt="Twitter"
-                class="sc-gZMcBi fKNoMs"
-                src="Icon-twitter.png"
-              />
-              <img
-                alt="Facebook"
-                class="sc-gZMcBi fKNoMs"
-                src="Icon-facebook.png"
-              />
-            </div>
-            <div>
-              <a
-                class="sc-gqjmRU sc-jTzLTM fddzAd"
-                href="https://hackton.co/#team"
-              >
-                Team
-              </a>
-              <a
-                class="sc-gqjmRU sc-jTzLTM fddzAd"
-                href="#"
-              >
-                Privacy
-              </a>
-              <a
-                class="sc-gqjmRU sc-jTzLTM fddzAd"
-                href="#"
-              >
-                Contacts
-              </a>
-            </div>
-            <div>
-              <p
-                alt="Hackton - Organise hackathons"
-                class="sc-kAzzGY sc-chPdSV gAkGJE"
-              >
-                International Crafters © 2020
-              </p>
-            </div>
+            International Crafters © 2020
+          </p>
+          <div>
+            <a
+              class="sc-htoDjs sc-iwsKbI jiENTn"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-htoDjs sc-iwsKbI jiENTn"
+              href="#"
+            >
+              Contacts
+            </a>
           </div>
         </div>
       </div>
@@ -207,7 +177,7 @@ Object {
             />
           </a>
           <div
-            class="sc-ibxdXY kuZNIK"
+            class="sc-kPVwWT MVsVr"
           >
             <div
               class="sc-EHOje kXozTT"
@@ -234,13 +204,13 @@ Object {
         </div>
       </div>
       <div
-        class="sc-fBuWsC fppZUK"
+        class="sc-csuQGl iAUCjr"
       >
         <div
-          class="sc-dVhcbM ciffbw sc-kvZOFW XPmfx"
+          class="sc-bRBYWo lcPSIx sc-kgAjT bnbjtj"
         >
           <div
-            class="sc-cHGsZl cWBssh"
+            class="sc-eqIVtm eqvwNq"
             spacing="center"
           >
             <div
@@ -319,56 +289,26 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw bRGEaa"
+        class="sc-gzVnrw cAymxl"
       >
-        <div
-          class="sc-dnqmqq dBtDWt"
+        <p
+          class="sc-gZMcBi dqwYd"
         >
-          <div>
-            <img
-              alt="LinkedIn"
-              class="sc-gZMcBi fKNoMs"
-              src="Icon-linkedin.png"
-            />
-            <img
-              alt="Twitter"
-              class="sc-gZMcBi fKNoMs"
-              src="Icon-twitter.png"
-            />
-            <img
-              alt="Facebook"
-              class="sc-gZMcBi fKNoMs"
-              src="Icon-facebook.png"
-            />
-          </div>
-          <div>
-            <a
-              class="sc-gqjmRU sc-jTzLTM fddzAd"
-              href="https://hackton.co/#team"
-            >
-              Team
-            </a>
-            <a
-              class="sc-gqjmRU sc-jTzLTM fddzAd"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-gqjmRU sc-jTzLTM fddzAd"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-          <div>
-            <p
-              alt="Hackton - Organise hackathons"
-              class="sc-kAzzGY sc-chPdSV gAkGJE"
-            >
-              International Crafters © 2020
-            </p>
-          </div>
+          International Crafters © 2020
+        </p>
+        <div>
+          <a
+            class="sc-htoDjs sc-iwsKbI jiENTn"
+            href="#"
+          >
+            Privacy
+          </a>
+          <a
+            class="sc-htoDjs sc-iwsKbI jiENTn"
+            href="#"
+          >
+            Contacts
+          </a>
         </div>
       </div>
     </div>
