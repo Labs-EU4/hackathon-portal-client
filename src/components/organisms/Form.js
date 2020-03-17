@@ -11,7 +11,7 @@ import { ContainerN } from "../../assets/styles/atoms/Container";
 import { H1 } from "../../assets/styles/atoms/Heading";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
-import LabelN from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import Button from "../atoms/Button";
 import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
