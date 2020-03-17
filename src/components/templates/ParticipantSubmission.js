@@ -14,7 +14,7 @@ import { Column } from "../../assets/styles/atoms/Column";
 import { CardForm } from "../../assets/styles/atoms/Card";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
 import Input from "../atoms/Input";
-import { Label } from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import TextArea from "../molecules/TextArea";
 import Button from "../atoms/Button";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
