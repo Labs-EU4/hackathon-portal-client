@@ -13,7 +13,7 @@ import {
   CardCountDownN,
   StyledBookmarkIconN,
   StyledStarIconN
-} from "../../assets/styles/molecules/EventCardStyling";
+} from "../../assets/styles/organisms/EventCardStyling";
 import { CardN } from "../../assets/styles/atoms/Card";
 import { H4N } from "../../assets/styles/atoms/Heading";
 import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
