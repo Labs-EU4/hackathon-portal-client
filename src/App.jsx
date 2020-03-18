@@ -7,6 +7,10 @@ import styled, { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./assets/styles/GlobalStyles";
 import { theme } from "./assets/styles/ThemeStyling";
 
+import {
+  AppContainer,
+  RoutesContainer
+} from './assets/AppStyles';
 import UserHeader from "./components/organisms/UserHeader";
 import { Footer } from "./components/organisms/index";
 import Nav from "./components/organisms/Nav";
