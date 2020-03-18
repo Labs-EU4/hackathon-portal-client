@@ -17,5 +17,4 @@ const HomePage = ({ eventModalHandler }) => {
     </>
   );
 };
-
 export default HomePage;

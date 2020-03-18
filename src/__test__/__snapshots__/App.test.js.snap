@@ -41,7 +41,7 @@ Object {
           class="sc-bZQynM ghjVHi"
         >
           <div
-            class="sc-giadOv jeSJlr"
+            class="sc-giadOv jxyQCA"
           >
             <div
               class="sc-fONwsr hfMLuA"
@@ -65,7 +65,7 @@ Object {
               class="sc-hmXxxW casjpL"
             >
               <h1
-                class="sc-cqCuEk jpVStx"
+                class="sc-cqCuEk lhwwFD"
               >
                 Meet our team of superstars
                 <hr />
@@ -128,7 +128,7 @@ Object {
               class="sc-fAjcbJ eczLSz"
             >
               <div
-                class="sc-bwzfXH ihQUfF sc-dEoRIm FPeYN"
+                class="sc-bwzfXH ihQUfF sc-LKuAh cUFMqv"
               >
                 <div
                   class="sc-jtRfpW fiPPEF"
@@ -143,19 +143,19 @@ Object {
                   class="sc-dqBHgY fghFCM"
                 >
                   <div
-                    class="sc-cmTdod sc-jwKygS sc-ebFjAB kKMFDH"
+                    class="sc-cmTdod sc-jwKygS sc-hzNEM kQAqiO"
                   >
                     <form
                       action="#"
                     >
                       <label
-                        class="sc-bdVaJa sc-jtggT eVBkzf"
+                        class="sc-bdVaJa sc-iBEsjs kfwCSl"
                         for="image"
                       >
                         Profile picture
                       </label>
                       <figure
-                        class="sc-bmyXtO zmafT"
+                        class="sc-kaNhvL buAfuj"
                       >
                         <div>
                           <img
@@ -265,7 +265,7 @@ Object {
                         </div>
                       </div>
                       <div
-                        class="sc-dqBHgY sc-jKVCRD gtXGZt"
+                        class="sc-dqBHgY sc-chbbiW klYFDQ"
                       >
                         <a
                           href="/dashboard"
@@ -279,7 +279,7 @@ Object {
                           </button>
                         </a>
                         <button
-                          class="sc-iwsKbI hdHLkz sc-kaNhvL bKlFmM"
+                          class="sc-iwsKbI hdHLkz sc-kxynE jPdRnH"
                           color="green"
                           type="submit"
                         >
@@ -541,7 +541,7 @@ Object {
         class="sc-bZQynM ghjVHi"
       >
         <div
-          class="sc-giadOv jeSJlr"
+          class="sc-giadOv jxyQCA"
         >
           <div
             class="sc-fONwsr hfMLuA"
@@ -565,7 +565,7 @@ Object {
             class="sc-hmXxxW casjpL"
           >
             <h1
-              class="sc-cqCuEk jpVStx"
+              class="sc-cqCuEk lhwwFD"
             >
               Meet our team of superstars
               <hr />
@@ -628,7 +628,7 @@ Object {
             class="sc-fAjcbJ eczLSz"
           >
             <div
-              class="sc-bwzfXH ihQUfF sc-dEoRIm FPeYN"
+              class="sc-bwzfXH ihQUfF sc-LKuAh cUFMqv"
             >
               <div
                 class="sc-jtRfpW fiPPEF"
@@ -643,19 +643,19 @@ Object {
                 class="sc-dqBHgY fghFCM"
               >
                 <div
-                  class="sc-cmTdod sc-jwKygS sc-ebFjAB kKMFDH"
+                  class="sc-cmTdod sc-jwKygS sc-hzNEM kQAqiO"
                 >
                   <form
                     action="#"
                   >
                     <label
-                      class="sc-bdVaJa sc-jtggT eVBkzf"
+                      class="sc-bdVaJa sc-iBEsjs kfwCSl"
                       for="image"
                     >
                       Profile picture
                     </label>
                     <figure
-                      class="sc-bmyXtO zmafT"
+                      class="sc-kaNhvL buAfuj"
                     >
                       <div>
                         <img
@@ -765,7 +765,7 @@ Object {
                       </div>
                     </div>
                     <div
-                      class="sc-dqBHgY sc-jKVCRD gtXGZt"
+                      class="sc-dqBHgY sc-chbbiW klYFDQ"
                     >
                       <a
                         href="/dashboard"
@@ -779,7 +779,7 @@ Object {
                         </button>
                       </a>
                       <button
-                        class="sc-iwsKbI hdHLkz sc-kaNhvL bKlFmM"
+                        class="sc-iwsKbI hdHLkz sc-kxynE jPdRnH"
                         color="green"
                         type="submit"
                       >
