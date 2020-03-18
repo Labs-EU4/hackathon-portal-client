@@ -1,4 +1,4 @@
-import { BodyContainer, BodyContainerN } from "../atoms/BodyContainer";
+import { BodyContainer, BodyContainerN } from "../atoms/BodyContainerStyling";
 import styled from "styled-components";
 import { BoldSpan, BoldSpanN } from "../atoms/Span";
 

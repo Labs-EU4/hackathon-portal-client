@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { CardWide, CardWideN } from "../atoms/Card";
-import { BodyContainer } from "../atoms/BodyContainer";
+import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { BoldSpan, BoldSpanN } from "../atoms/Span";
 import { Paragraph, ParagraphN } from "../atoms/Paragraph";
 import { media } from "../variables/index";
@@ -143,13 +143,11 @@ export const RegButton = styled(Button)`
   color: lightgray;
 `;
 
-
 // --------------------------------- NEW // --------------------------------- //
-
 
 export const SpanContentN = styled(BoldSpanN)`
   ${props => props.theme.fontSize.medium};
-  font-weight: bold; 
+  font-weight: bold;
   text-transform: capitalize;
 `;
 
@@ -186,23 +184,29 @@ export const TagsGroupN = styled.div`
 
 export const ModalBodyN = styled.div`
   ${props => props.theme.shadow.box};
-  position: absolute; top: 0; left: 0;
-  background-color: rgba(0, 0, 0, .4);
-  width: 100%; height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
   padding-right: 10px;
   z-index: 100;
 `;
 
 export const StyledEventCardN = styled(CardWideN)`
   position: relative;
-  min-width: 99%; height: 100%;
-  background-color: ${props => props.active ? 'rgba(0, 0, 0, .8)' : props.theme.color.grey.bg};
-  transform: ${props => props.active && 'translateY(80%)'};
+  min-width: 99%;
+  height: 100%;
+  background-color: ${props =>
+    props.active ? "rgba(0, 0, 0, .8)" : props.theme.color.grey.bg};
+  transform: ${props => props.active && "translateY(80%)"};
   overflow-y: scroll;
   box-shadow: 3px 3px 10px ${props => props.theme.color.black.regular};
-  transition: ${props => props.active && 'transform .5s ease'};
+  transition: ${props => props.active && "transform .5s ease"};
   &::-webkit-scrollbar {
-    width: 0; height: 0;
+    width: 0;
+    height: 0;
   }
 `;
 
@@ -214,24 +218,29 @@ export const EventCardLeftColumnN = styled.div`
 `;
 
 export const EventImageContainerN = styled.figure`
-  width: 100%; height: 350px;
+  width: 100%;
+  height: 350px;
   margin-bottom: 10px;
   object-fit: cover;
 `;
 
 export const EventImgN = styled.img`
-  width: 100%; height: 100%;
+  width: 100%;
+  height: 100%;
 `;
 
 export const JudgesContainerN = styled.div`
   width: 100%;
-  display: flex; flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 10px;
 `;
 
 export const JudgeCardN = styled.div`
   display: flex;
-  width: 33%; min-width: 250px; height: 80px;
+  width: 33%;
+  min-width: 250px;
+  height: 80px;
   margin: 10px 0;
 `;
 
@@ -248,12 +257,13 @@ export const JudgeInfoN = styled.div`
 
 export const TagsCardWideN = styled(CardWideN)`
   ${props => props.theme.shadow.box};
-  position: fixed; left: ${({ menuOpen }) => menuOpen
-    ? 'calc(100% - 400px)' : 'calc(100% - 580px)'
-  }; 
+  position: fixed;
+  left: ${({ menuOpen }) =>
+    menuOpen ? "calc(100% - 400px)" : "calc(100% - 580px)"};
   top: 70px;
-  display: ${({ active }) => active && 'none'};
-  width: 300px; max-height: calc(100vh - 130px);
+  display: ${({ active }) => active && "none"};
+  width: 300px;
+  max-height: calc(100vh - 130px);
   padding: 8px 5px;
   overflow-y: scroll;
   @media ${media.tablet} {

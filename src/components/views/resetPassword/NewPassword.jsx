@@ -4,8 +4,8 @@ import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
-import { WideBody } from "../../../assets/styles/atoms/WideBody";
-import { BodyContainer } from "../../../assets/styles/atoms/BodyContainer";
+import { WideBody } from "../../../assets/styles/atoms/WideBodyStyling";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
 import { Container } from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
@@ -80,7 +80,9 @@ const ResetPassword = () => {
                     <ErrorMessage name="newPasswordConfirm" />
                   </ErrorSpan>
                   <RowBody>
-                    <Button type="submit" size="wide" color="blue">Change Password</Button>
+                    <Button type="submit" size="wide" color="blue">
+                      Change Password
+                    </Button>
                   </RowBody>
                 </Form>
               )}

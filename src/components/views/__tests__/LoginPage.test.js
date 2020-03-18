@@ -8,10 +8,10 @@ import configureStore from "redux-mock-store";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -48,11 +48,11 @@ describe("LoginPage.js", () => {
     ).toBeInTheDocument();
   });
 
-  it("the component renders an a tag to login", () => {
-    expect(component.queryByText(/Log In/i)).toBeInTheDocument();
+  it("the component image with alt tag", () => {
+    expect(component.queryByAltText(/Log In now/i)).toBeInTheDocument();
   });
 
-  it("the component renders an a tag to signup", () => {
-    expect(component.queryByText(/Sign Up/i)).toBeInTheDocument();
+  it("the component renders a button with data-testid", () => {
+    expect(component.queryByTestId("label")).toBeInTheDocument();
   });
 });

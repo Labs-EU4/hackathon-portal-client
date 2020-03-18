@@ -4,10 +4,10 @@ import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
-import {BodyContainer} from "../../../assets/styles/atoms/BodyContainer";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
 import { ErrorSpan } from "../../../assets/styles/atoms/Span";
-import {Container} from "../../../assets/styles/atoms/Container";
+import { Container } from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
 import Button from "../../atoms/Button";
@@ -37,7 +37,8 @@ const ResetPassword = () => {
       <Container>
         <H1>Reset the password</H1>
         <Paragraph>
-          Enter your email address so we can reset your password and send a link to your inbox.
+          Enter your email address so we can reset your password and send a link
+          to your inbox.
         </Paragraph>
         <Formik
           initialValues={{ email: "" }}
@@ -46,10 +47,14 @@ const ResetPassword = () => {
         >
           {({ errors, touched }) => (
             <Form>
-              <Input display="wide" id="email" type="email" name="email" placeholder="Email address"/>
-              {errors.name && touched.name ? (
-                <div>{errors.name}</div>
-              ) : null}
+              <Input
+                display="wide"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Email address"
+              />
+              {errors.name && touched.name ? <div>{errors.name}</div> : null}
               <ErrorSpan>
                 <ErrorMessage name="email" />
               </ErrorSpan>

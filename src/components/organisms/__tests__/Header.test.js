@@ -9,10 +9,10 @@ import Header from "../../organisms/Header";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -47,10 +47,10 @@ describe("Component Header.js renders properly", () => {
       jestFeatures.getByAltText("Hackton - Organise hackathons")
     ).toBeInTheDocument();
   });
-  it("the text node Log In is rendering properly", () => {
-    expect(jestFeatures.queryByText(/Log In/i)).toBeInTheDocument();
+  it("the text node Log Out is rendering properly", () => {
+    expect(jestFeatures.queryByText(/Log Out/i)).toBeInTheDocument();
   });
-  it("the text node Sign Up is rendering properly", () => {
-    expect(jestFeatures.queryByText(/Sign Up/i)).toBeInTheDocument();
+  it("the button with data-testid is rendering properly", () => {
+    expect(jestFeatures.getByTestId(/label/i)).toBeInTheDocument();
   });
 });

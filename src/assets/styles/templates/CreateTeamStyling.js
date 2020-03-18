@@ -1,5 +1,5 @@
-import { BodyContainer, BodyContainerN } from "../atoms/BodyContainer";
-import { WideBody } from '../atoms/WideBody';
+import { BodyContainer, BodyContainerN } from "../atoms/BodyContainerStyling";
+import { WideBody } from "../atoms/WideBodyStyling";
 import styled from "styled-components";
 
 export const BodyRow = styled(BodyContainer)`
@@ -49,16 +49,19 @@ export const Form = styled.form`
 `;
 
 export const Title = styled.span`
-    color: "#273F92";
-    background-color: "aliceblue";
+  color: "#273F92";
+  background-color: "aliceblue";
 `;
 
 // --------------------------------- NEW // --------------------------------- //
 
 export const StyledWideBodyN = styled(WideBody)`
-  position: absolute; top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 100;
 `;
 
@@ -107,5 +110,3 @@ export const FormN = styled.form`
     margin: 10px;
   }
 `;
-
-
