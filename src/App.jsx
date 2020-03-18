@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
-import styled, { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./assets/styles/GlobalStyles";
 import { theme } from "./assets/styles/ThemeStyling";
