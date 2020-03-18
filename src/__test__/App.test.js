@@ -46,7 +46,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   // });
 
   it("The text node <h4> for the EuroHack hackathon card, renders properly", () => {
-    expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
+    expect(component.queryByText(/Jake22/i)).toBeInTheDocument();
   });
   it("The text node <h4> for the World hackathon event card, renders properly", () => {
     expect(component.queryByText("World")).toBeInTheDocument();
