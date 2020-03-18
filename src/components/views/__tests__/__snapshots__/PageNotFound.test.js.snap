@@ -5,181 +5,19 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          class="sc-iRbamj liaLaB"
-        >
-          <div
-            class="sc-gipzik gYIzbI"
-          >
-            <a
-              href="/"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-Rmtcm gaRwHN"
-                src="Hackton-logo.png"
-              />
-            </a>
-            <div
-              class="sc-bRBYWo jvZiaU"
-            >
-              <a
-                class="sc-kEYyzF bqfGNC"
-                to="/login"
-              >
-                Log In
-              </a>
-              <a
-                class="sc-kEYyzF dzbLNq"
-                color="blue"
-                to="/register"
-              >
-                Sign Up
-              </a>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-fBuWsC sc-fAjcbJ iotdoq"
-        >
-          <div
-            class="sc-fBuWsC sc-eqIVtm jasOsY"
-          >
-            <h2
-              class="sc-kAzzGY sc-caSCKo eNuoGP"
-            >
-              Ooops!
-            </h2>
-            <h3
-              class="sc-chPdSV jQbecn"
-            >
-              We can't seem to find the page  you are looking for
-            </h3>
-            <h3>
-              Error code: 404
-            </h3>
-            <a
-              href="/dashboard"
-              style="text-decoration: none; color: lightcoral; padding-top: 10px;"
-            >
-              Home
-            </a>
-          </div>
-          <div
-            class="sc-fBuWsC sc-eqIVtm jasOsY"
-          >
-            <img
-              alt="404 icon"
-              src="notFound_icon.svg"
-            />
-          </div>
-        </div>
-        <div
-          class="sc-bdVaJa bDiKvh"
-        >
-          <div
-            class="sc-htpNat fAaFDY"
-          >
-            <div>
-              <img
-                alt="LinkedIn"
-                class="sc-ifAKCX ckrETo"
-                src="Icon-linkedin.png"
-              />
-              <img
-                alt="Twitter"
-                class="sc-ifAKCX ckrETo"
-                src="Icon-twitter.png"
-              />
-              <img
-                alt="Facebook"
-                class="sc-ifAKCX ckrETo"
-                src="Icon-facebook.png"
-              />
-            </div>
-            <div>
-              <a
-                class="sc-EHOje sc-gzVnrw bKCyJZ"
-                href="https://hackton.co/#team"
-              >
-                Team
-              </a>
-              <a
-                class="sc-EHOje sc-gzVnrw bKCyJZ"
-                href="#"
-              >
-                Privacy
-              </a>
-              <a
-                class="sc-EHOje sc-gzVnrw bKCyJZ"
-                href="#"
-              >
-                Contacts
-              </a>
-            </div>
-            <div>
-              <p
-                alt="Hackton - Organise hackathons"
-                class="sc-gZMcBi sc-gqjmRU kdNvVY"
-              >
-                International Crafters © 2020
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
-        class="sc-iRbamj liaLaB"
+        class="sc-bdVaJa sc-gZMcBi bqWaRI"
       >
         <div
-          class="sc-gipzik gYIzbI"
-        >
-          <a
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-Rmtcm gaRwHN"
-              src="Hackton-logo.png"
-            />
-          </a>
-          <div
-            class="sc-bRBYWo jvZiaU"
-          >
-            <a
-              class="sc-kEYyzF bqfGNC"
-              to="/login"
-            >
-              Log In
-            </a>
-            <a
-              class="sc-kEYyzF dzbLNq"
-              color="blue"
-              to="/register"
-            >
-              Sign Up
-            </a>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-fBuWsC sc-fAjcbJ iotdoq"
-      >
-        <div
-          class="sc-fBuWsC sc-eqIVtm jasOsY"
+          class="sc-bdVaJa sc-iwsKbI iCbNai"
         >
           <h2
-            class="sc-kAzzGY sc-caSCKo eNuoGP"
+            class="sc-bxivhb sc-gqjmRU icwjAo"
           >
             Ooops!
           </h2>
           <h3
-            class="sc-chPdSV jQbecn"
+            class="sc-fjdhpX kwqgzP"
           >
             We can't seem to find the page  you are looking for
           </h3>
@@ -194,7 +32,7 @@ Object {
           </a>
         </div>
         <div
-          class="sc-fBuWsC sc-eqIVtm jasOsY"
+          class="sc-bdVaJa sc-iwsKbI iCbNai"
         >
           <img
             alt="404 icon"
@@ -202,58 +40,42 @@ Object {
           />
         </div>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa sc-gZMcBi bqWaRI"
+    >
       <div
-        class="sc-bdVaJa bDiKvh"
+        class="sc-bdVaJa sc-iwsKbI iCbNai"
       >
-        <div
-          class="sc-htpNat fAaFDY"
+        <h2
+          class="sc-bxivhb sc-gqjmRU icwjAo"
         >
-          <div>
-            <img
-              alt="LinkedIn"
-              class="sc-ifAKCX ckrETo"
-              src="Icon-linkedin.png"
-            />
-            <img
-              alt="Twitter"
-              class="sc-ifAKCX ckrETo"
-              src="Icon-twitter.png"
-            />
-            <img
-              alt="Facebook"
-              class="sc-ifAKCX ckrETo"
-              src="Icon-facebook.png"
-            />
-          </div>
-          <div>
-            <a
-              class="sc-EHOje sc-gzVnrw bKCyJZ"
-              href="https://hackton.co/#team"
-            >
-              Team
-            </a>
-            <a
-              class="sc-EHOje sc-gzVnrw bKCyJZ"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-EHOje sc-gzVnrw bKCyJZ"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-          <div>
-            <p
-              alt="Hackton - Organise hackathons"
-              class="sc-gZMcBi sc-gqjmRU kdNvVY"
-            >
-              International Crafters © 2020
-            </p>
-          </div>
-        </div>
+          Ooops!
+        </h2>
+        <h3
+          class="sc-fjdhpX kwqgzP"
+        >
+          We can't seem to find the page  you are looking for
+        </h3>
+        <h3>
+          Error code: 404
+        </h3>
+        <a
+          href="/dashboard"
+          style="text-decoration: none; color: lightcoral; padding-top: 10px;"
+        >
+          Home
+        </a>
+      </div>
+      <div
+        class="sc-bdVaJa sc-iwsKbI iCbNai"
+      >
+        <img
+          alt="404 icon"
+          src="notFound_icon.svg"
+        />
       </div>
     </div>
   </div>,
