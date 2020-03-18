@@ -22,11 +22,12 @@ Object {
               />
             </a>
             <div
-              class="sc-jDwBTQ kNciuA"
+              class="sc-jDwBTQ cBURIZ"
             >
               <button
-                class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
+                class="sc-kEYyzF kbIspq sc-gPEVay hvkOZR"
                 color="grey"
+                data-testid="label"
               >
                 Log Out
               </button>
@@ -90,11 +91,12 @@ Object {
             />
           </a>
           <div
-            class="sc-jDwBTQ kNciuA"
+            class="sc-jDwBTQ cBURIZ"
           >
             <button
-              class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
+              class="sc-kEYyzF kbIspq sc-gPEVay hvkOZR"
               color="grey"
+              data-testid="label"
             >
               Log Out
             </button>
