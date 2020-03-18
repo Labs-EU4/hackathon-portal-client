@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-eHgmQL bylZnf"
+          class="sc-cvbbAY gexBDE"
         >
-          <div
-            class="sc-jWBwVP bYNjAt"
+          <a
+            class="sc-jlyJG hVSnaf"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-cMljjf jVjzeq"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-jWBwVP iMqrAs"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-iRbamj ddoNOW"
+          >
             <div
-              class="sc-btzYZH habFxH"
+              class="sc-jDwBTQ cBURIZ"
             >
-              <div
-                class="sc-jAaTju hMumwu"
+              <button
+                class="sc-brqgnP fafvla sc-gPEVay hvkOZR"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-jDwBTQ fmKuHP"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -58,7 +45,7 @@ Object {
               class="sc-kafWEX bgvrha"
             >
               <h3
-                class="sc-fBuWsC fjMhZR"
+                class="sc-eqIVtm cEkJRn"
               >
                 Submitted projects for 
                 <strong
@@ -158,22 +145,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gPEVay tcNig"
+          class="sc-gipzik hjdWsv"
         >
           <p
-            class="sc-csuQGl ssVAS"
+            class="sc-hzDkRC kKMnjL"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-iRbamj sc-gipzik gfZAUH"
+              class="sc-csuQGl sc-bRBYWo bpecJo"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-iRbamj sc-gipzik gfZAUH"
+              class="sc-csuQGl sc-bRBYWo bpecJo"
               href="#"
             >
               Contacts
@@ -186,44 +173,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-eHgmQL bylZnf"
+        class="sc-cvbbAY gexBDE"
       >
-        <div
-          class="sc-jWBwVP bYNjAt"
+        <a
+          class="sc-jlyJG hVSnaf"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-cMljjf jVjzeq"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-jWBwVP iMqrAs"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-iRbamj ddoNOW"
+        >
           <div
-            class="sc-btzYZH habFxH"
+            class="sc-jDwBTQ cBURIZ"
           >
-            <div
-              class="sc-jAaTju hMumwu"
+            <button
+              class="sc-brqgnP fafvla sc-gPEVay hvkOZR"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-jDwBTQ fmKuHP"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -237,7 +211,7 @@ Object {
             class="sc-kafWEX bgvrha"
           >
             <h3
-              class="sc-fBuWsC fjMhZR"
+              class="sc-eqIVtm cEkJRn"
             >
               Submitted projects for 
               <strong
@@ -337,22 +311,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gPEVay tcNig"
+        class="sc-gipzik hjdWsv"
       >
         <p
-          class="sc-csuQGl ssVAS"
+          class="sc-hzDkRC kKMnjL"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-iRbamj sc-gipzik gfZAUH"
+            class="sc-csuQGl sc-bRBYWo bpecJo"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-iRbamj sc-gipzik gfZAUH"
+            class="sc-csuQGl sc-bRBYWo bpecJo"
             href="#"
           >
             Contacts
