@@ -48,7 +48,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node  for the current user's  username , renders properly", () => {
     expect(component.queryByText(/Jake22/i)).toBeInTheDocument();
   });
-  it("The text node <h4> for the World hackathon event card, renders properly", () => {
+  it("The text node for the current user's bio , renders properly", () => {
     expect(component.queryByText("I like coding")).toBeInTheDocument();
   });
   it("The text node <p> for the EuroHack hackathon event card description , renders properly", () => {
@@ -56,7 +56,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
       component.queryByText("Let's make your next hackathon a success!")
     ).toBeInTheDocument();
   });
-  it("The text node <p> for the World hackathon event card description , renders properly", () => {
+  it("The text node for the current user's email , renders properly", () => {
     expect(component.queryByText("8omemail@google.com")).toBeInTheDocument();
   });
   it("The text node <p> for the Eurohack hackathon event card date, renders properly", () => {
