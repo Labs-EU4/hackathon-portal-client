@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bdVaJa gOhKpA"
+          class="sc-bwzfXH ktSiSq"
         >
-          <div
-            class="sc-htpNat dAVxPZ"
+          <a
+            class="sc-dnqmqq kjNnRX"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-ifAKCX gCNDrT"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-htoDjs kHkNTR"
+          >
             <div
-              class="sc-jtRfpW dqDRZr"
+              class="sc-bZQynM RmySO"
             >
-              <div
-                class="sc-EHOje kXozTT"
+              <button
+                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-bZQynM dfAYGq"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -58,7 +45,7 @@ Object {
               class="sc-dVhcbM iWcBSy"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-chPdSV jQbecn"
               >
                 Your Profile
               </h3>
@@ -77,7 +64,7 @@ Object {
                     src="profile-image.png"
                   />
                   <a
-                    class="sc-jAaTju fBPwTw sc-bYSBpT jtRnwT"
+                    class="sc-EHOje gOKWek sc-bYSBpT jtRnwT"
                     color="green"
                     to="/dashboard/profile/edit"
                   >
@@ -88,11 +75,11 @@ Object {
                   class="sc-gisBJw crwmrK"
                 >
                   <h2
-                    class="sc-fjdhpX hKNrfD"
+                    class="sc-kAzzGY kIEYOe"
                     style="margin-bottom: 0px;"
                   />
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                     style="color: gray;"
                   >
                     @
@@ -102,7 +89,7 @@ Object {
                   class="sc-lhVmIH hksPHh"
                 >
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                   />
                 </div>
                 <div
@@ -112,7 +99,7 @@ Object {
                     class="sc-btzYZH iijKDA"
                   />
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                     style="color: blue; margin-left: 3px;"
                   />
                 </div>
@@ -124,7 +111,7 @@ Object {
                   class="sc-dVhcbM iWcBSy"
                 >
                   <h3
-                    class="sc-jzJRlG dhdOHq"
+                    class="sc-chPdSV jQbecn"
                   >
                     Hackathon(s) you registered for
                   </h3>
@@ -211,22 +198,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-iwsKbI hpFEep"
         >
           <p
-            class="sc-gZMcBi dqwYd"
+            class="sc-jTzLTM iPDHvH"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Contacts
@@ -239,44 +226,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bwzfXH ktSiSq"
       >
-        <div
-          class="sc-htpNat dAVxPZ"
+        <a
+          class="sc-dnqmqq kjNnRX"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-htpNat Tzmao"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-htoDjs kHkNTR"
+        >
           <div
-            class="sc-jtRfpW dqDRZr"
+            class="sc-bZQynM RmySO"
           >
-            <div
-              class="sc-EHOje kXozTT"
+            <button
+              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-bZQynM dfAYGq"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -290,7 +264,7 @@ Object {
             class="sc-dVhcbM iWcBSy"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-chPdSV jQbecn"
             >
               Your Profile
             </h3>
@@ -309,7 +283,7 @@ Object {
                   src="profile-image.png"
                 />
                 <a
-                  class="sc-jAaTju fBPwTw sc-bYSBpT jtRnwT"
+                  class="sc-EHOje gOKWek sc-bYSBpT jtRnwT"
                   color="green"
                   to="/dashboard/profile/edit"
                 >
@@ -320,11 +294,11 @@ Object {
                 class="sc-gisBJw crwmrK"
               >
                 <h2
-                  class="sc-fjdhpX hKNrfD"
+                  class="sc-kAzzGY kIEYOe"
                   style="margin-bottom: 0px;"
                 />
                 <p
-                  class="sc-kpOJdX bgqFAV"
+                  class="sc-jKJlTe dZsSRJ"
                   style="color: gray;"
                 >
                   @
@@ -334,7 +308,7 @@ Object {
                 class="sc-lhVmIH hksPHh"
               >
                 <p
-                  class="sc-kpOJdX bgqFAV"
+                  class="sc-jKJlTe dZsSRJ"
                 />
               </div>
               <div
@@ -344,7 +318,7 @@ Object {
                   class="sc-btzYZH iijKDA"
                 />
                 <p
-                  class="sc-kpOJdX bgqFAV"
+                  class="sc-jKJlTe dZsSRJ"
                   style="color: blue; margin-left: 3px;"
                 />
               </div>
@@ -356,7 +330,7 @@ Object {
                 class="sc-dVhcbM iWcBSy"
               >
                 <h3
-                  class="sc-jzJRlG dhdOHq"
+                  class="sc-chPdSV jQbecn"
                 >
                   Hackathon(s) you registered for
                 </h3>
@@ -443,22 +417,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-iwsKbI hpFEep"
       >
         <p
-          class="sc-gZMcBi dqwYd"
+          class="sc-jTzLTM iPDHvH"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Contacts

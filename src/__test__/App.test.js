@@ -9,10 +9,10 @@ import { initialState } from "../utils/mockData";
 import App from "../App";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../assets/styles/ThemeStyling";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -40,31 +40,31 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("App.js component renders properly,with all the Private Routes", () => {
     expect(component).toMatchSnapshot();
   });
-  
-  // it("The text node for the first character of the current user mail, renders properly on the menu", () => {
-  //   expect(component.queryByText(/8/i)).toBeInTheDocument();
-  // });
 
-  it("The text node <h4> for the EuroHack hackathon card, renders properly", () => {
-    expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
+  it("The text node for the first character of the current user mail, renders properly on the menu", () => {
+    expect(component.queryByText(/8/i)).toBeInTheDocument();
   });
-  it("The text node <h4> for the World hackathon event card, renders properly", () => {
-    expect(component.queryByText("World")).toBeInTheDocument();
+
+  it("The text node  for the current user's  username , renders properly", () => {
+    expect(component.queryByText(/Jake22/i)).toBeInTheDocument();
+  });
+  it("The text node for the current user's bio , renders properly", () => {
+    expect(component.queryByText("I like coding")).toBeInTheDocument();
   });
   it("The text node <p> for the EuroHack hackathon event card description , renders properly", () => {
     expect(
-      component.queryByText("the best event hack hack hack macbook...")
+      component.queryByText("Let's make your next hackathon a success!")
     ).toBeInTheDocument();
   });
-  it("The text node <p> for the World hackathon event card description , renders properly", () => {
+  it("The text node for the current user's email , renders properly", () => {
+    expect(component.queryByText("8omemail@google.com")).toBeInTheDocument();
+  });
+  it("The text node <p> for the 'Create event' event card date, renders properly", () => {
+    expect(component.queryByText(/Create Event/i)).toBeInTheDocument();
+  });
+  it("The text node 'Meet our team of superstars' text node, renders properly", () => {
     expect(
-      component.queryByText("number one hacker event in the world...")
+      component.getByText(/Meet our team of superstars/i)
     ).toBeInTheDocument();
-  });
-  it("The text node <p> for the Eurohack hackathon event card date, renders properly", () => {
-    expect(component.queryByText(/EuroHack/i)).toBeInTheDocument();
-  });
-  it("The text node <p> for the World hackathon event card date, renders properly", () => {
-    expect(component.queryByText(/Asia/i)).toBeInTheDocument();
   });
 });

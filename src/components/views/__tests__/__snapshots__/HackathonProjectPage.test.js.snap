@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bdVaJa gOhKpA"
+          class="sc-bwzfXH ktSiSq"
         >
-          <div
-            class="sc-htpNat dAVxPZ"
+          <a
+            class="sc-dnqmqq kjNnRX"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-ifAKCX gCNDrT"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-htoDjs kHkNTR"
+          >
             <div
-              class="sc-iQNlJl jfTdcZ"
+              class="sc-bZQynM RmySO"
             >
-              <div
-                class="sc-EHOje kXozTT"
+              <button
+                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-bZQynM dfAYGq"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -58,7 +45,7 @@ Object {
               class="sc-dVhcbM iWcBSy"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-chPdSV jQbecn"
               >
                 Submitted project for 
                 <strong
@@ -83,11 +70,11 @@ Object {
                     class="sc-jwKygS hPFuSn"
                   >
                     <h3
-                      class="sc-jzJRlG dhdOHq"
+                      class="sc-chPdSV jQbecn"
                     />
                   </div>
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="project_writeup"
                   >
                     Project writeup
@@ -97,14 +84,14 @@ Object {
                     id="project_writeup"
                   >
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-jKJlTe dZsSRJ"
                     />
                   </div>
                   <div
                     class="sc-kTUwUJ iHORnH"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="rubrics"
                     />
                     <div
@@ -707,13 +694,13 @@ Object {
                       </div>
                     </div>
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="feedback"
                     >
                       Feedback
                     </label>
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-jKJlTe dZsSRJ"
                     >
                       No comments on this project
                     </p>
@@ -723,7 +710,7 @@ Object {
                   class="sc-dqBHgY haARPM"
                 >
                   <a
-                    class="sc-jAaTju cfXvnD"
+                    class="sc-EHOje gPYXIs"
                     color="grey"
                     to="/dashboard/event/1/projects"
                   >
@@ -735,22 +722,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-iwsKbI hpFEep"
         >
           <p
-            class="sc-gZMcBi dqwYd"
+            class="sc-jTzLTM iPDHvH"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Contacts
@@ -763,44 +750,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bwzfXH ktSiSq"
       >
-        <div
-          class="sc-htpNat dAVxPZ"
+        <a
+          class="sc-dnqmqq kjNnRX"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-htpNat Tzmao"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-htoDjs kHkNTR"
+        >
           <div
-            class="sc-iQNlJl jfTdcZ"
+            class="sc-bZQynM RmySO"
           >
-            <div
-              class="sc-EHOje kXozTT"
+            <button
+              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-bZQynM dfAYGq"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -814,7 +788,7 @@ Object {
             class="sc-dVhcbM iWcBSy"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-chPdSV jQbecn"
             >
               Submitted project for 
               <strong
@@ -839,11 +813,11 @@ Object {
                   class="sc-jwKygS hPFuSn"
                 >
                   <h3
-                    class="sc-jzJRlG dhdOHq"
+                    class="sc-chPdSV jQbecn"
                   />
                 </div>
                 <label
-                  class="sc-jWBwVP hzoveM"
+                  class="sc-jAaTju eEKbyM"
                   for="project_writeup"
                 >
                   Project writeup
@@ -853,14 +827,14 @@ Object {
                   id="project_writeup"
                 >
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                   />
                 </div>
                 <div
                   class="sc-kTUwUJ iHORnH"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="rubrics"
                   />
                   <div
@@ -1463,13 +1437,13 @@ Object {
                     </div>
                   </div>
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="feedback"
                   >
                     Feedback
                   </label>
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                   >
                     No comments on this project
                   </p>
@@ -1479,7 +1453,7 @@ Object {
                 class="sc-dqBHgY haARPM"
               >
                 <a
-                  class="sc-jAaTju cfXvnD"
+                  class="sc-EHOje gPYXIs"
                   color="grey"
                   to="/dashboard/event/1/projects"
                 >
@@ -1491,22 +1465,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-iwsKbI hpFEep"
       >
         <p
-          class="sc-gZMcBi dqwYd"
+          class="sc-jTzLTM iPDHvH"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Contacts

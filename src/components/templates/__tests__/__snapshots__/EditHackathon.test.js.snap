@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bdVaJa gOhKpA"
+          class="sc-bwzfXH ktSiSq"
         >
-          <div
-            class="sc-htpNat dAVxPZ"
+          <a
+            class="sc-dnqmqq kjNnRX"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-ifAKCX gCNDrT"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-htoDjs kHkNTR"
+          >
             <div
-              class="sc-gGBfsJ ilfupz"
+              class="sc-bZQynM RmySO"
             >
-              <div
-                class="sc-EHOje kXozTT"
+              <button
+                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-bZQynM dfAYGq"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -58,7 +45,7 @@ Object {
               class="sc-dVhcbM iWcBSy"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-chPdSV jQbecn"
               >
                 Edit Hackathon
               </h3>
@@ -76,7 +63,7 @@ Object {
                     class="sc-fAjcbJ kGDcbI"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="event_title"
                     >
                       Hackathon Title
@@ -90,7 +77,7 @@ Object {
                       value="EuroHack"
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
@@ -100,7 +87,7 @@ Object {
                       class="sc-gisBJw crwmrK"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="start_date"
                       >
                         Event Starts
@@ -108,21 +95,21 @@ Object {
                       <input
                         class="sc-jDwBTQ kWjaIP"
                         id="start_date"
-                        min="2020-03-17"
+                        min="2020-03-18"
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
                         value="10/09/11"
                       />
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
                       />
                     </div>
                     <div
                       class="sc-gisBJw crwmrK"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="end_date"
                       >
                         Event Ends
@@ -137,7 +124,7 @@ Object {
                         value="08/07/13"
                       />
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
                       />
                     </div>
                   </div>
@@ -145,7 +132,7 @@ Object {
                     class="sc-fAjcbJ kGDcbI"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="event_description"
                     >
                       Description
@@ -162,7 +149,7 @@ Object {
                       </textarea>
                     </div>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
@@ -170,7 +157,7 @@ Object {
                   >
                      
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="input_tags"
                     >
                       Tags
@@ -201,7 +188,7 @@ Object {
                       class="sc-gisBJw crwmrK"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="participation_type"
                       >
                         Participation Type
@@ -235,14 +222,14 @@ Object {
                         </option>
                       </select>
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
                       />
                     </div>
                     <div
                       class="sc-gisBJw crwmrK"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="event_category"
                       >
                         Event Category
@@ -284,7 +271,7 @@ Object {
                         </option>
                       </select>
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
                       />
                     </div>
                   </div>
@@ -292,7 +279,7 @@ Object {
                     class="sc-fAjcbJ kGDcbI"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="location"
                     >
                       Location
@@ -306,7 +293,7 @@ Object {
                       value="Europe"
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
@@ -314,13 +301,13 @@ Object {
                     id="grading_rubrics"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="grading_rubrics"
                     >
                       Grading Rubrics
                     </label>
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-jKJlTe dZsSRJ"
                     >
                       Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
                     </p>
@@ -335,7 +322,7 @@ Object {
                         value="presentation"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="presentation"
                       >
                         Presentation
@@ -352,7 +339,7 @@ Object {
                         value="product_fit"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="product_fit"
                       >
                         Product Fit
@@ -369,7 +356,7 @@ Object {
                         value="functionality"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="functionality"
                       >
                         Functionality
@@ -386,7 +373,7 @@ Object {
                         value="innovation"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="innovation"
                       >
                         Innovation
@@ -403,7 +390,7 @@ Object {
                         value="product_design"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="product_design"
                       >
                         Product Design
@@ -420,21 +407,21 @@ Object {
                         value="extensibility"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="extensibility"
                       >
                         Extensibility
                       </label>
                     </div>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
                     class="sc-fAjcbJ kGDcbI"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="guidelines"
                     >
                       Guidelines
@@ -451,11 +438,11 @@ Object {
                       </textarea>
                     </div>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="submission_requirements"
                   >
                     Project Submission Requirements
@@ -465,7 +452,7 @@ Object {
                     id="submission_requirements"
                   >
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-jKJlTe dZsSRJ"
                     >
                       Participants will be expected to submit which one of the following (tick on all that apply)
                     </p>
@@ -480,7 +467,7 @@ Object {
                         value="video_url"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="video_url"
                       >
                         Video URL
@@ -497,14 +484,14 @@ Object {
                         value="github_url"
                       />
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="github_url"
                       >
                         GitHub URL
                       </label>
                     </div>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
@@ -514,14 +501,14 @@ Object {
                       class="sc-bbmXgH fZQmuc"
                     >
                       <a
-                        class="sc-jAaTju cfXvnD"
+                        class="sc-EHOje gPYXIs"
                         color="grey"
                         to="/dashboard"
                       >
                         Cancel
                       </a>
                       <button
-                        class="sc-brqgnP iGFspW"
+                        class="sc-bxivhb eiOzIo"
                         color="green"
                         type="submit"
                       >
@@ -535,22 +522,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-iwsKbI hpFEep"
         >
           <p
-            class="sc-gZMcBi dqwYd"
+            class="sc-jTzLTM iPDHvH"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Contacts
@@ -563,44 +550,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bwzfXH ktSiSq"
       >
-        <div
-          class="sc-htpNat dAVxPZ"
+        <a
+          class="sc-dnqmqq kjNnRX"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-htpNat Tzmao"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-htoDjs kHkNTR"
+        >
           <div
-            class="sc-gGBfsJ ilfupz"
+            class="sc-bZQynM RmySO"
           >
-            <div
-              class="sc-EHOje kXozTT"
+            <button
+              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-bZQynM dfAYGq"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -614,7 +588,7 @@ Object {
             class="sc-dVhcbM iWcBSy"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-chPdSV jQbecn"
             >
               Edit Hackathon
             </h3>
@@ -632,7 +606,7 @@ Object {
                   class="sc-fAjcbJ kGDcbI"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="event_title"
                   >
                     Hackathon Title
@@ -646,7 +620,7 @@ Object {
                     value="EuroHack"
                   />
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
                   />
                 </div>
                 <div
@@ -656,7 +630,7 @@ Object {
                     class="sc-gisBJw crwmrK"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="start_date"
                     >
                       Event Starts
@@ -664,21 +638,21 @@ Object {
                     <input
                       class="sc-jDwBTQ kWjaIP"
                       id="start_date"
-                      min="2020-03-17"
+                      min="2020-03-18"
                       name="start_date"
                       placeholder="Event starts"
                       type="date"
                       value="10/09/11"
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
                     class="sc-gisBJw crwmrK"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="end_date"
                     >
                       Event Ends
@@ -693,7 +667,7 @@ Object {
                       value="08/07/13"
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                 </div>
@@ -701,7 +675,7 @@ Object {
                   class="sc-fAjcbJ kGDcbI"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="event_description"
                   >
                     Description
@@ -718,7 +692,7 @@ Object {
                     </textarea>
                   </div>
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
                   />
                 </div>
                 <div
@@ -726,7 +700,7 @@ Object {
                 >
                    
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="input_tags"
                   >
                     Tags
@@ -757,7 +731,7 @@ Object {
                     class="sc-gisBJw crwmrK"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="participation_type"
                     >
                       Participation Type
@@ -791,14 +765,14 @@ Object {
                       </option>
                     </select>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
                     class="sc-gisBJw crwmrK"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="event_category"
                     >
                       Event Category
@@ -840,7 +814,7 @@ Object {
                       </option>
                     </select>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                 </div>
@@ -848,7 +822,7 @@ Object {
                   class="sc-fAjcbJ kGDcbI"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="location"
                   >
                     Location
@@ -862,7 +836,7 @@ Object {
                     value="Europe"
                   />
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
                   />
                 </div>
                 <div
@@ -870,13 +844,13 @@ Object {
                   id="grading_rubrics"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="grading_rubrics"
                   >
                     Grading Rubrics
                   </label>
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                   >
                     Judges will be expected to grade project submissions on which one of the following* (tick on all that apply)
                   </p>
@@ -891,7 +865,7 @@ Object {
                       value="presentation"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="presentation"
                     >
                       Presentation
@@ -908,7 +882,7 @@ Object {
                       value="product_fit"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="product_fit"
                     >
                       Product Fit
@@ -925,7 +899,7 @@ Object {
                       value="functionality"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="functionality"
                     >
                       Functionality
@@ -942,7 +916,7 @@ Object {
                       value="innovation"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="innovation"
                     >
                       Innovation
@@ -959,7 +933,7 @@ Object {
                       value="product_design"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="product_design"
                     >
                       Product Design
@@ -976,21 +950,21 @@ Object {
                       value="extensibility"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="extensibility"
                     >
                       Extensibility
                     </label>
                   </div>
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
                   />
                 </div>
                 <div
                   class="sc-fAjcbJ kGDcbI"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="guidelines"
                   >
                     Guidelines
@@ -1007,11 +981,11 @@ Object {
                     </textarea>
                   </div>
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
                   />
                 </div>
                 <label
-                  class="sc-jWBwVP hzoveM"
+                  class="sc-jAaTju eEKbyM"
                   for="submission_requirements"
                 >
                   Project Submission Requirements
@@ -1021,7 +995,7 @@ Object {
                   id="submission_requirements"
                 >
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                   >
                     Participants will be expected to submit which one of the following (tick on all that apply)
                   </p>
@@ -1036,7 +1010,7 @@ Object {
                       value="video_url"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="video_url"
                     >
                       Video URL
@@ -1053,14 +1027,14 @@ Object {
                       value="github_url"
                     />
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="github_url"
                     >
                       GitHub URL
                     </label>
                   </div>
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
                   />
                 </div>
                 <div
@@ -1070,14 +1044,14 @@ Object {
                     class="sc-bbmXgH fZQmuc"
                   >
                     <a
-                      class="sc-jAaTju cfXvnD"
+                      class="sc-EHOje gPYXIs"
                       color="grey"
                       to="/dashboard"
                     >
                       Cancel
                     </a>
                     <button
-                      class="sc-brqgnP iGFspW"
+                      class="sc-bxivhb eiOzIo"
                       color="green"
                       type="submit"
                     >
@@ -1091,22 +1065,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-iwsKbI hpFEep"
       >
         <p
-          class="sc-gZMcBi dqwYd"
+          class="sc-jTzLTM iPDHvH"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Contacts
