@@ -1,4 +1,4 @@
-export const const AppContainer = styled.main`
+export const AppContainer = styled.main`
   display: grid;
   grid-template-columns: ${({ active }) =>
     active ? "20px auto auto 60px" : "20px auto auto 250px"};
@@ -13,7 +13,7 @@ export const const AppContainer = styled.main`
   overflow: hidden;
 `;
 
-const RoutesContainer = styled.div`
+export const RoutesContainer = styled.div`
   ${props => props.theme.shadow.box};
   position: relative;
   grid-area: main;
