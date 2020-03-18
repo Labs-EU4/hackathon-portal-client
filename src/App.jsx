@@ -4,12 +4,12 @@ import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import styled, { ThemeProvider } from "styled-components";
 
-import { GlobalStyles } from "./assets/styles/GlobalStylesStyling";
+import { GlobalStyles } from "./assets/styles/GlobalStyles";
 import { theme } from "./assets/styles/ThemeStyling";
 
 import UserHeader from "./components/organisms/UserHeader";
 import { Footer } from "./components/organisms/index";
-import Nav from "./components/molecules/Nav";
+import Nav from "./components/organisms/Nav";
 import SignupPage from "./components/views/SignupPage";
 import LoginPage from "./components/views/LoginPage";
 import Dashboard from "./components/views/Dashboard";
