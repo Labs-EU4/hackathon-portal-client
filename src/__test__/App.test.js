@@ -59,7 +59,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node for the current user's email , renders properly", () => {
     expect(component.queryByText("8omemail@google.com")).toBeInTheDocument();
   });
-  it("The text node <p> for the Eurohack hackathon event card date, renders properly", () => {
+  it("The text node <p> for the 'Create event' event card date, renders properly", () => {
     expect(component.queryByText(/Create Event/i)).toBeInTheDocument();
   });
   it("The text node <p> for the World hackathon event card date, renders properly", () => {
