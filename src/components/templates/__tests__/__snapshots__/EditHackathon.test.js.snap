@@ -108,7 +108,7 @@ Object {
                       <input
                         class="sc-eHgmQL kfMCUS"
                         id="start_date"
-                        min="2020-03-17"
+                        min="2020-03-18"
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
@@ -694,7 +694,7 @@ Object {
                     <input
                       class="sc-eHgmQL kfMCUS"
                       id="start_date"
-                      min="2020-03-17"
+                      min="2020-03-18"
                       name="start_date"
                       placeholder="Event starts"
                       type="date"

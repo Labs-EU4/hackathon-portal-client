@@ -4,9 +4,9 @@ import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
-import {WideBody} from "../../../assets/styles/atoms/WideBody";
-import {BodyContainer} from "../../../assets/styles/atoms/BodyContainer";
-import {Container} from "../../../assets/styles/atoms/Container";
+import { WideBody } from "../../../assets/styles/atoms/WideBody";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainer";
+import { Container } from "../../../assets/styles/atoms/Container";
 import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
