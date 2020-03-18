@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bdVaJa gOhKpA"
+          class="sc-bwzfXH ktSiSq"
         >
-          <div
-            class="sc-htpNat dAVxPZ"
+          <a
+            class="sc-dnqmqq kjNnRX"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-ifAKCX gCNDrT"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-htoDjs kHkNTR"
+          >
             <div
-              class="sc-jbKcbu jhdvZv"
+              class="sc-bZQynM RmySO"
             >
-              <div
-                class="sc-EHOje kXozTT"
+              <button
+                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-bZQynM dfAYGq"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -58,7 +45,7 @@ Object {
               class="sc-dVhcbM iWcBSy"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-chPdSV jQbecn"
               >
                 Submit Project
               </h3>
@@ -76,7 +63,7 @@ Object {
                     class="sc-fAjcbJ DOSjX"
                   >
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-jKJlTe dZsSRJ"
                     >
                       You are making a submission for the
                        
@@ -93,7 +80,7 @@ Object {
                       class="sc-gisBJw crwmrK"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="project_title"
                       >
                         Project Title
@@ -107,14 +94,14 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
                       />
                     </div>
                     <div
                       class="sc-gisBJw crwmrK"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-jAaTju eEKbyM"
                         for="participant_or_team_nam"
                       >
                         Team/Participant name
@@ -128,7 +115,7 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
                       />
                     </div>
                   </div>
@@ -136,7 +123,7 @@ Object {
                     class="sc-fAjcbJ kGDcbI"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="project_writeups"
                     >
                       Project Writeup
@@ -151,21 +138,21 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
                     class="sc-fAjcbJ DOSjX"
                   >
                     <a
-                      class="sc-jAaTju cfXvnD"
+                      class="sc-EHOje gPYXIs"
                       color="grey"
                       to="/dashboard"
                     >
                       Cancel
                     </a>
                     <button
-                      class="sc-brqgnP gyEPEd"
+                      class="sc-bxivhb hwXJzM"
                       color="green"
                       type="submit"
                     >
@@ -178,22 +165,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-iwsKbI hpFEep"
         >
           <p
-            class="sc-gZMcBi dqwYd"
+            class="sc-jTzLTM iPDHvH"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Contacts
@@ -206,44 +193,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bwzfXH ktSiSq"
       >
-        <div
-          class="sc-htpNat dAVxPZ"
+        <a
+          class="sc-dnqmqq kjNnRX"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-htpNat Tzmao"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-htoDjs kHkNTR"
+        >
           <div
-            class="sc-jbKcbu jhdvZv"
+            class="sc-bZQynM RmySO"
           >
-            <div
-              class="sc-EHOje kXozTT"
+            <button
+              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-bZQynM dfAYGq"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -257,7 +231,7 @@ Object {
             class="sc-dVhcbM iWcBSy"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-chPdSV jQbecn"
             >
               Submit Project
             </h3>
@@ -275,7 +249,7 @@ Object {
                   class="sc-fAjcbJ DOSjX"
                 >
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-jKJlTe dZsSRJ"
                   >
                     You are making a submission for the
                      
@@ -292,7 +266,7 @@ Object {
                     class="sc-gisBJw crwmrK"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="project_title"
                     >
                       Project Title
@@ -306,14 +280,14 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                   <div
                     class="sc-gisBJw crwmrK"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-jAaTju eEKbyM"
                       for="participant_or_team_nam"
                     >
                       Team/Participant name
@@ -327,7 +301,7 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
                     />
                   </div>
                 </div>
@@ -335,7 +309,7 @@ Object {
                   class="sc-fAjcbJ kGDcbI"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-jAaTju eEKbyM"
                     for="project_writeups"
                   >
                     Project Writeup
@@ -350,21 +324,21 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
                   />
                 </div>
                 <div
                   class="sc-fAjcbJ DOSjX"
                 >
                   <a
-                    class="sc-jAaTju cfXvnD"
+                    class="sc-EHOje gPYXIs"
                     color="grey"
                     to="/dashboard"
                   >
                     Cancel
                   </a>
                   <button
-                    class="sc-brqgnP gyEPEd"
+                    class="sc-bxivhb hwXJzM"
                     color="green"
                     type="submit"
                   >
@@ -377,22 +351,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-iwsKbI hpFEep"
       >
         <p
-          class="sc-gZMcBi dqwYd"
+          class="sc-jTzLTM iPDHvH"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Contacts

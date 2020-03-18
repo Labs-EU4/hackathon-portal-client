@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-fAjcbJ dFpOsz"
+          class="sc-caSCKo bhjPEW"
         >
-          <div
-            class="sc-gisBJw cQKDkE"
+          <a
+            class="sc-TOsTZ kTZUxM"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-fBuWsC kyHoeo"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-fBuWsC kyHoeo"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-cHGsZl fQyjuM"
+          >
             <div
-              class="sc-gGBfsJ ilfupz"
+              class="sc-gisBJw dYkUDe"
             >
-              <div
-                class="sc-cHGsZl cPfHSi"
+              <button
+                class="sc-gPEVay jqeTh sc-kjoXOD dmrfxM"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-TOsTZ cRsxAO"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -125,44 +112,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-fAjcbJ dFpOsz"
+        class="sc-caSCKo bhjPEW"
       >
-        <div
-          class="sc-gisBJw cQKDkE"
+        <a
+          class="sc-TOsTZ kTZUxM"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-fBuWsC kyHoeo"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-fBuWsC kyHoeo"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-cHGsZl fQyjuM"
+        >
           <div
-            class="sc-gGBfsJ ilfupz"
+            class="sc-gisBJw dYkUDe"
           >
-            <div
-              class="sc-cHGsZl cPfHSi"
+            <button
+              class="sc-gPEVay jqeTh sc-kjoXOD dmrfxM"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-TOsTZ cRsxAO"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>

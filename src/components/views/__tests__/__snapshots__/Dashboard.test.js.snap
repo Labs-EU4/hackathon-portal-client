@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-Rmtcm kaTiWC"
+          class="sc-bRBYWo bcWmiv"
         >
-          <div
-            class="sc-hzDkRC bLQLVc"
+          <a
+            class="sc-fMiknA dyzJBJ"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-jAaTju cZyUBe"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-jAaTju cZyUBe"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-fBuWsC bPfjiF"
+          >
             <div
-              class="sc-hEsumM eRcHjh"
+              class="sc-hzDkRC itWopO"
             >
-              <div
-                class="sc-fBuWsC kjYLiI"
+              <button
+                class="sc-kEYyzF kbIspq sc-jhAzac itwdWK"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-fMiknA ixPLQi"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -125,7 +112,7 @@ Object {
                     <div
                       class="sc-ksYbfQ ERwBz"
                     >
-                      10/9/2011
+                      09/10/2011
                     </div>
                     <div
                       class="sc-TOsTZ jEmjRy"
@@ -226,7 +213,7 @@ Object {
                     <div
                       class="sc-ksYbfQ ERwBz"
                     >
-                      7/9/2011
+                      09/07/2011
                     </div>
                     <div
                       class="sc-TOsTZ jEmjRy"
@@ -324,44 +311,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-Rmtcm kaTiWC"
+        class="sc-bRBYWo bcWmiv"
       >
-        <div
-          class="sc-hzDkRC bLQLVc"
+        <a
+          class="sc-fMiknA dyzJBJ"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-jAaTju cZyUBe"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-fBuWsC bPfjiF"
+        >
           <div
-            class="sc-hEsumM eRcHjh"
+            class="sc-hzDkRC itWopO"
           >
-            <div
-              class="sc-fBuWsC kjYLiI"
+            <button
+              class="sc-kEYyzF kbIspq sc-jhAzac itwdWK"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-fMiknA ixPLQi"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -442,7 +416,7 @@ Object {
                   <div
                     class="sc-ksYbfQ ERwBz"
                   >
-                    10/9/2011
+                    09/10/2011
                   </div>
                   <div
                     class="sc-TOsTZ jEmjRy"
@@ -543,7 +517,7 @@ Object {
                   <div
                     class="sc-ksYbfQ ERwBz"
                   >
-                    7/9/2011
+                    09/07/2011
                   </div>
                   <div
                     class="sc-TOsTZ jEmjRy"

@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bdVaJa gOhKpA"
+          class="sc-bwzfXH ktSiSq"
         >
-          <div
-            class="sc-htpNat dAVxPZ"
+          <a
+            class="sc-dnqmqq kjNnRX"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-ifAKCX gCNDrT"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-htoDjs kHkNTR"
+          >
             <div
-              class="sc-esjQYD bTbEWu"
+              class="sc-bZQynM RmySO"
             >
-              <div
-                class="sc-EHOje kXozTT"
+              <button
+                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-bZQynM dfAYGq"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -134,22 +121,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-iwsKbI hpFEep"
         >
           <p
-            class="sc-gZMcBi dqwYd"
+            class="sc-jTzLTM iPDHvH"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Contacts
@@ -162,44 +149,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bwzfXH ktSiSq"
       >
-        <div
-          class="sc-htpNat dAVxPZ"
+        <a
+          class="sc-dnqmqq kjNnRX"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-htpNat Tzmao"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-htoDjs kHkNTR"
+        >
           <div
-            class="sc-esjQYD bTbEWu"
+            class="sc-bZQynM RmySO"
           >
-            <div
-              class="sc-EHOje kXozTT"
+            <button
+              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-bZQynM dfAYGq"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -289,22 +263,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-iwsKbI hpFEep"
       >
         <p
-          class="sc-gZMcBi dqwYd"
+          class="sc-jTzLTM iPDHvH"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Contacts

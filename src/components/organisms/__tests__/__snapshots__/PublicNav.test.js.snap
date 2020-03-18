@@ -6,11 +6,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bxivhb hSjNlj"
+        class="sc-bxivhb crsnkz"
       >
         <button
-          class="sc-bdVaJa fcBjIo sc-ifAKCX kXbyvb"
+          class="sc-bdVaJa fcBjIo sc-ifAKCX jNhvrd"
           color="grey"
+          data-testid="label"
         >
           Log Out
         </button>
@@ -19,11 +20,12 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bxivhb hSjNlj"
+      class="sc-bxivhb crsnkz"
     >
       <button
-        class="sc-bdVaJa fcBjIo sc-ifAKCX kXbyvb"
+        class="sc-bdVaJa fcBjIo sc-ifAKCX jNhvrd"
         color="grey"
+        data-testid="label"
       >
         Log Out
       </button>
