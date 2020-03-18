@@ -62,7 +62,7 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node <p> for the 'Create event' event card date, renders properly", () => {
     expect(component.queryByText(/Create Event/i)).toBeInTheDocument();
   });
-  it("The text node <p> for the World hackathon event card date, renders properly", () => {
+  it("The text node 'Meet our team of superstars' text node, renders properly", () => {
     expect(
       component.getByText(/Meet our team of superstars/i)
     ).toBeInTheDocument();
