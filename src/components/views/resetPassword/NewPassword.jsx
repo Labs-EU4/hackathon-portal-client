@@ -2,20 +2,18 @@ import React from "react";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch } from "react-redux";
-import Input from "../../atoms/Input";
+import { useHistory } from "react-router-dom";
+
 import { WideBody } from "../../../assets/styles/atoms/WideBodyStyling";
 import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
-import HeroImage from "../../atoms/HeroImage";
-import image from "../../../assets/images/Signup.png";
 import { Container } from "../../../assets/styles/atoms/Container";
-import { H1 } from "../../../assets/styles/atoms/Heading";
+import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
 import { RowBody } from "../../../assets/styles/atoms/RowBody";
-import { Header, Footer } from "../../organisms/index";
-import Button from "../../atoms/Button";
 import { ErrorSpan } from "../../../assets/styles/atoms/Span";
+import Button from "../../atoms/Button";
+import Input from "../../atoms/Input";
 import { resetPassword } from "../../../store/user/actions";
-import { useHistory } from "react-router-dom";
 
 const ResetPassword = () => {
   const dispatch = useDispatch();
@@ -39,10 +37,9 @@ const ResetPassword = () => {
 
   return (
     <div>
-      <Header />
       <WideBody>
         <BodyContainer justify="center">
-          <HeroImage src={image} alt="Reset passowrd" />
+          {/* <HeroImage src={image} alt="Reset passowrd" /> */}
           <Container>
             <H1>Change the password</H1>
             <Paragraph>
@@ -93,7 +90,6 @@ const ResetPassword = () => {
           </Container>
         </BodyContainer>
       </WideBody>
-      <Footer />
     </div>
   );
 };

@@ -7,66 +7,103 @@ Object {
     <div>
       <div>
         <div
-          class="sc-brqgnP krViPx"
+          class="sc-iRbamj liaLaB"
         >
           <div
-            class="sc-cMljjf cssdrh"
+            class="sc-gipzik gYIzbI"
           >
             <a
               href="/"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-jAaTju cZyUBe"
+                class="sc-Rmtcm gaRwHN"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-jDwBTQ kNciuA"
+              class="sc-bRBYWo jvZiaU"
             >
-              <button
-                class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
-                color="grey"
+              <a
+                class="sc-kEYyzF bqfGNC"
+                to="/login"
               >
-                Log Out
-              </button>
+                Log In
+              </a>
+              <a
+                class="sc-kEYyzF dzbLNq"
+                color="blue"
+                to="/register"
+              >
+                Sign Up
+              </a>
             </div>
           </div>
         </div>
         <div
-          class="sc-iRbamj dyFMRm"
+          class="sc-hzDkRC Lgjin"
         >
           <div
-            class="sc-jlyJG kipBxx"
+            class="sc-fBuWsC fQToLD"
           >
             <img
               alt="Sign Up now!!"
-              class="sc-csuQGl bVjPnR"
+              class="sc-dVhcbM knPQfC"
               src="Signup.png"
             />
           </div>
         </div>
         <div
-          class="sc-bdVaJa jTDGAn"
+          class="sc-bdVaJa bDiKvh"
         >
-          <p
-            class="sc-ifAKCX cvXEhe"
+          <div
+            class="sc-htpNat fAaFDY"
           >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Contacts
-            </a>
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-ifAKCX ckrETo"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-ifAKCX ckrETo"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-ifAKCX ckrETo"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                alt="Hackton - Organise hackathons"
+                class="sc-gZMcBi sc-gqjmRU kdNvVY"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -75,66 +112,103 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-brqgnP krViPx"
+        class="sc-iRbamj liaLaB"
       >
         <div
-          class="sc-cMljjf cssdrh"
+          class="sc-gipzik gYIzbI"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
+              class="sc-Rmtcm gaRwHN"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-jDwBTQ kNciuA"
+            class="sc-bRBYWo jvZiaU"
           >
-            <button
-              class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
-              color="grey"
+            <a
+              class="sc-kEYyzF bqfGNC"
+              to="/login"
             >
-              Log Out
-            </button>
+              Log In
+            </a>
+            <a
+              class="sc-kEYyzF dzbLNq"
+              color="blue"
+              to="/register"
+            >
+              Sign Up
+            </a>
           </div>
         </div>
       </div>
       <div
-        class="sc-iRbamj dyFMRm"
+        class="sc-hzDkRC Lgjin"
       >
         <div
-          class="sc-jlyJG kipBxx"
+          class="sc-fBuWsC fQToLD"
         >
           <img
             alt="Sign Up now!!"
-            class="sc-csuQGl bVjPnR"
+            class="sc-dVhcbM knPQfC"
             src="Signup.png"
           />
         </div>
       </div>
       <div
-        class="sc-bdVaJa jTDGAn"
+        class="sc-bdVaJa bDiKvh"
       >
-        <p
-          class="sc-ifAKCX cvXEhe"
+        <div
+          class="sc-htpNat fAaFDY"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Contacts
-          </a>
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-ifAKCX ckrETo"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-ifAKCX ckrETo"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-ifAKCX ckrETo"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              alt="Hackton - Organise hackathons"
+              class="sc-gZMcBi sc-gqjmRU kdNvVY"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-iELTvK glxzCa"
+              class="sc-bYSBpT ikxKzt"
             >
               <div
                 class="sc-EHOje kXozTT"
@@ -49,16 +49,16 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hzDkRC cBfjrB"
+          class="sc-fBuWsC fppZUK"
         >
           <div
-            class="sc-jhAzac jxgZSd sc-tilXH dZfDvR"
+            class="sc-dVhcbM ciffbw sc-feJyhm fVxbfp"
           >
             <div
-              class="sc-bbmXgH crvuTG"
+              class="sc-hEsumM gHBLLr"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-eNQAEJ faMTgL"
               >
                 My hackathons
               </h3>
@@ -66,7 +66,7 @@ Object {
                 href="/dashboard/new"
               >
                 <button
-                  class="sc-brqgnP gyEPEd"
+                  class="sc-cvbbAY daTPuM"
                   color="green"
                 >
                   Create New
@@ -74,17 +74,17 @@ Object {
               </a>
             </div>
             <div
-              class="sc-jnlKLf jUEjEN"
+              class="sc-cIShpX bAKEi"
               spacing="start"
             >
               <div
-                class="sc-fAjcbJ cIAFYq"
+                class="sc-TOsTZ kNApUW"
               >
                 <div
-                  class="sc-dNLxif jbVVEK"
+                  class="sc-jnlKLf kXIaQX"
                 >
                   <figure
-                    class="sc-caSCKo dNANQe"
+                    class="sc-kgAjT gOWcer"
                   >
                     <img
                       alt="EuroHack"
@@ -92,10 +92,10 @@ Object {
                     />
                   </figure>
                   <div
-                    class="sc-cHGsZl YcHI"
+                    class="sc-hmzhuo fkMrAr"
                   >
                     <p
-                      class="sc-ckVGcZ sc-kgAjT jmNfKB"
+                      class="sc-kgoBCf sc-kvZOFW dfcjti"
                     >
                       Oct
                        
@@ -108,37 +108,37 @@ Object {
                       2011
                     </p>
                     <h4
-                      class="sc-kGXeez jWSLAC"
+                      class="sc-hSdWYo bAURpT"
                     >
                       EuroHack
                     </h4>
                     <p
-                      class="sc-ckVGcZ sc-cJSrbW cTDtcZ"
+                      class="sc-kgoBCf sc-hqyNC iIEHOX"
                     >
                       Europe
                     </p>
                     <p
-                      class="sc-ckVGcZ gmHOpb"
+                      class="sc-kgoBCf cHthku"
                     >
                       the best event hack hack hack macbook...
                     </p>
                     <div
-                      class="sc-ksYbfQ ERwBz"
+                      class="sc-jbKcbu covXQS"
                     >
                       10/9/2011
                     </div>
                     <div
-                      class="sc-TOsTZ jEmjRy"
+                      class="sc-frDJqD cWYlYs"
                     >
                       <a
-                        class="sc-cMljjf RWTEP"
+                        class="sc-jWBwVP fwSZHF"
                         color="primary-reverse"
                         href="//event/1"
                       >
                         More Info
                       </a>
                       <a
-                        class="sc-cMljjf exxxlb"
+                        class="sc-jWBwVP fgAxCy"
                         color="primary"
                         href="/"
                       >
@@ -148,7 +148,7 @@ Object {
                   </div>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo iLRdnU"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-cHGsZl jrpPAe sc-dNLxif dOWzHy"
                     data-icon="bookmark"
                     data-prefix="fas"
                     focusable="false"
@@ -163,7 +163,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD jwdodj"
+                    class="svg-inline--fa fa-star fa-w-18 sc-cHGsZl jrpPAe sc-jqCOkK fDMeTE"
                     data-icon="star"
                     data-prefix="fas"
                     focusable="false"
@@ -179,13 +179,13 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-fAjcbJ cIAFYq"
+                class="sc-TOsTZ kNApUW"
               >
                 <div
-                  class="sc-dNLxif jbVVEK"
+                  class="sc-jnlKLf kXIaQX"
                 >
                   <figure
-                    class="sc-caSCKo dNANQe"
+                    class="sc-kgAjT gOWcer"
                   >
                     <img
                       alt="World"
@@ -193,10 +193,10 @@ Object {
                     />
                   </figure>
                   <div
-                    class="sc-cHGsZl YcHI"
+                    class="sc-hmzhuo fkMrAr"
                   >
                     <p
-                      class="sc-ckVGcZ sc-kgAjT jmNfKB"
+                      class="sc-kgoBCf sc-kvZOFW dfcjti"
                     >
                       Jul
                        
@@ -209,37 +209,37 @@ Object {
                       2011
                     </p>
                     <h4
-                      class="sc-kGXeez jWSLAC"
+                      class="sc-hSdWYo bAURpT"
                     >
                       World
                     </h4>
                     <p
-                      class="sc-ckVGcZ sc-cJSrbW cTDtcZ"
+                      class="sc-kgoBCf sc-hqyNC iIEHOX"
                     >
                       Asia
                     </p>
                     <p
-                      class="sc-ckVGcZ gmHOpb"
+                      class="sc-kgoBCf cHthku"
                     >
                       number one hacker event in the world...
                     </p>
                     <div
-                      class="sc-ksYbfQ ERwBz"
+                      class="sc-jbKcbu covXQS"
                     >
                       7/9/2011
                     </div>
                     <div
-                      class="sc-TOsTZ jEmjRy"
+                      class="sc-frDJqD cWYlYs"
                     >
                       <a
-                        class="sc-cMljjf RWTEP"
+                        class="sc-jWBwVP fwSZHF"
                         color="primary-reverse"
                         href="//event/2"
                       >
                         More Info
                       </a>
                       <a
-                        class="sc-cMljjf exxxlb"
+                        class="sc-jWBwVP fgAxCy"
                         color="primary"
                         href="/"
                       >
@@ -249,7 +249,7 @@ Object {
                   </div>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo iLRdnU"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-cHGsZl jrpPAe sc-dNLxif dOWzHy"
                     data-icon="bookmark"
                     data-prefix="fas"
                     focusable="false"
@@ -264,7 +264,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD jwdodj"
+                    class="svg-inline--fa fa-star fa-w-18 sc-cHGsZl jrpPAe sc-jqCOkK fDMeTE"
                     data-icon="star"
                     data-prefix="fas"
                     focusable="false"
@@ -281,41 +281,71 @@ Object {
               </div>
             </div>
             <div
-              class="sc-bbmXgH crvuTG"
+              class="sc-hEsumM gHBLLr"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-eNQAEJ faMTgL"
               >
                 Global hackathons
               </h3>
             </div>
             <div
-              class="sc-jnlKLf jUEjEN"
+              class="sc-cIShpX bAKEi"
               spacing="start"
             />
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-gzVnrw bRGEaa"
         >
-          <p
-            class="sc-gZMcBi dqwYd"
+          <div
+            class="sc-dnqmqq dBtDWt"
           >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
-              href="#"
-            >
-              Contacts
-            </a>
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                alt="Hackton - Organise hackathons"
+                class="sc-kAzzGY sc-chPdSV gAkGJE"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -339,7 +369,7 @@ Object {
             />
           </a>
           <div
-            class="sc-iELTvK glxzCa"
+            class="sc-bYSBpT ikxKzt"
           >
             <div
               class="sc-EHOje kXozTT"
@@ -366,16 +396,16 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hzDkRC cBfjrB"
+        class="sc-fBuWsC fppZUK"
       >
         <div
-          class="sc-jhAzac jxgZSd sc-tilXH dZfDvR"
+          class="sc-dVhcbM ciffbw sc-feJyhm fVxbfp"
         >
           <div
-            class="sc-bbmXgH crvuTG"
+            class="sc-hEsumM gHBLLr"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-eNQAEJ faMTgL"
             >
               My hackathons
             </h3>
@@ -383,7 +413,7 @@ Object {
               href="/dashboard/new"
             >
               <button
-                class="sc-brqgnP gyEPEd"
+                class="sc-cvbbAY daTPuM"
                 color="green"
               >
                 Create New
@@ -391,17 +421,17 @@ Object {
             </a>
           </div>
           <div
-            class="sc-jnlKLf jUEjEN"
+            class="sc-cIShpX bAKEi"
             spacing="start"
           >
             <div
-              class="sc-fAjcbJ cIAFYq"
+              class="sc-TOsTZ kNApUW"
             >
               <div
-                class="sc-dNLxif jbVVEK"
+                class="sc-jnlKLf kXIaQX"
               >
                 <figure
-                  class="sc-caSCKo dNANQe"
+                  class="sc-kgAjT gOWcer"
                 >
                   <img
                     alt="EuroHack"
@@ -409,10 +439,10 @@ Object {
                   />
                 </figure>
                 <div
-                  class="sc-cHGsZl YcHI"
+                  class="sc-hmzhuo fkMrAr"
                 >
                   <p
-                    class="sc-ckVGcZ sc-kgAjT jmNfKB"
+                    class="sc-kgoBCf sc-kvZOFW dfcjti"
                   >
                     Oct
                      
@@ -425,37 +455,37 @@ Object {
                     2011
                   </p>
                   <h4
-                    class="sc-kGXeez jWSLAC"
+                    class="sc-hSdWYo bAURpT"
                   >
                     EuroHack
                   </h4>
                   <p
-                    class="sc-ckVGcZ sc-cJSrbW cTDtcZ"
+                    class="sc-kgoBCf sc-hqyNC iIEHOX"
                   >
                     Europe
                   </p>
                   <p
-                    class="sc-ckVGcZ gmHOpb"
+                    class="sc-kgoBCf cHthku"
                   >
                     the best event hack hack hack macbook...
                   </p>
                   <div
-                    class="sc-ksYbfQ ERwBz"
+                    class="sc-jbKcbu covXQS"
                   >
                     10/9/2011
                   </div>
                   <div
-                    class="sc-TOsTZ jEmjRy"
+                    class="sc-frDJqD cWYlYs"
                   >
                     <a
-                      class="sc-cMljjf RWTEP"
+                      class="sc-jWBwVP fwSZHF"
                       color="primary-reverse"
                       href="//event/1"
                     >
                       More Info
                     </a>
                     <a
-                      class="sc-cMljjf exxxlb"
+                      class="sc-jWBwVP fgAxCy"
                       color="primary"
                       href="/"
                     >
@@ -465,7 +495,7 @@ Object {
                 </div>
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo iLRdnU"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-cHGsZl jrpPAe sc-dNLxif dOWzHy"
                   data-icon="bookmark"
                   data-prefix="fas"
                   focusable="false"
@@ -480,7 +510,7 @@ Object {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD jwdodj"
+                  class="svg-inline--fa fa-star fa-w-18 sc-cHGsZl jrpPAe sc-jqCOkK fDMeTE"
                   data-icon="star"
                   data-prefix="fas"
                   focusable="false"
@@ -496,13 +526,13 @@ Object {
               </div>
             </div>
             <div
-              class="sc-fAjcbJ cIAFYq"
+              class="sc-TOsTZ kNApUW"
             >
               <div
-                class="sc-dNLxif jbVVEK"
+                class="sc-jnlKLf kXIaQX"
               >
                 <figure
-                  class="sc-caSCKo dNANQe"
+                  class="sc-kgAjT gOWcer"
                 >
                   <img
                     alt="World"
@@ -510,10 +540,10 @@ Object {
                   />
                 </figure>
                 <div
-                  class="sc-cHGsZl YcHI"
+                  class="sc-hmzhuo fkMrAr"
                 >
                   <p
-                    class="sc-ckVGcZ sc-kgAjT jmNfKB"
+                    class="sc-kgoBCf sc-kvZOFW dfcjti"
                   >
                     Jul
                      
@@ -526,37 +556,37 @@ Object {
                     2011
                   </p>
                   <h4
-                    class="sc-kGXeez jWSLAC"
+                    class="sc-hSdWYo bAURpT"
                   >
                     World
                   </h4>
                   <p
-                    class="sc-ckVGcZ sc-cJSrbW cTDtcZ"
+                    class="sc-kgoBCf sc-hqyNC iIEHOX"
                   >
                     Asia
                   </p>
                   <p
-                    class="sc-ckVGcZ gmHOpb"
+                    class="sc-kgoBCf cHthku"
                   >
                     number one hacker event in the world...
                   </p>
                   <div
-                    class="sc-ksYbfQ ERwBz"
+                    class="sc-jbKcbu covXQS"
                   >
                     7/9/2011
                   </div>
                   <div
-                    class="sc-TOsTZ jEmjRy"
+                    class="sc-frDJqD cWYlYs"
                   >
                     <a
-                      class="sc-cMljjf RWTEP"
+                      class="sc-jWBwVP fwSZHF"
                       color="primary-reverse"
                       href="//event/2"
                     >
                       More Info
                     </a>
                     <a
-                      class="sc-cMljjf exxxlb"
+                      class="sc-jWBwVP fgAxCy"
                       color="primary"
                       href="/"
                     >
@@ -566,7 +596,7 @@ Object {
                 </div>
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo iLRdnU"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-cHGsZl jrpPAe sc-dNLxif dOWzHy"
                   data-icon="bookmark"
                   data-prefix="fas"
                   focusable="false"
@@ -581,7 +611,7 @@ Object {
                 </svg>
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD jwdodj"
+                  class="svg-inline--fa fa-star fa-w-18 sc-cHGsZl jrpPAe sc-jqCOkK fDMeTE"
                   data-icon="star"
                   data-prefix="fas"
                   focusable="false"
@@ -598,41 +628,71 @@ Object {
             </div>
           </div>
           <div
-            class="sc-bbmXgH crvuTG"
+            class="sc-hEsumM gHBLLr"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-eNQAEJ faMTgL"
             >
               Global hackathons
             </h3>
           </div>
           <div
-            class="sc-jnlKLf jUEjEN"
+            class="sc-cIShpX bAKEi"
             spacing="start"
           />
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-gzVnrw bRGEaa"
       >
-        <p
-          class="sc-gZMcBi dqwYd"
+        <div
+          class="sc-dnqmqq dBtDWt"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
-            href="#"
-          >
-            Contacts
-          </a>
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              alt="Hackton - Organise hackathons"
+              class="sc-kAzzGY sc-chPdSV gAkGJE"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
         </div>
       </div>
     </div>

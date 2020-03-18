@@ -7,29 +7,29 @@ Object {
     <div>
       <div>
         <div
-          class="sc-Rmtcm kaTiWC"
+          class="sc-iRbamj liaLaB"
         >
           <div
-            class="sc-hzDkRC bLQLVc"
+            class="sc-gipzik gYIzbI"
           >
             <a
               href="/dashboard"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-jAaTju cZyUBe"
+                class="sc-Rmtcm gaRwHN"
                 src="Hackton-logo.png"
               />
             </a>
             <div
-              class="sc-iyvyFf doHmSe"
+              class="sc-hwwEjo euTjD"
             >
               <div
-                class="sc-fBuWsC kjYLiI"
+                class="sc-eqIVtm eNnNXz"
               >
                 8
                 <ul
-                  class="sc-fMiknA ixPLQi"
+                  class="sc-fAjcbJ iIzdjT"
                 >
                   <li>
                     <a
@@ -49,28 +49,28 @@ Object {
           </div>
         </div>
         <div
-          class="sc-iRbamj dyFMRm"
+          class="sc-hzDkRC Lgjin"
         >
           <div
-            class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
+            class="sc-fBuWsC hIAupq sc-kvZOFW XPmfx"
           >
             <div
-              class="sc-dVhcbM iWcBSy"
+              class="sc-caSCKo ipBruB"
             >
               <h3
-                class="sc-dnqmqq igidRh"
+                class="sc-chPdSV jQbecn"
               >
                 Add Teammates
               </h3>
             </div>
             <div
-              class="sc-fAjcbJ jFpqbf"
+              class="sc-kjoXOD gAXpgj"
             >
               <div
-                class="sc-gisBJw sc-kjoXOD jjwBFH"
+                class="sc-TOsTZ sc-kgAjT edRPfL"
               >
                 <div
-                  class="sc-bYSBpT iAZFpI"
+                  class="sc-elJkPf drXouu"
                   display="wide"
                 >
                   <input
@@ -79,7 +79,7 @@ Object {
                     value=""
                   />
                   <button
-                    class="sc-kEYyzF kbIspq"
+                    class="sc-eNQAEJ dQmkhC"
                     color="grey"
                   >
                     Back to dashboard
@@ -90,26 +90,56 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdVaJa jTDGAn"
+          class="sc-bdVaJa bDiKvh"
         >
-          <p
-            class="sc-ifAKCX cvXEhe"
+          <div
+            class="sc-htpNat fAaFDY"
           >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Contacts
-            </a>
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-ifAKCX ckrETo"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-ifAKCX ckrETo"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-ifAKCX ckrETo"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-EHOje sc-gzVnrw bKCyJZ"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                alt="Hackton - Organise hackathons"
+                class="sc-gZMcBi sc-gqjmRU kdNvVY"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -118,29 +148,29 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-Rmtcm kaTiWC"
+        class="sc-iRbamj liaLaB"
       >
         <div
-          class="sc-hzDkRC bLQLVc"
+          class="sc-gipzik gYIzbI"
         >
           <a
             href="/dashboard"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
+              class="sc-Rmtcm gaRwHN"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-iyvyFf doHmSe"
+            class="sc-hwwEjo euTjD"
           >
             <div
-              class="sc-fBuWsC kjYLiI"
+              class="sc-eqIVtm eNnNXz"
             >
               8
               <ul
-                class="sc-fMiknA ixPLQi"
+                class="sc-fAjcbJ iIzdjT"
               >
                 <li>
                   <a
@@ -160,28 +190,28 @@ Object {
         </div>
       </div>
       <div
-        class="sc-iRbamj dyFMRm"
+        class="sc-hzDkRC Lgjin"
       >
         <div
-          class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
+          class="sc-fBuWsC hIAupq sc-kvZOFW XPmfx"
         >
           <div
-            class="sc-dVhcbM iWcBSy"
+            class="sc-caSCKo ipBruB"
           >
             <h3
-              class="sc-dnqmqq igidRh"
+              class="sc-chPdSV jQbecn"
             >
               Add Teammates
             </h3>
           </div>
           <div
-            class="sc-fAjcbJ jFpqbf"
+            class="sc-kjoXOD gAXpgj"
           >
             <div
-              class="sc-gisBJw sc-kjoXOD jjwBFH"
+              class="sc-TOsTZ sc-kgAjT edRPfL"
             >
               <div
-                class="sc-bYSBpT iAZFpI"
+                class="sc-elJkPf drXouu"
                 display="wide"
               >
                 <input
@@ -190,7 +220,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-kEYyzF kbIspq"
+                  class="sc-eNQAEJ dQmkhC"
                   color="grey"
                 >
                   Back to dashboard
@@ -201,26 +231,56 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa jTDGAn"
+        class="sc-bdVaJa bDiKvh"
       >
-        <p
-          class="sc-ifAKCX cvXEhe"
+        <div
+          class="sc-htpNat fAaFDY"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Contacts
-          </a>
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-ifAKCX ckrETo"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-ifAKCX ckrETo"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-ifAKCX ckrETo"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-EHOje sc-gzVnrw bKCyJZ"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              alt="Hackton - Organise hackathons"
+              class="sc-gZMcBi sc-gqjmRU kdNvVY"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -6,27 +6,41 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bxivhb hSjNlj"
+        class="sc-bxivhb jujSCP"
       >
-        <button
-          class="sc-bdVaJa fcBjIo sc-ifAKCX kXbyvb"
-          color="grey"
+        <a
+          class="sc-htpNat ddyZWG"
+          to="/login"
         >
-          Log Out
-        </button>
+          Log In
+        </a>
+        <a
+          class="sc-htpNat cuKGzr"
+          color="blue"
+          to="/register"
+        >
+          Sign Up
+        </a>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bxivhb hSjNlj"
+      class="sc-bxivhb jujSCP"
     >
-      <button
-        class="sc-bdVaJa fcBjIo sc-ifAKCX kXbyvb"
-        color="grey"
+      <a
+        class="sc-htpNat ddyZWG"
+        to="/login"
       >
-        Log Out
-      </button>
+        Log In
+      </a>
+      <a
+        class="sc-htpNat cuKGzr"
+        color="blue"
+        to="/register"
+      >
+        Sign Up
+      </a>
     </div>
   </div>,
   "debug": [Function],

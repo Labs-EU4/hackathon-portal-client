@@ -6,29 +6,36 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa ePdClf"
+        class="sc-bdVaJa gOhKpA"
       >
         <div
-          class="sc-bwzfXH dNrEvZ"
+          class="sc-htpNat dAVxPZ"
         >
           <a
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-htpNat Tzmao"
+              class="sc-ifAKCX gCNDrT"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-bZQynM ipEubh"
+            class="sc-htoDjs uoYeN"
           >
-            <button
-              class="sc-bxivhb bYbCIa sc-gzVnrw THGLO"
-              color="grey"
+            <a
+              class="sc-gzVnrw iMlYtV"
+              to="/login"
             >
-              Log Out
-            </button>
+              Log In
+            </a>
+            <a
+              class="sc-gzVnrw ckmzAY"
+              color="blue"
+              to="/register"
+            >
+              Sign Up
+            </a>
           </div>
         </div>
       </div>
@@ -36,29 +43,36 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa ePdClf"
+      class="sc-bdVaJa gOhKpA"
     >
       <div
-        class="sc-bwzfXH dNrEvZ"
+        class="sc-htpNat dAVxPZ"
       >
         <a
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-htpNat Tzmao"
+            class="sc-ifAKCX gCNDrT"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-bZQynM ipEubh"
+          class="sc-htoDjs uoYeN"
         >
-          <button
-            class="sc-bxivhb bYbCIa sc-gzVnrw THGLO"
-            color="grey"
+          <a
+            class="sc-gzVnrw iMlYtV"
+            to="/login"
           >
-            Log Out
-          </button>
+            Log In
+          </a>
+          <a
+            class="sc-gzVnrw ckmzAY"
+            color="blue"
+            to="/register"
+          >
+            Sign Up
+          </a>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ Object {
               />
             </a>
             <div
-              class="sc-eTuwsz bZUpbl"
+              class="sc-bsbRJL cFOTnn"
             >
               <div
                 class="sc-EHOje kXozTT"
@@ -49,20 +49,20 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hzDkRC cBfjrB"
+          class="sc-fBuWsC fppZUK"
         >
           <div
-            class="sc-jhAzac jxgZSd sc-frDJqD fqTToA"
+            class="sc-dVhcbM ciffbw sc-jqCOkK eOyDaV"
           >
             <div
-              class="sc-dVhcbM iWcBSy"
+              class="sc-caSCKo ipBruB"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-eNQAEJ faMTgL"
               >
                 Submitted project for 
                 <strong
-                  class="sc-jbKcbu lnhNHQ"
+                  class="sc-gGBfsJ XndIu"
                 >
                   "
                   EuroHack
@@ -71,48 +71,48 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-fAjcbJ jFpqbf"
+              class="sc-kjoXOD gAXpgj"
             >
               <div
-                class="sc-gisBJw sc-kjoXOD sc-kvZOFW cHJBwN"
+                class="sc-cJSrbW sc-ksYbfQ sc-uJMKN cGJuUV"
               >
                 <div
-                  class="sc-lhVmIH hpFYjA"
+                  class="sc-dqBHgY cslcUk"
                 >
                   <div
-                    class="sc-jwKygS hPFuSn"
+                    class="sc-jtRfpW gcAaDR"
                   >
                     <h3
-                      class="sc-jzJRlG dhdOHq"
+                      class="sc-eNQAEJ faMTgL"
                     />
                   </div>
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-TOsTZ dwTpLN"
                     for="project_writeup"
                   >
                     Project writeup
                   </label>
                   <div
-                    class="sc-btzYZH dVGhCE"
+                    class="sc-kTUwUJ fcWLYC"
                     id="project_writeup"
                   >
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-kAzzGY brIVdx"
                     />
                   </div>
                   <div
-                    class="sc-kTUwUJ iHORnH"
+                    class="sc-iyvyFf gOHBQK"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-TOsTZ dwTpLN"
                       for="rubrics"
                     />
                     <div
-                      class="sc-bYSBpT eFrJlV"
+                      class="sc-gxMtzJ fxCzpg"
                       id="rubrics"
                     >
                       <div
-                        class="sc-elJkPf cMRdbR"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Presentation
                         <span
@@ -211,7 +211,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-elJkPf cMRdbR"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Product Fit
                         <span
@@ -310,7 +310,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-elJkPf cMRdbR"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Functionality
                         <span
@@ -409,7 +409,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-elJkPf cMRdbR"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Innovation
                         <span
@@ -508,7 +508,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-elJkPf cMRdbR"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Product Design
                         <span
@@ -607,7 +607,7 @@ Object {
                         </span>
                       </div>
                       <div
-                        class="sc-elJkPf cMRdbR"
+                        class="sc-dfVpRl kgrKNH"
                       >
                         Extensibility
                         <span
@@ -707,23 +707,23 @@ Object {
                       </div>
                     </div>
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-TOsTZ dwTpLN"
                       for="feedback"
                     >
                       Feedback
                     </label>
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-kAzzGY brIVdx"
                     >
                       No comments on this project
                     </p>
                   </div>
                 </div>
                 <div
-                  class="sc-dqBHgY haARPM"
+                  class="sc-hwwEjo kQcBSS"
                 >
                   <a
-                    class="sc-jAaTju cfXvnD"
+                    class="sc-brqgnP hixzyL"
                     color="grey"
                     to="/dashboard/event/1/projects"
                   >
@@ -735,26 +735,56 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-gzVnrw bRGEaa"
         >
-          <p
-            class="sc-gZMcBi dqwYd"
+          <div
+            class="sc-dnqmqq dBtDWt"
           >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
-              href="#"
-            >
-              Contacts
-            </a>
+            <div>
+              <img
+                alt="LinkedIn"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-linkedin.png"
+              />
+              <img
+                alt="Twitter"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-twitter.png"
+              />
+              <img
+                alt="Facebook"
+                class="sc-gZMcBi fKNoMs"
+                src="Icon-facebook.png"
+              />
+            </div>
+            <div>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="https://hackton.co/#team"
+              >
+                Team
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Privacy
+              </a>
+              <a
+                class="sc-gqjmRU sc-jTzLTM fddzAd"
+                href="#"
+              >
+                Contacts
+              </a>
+            </div>
+            <div>
+              <p
+                alt="Hackton - Organise hackathons"
+                class="sc-kAzzGY sc-chPdSV gAkGJE"
+              >
+                International Crafters © 2020
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -778,7 +808,7 @@ Object {
             />
           </a>
           <div
-            class="sc-eTuwsz bZUpbl"
+            class="sc-bsbRJL cFOTnn"
           >
             <div
               class="sc-EHOje kXozTT"
@@ -805,20 +835,20 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hzDkRC cBfjrB"
+        class="sc-fBuWsC fppZUK"
       >
         <div
-          class="sc-jhAzac jxgZSd sc-frDJqD fqTToA"
+          class="sc-dVhcbM ciffbw sc-jqCOkK eOyDaV"
         >
           <div
-            class="sc-dVhcbM iWcBSy"
+            class="sc-caSCKo ipBruB"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-eNQAEJ faMTgL"
             >
               Submitted project for 
               <strong
-                class="sc-jbKcbu lnhNHQ"
+                class="sc-gGBfsJ XndIu"
               >
                 "
                 EuroHack
@@ -827,48 +857,48 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-fAjcbJ jFpqbf"
+            class="sc-kjoXOD gAXpgj"
           >
             <div
-              class="sc-gisBJw sc-kjoXOD sc-kvZOFW cHJBwN"
+              class="sc-cJSrbW sc-ksYbfQ sc-uJMKN cGJuUV"
             >
               <div
-                class="sc-lhVmIH hpFYjA"
+                class="sc-dqBHgY cslcUk"
               >
                 <div
-                  class="sc-jwKygS hPFuSn"
+                  class="sc-jtRfpW gcAaDR"
                 >
                   <h3
-                    class="sc-jzJRlG dhdOHq"
+                    class="sc-eNQAEJ faMTgL"
                   />
                 </div>
                 <label
-                  class="sc-jWBwVP hzoveM"
+                  class="sc-TOsTZ dwTpLN"
                   for="project_writeup"
                 >
                   Project writeup
                 </label>
                 <div
-                  class="sc-btzYZH dVGhCE"
+                  class="sc-kTUwUJ fcWLYC"
                   id="project_writeup"
                 >
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-kAzzGY brIVdx"
                   />
                 </div>
                 <div
-                  class="sc-kTUwUJ iHORnH"
+                  class="sc-iyvyFf gOHBQK"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-TOsTZ dwTpLN"
                     for="rubrics"
                   />
                   <div
-                    class="sc-bYSBpT eFrJlV"
+                    class="sc-gxMtzJ fxCzpg"
                     id="rubrics"
                   >
                     <div
-                      class="sc-elJkPf cMRdbR"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Presentation
                       <span
@@ -967,7 +997,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-elJkPf cMRdbR"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Product Fit
                       <span
@@ -1066,7 +1096,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-elJkPf cMRdbR"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Functionality
                       <span
@@ -1165,7 +1195,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-elJkPf cMRdbR"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Innovation
                       <span
@@ -1264,7 +1294,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-elJkPf cMRdbR"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Product Design
                       <span
@@ -1363,7 +1393,7 @@ Object {
                       </span>
                     </div>
                     <div
-                      class="sc-elJkPf cMRdbR"
+                      class="sc-dfVpRl kgrKNH"
                     >
                       Extensibility
                       <span
@@ -1463,23 +1493,23 @@ Object {
                     </div>
                   </div>
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-TOsTZ dwTpLN"
                     for="feedback"
                   >
                     Feedback
                   </label>
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-kAzzGY brIVdx"
                   >
                     No comments on this project
                   </p>
                 </div>
               </div>
               <div
-                class="sc-dqBHgY haARPM"
+                class="sc-hwwEjo kQcBSS"
               >
                 <a
-                  class="sc-jAaTju cfXvnD"
+                  class="sc-brqgnP hixzyL"
                   color="grey"
                   to="/dashboard/event/1/projects"
                 >
@@ -1491,26 +1521,56 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-gzVnrw bRGEaa"
       >
-        <p
-          class="sc-gZMcBi dqwYd"
+        <div
+          class="sc-dnqmqq dBtDWt"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
-            href="#"
-          >
-            Contacts
-          </a>
+          <div>
+            <img
+              alt="LinkedIn"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-linkedin.png"
+            />
+            <img
+              alt="Twitter"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-twitter.png"
+            />
+            <img
+              alt="Facebook"
+              class="sc-gZMcBi fKNoMs"
+              src="Icon-facebook.png"
+            />
+          </div>
+          <div>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="https://hackton.co/#team"
+            >
+              Team
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-gqjmRU sc-jTzLTM fddzAd"
+              href="#"
+            >
+              Contacts
+            </a>
+          </div>
+          <div>
+            <p
+              alt="Hackton - Organise hackathons"
+              class="sc-kAzzGY sc-chPdSV gAkGJE"
+            >
+              International Crafters © 2020
+            </p>
+          </div>
         </div>
       </div>
     </div>
