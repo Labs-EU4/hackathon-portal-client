@@ -75,8 +75,8 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
     expect(jestFeatures.getByText("Advanced Hackton")).toBeInTheDocument();
   });
 
-  it("should be displaying the rubric's text node for the event being created", () => {
-    expect(jestFeatures.getByText("Grading Rubrics")).toBeInTheDocument();
+  it("should be displaying the 'Create New Hackathon' text node for the event being created", () => {
+    expect(jestFeatures.getByText(/Create New Hackathon/i)).toBeInTheDocument();
   });
   it("should be displaying the grading rubric's description text node for the event being created", () => {
     expect(
