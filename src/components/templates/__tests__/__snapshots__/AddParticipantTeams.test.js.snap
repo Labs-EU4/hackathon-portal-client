@@ -5,157 +5,29 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          class="sc-fAjcbJ yIIgV"
-        >
-          <a
-            class="sc-cHGsZl emwaKL"
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-jhAzac ktJPwj"
-              src="Hackton-logo.png"
-            />
-          </a>
-          <div
-            class="sc-kjoXOD jcNmby"
-          >
-            <div
-              class="sc-caSCKo laozae"
-            >
-              <button
-                class="sc-jDwBTQ jCbaIJ sc-gisBJw eUtYbA"
-                color="grey"
-                data-testid="label"
-              >
-                Log Out
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-dVhcbM eRidsy"
-        >
-          <div
-            class="sc-bdVaJa iPqVLp sc-htpNat cSpvfp"
-          >
-            <div
-              class="sc-TOsTZ dcuHFT"
-            >
-              <h3
-                class="sc-chPdSV jQbecn"
-              >
-                Add Teammates
-              </h3>
-            </div>
-            <div
-              class="sc-cJSrbW gAsXLy"
-            >
-              <div
-                class="sc-hmzhuo sc-frDJqD eVJfEN"
-              >
-                <div
-                  class="sc-ifAKCX kADRUv"
-                  display="wide"
-                >
-                  <input
-                    placeholder="Search by email"
-                    type="text"
-                    value=""
-                  />
-                  <button
-                    class="sc-jDwBTQ jCbaIJ"
-                    color="grey"
-                  >
-                    Back to dashboard
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-iwsKbI hpFEep"
-        >
-          <p
-            class="sc-jTzLTM iPDHvH"
-          >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-gZMcBi sc-VigVT iPKVYu"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-gZMcBi sc-VigVT iPKVYu"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
-        class="sc-fAjcbJ yIIgV"
-      >
-        <a
-          class="sc-cHGsZl emwaKL"
-          href="/"
-        >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-jhAzac ktJPwj"
-            src="Hackton-logo.png"
-          />
-        </a>
-        <div
-          class="sc-kjoXOD jcNmby"
-        >
-          <div
-            class="sc-caSCKo laozae"
-          >
-            <button
-              class="sc-jDwBTQ jCbaIJ sc-gisBJw eUtYbA"
-              color="grey"
-              data-testid="label"
-            >
-              Log Out
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-dVhcbM eRidsy"
+        class="sc-bZQynM irXLqA"
       >
         <div
-          class="sc-bdVaJa iPqVLp sc-htpNat cSpvfp"
+          class="sc-bdVaJa sc-htpNat kOzhBZ"
         >
           <div
-            class="sc-TOsTZ dcuHFT"
+            class="sc-gZMcBi cLoBhv"
           >
             <h3
-              class="sc-chPdSV jQbecn"
+              class="sc-dnqmqq kAxxzQ"
             >
               Add Teammates
             </h3>
           </div>
           <div
-            class="sc-cJSrbW gAsXLy"
+            class="sc-gqjmRU kVamBc"
           >
             <div
-              class="sc-hmzhuo sc-frDJqD eVJfEN"
+              class="sc-VigVT sc-jTzLTM dFyrrM"
             >
               <div
-                class="sc-ifAKCX kADRUv"
+                class="sc-ifAKCX hEwGsi"
                 display="wide"
               >
                 <input
@@ -164,7 +36,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-jDwBTQ jCbaIJ"
+                  class="sc-jzJRlG czeace"
                   color="grey"
                 >
                   Back to dashboard
@@ -174,27 +46,47 @@ Object {
           </div>
         </div>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bZQynM irXLqA"
+    >
       <div
-        class="sc-iwsKbI hpFEep"
+        class="sc-bdVaJa sc-htpNat kOzhBZ"
       >
-        <p
-          class="sc-jTzLTM iPDHvH"
+        <div
+          class="sc-gZMcBi cLoBhv"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-gZMcBi sc-VigVT iPKVYu"
-            href="#"
+          <h3
+            class="sc-dnqmqq kAxxzQ"
           >
-            Privacy
-          </a>
-          <a
-            class="sc-gZMcBi sc-VigVT iPKVYu"
-            href="#"
+            Add Teammates
+          </h3>
+        </div>
+        <div
+          class="sc-gqjmRU kVamBc"
+        >
+          <div
+            class="sc-VigVT sc-jTzLTM dFyrrM"
           >
-            Contacts
-          </a>
+            <div
+              class="sc-ifAKCX hEwGsi"
+              display="wide"
+            >
+              <input
+                placeholder="Search by email"
+                type="text"
+                value=""
+              />
+              <button
+                class="sc-jzJRlG czeace"
+                color="grey"
+              >
+                Back to dashboard
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
