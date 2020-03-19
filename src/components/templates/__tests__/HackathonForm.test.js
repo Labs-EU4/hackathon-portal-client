@@ -85,7 +85,7 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
       )
     ).toBeInTheDocument();
   });
-  
+
   it("should be displaying the guidelines text node for the event being created", () => {
     expect(jestFeatures.getByText("Guidelines")).toBeInTheDocument();
   });
@@ -103,8 +103,8 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
       )
     ).toBeInTheDocument();
   });
-  it("should be displaying the cancel button text node for the event being created", () => {
-    expect(jestFeatures.getByText("Cancel")).toBeInTheDocument();
+  it("should be displaying 'Event Starts' text node for the event being created", () => {
+    expect(jestFeatures.getByText(/Event Starts/i)).toBeInTheDocument();
   });
 
   it("renders without crashing ", () => {
