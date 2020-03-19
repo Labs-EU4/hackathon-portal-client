@@ -9,10 +9,10 @@ import HackathonSingleProject from "../HackathonSingleProject";
 import { initialState } from "../../../utils/mockData";
 import { theme } from "../../../assets/styles/ThemeStyling";
 import { ThemeProvider } from "styled-components";
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
-import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 library.add(fas, far, fab);
 
@@ -52,8 +52,8 @@ describe("Component HackathonSingleProject.js renders properly", () => {
     expect(component).toMatchSnapshot();
   });
 
-  it("asserts the project writeup is rendered", () => {
-    expect(component.queryByText(/Project writeup/i)).toBeInTheDocument();
+  it("asserts the H3 submitted project node is rendered", () => {
+    expect(component.queryByText(/Submitted project/i)).toBeInTheDocument();
   });
 
   it("asserts the a feedback is rendered", () => {
