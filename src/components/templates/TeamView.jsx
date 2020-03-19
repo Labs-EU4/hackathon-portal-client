@@ -11,7 +11,7 @@ import {
   NavLinks
 } from "../../assets/styles/templates/TeamViewStyling";
 import Button from "../atoms/Button";
-import { NavLink, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
@@ -73,9 +73,9 @@ const TeamView = ({ team }) => {
         <NormalSpan>{event_title}</NormalSpan>
       </FancyBoldSpan>
       <Button color="green">
-        <NavLink to={`/dashboard/event/${id}/participant-teams/${team.id}`}>
+        <NavLinks to={`/dashboard/event/${id}/participant-teams/${team.id}`}>
           Add Teammate
-        </NavLink>
+        </NavLinks>
       </Button>
     </TeamsContainer>
   );

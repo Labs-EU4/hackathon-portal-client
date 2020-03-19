@@ -53,6 +53,7 @@ Object {
           color="green"
         >
           <a
+            class="sc-kAzzGY hcOVsB"
             href="/dashboard/event/1/participant-teams/1"
           >
             Add Teammate
@@ -110,6 +111,7 @@ Object {
         color="green"
       >
         <a
+          class="sc-kAzzGY hcOVsB"
           href="/dashboard/event/1/participant-teams/1"
         >
           Add Teammate
