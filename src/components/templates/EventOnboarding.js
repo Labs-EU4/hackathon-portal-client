@@ -16,7 +16,7 @@ import {
   StyledButton,
   StyledH4
 } from "../../assets/styles/templates/UserEventsdashboardStyling";
-import EventCard from "../molecules/EventCard";
+import EventCard from "../organisms/EventCard";
 
 const EventOnboarding = ({ eventModalHandler }) => {
   // const [ isOpenEventClicked, setIsOpenEventClicked ] = React.useState(false);
