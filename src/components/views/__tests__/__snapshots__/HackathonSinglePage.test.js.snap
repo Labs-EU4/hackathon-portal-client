@@ -5,6 +5,7 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+
       <div
         class="sc-jTzLTM hJYDuO"
       >
@@ -23,6 +24,7 @@ Object {
               viewBox="0 0 44 44"
               width="100"
               xmlns="http://www.w3.org/2000/svg"
+
             >
               <g
                 fill="none"
@@ -85,6 +87,7 @@ Object {
             </svg>
           </div>
         </div>
+
         <p
           class="sc-eHgmQL fSoqTk"
           color="primary"
@@ -105,10 +108,12 @@ Object {
             />
           </svg>
         </p>
+
       </div>
     </div>
   </body>,
   "container": <div>
+
     <div
       class="sc-jTzLTM hJYDuO"
     >
@@ -127,6 +132,7 @@ Object {
             viewBox="0 0 44 44"
             width="100"
             xmlns="http://www.w3.org/2000/svg"
+
           >
             <g
               fill="none"
@@ -189,6 +195,7 @@ Object {
           </svg>
         </div>
       </div>
+
       <p
         class="sc-eHgmQL fSoqTk"
         color="primary"
@@ -209,6 +216,7 @@ Object {
           />
         </svg>
       </p>
+
     </div>
   </div>,
   "debug": [Function],

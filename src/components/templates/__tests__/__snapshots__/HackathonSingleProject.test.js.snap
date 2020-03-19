@@ -9,6 +9,7 @@ Object {
         class="sc-bwzfXH sc-EHOje fUSKWF"
       >
         <div
+
           class="sc-bZQynM iKrFkH"
         >
           <div
@@ -20,6 +21,7 @@ Object {
               Submitted project for 
               <strong
                 class="sc-htoDjs coOrpD"
+
               >
                 "
                 EuroHack
@@ -27,6 +29,7 @@ Object {
               </strong>
             </h3>
           </div>
+
           <div
             class="sc-iwsKbI iiLaKp"
           >
@@ -40,11 +43,13 @@ Object {
             <div
               class="sc-dnqmqq yMNUh"
               id="project_writeup"
+
             >
               <p
                 class="sc-bdVaJa sc-jzJRlG ibzmqG"
               />
               <div
+
                 class="sc-gZMcBi fYSflK"
               />
             </div>
@@ -532,6 +537,7 @@ Object {
                     </span>
                     <span
                       style="cursor: inherit; display: inline-block; position: relative;"
+
                     >
                       <span>
                         <img
@@ -551,11 +557,13 @@ Object {
                   </span>
                 </div>
                 <div
+
                   class="sc-VigVT ejiWzq"
                 >
                   Extensibility
                   <span
                     style="display: inline-block; direction: ltr;"
+
                   >
                     <span
                       style="cursor: inherit; display: inline-block; position: relative;"
@@ -663,12 +671,14 @@ Object {
               </p>
             </div>
           </div>
+
           <div
             class="sc-cSHVUG iJJUky"
           >
             <button
               class="sc-htpNat maCfY"
               color="grey"
+
             >
               Back to projects
             </button>
@@ -682,6 +692,7 @@ Object {
       class="sc-bwzfXH sc-EHOje fUSKWF"
     >
       <div
+
         class="sc-bZQynM iKrFkH"
       >
         <div
@@ -693,6 +704,7 @@ Object {
             Submitted project for 
             <strong
               class="sc-htoDjs coOrpD"
+
             >
               "
               EuroHack
@@ -700,6 +712,7 @@ Object {
             </strong>
           </h3>
         </div>
+
         <div
           class="sc-iwsKbI iiLaKp"
         >
@@ -1169,6 +1182,7 @@ Object {
                   </span>
                   <span
                     style="cursor: inherit; display: inline-block; position: relative;"
+
                   >
                     <span>
                       <img
@@ -1224,11 +1238,13 @@ Object {
                 </span>
               </div>
               <div
+
                 class="sc-VigVT ejiWzq"
               >
                 Extensibility
                 <span
                   style="display: inline-block; direction: ltr;"
+
                 >
                   <span
                     style="cursor: inherit; display: inline-block; position: relative;"
@@ -1336,12 +1352,14 @@ Object {
             </p>
           </div>
         </div>
+
         <div
           class="sc-cSHVUG iJJUky"
         >
           <button
             class="sc-htpNat maCfY"
             color="grey"
+
           >
             Back to projects
           </button>
