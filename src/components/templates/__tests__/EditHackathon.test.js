@@ -54,8 +54,8 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The value for the event title of the Hackathon being edited, renders properly", () => {
     expect(component.queryByDisplayValue(/EuroHack/i)).toBeInTheDocument();
   });
-  it("The text node for the <a> Cancel button to go back to the dashboard, renders properly", () => {
-    expect(component.queryByText(/Cancel/i)).toBeInTheDocument();
+  it("The text node for the 'Event Ends', renders properly", () => {
+    expect(component.queryByText(/Event Ends/i)).toBeInTheDocument();
   });
   it("The text node for the <button> Submit , renders properly", () => {
     expect(component.queryByText("Submit")).toBeInTheDocument();
