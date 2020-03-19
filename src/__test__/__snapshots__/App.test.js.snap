@@ -41,6 +41,7 @@ Object {
           class="sc-bZQynM ghjVHi"
         >
           <div
+
             class="sc-kasBVs edHGPw"
           >
             <div
@@ -48,6 +49,7 @@ Object {
             >
               <div
                 class="sc-eInJlc fYgYKa"
+
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -56,6 +58,7 @@ Object {
                 />
                 <div
                   class="sc-gtfDJT elcnWq"
+
                 >
                   Let's make your next hackathon a success!
                 </div>
@@ -66,6 +69,7 @@ Object {
             >
               <h1
                 class="sc-hzDEsm fmKzjM"
+
               >
                 Meet our team of superstars
                 <hr />
@@ -90,6 +94,7 @@ Object {
                 />
                 <div
                   class="sc-jtRlXQ cBNxLt"
+
                 />
               </div>
             </div>
@@ -128,6 +133,7 @@ Object {
               class="sc-eqIVtm ejobQm"
             >
               <div
+
                 class="sc-bwzfXH ihQUfF sc-fgfRvd ciYDpc"
               >
                 <div
@@ -143,13 +149,17 @@ Object {
                   class="sc-kTUwUJ bgSFiZ"
                 >
                   <div
+
                     class="sc-cmTdod sc-jwKygS sc-gpHHfC hAYiSa"
+
                   >
                     <form
                       action="#"
                     >
                       <label
+
                         class="sc-bdVaJa sc-hIVACf gQZQWY"
+
                         for="image"
                       >
                         Profile picture
@@ -210,6 +220,7 @@ Object {
                       >
                         <div
                           class="sc-kfGgVZ bEPHhF"
+
                         >
                           <label
                             class="sc-bdVaJa kxtZDY"
@@ -227,7 +238,9 @@ Object {
                           />
                         </div>
                         <div
+
                           class="sc-kfGgVZ bEPHhF"
+
                         >
                           <label
                             class="sc-bdVaJa kxtZDY"
@@ -281,6 +294,7 @@ Object {
                         </a>
                         <button
                           class="sc-iwsKbI hdHLkz sc-eXNvrr hdhPJH"
+
                           color="green"
                           type="submit"
                         >
@@ -547,6 +561,7 @@ Object {
         class="sc-bZQynM ghjVHi"
       >
         <div
+
           class="sc-kasBVs edHGPw"
         >
           <div
@@ -554,6 +569,7 @@ Object {
           >
             <div
               class="sc-eInJlc fYgYKa"
+
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -561,6 +577,7 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
+
                 class="sc-gtfDJT elcnWq"
               >
                 Let's make your next hackathon a success!
@@ -578,6 +595,7 @@ Object {
               <hr />
             </h1>
             <div
+
 
               class="sc-jeCdPy elAeIH"
             >
@@ -598,6 +616,7 @@ Object {
               />
               <div
                 class="sc-jtRlXQ cBNxLt"
+
 
               />
             </div>
@@ -662,6 +681,7 @@ Object {
                   >
                     <label
                       class="sc-bdVaJa sc-hIVACf gQZQWY"
+
 
                       for="image"
                     >
@@ -741,6 +761,7 @@ Object {
                       </div>
                       <div
                         class="sc-kfGgVZ bEPHhF"
+
                       >
                         <label
                           class="sc-bdVaJa kxtZDY"
