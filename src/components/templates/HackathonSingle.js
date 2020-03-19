@@ -17,8 +17,8 @@ import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';
 import Icon from "../atoms/Icon";
-import EventJudges from '../organisms/EventJudges';
-import HSTagsCard from '../organisms/HSTagsCard';
+import EventJudges from "../organisms/EventJudges";
+import HSTagsCard from "../organisms/HSTagsCard";
 import ContentTitle from "../molecules/ContentTitle";
 // import HackathonProjectsPage from '../views/HackathonProjectsPage';
 // import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
@@ -123,7 +123,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
 
   const handleTeamRegistration = () => {
     setRegisterTeam(true);
-  }
+  };
 
   const toTittleCase = item => {
     return item
@@ -154,9 +154,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                   <EventImg src={eventImg} alt="event-image" />
                 </EventImageContainer>
                 <ContentTitle text="Judges" />
-                <EventJudges
-                  {...{team}}
-                />
+                <EventJudges {...{ team }} />
                 <ContentTitle text="About this event" />
                 <Paragraph>{description}</Paragraph>
                 <ContentTitle text="Guidelines" />
@@ -179,28 +177,28 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                 </TagsGroup>
               </EventCardLeftColumn>
               <HSTagsCard
-                {...{isSideBarOpen}}
-                {...{start_date}}
-                {...{end_date}}
-                {...{team}}
-                {...{participants}}
-                {...{organizer_profile_pic}}
-                {...{participation_type}}
-                {...{location}}
-                {...{creator_id}}
-                {...{isTeamLead}}
-                {...{isRegistered}}
-                {...{organizer_name}}
-                {...{userId}}
-                {...{id}}
-                {...{setIsAddJudgeOpen}}
-                {...{setRegisterTeam}}
-                {...{setIsSubmitProjectOpen}}
-                {...{setIsSubmissionsPageOpen}}
-                {...{handleRegistration}}
-                {...{handleTeamRegistration}}
-                {...{userCallback}}
-                {...{emailUser}}
+                {...{ isSideBarOpen }}
+                {...{ start_date }}
+                {...{ end_date }}
+                {...{ team }}
+                {...{ participants }}
+                {...{ organizer_profile_pic }}
+                {...{ participation_type }}
+                {...{ location }}
+                {...{ creator_id }}
+                {...{ isTeamLead }}
+                {...{ isRegistered }}
+                {...{ organizer_name }}
+                {...{ userId }}
+                {...{ id }}
+                {...{ setIsAddJudgeOpen }}
+                {...{ setRegisterTeam }}
+                {...{ setIsSubmitProjectOpen }}
+                {...{ setIsSubmissionsPageOpen }}
+                {...{ handleRegistration }}
+                {...{ handleTeamRegistration }}
+                {...{ userCallback }}
+                {...{ emailUser }}
               />
             </StyledEventCard>
           </>
@@ -216,21 +214,16 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     return (
       <>
         {renderSingleEvent()}
-        <CreateTeam 
-          {...{ id }}
-        />
+        <CreateTeam {...{ id }} />
       </>
-    )
+    );
   }
 
   if (isAddJudgeOpen) {
     return (
       <>
         {renderSingleEvent()}
-        <AddTeammates
-          {...{ id }}
-          {...{ setIsAddJudgeOpen }}
-        />
+        <AddTeammates {...{ id }} {...{ setIsAddJudgeOpen }} />
       </>
     );
   }

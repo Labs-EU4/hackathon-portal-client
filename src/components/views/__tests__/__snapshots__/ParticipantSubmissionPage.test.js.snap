@@ -7,26 +7,26 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bwzfXH ktSiSq"
+          class="sc-bdVaJa dErNmg"
         >
           <a
-            class="sc-dnqmqq kjNnRX"
+            class="sc-htoDjs jssEWI"
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-htpNat Tzmao"
+              class="sc-bwzfXH fWCffE"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-htoDjs kHkNTR"
+            class="sc-gzVnrw itepUc"
           >
             <div
-              class="sc-bZQynM RmySO"
+              class="sc-EHOje bOqsil"
             >
               <button
-                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                class="sc-htpNat maCfY sc-bZQynM ignRaC"
                 color="grey"
                 data-testid="label"
               >
@@ -36,34 +36,34 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hzDkRC esVioG"
+          class="sc-bRBYWo efOACs"
         >
           <div
-            class="sc-jhAzac jxgZSd sc-hqyNC hpIxCz"
+            class="sc-hzDkRC csxNDz sc-kvZOFW XPmfx"
           >
             <div
-              class="sc-dVhcbM iWcBSy"
+              class="sc-fMiknA fZGKtL"
             >
               <h3
-                class="sc-chPdSV jQbecn"
+                class="sc-kAzzGY eOJFvg"
               >
                 Submit Project
               </h3>
             </div>
             <div
-              class="sc-gisBJw crwmrK"
+              class="sc-caSCKo dZGQkd"
             >
               <div
-                class="sc-cHGsZl sc-kgAjT VBdqo"
+                class="sc-kjoXOD sc-TOsTZ kGFIBC"
               >
                 <form
                   action="#"
                 >
                   <div
-                    class="sc-fAjcbJ DOSjX"
+                    class="sc-eqIVtm bACcVR"
                   >
                     <p
-                      class="sc-jKJlTe dZsSRJ"
+                      class="sc-ckVGcZ knXWAI"
                     >
                       You are making a submission for the
                        
@@ -74,19 +74,19 @@ Object {
                     </p>
                   </div>
                   <div
-                    class="sc-fAjcbJ DOSjX"
+                    class="sc-eqIVtm bACcVR"
                   >
                     <div
-                      class="sc-gisBJw crwmrK"
+                      class="sc-caSCKo dZGQkd"
                     >
                       <label
-                        class="sc-jAaTju eEKbyM"
+                        class="sc-cMljjf bFdBto"
                         for="project_title"
                       >
                         Project Title
                       </label>
                       <input
-                        class="sc-jDwBTQ dCmcys"
+                        class="sc-jAaTju jdGLtg"
                         display="wide"
                         id="project_title"
                         name="project_title"
@@ -94,20 +94,20 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
+                        class="sc-hMqMXs sc-iAyFgw cklGIw"
                       />
                     </div>
                     <div
-                      class="sc-gisBJw crwmrK"
+                      class="sc-caSCKo dZGQkd"
                     >
                       <label
-                        class="sc-jAaTju eEKbyM"
+                        class="sc-cMljjf bFdBto"
                         for="participant_or_team_nam"
                       >
                         Team/Participant name
                       </label>
                       <input
-                        class="sc-jDwBTQ dCmcys"
+                        class="sc-jAaTju jdGLtg"
                         display="wide"
                         id="participant_or_team_name"
                         name="participant_or_team_name"
@@ -115,21 +115,21 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-kEYyzF sc-hSdWYo bJQGuS"
+                        class="sc-hMqMXs sc-iAyFgw cklGIw"
                       />
                     </div>
                   </div>
                   <div
-                    class="sc-fAjcbJ kGDcbI"
+                    class="sc-eqIVtm jsoGfq"
                   >
                     <label
-                      class="sc-jAaTju eEKbyM"
+                      class="sc-cMljjf bFdBto"
                       for="project_writeups"
                     >
                       Project Writeup
                     </label>
                     <div
-                      class="sc-frDJqD iMiZLR"
+                      class="sc-hmzhuo iPlCQZ"
                     >
                       <textarea
                         id="project_writeups"
@@ -138,21 +138,21 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
+                      class="sc-hMqMXs sc-iAyFgw cklGIw"
                     />
                   </div>
                   <div
-                    class="sc-fAjcbJ DOSjX"
+                    class="sc-eqIVtm bACcVR"
                   >
                     <a
-                      class="sc-EHOje gPYXIs"
+                      class="sc-ifAKCX cIKUcB"
                       color="grey"
                       to="/dashboard"
                     >
                       Cancel
                     </a>
                     <button
-                      class="sc-bxivhb hwXJzM"
+                      class="sc-htpNat jPhUiJ"
                       color="green"
                       type="submit"
                     >
@@ -165,22 +165,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-iwsKbI hpFEep"
+          class="sc-dnqmqq gkSNdn"
         >
           <p
-            class="sc-jTzLTM iPDHvH"
+            class="sc-VigVT kZDxgA"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-gZMcBi sc-VigVT iPKVYu"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-gZMcBi sc-VigVT iPKVYu"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Contacts
@@ -193,26 +193,26 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bwzfXH ktSiSq"
+        class="sc-bdVaJa dErNmg"
       >
         <a
-          class="sc-dnqmqq kjNnRX"
+          class="sc-htoDjs jssEWI"
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-htpNat Tzmao"
+            class="sc-bwzfXH fWCffE"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-htoDjs kHkNTR"
+          class="sc-gzVnrw itepUc"
         >
           <div
-            class="sc-bZQynM RmySO"
+            class="sc-EHOje bOqsil"
           >
             <button
-              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              class="sc-htpNat maCfY sc-bZQynM ignRaC"
               color="grey"
               data-testid="label"
             >
@@ -222,34 +222,34 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hzDkRC esVioG"
+        class="sc-bRBYWo efOACs"
       >
         <div
-          class="sc-jhAzac jxgZSd sc-hqyNC hpIxCz"
+          class="sc-hzDkRC csxNDz sc-kvZOFW XPmfx"
         >
           <div
-            class="sc-dVhcbM iWcBSy"
+            class="sc-fMiknA fZGKtL"
           >
             <h3
-              class="sc-chPdSV jQbecn"
+              class="sc-kAzzGY eOJFvg"
             >
               Submit Project
             </h3>
           </div>
           <div
-            class="sc-gisBJw crwmrK"
+            class="sc-caSCKo dZGQkd"
           >
             <div
-              class="sc-cHGsZl sc-kgAjT VBdqo"
+              class="sc-kjoXOD sc-TOsTZ kGFIBC"
             >
               <form
                 action="#"
               >
                 <div
-                  class="sc-fAjcbJ DOSjX"
+                  class="sc-eqIVtm bACcVR"
                 >
                   <p
-                    class="sc-jKJlTe dZsSRJ"
+                    class="sc-ckVGcZ knXWAI"
                   >
                     You are making a submission for the
                      
@@ -260,19 +260,19 @@ Object {
                   </p>
                 </div>
                 <div
-                  class="sc-fAjcbJ DOSjX"
+                  class="sc-eqIVtm bACcVR"
                 >
                   <div
-                    class="sc-gisBJw crwmrK"
+                    class="sc-caSCKo dZGQkd"
                   >
                     <label
-                      class="sc-jAaTju eEKbyM"
+                      class="sc-cMljjf bFdBto"
                       for="project_title"
                     >
                       Project Title
                     </label>
                     <input
-                      class="sc-jDwBTQ dCmcys"
+                      class="sc-jAaTju jdGLtg"
                       display="wide"
                       id="project_title"
                       name="project_title"
@@ -280,20 +280,20 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
+                      class="sc-hMqMXs sc-iAyFgw cklGIw"
                     />
                   </div>
                   <div
-                    class="sc-gisBJw crwmrK"
+                    class="sc-caSCKo dZGQkd"
                   >
                     <label
-                      class="sc-jAaTju eEKbyM"
+                      class="sc-cMljjf bFdBto"
                       for="participant_or_team_nam"
                     >
                       Team/Participant name
                     </label>
                     <input
-                      class="sc-jDwBTQ dCmcys"
+                      class="sc-jAaTju jdGLtg"
                       display="wide"
                       id="participant_or_team_name"
                       name="participant_or_team_name"
@@ -301,21 +301,21 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-kEYyzF sc-hSdWYo bJQGuS"
+                      class="sc-hMqMXs sc-iAyFgw cklGIw"
                     />
                   </div>
                 </div>
                 <div
-                  class="sc-fAjcbJ kGDcbI"
+                  class="sc-eqIVtm jsoGfq"
                 >
                   <label
-                    class="sc-jAaTju eEKbyM"
+                    class="sc-cMljjf bFdBto"
                     for="project_writeups"
                   >
                     Project Writeup
                   </label>
                   <div
-                    class="sc-frDJqD iMiZLR"
+                    class="sc-hmzhuo iPlCQZ"
                   >
                     <textarea
                       id="project_writeups"
@@ -324,21 +324,21 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-kEYyzF sc-hSdWYo bJQGuS"
+                    class="sc-hMqMXs sc-iAyFgw cklGIw"
                   />
                 </div>
                 <div
-                  class="sc-fAjcbJ DOSjX"
+                  class="sc-eqIVtm bACcVR"
                 >
                   <a
-                    class="sc-EHOje gPYXIs"
+                    class="sc-ifAKCX cIKUcB"
                     color="grey"
                     to="/dashboard"
                   >
                     Cancel
                   </a>
                   <button
-                    class="sc-bxivhb hwXJzM"
+                    class="sc-htpNat jPhUiJ"
                     color="green"
                     type="submit"
                   >
@@ -351,22 +351,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-iwsKbI hpFEep"
+        class="sc-dnqmqq gkSNdn"
       >
         <p
-          class="sc-jTzLTM iPDHvH"
+          class="sc-VigVT kZDxgA"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-gZMcBi sc-VigVT iPKVYu"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-gZMcBi sc-VigVT iPKVYu"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Contacts
