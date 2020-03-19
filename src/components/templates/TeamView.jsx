@@ -52,10 +52,11 @@ const TeamView = ({ team }) => {
           {" "}
           {teammates.map((member, i) =>
             member.team_member_avatar === null ? (
-             
-                // alt="team member profile pic"
-                // src={user_icon}
-              
+              <ImgTeammates
+                key={i}
+                alt="team member profile pic"
+                src={user_icon}
+              />
             ) : (
               member.team_member_avatar.map((mem, index) => {
                 memberProfile = JSON.parse(mem);
