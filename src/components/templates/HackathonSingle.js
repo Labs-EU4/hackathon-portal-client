@@ -40,8 +40,8 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const [isSubmissionsPageOpen, setIsSubmissionsPageOpen] = useState(false);
   const [isSubmitProjectOpen, setIsSubmitProjectOpen] = useState(false);
   const [registerTeam, setRegisterTeam] = useState(false);
-  //!!REMOVE THIS BIT AND ALL CORRELATED STYLES
-  const [isSlideForm, setIsSlideForm] = useState(false);
+  // //!!REMOVE THIS BIT AND ALL CORRELATED STYLES
+  // const [isSlideForm, setIsSlideForm] = useState(false);
 
   const history = useHistory();
   const dispatch = useDispatch();
@@ -167,7 +167,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
           <Spinner />
         ) : (
           <>
-            <StyledEventCard active={isSlideForm} menuOpen={isSideBarOpen}>
+            <StyledEventCard menuOpen={isSideBarOpen}>
               <EventCardLeftColumn>
                 <TitleContainer>
                   <Icon icon={["fab", "connectdevelop"]} />
@@ -177,21 +177,21 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                   {/* Here it will go image of the event */}
                   <EventImg src={eventImg} alt="event-image" />
                 </EventImageContainer>
-                <ContentTitle text="Judges" {...{ isSlideForm }} />
+                <ContentTitle text="Judges" />
                 <EventJudges
                   {...{team}}
                 />
-                <ContentTitle text="About this event" {...{ isSlideForm }} />
+                <ContentTitle text="About this event" />
                 <Paragraph>{description}</Paragraph>
-                <ContentTitle text="Guidelines" {...{ isSlideForm }} />
+                <ContentTitle text="Guidelines" />
                 <Paragraph>{guidelines}</Paragraph>
-                <ContentTitle text="Rubrics" {...{ isSlideForm }} />
+                <ContentTitle text="Rubrics" />
                 <TagsGroup>
                   {rubrics.map(rubric => {
                     return <PTags key={rubric}>{toTittleCase(rubric)}</PTags>;
                   })}
                 </TagsGroup>
-                <ContentTitle text="Event Tags" {...{ isSlideForm }} />
+                <ContentTitle text="Event Tags" />
                 <TagsGroup>
                   {tag_name && tag_name.length !== 0 ? (
                     tag_name.map((tagged, index) => {
@@ -203,7 +203,6 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                 </TagsGroup>
               </EventCardLeftColumn>
               <HSTagsCard
-                {...{isSlideForm}}
                 {...{isSideBarOpen}}
                 {...{start_date}}
                 {...{end_date}}

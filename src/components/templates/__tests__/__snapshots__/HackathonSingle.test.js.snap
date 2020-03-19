@@ -1,3 +1,266 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on HackathonSingle.js that are contained on the making an event form asserts that the component renders properly 1`] = `undefined`;
+exports[`Shows all the text nodes on HackathonSingle.js that are contained on the making an event form asserts that the component renders properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-jTzLTM hJYDuO"
+      >
+        <div
+          class="sc-dVhcbM jweMMb"
+          spacing="center"
+        >
+          <div
+            aria-busy="true"
+            class=""
+          >
+            <svg
+              aria-label="audio-loading"
+              height="100"
+              stroke="#2559a1"
+              viewBox="0 0 44 44"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                stroke-width="2"
+              >
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="1"
+                >
+                  <animate
+                    attributeName="r"
+                    begin="0s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.165, 0.84, 0.44, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 20"
+                  />
+                  <animate
+                    attributeName="strokeOpacity"
+                    begin="0s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.3, 0.61, 0.355, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 0"
+                  />
+                </circle>
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="1"
+                >
+                  <animate
+                    attributeName="r"
+                    begin="-0.9s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.165, 0.84, 0.44, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 20"
+                  />
+                  <animate
+                    attributeName="strokeOpacity"
+                    begin="-0.9s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.3, 0.61, 0.355, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 0"
+                  />
+                </circle>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <p
+          class="sc-eHgmQL fSoqTk"
+          color="primary"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY eLYUUo"
+            data-icon="times"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 352 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+              fill="currentColor"
+            />
+          </svg>
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-jTzLTM hJYDuO"
+    >
+      <div
+        class="sc-dVhcbM jweMMb"
+        spacing="center"
+      >
+        <div
+          aria-busy="true"
+          class=""
+        >
+          <svg
+            aria-label="audio-loading"
+            height="100"
+            stroke="#2559a1"
+            viewBox="0 0 44 44"
+            width="100"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fill-rule="evenodd"
+              stroke-width="2"
+            >
+              <circle
+                cx="22"
+                cy="22"
+                r="1"
+              >
+                <animate
+                  attributeName="r"
+                  begin="0s"
+                  calcMode="spline"
+                  dur="1.8s"
+                  keySplines="0.165, 0.84, 0.44, 1"
+                  keyTimes="0; 1"
+                  repeatCount="indefinite"
+                  values="1; 20"
+                />
+                <animate
+                  attributeName="strokeOpacity"
+                  begin="0s"
+                  calcMode="spline"
+                  dur="1.8s"
+                  keySplines="0.3, 0.61, 0.355, 1"
+                  keyTimes="0; 1"
+                  repeatCount="indefinite"
+                  values="1; 0"
+                />
+              </circle>
+              <circle
+                cx="22"
+                cy="22"
+                r="1"
+              >
+                <animate
+                  attributeName="r"
+                  begin="-0.9s"
+                  calcMode="spline"
+                  dur="1.8s"
+                  keySplines="0.165, 0.84, 0.44, 1"
+                  keyTimes="0; 1"
+                  repeatCount="indefinite"
+                  values="1; 20"
+                />
+                <animate
+                  attributeName="strokeOpacity"
+                  begin="-0.9s"
+                  calcMode="spline"
+                  dur="1.8s"
+                  keySplines="0.3, 0.61, 0.355, 1"
+                  keyTimes="0; 1"
+                  repeatCount="indefinite"
+                  values="1; 0"
+                />
+              </circle>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <p
+        class="sc-eHgmQL fSoqTk"
+        color="primary"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY eLYUUo"
+          data-icon="times"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 352 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+            fill="currentColor"
+          />
+        </svg>
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
