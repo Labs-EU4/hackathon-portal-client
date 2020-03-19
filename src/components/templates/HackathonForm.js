@@ -89,7 +89,7 @@ const HackathonForm = ({ initialState }) => {
     location: Yup.string()
       .matches(/\b.*[a-zA-Z]+.*\b/, "Location cannot be just a number.")
       .min(5, "Location must be at least 5 characters long.")
-      .max(20, "Location cannot be more than 20 characters long.")
+      .max(50, "Location cannot be more than 50 characters long.")
       .required("Location is required."),
     guidelines: Yup.string()
       .min(50, "Guidelines must be at least 50 characters long.")
