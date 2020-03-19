@@ -6,7 +6,7 @@ import {
     UserContainer,
     Image,
     PHosted
-} from ''
+} from "../../assets/styles/templates/HackathonSingleStyling";
 
 const HSTagsCard = ({
 
