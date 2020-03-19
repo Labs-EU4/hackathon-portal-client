@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { media } from '../variables/media';
-import WideBody from "../atoms/WideBodyStyling";
+import { WideBody } from "../atoms/WideBodyStyling";
 import { RowBody } from "../atoms/RowBodyStyling";
 import Button from "../../../components/atoms/Button";
 
