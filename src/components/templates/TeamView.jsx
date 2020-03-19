@@ -7,7 +7,8 @@ import {
   NormalSpan,
   DivWrapper,
   ImgTeammates,
-  TeamMemberImg
+  TeamMemberImg,
+  NavLinks
 } from "../../assets/styles/templates/TeamViewStyling";
 import Button from "../atoms/Button";
 import { NavLink, useParams } from "react-router-dom";
