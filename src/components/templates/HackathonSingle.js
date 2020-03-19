@@ -29,7 +29,7 @@ import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';
 import Button from "../atoms/Button";
-import Icon from "../atoms/Icon";
+import IconN from "../atoms/Icon";
 import ContentTitle from "../molecules/ContentTitle";
 // import HackathonProjectsPage from '../views/HackathonProjectsPage';
 // import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
