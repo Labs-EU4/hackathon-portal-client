@@ -13,7 +13,6 @@ import {
 } from "../../assets/styles/templates/EventOnboardingStyling";
 import {
   StyledRowHead,
-  StyledButton,
   StyledH4
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
 import EventCard from "../organisms/EventCard";
@@ -58,8 +57,6 @@ const EventOnboarding = ({ eventModalHandler }) => {
 };
 
 export default EventOnboarding;
-
-
 
 // import React from "react";
 // import styled from "styled-components";
