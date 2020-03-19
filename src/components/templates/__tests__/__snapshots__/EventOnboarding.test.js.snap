@@ -5,609 +5,79 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="sc-bdVaJa diSTBv"
+      >
         <div
-          class="sc-bdVaJa dErNmg"
-        >
-          <a
-            class="sc-htoDjs jssEWI"
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-bwzfXH fWCffE"
-              src="Hackton-logo.png"
-            />
-          </a>
-          <div
-            class="sc-gzVnrw itepUc"
-          >
-            <div
-              class="sc-EHOje bOqsil"
-            >
-              <button
-                class="sc-htpNat maCfY sc-bZQynM ignRaC"
-                color="grey"
-                data-testid="label"
-              >
-                Log Out
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-bRBYWo efOACs"
+          class="sc-htpNat erYKYo"
+          id="open"
         >
           <div
-            class="sc-hzDkRC csxNDz sc-fYxtnH imfBlL"
+            class="sc-bxivhb jOWNEn"
           >
             <div
-              class="sc-uJMKN kfkvQe"
-            >
-              <h3
-                class="sc-kAzzGY eOJFvg"
-              >
-                My hackathons
-              </h3>
-              <a
-                href="/dashboard/new"
-              >
-                <button
-                  class="sc-htpNat jPhUiJ"
-                  color="green"
-                >
-                  Create New
-                </button>
-              </a>
-            </div>
-            <div
-              class="sc-gGBfsJ ciRyuz"
-              spacing="start"
-            >
-              <div
-                class="sc-eqIVtm fGOtcf"
-              >
-                <div
-                  class="sc-jbKcbu dLLxum"
-                >
-                  <figure
-                    class="sc-fAjcbJ kVaISI"
-                  >
-                    <img
-                      alt="EuroHack"
-                      src="event-img.jpg"
-                    />
-                  </figure>
-                  <div
-                    class="sc-kjoXOD eEakxK"
-                  >
-                    <p
-                      class="sc-eNQAEJ sc-TOsTZ cAZzyd"
-                    >
-                      Oct
-                       
-                      09
-                       - 
-                      Aug
-                       
-                      07
-                      , 
-                      2011
-                    </p>
-                    <h4
-                      class="sc-dxgOiQ ffwErA"
-                    >
-                      EuroHack
-                    </h4>
-                    <p
-                      class="sc-eNQAEJ sc-kgAjT kpcaUi"
-                    >
-                      Europe
-                    </p>
-                    <p
-                      class="sc-eNQAEJ jOoSZI"
-                    >
-                      the best event hack hack hack macbook...
-                    </p>
-                    <div
-                      class="sc-cJSrbW gcMkrr"
-                    >
-                      10/9/2011
-                    </div>
-                    <div
-                      class="sc-cHGsZl foQcPC"
-                    >
-                      <a
-                        class="sc-bxivhb hGMSnA"
-                        color="primary-reverse"
-                        href="//event/1"
-                      >
-                        More Info
-                      </a>
-                      <a
-                        class="sc-bxivhb gbbRIS"
-                        color="primary"
-                        href="/"
-                      >
-                        Join Event
-                      </a>
-                    </div>
-                  </div>
-                  <svg
-                    aria-hidden="true"
-                    class="svg-inline--fa fa-bookmark fa-w-12 sc-dVhcbM frWAEt sc-ksYbfQ bHHoaU"
-                    data-icon="bookmark"
-                    data-prefix="fas"
-                    focusable="false"
-                    role="img"
-                    viewBox="0 0 384 512"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="svg-inline--fa fa-star fa-w-18 sc-dVhcbM frWAEt sc-hmzhuo xZiTK"
-                    data-icon="star"
-                    data-prefix="fas"
-                    focusable="false"
-                    role="img"
-                    viewBox="0 0 576 512"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-              </div>
-              <div
-                class="sc-eqIVtm fGOtcf"
-              >
-                <div
-                  class="sc-jbKcbu dLLxum"
-                >
-                  <figure
-                    class="sc-fAjcbJ kVaISI"
-                  >
-                    <img
-                      alt="World"
-                      src="event-img.jpg"
-                    />
-                  </figure>
-                  <div
-                    class="sc-kjoXOD eEakxK"
-                  >
-                    <p
-                      class="sc-eNQAEJ sc-TOsTZ cAZzyd"
-                    >
-                      Jul
-                       
-                      09
-                       - 
-                      Aug
-                       
-                      07
-                      , 
-                      2011
-                    </p>
-                    <h4
-                      class="sc-dxgOiQ ffwErA"
-                    >
-                      World
-                    </h4>
-                    <p
-                      class="sc-eNQAEJ sc-kgAjT kpcaUi"
-                    >
-                      Asia
-                    </p>
-                    <p
-                      class="sc-eNQAEJ jOoSZI"
-                    >
-                      number one hacker event in the world...
-                    </p>
-                    <div
-                      class="sc-cJSrbW gcMkrr"
-                    >
-                      7/9/2011
-                    </div>
-                    <div
-                      class="sc-cHGsZl foQcPC"
-                    >
-                      <a
-                        class="sc-bxivhb hGMSnA"
-                        color="primary-reverse"
-                        href="//event/2"
-                      >
-                        More Info
-                      </a>
-                      <a
-                        class="sc-bxivhb gbbRIS"
-                        color="primary"
-                        href="/"
-                      >
-                        Join Event
-                      </a>
-                    </div>
-                  </div>
-                  <svg
-                    aria-hidden="true"
-                    class="svg-inline--fa fa-bookmark fa-w-12 sc-dVhcbM frWAEt sc-ksYbfQ bHHoaU"
-                    data-icon="bookmark"
-                    data-prefix="fas"
-                    focusable="false"
-                    role="img"
-                    viewBox="0 0 384 512"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="svg-inline--fa fa-star fa-w-18 sc-dVhcbM frWAEt sc-hmzhuo xZiTK"
-                    data-icon="star"
-                    data-prefix="fas"
-                    focusable="false"
-                    role="img"
-                    viewBox="0 0 576 512"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <div
-              class="sc-uJMKN kfkvQe"
-            >
-              <h3
-                class="sc-kAzzGY eOJFvg"
-              >
-                Global hackathons
-              </h3>
-            </div>
-            <div
-              class="sc-gGBfsJ ciRyuz"
-              spacing="start"
+              class="sc-ifAKCX iGnmmM"
             />
           </div>
         </div>
         <div
-          class="sc-dnqmqq gkSNdn"
+          class="sc-bZQynM sc-jzJRlG hDnVGH"
         >
-          <p
-            class="sc-VigVT kZDxgA"
+          <h2
+            class="sc-EHOje jqCHSG"
           >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-iwsKbI sc-gqjmRU kqKCDB"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-iwsKbI sc-gqjmRU kqKCDB"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
+
+            Global Hackathons
+          </h2>
+
+        </div>
+        <div
+          class="sc-bwzfXH cyqWVI"
+          spacing="start"
+        >
+          <h4
+            class="sc-gZMcBi sc-kgoBCf ftuyOr"
+          >
+            There are no hackathons yet available
+          </h4>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="sc-bdVaJa diSTBv"
+    >
       <div
-        class="sc-bdVaJa dErNmg"
-      >
-        <a
-          class="sc-htoDjs jssEWI"
-          href="/"
-        >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-bwzfXH fWCffE"
-            src="Hackton-logo.png"
-          />
-        </a>
-        <div
-          class="sc-gzVnrw itepUc"
-        >
-          <div
-            class="sc-EHOje bOqsil"
-          >
-            <button
-              class="sc-htpNat maCfY sc-bZQynM ignRaC"
-              color="grey"
-              data-testid="label"
-            >
-              Log Out
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-bRBYWo efOACs"
+        class="sc-htpNat erYKYo"
+        id="open"
       >
         <div
-          class="sc-hzDkRC csxNDz sc-fYxtnH imfBlL"
+          class="sc-bxivhb jOWNEn"
         >
           <div
-            class="sc-uJMKN kfkvQe"
-          >
-            <h3
-              class="sc-kAzzGY eOJFvg"
-            >
-              My hackathons
-            </h3>
-            <a
-              href="/dashboard/new"
-            >
-              <button
-                class="sc-htpNat jPhUiJ"
-                color="green"
-              >
-                Create New
-              </button>
-            </a>
-          </div>
-          <div
-            class="sc-gGBfsJ ciRyuz"
-            spacing="start"
-          >
-            <div
-              class="sc-eqIVtm fGOtcf"
-            >
-              <div
-                class="sc-jbKcbu dLLxum"
-              >
-                <figure
-                  class="sc-fAjcbJ kVaISI"
-                >
-                  <img
-                    alt="EuroHack"
-                    src="event-img.jpg"
-                  />
-                </figure>
-                <div
-                  class="sc-kjoXOD eEakxK"
-                >
-                  <p
-                    class="sc-eNQAEJ sc-TOsTZ cAZzyd"
-                  >
-                    Oct
-                     
-                    09
-                     - 
-                    Aug
-                     
-                    07
-                    , 
-                    2011
-                  </p>
-                  <h4
-                    class="sc-dxgOiQ ffwErA"
-                  >
-                    EuroHack
-                  </h4>
-                  <p
-                    class="sc-eNQAEJ sc-kgAjT kpcaUi"
-                  >
-                    Europe
-                  </p>
-                  <p
-                    class="sc-eNQAEJ jOoSZI"
-                  >
-                    the best event hack hack hack macbook...
-                  </p>
-                  <div
-                    class="sc-cJSrbW gcMkrr"
-                  >
-                    10/9/2011
-                  </div>
-                  <div
-                    class="sc-cHGsZl foQcPC"
-                  >
-                    <a
-                      class="sc-bxivhb hGMSnA"
-                      color="primary-reverse"
-                      href="//event/1"
-                    >
-                      More Info
-                    </a>
-                    <a
-                      class="sc-bxivhb gbbRIS"
-                      color="primary"
-                      href="/"
-                    >
-                      Join Event
-                    </a>
-                  </div>
-                </div>
-                <svg
-                  aria-hidden="true"
-                  class="svg-inline--fa fa-bookmark fa-w-12 sc-dVhcbM frWAEt sc-ksYbfQ bHHoaU"
-                  data-icon="bookmark"
-                  data-prefix="fas"
-                  focusable="false"
-                  role="img"
-                  viewBox="0 0 384 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <svg
-                  aria-hidden="true"
-                  class="svg-inline--fa fa-star fa-w-18 sc-dVhcbM frWAEt sc-hmzhuo xZiTK"
-                  data-icon="star"
-                  data-prefix="fas"
-                  focusable="false"
-                  role="img"
-                  viewBox="0 0 576 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div
-              class="sc-eqIVtm fGOtcf"
-            >
-              <div
-                class="sc-jbKcbu dLLxum"
-              >
-                <figure
-                  class="sc-fAjcbJ kVaISI"
-                >
-                  <img
-                    alt="World"
-                    src="event-img.jpg"
-                  />
-                </figure>
-                <div
-                  class="sc-kjoXOD eEakxK"
-                >
-                  <p
-                    class="sc-eNQAEJ sc-TOsTZ cAZzyd"
-                  >
-                    Jul
-                     
-                    09
-                     - 
-                    Aug
-                     
-                    07
-                    , 
-                    2011
-                  </p>
-                  <h4
-                    class="sc-dxgOiQ ffwErA"
-                  >
-                    World
-                  </h4>
-                  <p
-                    class="sc-eNQAEJ sc-kgAjT kpcaUi"
-                  >
-                    Asia
-                  </p>
-                  <p
-                    class="sc-eNQAEJ jOoSZI"
-                  >
-                    number one hacker event in the world...
-                  </p>
-                  <div
-                    class="sc-cJSrbW gcMkrr"
-                  >
-                    7/9/2011
-                  </div>
-                  <div
-                    class="sc-cHGsZl foQcPC"
-                  >
-                    <a
-                      class="sc-bxivhb hGMSnA"
-                      color="primary-reverse"
-                      href="//event/2"
-                    >
-                      More Info
-                    </a>
-                    <a
-                      class="sc-bxivhb gbbRIS"
-                      color="primary"
-                      href="/"
-                    >
-                      Join Event
-                    </a>
-                  </div>
-                </div>
-                <svg
-                  aria-hidden="true"
-                  class="svg-inline--fa fa-bookmark fa-w-12 sc-dVhcbM frWAEt sc-ksYbfQ bHHoaU"
-                  data-icon="bookmark"
-                  data-prefix="fas"
-                  focusable="false"
-                  role="img"
-                  viewBox="0 0 384 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
-                    fill="currentColor"
-                  />
-                </svg>
-                <svg
-                  aria-hidden="true"
-                  class="svg-inline--fa fa-star fa-w-18 sc-dVhcbM frWAEt sc-hmzhuo xZiTK"
-                  data-icon="star"
-                  data-prefix="fas"
-                  focusable="false"
-                  role="img"
-                  viewBox="0 0 576 512"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sc-uJMKN kfkvQe"
-          >
-            <h3
-              class="sc-kAzzGY eOJFvg"
-            >
-              Global hackathons
-            </h3>
-          </div>
-          <div
-            class="sc-gGBfsJ ciRyuz"
-            spacing="start"
+            class="sc-ifAKCX iGnmmM"
           />
         </div>
       </div>
       <div
-        class="sc-dnqmqq gkSNdn"
+        class="sc-bZQynM sc-jzJRlG hDnVGH"
       >
-        <p
-          class="sc-VigVT kZDxgA"
+        <h2
+          class="sc-EHOje jqCHSG"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-iwsKbI sc-gqjmRU kqKCDB"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-iwsKbI sc-gqjmRU kqKCDB"
-            href="#"
-          >
-            Contacts
-          </a>
-        </div>
+          Global Hackathons
+        </h2>
+      </div>
+      <div
+        class="sc-bwzfXH cyqWVI"
+        spacing="start"
+      >
+        <h4
+          class="sc-gZMcBi sc-kgoBCf ftuyOr"
+        >
+          There are no hackathons yet available
+        </h4>
       </div>
     </div>
   </div>,

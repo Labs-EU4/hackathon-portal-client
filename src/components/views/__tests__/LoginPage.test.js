@@ -42,17 +42,17 @@ describe("LoginPage.js", () => {
     expect(component).toMatchSnapshot();
   });
 
-  it("the component renders an a tag to login", () => {
+  it("the logo with alt text is not in the component", () => {
     expect(
       component.queryByAltText(/Hackton - Organise hackathons/i)
-    ).toBeInTheDocument();
+    ).toBeNull();
   });
 
   it("the component image with alt tag", () => {
     expect(component.queryByAltText(/Log In now/i)).toBeInTheDocument();
   });
 
-  it("the component renders a button with data-testid", () => {
-    expect(component.queryByTestId("label")).toBeInTheDocument();
+  it("the button with data-testid does not render", () => {
+    expect(component.queryByTestId("label")).toBeNull();
   });
 });

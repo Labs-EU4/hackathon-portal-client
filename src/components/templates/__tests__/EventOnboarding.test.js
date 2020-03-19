@@ -40,22 +40,19 @@ beforeEach(() => {
 });
 
 describe("Shows all the text nodes on EventOnboarding.js", () => {
-  it("Should display the h3 title", () => {
-    expect(jestFeatures.getByText("My hackathons")).not.toBeDisabled();
+  it("Should display the Global Hackathons", () => {
+    expect(jestFeatures.getByText(/Global Hackathons/i)).not.toBeDisabled();
   });
-  it("should be displaying the button text node,to create a new event ", () => {
-    let form = () => jestFeatures.getByText("Create New");
+  it("should be displaying the string 'There are no hackathons yet available' in text node", () => {
+    let form = () => jestFeatures.getByText(/There are no hackathons yet available/i);
 
     expect(form()).toBeInTheDocument();
   });
 
-  it("displays the h3 element ", () => {
-    expect(jestFeatures.getByText("Global hackathons")).toBeInTheDocument();
+  it("should be displaying the string 'There are no hackathons yet available' text node", () => {
+    expect(jestFeatures.getByText(/There are no hackathons yet available/i)).toBeInTheDocument();
   });
 
-  it("displays a part of the description from an already created event", () => {
-    expect(jestFeatures.getByText(/macbook/)).toBeInTheDocument();
-  });
   it("should not be displaying the 'you have not created events phrase,since two events are already listed' ", () => {
     let sentence = () =>
       jestFeatures.queryByText(/You have not created any events yet/);
