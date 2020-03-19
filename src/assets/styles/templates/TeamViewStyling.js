@@ -48,3 +48,10 @@ export const DivWrapper = styled.div`
   width: 100%;
   padding-bottom: 10px;
 `;
+
+export const ImgTeammates = styled.img`
+  width: 7%;
+  height: 7%;
+  margin-left: 1%;
+  object-fit: cover;
+`;
