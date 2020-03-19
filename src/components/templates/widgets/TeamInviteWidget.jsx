@@ -6,10 +6,12 @@ import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
 import { StyledContainer } from "../../../assets/styles/templates/AddParticipantTeamsStyling";
 
 export const TeamInviteWidget = props => {
-    const noneUser = props.noneUser;
-    const sendInvite = props.sendInvite;
-    const setRole = props.setRole;
-    const role = props.role
+    const { 
+      noneUser,
+      sendInvite,
+      setRole,
+      role
+    } = props;
   
     return (
       <StyledContainer>
