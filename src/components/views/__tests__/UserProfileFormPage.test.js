@@ -47,12 +47,13 @@ describe("Component UserProfileFormPage.js renders properly", () => {
   it("The text node 'Profile Image', renders properly", () => {
     expect(component.queryByText(/Profile Image/i)).toBeInTheDocument();
   });
-  // it("The text node 'Profile Image', renders properly", () => {
-  //   expect(component.queryByText(/Profile Image/i)).toBeInTheDocument();
-  // });
-  // it("The text node 'Profile Image', renders properly", () => {
-  //   expect(component.queryByText(/Profile Image/i)).toBeInTheDocument();
-  // });
+  it("The text node 'I like coding', renders properly", () => {
+    expect(component.queryByText(/I like coding/i)).toBeInTheDocument();
+  });
+
+  it("The text node 'Save Changes', renders properly", () => {
+    expect(component.queryByText(/Save Changes/i)).toBeInTheDocument();
+  });
   it("asserts that the <textarea> placeholder for current User bio text node renders properly on the form component", () => {
     expect(component.queryByPlaceholderText("bio")).toBeInTheDocument();
   });
