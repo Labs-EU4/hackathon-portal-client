@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-import WideHeader from "../../assets/styles/atoms/WideHeaderStyling";
+// import WideHeader from "../../assets/styles/atoms/WideHeaderStyling";
 import HeaderContainer from "../../assets/styles/atoms/HeaderContainerStyling";
 import Logo from "../atoms/Logo";
 import PublicNav from "../molecules/PublicNav";

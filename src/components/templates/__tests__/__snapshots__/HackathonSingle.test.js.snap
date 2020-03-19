@@ -7,55 +7,42 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bdVaJa gOhKpA"
+          class="sc-bdVaJa dErNmg"
         >
-          <div
-            class="sc-htpNat dAVxPZ"
+          <a
+            class="sc-htoDjs jssEWI"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-ifAKCX gCNDrT"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-bwzfXH fWCffE"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-gzVnrw itepUc"
+          >
             <div
-              class="sc-eXEjpC kxPYPY"
+              class="sc-EHOje bOqsil"
             >
-              <div
-                class="sc-EHOje kXozTT"
+              <button
+                class="sc-htpNat maCfY sc-bZQynM ignRaC"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-bZQynM dfAYGq"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
         <div
-          class="sc-hzDkRC cBfjrB"
+          class="sc-bRBYWo hyNudz"
         >
           <div
-            class="sc-jhAzac jxgZSd sc-ksYbfQ kEPjVN"
+            class="sc-hzDkRC csxNDz sc-cJSrbW jkNoot"
           >
             <div
-              class="sc-caSCKo kbWDWh"
+              class="sc-fAjcbJ fvzHro"
               spacing="center"
             >
               <div
@@ -134,22 +121,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-dnqmqq gkSNdn"
         >
           <p
-            class="sc-gZMcBi dqwYd"
+            class="sc-VigVT kZDxgA"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Contacts
@@ -162,55 +149,42 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bdVaJa dErNmg"
       >
-        <div
-          class="sc-htpNat dAVxPZ"
+        <a
+          class="sc-htoDjs jssEWI"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-bwzfXH fWCffE"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-gzVnrw itepUc"
+        >
           <div
-            class="sc-eXEjpC kxPYPY"
+            class="sc-EHOje bOqsil"
           >
-            <div
-              class="sc-EHOje kXozTT"
+            <button
+              class="sc-htpNat maCfY sc-bZQynM ignRaC"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-bZQynM dfAYGq"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
       <div
-        class="sc-hzDkRC cBfjrB"
+        class="sc-bRBYWo hyNudz"
       >
         <div
-          class="sc-jhAzac jxgZSd sc-ksYbfQ kEPjVN"
+          class="sc-hzDkRC csxNDz sc-cJSrbW jkNoot"
         >
           <div
-            class="sc-caSCKo kbWDWh"
+            class="sc-fAjcbJ fvzHro"
             spacing="center"
           >
             <div
@@ -289,22 +263,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-dnqmqq gkSNdn"
       >
         <p
-          class="sc-gZMcBi dqwYd"
+          class="sc-VigVT kZDxgA"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Contacts

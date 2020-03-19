@@ -1,17 +1,20 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import UserEventsDashboard from "../templates/UserEventsDashboard";
-// import HackathonSinglePage from "./HackathonSinglePage";
+
+import { EventOnboarding } from "../templates";
 import { fetchAllEvents } from "../../store/events/actions";
 
-const Dashboard = () => {
+const HomePage = ({ eventModalHandler }) => {
   const dispatch = useDispatch();
 
   React.useEffect(() => {
     dispatch(fetchAllEvents());
   }, [dispatch]);
 
-  return <UserEventsDashboard />;
+  return (
+    <>
+      <EventOnboarding {...{ eventModalHandler }} />
+    </>
+  );
 };
-
-export default Dashboard;
+export default HomePage;

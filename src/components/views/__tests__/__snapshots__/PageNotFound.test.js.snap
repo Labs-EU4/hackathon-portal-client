@@ -5,137 +5,19 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          class="sc-brqgnP krViPx"
-        >
-          <div
-            class="sc-cMljjf cssdrh"
-          >
-            <a
-              href="/"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-jAaTju cZyUBe"
-                src="Hackton-logo.png"
-              />
-            </a>
-            <div
-              class="sc-jDwBTQ kNciuA"
-            >
-              <button
-                class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
-                color="grey"
-              >
-                Log Out
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-jlyJG sc-bRBYWo hsyZCH"
-        >
-          <div
-            class="sc-jlyJG sc-Rmtcm ljXEmM"
-          >
-            <h2
-              class="sc-htoDjs sc-hzDkRC hgpGvf"
-            >
-              Ooops!
-            </h2>
-            <h3
-              class="sc-dnqmqq igidRh"
-            >
-              We can't seem to find the page  you are looking for
-            </h3>
-            <h3>
-              Error code: 404
-            </h3>
-            <a
-              href="/dashboard"
-              style="text-decoration: none; color: lightcoral; padding-top: 10px;"
-            >
-              Home
-            </a>
-          </div>
-          <div
-            class="sc-jlyJG sc-Rmtcm ljXEmM"
-          >
-            <img
-              alt="404 icon"
-              src="notFound_icon.svg"
-            />
-          </div>
-        </div>
-        <div
-          class="sc-bdVaJa jTDGAn"
-        >
-          <p
-            class="sc-ifAKCX cvXEhe"
-          >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
-        class="sc-brqgnP krViPx"
+        class="sc-bdVaJa sc-gZMcBi kMeLMj"
       >
         <div
-          class="sc-cMljjf cssdrh"
-        >
-          <a
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
-              src="Hackton-logo.png"
-            />
-          </a>
-          <div
-            class="sc-jDwBTQ kNciuA"
-          >
-            <button
-              class="sc-kEYyzF kbIspq sc-gPEVay dBnUGi"
-              color="grey"
-            >
-              Log Out
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-jlyJG sc-bRBYWo hsyZCH"
-      >
-        <div
-          class="sc-jlyJG sc-Rmtcm ljXEmM"
+          class="sc-bdVaJa sc-iwsKbI bFsFcj"
         >
           <h2
-            class="sc-htoDjs sc-hzDkRC hgpGvf"
+            class="sc-bxivhb sc-gqjmRU cmdhhz"
           >
             Ooops!
           </h2>
           <h3
-            class="sc-dnqmqq igidRh"
+            class="sc-jzJRlG fRGoop"
           >
             We can't seem to find the page  you are looking for
           </h3>
@@ -143,14 +25,14 @@ Object {
             Error code: 404
           </h3>
           <a
+            class="sc-VigVT bWQFtl"
             href="/dashboard"
-            style="text-decoration: none; color: lightcoral; padding-top: 10px;"
           >
             Home
           </a>
         </div>
         <div
-          class="sc-jlyJG sc-Rmtcm ljXEmM"
+          class="sc-bdVaJa sc-iwsKbI bFsFcj"
         >
           <img
             alt="404 icon"
@@ -158,28 +40,42 @@ Object {
           />
         </div>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa sc-gZMcBi kMeLMj"
+    >
       <div
-        class="sc-bdVaJa jTDGAn"
+        class="sc-bdVaJa sc-iwsKbI bFsFcj"
       >
-        <p
-          class="sc-ifAKCX cvXEhe"
+        <h2
+          class="sc-bxivhb sc-gqjmRU cmdhhz"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Contacts
-          </a>
-        </div>
+          Ooops!
+        </h2>
+        <h3
+          class="sc-jzJRlG fRGoop"
+        >
+          We can't seem to find the page  you are looking for
+        </h3>
+        <h3>
+          Error code: 404
+        </h3>
+        <a
+          class="sc-VigVT bWQFtl"
+          href="/dashboard"
+        >
+          Home
+        </a>
+      </div>
+      <div
+        class="sc-bdVaJa sc-iwsKbI bFsFcj"
+      >
+        <img
+          alt="404 icon"
+          src="notFound_icon.svg"
+        />
       </div>
     </div>
   </div>,

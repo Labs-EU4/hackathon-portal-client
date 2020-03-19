@@ -7,76 +7,63 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bdVaJa gOhKpA"
+          class="sc-bdVaJa dErNmg"
         >
-          <div
-            class="sc-htpNat dAVxPZ"
+          <a
+            class="sc-htoDjs jssEWI"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-ifAKCX gCNDrT"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-bwzfXH fWCffE"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-gzVnrw itepUc"
+          >
             <div
-              class="sc-jbKcbu jhdvZv"
+              class="sc-EHOje bOqsil"
             >
-              <div
-                class="sc-EHOje kXozTT"
+              <button
+                class="sc-htpNat maCfY sc-bZQynM ignRaC"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-bZQynM dfAYGq"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
         <div
-          class="sc-hzDkRC cBfjrB"
+          class="sc-bRBYWo hyNudz"
         >
           <div
-            class="sc-jhAzac jxgZSd sc-hqyNC hpIxCz"
+            class="sc-hzDkRC csxNDz sc-kvZOFW XPmfx"
           >
             <div
-              class="sc-dVhcbM iWcBSy"
+              class="sc-fMiknA fZGKtL"
             >
               <h3
-                class="sc-jzJRlG dhdOHq"
+                class="sc-kAzzGY eOJFvg"
               >
                 Submit Project
               </h3>
             </div>
             <div
-              class="sc-gisBJw crwmrK"
+              class="sc-caSCKo dZGQkd"
             >
               <div
-                class="sc-cHGsZl sc-kgAjT VBdqo"
+                class="sc-kjoXOD sc-TOsTZ kGFIBC"
               >
                 <form
                   action="#"
                 >
                   <div
-                    class="sc-fAjcbJ DOSjX"
+                    class="sc-eqIVtm bACcVR"
                   >
                     <p
-                      class="sc-kpOJdX bgqFAV"
+                      class="sc-ckVGcZ knXWAI"
                     >
                       You are making a submission for the
                        
@@ -87,19 +74,19 @@ Object {
                     </p>
                   </div>
                   <div
-                    class="sc-fAjcbJ DOSjX"
+                    class="sc-eqIVtm bACcVR"
                   >
                     <div
-                      class="sc-gisBJw crwmrK"
+                      class="sc-caSCKo dZGQkd"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-cMljjf bFdBto"
                         for="project_title"
                       >
                         Project Title
                       </label>
                       <input
-                        class="sc-jDwBTQ dCmcys"
+                        class="sc-jAaTju jdGLtg"
                         display="wide"
                         id="project_title"
                         name="project_title"
@@ -107,20 +94,20 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-hMqMXs sc-iAyFgw cklGIw"
                       />
                     </div>
                     <div
-                      class="sc-gisBJw crwmrK"
+                      class="sc-caSCKo dZGQkd"
                     >
                       <label
-                        class="sc-jWBwVP hzoveM"
+                        class="sc-cMljjf bFdBto"
                         for="participant_or_team_nam"
                       >
                         Team/Participant name
                       </label>
                       <input
-                        class="sc-jDwBTQ dCmcys"
+                        class="sc-jAaTju jdGLtg"
                         display="wide"
                         id="participant_or_team_name"
                         name="participant_or_team_name"
@@ -128,21 +115,21 @@ Object {
                         value=""
                       />
                       <span
-                        class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                        class="sc-hMqMXs sc-iAyFgw cklGIw"
                       />
                     </div>
                   </div>
                   <div
-                    class="sc-fAjcbJ kGDcbI"
+                    class="sc-eqIVtm jsoGfq"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-cMljjf bFdBto"
                       for="project_writeups"
                     >
                       Project Writeup
                     </label>
                     <div
-                      class="sc-frDJqD iMiZLR"
+                      class="sc-hmzhuo iPlCQZ"
                     >
                       <textarea
                         id="project_writeups"
@@ -151,21 +138,21 @@ Object {
                       />
                     </div>
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-hMqMXs sc-iAyFgw cklGIw"
                     />
                   </div>
                   <div
-                    class="sc-fAjcbJ DOSjX"
+                    class="sc-eqIVtm bACcVR"
                   >
                     <a
-                      class="sc-jAaTju cfXvnD"
+                      class="sc-ifAKCX cIKUcB"
                       color="grey"
                       to="/dashboard"
                     >
                       Cancel
                     </a>
                     <button
-                      class="sc-brqgnP gyEPEd"
+                      class="sc-htpNat jPhUiJ"
                       color="green"
                       type="submit"
                     >
@@ -178,22 +165,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gzVnrw cAymxl"
+          class="sc-dnqmqq gkSNdn"
         >
           <p
-            class="sc-gZMcBi dqwYd"
+            class="sc-VigVT kZDxgA"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-htoDjs sc-iwsKbI jiENTn"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Contacts
@@ -206,76 +193,63 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bdVaJa gOhKpA"
+        class="sc-bdVaJa dErNmg"
       >
-        <div
-          class="sc-htpNat dAVxPZ"
+        <a
+          class="sc-htoDjs jssEWI"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-ifAKCX gCNDrT"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-bwzfXH fWCffE"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-gzVnrw itepUc"
+        >
           <div
-            class="sc-jbKcbu jhdvZv"
+            class="sc-EHOje bOqsil"
           >
-            <div
-              class="sc-EHOje kXozTT"
+            <button
+              class="sc-htpNat maCfY sc-bZQynM ignRaC"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-bZQynM dfAYGq"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
       <div
-        class="sc-hzDkRC cBfjrB"
+        class="sc-bRBYWo hyNudz"
       >
         <div
-          class="sc-jhAzac jxgZSd sc-hqyNC hpIxCz"
+          class="sc-hzDkRC csxNDz sc-kvZOFW XPmfx"
         >
           <div
-            class="sc-dVhcbM iWcBSy"
+            class="sc-fMiknA fZGKtL"
           >
             <h3
-              class="sc-jzJRlG dhdOHq"
+              class="sc-kAzzGY eOJFvg"
             >
               Submit Project
             </h3>
           </div>
           <div
-            class="sc-gisBJw crwmrK"
+            class="sc-caSCKo dZGQkd"
           >
             <div
-              class="sc-cHGsZl sc-kgAjT VBdqo"
+              class="sc-kjoXOD sc-TOsTZ kGFIBC"
             >
               <form
                 action="#"
               >
                 <div
-                  class="sc-fAjcbJ DOSjX"
+                  class="sc-eqIVtm bACcVR"
                 >
                   <p
-                    class="sc-kpOJdX bgqFAV"
+                    class="sc-ckVGcZ knXWAI"
                   >
                     You are making a submission for the
                      
@@ -286,19 +260,19 @@ Object {
                   </p>
                 </div>
                 <div
-                  class="sc-fAjcbJ DOSjX"
+                  class="sc-eqIVtm bACcVR"
                 >
                   <div
-                    class="sc-gisBJw crwmrK"
+                    class="sc-caSCKo dZGQkd"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-cMljjf bFdBto"
                       for="project_title"
                     >
                       Project Title
                     </label>
                     <input
-                      class="sc-jDwBTQ dCmcys"
+                      class="sc-jAaTju jdGLtg"
                       display="wide"
                       id="project_title"
                       name="project_title"
@@ -306,20 +280,20 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-hMqMXs sc-iAyFgw cklGIw"
                     />
                   </div>
                   <div
-                    class="sc-gisBJw crwmrK"
+                    class="sc-caSCKo dZGQkd"
                   >
                     <label
-                      class="sc-jWBwVP hzoveM"
+                      class="sc-cMljjf bFdBto"
                       for="participant_or_team_nam"
                     >
                       Team/Participant name
                     </label>
                     <input
-                      class="sc-jDwBTQ dCmcys"
+                      class="sc-jAaTju jdGLtg"
                       display="wide"
                       id="participant_or_team_name"
                       name="participant_or_team_name"
@@ -327,21 +301,21 @@ Object {
                       value=""
                     />
                     <span
-                      class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                      class="sc-hMqMXs sc-iAyFgw cklGIw"
                     />
                   </div>
                 </div>
                 <div
-                  class="sc-fAjcbJ kGDcbI"
+                  class="sc-eqIVtm jsoGfq"
                 >
                   <label
-                    class="sc-jWBwVP hzoveM"
+                    class="sc-cMljjf bFdBto"
                     for="project_writeups"
                   >
                     Project Writeup
                   </label>
                   <div
-                    class="sc-frDJqD iMiZLR"
+                    class="sc-hmzhuo iPlCQZ"
                   >
                     <textarea
                       id="project_writeups"
@@ -350,21 +324,21 @@ Object {
                     />
                   </div>
                   <span
-                    class="sc-jKJlTe sc-kEYyzF eqSMXL"
+                    class="sc-hMqMXs sc-iAyFgw cklGIw"
                   />
                 </div>
                 <div
-                  class="sc-fAjcbJ DOSjX"
+                  class="sc-eqIVtm bACcVR"
                 >
                   <a
-                    class="sc-jAaTju cfXvnD"
+                    class="sc-ifAKCX cIKUcB"
                     color="grey"
                     to="/dashboard"
                   >
                     Cancel
                   </a>
                   <button
-                    class="sc-brqgnP gyEPEd"
+                    class="sc-htpNat jPhUiJ"
                     color="green"
                     type="submit"
                   >
@@ -377,22 +351,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gzVnrw cAymxl"
+        class="sc-dnqmqq gkSNdn"
       >
         <p
-          class="sc-gZMcBi dqwYd"
+          class="sc-VigVT kZDxgA"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-htoDjs sc-iwsKbI jiENTn"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Contacts

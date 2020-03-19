@@ -7,58 +7,45 @@ Object {
     <div>
       <div>
         <div
-          class="sc-eHgmQL bylZnf"
+          class="sc-eHgmQL dHuwkf"
         >
-          <div
-            class="sc-jWBwVP bYNjAt"
+          <a
+            class="sc-iRbamj bjIJZa"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-cMljjf jVjzeq"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-cvbbAY gpsLVr"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-gPEVay cMUoGB"
+          >
             <div
-              class="sc-btzYZH habFxH"
+              class="sc-jAaTju iWsoKX"
             >
-              <div
-                class="sc-jAaTju hMumwu"
+              <button
+                class="sc-jWBwVP jbHuyu sc-jDwBTQ jSHWuW"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-jDwBTQ fmKuHP"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
         <div
-          class="sc-ktHwxA kYImdf"
+          class="sc-hEsumM fOPBdj"
         >
           <div
             class="sc-bdVaJa iPqVLp sc-VigVT kLsUCd"
           >
             <div
-              class="sc-kafWEX bgvrha"
+              class="sc-cIShpX fUXHLn"
             >
               <h3
-                class="sc-fBuWsC fjMhZR"
+                class="sc-dVhcbM dDbvOb"
               >
                 Submitted projects for 
                 <strong
@@ -71,7 +58,7 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-iELTvK kjSUHF"
+              class="sc-feJyhm HBNTF"
             >
               <div
                 class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
@@ -158,22 +145,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gPEVay tcNig"
+          class="sc-jlyJG hvMCCy"
         >
           <p
-            class="sc-csuQGl ssVAS"
+            class="sc-bRBYWo eBDXzw"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-iRbamj sc-gipzik gfZAUH"
+              class="sc-gipzik sc-Rmtcm cjQWqq"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-iRbamj sc-gipzik gfZAUH"
+              class="sc-gipzik sc-Rmtcm cjQWqq"
               href="#"
             >
               Contacts
@@ -186,58 +173,45 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-eHgmQL bylZnf"
+        class="sc-eHgmQL dHuwkf"
       >
-        <div
-          class="sc-jWBwVP bYNjAt"
+        <a
+          class="sc-iRbamj bjIJZa"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-cMljjf jVjzeq"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-cvbbAY gpsLVr"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-gPEVay cMUoGB"
+        >
           <div
-            class="sc-btzYZH habFxH"
+            class="sc-jAaTju iWsoKX"
           >
-            <div
-              class="sc-jAaTju hMumwu"
+            <button
+              class="sc-jWBwVP jbHuyu sc-jDwBTQ jSHWuW"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-jDwBTQ fmKuHP"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
       <div
-        class="sc-ktHwxA kYImdf"
+        class="sc-hEsumM fOPBdj"
       >
         <div
           class="sc-bdVaJa iPqVLp sc-VigVT kLsUCd"
         >
           <div
-            class="sc-kafWEX bgvrha"
+            class="sc-cIShpX fUXHLn"
           >
             <h3
-              class="sc-fBuWsC fjMhZR"
+              class="sc-dVhcbM dDbvOb"
             >
               Submitted projects for 
               <strong
@@ -250,7 +224,7 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-iELTvK kjSUHF"
+            class="sc-feJyhm HBNTF"
           >
             <div
               class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
@@ -337,22 +311,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-gPEVay tcNig"
+        class="sc-jlyJG hvMCCy"
       >
         <p
-          class="sc-csuQGl ssVAS"
+          class="sc-bRBYWo eBDXzw"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-iRbamj sc-gipzik gfZAUH"
+            class="sc-gipzik sc-Rmtcm cjQWqq"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-iRbamj sc-gipzik gfZAUH"
+            class="sc-gipzik sc-Rmtcm cjQWqq"
             href="#"
           >
             Contacts

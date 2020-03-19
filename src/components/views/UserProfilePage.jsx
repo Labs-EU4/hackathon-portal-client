@@ -1,3 +1,5 @@
+// ----------------- THIS IS NOT USED IN THE NEW CODE BASE ----------------------- //
+
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import UserProfile from "../templates/UserProfile";

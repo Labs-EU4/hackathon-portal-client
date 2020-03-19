@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-Rmtcm kaTiWC"
+          class="sc-Rmtcm iIrgcV"
         >
-          <div
-            class="sc-hzDkRC bLQLVc"
+          <a
+            class="sc-fBuWsC gkzqGZ"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-jAaTju cZyUBe"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-jAaTju cZyUBe"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-jhAzac eQWEze"
+          >
             <div
-              class="sc-iyvyFf doHmSe"
+              class="sc-bRBYWo hbnKBA"
             >
-              <div
-                class="sc-fBuWsC kjYLiI"
+              <button
+                class="sc-kEYyzF kbIspq sc-hzDkRC ksyApW"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-fMiknA ixPLQi"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -52,10 +39,10 @@ Object {
           class="sc-iRbamj dyFMRm"
         >
           <div
-            class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
+            class="sc-jlyJG doWxFB sc-ksYbfQ kEPjVN"
           >
             <div
-              class="sc-dVhcbM iWcBSy"
+              class="sc-fMiknA fZGKtL"
             >
               <h3
                 class="sc-dnqmqq igidRh"
@@ -64,13 +51,13 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-fAjcbJ jFpqbf"
+              class="sc-eqIVtm cafaYE"
             >
               <div
-                class="sc-gisBJw sc-kjoXOD jjwBFH"
+                class="sc-caSCKo sc-gisBJw bHRYxT"
               >
                 <div
-                  class="sc-bYSBpT iAZFpI"
+                  class="sc-lhVmIH guBzHi"
                   display="wide"
                 >
                   <input
@@ -118,44 +105,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-Rmtcm kaTiWC"
+        class="sc-Rmtcm iIrgcV"
       >
-        <div
-          class="sc-hzDkRC bLQLVc"
+        <a
+          class="sc-fBuWsC gkzqGZ"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-jAaTju cZyUBe"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-jhAzac eQWEze"
+        >
           <div
-            class="sc-iyvyFf doHmSe"
+            class="sc-bRBYWo hbnKBA"
           >
-            <div
-              class="sc-fBuWsC kjYLiI"
+            <button
+              class="sc-kEYyzF kbIspq sc-hzDkRC ksyApW"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-fMiknA ixPLQi"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -163,10 +137,10 @@ Object {
         class="sc-iRbamj dyFMRm"
       >
         <div
-          class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
+          class="sc-jlyJG doWxFB sc-ksYbfQ kEPjVN"
         >
           <div
-            class="sc-dVhcbM iWcBSy"
+            class="sc-fMiknA fZGKtL"
           >
             <h3
               class="sc-dnqmqq igidRh"
@@ -175,13 +149,13 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-fAjcbJ jFpqbf"
+            class="sc-eqIVtm cafaYE"
           >
             <div
-              class="sc-gisBJw sc-kjoXOD jjwBFH"
+              class="sc-caSCKo sc-gisBJw bHRYxT"
             >
               <div
-                class="sc-bYSBpT iAZFpI"
+                class="sc-lhVmIH guBzHi"
                 display="wide"
               >
                 <input

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { type } from "../variables/index";
+// import { type } from "../variables/index";
 
 export const LabelN = styled.label`
   display: inline-block;
@@ -8,3 +8,4 @@ export const LabelN = styled.label`
   margin-right: auto;
   padding: 5px;
 `;
+

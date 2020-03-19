@@ -1,6 +1,7 @@
 import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { H2 } from "../atoms/Heading";
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const BodyColumn = styled(BodyContainer)`
   flex-direction: column;
@@ -23,4 +24,10 @@ export const BodyRow = styled(BodyContainer)`
 
 export const Header2 = styled(H2)`
   font-size: 70px;
+`;
+
+export const StyledNavLink = styled(NavLink)`
+  text-decoration: none;
+  color: lightcoral;
+  padding-top: 10px;
 `;

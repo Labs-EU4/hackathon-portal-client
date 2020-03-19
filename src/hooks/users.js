@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import { axiosWithAuth, selectToken } from '../utils/api';
+import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
+import { axiosWithAuth, selectToken } from "../utils/api";
 
 export const useUsers = () => {
   const [users, setUsers] = useState([]);
@@ -19,23 +19,23 @@ export const useUsers = () => {
   }, [token]);
 
   return users;
-}
+};
 
 export const useSearchUserByEmail = () => {
-  const [searchString, setSearchString] = useState('');
+  const [searchString, setSearchString] = useState("");
   const [matches, setMatches] = useState([]);
   const users = useUsers();
 
   useEffect(() => {
     const match = searchString
       ? users
-        .filter(user =>
-          user?.email.toUpperCase().includes(searchString.toUpperCase())
-        )
-        .filter((_, i) => i < 5)
+          .filter(user =>
+            user?.email.toUpperCase().includes(searchString.toUpperCase())
+          )
+          .filter((_, i) => i < 5)
       : [];
     setMatches(match);
   }, [searchString, users]);
 
   return [matches, searchString, setSearchString];
-}
+};

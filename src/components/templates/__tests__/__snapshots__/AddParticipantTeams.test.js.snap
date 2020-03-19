@@ -7,44 +7,31 @@ Object {
     <div>
       <div>
         <div
-          class="sc-fAjcbJ dFpOsz"
+          class="sc-fAjcbJ yIIgV"
         >
-          <div
-            class="sc-gisBJw cQKDkE"
+          <a
+            class="sc-cHGsZl emwaKL"
+            href="/"
           >
-            <a
-              href="/dashboard"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-jhAzac ktJPwj"
-                src="Hackton-logo.png"
-              />
-            </a>
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-jhAzac ktJPwj"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-kjoXOD jcNmby"
+          >
             <div
-              class="sc-iyvyFf doHmSe"
+              class="sc-caSCKo laozae"
             >
-              <div
-                class="sc-cHGsZl cPfHSi"
+              <button
+                class="sc-jDwBTQ jCbaIJ sc-gisBJw eUtYbA"
+                color="grey"
+                data-testid="label"
               >
-                8
-                <ul
-                  class="sc-TOsTZ cRsxAO"
-                >
-                  <li>
-                    <a
-                      href="/dashboard/profile/edit"
-                    >
-                      Settings
-                    </a>
-                  </li>
-                  <li>
-                    <span>
-                      LogOut
-                    </span>
-                  </li>
-                </ul>
-              </div>
+                Log Out
+              </button>
             </div>
           </div>
         </div>
@@ -55,7 +42,7 @@ Object {
             class="sc-bdVaJa iPqVLp sc-htpNat cSpvfp"
           >
             <div
-              class="sc-kgAjT eagLfN"
+              class="sc-TOsTZ dcuHFT"
             >
               <h3
                 class="sc-chPdSV jQbecn"
@@ -64,10 +51,10 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-ksYbfQ jpQrWi"
+              class="sc-cJSrbW gAsXLy"
             >
               <div
-                class="sc-frDJqD sc-kvZOFW gbAuwW"
+                class="sc-hmzhuo sc-frDJqD eVJfEN"
               >
                 <div
                   class="sc-ifAKCX kADRUv"
@@ -118,44 +105,31 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-fAjcbJ dFpOsz"
+        class="sc-fAjcbJ yIIgV"
       >
-        <div
-          class="sc-gisBJw cQKDkE"
+        <a
+          class="sc-cHGsZl emwaKL"
+          href="/"
         >
-          <a
-            href="/dashboard"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-jhAzac ktJPwj"
-              src="Hackton-logo.png"
-            />
-          </a>
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-jhAzac ktJPwj"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-kjoXOD jcNmby"
+        >
           <div
-            class="sc-iyvyFf doHmSe"
+            class="sc-caSCKo laozae"
           >
-            <div
-              class="sc-cHGsZl cPfHSi"
+            <button
+              class="sc-jDwBTQ jCbaIJ sc-gisBJw eUtYbA"
+              color="grey"
+              data-testid="label"
             >
-              8
-              <ul
-                class="sc-TOsTZ cRsxAO"
-              >
-                <li>
-                  <a
-                    href="/dashboard/profile/edit"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    LogOut
-                  </span>
-                </li>
-              </ul>
-            </div>
+              Log Out
+            </button>
           </div>
         </div>
       </div>
@@ -166,7 +140,7 @@ Object {
           class="sc-bdVaJa iPqVLp sc-htpNat cSpvfp"
         >
           <div
-            class="sc-kgAjT eagLfN"
+            class="sc-TOsTZ dcuHFT"
           >
             <h3
               class="sc-chPdSV jQbecn"
@@ -175,10 +149,10 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-ksYbfQ jpQrWi"
+            class="sc-cJSrbW gAsXLy"
           >
             <div
-              class="sc-frDJqD sc-kvZOFW gbAuwW"
+              class="sc-hmzhuo sc-frDJqD eVJfEN"
             >
               <div
                 class="sc-ifAKCX kADRUv"
