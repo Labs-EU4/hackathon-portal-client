@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Button from "../atoms/Button";
+import { StyledContainer } from "../../assets/styles/templates/AddParticipantTeamsStyling";
 
 export const TeamInviteWidget = props => {
     const noneUser = props.noneUser;
