@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
@@ -8,16 +8,14 @@ import {
   StyledWideBody,
   ButtonRowBody,
   NewButton
-} from '../../assets/styles/templates/UserProfileFormStyling';
+} from "../../assets/styles/templates/UserProfileFormStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import Label from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
-import {
-  updateUserProfile
-} from "../../store/user/actions";
+import { updateUserProfile } from "../../store/user/actions";
 
 const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
   const dispatch = useDispatch();
@@ -26,11 +24,11 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
 
   const handleSubmit = (values, a) => {
     const formData = new FormData();
-    formData.append('image_url', selectedImage);
-    formData.append('bio', values.bio);
-    formData.append('fullname', values.fullname);
-    formData.append('email', values.email);
-    formData.append('username', values.username);
+    formData.append("image_url", selectedImage);
+    formData.append("bio", values.bio);
+    formData.append("fullname", values.fullname);
+    formData.append("email", values.email);
+    formData.append("username", values.username);
     dispatch(updateUserProfile(formData, history));
     setIsProfileOpen(false);
   };
@@ -40,7 +38,7 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
     fullname: initialState?.fullname || "",
     email: initialState?.email || "",
     username: initialState?.username || ""
-  }
+  };
 
   const schema = Yup.object().shape({
     fullname: Yup.string().required("fullname is required"),
@@ -50,7 +48,7 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
   });
 
   return (
-    <StyledWideBody 
+    <StyledWideBody
       active={isProfileOpen}
       onMouseLeave={() => setIsProfileOpen(false)}
     >
@@ -82,9 +80,7 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
                 placeholder="Username"
                 display="wide"
               />
-              {errors.name && touched.name ? (
-                <div>{errors.name}</div>
-              ) : null}
+              {errors.name && touched.name ? <div>{errors.name}</div> : null}
               <ErrorMessage name="username" />
             </RowBody>
             <RowBody>
@@ -95,9 +91,7 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
                 placeholder="Email"
                 display="wide"
               />
-              {errors.name && touched.name ? (
-                <div>{errors.name}</div>
-              ) : null}
+              {errors.name && touched.name ? <div>{errors.name}</div> : null}
               <ErrorMessage name="email" />
             </RowBody>
             <RowBody>
@@ -108,29 +102,19 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
                 display="wide"
                 placeholder="Profile picture"
                 accept="image/*"
-                onChange={(e) => setSelectedImage(e.target.files[0])}
+                onChange={e => setSelectedImage(e.target.files[0])}
               />
             </RowBody>
             <RowBody>
               <Label htmlFor="bio">Bio</Label>
-              <TextArea
-                wide
-                tall
-                as="textarea"
-                name="bio"
-                placeholder="bio"
-              />
-              {errors.name && touched.name ? (
-                <div>{errors.name}</div>
-              ) : null}
+              <TextArea wide tall as="textarea" name="bio" placeholder="bio" />
+              {errors.name && touched.name ? <div>{errors.name}</div> : null}
               <ErrorMessage name="bio" />
             </RowBody>
             <ButtonRowBody>
-              <NewButton 
-                color="green" 
-                size="wide"
-                type="submit"
-              >Save Changes</NewButton>
+              <NewButton color="green" size="wide" type="submit">
+                Save Changes
+              </NewButton>
             </ButtonRowBody>
           </Form>
         )}
