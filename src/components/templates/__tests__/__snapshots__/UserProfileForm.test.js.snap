@@ -5,442 +5,246 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          class="sc-bdVaJa dErNmg"
-        >
-          <a
-            class="sc-htoDjs jssEWI"
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-bwzfXH fWCffE"
-              src="Hackton-logo.png"
-            />
-          </a>
-          <div
-            class="sc-gzVnrw itepUc"
-          >
-            <div
-              class="sc-EHOje bOqsil"
-            >
-              <button
-                class="sc-htpNat maCfY sc-bZQynM ignRaC"
-                color="grey"
-                data-testid="label"
-              >
-                Log Out
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-bRBYWo hyNudz"
-        >
-          <div
-            class="sc-hzDkRC csxNDz sc-hqyNC hpIxCz"
-          >
-            <div
-              class="sc-fMiknA fZGKtL"
-            >
-              <h3
-                class="sc-kAzzGY eOJFvg"
-              >
-                Edit Profile
-              </h3>
-            </div>
-            <div
-              class="sc-eqIVtm bACcVR"
-            >
-              <div
-                class="sc-kgAjT sc-cJSrbW sc-dNLxif KkOk"
-              >
-                <form
-                  action="#"
-                >
-                  <label
-                    class="sc-cMljjf sc-jbKcbu kcjfY"
-                    for="image"
-                  >
-                    Profile picture
-                  </label>
-                  <figure
-                    class="sc-TOsTZ kFBaye"
-                  >
-                    <div>
-                      <img
-                        alt=""
-                        src="profile-image.png"
-                      />
-                    </div>
-                    <p />
-                  </figure>
-                  <div
-                    class="sc-eqIVtm bACcVR"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="fullname"
-                    >
-                      Full Name
-                    </label>
-                    <input
-                      class="sc-jAaTju jdGLtg"
-                      display="wide"
-                      name="fullname"
-                      placeholder="Full Name"
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                  <div
-                    class="sc-eqIVtm bACcVR"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="image"
-                    >
-                      Profile Image
-                    </label>
-                    <input
-                      accept="image/*"
-                      class="sc-jAaTju jdGLtg"
-                      display="wide"
-                      name="image_url"
-                      placeholder="Profile picture"
-                      type="file"
-                      value=""
-                    />
-                  </div>
-                  <div
-                    class="sc-eqIVtm bACcVR"
-                  >
-                    <div
-                      class="sc-caSCKo dZGQkd"
-                    >
-                      <label
-                        class="sc-cMljjf bFdBto"
-                        for="email"
-                      >
-                        Email
-                      </label>
-                      <input
-                        class="sc-jAaTju jdGLtg"
-                        display="wide"
-                        name="email"
-                        placeholder="Email"
-                        type="text"
-                        value=""
-                      />
-                    </div>
-                    <div
-                      class="sc-caSCKo dZGQkd"
-                    >
-                      <label
-                        class="sc-cMljjf bFdBto"
-                        for="username"
-                      >
-                        Username
-                      </label>
-                      <input
-                        class="sc-jAaTju jdGLtg"
-                        display="wide"
-                        name="username"
-                        placeholder="Username"
-                        type="text"
-                        value=""
-                      />
-                    </div>
-                  </div>
-                  <div
-                    class="sc-eqIVtm bACcVR"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="bio"
-                    >
-                      Bio
-                    </label>
-                    <div
-                      class="sc-kjoXOD cjJXTl"
-                    >
-                      <textarea
-                        name="bio"
-                        placeholder="bio"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    class="sc-eqIVtm sc-jqCOkK yzuen"
-                  >
-                    <a
-                      href="/dashboard"
-                    >
-                      <button
-                        class="sc-htpNat maCfY"
-                        color="grey"
-                        to="/dashboard"
-                      >
-                        Cancel
-                      </button>
-                    </a>
-                    <button
-                      class="sc-htpNat jPhUiJ sc-uJMKN kiKVKP"
-                      color="green"
-                      type="submit"
-                    >
-                      Save Changes
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-dnqmqq gkSNdn"
-        >
-          <p
-            class="sc-VigVT kZDxgA"
-          >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-iwsKbI sc-gqjmRU kqKCDB"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-iwsKbI sc-gqjmRU kqKCDB"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
-        class="sc-bdVaJa dErNmg"
+        class="sc-bdVaJa sc-EHOje fEdRca"
       >
-        <a
-          class="sc-htoDjs jssEWI"
-          href="/"
-        >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-bwzfXH fWCffE"
-            src="Hackton-logo.png"
-          />
-        </a>
-        <div
-          class="sc-gzVnrw itepUc"
+        <form
+          action="#"
         >
           <div
-            class="sc-EHOje bOqsil"
-          >
-            <button
-              class="sc-htpNat maCfY sc-bZQynM ignRaC"
-              color="grey"
-              data-testid="label"
-            >
-              Log Out
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-bRBYWo hyNudz"
-      >
-        <div
-          class="sc-hzDkRC csxNDz sc-hqyNC hpIxCz"
-        >
-          <div
-            class="sc-fMiknA fZGKtL"
+            class="sc-gqjmRU QrEQq"
           >
             <h3
-              class="sc-kAzzGY eOJFvg"
+              class="sc-iwsKbI dsTmGx"
             >
               Edit Profile
             </h3>
           </div>
           <div
-            class="sc-eqIVtm bACcVR"
+            class="sc-bwzfXH dvexzl"
           >
-            <div
-              class="sc-kgAjT sc-cJSrbW sc-dNLxif KkOk"
+            <label
+              class="sc-VigVT jWAkOu"
+              for="fullname"
             >
-              <form
-                action="#"
-              >
-                <label
-                  class="sc-cMljjf sc-jbKcbu kcjfY"
-                  for="image"
-                >
-                  Profile picture
-                </label>
-                <figure
-                  class="sc-TOsTZ kFBaye"
-                >
-                  <div>
-                    <img
-                      alt=""
-                      src="profile-image.png"
-                    />
-                  </div>
-                  <p />
-                </figure>
-                <div
-                  class="sc-eqIVtm bACcVR"
-                >
-                  <label
-                    class="sc-cMljjf bFdBto"
-                    for="fullname"
-                  >
-                    Full Name
-                  </label>
-                  <input
-                    class="sc-jAaTju jdGLtg"
-                    display="wide"
-                    name="fullname"
-                    placeholder="Full Name"
-                    type="text"
-                    value=""
-                  />
-                </div>
-                <div
-                  class="sc-eqIVtm bACcVR"
-                >
-                  <label
-                    class="sc-cMljjf bFdBto"
-                    for="image"
-                  >
-                    Profile Image
-                  </label>
-                  <input
-                    accept="image/*"
-                    class="sc-jAaTju jdGLtg"
-                    display="wide"
-                    name="image_url"
-                    placeholder="Profile picture"
-                    type="file"
-                    value=""
-                  />
-                </div>
-                <div
-                  class="sc-eqIVtm bACcVR"
-                >
-                  <div
-                    class="sc-caSCKo dZGQkd"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="email"
-                    >
-                      Email
-                    </label>
-                    <input
-                      class="sc-jAaTju jdGLtg"
-                      display="wide"
-                      name="email"
-                      placeholder="Email"
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                  <div
-                    class="sc-caSCKo dZGQkd"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="username"
-                    >
-                      Username
-                    </label>
-                    <input
-                      class="sc-jAaTju jdGLtg"
-                      display="wide"
-                      name="username"
-                      placeholder="Username"
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                </div>
-                <div
-                  class="sc-eqIVtm bACcVR"
-                >
-                  <label
-                    class="sc-cMljjf bFdBto"
-                    for="bio"
-                  >
-                    Bio
-                  </label>
-                  <div
-                    class="sc-kjoXOD cjJXTl"
-                  >
-                    <textarea
-                      name="bio"
-                      placeholder="bio"
-                    />
-                  </div>
-                </div>
-                <div
-                  class="sc-eqIVtm sc-jqCOkK yzuen"
-                >
-                  <a
-                    href="/dashboard"
-                  >
-                    <button
-                      class="sc-htpNat maCfY"
-                      color="grey"
-                      to="/dashboard"
-                    >
-                      Cancel
-                    </button>
-                  </a>
-                  <button
-                    class="sc-htpNat jPhUiJ sc-uJMKN kiKVKP"
-                    color="green"
-                    type="submit"
-                  >
-                    Save Changes
-                  </button>
-                </div>
-              </form>
+              Full Name
+            </label>
+            <input
+              class="sc-jTzLTM jfEWjN"
+              display="wide"
+              name="fullname"
+              placeholder="Full Name"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-bwzfXH dvexzl"
+          >
+            <label
+              class="sc-VigVT jWAkOu"
+              for="username"
+            >
+              Username
+            </label>
+            <input
+              class="sc-jTzLTM jfEWjN"
+              display="wide"
+              name="username"
+              placeholder="Username"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-bwzfXH dvexzl"
+          >
+            <label
+              class="sc-VigVT jWAkOu"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="sc-jTzLTM jfEWjN"
+              display="wide"
+              name="email"
+              placeholder="Email"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-bwzfXH dvexzl"
+          >
+            <label
+              class="sc-VigVT jWAkOu"
+              for="image"
+            >
+              Profile Image
+            </label>
+            <input
+              accept="image/*"
+              class="sc-jTzLTM jfEWjN"
+              display="wide"
+              name="image_url"
+              placeholder="Profile picture"
+              type="file"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-bwzfXH dvexzl"
+          >
+            <label
+              class="sc-VigVT jWAkOu"
+              for="bio"
+            >
+              Bio
+            </label>
+            <div
+              class="sc-fjdhpX dyUumZ"
+            >
+              <textarea
+                name="bio"
+                placeholder="bio"
+              />
             </div>
           </div>
-        </div>
+          <div
+            class="sc-bwzfXH sc-bZQynM cceUFP"
+          >
+            <button
+              class="sc-htpNat cQgpzv sc-gzVnrw eQlSzE"
+              color="green"
+              type="submit"
+            >
+              Save Changes
+            </button>
+          </div>
+        </form>
       </div>
-      <div
-        class="sc-dnqmqq gkSNdn"
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa sc-EHOje fEdRca"
+    >
+      <form
+        action="#"
       >
-        <p
-          class="sc-VigVT kZDxgA"
+        <div
+          class="sc-gqjmRU QrEQq"
         >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-iwsKbI sc-gqjmRU kqKCDB"
-            href="#"
+          <h3
+            class="sc-iwsKbI dsTmGx"
           >
-            Privacy
-          </a>
-          <a
-            class="sc-iwsKbI sc-gqjmRU kqKCDB"
-            href="#"
-          >
-            Contacts
-          </a>
+            Edit Profile
+          </h3>
         </div>
-      </div>
+        <div
+          class="sc-bwzfXH dvexzl"
+        >
+          <label
+            class="sc-VigVT jWAkOu"
+            for="fullname"
+          >
+            Full Name
+          </label>
+          <input
+            class="sc-jTzLTM jfEWjN"
+            display="wide"
+            name="fullname"
+            placeholder="Full Name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="sc-bwzfXH dvexzl"
+        >
+          <label
+            class="sc-VigVT jWAkOu"
+            for="username"
+          >
+            Username
+          </label>
+          <input
+            class="sc-jTzLTM jfEWjN"
+            display="wide"
+            name="username"
+            placeholder="Username"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="sc-bwzfXH dvexzl"
+        >
+          <label
+            class="sc-VigVT jWAkOu"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="sc-jTzLTM jfEWjN"
+            display="wide"
+            name="email"
+            placeholder="Email"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="sc-bwzfXH dvexzl"
+        >
+          <label
+            class="sc-VigVT jWAkOu"
+            for="image"
+          >
+            Profile Image
+          </label>
+          <input
+            accept="image/*"
+            class="sc-jTzLTM jfEWjN"
+            display="wide"
+            name="image_url"
+            placeholder="Profile picture"
+            type="file"
+            value=""
+          />
+        </div>
+        <div
+          class="sc-bwzfXH dvexzl"
+        >
+          <label
+            class="sc-VigVT jWAkOu"
+            for="bio"
+          >
+            Bio
+          </label>
+          <div
+            class="sc-fjdhpX dyUumZ"
+          >
+            <textarea
+              name="bio"
+              placeholder="bio"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-bwzfXH sc-bZQynM cceUFP"
+        >
+          <button
+            class="sc-htpNat cQgpzv sc-gzVnrw eQlSzE"
+            color="green"
+            type="submit"
+          >
+            Save Changes
+          </button>
+        </div>
+      </form>
     </div>
   </div>,
   "debug": [Function],

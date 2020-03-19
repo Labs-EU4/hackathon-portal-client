@@ -41,15 +41,13 @@ Object {
           class="sc-bZQynM ghjVHi"
         >
           <div
-
-            class="sc-kasBVs edHGPw"
+            class="sc-kXeGPI dkUvVU"
           >
             <div
-              class="sc-hgHYgh eqIdFm"
+              class="sc-fyjhYU cJzHHV"
             >
               <div
-                class="sc-eInJlc fYgYKa"
-
+                class="sc-ugnQR eZjgDR"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -57,278 +55,165 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-gtfDJT elcnWq"
-
+                  class="sc-eIHaNI lfaqov"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-fOICqy biYruA"
+              class="sc-eTpRJs kKaJzH"
             >
               <h1
-                class="sc-hzDEsm fmKzjM"
-
+                class="sc-dxZgTM gATcHn"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-jeCdPy elAeIH"
+                class="sc-iomxrj eyPooD"
               >
                 <div
-                  class="sc-jtRlXQ cBNxLt"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-jtRlXQ cBNxLt"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-jtRlXQ cBNxLt"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-jtRlXQ cBNxLt"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-jtRlXQ cBNxLt"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-jtRlXQ cBNxLt"
-
+                  class="sc-dvCyap eXDDzK"
                 />
               </div>
             </div>
           </div>
-          <div>
-            <div
-              class="sc-gzVnrw fZfPkj"
+          <div
+            class="sc-eqIVtm sc-exkUMo eVzOqP"
+          >
+            <form
+              action="#"
             >
-              <a
-                class="sc-fjdhpX bhWwPP"
-                href="/"
+              <div
+                class="sc-ibxdXY iHcTJr"
               >
-                <img
-                  alt="Hackton - Organise hackathons"
-                  class="sc-htoDjs fIbBiq"
-                  src="Hackton-logo.png"
+                <h3
+                  class="sc-kIPQKe jbSXPD"
+                >
+                  Edit Profile
+                </h3>
+              </div>
+              <div
+                class="sc-hXRMBi fZaLbc"
+              >
+                <label
+                  class="sc-bsbRJL dEiKNw"
+                  for="fullname"
+                >
+                  Full Name
+                </label>
+                <input
+                  class="sc-csuQGl eaVGsU"
+                  display="wide"
+                  name="fullname"
+                  placeholder="Full Name"
+                  type="text"
+                  value="Jake Tom"
                 />
-              </a>
+              </div>
               <div
-                class="sc-jTzLTM ezzmDc"
+                class="sc-hXRMBi fZaLbc"
               >
-                <div
-                  class="sc-gqjmRU geHXiz"
+                <label
+                  class="sc-bsbRJL dEiKNw"
+                  for="username"
                 >
-                  <button
-                    class="sc-dnqmqq dzlkzF sc-VigVT juIfOZ"
-                    color="grey"
-                    data-testid="label"
-                  >
-                    Log Out
-                  </button>
-                </div>
+                  Username
+                </label>
+                <input
+                  class="sc-csuQGl eaVGsU"
+                  display="wide"
+                  name="username"
+                  placeholder="Username"
+                  type="text"
+                  value="Jake22"
+                />
               </div>
-            </div>
-            <div
-              class="sc-eqIVtm ejobQm"
-            >
               <div
-
-                class="sc-bwzfXH ihQUfF sc-fgfRvd ciYDpc"
+                class="sc-hXRMBi fZaLbc"
               >
-                <div
-                  class="sc-elJkPf iakaoC"
+                <label
+                  class="sc-bsbRJL dEiKNw"
+                  for="email"
                 >
-                  <h3
-                    class="sc-jKJlTe giRPFq"
-                  >
-                    Edit Profile
-                  </h3>
-                </div>
-                <div
-                  class="sc-kTUwUJ bgSFiZ"
+                  Email
+                </label>
+                <input
+                  class="sc-csuQGl eaVGsU"
+                  display="wide"
+                  name="email"
+                  placeholder="Email"
+                  type="text"
+                  value="8omemail@google.com"
+                />
+              </div>
+              <div
+                class="sc-hXRMBi fZaLbc"
+              >
+                <label
+                  class="sc-bsbRJL dEiKNw"
+                  for="image"
                 >
-                  <div
-
-                    class="sc-cmTdod sc-jwKygS sc-gpHHfC hAYiSa"
-
+                  Profile Image
+                </label>
+                <input
+                  accept="image/*"
+                  class="sc-csuQGl eaVGsU"
+                  display="wide"
+                  name="image_url"
+                  placeholder="Profile picture"
+                  type="file"
+                  value=""
+                />
+              </div>
+              <div
+                class="sc-hXRMBi fZaLbc"
+              >
+                <label
+                  class="sc-bsbRJL dEiKNw"
+                  for="bio"
+                >
+                  Bio
+                </label>
+                <div
+                  class="sc-cmthru dJbqfg"
+                >
+                  <textarea
+                    name="bio"
+                    placeholder="bio"
                   >
-                    <form
-                      action="#"
-                    >
-                      <label
-
-                        class="sc-bdVaJa sc-hIVACf gQZQWY"
-
-                        for="image"
-                      >
-                        Profile picture
-                      </label>
-                      <figure
-
-                        class="sc-drMfKT gWqdXW"
-                      >
-                        <div>
-                          <img
-                            alt=""
-                            src="profile-image.png"
-                          />
-                        </div>
-                        <p>
-                          Jake22
-                        </p>
-                      </figure>
-                      <div
-                        class="sc-kTUwUJ bgSFiZ"
-                      >
-                        <label
-                          class="sc-bdVaJa kxtZDY"
-                          for="fullname"
-                        >
-                          Full Name
-                        </label>
-                        <input
-                          class="sc-csuQGl eaVGsU"
-                          display="wide"
-                          name="fullname"
-                          placeholder="Full Name"
-                          type="text"
-                          value="Jake Tom"
-                        />
-                      </div>
-                      <div
-                        class="sc-kTUwUJ bgSFiZ"
-                      >
-                        <label
-                          class="sc-bdVaJa kxtZDY"
-                          for="image"
-                        >
-                          Profile Image
-                        </label>
-                        <input
-                          accept="image/*"
-                          class="sc-csuQGl eaVGsU"
-                          display="wide"
-                          name="image_url"
-                          placeholder="Profile picture"
-                          type="file"
-                          value=""
-                        />
-                      </div>
-                      <div
-                        class="sc-kTUwUJ bgSFiZ"
-                      >
-                        <div
-                          class="sc-kfGgVZ bEPHhF"
-
-                        >
-                          <label
-                            class="sc-bdVaJa kxtZDY"
-                            for="email"
-                          >
-                            Email
-                          </label>
-                          <input
-                            class="sc-csuQGl eaVGsU"
-                            display="wide"
-                            name="email"
-                            placeholder="Email"
-                            type="text"
-                            value="8omemail@google.com"
-                          />
-                        </div>
-                        <div
-
-                          class="sc-kfGgVZ bEPHhF"
-
-                        >
-                          <label
-                            class="sc-bdVaJa kxtZDY"
-                            for="username"
-                          >
-                            Username
-                          </label>
-                          <input
-                            class="sc-csuQGl eaVGsU"
-                            display="wide"
-                            name="username"
-                            placeholder="Username"
-                            type="text"
-                            value="Jake22"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="sc-kTUwUJ bgSFiZ"
-                      >
-                        <label
-                          class="sc-bdVaJa kxtZDY"
-                          for="bio"
-                        >
-                          Bio
-                        </label>
-                        <div
-                          class="sc-iQKALj giEApT"
-                        >
-                          <textarea
-                            name="bio"
-                            placeholder="bio"
-                          >
-                            I like coding 
-                          </textarea>
-                        </div>
-                      </div>
-                      <div
-                        class="sc-dqBHgY sc-gVyKpa gAOsjc"
-                      >
-                        <a
-                          href="/dashboard"
-                        >
-                          <button
-                            class="sc-dnqmqq dzlkzF"
-                            color="grey"
-                            to="/dashboard"
-                          >
-                            Cancel
-                          </button>
-                        </a>
-                        <button
-                          class="sc-iwsKbI hdHLkz sc-eXNvrr hdhPJH"
-
-                          color="green"
-                          type="submit"
-                        >
-                          Save Changes
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                    I like coding 
+                  </textarea>
                 </div>
               </div>
-            </div>
-            <div
-              class="sc-jzJRlG kQQUmb"
-            >
-              <p
-                class="sc-kgoBCf fRTmgM"
+              <div
+                class="sc-hXRMBi sc-kcDeIU iEyEuj"
               >
-                International Crafters © 2020
-              </p>
-              <div>
-                <a
-                  class="sc-cSHVUG sc-chPdSV gpOjXe"
-                  href="#"
+                <button
+                  class="sc-dnqmqq gYMjDX sc-BngTV iTJtBg"
+                  color="green"
+                  type="submit"
                 >
-                  Privacy
-                </a>
-                <a
-                  class="sc-cSHVUG sc-chPdSV gpOjXe"
-                  href="#"
-                >
-                  Contacts
-                </a>
+                  Save Changes
+                </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
         <div
@@ -361,14 +246,14 @@ Object {
             class="sc-hqyNC eYnzxy"
           >
             <div
-              class="sc-frDJqD beTuwI"
+              class="sc-hmzhuo dVrDGp"
             >
               <div
                 alt="Jake22"
                 class="sc-dNLxif dydyVq"
               />
               <div
-                class="sc-ksYbfQ kSIYJi"
+                class="sc-cJSrbW ikNNsV"
               >
                 <p>
                   Jake Tom
@@ -397,8 +282,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-home fa-w-18 sc-gisBJw kaFPCE"
-
+                class="svg-inline--fa fa-home fa-w-18 sc-caSCKo dYdAVJ"
                 data-icon="home"
                 data-prefix="fas"
                 focusable="false"
@@ -425,8 +309,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-th-large fa-w-16 sc-gisBJw kaFPCE"
-
+                class="svg-inline--fa fa-th-large fa-w-16 sc-caSCKo dYdAVJ"
                 data-icon="th-large"
                 data-prefix="fas"
                 focusable="false"
@@ -454,8 +337,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-info-circle fa-w-16 sc-gisBJw kaFPCE"
-
+                class="svg-inline--fa fa-info-circle fa-w-16 sc-caSCKo dYdAVJ"
                 data-icon="info-circle"
                 data-prefix="fas"
                 focusable="false"
@@ -482,8 +364,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-trophy fa-w-18 sc-gisBJw kaFPCE"
-
+                class="svg-inline--fa fa-trophy fa-w-18 sc-caSCKo dYdAVJ"
                 data-icon="trophy"
                 data-prefix="fas"
                 focusable="false"
@@ -503,8 +384,7 @@ Object {
           </div>
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gisBJw fevNjo sc-cJSrbW dgKEVQ"
-
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT fDAVmV"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -561,15 +441,13 @@ Object {
         class="sc-bZQynM ghjVHi"
       >
         <div
-
-          class="sc-kasBVs edHGPw"
+          class="sc-kXeGPI dkUvVU"
         >
           <div
-            class="sc-hgHYgh eqIdFm"
+            class="sc-fyjhYU cJzHHV"
           >
             <div
-              class="sc-eInJlc fYgYKa"
-
+              class="sc-ugnQR eZjgDR"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -577,279 +455,165 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-
-                class="sc-gtfDJT elcnWq"
+                class="sc-eIHaNI lfaqov"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-
-            class="sc-fOICqy biYruA"
+            class="sc-eTpRJs kKaJzH"
           >
             <h1
-              class="sc-hzDEsm fmKzjM"
+              class="sc-dxZgTM gATcHn"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-
-
-              class="sc-jeCdPy elAeIH"
+              class="sc-iomxrj eyPooD"
             >
               <div
-                class="sc-jtRlXQ cBNxLt"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-jtRlXQ cBNxLt"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-jtRlXQ cBNxLt"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-jtRlXQ cBNxLt"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-jtRlXQ cBNxLt"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-jtRlXQ cBNxLt"
-
-
+                class="sc-dvCyap eXDDzK"
               />
             </div>
           </div>
         </div>
-        <div>
-          <div
-            class="sc-gzVnrw fZfPkj"
+        <div
+          class="sc-eqIVtm sc-exkUMo eVzOqP"
+        >
+          <form
+            action="#"
           >
-            <a
-              class="sc-fjdhpX bhWwPP"
-              href="/"
+            <div
+              class="sc-ibxdXY iHcTJr"
             >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-htoDjs fIbBiq"
-                src="Hackton-logo.png"
+              <h3
+                class="sc-kIPQKe jbSXPD"
+              >
+                Edit Profile
+              </h3>
+            </div>
+            <div
+              class="sc-hXRMBi fZaLbc"
+            >
+              <label
+                class="sc-bsbRJL dEiKNw"
+                for="fullname"
+              >
+                Full Name
+              </label>
+              <input
+                class="sc-csuQGl eaVGsU"
+                display="wide"
+                name="fullname"
+                placeholder="Full Name"
+                type="text"
+                value="Jake Tom"
               />
-            </a>
+            </div>
             <div
-              class="sc-jTzLTM ezzmDc"
+              class="sc-hXRMBi fZaLbc"
             >
-              <div
-                class="sc-gqjmRU geHXiz"
+              <label
+                class="sc-bsbRJL dEiKNw"
+                for="username"
               >
-                <button
-                  class="sc-dnqmqq dzlkzF sc-VigVT juIfOZ"
-                  color="grey"
-                  data-testid="label"
-                >
-                  Log Out
-                </button>
-              </div>
+                Username
+              </label>
+              <input
+                class="sc-csuQGl eaVGsU"
+                display="wide"
+                name="username"
+                placeholder="Username"
+                type="text"
+                value="Jake22"
+              />
             </div>
-          </div>
-          <div
-            class="sc-eqIVtm ejobQm"
-          >
             <div
-              class="sc-bwzfXH ihQUfF sc-fgfRvd ciYDpc"
-
+              class="sc-hXRMBi fZaLbc"
             >
-              <div
-                class="sc-elJkPf iakaoC"
+              <label
+                class="sc-bsbRJL dEiKNw"
+                for="email"
               >
-                <h3
-                  class="sc-jKJlTe giRPFq"
-                >
-                  Edit Profile
-                </h3>
-              </div>
-              <div
-                class="sc-kTUwUJ bgSFiZ"
+                Email
+              </label>
+              <input
+                class="sc-csuQGl eaVGsU"
+                display="wide"
+                name="email"
+                placeholder="Email"
+                type="text"
+                value="8omemail@google.com"
+              />
+            </div>
+            <div
+              class="sc-hXRMBi fZaLbc"
+            >
+              <label
+                class="sc-bsbRJL dEiKNw"
+                for="image"
               >
-                <div
-
-                  class="sc-cmTdod sc-jwKygS sc-gpHHfC hAYiSa"
-
+                Profile Image
+              </label>
+              <input
+                accept="image/*"
+                class="sc-csuQGl eaVGsU"
+                display="wide"
+                name="image_url"
+                placeholder="Profile picture"
+                type="file"
+                value=""
+              />
+            </div>
+            <div
+              class="sc-hXRMBi fZaLbc"
+            >
+              <label
+                class="sc-bsbRJL dEiKNw"
+                for="bio"
+              >
+                Bio
+              </label>
+              <div
+                class="sc-cmthru dJbqfg"
+              >
+                <textarea
+                  name="bio"
+                  placeholder="bio"
                 >
-                  <form
-                    action="#"
-                  >
-                    <label
-                      class="sc-bdVaJa sc-hIVACf gQZQWY"
-
-
-                      for="image"
-                    >
-                      Profile picture
-                    </label>
-                    <figure
-                      class="sc-drMfKT gWqdXW"
-
-                    >
-                      <div>
-                        <img
-                          alt=""
-                          src="profile-image.png"
-                        />
-                      </div>
-                      <p>
-                        Jake22
-                      </p>
-                    </figure>
-                    <div
-                      class="sc-kTUwUJ bgSFiZ"
-                    >
-                      <label
-                        class="sc-bdVaJa kxtZDY"
-                        for="fullname"
-                      >
-                        Full Name
-                      </label>
-                      <input
-                        class="sc-csuQGl eaVGsU"
-                        display="wide"
-                        name="fullname"
-                        placeholder="Full Name"
-                        type="text"
-                        value="Jake Tom"
-                      />
-                    </div>
-                    <div
-                      class="sc-kTUwUJ bgSFiZ"
-                    >
-                      <label
-                        class="sc-bdVaJa kxtZDY"
-                        for="image"
-                      >
-                        Profile Image
-                      </label>
-                      <input
-                        accept="image/*"
-                        class="sc-csuQGl eaVGsU"
-                        display="wide"
-                        name="image_url"
-                        placeholder="Profile picture"
-                        type="file"
-                        value=""
-                      />
-                    </div>
-                    <div
-                      class="sc-kTUwUJ bgSFiZ"
-                    >
-                      <div
-                        class="sc-kfGgVZ bEPHhF"
-                      >
-                        <label
-                          class="sc-bdVaJa kxtZDY"
-                          for="email"
-                        >
-                          Email
-                        </label>
-                        <input
-                          class="sc-csuQGl eaVGsU"
-                          display="wide"
-                          name="email"
-                          placeholder="Email"
-                          type="text"
-                          value="8omemail@google.com"
-                        />
-                      </div>
-                      <div
-                        class="sc-kfGgVZ bEPHhF"
-
-                      >
-                        <label
-                          class="sc-bdVaJa kxtZDY"
-                          for="username"
-                        >
-                          Username
-                        </label>
-                        <input
-                          class="sc-csuQGl eaVGsU"
-                          display="wide"
-                          name="username"
-                          placeholder="Username"
-                          type="text"
-                          value="Jake22"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="sc-kTUwUJ bgSFiZ"
-                    >
-                      <label
-                        class="sc-bdVaJa kxtZDY"
-                        for="bio"
-                      >
-                        Bio
-                      </label>
-                      <div
-                        class="sc-iQKALj giEApT"
-                      >
-                        <textarea
-                          name="bio"
-                          placeholder="bio"
-                        >
-                          I like coding 
-                        </textarea>
-                      </div>
-                    </div>
-                    <div
-                      class="sc-dqBHgY sc-gVyKpa gAOsjc"
-                    >
-                      <a
-                        href="/dashboard"
-                      >
-                        <button
-                          class="sc-dnqmqq dzlkzF"
-                          color="grey"
-                          to="/dashboard"
-                        >
-                          Cancel
-                        </button>
-                      </a>
-                      <button
-
-                        class="sc-iwsKbI hdHLkz sc-eXNvrr hdhPJH"
-                        color="green"
-                        type="submit"
-                      >
-                        Save Changes
-                      </button>
-                    </div>
-                  </form>
-                </div>
+                  I like coding 
+                </textarea>
               </div>
             </div>
-          </div>
-          <div
-            class="sc-jzJRlG kQQUmb"
-          >
-            <p
-              class="sc-kgoBCf fRTmgM"
+            <div
+              class="sc-hXRMBi sc-kcDeIU iEyEuj"
             >
-              International Crafters © 2020
-            </p>
-            <div>
-              <a
-                class="sc-cSHVUG sc-chPdSV gpOjXe"
-                href="#"
+              <button
+                class="sc-dnqmqq gYMjDX sc-BngTV iTJtBg"
+                color="green"
+                type="submit"
               >
-                Privacy
-              </a>
-              <a
-                class="sc-cSHVUG sc-chPdSV gpOjXe"
-                href="#"
-              >
-                Contacts
-              </a>
+                Save Changes
+              </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
       <div
@@ -882,15 +646,14 @@ Object {
           class="sc-hqyNC eYnzxy"
         >
           <div
-            class="sc-frDJqD beTuwI"
-
+            class="sc-hmzhuo dVrDGp"
           >
             <div
               alt="Jake22"
               class="sc-dNLxif dydyVq"
             />
             <div
-              class="sc-ksYbfQ kSIYJi"
+              class="sc-cJSrbW ikNNsV"
             >
               <p>
                 Jake Tom
@@ -919,7 +682,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-home fa-w-18 sc-gisBJw kaFPCE"
+              class="svg-inline--fa fa-home fa-w-18 sc-caSCKo dYdAVJ"
               data-icon="home"
               data-prefix="fas"
               focusable="false"
@@ -946,8 +709,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-th-large fa-w-16 sc-gisBJw kaFPCE"
-
+              class="svg-inline--fa fa-th-large fa-w-16 sc-caSCKo dYdAVJ"
               data-icon="th-large"
               data-prefix="fas"
               focusable="false"
@@ -975,8 +737,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-info-circle fa-w-16 sc-gisBJw kaFPCE"
-
+              class="svg-inline--fa fa-info-circle fa-w-16 sc-caSCKo dYdAVJ"
               data-icon="info-circle"
               data-prefix="fas"
               focusable="false"
@@ -1003,8 +764,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-trophy fa-w-18 sc-gisBJw kaFPCE"
-
+              class="svg-inline--fa fa-trophy fa-w-18 sc-caSCKo dYdAVJ"
               data-icon="trophy"
               data-prefix="fas"
               focusable="false"
@@ -1024,7 +784,7 @@ Object {
         </div>
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gisBJw fevNjo sc-cJSrbW dgKEVQ"
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT fDAVmV"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"
