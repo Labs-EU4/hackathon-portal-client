@@ -12,11 +12,7 @@ import {
 } from "../../assets/styles/templates/AddParticipantTeamsStyling";
 import { 
   Container,
-  ContainerRadio,
-  UsersList,
-  ChosenJudgesContainer,
-  ChosenJudgeImg,
-  StyledSearchIcon
+  ContainerRadio
 } from "../../assets/styles/templates/AddTeammatesStyling";
 import isEmail from "validator/lib/isEmail";
 
