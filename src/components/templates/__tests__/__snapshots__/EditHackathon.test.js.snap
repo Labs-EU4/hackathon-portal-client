@@ -95,7 +95,7 @@ Object {
                       <input
                         class="sc-jDwBTQ kWjaIP"
                         id="start_date"
-                        min="2020-03-18"
+                        min="2020-03-19"
                         name="start_date"
                         placeholder="Event starts"
                         type="date"
@@ -638,7 +638,7 @@ Object {
                     <input
                       class="sc-jDwBTQ kWjaIP"
                       id="start_date"
-                      min="2020-03-18"
+                      min="2020-03-19"
                       name="start_date"
                       placeholder="Event starts"
                       type="date"
