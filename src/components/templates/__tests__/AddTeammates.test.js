@@ -47,12 +47,12 @@ beforeEach(() => {
 });
 
 describe("Shows all the text nodes on AddTeammates.js that are contained on the making an event form", () => {
-  it("should be displaying the <H3>", () => {
-    let mainHeader = () => jestFeatures.getByText("Add Teammates");
+  it("should be displaying the 'Add Judge' text node", () => {
+    let mainHeader = () => jestFeatures.getByText(/Add Judge/i);
     expect(mainHeader()).toBeInTheDocument();
   });
-  it("asserts the text node under the search bar is rendering", () => {
-    expect(jestFeatures.getByText("Back to dashboard")).toBeInTheDocument();
+  it("should be displaying the 'Back' text node", () => {
+    expect(jestFeatures.getByText(/Back/i)).toBeInTheDocument();
   });
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
