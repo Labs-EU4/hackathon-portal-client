@@ -77,7 +77,7 @@ const AboutPage = () => {
                     {
                         teamMembers.map((star, index) => {
                             return (
-                                <StarCard index={index}/>
+                                <StarCard key={index}/>
                             );
                         })
                     }

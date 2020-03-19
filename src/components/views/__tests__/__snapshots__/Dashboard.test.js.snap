@@ -28,6 +28,7 @@ Object {
         >
           <div
             class="sc-kEYyzF dXMyjR"
+
           >
             <div
               class="sc-gipzik cVvGgZ"
@@ -74,13 +75,14 @@ Object {
                 <div
                   class="sc-cMljjf ktXbQS"
                 >
-                  09/10/2011
+                  10/9/2011
                 </div>
                 <div
                   class="sc-cvbbAY hkgNHb"
                 >
                   <a
                     class="sc-gzVnrw kNrBHH"
+
                     color="primary-reverse"
                     href="//event/1"
                   >
@@ -88,6 +90,7 @@ Object {
                   </a>
                   <a
                     class="sc-gzVnrw eqdnCB"
+
                     color="primary"
                     href="/"
                   >
@@ -98,6 +101,7 @@ Object {
               <svg
                 aria-hidden="true"
                 class="svg-inline--fa fa-bookmark fa-w-12 sc-hMqMXs jARJoB sc-jAaTju kdgvHt"
+
                 data-icon="bookmark"
                 data-prefix="fas"
                 focusable="false"
@@ -113,6 +117,7 @@ Object {
               <svg
                 aria-hidden="true"
                 class="svg-inline--fa fa-star fa-w-18 sc-hMqMXs jARJoB sc-jDwBTQ kpnAuu"
+
                 data-icon="star"
                 data-prefix="fas"
                 focusable="false"
@@ -164,6 +169,7 @@ Object {
                 </h4>
                 <p
                   class="sc-eNQAEJ sc-brqgnP cfabGU"
+
                 >
                   Asia
                 </p>
@@ -175,7 +181,7 @@ Object {
                 <div
                   class="sc-cMljjf ktXbQS"
                 >
-                  09/07/2011
+                  7/9/2011
                 </div>
                 <div
                   class="sc-cvbbAY hkgNHb"
@@ -273,6 +279,7 @@ Object {
             >
               <p
                 class="sc-eNQAEJ sc-jWBwVP cipTgS"
+
               >
                 Oct
                  
@@ -302,7 +309,7 @@ Object {
               <div
                 class="sc-cMljjf ktXbQS"
               >
-                09/10/2011
+                10/9/2011
               </div>
               <div
                 class="sc-cvbbAY hkgNHb"
@@ -326,6 +333,7 @@ Object {
             <svg
               aria-hidden="true"
               class="svg-inline--fa fa-bookmark fa-w-12 sc-hMqMXs jARJoB sc-jAaTju kdgvHt"
+
               data-icon="bookmark"
               data-prefix="fas"
               focusable="false"
@@ -374,7 +382,7 @@ Object {
             >
               <p
                 class="sc-eNQAEJ sc-jWBwVP cipTgS"
-              >
+>
                 Jul
                  
                 09
@@ -391,6 +399,7 @@ Object {
                 World
               </h4>
               <p
+
                 class="sc-eNQAEJ sc-brqgnP cfabGU"
               >
                 Asia
@@ -403,7 +412,7 @@ Object {
               <div
                 class="sc-cMljjf ktXbQS"
               >
-                09/07/2011
+                7/9/2011
               </div>
               <div
                 class="sc-cvbbAY hkgNHb"

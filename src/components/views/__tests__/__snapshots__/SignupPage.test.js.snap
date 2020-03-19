@@ -7,34 +7,6 @@ Object {
     <div>
       <div>
         <div
-          class="sc-brqgnP krViPx"
-        >
-          <div
-            class="sc-cMljjf cssdrh"
-          >
-            <a
-              href="/"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-jAaTju cZyUBe"
-                src="Hackton-logo.png"
-              />
-            </a>
-            <div
-              class="sc-jDwBTQ cBURIZ"
-            >
-              <button
-                class="sc-kEYyzF kbIspq sc-gPEVay hvkOZR"
-                color="grey"
-                data-testid="label"
-              >
-                Log Out
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
           class="sc-iRbamj eUcMal"
         >
           <div
@@ -47,62 +19,11 @@ Object {
             />
           </div>
         </div>
-        <div
-          class="sc-bdVaJa jTDGAn"
-        >
-          <p
-            class="sc-ifAKCX cvXEhe"
-          >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div>
-      <div
-        class="sc-brqgnP krViPx"
-      >
-        <div
-          class="sc-cMljjf cssdrh"
-        >
-          <a
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
-              src="Hackton-logo.png"
-            />
-          </a>
-          <div
-            class="sc-jDwBTQ cBURIZ"
-          >
-            <button
-              class="sc-kEYyzF kbIspq sc-gPEVay hvkOZR"
-              color="grey"
-              data-testid="label"
-            >
-              Log Out
-            </button>
-          </div>
-        </div>
-      </div>
       <div
         class="sc-iRbamj eUcMal"
       >
@@ -114,29 +35,6 @@ Object {
             class="sc-csuQGl bVjPnR"
             src="Signup.png"
           />
-        </div>
-      </div>
-      <div
-        class="sc-bdVaJa jTDGAn"
-      >
-        <p
-          class="sc-ifAKCX cvXEhe"
-        >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Contacts
-          </a>
         </div>
       </div>
     </div>
