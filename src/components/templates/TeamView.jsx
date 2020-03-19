@@ -5,7 +5,7 @@ import {
   FancyBoldSpan,
   StyledLetterIcon,
   NormalSpan
-} from "../../assets/styles/templates/TeamView";
+} from "../../assets/styles/templates/TeamViewStyling";
 import Button from "../atoms/Button";
 import { NavLink, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
