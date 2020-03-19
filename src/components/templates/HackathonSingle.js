@@ -16,7 +16,7 @@ import { H2, H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';
-import Icon from "../atoms/IconN";
+import Icon from "../atoms/Icon";
 import EventJudges from '../organisms/EventJudges';
 import HSTagsCard from '../organisms/HSTagsCard';
 import ContentTitle from "../molecules/ContentTitle";
