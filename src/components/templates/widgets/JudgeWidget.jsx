@@ -4,7 +4,7 @@ import {
     StyledJudgeWidget,
     UserAvatar,
     UserInfo
-} from "../../assets/styles/templates/AddTeammatesStyling";
+} from "../../../assets/styles/templates/AddTeammatesStyling";
 
 export const JudgeWidget = ({ user, selected, ...otherProps }) => {
     let memberProfile = JSON.parse(user.image_url);
