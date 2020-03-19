@@ -41,13 +41,13 @@ Object {
           class="sc-bZQynM ghjVHi"
         >
           <div
-            class="sc-kQsIoO ksCRUy"
+            class="sc-kXeGPI dkUvVU"
           >
             <div
-              class="sc-gPzReC cWJXIb"
+              class="sc-fyjhYU cJzHHV"
             >
               <div
-                class="sc-jrIrqw kMVfQR"
+                class="sc-ugnQR eZjgDR"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -55,41 +55,41 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-hjRWVT jljElL"
+                  class="sc-eIHaNI lfaqov"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-iybRtq bEfPin"
+              class="sc-eTpRJs kKaJzH"
             >
               <h1
-                class="sc-iQtOjA kSSRch"
+                class="sc-dxZgTM gATcHn"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-fHxwqH dAcRBP"
+                class="sc-iomxrj eyPooD"
               >
                 <div
-                  class="sc-cEvuZC dKarUE"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-cEvuZC dKarUE"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-cEvuZC dKarUE"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-cEvuZC dKarUE"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-cEvuZC dKarUE"
+                  class="sc-dvCyap eXDDzK"
                 />
                 <div
-                  class="sc-cEvuZC dKarUE"
+                  class="sc-dvCyap eXDDzK"
                 />
               </div>
             </div>
@@ -128,7 +128,7 @@ Object {
               class="sc-eqIVtm ejobQm"
             >
               <div
-                class="sc-bwzfXH ihQUfF sc-iomxrj heYXIJ"
+                class="sc-bwzfXH ihQUfF sc-BngTV VyNYC"
               >
                 <div
                   class="sc-elJkPf iakaoC"
@@ -143,19 +143,19 @@ Object {
                   class="sc-kTUwUJ bgSFiZ"
                 >
                   <div
-                    class="sc-iELTvK sc-cmTdod sc-iFMziU feYVrE"
+                    class="sc-iELTvK sc-cmTdod sc-cqpYsc VjWNV"
                   >
                     <form
                       action="#"
                     >
                       <label
-                        class="sc-bdVaJa sc-dvCyap bWjJQf"
+                        class="sc-bdVaJa sc-bFADNz hHwzGS"
                         for="image"
                       >
                         Profile picture
                       </label>
                       <figure
-                        class="sc-dxZgTM doVpDz"
+                        class="sc-kcDeIU fEASFE"
                       >
                         <div>
                           <img
@@ -208,7 +208,7 @@ Object {
                         class="sc-kTUwUJ bgSFiZ"
                       >
                         <div
-                          class="sc-kfGgVZ bEPHhF"
+                          class="sc-ebFjAB dKFnzv"
                         >
                           <label
                             class="sc-bdVaJa kxtZDY"
@@ -226,7 +226,7 @@ Object {
                           />
                         </div>
                         <div
-                          class="sc-kfGgVZ bEPHhF"
+                          class="sc-ebFjAB dKFnzv"
                         >
                           <label
                             class="sc-bdVaJa kxtZDY"
@@ -254,7 +254,7 @@ Object {
                           Bio
                         </label>
                         <div
-                          class="sc-iQKALj giEApT"
+                          class="sc-kaNhvL bMbtvs"
                         >
                           <textarea
                             name="bio"
@@ -265,7 +265,7 @@ Object {
                         </div>
                       </div>
                       <div
-                        class="sc-kTUwUJ sc-keVrkP grPJeg"
+                        class="sc-kTUwUJ sc-hBbWxd deShCM"
                       >
                         <a
                           href="/dashboard"
@@ -279,7 +279,7 @@ Object {
                           </button>
                         </a>
                         <button
-                          class="sc-dnqmqq bGjnVF sc-gVLVqr jhXmoJ"
+                          class="sc-dnqmqq bGjnVF sc-dyGzUR degAGd"
                           color="green"
                           type="submit"
                         >
@@ -541,13 +541,13 @@ Object {
         class="sc-bZQynM ghjVHi"
       >
         <div
-          class="sc-kQsIoO ksCRUy"
+          class="sc-kXeGPI dkUvVU"
         >
           <div
-            class="sc-gPzReC cWJXIb"
+            class="sc-fyjhYU cJzHHV"
           >
             <div
-              class="sc-jrIrqw kMVfQR"
+              class="sc-ugnQR eZjgDR"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -555,41 +555,41 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-hjRWVT jljElL"
+                class="sc-eIHaNI lfaqov"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-iybRtq bEfPin"
+            class="sc-eTpRJs kKaJzH"
           >
             <h1
-              class="sc-iQtOjA kSSRch"
+              class="sc-dxZgTM gATcHn"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-fHxwqH dAcRBP"
+              class="sc-iomxrj eyPooD"
             >
               <div
-                class="sc-cEvuZC dKarUE"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-cEvuZC dKarUE"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-cEvuZC dKarUE"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-cEvuZC dKarUE"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-cEvuZC dKarUE"
+                class="sc-dvCyap eXDDzK"
               />
               <div
-                class="sc-cEvuZC dKarUE"
+                class="sc-dvCyap eXDDzK"
               />
             </div>
           </div>
@@ -628,7 +628,7 @@ Object {
             class="sc-eqIVtm ejobQm"
           >
             <div
-              class="sc-bwzfXH ihQUfF sc-iomxrj heYXIJ"
+              class="sc-bwzfXH ihQUfF sc-BngTV VyNYC"
             >
               <div
                 class="sc-elJkPf iakaoC"
@@ -643,19 +643,19 @@ Object {
                 class="sc-kTUwUJ bgSFiZ"
               >
                 <div
-                  class="sc-iELTvK sc-cmTdod sc-iFMziU feYVrE"
+                  class="sc-iELTvK sc-cmTdod sc-cqpYsc VjWNV"
                 >
                   <form
                     action="#"
                   >
                     <label
-                      class="sc-bdVaJa sc-dvCyap bWjJQf"
+                      class="sc-bdVaJa sc-bFADNz hHwzGS"
                       for="image"
                     >
                       Profile picture
                     </label>
                     <figure
-                      class="sc-dxZgTM doVpDz"
+                      class="sc-kcDeIU fEASFE"
                     >
                       <div>
                         <img
@@ -708,7 +708,7 @@ Object {
                       class="sc-kTUwUJ bgSFiZ"
                     >
                       <div
-                        class="sc-kfGgVZ bEPHhF"
+                        class="sc-ebFjAB dKFnzv"
                       >
                         <label
                           class="sc-bdVaJa kxtZDY"
@@ -726,7 +726,7 @@ Object {
                         />
                       </div>
                       <div
-                        class="sc-kfGgVZ bEPHhF"
+                        class="sc-ebFjAB dKFnzv"
                       >
                         <label
                           class="sc-bdVaJa kxtZDY"
@@ -754,7 +754,7 @@ Object {
                         Bio
                       </label>
                       <div
-                        class="sc-iQKALj giEApT"
+                        class="sc-kaNhvL bMbtvs"
                       >
                         <textarea
                           name="bio"
@@ -765,7 +765,7 @@ Object {
                       </div>
                     </div>
                     <div
-                      class="sc-kTUwUJ sc-keVrkP grPJeg"
+                      class="sc-kTUwUJ sc-hBbWxd deShCM"
                     >
                       <a
                         href="/dashboard"
@@ -779,7 +779,7 @@ Object {
                         </button>
                       </a>
                       <button
-                        class="sc-dnqmqq bGjnVF sc-gVLVqr jhXmoJ"
+                        class="sc-dnqmqq bGjnVF sc-dyGzUR degAGd"
                         color="green"
                         type="submit"
                       >

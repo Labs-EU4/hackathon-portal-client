@@ -75,8 +75,8 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
     expect(jestFeatures.getByText("Advanced Hackton")).toBeInTheDocument();
   });
 
-  it("should be displaying the rubric's text node for the event being created", () => {
-    expect(jestFeatures.getByText("Grading Rubrics")).toBeInTheDocument();
+  it("should be displaying the 'Create New Hackathon' text node for the event being created", () => {
+    expect(jestFeatures.getByText(/Create New Hackathon/i)).toBeInTheDocument();
   });
   it("should be displaying the grading rubric's description text node for the event being created", () => {
     expect(
@@ -85,12 +85,14 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
       )
     ).toBeInTheDocument();
   });
+
   it("should be displaying the guidelines text node for the event being created", () => {
     expect(jestFeatures.getByText("Guidelines")).toBeInTheDocument();
   });
-  it("should be displaying the Project requirements text node for the event being created", () => {
+
+  it("should be displaying 'Judges will be expected' text node for the event being created", () => {
     expect(
-      jestFeatures.getByText("Project Submission Requirements")
+      jestFeatures.getByText(/Judges will be expected/i)
     ).toBeInTheDocument();
   });
 
@@ -101,8 +103,8 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
       )
     ).toBeInTheDocument();
   });
-  it("should be displaying the cancel button text node for the event being created", () => {
-    expect(jestFeatures.getByText("Cancel")).toBeInTheDocument();
+  it("should be displaying 'Event Starts' text node for the event being created", () => {
+    expect(jestFeatures.getByText(/Event Starts/i)).toBeInTheDocument();
   });
 
   it("renders without crashing ", () => {

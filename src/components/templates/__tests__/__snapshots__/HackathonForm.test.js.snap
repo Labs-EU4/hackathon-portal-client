@@ -5,7 +5,9 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="sc-dnqmqq kueQMu"
+      >
         <div
           class="sc-bdVaJa dErNmg"
         >
@@ -47,17 +49,30 @@ Object {
               <h3
                 class="sc-kAzzGY eOJFvg"
               >
-                Create New Hackathon
-              </h3>
+                Hackathon Title
+              </label>
+              <input
+                class="sc-chPdSV iulMjd"
+                display="wide"
+                id="event_title"
+                name="event_title"
+                type="text"
+                value=""
+              />
+              <span
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+              />
             </div>
             <div
               class="sc-caSCKo dZGQkd"
             >
               <div
                 class="sc-kjoXOD sc-TOsTZ kGFIBC"
+
               >
-                <form
-                  action="#"
+                <label
+                  class="sc-cSHVUG zmqIo"
+                  for="start_date"
                 >
                   <div
                     class="sc-eqIVtm jsoGfq"
@@ -536,15 +551,101 @@ Object {
               class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
-              Contacts
-            </a>
+               
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="input_tags"
+              >
+                Tags
+              </label>
+              <div
+                class="input-tag"
+                id="input_tags"
+                tags=""
+              >
+                <ul
+                  class="input-tag__tags"
+                >
+                  <li
+                    class="input-tag__tags__input"
+                  >
+                    <input
+                      maxlength="20"
+                      type="text"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="sc-jTzLTM bxzhAG"
+              id="submission_requirements"
+            >
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="submission_requirements"
+              >
+                Project Submission Requirements (tick all that apply)
+              </label>
+              <p
+                class="sc-hMqMXs fgCZqA"
+              >
+                Participants will be expected to submit which one of the following
+              </p>
+              <div
+                class="sc-kGXeez ipfKQQ"
+              >
+                <input
+                  class="sc-ckVGcZ lfBqaG"
+                  id="video_url"
+                  name="requirements"
+                  type="checkbox"
+                  value="video_url"
+                />
+                <label
+                  class="sc-kpOJdX eKPMqC"
+                  for="video_url"
+                >
+                  Video URL
+                </label>
+              </div>
+              <div
+                class="sc-kGXeez ipfKQQ"
+              >
+                <input
+                  class="sc-ckVGcZ lfBqaG"
+                  id="github_url"
+                  name="requirements"
+                  type="checkbox"
+                  value="github_url"
+                />
+                <label
+                  class="sc-kpOJdX eKPMqC"
+                  for="github_url"
+                >
+                  GitHub URL
+                </label>
+              </div>
+            </div>
+            <div
+              class="sc-jTzLTM bxzhAG"
+            />
+            <button
+              class="sc-bdVaJa gFEKGJ sc-gqjmRU dEyQNc"
+              color="green"
+              type="submit"
+            >
+              Submit
+            </button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="sc-dnqmqq kueQMu"
+    >
       <div
         class="sc-bdVaJa dErNmg"
       >
@@ -585,9 +686,22 @@ Object {
           >
             <h3
               class="sc-kAzzGY eOJFvg"
+
             >
-              Create New Hackathon
-            </h3>
+              <input
+                class="sc-ckVGcZ lfBqaG"
+                id="extensibility"
+                name="rubrics"
+                type="checkbox"
+                value="extensibility"
+              />
+              <label
+                class="sc-kpOJdX eKPMqC"
+                for="extensibility"
+              >
+                Extensibility
+              </label>
+            </div>
           </div>
           <div
             class="sc-caSCKo dZGQkd"
@@ -595,8 +709,9 @@ Object {
             <div
               class="sc-kjoXOD sc-TOsTZ kGFIBC"
             >
-              <form
-                action="#"
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="participation_type"
               >
                 <div
                   class="sc-eqIVtm jsoGfq"
@@ -1074,11 +1189,118 @@ Object {
           <a
             class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
+
           >
-            Contacts
-          </a>
+            <label
+              class="sc-cSHVUG zmqIo"
+              for="guidelines"
+            >
+              Guidelines
+            </label>
+            <div
+              class="sc-jKJlTe jYgNkv"
+            >
+              <textarea
+                id="guidelines"
+                name="guidelines"
+                type="text"
+              />
+            </div>
+            <span
+              class="sc-kEYyzF sc-eHgmQL bfkbKW"
+            />
+          </div>
+          <div
+            class="sc-jTzLTM bxzhAG"
+          >
+             
+            <label
+              class="sc-cSHVUG zmqIo"
+              for="input_tags"
+            >
+              Tags
+            </label>
+            <div
+              class="input-tag"
+              id="input_tags"
+              tags=""
+            >
+              <ul
+                class="input-tag__tags"
+              >
+                <li
+                  class="input-tag__tags__input"
+                >
+                  <input
+                    maxlength="20"
+                    type="text"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="sc-jTzLTM bxzhAG"
+            id="submission_requirements"
+          >
+            <label
+              class="sc-cSHVUG zmqIo"
+              for="submission_requirements"
+            >
+              Project Submission Requirements (tick all that apply)
+            </label>
+            <p
+              class="sc-hMqMXs fgCZqA"
+            >
+              Participants will be expected to submit which one of the following
+            </p>
+            <div
+              class="sc-kGXeez ipfKQQ"
+            >
+              <input
+                class="sc-ckVGcZ lfBqaG"
+                id="video_url"
+                name="requirements"
+                type="checkbox"
+                value="video_url"
+              />
+              <label
+                class="sc-kpOJdX eKPMqC"
+                for="video_url"
+              >
+                Video URL
+              </label>
+            </div>
+            <div
+              class="sc-kGXeez ipfKQQ"
+            >
+              <input
+                class="sc-ckVGcZ lfBqaG"
+                id="github_url"
+                name="requirements"
+                type="checkbox"
+                value="github_url"
+              />
+              <label
+                class="sc-kpOJdX eKPMqC"
+                for="github_url"
+              >
+                GitHub URL
+              </label>
+            </div>
+          </div>
+          <div
+            class="sc-jTzLTM bxzhAG"
+          />
+          <button
+            class="sc-bdVaJa gFEKGJ sc-gqjmRU dEyQNc"
+            color="green"
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
-      </div>
+      </form>
     </div>
   </div>,
   "debug": [Function],

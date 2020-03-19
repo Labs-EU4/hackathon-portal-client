@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TextAreaContainerN = styled.div`
+export const TextAreaContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
