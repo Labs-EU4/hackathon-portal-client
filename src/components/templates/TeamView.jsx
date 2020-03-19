@@ -50,7 +50,6 @@ const TeamView = ({ team }) => {
             paddingBottom: "10px"
           }}
         >
-          {" "}
           {teammates.map((member, i) =>
             member.team_member_avatar === null ? (
               <ImgTeammates
@@ -84,7 +83,7 @@ const TeamView = ({ team }) => {
           to={`/dashboard/event/${id}/participant-teams/${team.id}`}
         >
           Add Teammate
-        </NavLink>{" "}
+        </NavLink>
       </Button>
     </TeamsContainer>
   );
