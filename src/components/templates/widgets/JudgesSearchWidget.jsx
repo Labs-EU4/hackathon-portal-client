@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
 import Button from "../../atoms/Button";
+import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
 import { 
     Container,
     UsersList,
@@ -8,6 +9,7 @@ import {
     ChosenJudgeImg,
     StyledSearchIcon
 } from "../../../assets/styles/templates/AddTeammatesStyling";
+import { JudgeWidget } from './JudgeWidget';
 import isEmail from "validator/lib/isEmail";
 import { useSearchUserByEmail } from "../../../hooks";
 

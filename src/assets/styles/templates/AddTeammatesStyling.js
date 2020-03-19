@@ -1,11 +1,11 @@
+import React from "react";
 import { type, Solid, media } from "../variables/index";
-import { BodyContainer, BodyContainerN } from "../atoms/BodyContainerStyling";
-import { CardWideN } from "../atoms/Card";
+import { BodyContainer } from "../atoms/BodyContainerStyling";
+import { CardWide } from "../atoms/CardStyling";
 import Icon from "../../../components/atoms/Icon";
 import styled from "styled-components";
-import React from "react";
 
-export const BodyContainerColumn = styled(BodyContainerN)`
+export const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
   justify-content: start;
 `;
@@ -165,7 +165,7 @@ export const StyledWideBody = styled.div`
   z-index: 100;
 `;
 
-export const StyledCardWideN = styled(CardWideN)`
+export const StyledCardWideN = styled(CardWide)`
   ${props => props.theme.shadow.box};
   position: absolute;
   top: 50%;
