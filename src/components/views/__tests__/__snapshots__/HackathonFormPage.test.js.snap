@@ -75,7 +75,7 @@ Object {
                 Description
               </label>
               <div
-                class="sc-jKJlTe jYgNkv"
+                class="sc-jKJlTe cIHiCP"
               >
                 <textarea
                   id="event_description"
@@ -385,7 +385,7 @@ Object {
                 Guidelines
               </label>
               <div
-                class="sc-jKJlTe jYgNkv"
+                class="sc-jKJlTe cIHiCP"
               >
                 <textarea
                   id="guidelines"
@@ -562,7 +562,7 @@ Object {
               Description
             </label>
             <div
-              class="sc-jKJlTe jYgNkv"
+              class="sc-jKJlTe cIHiCP"
             >
               <textarea
                 id="event_description"
@@ -872,7 +872,7 @@ Object {
               Guidelines
             </label>
             <div
-              class="sc-jKJlTe jYgNkv"
+              class="sc-jKJlTe cIHiCP"
             >
               <textarea
                 id="guidelines"
