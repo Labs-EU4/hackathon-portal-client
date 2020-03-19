@@ -23,7 +23,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
-  const today = new Date().getTime();
+  // const today = new Date().getTime();
   // const openEvents = globalEvents.filter(event => {
   //   const startTime = new Date(event.start_date).getTime();
   //   if(today <= startTime) return event
