@@ -28,7 +28,6 @@ Object {
         >
           <div
             class="sc-kEYyzF dXMyjR"
-
           >
             <div
               class="sc-gipzik cVvGgZ"
@@ -82,7 +81,6 @@ Object {
                 >
                   <a
                     class="sc-gzVnrw kNrBHH"
-
                     color="primary-reverse"
                     href="//event/1"
                   >
@@ -90,7 +88,6 @@ Object {
                   </a>
                   <a
                     class="sc-gzVnrw eqdnCB"
-
                     color="primary"
                     href="/"
                   >
@@ -101,7 +98,6 @@ Object {
               <svg
                 aria-hidden="true"
                 class="svg-inline--fa fa-bookmark fa-w-12 sc-hMqMXs jARJoB sc-jAaTju kdgvHt"
-
                 data-icon="bookmark"
                 data-prefix="fas"
                 focusable="false"
@@ -117,7 +113,6 @@ Object {
               <svg
                 aria-hidden="true"
                 class="svg-inline--fa fa-star fa-w-18 sc-hMqMXs jARJoB sc-jDwBTQ kpnAuu"
-
                 data-icon="star"
                 data-prefix="fas"
                 focusable="false"
@@ -169,7 +164,6 @@ Object {
                 </h4>
                 <p
                   class="sc-eNQAEJ sc-brqgnP cfabGU"
-
                 >
                   Asia
                 </p>
@@ -279,7 +273,6 @@ Object {
             >
               <p
                 class="sc-eNQAEJ sc-jWBwVP cipTgS"
-
               >
                 Oct
                  
@@ -333,7 +326,6 @@ Object {
             <svg
               aria-hidden="true"
               class="svg-inline--fa fa-bookmark fa-w-12 sc-hMqMXs jARJoB sc-jAaTju kdgvHt"
-
               data-icon="bookmark"
               data-prefix="fas"
               focusable="false"
@@ -382,7 +374,7 @@ Object {
             >
               <p
                 class="sc-eNQAEJ sc-jWBwVP cipTgS"
->
+              >
                 Jul
                  
                 09
@@ -399,7 +391,6 @@ Object {
                 World
               </h4>
               <p
-
                 class="sc-eNQAEJ sc-brqgnP cfabGU"
               >
                 Asia
