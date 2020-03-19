@@ -7,26 +7,26 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bRBYWo bcWmiv"
+          class="sc-bwzfXH ktSiSq"
         >
           <a
-            class="sc-fMiknA dyzJBJ"
+            class="sc-dnqmqq kjNnRX"
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
+              class="sc-htpNat Tzmao"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-fBuWsC bPfjiF"
+            class="sc-htoDjs kHkNTR"
           >
             <div
-              class="sc-hzDkRC itWopO"
+              class="sc-bZQynM RmySO"
             >
               <button
-                class="sc-kEYyzF kbIspq sc-jhAzac itwdWK"
+                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
                 color="grey"
                 data-testid="label"
               >
@@ -36,16 +36,16 @@ Object {
           </div>
         </div>
         <div
-          class="sc-iRbamj dyFMRm"
+          class="sc-hzDkRC cBfjrB"
         >
           <div
-            class="sc-jlyJG doWxFB sc-tilXH dZfDvR"
+            class="sc-jhAzac jxgZSd sc-tilXH dZfDvR"
           >
             <div
               class="sc-bbmXgH crvuTG"
             >
               <h3
-                class="sc-dnqmqq igidRh"
+                class="sc-chPdSV jQbecn"
               >
                 My hackathons
               </h3>
@@ -53,7 +53,7 @@ Object {
                 href="/dashboard/new"
               >
                 <button
-                  class="sc-kEYyzF guLDtQ"
+                  class="sc-bxivhb hwXJzM"
                   color="green"
                 >
                   Create New
@@ -83,6 +83,7 @@ Object {
                   >
                     <p
                       class="sc-cSHVUG sc-kgAjT ejSOyx"
+
                     >
                       Oct
                        
@@ -95,17 +96,18 @@ Object {
                       2011
                     </p>
                     <h4
-                      class="sc-jTzLTM iASFQm"
+                      class="sc-ckVGcZ RfHZh"
                     >
                       EuroHack
                     </h4>
                     <p
                       class="sc-cSHVUG sc-cJSrbW RdHBr"
+
                     >
                       Europe
                     </p>
                     <p
-                      class="sc-cSHVUG fksUjT"
+                      class="sc-hMqMXs dZAejn"
                     >
                       the best event hack hack hack macbook...
                     </p>
@@ -118,14 +120,14 @@ Object {
                       class="sc-TOsTZ bFMJix"
                     >
                       <a
-                        class="sc-kkGfuU jxuySM"
+                        class="sc-ifAKCX eaJBmi"
                         color="primary-reverse"
                         href="//event/1"
                       >
                         More Info
                       </a>
                       <a
-                        class="sc-kkGfuU carJok"
+                        class="sc-ifAKCX iPVkur"
                         color="primary"
                         href="/"
                       >
@@ -183,6 +185,7 @@ Object {
                     class="sc-cHGsZl exkpWo"
                   >
                     <p
+
                       class="sc-cSHVUG sc-kgAjT ejSOyx"
                     >
                       Jul
@@ -196,17 +199,18 @@ Object {
                       2011
                     </p>
                     <h4
-                      class="sc-jTzLTM iASFQm"
+                      class="sc-ckVGcZ RfHZh"
                     >
                       World
                     </h4>
                     <p
+
                       class="sc-cSHVUG sc-cJSrbW RdHBr"
                     >
                       Asia
                     </p>
                     <p
-                      class="sc-cSHVUG fksUjT"
+                      class="sc-hMqMXs dZAejn"
                     >
                       number one hacker event in the world...
                     </p>
@@ -219,14 +223,14 @@ Object {
                       class="sc-TOsTZ bFMJix"
                     >
                       <a
-                        class="sc-kkGfuU jxuySM"
+                        class="sc-ifAKCX eaJBmi"
                         color="primary-reverse"
                         href="//event/2"
                       >
                         More Info
                       </a>
                       <a
-                        class="sc-kkGfuU carJok"
+                        class="sc-ifAKCX iPVkur"
                         color="primary"
                         href="/"
                       >
@@ -271,7 +275,7 @@ Object {
               class="sc-bbmXgH crvuTG"
             >
               <h3
-                class="sc-dnqmqq igidRh"
+                class="sc-chPdSV jQbecn"
               >
                 Global hackathons
               </h3>
@@ -283,22 +287,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bdVaJa jTDGAn"
+          class="sc-iwsKbI hpFEep"
         >
           <p
-            class="sc-ifAKCX cvXEhe"
+            class="sc-jTzLTM iPDHvH"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
+              class="sc-gZMcBi sc-VigVT iPKVYu"
               href="#"
             >
               Contacts
@@ -311,26 +315,26 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bRBYWo bcWmiv"
+        class="sc-bwzfXH ktSiSq"
       >
         <a
-          class="sc-fMiknA dyzJBJ"
+          class="sc-dnqmqq kjNnRX"
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-jAaTju cZyUBe"
+            class="sc-htpNat Tzmao"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-fBuWsC bPfjiF"
+          class="sc-htoDjs kHkNTR"
         >
           <div
-            class="sc-hzDkRC itWopO"
+            class="sc-bZQynM RmySO"
           >
             <button
-              class="sc-kEYyzF kbIspq sc-jhAzac itwdWK"
+              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
               color="grey"
               data-testid="label"
             >
@@ -340,16 +344,16 @@ Object {
         </div>
       </div>
       <div
-        class="sc-iRbamj dyFMRm"
+        class="sc-hzDkRC cBfjrB"
       >
         <div
-          class="sc-jlyJG doWxFB sc-tilXH dZfDvR"
+          class="sc-jhAzac jxgZSd sc-tilXH dZfDvR"
         >
           <div
             class="sc-bbmXgH crvuTG"
           >
             <h3
-              class="sc-dnqmqq igidRh"
+              class="sc-chPdSV jQbecn"
             >
               My hackathons
             </h3>
@@ -357,7 +361,7 @@ Object {
               href="/dashboard/new"
             >
               <button
-                class="sc-kEYyzF guLDtQ"
+                class="sc-bxivhb hwXJzM"
                 color="green"
               >
                 Create New
@@ -399,7 +403,7 @@ Object {
                     2011
                   </p>
                   <h4
-                    class="sc-jTzLTM iASFQm"
+                    class="sc-ckVGcZ RfHZh"
                   >
                     EuroHack
                   </h4>
@@ -409,7 +413,7 @@ Object {
                     Europe
                   </p>
                   <p
-                    class="sc-cSHVUG fksUjT"
+                    class="sc-hMqMXs dZAejn"
                   >
                     the best event hack hack hack macbook...
                   </p>
@@ -422,14 +426,14 @@ Object {
                     class="sc-TOsTZ bFMJix"
                   >
                     <a
-                      class="sc-kkGfuU jxuySM"
+                      class="sc-ifAKCX eaJBmi"
                       color="primary-reverse"
                       href="//event/1"
                     >
                       More Info
                     </a>
                     <a
-                      class="sc-kkGfuU carJok"
+                      class="sc-ifAKCX iPVkur"
                       color="primary"
                       href="/"
                     >
@@ -500,17 +504,18 @@ Object {
                     2011
                   </p>
                   <h4
-                    class="sc-jTzLTM iASFQm"
+                    class="sc-ckVGcZ RfHZh"
                   >
                     World
                   </h4>
                   <p
                     class="sc-cSHVUG sc-cJSrbW RdHBr"
+
                   >
                     Asia
                   </p>
                   <p
-                    class="sc-cSHVUG fksUjT"
+                    class="sc-hMqMXs dZAejn"
                   >
                     number one hacker event in the world...
                   </p>
@@ -523,14 +528,14 @@ Object {
                     class="sc-TOsTZ bFMJix"
                   >
                     <a
-                      class="sc-kkGfuU jxuySM"
+                      class="sc-ifAKCX eaJBmi"
                       color="primary-reverse"
                       href="//event/2"
                     >
                       More Info
                     </a>
                     <a
-                      class="sc-kkGfuU carJok"
+                      class="sc-ifAKCX iPVkur"
                       color="primary"
                       href="/"
                     >
@@ -575,7 +580,7 @@ Object {
             class="sc-bbmXgH crvuTG"
           >
             <h3
-              class="sc-dnqmqq igidRh"
+              class="sc-chPdSV jQbecn"
             >
               Global hackathons
             </h3>
@@ -587,22 +592,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bdVaJa jTDGAn"
+        class="sc-iwsKbI hpFEep"
       >
         <p
-          class="sc-ifAKCX cvXEhe"
+          class="sc-jTzLTM iPDHvH"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
+            class="sc-gZMcBi sc-VigVT iPKVYu"
             href="#"
           >
             Contacts
