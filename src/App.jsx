@@ -61,7 +61,7 @@ function App() {
           path="/event/:id/edit"
           render={() => <EditHackathon />}
         />
-        //!! ROUTE USED FOR TESTING
+      {/* // !! ROUTE USED FOR TESTING */}
         <PrivateRoute exact path={`/results`} render={() => <ResultPage />} />
         {/* <PrivateRoute
           exact
