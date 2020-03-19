@@ -43,8 +43,8 @@ describe("Shows all the text nodes on EventOnboarding.js", () => {
   it("Should display the Global Hackathons", () => {
     expect(jestFeatures.getByText(/Global Hackathons/i)).not.toBeDisabled();
   });
-  it("should be displaying the button text node,to create a new event ", () => {
-    let form = () => jestFeatures.getByText("Create New");
+  it("should be displaying the string 'There are no hackathons yet available' in text node", () => {
+    let form = () => jestFeatures.getByText(/There are no hackathons yet available/i);
 
     expect(form()).toBeInTheDocument();
   });
