@@ -92,30 +92,6 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const userCallback = p => p.user_id === userId;
   const isTeamLead = createdTeam;
   const isRegistered = participants.find(userCallback) || isTeamLead;
-  // // Date formatting
-  // const startDate = String(new Date(start_date)).split(" ");
-  // const startDay = startDate[2];
-  // const startMonth = startDate[1];
-  // const startYear = startDate[3];
-  // const endDate = String(new Date(end_date)).split(" ");
-  // const endDay = endDate[2];
-  // const endMonth = endDate[1];
-
-  // // Event is open or closed for registration
-  // const userCallback = p => p.user_id === userId;
-  // const today = new Date().getTime();
-  // const startTime = new Date(start_date).getTime();
-  // const endTime = new Date(end_date).getTime();
-  // const isOpen = today <= startTime;
-  // const isTeamLead = createdTeam;
-  // const isRegistered = participants.find(userCallback) || isTeamLead;
-  // const isEventCreator = creator_id === userId;
-  // const isTeamMember = team.find(userCallback) || isEventCreator;
-  // const isEnded = today > endTime;
-  // const individualParticipation = participation_type === "individual";
-
-  // // Number of participants registered
-  // const registeredPartcipants = participants.length;
 
   // Redacting user emails before rendering
   let redactedEmail = organizer_email.split("");
