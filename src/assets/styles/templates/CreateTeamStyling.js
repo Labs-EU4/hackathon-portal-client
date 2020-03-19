@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import BodyContainer from "../atoms/BodyContainerStyling";
+import { BodyContainer } from "../atoms/BodyContainerStyling";
 import WideBody from '../atoms/WideBodyStyling';
 
 export const StyledWideBody = styled(WideBody)`
