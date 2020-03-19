@@ -15,7 +15,7 @@ import {
   StyledRowHead,
   StyledButton,
   StyledH4
-} from "../../assets/styles/templates/UserEventsdashboardStyling";
+} from "../../assets/styles/templates/UserEventsDashboardStyling";
 import EventCard from "../organisms/EventCard";
 
 const EventOnboarding = ({ eventModalHandler }) => {
