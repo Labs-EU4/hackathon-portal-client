@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-
 import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
@@ -9,18 +8,16 @@ import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmiss
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHeadN } from "../../assets/styles/atoms/RowHead";
 import { RowBodyN } from "../../assets/styles/atoms/RowBody";
-import { ColumnN } from "../../assets/styles/atoms/Column";
 import { CardFormN } from "../../assets/styles/atoms/Card";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
-import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
 import {LabelN} from "../../assets/styles/atoms/Label";
-import Button from "../atoms/Button";
 import Input from "../atoms/Input";
-import TextArea from "../atoms/TextArea";
 import {
   fetchAllSubmissions,
   submitProject
 } from "../../store/projectSubmission/actions";
+import ProjectTitle from "../organisms/PSProjectTitle";
+import ProjectWriteUp from "../organisms/PSProjectWriteUp";
 
 const defaultState = {
   project_title: "",
@@ -90,47 +87,7 @@ const ParticipantSubmission = ({
         >
           {() => (
             <Form>
-              <RowBodyN>
-                <ParagraphN>
-                  You are making a submission for the{" "}
-                  <strong>{currentEvent.event_title}</strong>. Please ensure you
-                  have read the event guidelines and have gone through the
-                  grading rubrics for this event before you make your
-                  submission.
-                </ParagraphN>
-              </RowBodyN>
-              <RowBodyN>
-                <ColumnN>
-                  <LabelN htmlFor="project_title">Project Title</LabelN>
-                  <Input
-                    type="text"
-                    id="project_title"
-                    name="project_title"
-                    display="wide"
-                  />
-                  <ErrorSpanN>
-                    <ErrorMessage name="project_title" component="div" />
-                  </ErrorSpanN>
-                </ColumnN>
-                <ColumnN>
-                  <LabelN htmlFor="participant_or_team_nam">
-                    Team/Participant name
-                  </LabelN>
-                  <Input
-                    type="text"
-                    name="participant_or_team_name"
-                    id="participant_or_team_name"
-                    display="wide"
-                  />
-                  <ErrorSpanN>
-                    <ErrorMessage
-                      name="participant_or_team_name"
-                      component="div"
-                    />
-                  </ErrorSpanN>
-                </ColumnN>
-              </RowBodyN>
-
+              <ProjectTitle currentEvent={currentEvent} />
               {requireGithubUrl && (
                 <RowBodyN justify="start">
                   <LabelN htmlFor="git_url">GitHub URL</LabelN>
@@ -160,34 +117,7 @@ const ParticipantSubmission = ({
                   </ErrorSpanN>
                 </RowBodyN>
               )}
-              <RowBodyN justify="start">
-                <LabelN htmlFor="project_writeups">Project Writeup</LabelN>
-                <TextArea
-                  wide
-                  as="textarea"
-                  type="text"
-                  name="project_writeups"
-                  id="project_writeups"
-                />
-                <ErrorSpanN>
-                  <ErrorMessage name="project_writeups" />
-                </ErrorSpanN>
-              </RowBodyN>
-              <RowBodyN>
-                <Button
-                  link
-                  color="grey"
-                  //!! CHANGE THIS INTO A DYNAMIC ROUTE BASED OR GO BACK IN HISTORY
-                  to="/dashboard" 
-                  // to={pathname === "/" ? "/" : "/dashboard"}
-                  // onClick={() => setIsSubmitProjectOpen(false)}
-                >
-                  Cancel
-                </Button>
-                <Button color="green" type="submit">
-                  Submit
-                </Button>
-              </RowBodyN>
+              <ProjectWriteUp />
             </Form>
           )}
         </Formik>

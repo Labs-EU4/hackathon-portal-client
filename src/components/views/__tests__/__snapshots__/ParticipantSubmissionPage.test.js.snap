@@ -9,7 +9,7 @@ Object {
         class="sc-bdVaJa sc-bwzfXH ckrujS"
       >
         <div
-          class="sc-fjdhpX sc-cSHVUG kRWpKH"
+          class="sc-VigVT sc-fjdhpX dQDtWD"
         >
           <div
             class="sc-gzVnrw hdKmCx"
@@ -27,7 +27,7 @@ Object {
               class="sc-dnqmqq kaZCDV"
             >
               <p
-                class="sc-kkGfuU eDlHfh"
+                class="sc-hSdWYo eobCVp"
               >
                 You are making a submission for the
                  
@@ -41,16 +41,16 @@ Object {
               class="sc-dnqmqq kaZCDV"
             >
               <div
-                class="sc-gZMcBi ecCefW"
+                class="sc-kEYyzF boZcpZ"
               >
                 <label
-                  class="sc-iAyFgw gHRRSC"
+                  class="sc-jKJlTe hVxfqj"
                   for="project_title"
                 >
                   Project Title
                 </label>
                 <input
-                  class="sc-jWBwVP fJzuhh"
+                  class="sc-eNQAEJ jsoBJV"
                   display="wide"
                   id="project_title"
                   name="project_title"
@@ -58,20 +58,20 @@ Object {
                   value=""
                 />
                 <span
-                  class="sc-kpOJdX sc-eNQAEJ caiPaO"
+                  class="sc-kgoBCf sc-ckVGcZ cbdcMI"
                 />
               </div>
               <div
-                class="sc-gZMcBi ecCefW"
+                class="sc-kEYyzF boZcpZ"
               >
                 <label
-                  class="sc-iAyFgw gHRRSC"
+                  class="sc-jKJlTe hVxfqj"
                   for="participant_or_team_nam"
                 >
                   Team/Participant name
                 </label>
                 <input
-                  class="sc-jWBwVP fJzuhh"
+                  class="sc-eNQAEJ jsoBJV"
                   display="wide"
                   id="participant_or_team_name"
                   name="participant_or_team_name"
@@ -79,7 +79,7 @@ Object {
                   value=""
                 />
                 <span
-                  class="sc-kpOJdX sc-eNQAEJ caiPaO"
+                  class="sc-kgoBCf sc-ckVGcZ cbdcMI"
                 />
               </div>
             </div>
@@ -87,7 +87,7 @@ Object {
               class="sc-dnqmqq bzpXAs"
             >
               <label
-                class="sc-iAyFgw gHRRSC"
+                class="sc-jKJlTe hVxfqj"
                 for="project_writeups"
               >
                 Project Writeup
@@ -102,21 +102,21 @@ Object {
                 />
               </div>
               <span
-                class="sc-kpOJdX sc-eNQAEJ caiPaO"
+                class="sc-kgoBCf sc-ckVGcZ cbdcMI"
               />
             </div>
             <div
               class="sc-dnqmqq kaZCDV"
             >
               <a
-                class="sc-eHgmQL gOnppE"
+                class="sc-cvbbAY bgbAOq"
                 color="grey"
                 href="/dashboard"
               >
                 Cancel
               </a>
               <button
-                class="sc-hSdWYo lgDWKZ"
+                class="sc-eHgmQL cioPsa"
                 color="green"
                 type="submit"
               >
@@ -133,7 +133,7 @@ Object {
       class="sc-bdVaJa sc-bwzfXH ckrujS"
     >
       <div
-        class="sc-fjdhpX sc-cSHVUG kRWpKH"
+        class="sc-VigVT sc-fjdhpX dQDtWD"
       >
         <div
           class="sc-gzVnrw hdKmCx"
@@ -151,7 +151,7 @@ Object {
             class="sc-dnqmqq kaZCDV"
           >
             <p
-              class="sc-kkGfuU eDlHfh"
+              class="sc-hSdWYo eobCVp"
             >
               You are making a submission for the
                
@@ -165,16 +165,16 @@ Object {
             class="sc-dnqmqq kaZCDV"
           >
             <div
-              class="sc-gZMcBi ecCefW"
+              class="sc-kEYyzF boZcpZ"
             >
               <label
-                class="sc-iAyFgw gHRRSC"
+                class="sc-jKJlTe hVxfqj"
                 for="project_title"
               >
                 Project Title
               </label>
               <input
-                class="sc-jWBwVP fJzuhh"
+                class="sc-eNQAEJ jsoBJV"
                 display="wide"
                 id="project_title"
                 name="project_title"
@@ -182,20 +182,20 @@ Object {
                 value=""
               />
               <span
-                class="sc-kpOJdX sc-eNQAEJ caiPaO"
+                class="sc-kgoBCf sc-ckVGcZ cbdcMI"
               />
             </div>
             <div
-              class="sc-gZMcBi ecCefW"
+              class="sc-kEYyzF boZcpZ"
             >
               <label
-                class="sc-iAyFgw gHRRSC"
+                class="sc-jKJlTe hVxfqj"
                 for="participant_or_team_nam"
               >
                 Team/Participant name
               </label>
               <input
-                class="sc-jWBwVP fJzuhh"
+                class="sc-eNQAEJ jsoBJV"
                 display="wide"
                 id="participant_or_team_name"
                 name="participant_or_team_name"
@@ -203,7 +203,7 @@ Object {
                 value=""
               />
               <span
-                class="sc-kpOJdX sc-eNQAEJ caiPaO"
+                class="sc-kgoBCf sc-ckVGcZ cbdcMI"
               />
             </div>
           </div>
@@ -211,7 +211,7 @@ Object {
             class="sc-dnqmqq bzpXAs"
           >
             <label
-              class="sc-iAyFgw gHRRSC"
+              class="sc-jKJlTe hVxfqj"
               for="project_writeups"
             >
               Project Writeup
@@ -226,21 +226,21 @@ Object {
               />
             </div>
             <span
-              class="sc-kpOJdX sc-eNQAEJ caiPaO"
+              class="sc-kgoBCf sc-ckVGcZ cbdcMI"
             />
           </div>
           <div
             class="sc-dnqmqq kaZCDV"
           >
             <a
-              class="sc-eHgmQL gOnppE"
+              class="sc-cvbbAY bgbAOq"
               color="grey"
               href="/dashboard"
             >
               Cancel
             </a>
             <button
-              class="sc-hSdWYo lgDWKZ"
+              class="sc-eHgmQL cioPsa"
               color="green"
               type="submit"
             >
