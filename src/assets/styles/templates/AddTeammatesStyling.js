@@ -219,3 +219,11 @@ export const UserInfo = styled.div`
     }
   }
 `;
+
+export const StyledCardWide = styled(CardWide)`
+  ${props => props.theme.shadow.box};
+  position: absolute; top: 50%; left: 50%;
+  width: 500px; 
+  transform: translate(-50%, -50%);
+  z-index: 200;
+`;
