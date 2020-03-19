@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { EventOnboarding } from "../templates";
+import EventOnboarding from "../templates/EventOnboarding";
 import { fetchAllEvents } from "../../store/events/actions";
 
 const Dashboard = () => {
