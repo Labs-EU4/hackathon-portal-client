@@ -1,3 +1,134 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Shows all the text nodes on EventOnboarding.js renders without crashing  1`] = `undefined`;
+exports[`Shows all the text nodes on EventOnboarding.js renders without crashing  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdVaJa diSTBv"
+      >
+        <div
+          class="sc-htpNat erYKYo"
+          id="open"
+        >
+          <div
+            class="sc-bxivhb jOWNEn"
+          >
+            <div
+              class="sc-ifAKCX iGnmmM"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-bZQynM sc-jzJRlG hDnVGH"
+        >
+          <h2
+            class="sc-EHOje jqCHSG"
+          >
+            Global Hackathons
+          </h2>
+        </div>
+        <div
+          class="sc-bwzfXH cyqWVI"
+          spacing="start"
+        >
+          <h4
+            class="sc-gZMcBi sc-kgoBCf ftuyOr"
+          >
+            There are no hackathons yet available
+          </h4>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa diSTBv"
+    >
+      <div
+        class="sc-htpNat erYKYo"
+        id="open"
+      >
+        <div
+          class="sc-bxivhb jOWNEn"
+        >
+          <div
+            class="sc-ifAKCX iGnmmM"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-bZQynM sc-jzJRlG hDnVGH"
+      >
+        <h2
+          class="sc-EHOje jqCHSG"
+        >
+          Global Hackathons
+        </h2>
+      </div>
+      <div
+        class="sc-bwzfXH cyqWVI"
+        spacing="start"
+      >
+        <h4
+          class="sc-gZMcBi sc-kgoBCf ftuyOr"
+        >
+          There are no hackathons yet available
+        </h4>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,12 +1,12 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import { RowHead } from "../atoms/RowHead";
-import { RowBody } from "../atoms/RowBody";
-import Button from "../../../components/atoms/Button";
+import { RowHead } from "../atoms/RowHeadStyling";
+import { RowBody } from "../atoms/RowBodyStyling";
+import { H4 } from "../atoms/HeadingStyling";
+import Button from '../../../components/atoms/Button';
 
 export const BodyContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: flex; flex-direction: column;
   width: 100%;
   background-color: ${props => props.theme.color.white};
   padding: 60px 45px;
@@ -16,8 +16,7 @@ export const BodyContainer = styled.div`
 export const StyledRowHead = styled(RowHead)`
   justify-content: flex-start;
   border-bottom: 2px solid ${props => props.theme.color.primary.regular};
-  padding-bottom: 0;
-  margin-bottom: 0;
+  padding-bottom: 0; margin-bottom: 0;
 `;
 
 export const DashboardContent = styled(RowBody)`
@@ -27,9 +26,10 @@ export const DashboardContent = styled(RowBody)`
 `;
 
 export const StyledButton = styled(Button)`
-  margin-right: 10px;
   border: 2px solid ${props => props.theme.color.primary.regular};
-  border-bottom: none;
+  border-bottom: none; 
+  border-bottom-left-radius: 0; border-bottom-right-radius: 0;
+  margin-right: 10px; margin-bottom: -4px;
 
   &:hover {
     background-color: ${props => props.theme.color.primary.regular};
@@ -47,11 +47,19 @@ export const StyledButton = styled(Button)`
     background-color: ${props => props.theme.color.primary.regular};
   } */
 
-  ${({ gap }) => gap === true && `margin-left: 10px;`}
+  ${({ gap }) => gap === true && `margin-left: 10px;` }
+  ${({ bottomSpace }) => bottomSpace === true && `
+      margin-bottom: 0px;
+      border-bottom: 0px;
+  `}
 `;
 
 export const HackathonCard = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 8px;
+`;
+
+export const StyledH4 = styled(H4)`
+  margin: 70px auto;
 `;
