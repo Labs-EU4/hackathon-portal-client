@@ -49,8 +49,8 @@ describe("Shows all the text nodes on EventOnboarding.js", () => {
     expect(form()).toBeInTheDocument();
   });
 
-  it("displays the h3 element ", () => {
-    expect(jestFeatures.getByText("Global hackathons")).toBeInTheDocument();
+  it("should be displaying the string 'There are no hackathons yet available' text node", () => {
+    expect(jestFeatures.getByText(/There are no hackathons yet available/i)).toBeInTheDocument();
   });
 
   it("displays a part of the description from an already created event", () => {
