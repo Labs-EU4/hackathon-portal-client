@@ -53,9 +53,6 @@ describe("Shows all the text nodes on EventOnboarding.js", () => {
     expect(jestFeatures.getByText(/There are no hackathons yet available/i)).toBeInTheDocument();
   });
 
-  it("displays a part of the description from an already created event", () => {
-    expect(jestFeatures.getByText(/macbook/)).toBeInTheDocument();
-  });
   it("should not be displaying the 'you have not created events phrase,since two events are already listed' ", () => {
     let sentence = () =>
       jestFeatures.queryByText(/You have not created any events yet/);
