@@ -99,30 +99,30 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     }
   ];
 
-  // Date formatting
-  const startDate = String(new Date(start_date)).split(" ");
-  const startDay = startDate[2];
-  const startMonth = startDate[1];
-  const startYear = startDate[3];
-  const endDate = String(new Date(end_date)).split(" ");
-  const endDay = endDate[2];
-  const endMonth = endDate[1];
+  // // Date formatting
+  // const startDate = String(new Date(start_date)).split(" ");
+  // const startDay = startDate[2];
+  // const startMonth = startDate[1];
+  // const startYear = startDate[3];
+  // const endDate = String(new Date(end_date)).split(" ");
+  // const endDay = endDate[2];
+  // const endMonth = endDate[1];
 
-  // Event is open or closed for registration
-  const userCallback = p => p.user_id === userId;
-  const today = new Date().getTime();
-  const startTime = new Date(start_date).getTime();
-  const endTime = new Date(end_date).getTime();
-  const isOpen = today <= startTime;
-  const isTeamLead = createdTeam;
-  const isRegistered = participants.find(userCallback) || isTeamLead;
-  const isEventCreator = creator_id === userId;
-  const isTeamMember = team.find(userCallback) || isEventCreator;
-  const isEnded = today > endTime;
-  const individualParticipation = participation_type === "individual";
+  // // Event is open or closed for registration
+  // const userCallback = p => p.user_id === userId;
+  // const today = new Date().getTime();
+  // const startTime = new Date(start_date).getTime();
+  // const endTime = new Date(end_date).getTime();
+  // const isOpen = today <= startTime;
+  // const isTeamLead = createdTeam;
+  // const isRegistered = participants.find(userCallback) || isTeamLead;
+  // const isEventCreator = creator_id === userId;
+  // const isTeamMember = team.find(userCallback) || isEventCreator;
+  // const isEnded = today > endTime;
+  // const individualParticipation = participation_type === "individual";
 
-  // Number of participants registered
-  const registeredPartcipants = participants.length;
+  // // Number of participants registered
+  // const registeredPartcipants = participants.length;
 
   // Redacting user emails before rendering
   let redactedEmail = organizer_email.split("");
@@ -209,23 +209,27 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                   )}
                 </TagsGroup>
               </EventCardLeftColumn>
-              <HSTagsCard 
-                // {...{isSlideForm}}
-                // {...{isSideBarOpen}}
-                // {...{organizer_profile_pic}}
-                // {...{organizer_name}}
-                // {...{emailUser}}
-                // {...{location}}
-                // {...{isOpen}}
-                // {...{participation_type}}
-                // {...{registeredPartcipants}}
-                // {...{isTeamMember}}
-                // {...{isRegistered}}
-                // {...{individualParticipation}}
-                // {...{handleRegistration}}
-                // {...{handleTeamRegistration}}
-                // {...{startMonth}}
-                // {...{startMonth}}
+              <HSTagsCard
+                {...{isSlideForm}}
+                {...{isSideBarOpen}}
+                {...{start_date}}
+                {...{end_date}}
+                {...{team}}
+                {...{participants}}
+                {...{organizer_profile_pic}}
+                {...{participation_type}}
+                {...{location}}
+                {...{creator_id}}
+                {...{createdTeam}}
+                {...{organizer_name}}
+                {...{userId}}
+                {...{id}}
+                {...{setIsAddJudgeOpen}}
+                {...{setRegisterTeam}}
+                {...{setIsSubmitProjectOpen}}
+                {...{setIsSubmissionsPageOpen}}
+                {...{handleRegistration}}
+                {...{handleTeamRegistration}}
               />
             </StyledEventCard>
           </>
