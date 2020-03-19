@@ -14,4 +14,3 @@ const Icon = ({ icon, onClick, ...props }) => {
 };
 
 export default Icon;
-
