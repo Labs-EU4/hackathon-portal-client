@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import BodyContainer from "../atoms/BodyContainer";
+import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { BoldSpan } from "../atoms/Span";
 
 export const TeamsContainer = styled(BodyContainer)`
