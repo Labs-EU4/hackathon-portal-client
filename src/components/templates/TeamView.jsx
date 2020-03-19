@@ -5,7 +5,8 @@ import {
   FancyBoldSpan,
   StyledLetterIcon,
   NormalSpan,
-  DivWrapper
+  DivWrapper,
+  ImgTeammates
 } from "../../assets/styles/templates/TeamViewStyling";
 import Button from "../atoms/Button";
 import { NavLink, useParams } from "react-router-dom";
@@ -51,17 +52,10 @@ const TeamView = ({ team }) => {
           {" "}
           {teammates.map((member, i) =>
             member.team_member_avatar === null ? (
-              <img
-                key={i}
-                style={{
-                  width: "7%",
-                  height: "7%",
-                  marginLeft: "1%",
-                  objectFit: "cover"
-                }}
-                alt="team member profile pic"
-                src={user_icon}
-              />
+             
+                // alt="team member profile pic"
+                // src={user_icon}
+              
             ) : (
               member.team_member_avatar.map((mem, index) => {
                 memberProfile = JSON.parse(mem);
