@@ -1,12 +1,10 @@
 import React from 'react';
-import 
+import { useHistory } from 'react-router-dom';
 
 import Button from "../../atoms/Button";
 import Radio from "../../molecules/Radio";
 import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
-import {
-    StyledContainer
-} from "../../../assets/styles/templates/AddParticipantTeamsStyling";
+import { StyledContainer } from "../../../assets/styles/templates/AddParticipantTeamsStyling";
 
 export const TeamRoleWidget = (props) => {
     const setRole = props.setRole;
