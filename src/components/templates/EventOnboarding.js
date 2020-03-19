@@ -58,6 +58,8 @@ const EventOnboarding = ({ eventModalHandler }) => {
 
 export default EventOnboarding;
 
+
+
 // import React from "react";
 // import styled from "styled-components";
 // import { Link } from "react-router-dom";
