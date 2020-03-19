@@ -7,10 +7,10 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bRBYWo bcWmiv"
+          class="sc-Rmtcm iIrgcV"
         >
           <a
-            class="sc-fMiknA dyzJBJ"
+            class="sc-fBuWsC gkzqGZ"
             href="/"
           >
             <img
@@ -20,13 +20,13 @@ Object {
             />
           </a>
           <div
-            class="sc-fBuWsC bPfjiF"
+            class="sc-jhAzac eQWEze"
           >
             <div
-              class="sc-hzDkRC itWopO"
+              class="sc-bRBYWo hbnKBA"
             >
               <button
-                class="sc-kEYyzF kbIspq sc-jhAzac itwdWK"
+                class="sc-kEYyzF kbIspq sc-hzDkRC ksyApW"
                 color="grey"
                 data-testid="label"
               >
@@ -39,10 +39,10 @@ Object {
           class="sc-iRbamj dyFMRm"
         >
           <div
-            class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
+            class="sc-jlyJG doWxFB sc-ksYbfQ kEPjVN"
           >
             <div
-              class="sc-dVhcbM iWcBSy"
+              class="sc-fMiknA fZGKtL"
             >
               <h3
                 class="sc-dnqmqq igidRh"
@@ -51,13 +51,13 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-fAjcbJ jFpqbf"
+              class="sc-eqIVtm cafaYE"
             >
               <div
-                class="sc-gisBJw sc-kjoXOD jjwBFH"
+                class="sc-caSCKo sc-gisBJw bHRYxT"
               >
                 <div
-                  class="sc-bYSBpT iAZFpI"
+                  class="sc-lhVmIH guBzHi"
                   display="wide"
                 >
                   <input
@@ -105,10 +105,10 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bRBYWo bcWmiv"
+        class="sc-Rmtcm iIrgcV"
       >
         <a
-          class="sc-fMiknA dyzJBJ"
+          class="sc-fBuWsC gkzqGZ"
           href="/"
         >
           <img
@@ -118,13 +118,13 @@ Object {
           />
         </a>
         <div
-          class="sc-fBuWsC bPfjiF"
+          class="sc-jhAzac eQWEze"
         >
           <div
-            class="sc-hzDkRC itWopO"
+            class="sc-bRBYWo hbnKBA"
           >
             <button
-              class="sc-kEYyzF kbIspq sc-jhAzac itwdWK"
+              class="sc-kEYyzF kbIspq sc-hzDkRC ksyApW"
               color="grey"
               data-testid="label"
             >
@@ -137,10 +137,10 @@ Object {
         class="sc-iRbamj dyFMRm"
       >
         <div
-          class="sc-jlyJG doWxFB sc-hmzhuo dRNSrA"
+          class="sc-jlyJG doWxFB sc-ksYbfQ kEPjVN"
         >
           <div
-            class="sc-dVhcbM iWcBSy"
+            class="sc-fMiknA fZGKtL"
           >
             <h3
               class="sc-dnqmqq igidRh"
@@ -149,13 +149,13 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-fAjcbJ jFpqbf"
+            class="sc-eqIVtm cafaYE"
           >
             <div
-              class="sc-gisBJw sc-kjoXOD jjwBFH"
+              class="sc-caSCKo sc-gisBJw bHRYxT"
             >
               <div
-                class="sc-bYSBpT iAZFpI"
+                class="sc-lhVmIH guBzHi"
                 display="wide"
               >
                 <input

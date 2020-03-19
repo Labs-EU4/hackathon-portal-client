@@ -7,26 +7,26 @@ Object {
     <div>
       <div>
         <div
-          class="sc-bwzfXH ktSiSq"
+          class="sc-bdVaJa dErNmg"
         >
           <a
-            class="sc-dnqmqq kjNnRX"
+            class="sc-htoDjs jssEWI"
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-htpNat Tzmao"
+              class="sc-bwzfXH fWCffE"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-htoDjs kHkNTR"
+            class="sc-gzVnrw itepUc"
           >
             <div
-              class="sc-bZQynM RmySO"
+              class="sc-EHOje bOqsil"
             >
               <button
-                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                class="sc-htpNat maCfY sc-bZQynM ignRaC"
                 color="grey"
                 data-testid="label"
               >
@@ -36,35 +36,35 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hzDkRC cBfjrB"
+          class="sc-bRBYWo hyNudz"
         >
           <div
-            class="sc-jhAzac jxgZSd sc-ktHwxA iDnVrt"
+            class="sc-hzDkRC csxNDz sc-hEsumM gguRbo"
           >
             <div
-              class="sc-dVhcbM iWcBSy"
+              class="sc-fMiknA fZGKtL"
             >
               <h3
-                class="sc-chPdSV jQbecn"
+                class="sc-kAzzGY eOJFvg"
               >
                 Your Profile
               </h3>
             </div>
             <div
-              class="sc-cHGsZl sc-TOsTZ sc-cIShpX iqOeDC"
+              class="sc-kjoXOD sc-cHGsZl sc-ktHwxA eEUaxl"
             >
               <div
-                class="sc-kafWEX jaIhry"
+                class="sc-cIShpX gMSzSu"
               >
                 <div
-                  class="sc-cmTdod jyjSKS"
+                  class="sc-iELTvK bSyfeV"
                 >
                   <img
-                    class="sc-iELTvK jyGjYp"
+                    class="sc-feJyhm iCGigM"
                     src="profile-image.png"
                   />
                   <a
-                    class="sc-EHOje gOKWek sc-bYSBpT jtRnwT"
+                    class="sc-ifAKCX dJBYdO sc-lhVmIH kVnYHQ"
                     color="green"
                     to="/dashboard/profile/edit"
                   >
@@ -72,52 +72,52 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-gisBJw crwmrK"
+                  class="sc-caSCKo dZGQkd"
                 >
                   <h2
-                    class="sc-kAzzGY kIEYOe"
+                    class="sc-cSHVUG gUjuEA"
                     style="margin-bottom: 0px;"
                   />
                   <p
-                    class="sc-jKJlTe dZsSRJ"
+                    class="sc-ckVGcZ knXWAI"
                     style="color: gray;"
                   >
                     @
                   </p>
                 </div>
                 <div
-                  class="sc-lhVmIH hksPHh"
+                  class="sc-btzYZH jQEaJB"
                 >
                   <p
-                    class="sc-jKJlTe dZsSRJ"
+                    class="sc-ckVGcZ knXWAI"
                   />
                 </div>
                 <div
-                  class="sc-lhVmIH hksPHh"
+                  class="sc-btzYZH jQEaJB"
                 >
                   <div
-                    class="sc-btzYZH iijKDA"
+                    class="sc-jwKygS dTTNdG"
                   />
                   <p
-                    class="sc-jKJlTe dZsSRJ"
+                    class="sc-ckVGcZ knXWAI"
                     style="color: blue; margin-left: 3px;"
                   />
                 </div>
               </div>
               <div
-                class="sc-feJyhm jyNFdG"
+                class="sc-kafWEX hSFtmy"
               >
                 <div
-                  class="sc-dVhcbM iWcBSy"
+                  class="sc-fMiknA fZGKtL"
                 >
                   <h3
-                    class="sc-chPdSV jQbecn"
+                    class="sc-kAzzGY eOJFvg"
                   >
                     Hackathon(s) you registered for
                   </h3>
                 </div>
                 <div
-                  class="sc-caSCKo kbWDWh"
+                  class="sc-fAjcbJ fvzHro"
                   spacing="center"
                 >
                   <div
@@ -198,22 +198,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-iwsKbI hpFEep"
+          class="sc-dnqmqq gkSNdn"
         >
           <p
-            class="sc-jTzLTM iPDHvH"
+            class="sc-VigVT kZDxgA"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-gZMcBi sc-VigVT iPKVYu"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-gZMcBi sc-VigVT iPKVYu"
+              class="sc-iwsKbI sc-gqjmRU kqKCDB"
               href="#"
             >
               Contacts
@@ -226,26 +226,26 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-bwzfXH ktSiSq"
+        class="sc-bdVaJa dErNmg"
       >
         <a
-          class="sc-dnqmqq kjNnRX"
+          class="sc-htoDjs jssEWI"
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-htpNat Tzmao"
+            class="sc-bwzfXH fWCffE"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-htoDjs kHkNTR"
+          class="sc-gzVnrw itepUc"
         >
           <div
-            class="sc-bZQynM RmySO"
+            class="sc-EHOje bOqsil"
           >
             <button
-              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              class="sc-htpNat maCfY sc-bZQynM ignRaC"
               color="grey"
               data-testid="label"
             >
@@ -255,35 +255,35 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hzDkRC cBfjrB"
+        class="sc-bRBYWo hyNudz"
       >
         <div
-          class="sc-jhAzac jxgZSd sc-ktHwxA iDnVrt"
+          class="sc-hzDkRC csxNDz sc-hEsumM gguRbo"
         >
           <div
-            class="sc-dVhcbM iWcBSy"
+            class="sc-fMiknA fZGKtL"
           >
             <h3
-              class="sc-chPdSV jQbecn"
+              class="sc-kAzzGY eOJFvg"
             >
               Your Profile
             </h3>
           </div>
           <div
-            class="sc-cHGsZl sc-TOsTZ sc-cIShpX iqOeDC"
+            class="sc-kjoXOD sc-cHGsZl sc-ktHwxA eEUaxl"
           >
             <div
-              class="sc-kafWEX jaIhry"
+              class="sc-cIShpX gMSzSu"
             >
               <div
-                class="sc-cmTdod jyjSKS"
+                class="sc-iELTvK bSyfeV"
               >
                 <img
-                  class="sc-iELTvK jyGjYp"
+                  class="sc-feJyhm iCGigM"
                   src="profile-image.png"
                 />
                 <a
-                  class="sc-EHOje gOKWek sc-bYSBpT jtRnwT"
+                  class="sc-ifAKCX dJBYdO sc-lhVmIH kVnYHQ"
                   color="green"
                   to="/dashboard/profile/edit"
                 >
@@ -291,52 +291,52 @@ Object {
                 </a>
               </div>
               <div
-                class="sc-gisBJw crwmrK"
+                class="sc-caSCKo dZGQkd"
               >
                 <h2
-                  class="sc-kAzzGY kIEYOe"
+                  class="sc-cSHVUG gUjuEA"
                   style="margin-bottom: 0px;"
                 />
                 <p
-                  class="sc-jKJlTe dZsSRJ"
+                  class="sc-ckVGcZ knXWAI"
                   style="color: gray;"
                 >
                   @
                 </p>
               </div>
               <div
-                class="sc-lhVmIH hksPHh"
+                class="sc-btzYZH jQEaJB"
               >
                 <p
-                  class="sc-jKJlTe dZsSRJ"
+                  class="sc-ckVGcZ knXWAI"
                 />
               </div>
               <div
-                class="sc-lhVmIH hksPHh"
+                class="sc-btzYZH jQEaJB"
               >
                 <div
-                  class="sc-btzYZH iijKDA"
+                  class="sc-jwKygS dTTNdG"
                 />
                 <p
-                  class="sc-jKJlTe dZsSRJ"
+                  class="sc-ckVGcZ knXWAI"
                   style="color: blue; margin-left: 3px;"
                 />
               </div>
             </div>
             <div
-              class="sc-feJyhm jyNFdG"
+              class="sc-kafWEX hSFtmy"
             >
               <div
-                class="sc-dVhcbM iWcBSy"
+                class="sc-fMiknA fZGKtL"
               >
                 <h3
-                  class="sc-chPdSV jQbecn"
+                  class="sc-kAzzGY eOJFvg"
                 >
                   Hackathon(s) you registered for
                 </h3>
               </div>
               <div
-                class="sc-caSCKo kbWDWh"
+                class="sc-fAjcbJ fvzHro"
                 spacing="center"
               >
                 <div
@@ -417,22 +417,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-iwsKbI hpFEep"
+        class="sc-dnqmqq gkSNdn"
       >
         <p
-          class="sc-jTzLTM iPDHvH"
+          class="sc-VigVT kZDxgA"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-gZMcBi sc-VigVT iPKVYu"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-gZMcBi sc-VigVT iPKVYu"
+            class="sc-iwsKbI sc-gqjmRU kqKCDB"
             href="#"
           >
             Contacts
