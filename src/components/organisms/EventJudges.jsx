@@ -1,6 +1,12 @@
 import React from 'react';
 
-import 
+import {
+    JudgesContainer,
+    JudgeCard,
+    JudgeImg,
+    JudgeInfo
+} from '../../assets/styles/templates/HackathonSingleStyling';
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 
 const EventJudges = () => {
     return (
