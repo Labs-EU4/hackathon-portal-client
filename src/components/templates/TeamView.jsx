@@ -1,17 +1,16 @@
 import React, { useEffect } from "react";
+
+import {
+  TeamsContainer,
+  FancyBoldSpan,
+  StyledLetterIcon,
+  NormalSpan
+} from "../../assets/styles/templates/TeamView";
 import Button from "../atoms/Button";
 import { NavLink, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
-import {
-  TeamsCont,
-  FancyBoldSpan,
-  NormalSpan,
-  TeamMateDiv,
-  Img,
-  ImgWithBorder
-} from "../../assets/styles/templates/TeamViewStyling";
 
 const TeamView = ({ team }) => {
   const { id } = useParams();
@@ -20,7 +19,8 @@ const TeamView = ({ team }) => {
     state.events.data.find(event => event.id === Number(id))
   );
 
-  const [teammates, fetchTeammates] = useTeammates(team ?.id);
+  const [teammates, fetchTeammates] = useTeammates(team?.id);
+  const initial = team?.team_name[0] || "U";
 
   let memberProfile;
 
@@ -29,7 +29,8 @@ const TeamView = ({ team }) => {
   }, [fetchTeammates]);
 
   return (
-    <TeamsCont>
+    <TeamsContainer>
+      <StyledLetterIcon icon="">{initial}</StyledLetterIcon>
       <FancyBoldSpan>Your Team</FancyBoldSpan>
       <FancyBoldSpan>
         Team Name:
@@ -39,27 +40,51 @@ const TeamView = ({ team }) => {
         Team Members:
       </FancyBoldSpan>
       {teammates.length !== 0 ? (
-        <TeamMateDiv>
+        <div
+          style={{
+            borderBottom: "1px solid lightgray",
+            width: "100%",
+            paddingBottom: "10px"
+          }}
+        >
+          {" "}
           {teammates.map((member, i) =>
             member.team_member_avatar === null ? (
-              <Img key={i} alt="team member profile pic" src={user_icon} />
+              <img
+                key={i}
+                style={{
+                  width: "7%",
+                  height: "7%",
+                  marginLeft: "1%",
+                  objectFit: "cover"
+                }}
+                alt="team member profile pic"
+                src={user_icon}
+              />
             ) : (
-                member.team_member_avatar.map((mem, index) => {
-                  memberProfile = JSON.parse(mem);
-                  return (
-                    <ImgWithBorder
-                      key={index}
-                      alt="team member profile pic"
-                      src={memberProfile.avatar}
-                    />
-                  );
-                })
-              )
+              member.team_member_avatar.map((mem, index) => {
+                memberProfile = JSON.parse(mem);
+                return (
+                  <img
+                    key={index}
+                    style={{
+                      width: "7%",
+                      height: "7%",
+                      marginLeft: "1%",
+                      objectFit: "cover",
+                      borderRadius: "5px"
+                    }}
+                    alt="team member profile pic"
+                    src={memberProfile.avatar}
+                  />
+                );
+              })
+            )
           )}
-        </TeamMateDiv>
+        </div>
       ) : (
-          <FancyBoldSpan>This team has no members</FancyBoldSpan>
-        )}
+        <FancyBoldSpan>This team has no members</FancyBoldSpan>
+      )}
       <FancyBoldSpan>
         Hackathon Name:
         <NormalSpan>{event_title}</NormalSpan>
@@ -72,7 +97,7 @@ const TeamView = ({ team }) => {
           Add Teammate
         </NavLink>{" "}
       </Button>
-    </TeamsCont>
+    </TeamsContainer>
   );
 };
 
