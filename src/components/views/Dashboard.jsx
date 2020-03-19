@@ -4,7 +4,6 @@ import { useDispatch } from "react-redux";
 
 import PrivateRoute from "../organisms/PrivateRoute";
 import UserEventsDashboard from "../templates/UserEventsDashboard";
-// import { EventOnboarding } from "../templates";
 import HackathonSinglePage from "./HackathonSinglePage";
 import { fetchAllEvents } from "../../store/events/actions";
 
