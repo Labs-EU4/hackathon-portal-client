@@ -7,12 +7,16 @@ import {
     Image,
     PHosted
 } from "../../assets/styles/templates/HackathonSingleStyling";
+import userImg from "../../assets/images/user_icon.svg";
 
 const HSTagsCard = ({
 
 }) => {
     return (
-        <TagsCardWide active={isSlideForm} menuOpen={isSideBarOpen}>
+        <TagsCardWide 
+            active={isSlideForm} 
+            menuOpen={isSideBarOpen}
+        >
             <TagCard>
                 <NormalSpan>Hosted by:</NormalSpan>
                 <UserContainer>

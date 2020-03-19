@@ -27,6 +27,7 @@ import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 import Button from "../atoms/Button";
 import Icon from "../atoms/IconN";
 import EventJudges from '../organisms/EventJudges';
+import HSTagsCard from '../organisms/HSTagsCard';
 import ContentTitle from "../molecules/ContentTitle";
 // import HackathonProjectsPage from '../views/HackathonProjectsPage';
 // import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
@@ -208,6 +209,24 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                   )}
                 </TagsGroup>
               </EventCardLeftColumn>
+              <HSTagsCard 
+                // {...{isSlideForm}}
+                // {...{isSideBarOpen}}
+                // {...{organizer_profile_pic}}
+                // {...{organizer_name}}
+                // {...{emailUser}}
+                // {...{location}}
+                // {...{isOpen}}
+                // {...{participation_type}}
+                // {...{registeredPartcipants}}
+                // {...{isTeamMember}}
+                // {...{isRegistered}}
+                // {...{individualParticipation}}
+                // {...{handleRegistration}}
+                // {...{handleTeamRegistration}}
+                // {...{startMonth}}
+                // {...{startMonth}}
+              />
             </StyledEventCard>
           </>
         )}
