@@ -10,10 +10,7 @@ import {
   AddTeamParticipantContainer,
   StyledWidget
 } from "../../assets/styles/templates/AddParticipantTeamsStyling";
-import { 
-  Container,
-  ContainerRadio
-} from "../../assets/styles/templates/AddTeammatesStyling";
+
 import isEmail from "validator/lib/isEmail";
 
 
@@ -69,37 +66,3 @@ export const SearchWidget = props => {
     </AddTeamParticipantContainer>
   );
 };
-
-export const ParticipantRoleWidget = props => {
-  const { selectedUser, handleSubmit} = props;
-  const history = useHistory();
-  const redirect = (location = "/dashboard") => {
-    history.push(location);
-  };
-
-  return (
-    <StyledContainer>
-      <RowBody direction="column-reverse">
-        <h6>
-          You are adding{" "}
-          <span style={{ color: "#273F92", backgroundColor: "aliceblue" }}>
-            {selectedUser.email}
-          </span>{" "}
-          to your team
-        </h6>
-      </RowBody>
-      <RowBody>
-        <Button color="grey" onClick={() => redirect()}>
-          Back to dashboard
-        </Button>
-        <Button
-          color="green"
-          onClick={selectedUser => handleSubmit(selectedUser)}
-        >
-          Add teammate
-        </Button>
-      </RowBody>
-    </StyledContainer>
-  );
-};
-
