@@ -8,6 +8,7 @@ import {
     ChosenJudgeImg,
     StyledSearchIcon
 } from "../../../assets/styles/templates/AddTeammatesStyling";
+import isEmail from "validator/lib/isEmail";
 
 export const JudgesSearchWidget = props => {
     const { 
