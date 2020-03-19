@@ -55,3 +55,7 @@ export const ImgTeammates = styled.img`
   margin-left: 1%;
   object-fit: cover;
 `;
+
+export const TeamMemberImg = styled(ImgTeammates)`
+  border-radius: 5px;
+`;
