@@ -42,3 +42,9 @@ export const NormalSpan = styled(BoldSpan)`
   font-weight: normal;
   padding: 5px;
 `;
+
+export const DivWrapper = styled.div`
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  padding-bottom: 10px;
+`;
