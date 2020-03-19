@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Button from "../atoms/Button";
+import Button from "../../atoms/Button";
 import { 
     Container,
     UsersList,
     ChosenJudgesContainer,
     ChosenJudgeImg,
     StyledSearchIcon
-} from "../../assets/styles/templates/AddTeammatesStyling";
+} from "../../../assets/styles/templates/AddTeammatesStyling";
 
 export const JudgesSearchWidget = props => {
     const { 
