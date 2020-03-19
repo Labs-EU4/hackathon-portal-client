@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { media } from "../variables/media";
 import { Paragraph } from "../atoms/ParagraphStyling";
-import WideBody from "../atoms/WideBodyStyling";
+import { WideBody } from "../atoms/WideBodyStyling";
 import Button from "../../../components/atoms/Button";
 
 export const StyledWideBody = styled(WideBody)`
