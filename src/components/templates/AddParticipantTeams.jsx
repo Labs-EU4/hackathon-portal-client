@@ -3,14 +3,14 @@ import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
 import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeamsStyling';
-import WideBody from "../../assets/styles/atoms/WideBodyStyling";
+import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { CardWide } from "../../assets/styles/atoms/CardStyling";
-import SearchWidget from "./widgets/SearchWidget";
-import ParticipantRoleWidget from "./widgets/ParticipantRoleWidget";
-import ParticipantInviteWidget from "./widgets/ParticipantInviteWidget";
+import { SearchWidget } from "./widgets/SearchWidget";
+// import { ParticipantRoleWidget } from "./widgets/ParticipantRoleWidget";
+import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
 import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
 
