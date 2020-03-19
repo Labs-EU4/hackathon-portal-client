@@ -1,5 +1,9 @@
 import React from 'react';
 
+import {
+    ContainerRadio
+} from "../../assets/styles/templates/AddTeammatesStyling";
+
 const Radio = ({ label, value, type = "radio", ...radioProps }) => {
     return (
       <ContainerRadio>
@@ -9,3 +13,5 @@ const Radio = ({ label, value, type = "radio", ...radioProps }) => {
       </ContainerRadio>
     );
 };
+
+export default Radio;
