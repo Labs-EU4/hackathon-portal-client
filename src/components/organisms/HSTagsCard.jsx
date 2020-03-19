@@ -23,7 +23,13 @@ const HSTagsCard = ({
     createdTeam,
     organizer_name,
     userId,
-    
+    id,
+    setIsAddJudgeOpen,
+    setRegisterTeam,
+    setIsSubmitProjectOpen,
+    setIsSubmissionsPageOpen,
+    handleRegistration,
+    handleTeamRegistration
 }) => {
     // Date formatting
     const startDate = String(new Date(start_date)).split(" ");
