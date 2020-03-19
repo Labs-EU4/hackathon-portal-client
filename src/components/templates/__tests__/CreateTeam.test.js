@@ -47,6 +47,7 @@ beforeEach(() => {
 describe("Shows all the text nodes on CreateTeam.js that are contained on the making an event form", () => {
   it("CreateTeam.js component renders properly", () => {
     expect(component).toMatchSnapshot();
+    component.debug();
   });
   // it("The text node for the first character of the current user mail, renders properly on the menu", () => {
   //   expect(component.queryByText(/8/i)).toBeInTheDocument();
