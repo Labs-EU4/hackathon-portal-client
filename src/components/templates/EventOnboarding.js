@@ -8,7 +8,8 @@ import {
   StyledRowBody,
   HeaderContent,
   MapContainer,
-  MapFormContainer
+  MapFormContainer,
+  StyledSectionTitle
 } from "../../assets/styles/templates/EventOnboardingStyling";
 import {
   StyledRowHead,
