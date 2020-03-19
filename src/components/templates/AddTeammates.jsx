@@ -10,11 +10,9 @@ import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
-import {
-  JudgesSearchWidget,
-  TeamRoleWidget,
-  TeamInviteWidget
-} from "./widgets";
+import { JudgesSearchWidget } from "./widgets/JudgesSearchWidget";
+import { TeamRoleWidget } from "./widgets/TeamRoleWidget";
+import { TeamInviteWidget } from "./widgets/TeamInviteWidget";
 
 const AddTeammates = ({ setIsAddJudgeOpen }) => {
   const selectedUserArr = useRef([]);
