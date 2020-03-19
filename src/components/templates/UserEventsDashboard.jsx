@@ -14,7 +14,7 @@ import { useRegisteredEvents } from "../../hooks";
 const UserEventsDashboard = ({ eventModalHandler }) => {
   const [isRegisteredEvents, setIsRegisteredEvents] = useState(false);
   const events = useSelector(state => state.events.data);
-  const [data, loading] = useRegisteredEvents();
+  const [data] = useRegisteredEvents();
   const registeredEvents = data?.body || [];
   const { userId } = useSelector(state => state.currentUser);
   const userEvents = events.filter(event => event.creator_id === userId);
