@@ -85,12 +85,14 @@ describe("Shows all the text nodes on HackathonForm.js that are contained on the
       )
     ).toBeInTheDocument();
   });
+  
   it("should be displaying the guidelines text node for the event being created", () => {
     expect(jestFeatures.getByText("Guidelines")).toBeInTheDocument();
   });
-  it("should be displaying the Project requirements text node for the event being created", () => {
+
+  it("should be displaying 'Judges will be expected' text node for the event being created", () => {
     expect(
-      jestFeatures.getByText("Project Submission Requirements")
+      jestFeatures.getByText(/Judges will be expected/i)
     ).toBeInTheDocument();
   });
 
