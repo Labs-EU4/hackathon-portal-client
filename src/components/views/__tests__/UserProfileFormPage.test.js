@@ -44,9 +44,15 @@ describe("Component UserProfileFormPage.js renders properly", () => {
   // it("asserts that the first character of the user's email shows up on the menu", () => {
   //   expect(component.getByText("8")).toBeInTheDocument();
   // });
-  it("asserts that the <p> Username text node renders properly on the form component", () => {
-    expect(component.getByText("Jake22")).toBeInTheDocument();
+  it("The text node 'Profile Image', renders properly", () => {
+    expect(component.queryByText(/Profile Image/i)).toBeInTheDocument();
   });
+  // it("The text node 'Profile Image', renders properly", () => {
+  //   expect(component.queryByText(/Profile Image/i)).toBeInTheDocument();
+  // });
+  // it("The text node 'Profile Image', renders properly", () => {
+  //   expect(component.queryByText(/Profile Image/i)).toBeInTheDocument();
+  // });
   it("asserts that the <textarea> placeholder for current User bio text node renders properly on the form component", () => {
     expect(component.queryByPlaceholderText("bio")).toBeInTheDocument();
   });
