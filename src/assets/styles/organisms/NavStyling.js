@@ -1,141 +1,139 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-import Button from '../../../components/atoms/Button';
-import Icon from '../../../components/atoms/IconN';
+import Button from "../../../components/atoms/Button";
+import Icon from "../../../components/atoms/Icon";
 import { Solid, media, type, Gradient } from "../variables/index";
 
 export const StyledNav = styled.div`
-display: none;
-border-right: 1px solid #dadada;
-background-color: #fafafa;
-display: flex;
-flex-direction: column;
-padding: 40px;
-width: 350px;
-transition: all 0.3s;
-
-@media ${media.mobile} {
-  display: block;
-}
-
-@media ${media.tablet} {
-  display: block;
-}
-
-@media ${media.desktop} {
   display: none;
-}
+  border-right: 1px solid #dadada;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  width: 350px;
+  transition: all 0.3s;
+
+  @media ${media.mobile} {
+    display: block;
+  }
+
+  @media ${media.tablet} {
+    display: block;
+  }
+
+  @media ${media.desktop} {
+    display: none;
+  }
 `;
 
 export const StyledMobileNav = styled.div`
-display: block;
+  display: block;
 
-@media (min-width: 1152px) {
-  display: none;
-}
-
-span {
-  display: flex;
-  color: ${Solid.DARK_GREY};
-  font-weight: 500;
-  margin: 0 20px 0 0;
-
-  svg {
-    width: 25px;
-    margin: 0 5px 0 0;
-
-    path {
-      fill: #9d9d9d;
-    }
+  @media (min-width: 1152px) {
+    display: none;
   }
-}
 
-span:hover {
-  cursor: pointer;
-}
+  span {
+    display: flex;
+    color: ${Solid.DARK_GREY};
+    font-weight: 500;
+    margin: 0 20px 0 0;
 
-ul {
-  display: none;
-  padding: 5px;
-  list-style: none;
-  z-index: 1;
-  position: absolute;
-  flex-direction: column;
-  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
-  background-color: #ffffff;
-  border-radius: 6px;
-  transition: 0.3s;
+    svg {
+      width: 25px;
+      margin: 0 5px 0 0;
 
-  li {
-    text-align: center;
-    font-size: 12px;
-    a,
-    span {
-      font-weight: bold;
-      font-size: 15px;
-      font-family: ${type.ROBOTO};
-      padding: 15px 20px;
-      text-decoration: none;
-      color: ${Solid.DARK_GREY};
-      display: block;
-
-      &:hover {
-        background: ${Gradient.BLUE};
-        color: ${Solid.WHITE};
-        transition: all 0.3s;
+      path {
+        fill: #9d9d9d;
       }
     }
   }
-}
 
-&:hover {
-  ul {
-    display: flex;
+  span:hover {
+    cursor: pointer;
   }
-}
+
+  ul {
+    display: none;
+    padding: 5px;
+    list-style: none;
+    z-index: 1;
+    position: absolute;
+    flex-direction: column;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    border-radius: 6px;
+    transition: 0.3s;
+
+    li {
+      text-align: center;
+      font-size: 12px;
+      a,
+      span {
+        font-weight: bold;
+        font-size: 15px;
+        font-family: ${type.ROBOTO};
+        padding: 15px 20px;
+        text-decoration: none;
+        color: ${Solid.DARK_GREY};
+        display: block;
+
+        &:hover {
+          background: ${Gradient.BLUE};
+          color: ${Solid.WHITE};
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    ul {
+      display: flex;
+    }
+  }
 `;
 
 export const StyledNavLink = styled(NavLink)`
-display: flex;
-align-items: center;
-background-size: 20px;
-color: ${Solid.DARK_GREY};
-font-weight: 500;
-text-decoration: none;
-padding: 15px 20px;
-transition: all 0.3s;
-margin: 0 0 10px 0;
-white-space: nowrap;
+  display: flex;
+  align-items: center;
+  background-size: 20px;
+  color: ${Solid.DARK_GREY};
+  font-weight: 500;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: all 0.3s;
+  margin: 0 0 10px 0;
+  white-space: nowrap;
 
-svg {
-  margin: 0 15px 0 0;
-  width: 20px;
-}
-
-svg path {
-  fill: #9d9d9d;
-}
-
-&:hover,
-&.current {
-  background-color: #efefef;
-  border-radius: 6px;
-  color: #484848;
+  svg {
+    margin: 0 15px 0 0;
+    width: 20px;
+  }
 
   svg path {
-    fill: #868686;
+    fill: #9d9d9d;
   }
-}
+
+  &:hover,
+  &.current {
+    background-color: #efefef;
+    border-radius: 6px;
+    color: #484848;
+
+    svg path {
+      fill: #868686;
+    }
+  }
 `;
-
-
-
 
 // --------------------------------- NEW // --------------------------------- //
 
-
 export const StyledEditIconN = styled(Icon)`
-  position: absolute; top: 50%; left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   font-size: 2.5rem;
   color: ${props => props.theme.color.green.regular};
   z-index: 500;
@@ -143,17 +141,23 @@ export const StyledEditIconN = styled(Icon)`
 `;
 
 export const StyledExpandIconN = styled(Icon)`
-  position: absolute; bottom: 70px; left: 50%;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
   font-size: 3rem;
-  transform: ${({ active }) => active ? 'translateX(-50%) rotate(90deg);' : 'translateX(-50%) rotate(-90deg);'};
+  transform: ${({ active }) =>
+    active
+      ? "translateX(-50%) rotate(90deg);"
+      : "translateX(-50%) rotate(-90deg);"};
   cursor: pointer;
   &:hover {
-    transform: ${({ active }) => active
-    ? 'translateX(-50%) rotate(90deg) scale(1.1);'
-    : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
+    transform: ${({ active }) =>
+      active
+        ? "translateX(-50%) rotate(90deg) scale(1.1);"
+        : "translateX(-50%) rotate(-90deg) scale(1.1);"};
     color: ${props => props.theme.color.white.regular};
   }
-  @media ${media.tablet} { 
+  @media ${media.tablet} {
     display: none;
   }
 `;
@@ -166,7 +170,7 @@ export const UserInfoContentN = styled.div`
       color: ${props => props.theme.color.grey.regular};
     }
   }
-  @media ${media.tablet} { 
+  @media ${media.tablet} {
     display: none;
   }
 `;
@@ -174,7 +178,7 @@ export const UserInfoContentN = styled.div`
 export const StyledNavN = styled.div`
   grid-area: aside;
   position: relative;
-  padding: ${({ active }) => active ? '90px 0' : '90px 20px 30px'};
+  padding: ${({ active }) => (active ? "90px 0" : "90px 20px 30px")};
   @media ${media.tablet} {
     width: 60px;
     padding: 90px 0;
@@ -186,18 +190,20 @@ export const StyledNavN = styled.div`
 
 export const StyledProfileImageN = styled.div`
   position: relative;
-  display: flex; align-items: center;
-  width: 50px; height: 50px;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
   background-color: transparent;
   border-radius: 50%;
-  
+
   &:hover img {
-    opacity: .4;
+    opacity: 0.4;
   }
 `;
 
 export const StyledNavLinkN = styled(NavLink)`
-  ${props => props.theme.flex.custom('flex-start', 'flex-end')};
+  ${props => props.theme.flex.custom("flex-start", "flex-end")};
   width: 100%;
   margin-bottom: 10px; padding: 12px 0 8px 5px;
   color: ${props => props.theme.color.black.regular};
@@ -228,10 +234,10 @@ export const StyledNavLinkN = styled(NavLink)`
     ${props => props.theme.shadow.box};
     font-weight: bold;
     color: white;
-    ${({ active }) => active
-    ? `border-right: 5px solid ${Solid.blue}; border-radius: 0px; padding-left: 10px;`
-    : `border-left: 5px solid ${Solid.blue}; border-radius: 6px;`
-  }
+    ${({ active }) =>
+      active
+        ? `border-right: 5px solid ${Solid.blue}; border-radius: 0px; padding-left: 10px;`
+        : `border-left: 5px solid ${Solid.blue}; border-radius: 6px;`}
     @media ${media.tablet} {
       border-right: 5px solid ${Solid.blue}; border-left: none;
       border-radius: 0px; 
@@ -249,11 +255,14 @@ export const StyledNavLinkN = styled(NavLink)`
 export const LinkDetailsN = styled.div`
   ${props => props.theme.flex.center};
   ${props => props.theme.shadow.box};
-  position: absolute; top: 50%;
+  position: absolute;
+  top: 50%;
   height: 45px;
-  background-color: #3BCEF2;
-  border: 2px solid ${props => props.theme.color.primary.regular}; border-right: none;
-  border-top-left-radius: 3px; border-bottom-left-radius: 3px;
+  background-color: #3bcef2;
+  border: 2px solid ${props => props.theme.color.primary.regular};
+  border-right: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
   padding: 0 20px;
   transform: translate(-100%, -60%);
   z-index: 100;
@@ -273,7 +282,9 @@ export const UserContainerN = styled.div`
 
 export const StyledButtonN = styled(Button)`
   margin-bottom: 10px;
-  ${({ active }) => active && `
+  ${({ active }) =>
+    active &&
+    `
     padding: 5px 0;
     word-break: break-all;
   `}

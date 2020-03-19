@@ -41,13 +41,13 @@ Object {
           class="sc-bZQynM ghjVHi"
         >
           <div
-            class="sc-giadOv jxyQCA"
+            class="sc-kasBVs edHGPw"
           >
             <div
-              class="sc-fONwsr hfMLuA"
+              class="sc-hgHYgh eqIdFm"
             >
               <div
-                class="sc-VJcYb iktCOx"
+                class="sc-eInJlc fYgYKa"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -55,41 +55,41 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-ipXKqB ggkuHm"
+                  class="sc-gtfDJT elcnWq"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-hmXxxW casjpL"
+              class="sc-fOICqy biYruA"
             >
               <h1
-                class="sc-cqCuEk lhwwFD"
+                class="sc-hzDEsm fmKzjM"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-dliRfk dSLMMH"
+                class="sc-jeCdPy elAeIH"
               >
                 <div
-                  class="sc-kLIISr cXQdJO"
+                  class="sc-jtRlXQ cBNxLt"
                 />
                 <div
-                  class="sc-kLIISr cXQdJO"
+                  class="sc-jtRlXQ cBNxLt"
                 />
                 <div
-                  class="sc-kLIISr cXQdJO"
+                  class="sc-jtRlXQ cBNxLt"
                 />
                 <div
-                  class="sc-kLIISr cXQdJO"
+                  class="sc-jtRlXQ cBNxLt"
                 />
                 <div
-                  class="sc-kLIISr cXQdJO"
+                  class="sc-jtRlXQ cBNxLt"
                 />
                 <div
-                  class="sc-kLIISr cXQdJO"
+                  class="sc-jtRlXQ cBNxLt"
                 />
               </div>
             </div>
@@ -128,7 +128,7 @@ Object {
               class="sc-fAjcbJ eczLSz"
             >
               <div
-                class="sc-bwzfXH ihQUfF sc-LKuAh cUFMqv"
+                class="sc-bwzfXH ihQUfF sc-fgfRvd ciYDpc"
               >
                 <div
                   class="sc-jtRfpW fiPPEF"
@@ -143,19 +143,19 @@ Object {
                   class="sc-dqBHgY fghFCM"
                 >
                   <div
-                    class="sc-cmTdod sc-jwKygS sc-hzNEM kQAqiO"
+                    class="sc-cmTdod sc-jwKygS sc-gpHHfC hAYiSa"
                   >
                     <form
                       action="#"
                     >
                       <label
-                        class="sc-bdVaJa sc-iBEsjs kfwCSl"
+                        class="sc-bdVaJa sc-hIVACf gQZQWY"
                         for="image"
                       >
                         Profile picture
                       </label>
                       <figure
-                        class="sc-kaNhvL buAfuj"
+                        class="sc-drMfKT gWqdXW"
                       >
                         <div>
                           <img
@@ -265,7 +265,7 @@ Object {
                         </div>
                       </div>
                       <div
-                        class="sc-dqBHgY sc-chbbiW klYFDQ"
+                        class="sc-dqBHgY sc-gVyKpa gAOsjc"
                       >
                         <a
                           href="/dashboard"
@@ -279,7 +279,7 @@ Object {
                           </button>
                         </a>
                         <button
-                          class="sc-iwsKbI hdHLkz sc-kxynE jPdRnH"
+                          class="sc-iwsKbI hdHLkz sc-eXNvrr hdhPJH"
                           color="green"
                           type="submit"
                         >
@@ -346,14 +346,14 @@ Object {
             class="sc-jbKcbu dgYNjB"
           >
             <div
-              class="sc-frDJqD hyWiYv"
+              class="sc-frDJqD beTuwI"
             >
               <div
                 alt="Jake22"
                 class="sc-jqCOkK jOgQwK"
               />
               <div
-                class="sc-ksYbfQ kOjaOC"
+                class="sc-ksYbfQ kSIYJi"
               >
                 <p>
                   Jake Tom
@@ -382,7 +382,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-home fa-w-18 sc-gisBJw fevNjo"
+                class="svg-inline--fa fa-home fa-w-18 sc-gisBJw kaFPCE"
                 data-icon="home"
                 data-prefix="fas"
                 focusable="false"
@@ -409,7 +409,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-th-large fa-w-16 sc-gisBJw fevNjo"
+                class="svg-inline--fa fa-th-large fa-w-16 sc-gisBJw kaFPCE"
                 data-icon="th-large"
                 data-prefix="fas"
                 focusable="false"
@@ -437,7 +437,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-info-circle fa-w-16 sc-gisBJw fevNjo"
+                class="svg-inline--fa fa-info-circle fa-w-16 sc-gisBJw kaFPCE"
                 data-icon="info-circle"
                 data-prefix="fas"
                 focusable="false"
@@ -464,7 +464,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-trophy fa-w-18 sc-gisBJw fevNjo"
+                class="svg-inline--fa fa-trophy fa-w-18 sc-gisBJw kaFPCE"
                 data-icon="trophy"
                 data-prefix="fas"
                 focusable="false"
@@ -484,7 +484,7 @@ Object {
           </div>
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gisBJw fevNjo sc-cJSrbW hcEZtE"
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gisBJw fevNjo sc-cJSrbW dgKEVQ"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -541,13 +541,13 @@ Object {
         class="sc-bZQynM ghjVHi"
       >
         <div
-          class="sc-giadOv jxyQCA"
+          class="sc-kasBVs edHGPw"
         >
           <div
-            class="sc-fONwsr hfMLuA"
+            class="sc-hgHYgh eqIdFm"
           >
             <div
-              class="sc-VJcYb iktCOx"
+              class="sc-eInJlc fYgYKa"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -555,41 +555,41 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-ipXKqB ggkuHm"
+                class="sc-gtfDJT elcnWq"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-hmXxxW casjpL"
+            class="sc-fOICqy biYruA"
           >
             <h1
-              class="sc-cqCuEk lhwwFD"
+              class="sc-hzDEsm fmKzjM"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-dliRfk dSLMMH"
+              class="sc-jeCdPy elAeIH"
             >
               <div
-                class="sc-kLIISr cXQdJO"
+                class="sc-jtRlXQ cBNxLt"
               />
               <div
-                class="sc-kLIISr cXQdJO"
+                class="sc-jtRlXQ cBNxLt"
               />
               <div
-                class="sc-kLIISr cXQdJO"
+                class="sc-jtRlXQ cBNxLt"
               />
               <div
-                class="sc-kLIISr cXQdJO"
+                class="sc-jtRlXQ cBNxLt"
               />
               <div
-                class="sc-kLIISr cXQdJO"
+                class="sc-jtRlXQ cBNxLt"
               />
               <div
-                class="sc-kLIISr cXQdJO"
+                class="sc-jtRlXQ cBNxLt"
               />
             </div>
           </div>
@@ -628,7 +628,7 @@ Object {
             class="sc-fAjcbJ eczLSz"
           >
             <div
-              class="sc-bwzfXH ihQUfF sc-LKuAh cUFMqv"
+              class="sc-bwzfXH ihQUfF sc-fgfRvd ciYDpc"
             >
               <div
                 class="sc-jtRfpW fiPPEF"
@@ -643,19 +643,19 @@ Object {
                 class="sc-dqBHgY fghFCM"
               >
                 <div
-                  class="sc-cmTdod sc-jwKygS sc-hzNEM kQAqiO"
+                  class="sc-cmTdod sc-jwKygS sc-gpHHfC hAYiSa"
                 >
                   <form
                     action="#"
                   >
                     <label
-                      class="sc-bdVaJa sc-iBEsjs kfwCSl"
+                      class="sc-bdVaJa sc-hIVACf gQZQWY"
                       for="image"
                     >
                       Profile picture
                     </label>
                     <figure
-                      class="sc-kaNhvL buAfuj"
+                      class="sc-drMfKT gWqdXW"
                     >
                       <div>
                         <img
@@ -765,7 +765,7 @@ Object {
                       </div>
                     </div>
                     <div
-                      class="sc-dqBHgY sc-chbbiW klYFDQ"
+                      class="sc-dqBHgY sc-gVyKpa gAOsjc"
                     >
                       <a
                         href="/dashboard"
@@ -779,7 +779,7 @@ Object {
                         </button>
                       </a>
                       <button
-                        class="sc-iwsKbI hdHLkz sc-kxynE jPdRnH"
+                        class="sc-iwsKbI hdHLkz sc-eXNvrr hdhPJH"
                         color="green"
                         type="submit"
                       >
@@ -846,14 +846,14 @@ Object {
           class="sc-jbKcbu dgYNjB"
         >
           <div
-            class="sc-frDJqD hyWiYv"
+            class="sc-frDJqD beTuwI"
           >
             <div
               alt="Jake22"
               class="sc-jqCOkK jOgQwK"
             />
             <div
-              class="sc-ksYbfQ kOjaOC"
+              class="sc-ksYbfQ kSIYJi"
             >
               <p>
                 Jake Tom
@@ -882,7 +882,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-home fa-w-18 sc-gisBJw fevNjo"
+              class="svg-inline--fa fa-home fa-w-18 sc-gisBJw kaFPCE"
               data-icon="home"
               data-prefix="fas"
               focusable="false"
@@ -909,7 +909,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-th-large fa-w-16 sc-gisBJw fevNjo"
+              class="svg-inline--fa fa-th-large fa-w-16 sc-gisBJw kaFPCE"
               data-icon="th-large"
               data-prefix="fas"
               focusable="false"
@@ -937,7 +937,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-info-circle fa-w-16 sc-gisBJw fevNjo"
+              class="svg-inline--fa fa-info-circle fa-w-16 sc-gisBJw kaFPCE"
               data-icon="info-circle"
               data-prefix="fas"
               focusable="false"
@@ -964,7 +964,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-trophy fa-w-18 sc-gisBJw fevNjo"
+              class="svg-inline--fa fa-trophy fa-w-18 sc-gisBJw kaFPCE"
               data-icon="trophy"
               data-prefix="fas"
               focusable="false"
@@ -984,7 +984,7 @@ Object {
         </div>
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gisBJw fevNjo sc-cJSrbW hcEZtE"
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gisBJw fevNjo sc-cJSrbW dgKEVQ"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"
