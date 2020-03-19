@@ -12,7 +12,7 @@ import {
   EventImageContainer,
   EventImg
 } from "../../assets/styles/templates/HackathonSingleStyling";
-import { H2, H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { H2 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';

@@ -84,16 +84,16 @@ const HackathonForm = ({ initialState }) => {
     end_date: Yup.string().required("End date is required."),
     event_description: Yup.string()
       .min(50, "Description must be at least 50 characters long.")
-      .max(500, "Description cannot be more than 500 characters long.")
+      .max(3000, "Description cannot be more than 3000 characters long.")
       .required("Description is required."),
     location: Yup.string()
       .matches(/\b.*[a-zA-Z]+.*\b/, "Location cannot be just a number.")
       .min(5, "Location must be at least 5 characters long.")
-      .max(20, "Location cannot be more than 20 characters long.")
+      .max(50, "Location cannot be more than 50 characters long.")
       .required("Location is required."),
     guidelines: Yup.string()
       .min(50, "Guidelines must be at least 50 characters long.")
-      .max(300, "Guidelines cannot be more than 300 characters long.")
+      .max(800, "Guidelines cannot be more than 800 characters long.")
       .required("Guidelines are required."),
     participation_type: Yup.string().required(
       "Participation type is required."
