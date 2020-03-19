@@ -1,12 +1,16 @@
 import React from 'react';
 
 import {
+    SpanContent,
     TagsCardWide,
     TagCard,
     UserContainer,
     Image,
-    PHosted
+    PHosted,
+    ButtonsDashGroup
 } from "../../assets/styles/templates/HackathonSingleStyling";
+import { NormalSpan } from "../../assets/styles/atoms/SpanStyling";
+import Button from "../atoms/Button";
 import userImg from "../../assets/images/user_icon.svg";
 
 const HSTagsCard = ({

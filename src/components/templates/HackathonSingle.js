@@ -3,28 +3,19 @@ import { useParams, useHistory, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import {
-  SpanContent,
   PTags,
   TitleContainer,
-  ButtonsDashGroup,
   TagsGroup,
   ModalBody,
   StyledEventCard,
   EventCardLeftColumn,
   EventImageContainer,
-  EventImg,
-  TagsCardWide,
-  TagCard,
-  UserContainer,
-  Image,
-  PHosted
+  EventImg
 } from "../../assets/styles/templates/HackathonSingleStyling";
-import { NormalSpan } from "../../assets/styles/atoms/SpanStyling";
 import { H2, H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';
-import Button from "../atoms/Button";
 import Icon from "../atoms/IconN";
 import EventJudges from '../organisms/EventJudges';
 import HSTagsCard from '../organisms/HSTagsCard';
@@ -35,7 +26,6 @@ import HackathonProjectsPage from "../views/HackathonProjectsPage";
 import ParticipantSubmissionPage from "../views/ParticipantSubmissionPage";
 import AddTeammates from "../templates/AddTeammates";
 import CreateTeam from "../templates/CreateTeam";
-import userImg from "../../assets/images/user_icon.svg";
 import eventImg from "../../assets/images/event-img.jpg";
 import Spinner from "../molecules/Spinner";
 import {
