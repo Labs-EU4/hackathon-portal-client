@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik } from "formik";
 
@@ -8,7 +8,7 @@ import {
   BodyRow,
   BodyColumn,
   Form
-} from '../../assets/styles/templates/CreateTeamStyling';
+} from "../../assets/styles/templates/CreateTeamStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 // import WideBody from "../../assets/styles/atoms/WideBodyStyling";
@@ -49,61 +49,64 @@ const CreateTeam = ({ id }) => {
   const renderTeamComponent = () => {
     return (
       <StyledWideBody>
-      <BodyRow>
-        <RowHead>
-          <H3>Participant Teams</H3>
-        </RowHead>
-        <BodyColumn>
-          {!team ? (
-            <Formik
-              initialValues={{ team_name: "" }}
-              onSubmit={handleTeamSubmit}
-            >
-              {props => (
-                <Form onSubmit={props.handleSubmit}>
-                  <h4>
-                    You are creating a team for{" "}
-                    <span
-                      style={{ color: "#273F92", backgroundColor: "aliceblue" }}
-                    >
-                      {event_title}
-                    </span>
-                  </h4>
-                  <label>Team Name</label>
-                  <input
-                    type="text"
-                    onChange={props.handleChange}
-                    onBlur={props.handleBlur}
-                    value={props.values.name}
-                    name="team_name"
-                  />
-                  <Button type="submit" color="green">
-                    Submit
-                  </Button>
-                </Form>
-              )}
-            </Formik>
-          ) : (
-            <TeamView 
-              {...{ team }} 
-              {...{isAddTeamMemberOpen}}
-              {...{setIsAddTeamMemberOpen}}
-            />
-          )}
-        </BodyColumn>
-      </BodyRow>
+        <BodyRow>
+          <RowHead>
+            <H3>Participant Teams</H3>
+          </RowHead>
+          <BodyColumn>
+            {!team ? (
+              <Formik
+                initialValues={{ team_name: "" }}
+                onSubmit={handleTeamSubmit}
+              >
+                {props => (
+                  <Form onSubmit={props.handleSubmit}>
+                    <h4>
+                      You are creating a team for{" "}
+                      <span
+                        style={{
+                          color: "#273F92",
+                          backgroundColor: "aliceblue"
+                        }}
+                      >
+                        {event_title}
+                      </span>
+                    </h4>
+                    <label>Team Name</label>
+                    <input
+                      type="text"
+                      onChange={props.handleChange}
+                      onBlur={props.handleBlur}
+                      value={props.values.name}
+                      name="team_name"
+                    />
+                    <Button type="submit" color="green">
+                      Submit
+                    </Button>
+                  </Form>
+                )}
+              </Formik>
+            ) : (
+              <TeamView
+                {...{ team }}
+                {...{ isAddTeamMemberOpen }}
+                {...{ setIsAddTeamMemberOpen }}
+              />
+            )}
+          </BodyColumn>
+        </BodyRow>
       </StyledWideBody>
     );
-  }
+  };
 
   if (isAddTeamMemberOpen) {
     return (
       <AddParticipantTeam
         eventId={id}
         teamId={team.id}
-        {...{setIsAddTeamMemberOpen}}
+        {...{ setIsAddTeamMemberOpen }}
       />
-    ) 
+    );
   }
 
   return renderTeamComponent();
