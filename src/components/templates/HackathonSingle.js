@@ -225,6 +225,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                 {...{handleRegistration}}
                 {...{handleTeamRegistration}}
                 {...{userCallback}}
+                {...{emailUser}}
               />
             </StyledEventCard>
           </>

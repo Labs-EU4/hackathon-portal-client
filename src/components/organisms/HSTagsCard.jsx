@@ -9,6 +9,7 @@ import {
     PHosted,
     ButtonsDashGroup
 } from "../../assets/styles/templates/HackathonSingleStyling";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { NormalSpan } from "../../assets/styles/atoms/SpanStyling";
 import Button from "../atoms/Button";
 import userImg from "../../assets/images/user_icon.svg";
@@ -35,7 +36,8 @@ const HSTagsCard = ({
     setIsSubmissionsPageOpen,
     handleRegistration,
     handleTeamRegistration,
-    userCallback
+    userCallback,
+    emailUser
 }) => {
     // Date formatting
     const startDate = String(new Date(start_date)).split(" ");
