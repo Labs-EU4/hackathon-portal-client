@@ -9,39 +9,69 @@ Object {
         class="sc-gzVnrw cxkJFp"
       >
         <div
-          class="sc-bdVaJa sc-htoDjs igQXlz"
+
+          class="sc-bwzfXH ktSiSq"
         >
-          <button
-            class="sc-ifAKCX wrjCW sc-iwsKbI fLfrFu"
+          <a
+            class="sc-dnqmqq kjNnRX"
+            href="/"
           >
-            My hackathons
-          </button>
-          <button
-            class="sc-ifAKCX wrjCW sc-iwsKbI fLfrFu"
+            <img
+              alt="Hackton - Organise hackathons"
+              class="sc-htpNat Tzmao"
+              src="Hackton-logo.png"
+            />
+          </a>
+          <div
+            class="sc-htoDjs kHkNTR"
           >
-            Hackathon(s) you registered for
-          </button>
+            <div
+              class="sc-bZQynM RmySO"
+            >
+              <button
+                class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+                color="grey"
+                data-testid="label"
+              >
+                Log Out
+              </button>
+            </div>
+          </div>
         </div>
         <div
-          class="sc-htpNat sc-dnqmqq cMdllG"
-          spacing="space-evenly"
+          class="sc-hzDkRC cBfjrB"
         >
           <div
-            class="sc-jKJlTe htVPqB"
+            class="sc-jhAzac jxgZSd sc-tilXH dZfDvR"
+
           >
             <div
               class="sc-gPEVay jhNYHM"
             >
-              <figure
-                class="sc-eNQAEJ fUtnbh"
+
+              <h3
+                class="sc-chPdSV jQbecn"
               >
-                <img
-                  alt="EuroHack"
-                  src="event-img.jpg"
-                />
-              </figure>
+                My hackathons
+              </h3>
+              <a
+                href="/dashboard/new"
+              >
+                <button
+                  class="sc-bxivhb hwXJzM"
+                  color="green"
+                >
+                  Create New
+                </button>
+              </a>
+            </div>
+            <div
+              class="sc-jnlKLf jUEjEN"
+              spacing="start"
+            >
               <div
-                class="sc-kkGfuU crPQaN"
+                class="sc-fAjcbJ iTwPRI"
+
               >
                 <p
                   class="sc-dxgOiQ sc-hSdWYo dpinoP"
@@ -74,22 +104,97 @@ Object {
                 <div
                   class="sc-cvbbAY bPBBjr"
                 >
-                  09/10/2011
-                </div>
-                <div
-                  class="sc-iAyFgw ejBBng"
-                >
-                  <a
-                    class="sc-EHOje bXSsiU"
-                    color="primary-reverse"
-                    href="//event/1"
+
+                  <figure
+                    class="sc-caSCKo jgJXhI"
                   >
-                    More Info
-                  </a>
-                  <a
-                    class="sc-EHOje ihukUT"
-                    color="primary"
-                    href="/"
+                    <img
+                      alt="EuroHack"
+                      src="event-img.jpg"
+                    />
+                  </figure>
+                  <div
+                    class="sc-cHGsZl exkpWo"
+                  >
+                    <p
+                      class="sc-cSHVUG sc-kgAjT ejSOyx"
+
+                    >
+                      Oct
+                       
+                      09
+                       - 
+                      Aug
+                       
+                      07
+                      , 
+                      2011
+                    </p>
+                    <h4
+                      class="sc-ckVGcZ RfHZh"
+                    >
+                      EuroHack
+                    </h4>
+                    <p
+                      class="sc-cSHVUG sc-cJSrbW RdHBr"
+
+                    >
+                      Europe
+                    </p>
+                    <p
+                      class="sc-hMqMXs dZAejn"
+                    >
+                      the best event hack hack hack macbook...
+                    </p>
+                    <div
+                      class="sc-ksYbfQ hicuWV"
+                    >
+                      09/10/2011
+                    </div>
+                    <div
+                      class="sc-TOsTZ bFMJix"
+                    >
+                      <a
+                        class="sc-ifAKCX eaJBmi"
+                        color="primary-reverse"
+                        href="//event/1"
+                      >
+                        More Info
+                      </a>
+                      <a
+                        class="sc-ifAKCX iPVkur"
+                        color="primary"
+                        href="/"
+                      >
+                        Join Event
+                      </a>
+                    </div>
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo gtCLVF"
+                    data-icon="bookmark"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 384 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD cNnmeX"
+                    data-icon="star"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+
                   >
                     Join Event
                   </a>
@@ -142,7 +247,9 @@ Object {
                 />
               </figure>
               <div
-                class="sc-kkGfuU crPQaN"
+
+                class="sc-fAjcbJ iTwPRI"
+
               >
                 <p
                   class="sc-dxgOiQ sc-hSdWYo dpinoP"
@@ -175,51 +282,110 @@ Object {
                 <div
                   class="sc-cvbbAY bPBBjr"
                 >
-                  09/07/2011
-                </div>
-                <div
-                  class="sc-iAyFgw ejBBng"
-                >
-                  <a
-                    class="sc-EHOje bXSsiU"
-                    color="primary-reverse"
-                    href="//event/2"
+
+                  <figure
+                    class="sc-caSCKo jgJXhI"
                   >
-                    More Info
-                  </a>
-                  <a
-                    class="sc-EHOje ihukUT"
-                    color="primary"
-                    href="/"
+                    <img
+                      alt="World"
+                      src="event-img.jpg"
+                    />
+                  </figure>
+                  <div
+                    class="sc-cHGsZl exkpWo"
+                  >
+                    <p
+
+                      class="sc-cSHVUG sc-kgAjT ejSOyx"
+                    >
+                      Jul
+                       
+                      09
+                       - 
+                      Aug
+                       
+                      07
+                      , 
+                      2011
+                    </p>
+                    <h4
+                      class="sc-ckVGcZ RfHZh"
+                    >
+                      World
+                    </h4>
+                    <p
+
+                      class="sc-cSHVUG sc-cJSrbW RdHBr"
+                    >
+                      Asia
+                    </p>
+                    <p
+                      class="sc-hMqMXs dZAejn"
+                    >
+                      number one hacker event in the world...
+                    </p>
+                    <div
+                      class="sc-ksYbfQ hicuWV"
+                    >
+                      09/07/2011
+                    </div>
+                    <div
+                      class="sc-TOsTZ bFMJix"
+                    >
+                      <a
+                        class="sc-ifAKCX eaJBmi"
+                        color="primary-reverse"
+                        href="//event/2"
+                      >
+                        More Info
+                      </a>
+                      <a
+                        class="sc-ifAKCX iPVkur"
+                        color="primary"
+                        href="/"
+                      >
+                        Join Event
+                      </a>
+                    </div>
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo gtCLVF"
+                    data-icon="bookmark"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 384 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD cNnmeX"
+                    data-icon="star"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+
                   >
                     Join Event
                   </a>
                 </div>
               </div>
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-bookmark fa-w-12 sc-ckVGcZ escmNK sc-jWBwVP jPUGCG"
-                data-icon="bookmark"
-                data-prefix="fas"
-                focusable="false"
-                role="img"
-                viewBox="0 0 384 512"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
-                  fill="currentColor"
-                />
-              </svg>
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-star fa-w-18 sc-ckVGcZ escmNK sc-brqgnP jPWpSQ"
-                data-icon="star"
-                data-prefix="fas"
-                focusable="false"
-                role="img"
-                viewBox="0 0 576 512"
-                xmlns="http://www.w3.org/2000/svg"
+
+            </div>
+            <div
+              class="sc-bbmXgH crvuTG"
+            >
+              <h3
+                class="sc-chPdSV jQbecn"
+
               >
                 <path
                   d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
@@ -227,6 +393,35 @@ Object {
                 />
               </svg>
             </div>
+
+            <div
+              class="sc-jnlKLf jUEjEN"
+              spacing="start"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-iwsKbI hpFEep"
+        >
+          <p
+            class="sc-jTzLTM iPDHvH"
+          >
+            International Crafters © 2020
+          </p>
+          <div>
+            <a
+              class="sc-gZMcBi sc-VigVT iPKVYu"
+              href="#"
+            >
+              Privacy
+            </a>
+            <a
+              class="sc-gZMcBi sc-VigVT iPKVYu"
+              href="#"
+            >
+              Contacts
+            </a>
+
           </div>
         </div>
       </div>
@@ -237,39 +432,69 @@ Object {
       class="sc-gzVnrw cxkJFp"
     >
       <div
-        class="sc-bdVaJa sc-htoDjs igQXlz"
+
+        class="sc-bwzfXH ktSiSq"
       >
-        <button
-          class="sc-ifAKCX wrjCW sc-iwsKbI fLfrFu"
+        <a
+          class="sc-dnqmqq kjNnRX"
+          href="/"
         >
-          My hackathons
-        </button>
-        <button
-          class="sc-ifAKCX wrjCW sc-iwsKbI fLfrFu"
+          <img
+            alt="Hackton - Organise hackathons"
+            class="sc-htpNat Tzmao"
+            src="Hackton-logo.png"
+          />
+        </a>
+        <div
+          class="sc-htoDjs kHkNTR"
         >
-          Hackathon(s) you registered for
-        </button>
+          <div
+            class="sc-bZQynM RmySO"
+          >
+            <button
+              class="sc-bxivhb bYbCIa sc-gzVnrw VwObF"
+              color="grey"
+              data-testid="label"
+            >
+              Log Out
+            </button>
+          </div>
+        </div>
       </div>
       <div
-        class="sc-htpNat sc-dnqmqq cMdllG"
-        spacing="space-evenly"
+        class="sc-hzDkRC cBfjrB"
       >
         <div
-          class="sc-jKJlTe htVPqB"
+          class="sc-jhAzac jxgZSd sc-tilXH dZfDvR"
+
         >
           <div
             class="sc-gPEVay jhNYHM"
           >
-            <figure
-              class="sc-eNQAEJ fUtnbh"
+
+            <h3
+              class="sc-chPdSV jQbecn"
             >
-              <img
-                alt="EuroHack"
-                src="event-img.jpg"
-              />
-            </figure>
+              My hackathons
+            </h3>
+            <a
+              href="/dashboard/new"
+            >
+              <button
+                class="sc-bxivhb hwXJzM"
+                color="green"
+              >
+                Create New
+              </button>
+            </a>
+          </div>
+          <div
+            class="sc-jnlKLf jUEjEN"
+            spacing="start"
+          >
             <div
-              class="sc-kkGfuU crPQaN"
+              class="sc-fAjcbJ iTwPRI"
+
             >
               <p
                 class="sc-dxgOiQ sc-hSdWYo dpinoP"
@@ -302,22 +527,95 @@ Object {
               <div
                 class="sc-cvbbAY bPBBjr"
               >
-                09/10/2011
-              </div>
-              <div
-                class="sc-iAyFgw ejBBng"
-              >
-                <a
-                  class="sc-EHOje bXSsiU"
-                  color="primary-reverse"
-                  href="//event/1"
+
+                <figure
+                  class="sc-caSCKo jgJXhI"
                 >
-                  More Info
-                </a>
-                <a
-                  class="sc-EHOje ihukUT"
-                  color="primary"
-                  href="/"
+                  <img
+                    alt="EuroHack"
+                    src="event-img.jpg"
+                  />
+                </figure>
+                <div
+                  class="sc-cHGsZl exkpWo"
+                >
+                  <p
+                    class="sc-cSHVUG sc-kgAjT ejSOyx"
+                  >
+                    Oct
+                     
+                    09
+                     - 
+                    Aug
+                     
+                    07
+                    , 
+                    2011
+                  </p>
+                  <h4
+                    class="sc-ckVGcZ RfHZh"
+                  >
+                    EuroHack
+                  </h4>
+                  <p
+                    class="sc-cSHVUG sc-cJSrbW RdHBr"
+                  >
+                    Europe
+                  </p>
+                  <p
+                    class="sc-hMqMXs dZAejn"
+                  >
+                    the best event hack hack hack macbook...
+                  </p>
+                  <div
+                    class="sc-ksYbfQ hicuWV"
+                  >
+                    09/10/2011
+                  </div>
+                  <div
+                    class="sc-TOsTZ bFMJix"
+                  >
+                    <a
+                      class="sc-ifAKCX eaJBmi"
+                      color="primary-reverse"
+                      href="//event/1"
+                    >
+                      More Info
+                    </a>
+                    <a
+                      class="sc-ifAKCX iPVkur"
+                      color="primary"
+                      href="/"
+                    >
+                      Join Event
+                    </a>
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo gtCLVF"
+                  data-icon="bookmark"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD cNnmeX"
+                  data-icon="star"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+
                 >
                   Join Event
                 </a>
@@ -370,7 +668,9 @@ Object {
               />
             </figure>
             <div
-              class="sc-kkGfuU crPQaN"
+
+              class="sc-fAjcbJ iTwPRI"
+
             >
               <p
                 class="sc-dxgOiQ sc-hSdWYo dpinoP"
@@ -403,51 +703,109 @@ Object {
               <div
                 class="sc-cvbbAY bPBBjr"
               >
-                09/07/2011
-              </div>
-              <div
-                class="sc-iAyFgw ejBBng"
-              >
-                <a
-                  class="sc-EHOje bXSsiU"
-                  color="primary-reverse"
-                  href="//event/2"
+
+                <figure
+                  class="sc-caSCKo jgJXhI"
                 >
-                  More Info
-                </a>
-                <a
-                  class="sc-EHOje ihukUT"
-                  color="primary"
-                  href="/"
+                  <img
+                    alt="World"
+                    src="event-img.jpg"
+                  />
+                </figure>
+                <div
+                  class="sc-cHGsZl exkpWo"
+                >
+                  <p
+                    class="sc-cSHVUG sc-kgAjT ejSOyx"
+                  >
+                    Jul
+                     
+                    09
+                     - 
+                    Aug
+                     
+                    07
+                    , 
+                    2011
+                  </p>
+                  <h4
+                    class="sc-ckVGcZ RfHZh"
+                  >
+                    World
+                  </h4>
+                  <p
+                    class="sc-cSHVUG sc-cJSrbW RdHBr"
+
+                  >
+                    Asia
+                  </p>
+                  <p
+                    class="sc-hMqMXs dZAejn"
+                  >
+                    number one hacker event in the world...
+                  </p>
+                  <div
+                    class="sc-ksYbfQ hicuWV"
+                  >
+                    09/07/2011
+                  </div>
+                  <div
+                    class="sc-TOsTZ bFMJix"
+                  >
+                    <a
+                      class="sc-ifAKCX eaJBmi"
+                      color="primary-reverse"
+                      href="//event/2"
+                    >
+                      More Info
+                    </a>
+                    <a
+                      class="sc-ifAKCX iPVkur"
+                      color="primary"
+                      href="/"
+                    >
+                      Join Event
+                    </a>
+                  </div>
+                </div>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-bookmark fa-w-12 sc-eqIVtm iTGxtw sc-hmzhuo gtCLVF"
+                  data-icon="bookmark"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 384 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-star fa-w-18 sc-eqIVtm iTGxtw sc-frDJqD cNnmeX"
+                  data-icon="star"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+
                 >
                   Join Event
                 </a>
               </div>
             </div>
-            <svg
-              aria-hidden="true"
-              class="svg-inline--fa fa-bookmark fa-w-12 sc-ckVGcZ escmNK sc-jWBwVP jPUGCG"
-              data-icon="bookmark"
-              data-prefix="fas"
-              focusable="false"
-              role="img"
-              viewBox="0 0 384 512"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0 512V48C0 21.49 21.49 0 48 0h288c26.51 0 48 21.49 48 48v464L192 400 0 512z"
-                fill="currentColor"
-              />
-            </svg>
-            <svg
-              aria-hidden="true"
-              class="svg-inline--fa fa-star fa-w-18 sc-ckVGcZ escmNK sc-brqgnP jPWpSQ"
-              data-icon="star"
-              data-prefix="fas"
-              focusable="false"
-              role="img"
-              viewBox="0 0 576 512"
-              xmlns="http://www.w3.org/2000/svg"
+
+          </div>
+          <div
+            class="sc-bbmXgH crvuTG"
+          >
+            <h3
+              class="sc-chPdSV jQbecn"
+
             >
               <path
                 d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
@@ -455,6 +813,35 @@ Object {
               />
             </svg>
           </div>
+
+          <div
+            class="sc-jnlKLf jUEjEN"
+            spacing="start"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-iwsKbI hpFEep"
+      >
+        <p
+          class="sc-jTzLTM iPDHvH"
+        >
+          International Crafters © 2020
+        </p>
+        <div>
+          <a
+            class="sc-gZMcBi sc-VigVT iPKVYu"
+            href="#"
+          >
+            Privacy
+          </a>
+          <a
+            class="sc-gZMcBi sc-VigVT iPKVYu"
+            href="#"
+          >
+            Contacts
+          </a>
+
         </div>
       </div>
     </div>

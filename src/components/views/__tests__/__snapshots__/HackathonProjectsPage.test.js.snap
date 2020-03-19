@@ -5,43 +5,38 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="sc-kGXeez eOiaIa"
+      >
         <div
-          class="sc-eHgmQL dHuwkf"
+
+          class="sc-EHOje sc-bZQynM sc-kpOJdX cHbMlE"
         >
-          <a
-            class="sc-iRbamj bjIJZa"
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-cvbbAY gpsLVr"
-              src="Hackton-logo.png"
-            />
-          </a>
           <div
-            class="sc-gPEVay cMUoGB"
+            class="sc-cMljjf lfuHbb"
           >
-            <div
-              class="sc-jAaTju iWsoKX"
+            <h3
+              class="sc-jWBwVP hsvWlN"
             >
-              <button
-                class="sc-jWBwVP jbHuyu sc-jDwBTQ jSHWuW"
-                color="grey"
-                data-testid="label"
+              Submitted projects for 
+              <strong
+                class="sc-kEYyzF bLxoCc"
+
               >
-                Log Out
-              </button>
-            </div>
+                "
+                World
+                "
+              </strong>
+            </h3>
           </div>
-        </div>
-        <div
-          class="sc-hEsumM fOPBdj"
-        >
+
+
           <div
-            class="sc-bdVaJa iPqVLp sc-VigVT kLsUCd"
+            class="sc-gqjmRU gdlAwH"
+            spacing="center"
           >
             <div
+
               class="sc-cIShpX fUXHLn"
             >
               <h3
@@ -59,280 +54,193 @@ Object {
             </div>
             <div
               class="sc-feJyhm HBNTF"
+=======
+              aria-busy="true"
+              class=""
+
             >
-              <div
-                class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
+              <svg
+                aria-label="audio-loading"
+                height="100"
+                stroke="#2559a1"
+                viewBox="0 0 44 44"
+                width="100"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <div
-                  class="sc-gqjmRU gdlAwH"
-                  spacing="center"
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                  stroke-width="2"
                 >
-                  <div
-                    aria-busy="true"
-                    class=""
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="1"
                   >
-                    <svg
-                      aria-label="audio-loading"
-                      height="100"
-                      stroke="#2559a1"
-                      viewBox="0 0 44 44"
-                      width="100"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g
-                        fill="none"
-                        fill-rule="evenodd"
-                        stroke-width="2"
-                      >
-                        <circle
-                          cx="22"
-                          cy="22"
-                          r="1"
-                        >
-                          <animate
-                            attributeName="r"
-                            begin="0s"
-                            calcMode="spline"
-                            dur="1.8s"
-                            keySplines="0.165, 0.84, 0.44, 1"
-                            keyTimes="0; 1"
-                            repeatCount="indefinite"
-                            values="1; 20"
-                          />
-                          <animate
-                            attributeName="strokeOpacity"
-                            begin="0s"
-                            calcMode="spline"
-                            dur="1.8s"
-                            keySplines="0.3, 0.61, 0.355, 1"
-                            keyTimes="0; 1"
-                            repeatCount="indefinite"
-                            values="1; 0"
-                          />
-                        </circle>
-                        <circle
-                          cx="22"
-                          cy="22"
-                          r="1"
-                        >
-                          <animate
-                            attributeName="r"
-                            begin="-0.9s"
-                            calcMode="spline"
-                            dur="1.8s"
-                            keySplines="0.165, 0.84, 0.44, 1"
-                            keyTimes="0; 1"
-                            repeatCount="indefinite"
-                            values="1; 20"
-                          />
-                          <animate
-                            attributeName="strokeOpacity"
-                            begin="-0.9s"
-                            calcMode="spline"
-                            dur="1.8s"
-                            keySplines="0.3, 0.61, 0.355, 1"
-                            keyTimes="0; 1"
-                            repeatCount="indefinite"
-                            values="1; 0"
-                          />
-                        </circle>
-                      </g>
-                    </svg>
-                  </div>
-                </div>
-              </div>
+                    <animate
+                      attributeName="r"
+                      begin="0s"
+                      calcMode="spline"
+                      dur="1.8s"
+                      keySplines="0.165, 0.84, 0.44, 1"
+                      keyTimes="0; 1"
+                      repeatCount="indefinite"
+                      values="1; 20"
+                    />
+                    <animate
+                      attributeName="strokeOpacity"
+                      begin="0s"
+                      calcMode="spline"
+                      dur="1.8s"
+                      keySplines="0.3, 0.61, 0.355, 1"
+                      keyTimes="0; 1"
+                      repeatCount="indefinite"
+                      values="1; 0"
+                    />
+                  </circle>
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="1"
+                  >
+                    <animate
+                      attributeName="r"
+                      begin="-0.9s"
+                      calcMode="spline"
+                      dur="1.8s"
+                      keySplines="0.165, 0.84, 0.44, 1"
+                      keyTimes="0; 1"
+                      repeatCount="indefinite"
+                      values="1; 20"
+                    />
+                    <animate
+                      attributeName="strokeOpacity"
+                      begin="-0.9s"
+                      calcMode="spline"
+                      dur="1.8s"
+                      keySplines="0.3, 0.61, 0.355, 1"
+                      keyTimes="0; 1"
+                      repeatCount="indefinite"
+                      values="1; 0"
+                    />
+                  </circle>
+                </g>
+              </svg>
             </div>
           </div>
         </div>
-        <div
-          class="sc-jlyJG hvMCCy"
-        >
-          <p
-            class="sc-bRBYWo eBDXzw"
-          >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-gipzik sc-Rmtcm cjQWqq"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-gipzik sc-Rmtcm cjQWqq"
-              href="#"
-            >
-              Contacts
-            </a>
-          </div>
-        </div>
+
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="sc-kGXeez eOiaIa"
+    >
       <div
-        class="sc-eHgmQL dHuwkf"
+
+        class="sc-EHOje sc-bZQynM sc-kpOJdX cHbMlE"
       >
-        <a
-          class="sc-iRbamj bjIJZa"
-          href="/"
-        >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-cvbbAY gpsLVr"
-            src="Hackton-logo.png"
-          />
-        </a>
         <div
-          class="sc-gPEVay cMUoGB"
+          class="sc-cMljjf lfuHbb"
         >
-          <div
-            class="sc-jAaTju iWsoKX"
+          <h3
+            class="sc-jWBwVP hsvWlN"
           >
-            <button
-              class="sc-jWBwVP jbHuyu sc-jDwBTQ jSHWuW"
-              color="grey"
-              data-testid="label"
+            Submitted projects for 
+            <strong
+              class="sc-kEYyzF bLxoCc"
+
             >
-              Log Out
-            </button>
-          </div>
+              "
+              World
+              "
+            </strong>
+          </h3>
         </div>
-      </div>
-      <div
-        class="sc-hEsumM fOPBdj"
-      >
+
         <div
-          class="sc-bdVaJa iPqVLp sc-VigVT kLsUCd"
+          class="sc-gqjmRU gdlAwH"
+          spacing="center"
         >
           <div
-            class="sc-cIShpX fUXHLn"
+
+            aria-busy="true"
+            class=""
+
           >
-            <h3
-              class="sc-dVhcbM dDbvOb"
+            <svg
+              aria-label="audio-loading"
+              height="100"
+              stroke="#2559a1"
+              viewBox="0 0 44 44"
+              width="100"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Submitted projects for 
-              <strong
-                class="sc-jzJRlG irjRNl"
+              <g
+                fill="none"
+                fill-rule="evenodd"
+                stroke-width="2"
               >
-                "
-                World
-                "
-              </strong>
-            </h3>
-          </div>
-          <div
-            class="sc-feJyhm HBNTF"
-          >
-            <div
-              class="sc-htpNat sc-bxivhb sc-jTzLTM bLoYWy"
-            >
-              <div
-                class="sc-gqjmRU gdlAwH"
-                spacing="center"
-              >
-                <div
-                  aria-busy="true"
-                  class=""
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="1"
                 >
-                  <svg
-                    aria-label="audio-loading"
-                    height="100"
-                    stroke="#2559a1"
-                    viewBox="0 0 44 44"
-                    width="100"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g
-                      fill="none"
-                      fill-rule="evenodd"
-                      stroke-width="2"
-                    >
-                      <circle
-                        cx="22"
-                        cy="22"
-                        r="1"
-                      >
-                        <animate
-                          attributeName="r"
-                          begin="0s"
-                          calcMode="spline"
-                          dur="1.8s"
-                          keySplines="0.165, 0.84, 0.44, 1"
-                          keyTimes="0; 1"
-                          repeatCount="indefinite"
-                          values="1; 20"
-                        />
-                        <animate
-                          attributeName="strokeOpacity"
-                          begin="0s"
-                          calcMode="spline"
-                          dur="1.8s"
-                          keySplines="0.3, 0.61, 0.355, 1"
-                          keyTimes="0; 1"
-                          repeatCount="indefinite"
-                          values="1; 0"
-                        />
-                      </circle>
-                      <circle
-                        cx="22"
-                        cy="22"
-                        r="1"
-                      >
-                        <animate
-                          attributeName="r"
-                          begin="-0.9s"
-                          calcMode="spline"
-                          dur="1.8s"
-                          keySplines="0.165, 0.84, 0.44, 1"
-                          keyTimes="0; 1"
-                          repeatCount="indefinite"
-                          values="1; 20"
-                        />
-                        <animate
-                          attributeName="strokeOpacity"
-                          begin="-0.9s"
-                          calcMode="spline"
-                          dur="1.8s"
-                          keySplines="0.3, 0.61, 0.355, 1"
-                          keyTimes="0; 1"
-                          repeatCount="indefinite"
-                          values="1; 0"
-                        />
-                      </circle>
-                    </g>
-                  </svg>
-                </div>
-              </div>
-            </div>
+                  <animate
+                    attributeName="r"
+                    begin="0s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.165, 0.84, 0.44, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 20"
+                  />
+                  <animate
+                    attributeName="strokeOpacity"
+                    begin="0s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.3, 0.61, 0.355, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 0"
+                  />
+                </circle>
+                <circle
+                  cx="22"
+                  cy="22"
+                  r="1"
+                >
+                  <animate
+                    attributeName="r"
+                    begin="-0.9s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.165, 0.84, 0.44, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 20"
+                  />
+                  <animate
+                    attributeName="strokeOpacity"
+                    begin="-0.9s"
+                    calcMode="spline"
+                    dur="1.8s"
+                    keySplines="0.3, 0.61, 0.355, 1"
+                    keyTimes="0; 1"
+                    repeatCount="indefinite"
+                    values="1; 0"
+                  />
+                </circle>
+              </g>
+            </svg>
           </div>
         </div>
       </div>
-      <div
-        class="sc-jlyJG hvMCCy"
-      >
-        <p
-          class="sc-bRBYWo eBDXzw"
-        >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-gipzik sc-Rmtcm cjQWqq"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-gipzik sc-Rmtcm cjQWqq"
-            href="#"
-          >
-            Contacts
-          </a>
-        </div>
-      </div>
+
+
     </div>
   </div>,
   "debug": [Function],

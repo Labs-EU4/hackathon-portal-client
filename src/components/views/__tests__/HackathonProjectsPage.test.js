@@ -49,13 +49,10 @@ describe("Component HackathonProjectsPage.js renders properly", () => {
   it("asserts that the component renders properly", () => {
     expect(component).toMatchSnapshot();
   });
-
+  it("asserts the text node stating the subheading Submitted Projects is rendering", () => {
+    expect(component.queryByText(/Submitted projects/i)).toBeInTheDocument();
+  });
   it("asserts that the Title of the event text node renders properly ", () => {
     expect(component.queryByText(/World/i)).toBeInTheDocument();
-  });
-  it("asserts the text copyright text node is rendering", () => {
-    expect(
-      component.getByText("International Crafters © 2020")
-    ).toBeInTheDocument();
   });
 });

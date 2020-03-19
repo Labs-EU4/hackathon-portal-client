@@ -14,7 +14,7 @@ import {
   StyledButtonN
 } from "../../assets/styles/organisms/NavStyling";
 import { ProfileImg } from "../atoms/ProfileImg";
-import Icon from "../atoms/IconN";
+import Icon from "../atoms/Icon";
 
 const items = [
   {
@@ -68,8 +68,8 @@ const Nav = ({
               />
             </>
           ) : (
-              <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
-            )}
+            <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
+          )}
           {!isSideBarOpen && (
             <UserInfoContentN>
               <p>{fullname}</p>

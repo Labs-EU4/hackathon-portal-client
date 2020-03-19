@@ -1,7 +1,7 @@
 import { type, Solid, media } from "../variables/index";
 import { BodyContainer, BodyContainerN } from "../atoms/BodyContainerStyling";
 import { CardWideN } from "../atoms/Card";
-import Icon from "../../../components/atoms/IconN";
+import Icon from "../../../components/atoms/Icon";
 import styled from "styled-components";
 import React from "react";
 
@@ -254,7 +254,9 @@ export const ChosenJudgeImgN = styled.img`
 `;
 
 export const StyledSearchIconN = styled(Icon)`
-  position: absolute; top: 10px; left: calc(100% - 30px);
+  position: absolute;
+  top: 10px;
+  left: calc(100% - 30px);
   transform: rotate(90deg);
   cursor: pointer;
   &:hover {
