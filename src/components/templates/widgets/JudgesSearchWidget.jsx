@@ -9,6 +9,7 @@ import {
     StyledSearchIcon
 } from "../../../assets/styles/templates/AddTeammatesStyling";
 import isEmail from "validator/lib/isEmail";
+import { useSearchUserByEmail } from "../../../hooks";
 
 export const JudgesSearchWidget = props => {
     const { 
