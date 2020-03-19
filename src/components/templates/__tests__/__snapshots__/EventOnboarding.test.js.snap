@@ -1,73 +1,81 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component SocialMedia.js renders properly asserts that the component renders properly 1`] = `
+exports[`Shows all the text nodes on EventOnboarding.js renders without crashing  1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-bwzfXH bnRCBH"
+        class="sc-bdVaJa diSTBv"
       >
-        <span
-          class="sc-bZQynM sc-dnqmqq jUgGXv"
-        >
-          OR LOGIN WITH
-        </span>
         <div
-          class="sc-bdVaJa gsuEvB"
+          class="sc-htpNat erYKYo"
+          id="open"
         >
-          <a
-            href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"
-            rel="me"
-            title="github"
+          <div
+            class="sc-bxivhb jOWNEn"
           >
-            <i
-              class="fab fa-github"
+            <div
+              class="sc-ifAKCX iGnmmM"
             />
-          </a>
-          <a
-            href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/google"
-            rel="me"
-            title="google"
+          </div>
+        </div>
+        <div
+          class="sc-bZQynM sc-jzJRlG hDnVGH"
+        >
+          <h2
+            class="sc-EHOje jqCHSG"
           >
-            <i
-              class="fab fa-google"
-            />
-          </a>
+            Global Hackathons
+          </h2>
+        </div>
+        <div
+          class="sc-bwzfXH cyqWVI"
+          spacing="start"
+        >
+          <h4
+            class="sc-gZMcBi sc-kgoBCf ftuyOr"
+          >
+            There are no hackathons yet available
+          </h4>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bwzfXH bnRCBH"
+      class="sc-bdVaJa diSTBv"
     >
-      <span
-        class="sc-bZQynM sc-dnqmqq jUgGXv"
-      >
-        OR LOGIN WITH
-      </span>
       <div
-        class="sc-bdVaJa gsuEvB"
+        class="sc-htpNat erYKYo"
+        id="open"
       >
-        <a
-          href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"
-          rel="me"
-          title="github"
+        <div
+          class="sc-bxivhb jOWNEn"
         >
-          <i
-            class="fab fa-github"
+          <div
+            class="sc-ifAKCX iGnmmM"
           />
-        </a>
-        <a
-          href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/google"
-          rel="me"
-          title="google"
+        </div>
+      </div>
+      <div
+        class="sc-bZQynM sc-jzJRlG hDnVGH"
+      >
+        <h2
+          class="sc-EHOje jqCHSG"
         >
-          <i
-            class="fab fa-google"
-          />
-        </a>
+          Global Hackathons
+        </h2>
+      </div>
+      <div
+        class="sc-bwzfXH cyqWVI"
+        spacing="start"
+      >
+        <h4
+          class="sc-gZMcBi sc-kgoBCf ftuyOr"
+        >
+          There are no hackathons yet available
+        </h4>
       </div>
     </div>
   </div>,
