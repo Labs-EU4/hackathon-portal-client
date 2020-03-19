@@ -2,9 +2,11 @@ import React, { useEffect, useRef } from "react";
 import { useHistory } from "react-router-dom";
 
 import Button from "../../atoms/Button";
+import { UserWidget } from "./UserWidget"
 import { AddTeamParticipantContainer } from "../../../assets/styles/templates/AddParticipantTeamsStyling";
 import isEmail from "validator/lib/isEmail";
 import { useSearchUserByEmail } from "../../../hooks";
+
 
 export const SearchWidget = props => {
     const { setSelectedUser, setNoneUser } = props;
