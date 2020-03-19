@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledSectionTitle = styled.h2`
+export const StyledSectionTitle = styled.h2`
   margin-right: 10px;
   padding: 8px 22px;
   border: 2px solid ${props => props.theme.color.primary.regular};
