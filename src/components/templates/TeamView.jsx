@@ -62,8 +62,10 @@ const TeamView = ({ team }) => {
               member.team_member_avatar.map((mem, index) => {
                 memberProfile = JSON.parse(mem);
                 return (
-                    // alt="team member profile pic"
-                    // src={memberProfile.avatar}
+                  <TeamMemberImg
+                    alt="team member profile pic"
+                    src={memberProfile.avatar}
+                  />
                 );
               })
             )
