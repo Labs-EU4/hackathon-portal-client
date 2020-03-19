@@ -19,6 +19,7 @@ Object {
             >
               <h3
                 class="sc-dxgOiQ djHkOE"
+                data-testid="heading"
               >
                 Add Judge
               </h3>
@@ -94,6 +95,7 @@ Object {
           >
             <h3
               class="sc-dxgOiQ djHkOE"
+              data-testid="heading"
             >
               Add Judge
             </h3>

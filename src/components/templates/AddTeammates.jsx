@@ -62,7 +62,9 @@ const AddTeammates = ({ setIsAddJudgeOpen }) => {
       <Column>
         <StyledCardWide>
           <RowHead>
-            <H3>Add Judge</H3>
+            <H3
+              data-testid="heading"
+            >Add Judge</H3>
           </RowHead>
           <JudgesSearchWidget
             {...{ selectedUsersHandler }}

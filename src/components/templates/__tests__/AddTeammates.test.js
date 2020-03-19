@@ -48,8 +48,7 @@ beforeEach(() => {
 
 describe("Shows all the text nodes on AddTeammates.js that are contained on the making an event form", () => {
   it("should be displaying the 'Add Judge' text node", () => {
-    let mainHeader = () => jestFeatures.getByText(/Add Judge/i);
-    expect(mainHeader()).toBeInTheDocument();
+    expect(jestFeatures.getByTestId("heading")).toBeInTheDocument();
   });
   it("should be displaying the 'Back' text node", () => {
     expect(jestFeatures.getByText(/Back/i)).toBeInTheDocument();
