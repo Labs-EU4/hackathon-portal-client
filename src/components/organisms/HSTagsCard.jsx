@@ -15,7 +15,6 @@ import Button from "../atoms/Button";
 import userImg from "../../assets/images/user_icon.svg";
 
 const HSTagsCard = ({
-    isSlideForm,
     isSideBarOpen,
     start_date,
     end_date,
@@ -62,10 +61,7 @@ const HSTagsCard = ({
     const registeredParticipants = participants.length;
 
     return (
-        <TagsCardWide 
-            active={isSlideForm} 
-            menuOpen={isSideBarOpen}
-        >
+        <TagsCardWide menuOpen={isSideBarOpen}>
             <TagCard>
                 <NormalSpan>Hosted by:</NormalSpan>
                 <UserContainer>
