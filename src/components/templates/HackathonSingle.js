@@ -30,6 +30,7 @@ import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';
 import Button from "../atoms/Button";
 import Icon from "../atoms/IconN";
+import EventJudges from '../organisms/EventJudges';
 import ContentTitle from "../molecules/ContentTitle";
 // import HackathonProjectsPage from '../views/HackathonProjectsPage';
 // import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
@@ -187,39 +188,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                   <EventImg src={eventImg} alt="event-image" />
                 </EventImageContainer>
                 <ContentTitle text="Judges" {...{ isSlideForm }} />
-                <JudgesContainer>
-                  {team.length === 0 ? (
-                    <Paragraph>
-                      No Judges have been selected for this event
-                    </Paragraph>
-                  ) : (
-                    team.map(member => (
-                      <JudgeCard key={member.user_id}>
-                        {member.image_url === null ? (
-                          <JudgeImg
-                            alt="team member profile pic"
-                            src={userImg}
-                          />
-                        ) : (
-                          member.image_url.map((mem, index) => {
-                            let memberProfile;
-                            memberProfile = JSON.parse(mem);
-                            return (
-                              <JudgeImg
-                                key={index}
-                                alt="team member profile pic"
-                                src={memberProfile.avatar}
-                              />
-                            );
-                          })
-                        )}
-                        <JudgeInfo>
-                          <p>{member.fullname}</p>
-                        </JudgeInfo>
-                      </JudgeCard>
-                    ))
-                  )}
-                </JudgesContainer>
+                <EventJudges
+                  {...{team}}
+                />
                 <ContentTitle text="About this event" {...{ isSlideForm }} />
                 <Paragraph>{description}</Paragraph>
                 <ContentTitle text="Guidelines" {...{ isSlideForm }} />

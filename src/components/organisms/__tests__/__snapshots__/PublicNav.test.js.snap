@@ -1,34 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component FormLayout.js renders properly asserts that the component renders properly 1`] = `
+exports[`Component PublicNav.js renders properly asserts that the component renders properly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa grTdoj"
+        class="sc-bxivhb crsnkz"
       >
-        <div
-          class="sc-bwzfXH bdtfxR"
+        <button
+          class="sc-bdVaJa fcBjIo sc-ifAKCX jNhvrd"
+          color="grey"
+          data-testid="label"
         >
-          <img
-            class="sc-bxivhb dpzLri"
-          />
-        </div>
+          Log Out
+        </button>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa grTdoj"
+      class="sc-bxivhb crsnkz"
     >
-      <div
-        class="sc-bwzfXH bdtfxR"
+      <button
+        class="sc-bdVaJa fcBjIo sc-ifAKCX jNhvrd"
+        color="grey"
+        data-testid="label"
       >
-        <img
-          class="sc-bxivhb dpzLri"
-        />
-      </div>
+        Log Out
+      </button>
     </div>
   </div>,
   "debug": [Function],

@@ -7,8 +7,12 @@ import {
     JudgeInfo
 } from '../../assets/styles/templates/HackathonSingleStyling';
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import userImg from "../../assets/images/user_icon.svg";
 
-const EventJudges = () => {
+const EventJudges = ({
+    team,
+
+}) => {
     return (
         <JudgesContainer>
             {team.length === 0 ? (
