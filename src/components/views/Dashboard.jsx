@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import UserEventsDashboard from "../templates/UserEventsDashboard";
-import HackathonSinglePage from "./HackathonSinglePage";
+// import HackathonSinglePage from "./HackathonSinglePage";
 import { fetchAllEvents } from "../../store/events/actions";
 
 const Dashboard = () => {
