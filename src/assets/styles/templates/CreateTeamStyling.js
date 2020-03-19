@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { BodyContainer } from "../atoms/BodyContainerStyling";
-import WideBody from '../atoms/WideBodyStyling';
+import { WideBody } from '../atoms/WideBodyStyling';
 
 export const StyledWideBody = styled(WideBody)`
   position: absolute; top: 0; left: 0;
