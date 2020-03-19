@@ -20,7 +20,8 @@ const HSTagsCard = ({
     participation_type,
     location,
     creator_id,
-    createdTeam,
+    isTeamLead,
+    isRegistered,
     organizer_name,
     userId,
     id,
@@ -29,7 +30,8 @@ const HSTagsCard = ({
     setIsSubmitProjectOpen,
     setIsSubmissionsPageOpen,
     handleRegistration,
-    handleTeamRegistration
+    handleTeamRegistration,
+    userCallback
 }) => {
     // Date formatting
     const startDate = String(new Date(start_date)).split(" ");
@@ -41,13 +43,10 @@ const HSTagsCard = ({
     const endMonth = endDate[1];
 
     // Event is open or closed for registration
-    const userCallback = p => p.user_id === userId;
     const today = new Date().getTime();
     const startTime = new Date(start_date).getTime();
     const endTime = new Date(end_date).getTime();
     const isOpen = today <= startTime;
-    const isTeamLead = createdTeam;
-    const isRegistered = participants.find(userCallback) || isTeamLead;
     const isEventCreator = creator_id === userId;
     const isTeamMember = team.find(userCallback) || isEventCreator;
     const isEnded = today > endTime;

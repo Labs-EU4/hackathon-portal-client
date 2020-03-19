@@ -99,6 +99,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     }
   ];
 
+  const userCallback = p => p.user_id === userId;
+  const isTeamLead = createdTeam;
+  const isRegistered = participants.find(userCallback) || isTeamLead;
   // // Date formatting
   // const startDate = String(new Date(start_date)).split(" ");
   // const startDay = startDate[2];
@@ -220,7 +223,8 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                 {...{participation_type}}
                 {...{location}}
                 {...{creator_id}}
-                {...{createdTeam}}
+                {...{isTeamLead}}
+                {...{isRegistered}}
                 {...{organizer_name}}
                 {...{userId}}
                 {...{id}}
@@ -230,6 +234,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                 {...{setIsSubmissionsPageOpen}}
                 {...{handleRegistration}}
                 {...{handleTeamRegistration}}
+                {...{userCallback}}
               />
             </StyledEventCard>
           </>
