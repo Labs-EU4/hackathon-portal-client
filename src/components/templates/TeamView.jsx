@@ -41,7 +41,7 @@ const TeamView = ({ team }) => {
         Team Members:
       </FancyBoldSpan>
       {teammates.length !== 0 ? (
-        <div
+        <DivWrapper
           style={{
             borderBottom: "1px solid lightgray",
             width: "100%",
@@ -82,7 +82,7 @@ const TeamView = ({ team }) => {
               })
             )
           )}
-        </div>
+        </DivWrapper>
       ) : (
         <FancyBoldSpan>This team has no members</FancyBoldSpan>
       )}
