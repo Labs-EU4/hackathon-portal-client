@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const TextAreaContainerN = styled.div`
+export const TextAreaContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     ${({ wide }) =>
-        wide &&
-        `
+    wide &&
+    `
     width: 100%;
     `};
     textarea {
@@ -18,11 +18,13 @@ export const TextAreaContainerN = styled.div`
     padding: 10px;
     margin: 0 0 10px 0;
     min-height: 100px;
+
     &:focus {
         transition: all 0.5s;
         box-shadow: 0 0 3px #ddd;
         outline: 0;
     }
+
     ${({ wide }) => wide && `width: 100%`};
     ${({ tall }) => tall && `min-height: 150px`};
     }
