@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Button from "../atoms/Button";
-import { AddTeamParticipantContainer } from "../../assets/styles/templates/AddParticipantTeamsStyling";
+import Button from "../../atoms/Button";
+import { AddTeamParticipantContainer } from "../../../assets/styles/templates/AddParticipantTeamsStyling";
 import isEmail from "validator/lib/isEmail";
-import { useSearchUserByEmail } from "../../hooks";
+import { useSearchUserByEmail } from "../../../hooks";
 
 export const SearchWidget = props => {
     const { setSelectedUser, setNoneUser } = props;

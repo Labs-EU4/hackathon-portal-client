@@ -7,7 +7,7 @@ import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { useSearchUserByEmail } from "../../hooks";
 
 
-const UserWidget = ({ user, select, ...otherProps }) => {
+export const UserWidget = ({ user, select, ...otherProps }) => {
   const StyledWidget = styled.div`
     margin-bottom: 10px;
     cursor: pointer;
