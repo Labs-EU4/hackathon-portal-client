@@ -22,13 +22,13 @@ let component;
 let mockStore;
 let store;
 
-jest.mock("react-router-dom", () => ({
-  ...jest.requireActual("react-router-dom"), // use actual for all non-hook parts
-  useParams: () => ({
-    id: 1
-  }),
-  useRouteMatch: () => ({ url: "/dashboard/event/:id/participant_submission" })
-}));
+// jest.mock("react-router-dom", () => ({
+//   ...jest.requireActual("react-router-dom"), // use actual for all non-hook parts
+//   useParams: () => ({
+//     id: 1
+//   }),
+//   useRouteMatch: () => ({ url: "/dashboard/event/:id/participant_submission" })
+// }));
 
 beforeEach(() => {
   mockStore = configureStore();
