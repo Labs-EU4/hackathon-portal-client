@@ -11,7 +11,7 @@ import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
 import { JudgesSearchWidget } from "./widgets/JudgesSearchWidget";
-import { TeamRoleWidget } from "./widgets/TeamRoleWidget";
+// import { TeamRoleWidget } from "./widgets/TeamRoleWidget";
 import { TeamInviteWidget } from "./widgets/TeamInviteWidget";
 
 const AddTeammates = ({ setIsAddJudgeOpen }) => {

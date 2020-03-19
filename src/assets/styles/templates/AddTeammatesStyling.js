@@ -5,9 +5,7 @@ import Icon from "../../../components/atoms/Icon";
 import styled from "styled-components";
 import React from "react";
 
-export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
-))`
+export const BodyContainerColumn = styled(BodyContainerN)`
   flex-direction: column;
   justify-content: start;
 `;
@@ -22,114 +20,7 @@ export const StyledWidget = styled.div`
   cursor: pointer;
 `;
 
-export const Container = styled.div`
-  input {
-    font-family: ${type.ROBOTO};
-    font-size: 16px;
-    font-weight: 500;
-    color: ${Solid.BLACK};
-    border: 1px solid ${Solid.BORDER_GREY};
-    border-radius: 6px;
-    padding: 10px;
-    margin: 0 20px 10px 0;
-    ${({ display }) => (display === "wide" ? `width: 100%;` : `width: 180px;`)}
-
-    &:focus {
-      transition: all 0.5s;
-      box-shadow: 0 0 3px #ddd;
-    }
-  }
-
-  @media ${media.tablet} {
-    width: 100%;
-    margin-right: 0;
-  }
-`;
-
 export const ContainerRadio = styled.label`
-  /* Customize the label (the container) */
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-
-  /* Hide the browser's default radio button */
-  input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-
-    /* When the radio button is checked, add a blue background */
-    &:checked ~ span {
-      background-color: #2196f3;
-    }
-
-    /* Show the indicator (dot/circle) when checked */
-    &:checked ~ span:after {
-      display: block;
-    }
-  }
-
-  /* Create a custom radio button */
-  span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-
-    /* Create the indicator (the dot/circle - hidden when not checked) */
-    &:after {
-      content: "";
-      position: absolute;
-      display: none;
-
-      /* Style the indicator (dot/circle) */
-      top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white;
-    }
-  }
-
-  /* On mouse-over, add a grey background color */
-  &:hover {
-    input ~ span {
-      background-color: #ccc;
-    }
-  }
-`;
-
-// --------------------------------- NEW // --------------------------------- //
-
-export const BodyContainerColumnN = styled(BodyContainerN)`
-  flex-direction: column;
-  justify-content: start;
-`;
-
-export const StyledContainerN = styled.div`
-  display: block;
-  position: relative;
-`;
-
-export const StyledWidgetN = styled.div`
-  margin-bottom: 10px;
-  cursor: pointer;
-`;
-
-export const ContainerRadioN = styled.label`
   /* Customize the label (the container) */
   display: block;
   position: relative;
@@ -189,7 +80,7 @@ export const ContainerRadioN = styled.label`
 `;
 
 //SEARCH WIDGET
-export const ContainerN = styled.div`
+export const Container = styled.div`
   position: relative;
   input {
     font-size: 1.6rem;
@@ -214,7 +105,7 @@ export const ContainerN = styled.div`
   }
 `;
 
-export const UsersListN = styled.div`
+export const UsersList = styled.div`
   ${props => props.theme.shadow.box};
   width: 100%;
   height: 48.25vh;
@@ -229,7 +120,7 @@ export const UsersListN = styled.div`
   }
 `;
 
-export const ChosenJudgesContainerN = styled.div`
+export const ChosenJudgesContainer = styled.div`
   position: relative;
   display: flex;
   align-items: center;
@@ -245,7 +136,7 @@ export const ChosenJudgesContainerN = styled.div`
   z-index: 500;
 `;
 
-export const ChosenJudgeImgN = styled.img`
+export const ChosenJudgeImg = styled.img`
   width: 33px;
   height: 33px;
   border-radius: 50%;
@@ -253,7 +144,7 @@ export const ChosenJudgeImgN = styled.img`
   object-fit: cover;
 `;
 
-export const StyledSearchIconN = styled(Icon)`
+export const StyledSearchIcon = styled(Icon)`
   position: absolute;
   top: 10px;
   left: calc(100% - 30px);
@@ -264,7 +155,7 @@ export const StyledSearchIconN = styled(Icon)`
   }
 `;
 
-export const StyledWideBodyN = styled.div`
+export const StyledWideBody = styled.div`
   position: absolute;
   top: 0;
   left: 0;
@@ -285,7 +176,7 @@ export const StyledCardWideN = styled(CardWideN)`
 `;
 
 //JUDGE WIDGET
-export const StyledJudgeWidgetN = styled.div`
+export const StyledJudgeWidget = styled.div`
   position: sticky;
   top: 0;
   left: 0;
@@ -307,7 +198,7 @@ export const StyledJudgeWidgetN = styled.div`
   }
 `;
 
-export const UserAvatarN = styled.figure`
+export const UserAvatar = styled.figure`
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -318,7 +209,7 @@ export const UserAvatarN = styled.figure`
   }
 `;
 
-export const UserInfoN = styled.div`
+export const UserInfo = styled.div`
   ${props => props.theme.flex.custom("center", "flex-start", "column")};
   margin-left: 5px;
   p {
