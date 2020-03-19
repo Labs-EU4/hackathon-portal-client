@@ -8,7 +8,7 @@ import {
   StyledButton
 } from "../../assets/styles/templates/UserEventsdashboard";
 import { H4 } from "../../assets/styles/atoms/Heading";
-import EventCard from "../molecules/EventCard";
+import EventCard from "../organisms/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 
 const UserEventsDashboard = ({ eventModalHandler }) => {
