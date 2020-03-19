@@ -60,3 +60,8 @@ export const ImgTeammates = styled.img`
 export const TeamMemberImg = styled(ImgTeammates)`
   border-radius: 5px;
 `;
+
+export const NavLinks = styled(NavLink)`
+  text-decoration: none;
+  color: white;
+`;

@@ -49,12 +49,11 @@ Object {
           </span>
         </span>
         <button
-          class="sc-kAzzGY hOCcnw"
+          class="sc-chPdSV bODydE"
           color="green"
         >
           <a
             href="/dashboard/event/1/participant-teams/1"
-            style="text-decoration: none; color: white;"
           >
             Add Teammate
           </a>
@@ -107,12 +106,11 @@ Object {
         </span>
       </span>
       <button
-        class="sc-kAzzGY hOCcnw"
+        class="sc-chPdSV bODydE"
         color="green"
       >
         <a
           href="/dashboard/event/1/participant-teams/1"
-          style="text-decoration: none; color: white;"
         >
           Add Teammate
         </a>
