@@ -1,11 +1,11 @@
 import React from "react";
 
-import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
-import { Container } from "../../../assets/styles/atoms/Container";
+import BodyContainer from "../../../assets/styles/atoms/BodyContainerStyling";
+import Container from "../../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
-import { Paragraph } from "../../../assets/styles/atoms/Paragraph";
-import { RowBody } from "../../../assets/styles/atoms/RowBody";
-import { WideBody } from "../../../assets/styles/atoms/WideBodyStyling";
+import { Paragraph } from "../../../assets/styles/atoms/ParagraphStyling";
+import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
+import WideBody from "../../../assets/styles/atoms/WideBodyStyling";
 import Button from "../../atoms/Button";
 import HeroImage from "../../atoms/HeroImage";
 import image from "../../../assets/images/Password-sent.png";
