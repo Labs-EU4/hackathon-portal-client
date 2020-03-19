@@ -43,13 +43,7 @@ const TeamView = ({ team }) => {
         Team Members:
       </FancyBoldSpan>
       {teammates.length !== 0 ? (
-        <DivWrapper
-          style={{
-            borderBottom: "1px solid lightgray",
-            width: "100%",
-            paddingBottom: "10px"
-          }}
-        >
+        <DivWrapper>
           {teammates.map((member, i) =>
             member.team_member_avatar === null ? (
               <ImgTeammates
