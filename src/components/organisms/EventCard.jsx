@@ -7,7 +7,7 @@ import {
   OrgImg,
   StyledIconLetter,
   EventCardContent,
-  EventCTAN,
+  EventCTA,
   DateParagraphN,
   LocationParagraphN,
   CardCountDownN,
