@@ -77,7 +77,7 @@ const EventCard = ({ event, eventModalHandler }) => {
           <LocationParagraphN bold>{location}</LocationParagraphN>
           <ParagraphN>{excerpt}</ParagraphN>
           <CardCountDownN>{formattedDate}</CardCountDownN>
-          <EventCTAN>
+          <EventCTA>
             <Button
               link
               color="primary-reverse"
@@ -88,7 +88,7 @@ const EventCard = ({ event, eventModalHandler }) => {
             <Button link color="primary" to={`/`}>
               Join Event
             </Button>
-          </EventCTAN>
+          </EventCTA>
         </EventCardContent>
         <StyledBookmarkIconN icon="bookmark" />
         <StyledStarIconN icon="star" />
