@@ -6,29 +6,29 @@ Object {
   "baseElement": <body>
     <div>
       <main
-        class="sc-EHOje gxePDH"
+        class="sc-bdVaJa fRCPGq"
       >
         <div
-          class="sc-gzVnrw fZfPkj"
+          class="sc-htpNat hdzygz"
         >
           <a
-            class="sc-fjdhpX bhWwPP"
+            class="sc-iwsKbI kBaOMJ"
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-htoDjs fIbBiq"
+              class="sc-bxivhb kZoQaj"
               src="Hackton-logo.png"
             />
           </a>
           <div
-            class="sc-jTzLTM ezzmDc"
+            class="sc-dnqmqq hfyiJR"
           >
             <div
-              class="sc-gqjmRU geHXiz"
+              class="sc-gzVnrw gdbxOh"
             >
               <button
-                class="sc-dnqmqq dzlkzF sc-VigVT juIfOZ"
+                class="sc-ifAKCX bXvcoh sc-htoDjs glwwDL"
                 color="grey"
                 data-testid="label"
               >
@@ -38,88 +38,88 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bZQynM ghjVHi"
+          class="sc-bwzfXH bofYRx"
         >
           <div
-            class="sc-kXeGPI dkUvVU"
+            class="sc-fOICqy jqzIlx"
           >
             <div
-              class="sc-fyjhYU cJzHHV"
+              class="sc-hzDEsm dmXRYH"
             >
               <div
-                class="sc-ugnQR eZjgDR"
+                class="sc-jeCdPy eZQYab"
               >
                 <img
                   alt="Hackton - Organise hackathons"
-                  class="sc-htoDjs fIbBiq"
+                  class="sc-bxivhb kZoQaj"
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-eIHaNI lfaqov"
+                  class="sc-jtRlXQ jnsSvg"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-eTpRJs kKaJzH"
+              class="sc-bGbJRg cJFYRF"
             >
               <h1
-                class="sc-dxZgTM gATcHn"
+                class="sc-bEjcJn eWHzTz"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-iomxrj eyPooD"
+                class="sc-ePZHVD gWncYW"
               >
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-likbZx kVGZXN"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-likbZx kVGZXN"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-likbZx kVGZXN"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-likbZx kVGZXN"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-likbZx kVGZXN"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-likbZx kVGZXN"
                 />
               </div>
             </div>
           </div>
           <div
-            class="sc-eqIVtm sc-exkUMo eVzOqP"
+            class="sc-jhAzac sc-gpHHfC hilsxr"
           >
             <form
               action="#"
             >
               <div
-                class="sc-tilXH gKnZPq"
+                class="sc-jnlKLf evuZHM"
               >
                 <h3
-                  class="sc-kafWEX fHybfI"
+                  class="sc-ktHwxA cpWaZw"
                 >
                   Edit Profile
                 </h3>
               </div>
               <div
-                class="sc-hEsumM gIUgSc"
+                class="sc-fYxtnH kYQazq"
               >
                 <label
-                  class="sc-cMhqgX eMurTB"
+                  class="sc-hXRMBi hxBXqa"
                   for="fullname"
                 >
                   Full Name
                 </label>
                 <input
-                  class="sc-csuQGl eaVGsU"
+                  class="sc-gPEVay AUNGa"
                   display="wide"
                   name="fullname"
                   placeholder="Full Name"
@@ -128,16 +128,16 @@ Object {
                 />
               </div>
               <div
-                class="sc-hEsumM gIUgSc"
+                class="sc-fYxtnH kYQazq"
               >
                 <label
-                  class="sc-cMhqgX eMurTB"
+                  class="sc-hXRMBi hxBXqa"
                   for="username"
                 >
                   Username
                 </label>
                 <input
-                  class="sc-csuQGl eaVGsU"
+                  class="sc-gPEVay AUNGa"
                   display="wide"
                   name="username"
                   placeholder="Username"
@@ -146,16 +146,16 @@ Object {
                 />
               </div>
               <div
-                class="sc-hEsumM gIUgSc"
+                class="sc-fYxtnH kYQazq"
               >
                 <label
-                  class="sc-cMhqgX eMurTB"
+                  class="sc-hXRMBi hxBXqa"
                   for="email"
                 >
                   Email
                 </label>
                 <input
-                  class="sc-csuQGl eaVGsU"
+                  class="sc-gPEVay AUNGa"
                   display="wide"
                   name="email"
                   placeholder="Email"
@@ -164,17 +164,17 @@ Object {
                 />
               </div>
               <div
-                class="sc-hEsumM gIUgSc"
+                class="sc-fYxtnH kYQazq"
               >
                 <label
-                  class="sc-cMhqgX eMurTB"
+                  class="sc-hXRMBi hxBXqa"
                   for="image"
                 >
                   Profile Image
                 </label>
                 <input
                   accept="image/*"
-                  class="sc-csuQGl eaVGsU"
+                  class="sc-gPEVay AUNGa"
                   display="wide"
                   name="image_url"
                   placeholder="Profile picture"
@@ -183,16 +183,16 @@ Object {
                 />
               </div>
               <div
-                class="sc-hEsumM gIUgSc"
+                class="sc-fYxtnH kYQazq"
               >
                 <label
-                  class="sc-cMhqgX eMurTB"
+                  class="sc-hXRMBi hxBXqa"
                   for="bio"
                 >
                   Bio
                 </label>
                 <div
-                  class="sc-cLQEGU kRpGwi"
+                  class="sc-cMhqgX khCKnD"
                 >
                   <textarea
                     name="bio"
@@ -203,10 +203,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-hEsumM sc-kcDeIU iEyEuj"
+                class="sc-fYxtnH sc-gVyKpa kXMljg"
               >
                 <button
-                  class="sc-dnqmqq gYMjDX sc-BngTV iTJtBg"
+                  class="sc-ifAKCX jRwfJG sc-eXNvrr eYsDKN"
                   color="green"
                   type="submit"
                 >
@@ -217,22 +217,22 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jzJRlG kQQUmb"
+          class="sc-gZMcBi jKbyTj"
         >
           <p
-            class="sc-kgoBCf fRTmgM"
+            class="sc-fjdhpX bjMPwO"
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-              class="sc-cSHVUG sc-chPdSV gpOjXe"
+              class="sc-gqjmRU sc-jTzLTM kFrNrp"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-cSHVUG sc-chPdSV gpOjXe"
+              class="sc-gqjmRU sc-jTzLTM kFrNrp"
               href="#"
             >
               Contacts
@@ -240,20 +240,20 @@ Object {
           </div>
         </div>
         <div
-          class="sc-ksYbfQ hiTelY"
+          class="sc-kgAjT eAKbiS"
         >
           <div
-            class="sc-hqyNC eYnzxy"
+            class="sc-frDJqD fjuJoW"
           >
             <div
-              class="sc-hmzhuo dVrDGp"
+              class="sc-cJSrbW jopJmM"
             >
               <div
                 alt="Jake22"
-                class="sc-dNLxif dydyVq"
+                class="sc-hqyNC QRFuY"
               />
               <div
-                class="sc-cJSrbW ikNNsV"
+                class="sc-TOsTZ jaAnMR"
               >
                 <p>
                   Jake Tom
@@ -266,7 +266,7 @@ Object {
           </div>
           <a
             activeclassname="current"
-            class="sc-iwsKbI lmyGKr sc-jbKcbu cKerwe"
+            class="sc-EHOje djKcqh sc-kvZOFW evllZa"
             color="primary"
             href="/event/new"
           >
@@ -277,12 +277,12 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-frDJqD dGbeuh"
+              class="sc-ksYbfQ hcazuF"
               href="/home"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-home fa-w-18 sc-caSCKo dYdAVJ"
+                class="svg-inline--fa fa-home fa-w-18 sc-eqIVtm kKNrJl"
                 data-icon="home"
                 data-prefix="fas"
                 focusable="false"
@@ -304,12 +304,12 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-frDJqD dGbeuh"
+              class="sc-ksYbfQ hcazuF"
               href="/dashboard"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-th-large fa-w-16 sc-caSCKo dYdAVJ"
+                class="svg-inline--fa fa-th-large fa-w-16 sc-eqIVtm kKNrJl"
                 data-icon="th-large"
                 data-prefix="fas"
                 focusable="false"
@@ -332,12 +332,12 @@ Object {
           >
             <a
               aria-current="page"
-              class="sc-frDJqD dGbeuh current"
+              class="sc-ksYbfQ hcazuF current"
               href="/"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-info-circle fa-w-16 sc-caSCKo dYdAVJ"
+                class="svg-inline--fa fa-info-circle fa-w-16 sc-eqIVtm kKNrJl"
                 data-icon="info-circle"
                 data-prefix="fas"
                 focusable="false"
@@ -359,12 +359,12 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-frDJqD dGbeuh"
+              class="sc-ksYbfQ hcazuF"
               href="/results"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-trophy fa-w-18 sc-caSCKo dYdAVJ"
+                class="svg-inline--fa fa-trophy fa-w-18 sc-eqIVtm kKNrJl"
                 data-icon="trophy"
                 data-prefix="fas"
                 focusable="false"
@@ -384,7 +384,7 @@ Object {
           </div>
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT fDAVmV"
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-eqIVtm kKNrJl sc-cHGsZl lfzVMA"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -406,29 +406,29 @@ Object {
   </body>,
   "container": <div>
     <main
-      class="sc-EHOje gxePDH"
+      class="sc-bdVaJa fRCPGq"
     >
       <div
-        class="sc-gzVnrw fZfPkj"
+        class="sc-htpNat hdzygz"
       >
         <a
-          class="sc-fjdhpX bhWwPP"
+          class="sc-iwsKbI kBaOMJ"
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-htoDjs fIbBiq"
+            class="sc-bxivhb kZoQaj"
             src="Hackton-logo.png"
           />
         </a>
         <div
-          class="sc-jTzLTM ezzmDc"
+          class="sc-dnqmqq hfyiJR"
         >
           <div
-            class="sc-gqjmRU geHXiz"
+            class="sc-gzVnrw gdbxOh"
           >
             <button
-              class="sc-dnqmqq dzlkzF sc-VigVT juIfOZ"
+              class="sc-ifAKCX bXvcoh sc-htoDjs glwwDL"
               color="grey"
               data-testid="label"
             >
@@ -438,88 +438,88 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bZQynM ghjVHi"
+        class="sc-bwzfXH bofYRx"
       >
         <div
-          class="sc-kXeGPI dkUvVU"
+          class="sc-fOICqy jqzIlx"
         >
           <div
-            class="sc-fyjhYU cJzHHV"
+            class="sc-hzDEsm dmXRYH"
           >
             <div
-              class="sc-ugnQR eZjgDR"
+              class="sc-jeCdPy eZQYab"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-htoDjs fIbBiq"
+                class="sc-bxivhb kZoQaj"
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-eIHaNI lfaqov"
+                class="sc-jtRlXQ jnsSvg"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-eTpRJs kKaJzH"
+            class="sc-bGbJRg cJFYRF"
           >
             <h1
-              class="sc-dxZgTM gATcHn"
+              class="sc-bEjcJn eWHzTz"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-iomxrj eyPooD"
+              class="sc-ePZHVD gWncYW"
             >
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-likbZx kVGZXN"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-likbZx kVGZXN"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-likbZx kVGZXN"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-likbZx kVGZXN"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-likbZx kVGZXN"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-likbZx kVGZXN"
               />
             </div>
           </div>
         </div>
         <div
-          class="sc-eqIVtm sc-exkUMo eVzOqP"
+          class="sc-jhAzac sc-gpHHfC hilsxr"
         >
           <form
             action="#"
           >
             <div
-              class="sc-tilXH gKnZPq"
+              class="sc-jnlKLf evuZHM"
             >
               <h3
-                class="sc-kafWEX fHybfI"
+                class="sc-ktHwxA cpWaZw"
               >
                 Edit Profile
               </h3>
             </div>
             <div
-              class="sc-hEsumM gIUgSc"
+              class="sc-fYxtnH kYQazq"
             >
               <label
-                class="sc-cMhqgX eMurTB"
+                class="sc-hXRMBi hxBXqa"
                 for="fullname"
               >
                 Full Name
               </label>
               <input
-                class="sc-csuQGl eaVGsU"
+                class="sc-gPEVay AUNGa"
                 display="wide"
                 name="fullname"
                 placeholder="Full Name"
@@ -528,16 +528,16 @@ Object {
               />
             </div>
             <div
-              class="sc-hEsumM gIUgSc"
+              class="sc-fYxtnH kYQazq"
             >
               <label
-                class="sc-cMhqgX eMurTB"
+                class="sc-hXRMBi hxBXqa"
                 for="username"
               >
                 Username
               </label>
               <input
-                class="sc-csuQGl eaVGsU"
+                class="sc-gPEVay AUNGa"
                 display="wide"
                 name="username"
                 placeholder="Username"
@@ -546,16 +546,16 @@ Object {
               />
             </div>
             <div
-              class="sc-hEsumM gIUgSc"
+              class="sc-fYxtnH kYQazq"
             >
               <label
-                class="sc-cMhqgX eMurTB"
+                class="sc-hXRMBi hxBXqa"
                 for="email"
               >
                 Email
               </label>
               <input
-                class="sc-csuQGl eaVGsU"
+                class="sc-gPEVay AUNGa"
                 display="wide"
                 name="email"
                 placeholder="Email"
@@ -564,17 +564,17 @@ Object {
               />
             </div>
             <div
-              class="sc-hEsumM gIUgSc"
+              class="sc-fYxtnH kYQazq"
             >
               <label
-                class="sc-cMhqgX eMurTB"
+                class="sc-hXRMBi hxBXqa"
                 for="image"
               >
                 Profile Image
               </label>
               <input
                 accept="image/*"
-                class="sc-csuQGl eaVGsU"
+                class="sc-gPEVay AUNGa"
                 display="wide"
                 name="image_url"
                 placeholder="Profile picture"
@@ -583,16 +583,16 @@ Object {
               />
             </div>
             <div
-              class="sc-hEsumM gIUgSc"
+              class="sc-fYxtnH kYQazq"
             >
               <label
-                class="sc-cMhqgX eMurTB"
+                class="sc-hXRMBi hxBXqa"
                 for="bio"
               >
                 Bio
               </label>
               <div
-                class="sc-cLQEGU kRpGwi"
+                class="sc-cMhqgX khCKnD"
               >
                 <textarea
                   name="bio"
@@ -603,10 +603,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-hEsumM sc-kcDeIU iEyEuj"
+              class="sc-fYxtnH sc-gVyKpa kXMljg"
             >
               <button
-                class="sc-dnqmqq gYMjDX sc-BngTV iTJtBg"
+                class="sc-ifAKCX jRwfJG sc-eXNvrr eYsDKN"
                 color="green"
                 type="submit"
               >
@@ -617,22 +617,22 @@ Object {
         </div>
       </div>
       <div
-        class="sc-jzJRlG kQQUmb"
+        class="sc-gZMcBi jKbyTj"
       >
         <p
-          class="sc-kgoBCf fRTmgM"
+          class="sc-fjdhpX bjMPwO"
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-            class="sc-cSHVUG sc-chPdSV gpOjXe"
+            class="sc-gqjmRU sc-jTzLTM kFrNrp"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-cSHVUG sc-chPdSV gpOjXe"
+            class="sc-gqjmRU sc-jTzLTM kFrNrp"
             href="#"
           >
             Contacts
@@ -640,20 +640,20 @@ Object {
         </div>
       </div>
       <div
-        class="sc-ksYbfQ hiTelY"
+        class="sc-kgAjT eAKbiS"
       >
         <div
-          class="sc-hqyNC eYnzxy"
+          class="sc-frDJqD fjuJoW"
         >
           <div
-            class="sc-hmzhuo dVrDGp"
+            class="sc-cJSrbW jopJmM"
           >
             <div
               alt="Jake22"
-              class="sc-dNLxif dydyVq"
+              class="sc-hqyNC QRFuY"
             />
             <div
-              class="sc-cJSrbW ikNNsV"
+              class="sc-TOsTZ jaAnMR"
             >
               <p>
                 Jake Tom
@@ -666,7 +666,7 @@ Object {
         </div>
         <a
           activeclassname="current"
-          class="sc-iwsKbI lmyGKr sc-jbKcbu cKerwe"
+          class="sc-EHOje djKcqh sc-kvZOFW evllZa"
           color="primary"
           href="/event/new"
         >
@@ -677,12 +677,12 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-frDJqD dGbeuh"
+            class="sc-ksYbfQ hcazuF"
             href="/home"
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-home fa-w-18 sc-caSCKo dYdAVJ"
+              class="svg-inline--fa fa-home fa-w-18 sc-eqIVtm kKNrJl"
               data-icon="home"
               data-prefix="fas"
               focusable="false"
@@ -704,12 +704,12 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-frDJqD dGbeuh"
+            class="sc-ksYbfQ hcazuF"
             href="/dashboard"
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-th-large fa-w-16 sc-caSCKo dYdAVJ"
+              class="svg-inline--fa fa-th-large fa-w-16 sc-eqIVtm kKNrJl"
               data-icon="th-large"
               data-prefix="fas"
               focusable="false"
@@ -732,12 +732,12 @@ Object {
         >
           <a
             aria-current="page"
-            class="sc-frDJqD dGbeuh current"
+            class="sc-ksYbfQ hcazuF current"
             href="/"
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-info-circle fa-w-16 sc-caSCKo dYdAVJ"
+              class="svg-inline--fa fa-info-circle fa-w-16 sc-eqIVtm kKNrJl"
               data-icon="info-circle"
               data-prefix="fas"
               focusable="false"
@@ -759,12 +759,12 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-frDJqD dGbeuh"
+            class="sc-ksYbfQ hcazuF"
             href="/results"
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-trophy fa-w-18 sc-caSCKo dYdAVJ"
+              class="svg-inline--fa fa-trophy fa-w-18 sc-eqIVtm kKNrJl"
               data-icon="trophy"
               data-prefix="fas"
               focusable="false"
@@ -784,7 +784,7 @@ Object {
         </div>
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT fDAVmV"
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-eqIVtm kKNrJl sc-cHGsZl lfzVMA"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"

@@ -90,14 +90,14 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
           <Spinner />
         ) : (
           <>
-            <StyledRowBodyN>
+            <StyledRowBody>
               {submissions.length === 0 && (
-                <StyledParagraphN strong>
+                <StyledParagraph strong>
                   No projects were submitted for this hackathon
-                </StyledParagraphN>
+                </StyledParagraph>
               )}
               {submissions.map(s => renderSubmission(s))}
-            </StyledRowBodyN>
+            </StyledRowBody>
             <Button onClick={() => setIsSubmissionsPageOpen(false)} color="grey">
               Back to event
             </Button>
