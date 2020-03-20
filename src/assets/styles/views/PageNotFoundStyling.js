@@ -1,4 +1,4 @@
-import { BodyContainer } from "../atoms/BodyContainerStyling";
+import { BodyContainerN } from "../atoms/BodyContainerStyling";
 import { H2 } from "../atoms/Heading";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
