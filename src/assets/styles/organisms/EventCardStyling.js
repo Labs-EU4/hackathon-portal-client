@@ -54,7 +54,7 @@ export const EventCardContent = styled.div`
   overflow: hidden;
 `;
 
-export const EventCTAN = styled.div`
+export const EventCTA = styled.div`
   ${props => props.theme.flex.custom("space-between", "center")};
   position: absolute;
   top: calc(100% - 50px);
