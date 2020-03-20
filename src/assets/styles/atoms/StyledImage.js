@@ -1,25 +1,22 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
+export const StyledImage = styled.figure`
+  ${props => props.theme.flex.columnCenter};
 
-
-
-export const StyledImageN = styled.figure`
-    ${props => props.theme.flex.columnCenter};
-	
-	div {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		img {
-			width: 100%;
-			border-radius: 50%;
-		}
-	}
-	p {
-        ${props => props.theme.flex.center};
-		width: 100%;
-		padding: 0.5rem;
-		font-size: 1.8rem;
-		color: ${props => props.theme.color.grey.dark};
-	}
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  p {
+    ${props => props.theme.flex.center};
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    color: ${props => props.theme.color.grey.dark};
+  }
 `;
