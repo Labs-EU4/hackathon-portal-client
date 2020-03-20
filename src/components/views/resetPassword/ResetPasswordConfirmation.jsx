@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BodyContainerN } from "../../../assets/styles/atoms/BodyContainerStyling";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
 import Container from "../../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../../assets/styles/atoms/ParagraphStyling";
