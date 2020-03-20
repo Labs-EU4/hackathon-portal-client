@@ -97,9 +97,9 @@ const ParticipantSubmission = ({
                     id="git_url"
                     display="wide"
                   />
-                  <ErrorSpanN>
+                  <ErrorSpan>
                     <ErrorMessage name="git_url" component="div" />
-                  </ErrorSpanN>
+                  </ErrorSpan>
                 </RowBody>
               )}
 
@@ -112,9 +112,9 @@ const ParticipantSubmission = ({
                     id="video_url"
                     style={{ width: "100%" }}
                   />
-                  <ErrorSpanN>
+                  <ErrorSpan>
                     <ErrorMessage name="video_url" component="div" />
-                  </ErrorSpanN>
+                  </ErrorSpan>
                 </RowBody>
               )}
               <ProjectWriteUp />
