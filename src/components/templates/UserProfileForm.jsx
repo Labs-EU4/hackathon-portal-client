@@ -44,7 +44,7 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
     fullname: Yup.string().required("fullname is required"),
     email: Yup.string().required("email is required"),
     username: Yup.string().required("username is required"),
-    bio: Yup.string()
+    bio: Yup.string().required("bio is required")
   });
 
   return (

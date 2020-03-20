@@ -79,13 +79,12 @@ const Nav = ({
         </StyledProfileImageN>
       </UserContainerN>
       <StyledButtonN
-        active={isSideBarOpen}
-        exact
+        active={isSideBarOpen.toString()}
+        exact="true"
         link
         to="/event/new"
         color="primary"
         size="wide"
-        activeClassName="current"
       >
         Create{isSideBarOpen && <br />} Event
       </StyledButtonN>
@@ -93,7 +92,7 @@ const Nav = ({
         return (
           <div key={idx} style={{ width: "100%", position: "relative" }}>
             <StyledNavLinkN
-              active={isSideBarOpen}
+              active={isSideBarOpen.toString()}
               exact
               to={url}
               key={title}
@@ -108,7 +107,7 @@ const Nav = ({
       })}
       <StyledExpandIconN
         icon="angle-double-down"
-        active={isSideBarOpen}
+        active={isSideBarOpen.toString()}
         onClick={() => setIsSideBarOpen(!isSideBarOpen)}
       />
     </StyledNavN>

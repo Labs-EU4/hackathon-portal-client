@@ -266,9 +266,10 @@ Object {
             </div>
           </div>
           <a
-            activeclassname="current"
-            class="sc-EHOje djKcqh sc-TOsTZ iyYFbz"
+            active="false"
+            class="sc-EHOje djKcqh sc-TOsTZ doQkUu"
             color="primary"
+            exact="true"
             href="/event/new"
           >
             Create
@@ -278,7 +279,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-gisBJw cCBttx"
+              active="false"
+              class="sc-gisBJw ccCHiI"
               href="/home"
             >
               <svg
@@ -305,7 +307,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-gisBJw cCBttx"
+              active="false"
+              class="sc-gisBJw ccCHiI"
               href="/dashboard"
             >
               <svg
@@ -332,8 +335,9 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
+              active="false"
               aria-current="page"
-              class="sc-gisBJw cCBttx current"
+              class="sc-gisBJw ccCHiI current"
               href="/"
             >
               <svg
@@ -360,7 +364,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-gisBJw cCBttx"
+              active="false"
+              class="sc-gisBJw ccCHiI"
               href="/results"
             >
               <svg
@@ -384,8 +389,9 @@ Object {
             </a>
           </div>
           <svg
+            active="false"
             aria-hidden="true"
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-bRBYWo dDcCyH sc-dVhcbM cmosb"
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-bRBYWo dDcCyH sc-dVhcbM ebtxfO"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -667,9 +673,10 @@ Object {
           </div>
         </div>
         <a
-          activeclassname="current"
-          class="sc-EHOje djKcqh sc-TOsTZ iyYFbz"
+          active="false"
+          class="sc-EHOje djKcqh sc-TOsTZ doQkUu"
           color="primary"
+          exact="true"
           href="/event/new"
         >
           Create
@@ -679,7 +686,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-gisBJw cCBttx"
+            active="false"
+            class="sc-gisBJw ccCHiI"
             href="/home"
           >
             <svg
@@ -706,7 +714,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-gisBJw cCBttx"
+            active="false"
+            class="sc-gisBJw ccCHiI"
             href="/dashboard"
           >
             <svg
@@ -733,8 +742,9 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
+            active="false"
             aria-current="page"
-            class="sc-gisBJw cCBttx current"
+            class="sc-gisBJw ccCHiI current"
             href="/"
           >
             <svg
@@ -761,7 +771,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-gisBJw cCBttx"
+            active="false"
+            class="sc-gisBJw ccCHiI"
             href="/results"
           >
             <svg
@@ -785,8 +796,9 @@ Object {
           </a>
         </div>
         <svg
+          active="false"
           aria-hidden="true"
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-bRBYWo dDcCyH sc-dVhcbM cmosb"
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-bRBYWo dDcCyH sc-dVhcbM ebtxfO"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"

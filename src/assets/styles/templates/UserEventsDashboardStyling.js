@@ -47,8 +47,8 @@ export const StyledButton = styled(Button)`
     background-color: ${props => props.theme.color.primary.regular};
   } */
 
-  ${({ gap }) => gap === true && `margin-left: 10px;` }
-  ${({ bottomSpace }) => bottomSpace === true && `
+  ${({ gap }) => gap === 1 && `margin-left: 10px;` }
+  ${({ bottomSpace }) => bottomSpace === 1 && `
       margin-bottom: 0px;
       border-bottom: 0px;
   `}
