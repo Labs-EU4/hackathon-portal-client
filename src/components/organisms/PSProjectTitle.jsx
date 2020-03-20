@@ -15,13 +15,13 @@ const ProjectTitle = (props) => {
     return (
       <>
         <RowBodyN>
-          <ParagraphN>
+          <Paragraph>
             You are making a submission for the{" "}
             <strong>{currentEvent.event_title}</strong>. Please ensure you
             have read the event guidelines and have gone through the
             grading rubrics for this event before you make your
             submission.
-          </ParagraphN>
+          </Paragraph>
         </RowBodyN>
         <RowBodyN>
           <Column>
