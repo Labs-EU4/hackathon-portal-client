@@ -22,7 +22,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
   return (
     <BodyContainer>
       <StyledRowHead>
-        <StyledButton start onClick={() => setIsRegisteredEvents(false)}>
+        <StyledButton start="true" onClick={() => setIsRegisteredEvents(false)}>
           My hackathons
         </StyledButton>
         <StyledButton onClick={() => setIsRegisteredEvents(true)}>

@@ -10,7 +10,7 @@ import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
    
 const ProjectTitle = (props) => {
 
-  const currentEvent = props.currentEvent
+  const currentEvent = props.currentEvent;
 
     return (
         <>
