@@ -33,7 +33,7 @@ export const OrgImgN = styled.img`
   object-fit: cover;
 `;
 
-export const StyledIconLetterN = styled(IconLetterN)`
+export const StyledIconLetterN = styled(IconLetter)`
   ${props => props.theme.flex.center};
   position: absolute;
   top: 130px;
