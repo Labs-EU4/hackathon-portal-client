@@ -13,7 +13,7 @@ export const StyledEventCard = styled.div`
   }
 `;
 
-export const EventImageN = styled.figure`
+export const EventImage = styled.figure`
   width: 100%;
   height: 170px;
   & > img {
