@@ -74,7 +74,7 @@ const EventCard = ({ event, eventModalHandler }) => {
             )}
           </DateParagraph>
           <H4>{event_title}</H4>
-          <LocationParagraphN bold>{location}</LocationParagraphN>
+          <LocationParagraph bold>{location}</LocationParagraph>
           <ParagraphN>{excerpt}</ParagraphN>
           <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
