@@ -32,12 +32,13 @@ const ResetPassword = () => {
   });
 
   return (
-    <BodyContainer justify="center">
+    <BodyContainerN justify="center">
       <HeroImage src={image} alt="Reset passowrd" />
       <Container>
         <H1>Reset the password</H1>
         <Paragraph>
-          Enter your email address so we can reset your password and send a link to your inbox.
+          Enter your email address so we can reset your password and send a link
+          to your inbox.
         </Paragraph>
         <Formik
           initialValues={{ email: "" }}
@@ -46,10 +47,14 @@ const ResetPassword = () => {
         >
           {({ errors, touched }) => (
             <Form>
-              <Input display="wide" id="email" type="email" name="email" placeholder="Email address"/>
-              {errors.name && touched.name ? (
-                <div>{errors.name}</div>
-              ) : null}
+              <Input
+                display="wide"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Email address"
+              />
+              {errors.name && touched.name ? <div>{errors.name}</div> : null}
               <ErrorSpan>
                 <ErrorMessage name="email" />
               </ErrorSpan>
@@ -62,14 +67,11 @@ const ResetPassword = () => {
           )}
         </Formik>
       </Container>
-    </BodyContainer>
+    </BodyContainerN>
   );
 };
 
 export default ResetPassword;
-
-
-
 
 // import React from "react";
 // import { Formik, Form, ErrorMessage } from "formik";
