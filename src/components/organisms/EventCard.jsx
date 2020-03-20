@@ -8,7 +8,7 @@ import {
   StyledIconLetter,
   EventCardContent,
   EventCTA,
-  DateParagraphN,
+  DateParagraph,
   LocationParagraphN,
   CardCountDownN,
   StyledBookmarkIconN,
