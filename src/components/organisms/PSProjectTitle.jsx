@@ -1,5 +1,5 @@
 import React from "react";
-import { RowBodyN } from "../../assets/styles/atoms/RowBody";
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
 import { ErrorMessage } from "formik";
 import Input from "../atoms/Input";
@@ -14,7 +14,7 @@ const ProjectTitle = (props) => {
 
     return (
       <>
-        <RowBodyN>
+        <RowBody>
           <Paragraph>
             You are making a submission for the{" "}
             <strong>{currentEvent.event_title}</strong>. Please ensure you
@@ -22,8 +22,8 @@ const ProjectTitle = (props) => {
             grading rubrics for this event before you make your
             submission.
           </Paragraph>
-        </RowBodyN>
-        <RowBodyN>
+        </RowBody>
+        <RowBody>
           <Column>
             <Label htmlFor="project_title">Project Title</Label>
             <Input
@@ -53,7 +53,7 @@ const ProjectTitle = (props) => {
               />
             </ErrorSpanN>
           </Column>
-        </RowBodyN>
+        </RowBody>
       </>
     )}
 
