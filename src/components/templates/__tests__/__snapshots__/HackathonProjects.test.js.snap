@@ -6,22 +6,6 @@ Object {
   "baseElement": <body>
     <div>
       <div
-<<<<<<< HEAD
-        class="sc-gZMcBi ethJNv"
-      >
-        <div
-          class="sc-bxivhb sc-ifAKCX sc-gqjmRU djZXJp"
-        >
-          <div
-            class="sc-eNQAEJ digPNQ"
-          >
-            <h3
-              class="sc-ckVGcZ lZrgK"
-            >
-              Submitted projects for 
-              <strong
-                class="sc-kAzzGY cnVNXU"
-=======
         class="sc-EHOje jvGfAl"
       >
         <div
@@ -36,7 +20,6 @@ Object {
               Submitted projects for 
               <strong
                 class="sc-gqjmRU cXIDrc"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               >
                 "
                 EuroHack
@@ -45,11 +28,7 @@ Object {
             </h3>
           </div>
           <div
-<<<<<<< HEAD
-            class="sc-iwsKbI iOqBwo"
-=======
             class="sc-kkGfuU ieZEdl"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             spacing="center"
           >
             <div
@@ -131,22 +110,6 @@ Object {
   </body>,
   "container": <div>
     <div
-<<<<<<< HEAD
-      class="sc-gZMcBi ethJNv"
-    >
-      <div
-        class="sc-bxivhb sc-ifAKCX sc-gqjmRU djZXJp"
-      >
-        <div
-          class="sc-eNQAEJ digPNQ"
-        >
-          <h3
-            class="sc-ckVGcZ lZrgK"
-          >
-            Submitted projects for 
-            <strong
-              class="sc-kAzzGY cnVNXU"
-=======
       class="sc-EHOje jvGfAl"
     >
       <div
@@ -161,7 +124,6 @@ Object {
             Submitted projects for 
             <strong
               class="sc-gqjmRU cXIDrc"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             >
               "
               EuroHack
@@ -170,11 +132,7 @@ Object {
           </h3>
         </div>
         <div
-<<<<<<< HEAD
-          class="sc-iwsKbI iOqBwo"
-=======
           class="sc-kkGfuU ieZEdl"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           spacing="center"
         >
           <div

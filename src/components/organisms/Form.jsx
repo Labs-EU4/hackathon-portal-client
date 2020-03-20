@@ -7,13 +7,8 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
 
-<<<<<<< HEAD
-import Container from "../../assets/styles/atoms/Container";
-import { H1 } from "../../assets/styles/atoms/Heading";
-=======
 import { Container } from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
 import Label from "../../assets/styles/atoms/Label";

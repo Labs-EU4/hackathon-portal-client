@@ -1,16 +1,9 @@
 import styled from "styled-components";
-<<<<<<< HEAD
-import { media } from "../variables/index";
-import { CardWideN } from "../atoms/Card";
-import { ParagraphN } from "../atoms/Paragraph";
-import { RowBodyN } from "../atoms/RowBody";
-=======
 
 import { media } from "../variables/media";
 import { RowBody } from "../atoms/RowBodyStyling";
 import { CardWide } from "../atoms/CardStyling";
 import { Paragraph } from "../atoms/ParagraphStyling";
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
 
 export const StyledWideBody = styled.div`
   position: absolute; top: 0; left: 0;
