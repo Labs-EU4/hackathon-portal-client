@@ -1,17 +1,30 @@
 import React from "react";
 import { useField } from "formik";
-import { CheckGroupN } from '../../assets/styles/atoms/CheckGroup';
-import { LabelN } from "../../assets/styles/atoms/Label";
-import { StyledCheckboxFieldN } from "../../assets/styles/molecules/CheckboxStyling"
+import styled from "styled-components";
+
+import CheckGroup from "../../assets/styles/atoms/CheckGroup";
+import Label from "../../assets/styles/atoms/Label";
 
 function Checkbox({ label, ...props }) {
   const [field] = useField(props);
 
   return (
-    <CheckGroupN>
-      <StyledCheckboxFieldN id={props.value} type="checkbox" {...field} {...props} />
-      <LabelN htmlFor={props.value}>{label}</LabelN>
-    </CheckGroupN>
+    <CheckGroup>
+      <StyledCheckboxField
+        id={props.value}
+        type="checkbox"
+        {...field}
+        {...props}
+      />
+      <Label htmlFor={props.value}>{label}</Label>
+    </CheckGroup>
   );
 }
+
 export default Checkbox;
+
+const StyledCheckboxField = styled.input`
+  width: 20px;
+  height: 20px;
+  margin: 0 20px 10px 0;
+`;

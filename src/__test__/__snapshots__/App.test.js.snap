@@ -41,13 +41,13 @@ Object {
           class="sc-EHOje gXXaNo"
         >
           <div
-            class="sc-ePZHVD kljTPB"
+            class="sc-bEjcJn ceebLs"
           >
             <div
-              class="sc-likbZx heGpsO"
+              class="sc-ePZHVD gifJSC"
             >
               <div
-                class="sc-eKZiaR hfCdlx"
+                class="sc-likbZx kfUzKF"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -55,47 +55,47 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-drMfKT hQKvey"
+                  class="sc-eKZiaR ORomR"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-fgfRvd cruuWr"
+              class="sc-drMfKT jqVfGC"
             >
               <h1
-                class="sc-hIVACf btzhNj"
+                class="sc-fgfRvd cnzRoF"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-gpHHfC fiMdQN"
+                class="sc-hIVACf hsdwLT"
               >
                 <div
-                  class="sc-gVyKpa fujJad"
+                  class="sc-gpHHfC frFYQa"
                 />
                 <div
-                  class="sc-gVyKpa fujJad"
+                  class="sc-gpHHfC frFYQa"
                 />
                 <div
-                  class="sc-gVyKpa fujJad"
+                  class="sc-gpHHfC frFYQa"
                 />
                 <div
-                  class="sc-gVyKpa fujJad"
+                  class="sc-gpHHfC frFYQa"
                 />
                 <div
-                  class="sc-gVyKpa fujJad"
+                  class="sc-gpHHfC frFYQa"
                 />
                 <div
-                  class="sc-gVyKpa fujJad"
+                  class="sc-gpHHfC frFYQa"
                 />
               </div>
             </div>
           </div>
           <div
-            class="sc-dVhcbM sc-jrIrqw fYukse"
+            class="sc-dVhcbM sc-gPzReC dugNos"
           >
             <form
               action="#"
@@ -192,7 +192,7 @@ Object {
                   Bio
                 </label>
                 <div
-                  class="sc-cmthru dJbqfg"
+                  class="sc-esOvli JGJQt"
                 >
                   <textarea
                     name="bio"
@@ -203,10 +203,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-tilXH sc-hjRWVT cOFBlc"
+                class="sc-tilXH sc-jrIrqw isIcbk"
               >
                 <button
-                  class="sc-htoDjs kZOFAb sc-iybRtq dFPGX"
+                  class="sc-htoDjs kZOFAb sc-hjRWVT iyfkwW"
                   color="green"
                   type="submit"
                 >
@@ -441,13 +441,13 @@ Object {
         class="sc-EHOje gXXaNo"
       >
         <div
-          class="sc-ePZHVD kljTPB"
+          class="sc-bEjcJn ceebLs"
         >
           <div
-            class="sc-likbZx heGpsO"
+            class="sc-ePZHVD gifJSC"
           >
             <div
-              class="sc-eKZiaR hfCdlx"
+              class="sc-likbZx kfUzKF"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -455,47 +455,47 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-drMfKT hQKvey"
+                class="sc-eKZiaR ORomR"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-fgfRvd cruuWr"
+            class="sc-drMfKT jqVfGC"
           >
             <h1
-              class="sc-hIVACf btzhNj"
+              class="sc-fgfRvd cnzRoF"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-gpHHfC fiMdQN"
+              class="sc-hIVACf hsdwLT"
             >
               <div
-                class="sc-gVyKpa fujJad"
+                class="sc-gpHHfC frFYQa"
               />
               <div
-                class="sc-gVyKpa fujJad"
+                class="sc-gpHHfC frFYQa"
               />
               <div
-                class="sc-gVyKpa fujJad"
+                class="sc-gpHHfC frFYQa"
               />
               <div
-                class="sc-gVyKpa fujJad"
+                class="sc-gpHHfC frFYQa"
               />
               <div
-                class="sc-gVyKpa fujJad"
+                class="sc-gpHHfC frFYQa"
               />
               <div
-                class="sc-gVyKpa fujJad"
+                class="sc-gpHHfC frFYQa"
               />
             </div>
           </div>
         </div>
         <div
-          class="sc-dVhcbM sc-jrIrqw fYukse"
+          class="sc-dVhcbM sc-gPzReC dugNos"
         >
           <form
             action="#"
@@ -592,7 +592,7 @@ Object {
                 Bio
               </label>
               <div
-                class="sc-cmthru dJbqfg"
+                class="sc-esOvli JGJQt"
               >
                 <textarea
                   name="bio"
@@ -603,10 +603,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-tilXH sc-hjRWVT cOFBlc"
+              class="sc-tilXH sc-jrIrqw isIcbk"
             >
               <button
-                class="sc-htoDjs kZOFAb sc-iybRtq dFPGX"
+                class="sc-htoDjs kZOFAb sc-hjRWVT iyfkwW"
                 color="green"
                 type="submit"
               >
