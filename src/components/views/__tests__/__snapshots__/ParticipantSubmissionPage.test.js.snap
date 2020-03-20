@@ -1,3 +1,306 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component ParticipantSubmissionPage.js text nodes renders properly asserts that the component renders properly 1`] = `undefined`;
+exports[`Component ParticipantSubmissionPage.js text nodes renders properly asserts that the component renders properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdVaJa sc-bwzfXH ckrujS"
+      >
+        <div
+          class="sc-htoDjs sc-iwsKbI cxoUZI"
+        >
+          <div
+            class="sc-bZQynM ehIAPt"
+          >
+            <h3
+              class="sc-ifAKCX bZCfiG"
+            >
+              Submit Project
+            </h3>
+          </div>
+          <form
+            action="#"
+          >
+            <div
+              class="sc-gzVnrw cguHsh"
+            >
+              <p
+                class="sc-dxgOiQ iEwFMy"
+              >
+                You are making a submission for the
+                 
+                <strong>
+                  EuroHack
+                </strong>
+                . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+              </p>
+            </div>
+            <div
+              class="sc-gzVnrw cguHsh"
+            >
+              <div
+                class="sc-kpOJdX lbgBPl"
+              >
+                <label
+                  class="sc-kgoBCf beRPEp"
+                  for="project_title"
+                >
+                  Project Title
+                </label>
+                <input
+                  class="sc-kGXeez kaHXAQ"
+                  display="wide"
+                  id="project_title"
+                  name="project_title"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="sc-fjdhpX sc-chPdSV hwjqhV"
+                />
+              </div>
+              <div
+                class="sc-kpOJdX lbgBPl"
+              >
+                <label
+                  class="sc-kgoBCf beRPEp"
+                  for="participant_or_team_nam"
+                >
+                  Team/Participant name
+                </label>
+                <input
+                  class="sc-kGXeez kaHXAQ"
+                  display="wide"
+                  id="participant_or_team_name"
+                  name="participant_or_team_name"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="sc-fjdhpX sc-chPdSV hwjqhV"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-gzVnrw dOWIJD"
+            >
+              <label
+                class="sc-kgoBCf beRPEp"
+                for="project_writeups"
+              >
+                Project Writeup
+              </label>
+              <div
+                class="sc-hMqMXs iUJLeO"
+              >
+                <textarea
+                  id="project_writeups"
+                  name="project_writeups"
+                  type="text"
+                />
+              </div>
+              <span
+                class="sc-fjdhpX sc-chPdSV hwjqhV"
+              />
+            </div>
+            <div
+              class="sc-gzVnrw cguHsh"
+            >
+              <a
+                class="sc-jKJlTe bZBkMZ"
+                color="grey"
+                href="/dashboard"
+              >
+                Cancel
+              </a>
+              <button
+                class="sc-ckVGcZ iGBPGf"
+                color="green"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa sc-bwzfXH ckrujS"
+    >
+      <div
+        class="sc-htoDjs sc-iwsKbI cxoUZI"
+      >
+        <div
+          class="sc-bZQynM ehIAPt"
+        >
+          <h3
+            class="sc-ifAKCX bZCfiG"
+          >
+            Submit Project
+          </h3>
+        </div>
+        <form
+          action="#"
+        >
+          <div
+            class="sc-gzVnrw cguHsh"
+          >
+            <p
+              class="sc-dxgOiQ iEwFMy"
+            >
+              You are making a submission for the
+               
+              <strong>
+                EuroHack
+              </strong>
+              . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+            </p>
+          </div>
+          <div
+            class="sc-gzVnrw cguHsh"
+          >
+            <div
+              class="sc-kpOJdX lbgBPl"
+            >
+              <label
+                class="sc-kgoBCf beRPEp"
+                for="project_title"
+              >
+                Project Title
+              </label>
+              <input
+                class="sc-kGXeez kaHXAQ"
+                display="wide"
+                id="project_title"
+                name="project_title"
+                type="text"
+                value=""
+              />
+              <span
+                class="sc-fjdhpX sc-chPdSV hwjqhV"
+              />
+            </div>
+            <div
+              class="sc-kpOJdX lbgBPl"
+            >
+              <label
+                class="sc-kgoBCf beRPEp"
+                for="participant_or_team_nam"
+              >
+                Team/Participant name
+              </label>
+              <input
+                class="sc-kGXeez kaHXAQ"
+                display="wide"
+                id="participant_or_team_name"
+                name="participant_or_team_name"
+                type="text"
+                value=""
+              />
+              <span
+                class="sc-fjdhpX sc-chPdSV hwjqhV"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-gzVnrw dOWIJD"
+          >
+            <label
+              class="sc-kgoBCf beRPEp"
+              for="project_writeups"
+            >
+              Project Writeup
+            </label>
+            <div
+              class="sc-hMqMXs iUJLeO"
+            >
+              <textarea
+                id="project_writeups"
+                name="project_writeups"
+                type="text"
+              />
+            </div>
+            <span
+              class="sc-fjdhpX sc-chPdSV hwjqhV"
+            />
+          </div>
+          <div
+            class="sc-gzVnrw cguHsh"
+          >
+            <a
+              class="sc-jKJlTe bZBkMZ"
+              color="grey"
+              href="/dashboard"
+            >
+              Cancel
+            </a>
+            <button
+              class="sc-ckVGcZ iGBPGf"
+              color="green"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

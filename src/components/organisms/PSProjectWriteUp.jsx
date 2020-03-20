@@ -10,7 +10,7 @@ const ProjectWriteup = () => {
 
   return (
     <>
-      <RowBodyN justify="start">
+      <RowBody justify="start">
         <Label htmlFor="project_writeups">Project Writeup</Label>
         <TextArea
           wide
@@ -22,8 +22,8 @@ const ProjectWriteup = () => {
         <ErrorSpanN>
           <ErrorMessage name="project_writeups" />
         </ErrorSpanN>
-      </RowBodyN>
-      <RowBodyN>
+      </RowBody>
+      <RowBody>
         <Button
           link
           color="grey"
@@ -37,7 +37,7 @@ const ProjectWriteup = () => {
         <Button color="green" type="submit">
           Submit
         </Button>
-      </RowBodyN>
+      </RowBody>
     </>
   );
 }
