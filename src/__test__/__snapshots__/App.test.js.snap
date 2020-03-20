@@ -41,13 +41,13 @@ Object {
           class="sc-bZQynM ghjVHi"
         >
           <div
-            class="sc-kXeGPI dkUvVU"
+            class="sc-kQsIoO ksCRUy"
           >
             <div
-              class="sc-fyjhYU cJzHHV"
+              class="sc-gPzReC cWJXIb"
             >
               <div
-                class="sc-ugnQR eZjgDR"
+                class="sc-jrIrqw kMVfQR"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -55,47 +55,47 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-eIHaNI lfaqov"
+                  class="sc-hjRWVT jljElL"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-eTpRJs kKaJzH"
+              class="sc-iybRtq bEfPin"
             >
               <h1
-                class="sc-dxZgTM gATcHn"
+                class="sc-iQtOjA kSSRch"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-iomxrj eyPooD"
+                class="sc-fHxwqH dAcRBP"
               >
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-cEvuZC dKarUE"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-cEvuZC dKarUE"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-cEvuZC dKarUE"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-cEvuZC dKarUE"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-cEvuZC dKarUE"
                 />
                 <div
-                  class="sc-dvCyap eXDDzK"
+                  class="sc-cEvuZC dKarUE"
                 />
               </div>
             </div>
           </div>
           <div
-            class="sc-eqIVtm sc-exkUMo eVzOqP"
+            class="sc-eqIVtm sc-eTpRJs iQBHHN"
           >
             <form
               action="#"
@@ -203,10 +203,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-hEsumM sc-kcDeIU iEyEuj"
+                class="sc-hEsumM sc-dxZgTM NqaxW"
               >
                 <button
-                  class="sc-dnqmqq gYMjDX sc-BngTV iTJtBg"
+                  class="sc-dnqmqq gYMjDX sc-iomxrj frbDRZ"
                   color="green"
                   type="submit"
                 >
@@ -265,9 +265,10 @@ Object {
             </div>
           </div>
           <a
-            activeclassname="current"
-            class="sc-iwsKbI lmyGKr sc-jbKcbu cKerwe"
+            active="false"
+            class="sc-iwsKbI lmyGKr sc-jbKcbu jZXLCU"
             color="primary"
+            exact="true"
             href="/event/new"
           >
             Create
@@ -277,7 +278,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-frDJqD dGbeuh"
+              active="false"
+              class="sc-frDJqD icNxYY"
               href="/home"
             >
               <svg
@@ -304,7 +306,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-frDJqD dGbeuh"
+              active="false"
+              class="sc-frDJqD icNxYY"
               href="/dashboard"
             >
               <svg
@@ -331,8 +334,9 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
+              active="false"
               aria-current="page"
-              class="sc-frDJqD dGbeuh current"
+              class="sc-frDJqD icNxYY current"
               href="/"
             >
               <svg
@@ -359,7 +363,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-frDJqD dGbeuh"
+              active="false"
+              class="sc-frDJqD icNxYY"
               href="/results"
             >
               <svg
@@ -383,8 +388,9 @@ Object {
             </a>
           </div>
           <svg
+            active="false"
             aria-hidden="true"
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT fDAVmV"
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT hXaTGn"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -441,13 +447,13 @@ Object {
         class="sc-bZQynM ghjVHi"
       >
         <div
-          class="sc-kXeGPI dkUvVU"
+          class="sc-kQsIoO ksCRUy"
         >
           <div
-            class="sc-fyjhYU cJzHHV"
+            class="sc-gPzReC cWJXIb"
           >
             <div
-              class="sc-ugnQR eZjgDR"
+              class="sc-jrIrqw kMVfQR"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -455,47 +461,47 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-eIHaNI lfaqov"
+                class="sc-hjRWVT jljElL"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-eTpRJs kKaJzH"
+            class="sc-iybRtq bEfPin"
           >
             <h1
-              class="sc-dxZgTM gATcHn"
+              class="sc-iQtOjA kSSRch"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-iomxrj eyPooD"
+              class="sc-fHxwqH dAcRBP"
             >
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-cEvuZC dKarUE"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-cEvuZC dKarUE"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-cEvuZC dKarUE"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-cEvuZC dKarUE"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-cEvuZC dKarUE"
               />
               <div
-                class="sc-dvCyap eXDDzK"
+                class="sc-cEvuZC dKarUE"
               />
             </div>
           </div>
         </div>
         <div
-          class="sc-eqIVtm sc-exkUMo eVzOqP"
+          class="sc-eqIVtm sc-eTpRJs iQBHHN"
         >
           <form
             action="#"
@@ -603,10 +609,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-hEsumM sc-kcDeIU iEyEuj"
+              class="sc-hEsumM sc-dxZgTM NqaxW"
             >
               <button
-                class="sc-dnqmqq gYMjDX sc-BngTV iTJtBg"
+                class="sc-dnqmqq gYMjDX sc-iomxrj frbDRZ"
                 color="green"
                 type="submit"
               >
@@ -665,9 +671,10 @@ Object {
           </div>
         </div>
         <a
-          activeclassname="current"
-          class="sc-iwsKbI lmyGKr sc-jbKcbu cKerwe"
+          active="false"
+          class="sc-iwsKbI lmyGKr sc-jbKcbu jZXLCU"
           color="primary"
+          exact="true"
           href="/event/new"
         >
           Create
@@ -677,7 +684,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-frDJqD dGbeuh"
+            active="false"
+            class="sc-frDJqD icNxYY"
             href="/home"
           >
             <svg
@@ -704,7 +712,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-frDJqD dGbeuh"
+            active="false"
+            class="sc-frDJqD icNxYY"
             href="/dashboard"
           >
             <svg
@@ -731,8 +740,9 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
+            active="false"
             aria-current="page"
-            class="sc-frDJqD dGbeuh current"
+            class="sc-frDJqD icNxYY current"
             href="/"
           >
             <svg
@@ -759,7 +769,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-frDJqD dGbeuh"
+            active="false"
+            class="sc-frDJqD icNxYY"
             href="/results"
           >
             <svg
@@ -783,8 +794,9 @@ Object {
           </a>
         </div>
         <svg
+          active="false"
           aria-hidden="true"
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT fDAVmV"
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-caSCKo dYdAVJ sc-kgAjT hXaTGn"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"

@@ -12,7 +12,7 @@ import { SearchWidget } from "./widgets/SearchWidget";
 // import { ParticipantRoleWidget } from "./widgets/ParticipantRoleWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
-import { addParticipantTeamMember, sendParticipantInvite } from "../../store/participantTeams/actions";
+import { sendParticipantInvite } from "../../store/participantTeams/actions";
 
 const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
   const [selectedUser, setSelectedUser] = useState(null);
@@ -51,6 +51,7 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
           <CardWide>
             <SearchWidget 
               {...{setSelectedUser}}
+              {...{selectedUser}}
               {...{setNoneUser}}
             />
             {/* {!selectedUser ?  : <RoleWidget />} */}
