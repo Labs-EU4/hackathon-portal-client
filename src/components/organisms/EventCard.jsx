@@ -54,7 +54,7 @@ const EventCard = ({ event, eventModalHandler }) => {
         </EventImage>
         <EventCardContentN>
           {organizer_profile_pic ? (
-            <OrgImgN src={organizerImg.avatar} alt={organizer_name} />
+            <OrgImg src={organizerImg.avatar} alt={organizer_name} />
           ) : (
             letter && <StyledIconLetterN>{letter}</StyledIconLetterN>
           )}
