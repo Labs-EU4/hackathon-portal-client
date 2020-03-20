@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
-import { BodyContainer } from "../atoms/BodyContainerStyling";
+import { BodyContainerN } from "../atoms/BodyContainerStyling";
 import { CardWide, CardWideN } from "../atoms/Card";
 import { Paragraph, ParagraphN } from "../atoms/Paragraph";
 import { RowBodyN } from "../atoms/RowBody";
