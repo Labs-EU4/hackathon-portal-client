@@ -113,7 +113,7 @@ Object {
                 class="sc-jqCOkK jlFnik"
               >
                 <label
-                  class="sc-kIPQKe ipUEXF"
+                  class="sc-cvbbAY bXHNPE"
                   for="fullname"
                 >
                   Full Name
@@ -131,7 +131,7 @@ Object {
                 class="sc-jqCOkK jlFnik"
               >
                 <label
-                  class="sc-kIPQKe ipUEXF"
+                  class="sc-cvbbAY bXHNPE"
                   for="username"
                 >
                   Username
@@ -149,7 +149,7 @@ Object {
                 class="sc-jqCOkK jlFnik"
               >
                 <label
-                  class="sc-kIPQKe ipUEXF"
+                  class="sc-cvbbAY bXHNPE"
                   for="email"
                 >
                   Email
@@ -167,7 +167,7 @@ Object {
                 class="sc-jqCOkK jlFnik"
               >
                 <label
-                  class="sc-kIPQKe ipUEXF"
+                  class="sc-cvbbAY bXHNPE"
                   for="image"
                 >
                   Profile Image
@@ -186,7 +186,7 @@ Object {
                 class="sc-jqCOkK jlFnik"
               >
                 <label
-                  class="sc-kIPQKe ipUEXF"
+                  class="sc-cvbbAY bXHNPE"
                   for="bio"
                 >
                   Bio
@@ -513,7 +513,7 @@ Object {
               class="sc-jqCOkK jlFnik"
             >
               <label
-                class="sc-kIPQKe ipUEXF"
+                class="sc-cvbbAY bXHNPE"
                 for="fullname"
               >
                 Full Name
@@ -531,7 +531,7 @@ Object {
               class="sc-jqCOkK jlFnik"
             >
               <label
-                class="sc-kIPQKe ipUEXF"
+                class="sc-cvbbAY bXHNPE"
                 for="username"
               >
                 Username
@@ -549,7 +549,7 @@ Object {
               class="sc-jqCOkK jlFnik"
             >
               <label
-                class="sc-kIPQKe ipUEXF"
+                class="sc-cvbbAY bXHNPE"
                 for="email"
               >
                 Email
@@ -567,7 +567,7 @@ Object {
               class="sc-jqCOkK jlFnik"
             >
               <label
-                class="sc-kIPQKe ipUEXF"
+                class="sc-cvbbAY bXHNPE"
                 for="image"
               >
                 Profile Image
@@ -586,7 +586,7 @@ Object {
               class="sc-jqCOkK jlFnik"
             >
               <label
-                class="sc-kIPQKe ipUEXF"
+                class="sc-cvbbAY bXHNPE"
                 for="bio"
               >
                 Bio

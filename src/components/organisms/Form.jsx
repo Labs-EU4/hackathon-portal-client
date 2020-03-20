@@ -7,11 +7,11 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
 
-import { Container } from "../../assets/styles/atoms/ContainerStyling";
+import Container from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
-import { LabelN } from "../../assets/styles/atoms/Label";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Button from "../atoms/Button";
 import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
@@ -159,7 +159,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
                 </ErrorSpan>
               </>
             )} */}
-            <LabelN>Email</LabelN>
+            <Label>Email</Label>
             <Input
               display="wide"
               type="text"
@@ -170,7 +170,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <ErrorSpan>
               <ErrorMessage name="email" />
             </ErrorSpan>
-            <LabelN>Password</LabelN>
+            <Label>Password</Label>
             <Input
               display="wide"
               type="password"
