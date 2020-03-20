@@ -3,7 +3,7 @@ import { useField } from "formik";
 import styled from "styled-components";
 
 import CheckGroup from "../../assets/styles/atoms/CheckGroup";
-import Label from "../../assets/styles/atoms/Label";
+import { Label } from "../../assets/styles/atoms/Label";
 
 function Checkbox({ label, ...props }) {
   const [field] = useField(props);
