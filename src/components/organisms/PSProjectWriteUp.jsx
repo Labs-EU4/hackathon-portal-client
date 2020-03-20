@@ -3,15 +3,15 @@
    import { ErrorSpanN } from "../../assets/styles/atoms/Span";
    import { ErrorMessage } from "formik";
    import Button from "../atoms/Button";
-   import {LabelN} from "../../assets/styles/atoms/Label";
+   import { Label } from "../../assets/styles/atoms/LabelStyling";
    import TextArea from "../atoms/TextArea";
    
 const ProjectWriteup = () => {
 
     return (
         <>
-   <RowBodyN justify="start">
-                <LabelN htmlFor="project_writeups">Project Writeup</LabelN>
+          <RowBodyN justify="start">
+                <Label htmlFor="project_writeups">Project Writeup</Label>
                 <TextArea
                   wide
                   as="textarea"
