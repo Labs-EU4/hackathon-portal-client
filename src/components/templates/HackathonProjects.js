@@ -4,17 +4,17 @@ import { useSelector } from "react-redux";
 import Rating from "react-rating";
 
 import {
-  StyledWideBodyN,
-  StyledCardWideN,
-  StyledParagraphN,
-  StyledRowBodyN,
-  TeamN,
-  SubmissionEntryN,
-  SubmissionContentN,
-  StrongN,
-  DescriptionN,
-  RatingGroupN,
-  JudgeCountN
+  StyledWideBody,
+  StyledCardWide,
+  StyledParagraph,
+  StyledRowBody,
+  Team,
+  SubmissionEntry,
+  SubmissionContent,
+  Strong,
+  Description,
+  RatingGroup,
+  JudgeCount
 } from "../../assets/styles/templates/HackathonProjectsStyling";
 import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
@@ -46,22 +46,22 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
 
   const renderSubmission = s => {
     return (
-      <SubmissionEntryN key={s.id}>
-        <TeamN>{s.participant_or_team_name || s.project_title}</TeamN>
-        <SubmissionContentN>
-          <DescriptionN>{s.project_writeups}</DescriptionN>
+      <SubmissionEntry key={s.id}>
+        <Team>{s.participant_or_team_name || s.project_title}</Team>
+        <SubmissionContent>
+          <Description>{s.project_writeups}</Description>
           {s.average_rating > 0 ? (
-            <RatingGroupN>
+            <RatingGroup>
               <Rating
                 initialRating={s.average_rating}
                 readonly
                 emptySymbol={<img alt="Rubric star" src={emptyStar} />}
                 fullSymbol={<img alt="Rubric star" src={fullStar} />}
               />
-              <JudgeCountN>
+              <JudgeCount>
                 {`${s.acted_judges}/${s.number_of_judges} voted`}
-              </JudgeCountN>
-            </RatingGroupN>
+              </JudgeCount>
+            </RatingGroup>
           ) : (
             <Paragraph strong>Not rated</Paragraph>
           )}
@@ -73,17 +73,17 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
           >
             View Project
           </Button>
-        </SubmissionContentN>
-      </SubmissionEntryN>
+        </SubmissionContent>
+      </SubmissionEntry>
     );
   };
 
   return (
-    <StyledWideBodyN>
-      <StyledCardWideN>
+    <StyledWideBody>
+      <StyledCardWide>
         <RowHead>
           <H3>
-            Submitted projects for <StrongN>"{event_title}"</StrongN>
+            Submitted projects for <Strong>"{event_title}"</Strong>
           </H3>
         </RowHead>
         {loading ? (
@@ -103,7 +103,7 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
             </Button>
           </>
         )}
-      </StyledCardWideN>
+      </StyledCardWide>
       {isProjectPageOpen && (
         <HackathonProjectPage
           {...{ id }}
@@ -111,7 +111,7 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
           {...{ setIsProjectPageOpen }}
         />
       )}
-    </StyledWideBodyN>
+    </StyledWideBody>
   );
 };
 export default HackathonProjects;
