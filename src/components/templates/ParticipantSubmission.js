@@ -6,8 +6,8 @@ import * as Yup from "yup";
 
 import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmissionStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
-import { RowHeadN } from "../../assets/styles/atoms/RowHead";
-import { RowBodyN } from "../../assets/styles/atoms/RowBody";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
