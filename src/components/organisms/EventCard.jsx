@@ -90,7 +90,7 @@ const EventCard = ({ event, eventModalHandler }) => {
             </Button>
           </EventCTA>
         </EventCardContent>
-        <StyledBookmarkIconN icon="bookmark" />
+        <StyledBookmarkIcon icon="bookmark" />
         <StyledStarIconN icon="star" />
       </Card>
     </StyledEventCard>
