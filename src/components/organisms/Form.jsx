@@ -8,7 +8,7 @@ import * as Yup from "yup";
 import queryString from "query-string";
 
 import { Container } from "../../assets/styles/atoms/ContainerStyling";
-import { H1 } from "../../assets/styles/atoms/Heading";
+import { H1 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
 import { LabelN } from "../../assets/styles/atoms/Label";
