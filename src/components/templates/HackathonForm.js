@@ -15,7 +15,7 @@ import {
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
-import Label from "../../assets/styles/atoms/LabelStyling";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Icon from "../atoms/Icon";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
