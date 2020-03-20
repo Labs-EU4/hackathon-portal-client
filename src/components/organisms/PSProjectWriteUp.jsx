@@ -7,7 +7,6 @@ import { Label } from "../../assets/styles/atoms/LabelStyling";
 import TextArea from "../atoms/TextArea";
    
 const ProjectWriteup = () => {
-
   return (
     <>
       <RowBody justify="start">
