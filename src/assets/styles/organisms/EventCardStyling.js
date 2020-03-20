@@ -4,7 +4,7 @@ import { IconLetterN } from "../atoms/IconLetter";
 import { ParagraphN } from "../atoms/Paragraph";
 import Icon from "../../../components/atoms/Icon";
 
-export const StyledEventCardN = styled.div`
+export const StyledEventCard = styled.div`
   text-decoration: none;
   &:hover > div {
     ${props => props.theme.shadow.box};
