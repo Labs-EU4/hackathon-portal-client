@@ -5,7 +5,7 @@ import { ErrorMessage } from "formik";
 import Button from "../atoms/Button";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
 import TextArea from "../atoms/TextArea";
-   
+
 const ProjectWriteup = () => {
   return (
     <>
@@ -27,7 +27,7 @@ const ProjectWriteup = () => {
           link
           color="grey"
           //!! CHANGE THIS INTO A DYNAMIC ROUTE BASED OR GO BACK IN HISTORY
-          to="/dashboard" 
+          to="/dashboard"
           // to={pathname === "/" ? "/" : "/dashboard"}
           // onClick={() => setIsSubmitProjectOpen(false)}
         >
@@ -39,6 +39,6 @@ const ProjectWriteup = () => {
       </RowBody>
     </>
   );
-}
+};
 
 export default ProjectWriteup;

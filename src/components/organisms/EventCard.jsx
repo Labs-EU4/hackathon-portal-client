@@ -2,17 +2,17 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 import {
-  StyledEventCardN,
-  EventImageN,
-  OrgImgN,
-  StyledIconLetterN,
-  EventCardContentN,
-  EventCTAN,
-  DateParagraphN,
+  StyledEventCard,
+  EventImage,
+  OrgImg,
+  StyledIconLetter,
+  EventCardContent,
+  EventCTA,
+  DateParagraph,
   LocationParagraphN,
-  CardCountDownN,
-  StyledBookmarkIconN,
-  StyledStarIconN
+  CardCountDown,
+  StyledBookmarkIcon,
+  StyledStarIcon
 } from "../../assets/styles/organisms/EventCardStyling";
 import { Card } from "../../assets/styles/atoms/CardStyling";
 import { H4 } from "../../assets/styles/atoms/HeadingStyling";
@@ -47,18 +47,18 @@ const EventCard = ({ event, eventModalHandler }) => {
   const endMonth = endDate[1];
 
   return (
-    <StyledEventCardN>
+    <StyledEventCard>
       <Card>
-        <EventImageN>
+        <EventImage>
           <img src={eventImg} alt={event_title} />
-        </EventImageN>
-        <EventCardContentN>
+        </EventImage>
+        <EventCardContent>
           {organizer_profile_pic ? (
-            <OrgImgN src={organizerImg.avatar} alt={organizer_name} />
+            <OrgImg src={organizerImg.avatar} alt={organizer_name} />
           ) : (
-              letter && <StyledIconLetterN>{letter}</StyledIconLetterN>
-            )}
-          <DateParagraphN bold>
+            letter && <StyledIconLetter>{letter}</StyledIconLetter>
+          )}
+          <DateParagraph bold>
             {startMonth !== endMonth ? (
               <>
                 {startMonth} {startDay} - {endMonth} {endDay}, {startYear}
@@ -68,16 +68,16 @@ const EventCard = ({ event, eventModalHandler }) => {
                 {startMonth} {startDay}, {startYear}
               </>
             ) : (
-                  <>
-                    {startMonth} {startDay} - {endDay}, {startYear}
-                  </>
-                )}
-          </DateParagraphN>
+              <>
+                {startMonth} {startDay} - {endDay}, {startYear}
+              </>
+            )}
+          </DateParagraph>
           <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
           <Paragraph>{excerpt}</Paragraph>
-          <CardCountDownN>{formattedDate}</CardCountDownN>
-          <EventCTAN>
+          <CardCountDown>{formattedDate}</CardCountDown>
+          <EventCTA>
             <Button
               link
               color="primary-reverse"
@@ -88,12 +88,12 @@ const EventCard = ({ event, eventModalHandler }) => {
             <Button link color="primary" to={`/`}>
               Join Event
             </Button>
-          </EventCTAN>
-        </EventCardContentN>
-        <StyledBookmarkIconN icon="bookmark" />
-        <StyledStarIconN icon="star" />
+          </EventCTA>
+        </EventCardContent>
+        <StyledBookmarkIcon icon="bookmark" />
+        <StyledStarIcon icon="star" />
       </Card>
-    </StyledEventCardN>
+    </StyledEventCard>
   );
 };
 

@@ -1,5 +1,4 @@
-import React from "react";
-import { type, Solid, media } from "../variables/index";
+import { media } from "../variables/index";
 import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { CardWide } from "../atoms/CardStyling";
 import Icon from "../../../components/atoms/Icon";
@@ -222,8 +221,10 @@ export const UserInfo = styled.div`
 
 export const StyledCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
-  position: absolute; top: 50%; left: 50%;
-  width: 500px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
   transform: translate(-50%, -50%);
   z-index: 200;
 `;

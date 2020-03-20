@@ -80,7 +80,9 @@ const ResetPassword = () => {
                     <ErrorMessage name="newPasswordConfirm" />
                   </ErrorSpan>
                   <RowBody>
-                    <Button type="submit" size="wide" color="blue">Change Password</Button>
+                    <Button type="submit" size="wide" color="blue">
+                      Change Password
+                    </Button>
                   </RowBody>
                 </Form>
               )}
@@ -93,8 +95,6 @@ const ResetPassword = () => {
 };
 
 export default ResetPassword;
-
-
 
 // import React from "react";
 // import { Formik, Form, ErrorMessage } from "formik";

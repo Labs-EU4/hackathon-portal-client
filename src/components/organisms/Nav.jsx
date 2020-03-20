@@ -13,7 +13,7 @@ import {
   UserContainer,
   StyledButton
 } from "../../assets/styles/organisms/NavStyling";
-import { ProfileImg } from "../atoms/ProfileImg";
+import ProfileImg from "../atoms/ProfileImg";
 import Icon from "../atoms/Icon";
 
 const items = [
@@ -85,7 +85,6 @@ const Nav = ({
         to="/event/new"
         color="primary"
         size="wide"
-        activeClassName="current"
       >
         Create{isSideBarOpen && <br />} Event
       </StyledButton>
@@ -108,7 +107,7 @@ const Nav = ({
       })}
       <StyledExpandIcon
         icon="angle-double-down"
-        active={isSideBarOpen}
+        active={isSideBarOpen.toString()}
         onClick={() => setIsSideBarOpen(!isSideBarOpen)}
       />
     </StyledNav>

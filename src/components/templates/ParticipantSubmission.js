@@ -3,7 +3,6 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-
 import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmissionStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
@@ -18,7 +17,6 @@ import {
 } from "../../store/projectSubmission/actions";
 import ProjectTitle from "../organisms/PSProjectTitle";
 import ProjectWriteUp from "../organisms/PSProjectWriteUp";
-
 const defaultState = {
   project_title: "",
   participant_or_team_name: "",
@@ -26,9 +24,8 @@ const defaultState = {
   video_url: "",
   project_writeups: ""
 };
-
 const ParticipantSubmission = ({
-  initialState = defaultState,
+  initialState = defaultState
   // id,
   // setIsSubmitProjectOpen
 }) => {
@@ -39,18 +36,14 @@ const ParticipantSubmission = ({
   const currentEvent = useSelector(state =>
     state.events.data.find(e => e.id === event_id)
   );
-
   useEffect(() => {
     dispatch(fetchAllSubmissions(event_id));
   }, [dispatch, event_id]);
-
   const handleSubmit = values => {
     dispatch(submitProject({ ...values, event_id }, history));
   };
-
   const requireGithubUrl = currentEvent.requirements.includes("github_url");
   const requireVideoUrl = currentEvent.requirements.includes("video_url");
-
   const schema = Yup.object().shape({
     project_title: Yup.string()
       .min(3, "Project title must be at least 3 characters long.")
@@ -72,7 +65,6 @@ const ParticipantSubmission = ({
       .min(8, "Project writeup must be at least 8 characters long.")
       .required("Project writeup is required.")
   });
-
   return (
     <StyledWideBody>
       <CardForm>
@@ -102,7 +94,6 @@ const ParticipantSubmission = ({
                   </ErrorSpan>
                 </RowBody>
               )}
-
               {requireVideoUrl && (
                 <RowBody justify="start">
                   <Label htmlFor="video_url">Video URL</Label>
@@ -125,6 +116,4 @@ const ParticipantSubmission = ({
     </StyledWideBody>
   );
 };
-
 export default ParticipantSubmission;
-

@@ -21,8 +21,7 @@ export const AddTeamParticipantContainer = styled.div`
     border-radius: 6px;
     padding: 10px;
     margin: 0 20px 10px 0;
-    ${({ display }) =>
-    display === "wide" ? `width: 100%;` : `width: 180px;`}
+    ${({ display }) => (display === "wide" ? `width: 100%;` : `width: 180px;`)}
 
     &:focus {
       transition: all 0.5s;
@@ -37,6 +36,6 @@ export const AddTeamParticipantContainer = styled.div`
 `;
 
 export const StyledWidget = styled.div`
-margin-bottom: 10px;
-cursor: pointer;
+  margin-bottom: 10px;
+  cursor: pointer;
 `;

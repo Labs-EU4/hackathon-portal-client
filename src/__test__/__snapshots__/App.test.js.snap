@@ -41,13 +41,13 @@ Object {
           class="sc-bwzfXH bofYRx"
         >
           <div
-            class="sc-qrIAp eQRgqf"
+            class="sc-kLIISr gGmTCd"
           >
             <div
-              class="sc-iqzUVk leHpka"
+              class="sc-qrIAp jOUtqa"
             >
               <div
-                class="sc-ipZHIp hzZMbV"
+                class="sc-iqzUVk iNGxyY"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -55,47 +55,47 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-iGrrsa hJsfiJ"
+                  class="sc-ipZHIp gfEvzc"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-bmyXtO kMwWGI"
+              class="sc-iGrrsa wxFne"
             >
               <h1
-                class="sc-dEoRIm bReDQi"
+                class="sc-bmyXtO gtrxej"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-jtggT fQsIPH"
+                class="sc-dEoRIm exhFYI"
               >
                 <div
-                  class="sc-ebFjAB ixfNLf"
+                  class="sc-jtggT jmRBrW"
                 />
                 <div
-                  class="sc-ebFjAB ixfNLf"
+                  class="sc-jtggT jmRBrW"
                 />
                 <div
-                  class="sc-ebFjAB ixfNLf"
+                  class="sc-jtggT jmRBrW"
                 />
                 <div
-                  class="sc-ebFjAB ixfNLf"
+                  class="sc-jtggT jmRBrW"
                 />
                 <div
-                  class="sc-ebFjAB ixfNLf"
+                  class="sc-jtggT jmRBrW"
                 />
                 <div
-                  class="sc-ebFjAB ixfNLf"
+                  class="sc-jtggT jmRBrW"
                 />
               </div>
             </div>
           </div>
           <div
-            class="sc-brqgnP sc-hzNEM dJyYSM"
+            class="sc-brqgnP sc-iBEsjs kyypyM"
           >
             <form
               action="#"
@@ -192,7 +192,7 @@ Object {
                   Bio
                 </label>
                 <div
-                  class="sc-gzOgki cnllOs"
+                  class="sc-dfVpRl efWiJS"
                 >
                   <textarea
                     name="bio"
@@ -203,10 +203,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-TOsTZ sc-chbbiW bzBQhF"
+                class="sc-TOsTZ sc-hzNEM qbClB"
               >
                 <button
-                  class="sc-ifAKCX jRwfJG sc-kxynE jilcWS"
+                  class="sc-ifAKCX jRwfJG sc-chbbiW yWWKT"
                   color="green"
                   type="submit"
                 >
@@ -248,9 +248,10 @@ Object {
             <div
               class="sc-Rmtcm cBpOPR"
             >
-              <div
+              <img
                 alt="Jake22"
-                class="sc-fMiknA iCUXtn"
+                class="sc-fMiknA rYpgc"
+                src="user_icon.svg"
               />
               <div
                 class="sc-gipzik jDNWFH"
@@ -265,7 +266,6 @@ Object {
             </div>
           </div>
           <a
-            activeclassname="current"
             class="sc-EHOje djKcqh sc-fBuWsC bksUVU"
             color="primary"
             href="/event/new"
@@ -383,8 +383,9 @@ Object {
             </a>
           </div>
           <svg
+            active="false"
             aria-hidden="true"
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gPEVay iNmVfe sc-jlyJG ipEegT"
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gPEVay iNmVfe sc-jlyJG cQgETe"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -441,13 +442,13 @@ Object {
         class="sc-bwzfXH bofYRx"
       >
         <div
-          class="sc-qrIAp eQRgqf"
+          class="sc-kLIISr gGmTCd"
         >
           <div
-            class="sc-iqzUVk leHpka"
+            class="sc-qrIAp jOUtqa"
           >
             <div
-              class="sc-ipZHIp hzZMbV"
+              class="sc-iqzUVk iNGxyY"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -455,47 +456,47 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-iGrrsa hJsfiJ"
+                class="sc-ipZHIp gfEvzc"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-bmyXtO kMwWGI"
+            class="sc-iGrrsa wxFne"
           >
             <h1
-              class="sc-dEoRIm bReDQi"
+              class="sc-bmyXtO gtrxej"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-jtggT fQsIPH"
+              class="sc-dEoRIm exhFYI"
             >
               <div
-                class="sc-ebFjAB ixfNLf"
+                class="sc-jtggT jmRBrW"
               />
               <div
-                class="sc-ebFjAB ixfNLf"
+                class="sc-jtggT jmRBrW"
               />
               <div
-                class="sc-ebFjAB ixfNLf"
+                class="sc-jtggT jmRBrW"
               />
               <div
-                class="sc-ebFjAB ixfNLf"
+                class="sc-jtggT jmRBrW"
               />
               <div
-                class="sc-ebFjAB ixfNLf"
+                class="sc-jtggT jmRBrW"
               />
               <div
-                class="sc-ebFjAB ixfNLf"
+                class="sc-jtggT jmRBrW"
               />
             </div>
           </div>
         </div>
         <div
-          class="sc-brqgnP sc-hzNEM dJyYSM"
+          class="sc-brqgnP sc-iBEsjs kyypyM"
         >
           <form
             action="#"
@@ -592,7 +593,7 @@ Object {
                 Bio
               </label>
               <div
-                class="sc-gzOgki cnllOs"
+                class="sc-dfVpRl efWiJS"
               >
                 <textarea
                   name="bio"
@@ -603,10 +604,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-TOsTZ sc-chbbiW bzBQhF"
+              class="sc-TOsTZ sc-hzNEM qbClB"
             >
               <button
-                class="sc-ifAKCX jRwfJG sc-kxynE jilcWS"
+                class="sc-ifAKCX jRwfJG sc-chbbiW yWWKT"
                 color="green"
                 type="submit"
               >
@@ -648,9 +649,10 @@ Object {
           <div
             class="sc-Rmtcm cBpOPR"
           >
-            <div
+            <img
               alt="Jake22"
-              class="sc-fMiknA iCUXtn"
+              class="sc-fMiknA rYpgc"
+              src="user_icon.svg"
             />
             <div
               class="sc-gipzik jDNWFH"
@@ -665,7 +667,6 @@ Object {
           </div>
         </div>
         <a
-          activeclassname="current"
           class="sc-EHOje djKcqh sc-fBuWsC bksUVU"
           color="primary"
           href="/event/new"
@@ -783,8 +784,9 @@ Object {
           </a>
         </div>
         <svg
+          active="false"
           aria-hidden="true"
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gPEVay iNmVfe sc-jlyJG ipEegT"
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-gPEVay iNmVfe sc-jlyJG cQgETe"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"

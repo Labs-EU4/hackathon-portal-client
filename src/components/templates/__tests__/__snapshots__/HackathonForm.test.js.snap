@@ -62,7 +62,7 @@ Object {
                 value=""
               />
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
             <div
@@ -75,7 +75,7 @@ Object {
                 Description
               </label>
               <div
-                class="sc-ckVGcZ bkFhs"
+                class="sc-dxgOiQ kWrCYP"
               >
                 <textarea
                   id="event_description"
@@ -84,7 +84,7 @@ Object {
                 />
               </div>
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
             <div
@@ -109,7 +109,7 @@ Object {
                   value="2020-03-20"
                 />
                 <span
-                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
                 />
               </div>
               <div
@@ -131,7 +131,7 @@ Object {
                   value="2020-03-20"
                 />
                 <span
-                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
                 />
               </div>
             </div>
@@ -146,7 +146,7 @@ Object {
                 Grading Rubrics (tick all that apply)
               </label>
               <p
-                class="sc-eNQAEJ ddBNwG"
+                class="sc-jKJlTe kbvCMK"
               >
                 Judges will be expected to grade project submissions on which one of the following
               </p>
@@ -155,7 +155,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="presentation"
                   name="rubrics"
                   type="checkbox"
@@ -172,7 +172,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="product_fit"
                   name="rubrics"
                   type="checkbox"
@@ -189,7 +189,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="functionality"
                   name="rubrics"
                   type="checkbox"
@@ -206,7 +206,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="innovation"
                   name="rubrics"
                   type="checkbox"
@@ -223,7 +223,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="product_design"
                   name="rubrics"
                   type="checkbox"
@@ -240,7 +240,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="extensibility"
                   name="rubrics"
                   type="checkbox"
@@ -267,7 +267,7 @@ Object {
                   Participation Type
                 </label>
                 <select
-                  class="sc-jKJlTe ePeoXD"
+                  class="sc-ckVGcZ dApVrJ"
                   id="participation_type"
                   name="participation_type"
                 >
@@ -295,7 +295,7 @@ Object {
                   </option>
                 </select>
                 <span
-                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
                 />
               </div>
               <div
@@ -308,7 +308,7 @@ Object {
                   Event Category
                 </label>
                 <select
-                  class="sc-jKJlTe ePeoXD"
+                  class="sc-ckVGcZ dApVrJ"
                   id="event_category"
                   name="event_category"
                 >
@@ -346,7 +346,7 @@ Object {
                   </option>
                 </select>
                 <span
-                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
                 />
               </div>
             </div>
@@ -372,7 +372,7 @@ Object {
                 value=""
               />
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
             <div
@@ -385,7 +385,7 @@ Object {
                 Guidelines
               </label>
               <div
-                class="sc-ckVGcZ bkFhs"
+                class="sc-dxgOiQ kWrCYP"
               >
                 <textarea
                   id="guidelines"
@@ -394,7 +394,7 @@ Object {
                 />
               </div>
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
             <div
@@ -437,7 +437,7 @@ Object {
                 Project Submission Requirements (tick all that apply)
               </label>
               <p
-                class="sc-eNQAEJ ddBNwG"
+                class="sc-jKJlTe kbvCMK"
               >
                 Participants will be expected to submit which one of the following
               </p>
@@ -445,7 +445,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="video_url"
                   name="requirements"
                   type="checkbox"
@@ -462,7 +462,7 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-dxgOiQ hBWsyH"
+                  class="sc-kpOJdX crQHVY"
                   id="github_url"
                   name="requirements"
                   type="checkbox"
@@ -549,7 +549,7 @@ Object {
               value=""
             />
             <span
-              class="sc-hMqMXs sc-hSdWYo lfRhmD"
+              class="sc-eNQAEJ sc-iAyFgw iydSCt"
             />
           </div>
           <div
@@ -562,7 +562,7 @@ Object {
               Description
             </label>
             <div
-              class="sc-ckVGcZ bkFhs"
+              class="sc-dxgOiQ kWrCYP"
             >
               <textarea
                 id="event_description"
@@ -571,7 +571,7 @@ Object {
               />
             </div>
             <span
-              class="sc-hMqMXs sc-hSdWYo lfRhmD"
+              class="sc-eNQAEJ sc-iAyFgw iydSCt"
             />
           </div>
           <div
@@ -596,7 +596,7 @@ Object {
                 value="2020-03-20"
               />
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
             <div
@@ -618,7 +618,7 @@ Object {
                 value="2020-03-20"
               />
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
           </div>
@@ -633,7 +633,7 @@ Object {
               Grading Rubrics (tick all that apply)
             </label>
             <p
-              class="sc-eNQAEJ ddBNwG"
+              class="sc-jKJlTe kbvCMK"
             >
               Judges will be expected to grade project submissions on which one of the following
             </p>
@@ -642,7 +642,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="presentation"
                 name="rubrics"
                 type="checkbox"
@@ -659,7 +659,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="product_fit"
                 name="rubrics"
                 type="checkbox"
@@ -676,7 +676,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="functionality"
                 name="rubrics"
                 type="checkbox"
@@ -693,7 +693,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="innovation"
                 name="rubrics"
                 type="checkbox"
@@ -710,7 +710,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="product_design"
                 name="rubrics"
                 type="checkbox"
@@ -727,7 +727,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="extensibility"
                 name="rubrics"
                 type="checkbox"
@@ -754,7 +754,7 @@ Object {
                 Participation Type
               </label>
               <select
-                class="sc-jKJlTe ePeoXD"
+                class="sc-ckVGcZ dApVrJ"
                 id="participation_type"
                 name="participation_type"
               >
@@ -782,7 +782,7 @@ Object {
                 </option>
               </select>
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
             <div
@@ -795,7 +795,7 @@ Object {
                 Event Category
               </label>
               <select
-                class="sc-jKJlTe ePeoXD"
+                class="sc-ckVGcZ dApVrJ"
                 id="event_category"
                 name="event_category"
               >
@@ -833,7 +833,7 @@ Object {
                 </option>
               </select>
               <span
-                class="sc-hMqMXs sc-hSdWYo lfRhmD"
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
             </div>
           </div>
@@ -859,7 +859,7 @@ Object {
               value=""
             />
             <span
-              class="sc-hMqMXs sc-hSdWYo lfRhmD"
+              class="sc-eNQAEJ sc-iAyFgw iydSCt"
             />
           </div>
           <div
@@ -872,7 +872,7 @@ Object {
               Guidelines
             </label>
             <div
-              class="sc-ckVGcZ bkFhs"
+              class="sc-dxgOiQ kWrCYP"
             >
               <textarea
                 id="guidelines"
@@ -881,7 +881,7 @@ Object {
               />
             </div>
             <span
-              class="sc-hMqMXs sc-hSdWYo lfRhmD"
+              class="sc-eNQAEJ sc-iAyFgw iydSCt"
             />
           </div>
           <div
@@ -924,7 +924,7 @@ Object {
               Project Submission Requirements (tick all that apply)
             </label>
             <p
-              class="sc-eNQAEJ ddBNwG"
+              class="sc-jKJlTe kbvCMK"
             >
               Participants will be expected to submit which one of the following
             </p>
@@ -932,7 +932,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="video_url"
                 name="requirements"
                 type="checkbox"
@@ -949,7 +949,7 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-dxgOiQ hBWsyH"
+                class="sc-kpOJdX crQHVY"
                 id="github_url"
                 name="requirements"
                 type="checkbox"
