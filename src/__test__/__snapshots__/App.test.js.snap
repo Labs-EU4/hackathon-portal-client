@@ -6,15 +6,6 @@ Object {
   "baseElement": <body>
     <div>
       <main
-<<<<<<< HEAD
-        class="sc-ifAKCX cxhzmo"
-      >
-        <div
-          class="sc-bZQynM kCYwHX"
-        >
-          <a
-            class="sc-jTzLTM XrvAC"
-=======
         class="sc-bdVaJa fRCPGq"
       >
         <div
@@ -22,29 +13,15 @@ Object {
         >
           <a
             class="sc-iwsKbI kBaOMJ"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             href="/"
           >
             <img
               alt="Hackton - Organise hackathons"
-<<<<<<< HEAD
-              class="sc-gzVnrw fjwOGJ"
-=======
               class="sc-bxivhb kZoQaj"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               src="Hackton-logo.png"
             />
           </a>
           <div
-<<<<<<< HEAD
-            class="sc-VigVT eOsLVH"
-          >
-            <div
-              class="sc-gZMcBi kjDCmF"
-            >
-              <button
-                class="sc-htoDjs igNvKU sc-gqjmRU jvaZuF"
-=======
             class="sc-dnqmqq hfyiJR"
           >
             <div
@@ -52,7 +29,6 @@ Object {
             >
               <button
                 class="sc-ifAKCX bXvcoh sc-htoDjs glwwDL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                 color="grey"
                 data-testid="label"
               >
@@ -62,36 +38,16 @@ Object {
           </div>
         </div>
         <div
-<<<<<<< HEAD
-          class="sc-EHOje gXXaNo"
-        >
-          <div
-            class="sc-bEjcJn ceebLs"
-          >
-            <div
-              class="sc-ePZHVD gifJSC"
-            >
-              <div
-                class="sc-likbZx kfUzKF"
-              >
-                <img
-                  alt="Hackton - Organise hackathons"
-                  class="sc-gzVnrw fjwOGJ"
-                  src="Hackton-logo.png"
-                />
-                <div
-                  class="sc-eKZiaR ORomR"
-=======
           class="sc-bwzfXH bofYRx"
         >
           <div
-            class="sc-iSDuPN cZOqbz"
+            class="sc-gmeYpB btQDsy"
           >
             <div
-              class="sc-fZwumE ePdxrZ"
+              class="sc-kZmsYB bQizbw"
             >
               <div
-                class="sc-fQejPQ jgQdGz"
+                class="sc-RcBXQ cbFqvy"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -99,123 +55,71 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-clNaTc djpIMC"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-iSDuPN koECK"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-drMfKT jqVfGC"
+              class="sc-fZwumE kuIJKm"
             >
               <h1
-                class="sc-fgfRvd cnzRoF"
-=======
-              class="sc-etwtAo dkxQyZ"
-            >
-              <h1
-                class="sc-jXQZqI jilfpJ"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-fQejPQ hbvnqo"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-<<<<<<< HEAD
-                class="sc-hIVACf hsdwLT"
+                class="sc-clNaTc gqKkqp"
               >
                 <div
-                  class="sc-gpHHfC frFYQa"
+                  class="sc-etwtAo iivGUu"
                 />
                 <div
-                  class="sc-gpHHfC frFYQa"
+                  class="sc-etwtAo iivGUu"
                 />
                 <div
-                  class="sc-gpHHfC frFYQa"
+                  class="sc-etwtAo iivGUu"
                 />
                 <div
-                  class="sc-gpHHfC frFYQa"
+                  class="sc-etwtAo iivGUu"
                 />
                 <div
-                  class="sc-gpHHfC frFYQa"
+                  class="sc-etwtAo iivGUu"
                 />
                 <div
-                  class="sc-gpHHfC frFYQa"
-=======
-                class="sc-iGPElx igZBxF"
-              >
-                <div
-                  class="sc-kasBVs cDhpIK"
-                />
-                <div
-                  class="sc-kasBVs cDhpIK"
-                />
-                <div
-                  class="sc-kasBVs cDhpIK"
-                />
-                <div
-                  class="sc-kasBVs cDhpIK"
-                />
-                <div
-                  class="sc-kasBVs cDhpIK"
-                />
-                <div
-                  class="sc-kasBVs cDhpIK"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-etwtAo iivGUu"
                 />
               </div>
             </div>
           </div>
           <div
-<<<<<<< HEAD
-            class="sc-dVhcbM sc-gPzReC dugNos"
-=======
-            class="sc-gipzik sc-hzDEsm egjFZt"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+            class="sc-gipzik sc-eInJlc bnmlgA"
           >
             <form
               action="#"
             >
               <div
-<<<<<<< HEAD
-                class="sc-fYxtnH drGOwE"
-              >
-                <h3
-                  class="sc-cIShpX gujfnK"
-=======
-                class="sc-dNLxif fDArVG"
+                class="sc-jbKcbu fBQkaG"
               >
                 <h3
                   class="sc-chPdSV kvOnhD"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                 >
                   Edit Profile
                 </h3>
               </div>
               <div
-<<<<<<< HEAD
-                class="sc-tilXH iDJDrm"
+                class="sc-dNLxif gMnUJX"
               >
                 <label
-                  class="sc-hZSUBg iZJKkF"
-=======
-                class="sc-jqCOkK jlFnik"
-              >
-                <label
-                  class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-esjQYD eQXqqe"
                   for="fullname"
                 >
                   Full Name
                 </label>
                 <input
-<<<<<<< HEAD
-                  class="sc-gipzik gtPBOk"
-=======
                   class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                   display="wide"
                   name="fullname"
                   placeholder="Full Name"
@@ -224,27 +128,16 @@ Object {
                 />
               </div>
               <div
-<<<<<<< HEAD
-                class="sc-tilXH iDJDrm"
+                class="sc-dNLxif gMnUJX"
               >
                 <label
-                  class="sc-hZSUBg iZJKkF"
-=======
-                class="sc-jqCOkK jlFnik"
-              >
-                <label
-                  class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-esjQYD eQXqqe"
                   for="username"
                 >
                   Username
                 </label>
                 <input
-<<<<<<< HEAD
-                  class="sc-gipzik gtPBOk"
-=======
                   class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                   display="wide"
                   name="username"
                   placeholder="Username"
@@ -253,27 +146,16 @@ Object {
                 />
               </div>
               <div
-<<<<<<< HEAD
-                class="sc-tilXH iDJDrm"
+                class="sc-dNLxif gMnUJX"
               >
                 <label
-                  class="sc-hZSUBg iZJKkF"
-=======
-                class="sc-jqCOkK jlFnik"
-              >
-                <label
-                  class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-esjQYD eQXqqe"
                   for="email"
                 >
                   Email
                 </label>
                 <input
-<<<<<<< HEAD
-                  class="sc-gipzik gtPBOk"
-=======
                   class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                   display="wide"
                   name="email"
                   placeholder="Email"
@@ -282,28 +164,17 @@ Object {
                 />
               </div>
               <div
-<<<<<<< HEAD
-                class="sc-tilXH iDJDrm"
+                class="sc-dNLxif gMnUJX"
               >
                 <label
-                  class="sc-hZSUBg iZJKkF"
-=======
-                class="sc-jqCOkK jlFnik"
-              >
-                <label
-                  class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-esjQYD eQXqqe"
                   for="image"
                 >
                   Profile Image
                 </label>
                 <input
                   accept="image/*"
-<<<<<<< HEAD
-                  class="sc-gipzik gtPBOk"
-=======
                   class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                   display="wide"
                   name="image_url"
                   placeholder="Profile picture"
@@ -312,27 +183,16 @@ Object {
                 />
               </div>
               <div
-<<<<<<< HEAD
-                class="sc-tilXH iDJDrm"
+                class="sc-dNLxif gMnUJX"
               >
                 <label
-                  class="sc-hZSUBg iZJKkF"
-=======
-                class="sc-jqCOkK jlFnik"
-              >
-                <label
-                  class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-esjQYD eQXqqe"
                   for="bio"
                 >
                   Bio
                 </label>
                 <div
-<<<<<<< HEAD
-                  class="sc-esOvli JGJQt"
-=======
-                  class="sc-bwCtUz hSJlJm"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-ibxdXY hAIPtF"
                 >
                   <textarea
                     name="bio"
@@ -343,17 +203,10 @@ Object {
                 </div>
               </div>
               <div
-<<<<<<< HEAD
-                class="sc-tilXH sc-jrIrqw isIcbk"
+                class="sc-dNLxif sc-gtfDJT kxACrx"
               >
                 <button
-                  class="sc-htoDjs kZOFAb sc-hjRWVT iyfkwW"
-=======
-                class="sc-jqCOkK sc-jeCdPy QGajo"
-              >
-                <button
-                  class="sc-ifAKCX jRwfJG sc-jtRlXQ bPHnDk"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                  class="sc-ifAKCX jRwfJG sc-fOICqy dFwhUb"
                   color="green"
                   type="submit"
                 >
@@ -364,37 +217,22 @@ Object {
           </div>
         </div>
         <div
-<<<<<<< HEAD
-          class="sc-fjdhpX lltUzp"
-        >
-          <p
-            class="sc-chPdSV gUSzWc"
-=======
           class="sc-gZMcBi jKbyTj"
         >
           <p
             class="sc-fjdhpX bjMPwO"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           >
             International Crafters © 2020
           </p>
           <div>
             <a
-<<<<<<< HEAD
-              class="sc-jzJRlG sc-kAzzGY gWTEZE"
-=======
               class="sc-gqjmRU sc-jTzLTM kFrNrp"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               href="#"
             >
               Privacy
             </a>
             <a
-<<<<<<< HEAD
-              class="sc-jzJRlG sc-kAzzGY gWTEZE"
-=======
               class="sc-gqjmRU sc-jTzLTM kFrNrp"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               href="#"
             >
               Contacts
@@ -402,37 +240,20 @@ Object {
           </div>
         </div>
         <div
-<<<<<<< HEAD
-          class="sc-cJSrbW glZXSR"
+          class="sc-fAjcbJ dxmOqO"
         >
           <div
-            class="sc-kvZOFW fydLLB"
+            class="sc-cHGsZl ciHetX"
           >
             <div
-              class="sc-ksYbfQ iKnNzv"
+              class="sc-caSCKo fGkrEm"
             >
               <div
                 alt="Jake22"
-                class="sc-jbKcbu faRgIS"
+                class="sc-kgAjT gdEPLo"
               />
               <div
-                class="sc-kgAjT jpIKYs"
-=======
-          class="sc-caSCKo gqnHbh"
-        >
-          <div
-            class="sc-TOsTZ jhIGlt"
-          >
-            <div
-              class="sc-gisBJw juBRet"
-            >
-              <div
-                alt="Jake22"
-                class="sc-cJSrbW OVGKL"
-              />
-              <div
-                class="sc-fAjcbJ bLcQVT"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-eqIVtm cIoVjm"
               >
                 <p>
                   Jake Tom
@@ -445,11 +266,7 @@ Object {
           </div>
           <a
             activeclassname="current"
-<<<<<<< HEAD
-            class="sc-dnqmqq gzDmli sc-hqyNC gPUZTf"
-=======
-            class="sc-EHOje djKcqh sc-kgAjT bYbMFg"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+            class="sc-EHOje djKcqh sc-TOsTZ iyYFbz"
             color="primary"
             href="/event/new"
           >
@@ -460,20 +277,12 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-<<<<<<< HEAD
-              class="sc-hmzhuo fdOuvw"
-=======
-              class="sc-kjoXOD iFIUYw"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="sc-gisBJw cCBttx"
               href="/home"
             >
               <svg
                 aria-hidden="true"
-<<<<<<< HEAD
-                class="svg-inline--fa fa-home fa-w-18 sc-fAjcbJ egkiLZ"
-=======
-                class="svg-inline--fa fa-home fa-w-18 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="svg-inline--fa fa-home fa-w-18 sc-bRBYWo dDcCyH"
                 data-icon="home"
                 data-prefix="fas"
                 focusable="false"
@@ -495,20 +304,12 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-<<<<<<< HEAD
-              class="sc-hmzhuo fdOuvw"
-=======
-              class="sc-kjoXOD iFIUYw"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="sc-gisBJw cCBttx"
               href="/dashboard"
             >
               <svg
                 aria-hidden="true"
-<<<<<<< HEAD
-                class="svg-inline--fa fa-th-large fa-w-16 sc-fAjcbJ egkiLZ"
-=======
-                class="svg-inline--fa fa-th-large fa-w-16 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="svg-inline--fa fa-th-large fa-w-16 sc-bRBYWo dDcCyH"
                 data-icon="th-large"
                 data-prefix="fas"
                 focusable="false"
@@ -531,20 +332,12 @@ Object {
           >
             <a
               aria-current="page"
-<<<<<<< HEAD
-              class="sc-hmzhuo fdOuvw current"
-=======
-              class="sc-kjoXOD iFIUYw current"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="sc-gisBJw cCBttx current"
               href="/"
             >
               <svg
                 aria-hidden="true"
-<<<<<<< HEAD
-                class="svg-inline--fa fa-info-circle fa-w-16 sc-fAjcbJ egkiLZ"
-=======
-                class="svg-inline--fa fa-info-circle fa-w-16 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="svg-inline--fa fa-info-circle fa-w-16 sc-bRBYWo dDcCyH"
                 data-icon="info-circle"
                 data-prefix="fas"
                 focusable="false"
@@ -566,20 +359,12 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-<<<<<<< HEAD
-              class="sc-hmzhuo fdOuvw"
-=======
-              class="sc-kjoXOD iFIUYw"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="sc-gisBJw cCBttx"
               href="/results"
             >
               <svg
                 aria-hidden="true"
-<<<<<<< HEAD
-                class="svg-inline--fa fa-trophy fa-w-18 sc-fAjcbJ egkiLZ"
-=======
-                class="svg-inline--fa fa-trophy fa-w-18 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="svg-inline--fa fa-trophy fa-w-18 sc-bRBYWo dDcCyH"
                 data-icon="trophy"
                 data-prefix="fas"
                 focusable="false"
@@ -599,11 +384,7 @@ Object {
           </div>
           <svg
             aria-hidden="true"
-<<<<<<< HEAD
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-fAjcbJ egkiLZ sc-TOsTZ ekiEhm"
-=======
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-hzDkRC hjSvaL sc-eqIVtm hXjdKJ"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-bRBYWo dDcCyH sc-dVhcbM cmosb"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -625,15 +406,6 @@ Object {
   </body>,
   "container": <div>
     <main
-<<<<<<< HEAD
-      class="sc-ifAKCX cxhzmo"
-    >
-      <div
-        class="sc-bZQynM kCYwHX"
-      >
-        <a
-          class="sc-jTzLTM XrvAC"
-=======
       class="sc-bdVaJa fRCPGq"
     >
       <div
@@ -641,29 +413,15 @@ Object {
       >
         <a
           class="sc-iwsKbI kBaOMJ"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           href="/"
         >
           <img
             alt="Hackton - Organise hackathons"
-<<<<<<< HEAD
-            class="sc-gzVnrw fjwOGJ"
-=======
             class="sc-bxivhb kZoQaj"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             src="Hackton-logo.png"
           />
         </a>
         <div
-<<<<<<< HEAD
-          class="sc-VigVT eOsLVH"
-        >
-          <div
-            class="sc-gZMcBi kjDCmF"
-          >
-            <button
-              class="sc-htoDjs igNvKU sc-gqjmRU jvaZuF"
-=======
           class="sc-dnqmqq hfyiJR"
         >
           <div
@@ -671,7 +429,6 @@ Object {
           >
             <button
               class="sc-ifAKCX bXvcoh sc-htoDjs glwwDL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               color="grey"
               data-testid="label"
             >
@@ -681,36 +438,16 @@ Object {
         </div>
       </div>
       <div
-<<<<<<< HEAD
-        class="sc-EHOje gXXaNo"
-      >
-        <div
-          class="sc-bEjcJn ceebLs"
-        >
-          <div
-            class="sc-ePZHVD gifJSC"
-          >
-            <div
-              class="sc-likbZx kfUzKF"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-gzVnrw fjwOGJ"
-                src="Hackton-logo.png"
-              />
-              <div
-                class="sc-eKZiaR ORomR"
-=======
         class="sc-bwzfXH bofYRx"
       >
         <div
-          class="sc-iSDuPN cZOqbz"
+          class="sc-gmeYpB btQDsy"
         >
           <div
-            class="sc-fZwumE ePdxrZ"
+            class="sc-kZmsYB bQizbw"
           >
             <div
-              class="sc-fQejPQ jgQdGz"
+              class="sc-RcBXQ cbFqvy"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -718,123 +455,71 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-clNaTc djpIMC"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-iSDuPN koECK"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-<<<<<<< HEAD
-            class="sc-drMfKT jqVfGC"
+            class="sc-fZwumE kuIJKm"
           >
             <h1
-              class="sc-fgfRvd cnzRoF"
-=======
-            class="sc-etwtAo dkxQyZ"
-          >
-            <h1
-              class="sc-jXQZqI jilfpJ"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="sc-fQejPQ hbvnqo"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-<<<<<<< HEAD
-              class="sc-hIVACf hsdwLT"
+              class="sc-clNaTc gqKkqp"
             >
               <div
-                class="sc-gpHHfC frFYQa"
+                class="sc-etwtAo iivGUu"
               />
               <div
-                class="sc-gpHHfC frFYQa"
+                class="sc-etwtAo iivGUu"
               />
               <div
-                class="sc-gpHHfC frFYQa"
+                class="sc-etwtAo iivGUu"
               />
               <div
-                class="sc-gpHHfC frFYQa"
+                class="sc-etwtAo iivGUu"
               />
               <div
-                class="sc-gpHHfC frFYQa"
+                class="sc-etwtAo iivGUu"
               />
               <div
-                class="sc-gpHHfC frFYQa"
-=======
-              class="sc-iGPElx igZBxF"
-            >
-              <div
-                class="sc-kasBVs cDhpIK"
-              />
-              <div
-                class="sc-kasBVs cDhpIK"
-              />
-              <div
-                class="sc-kasBVs cDhpIK"
-              />
-              <div
-                class="sc-kasBVs cDhpIK"
-              />
-              <div
-                class="sc-kasBVs cDhpIK"
-              />
-              <div
-                class="sc-kasBVs cDhpIK"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-etwtAo iivGUu"
               />
             </div>
           </div>
         </div>
         <div
-<<<<<<< HEAD
-          class="sc-dVhcbM sc-gPzReC dugNos"
-=======
-          class="sc-gipzik sc-hzDEsm egjFZt"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+          class="sc-gipzik sc-eInJlc bnmlgA"
         >
           <form
             action="#"
           >
             <div
-<<<<<<< HEAD
-              class="sc-fYxtnH drGOwE"
-            >
-              <h3
-                class="sc-cIShpX gujfnK"
-=======
-              class="sc-dNLxif fDArVG"
+              class="sc-jbKcbu fBQkaG"
             >
               <h3
                 class="sc-chPdSV kvOnhD"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               >
                 Edit Profile
               </h3>
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-tilXH iDJDrm"
+              class="sc-dNLxif gMnUJX"
             >
               <label
-                class="sc-hZSUBg iZJKkF"
-=======
-              class="sc-jqCOkK jlFnik"
-            >
-              <label
-                class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-esjQYD eQXqqe"
                 for="fullname"
               >
                 Full Name
               </label>
               <input
-<<<<<<< HEAD
-                class="sc-gipzik gtPBOk"
-=======
                 class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                 display="wide"
                 name="fullname"
                 placeholder="Full Name"
@@ -843,27 +528,16 @@ Object {
               />
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-tilXH iDJDrm"
+              class="sc-dNLxif gMnUJX"
             >
               <label
-                class="sc-hZSUBg iZJKkF"
-=======
-              class="sc-jqCOkK jlFnik"
-            >
-              <label
-                class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-esjQYD eQXqqe"
                 for="username"
               >
                 Username
               </label>
               <input
-<<<<<<< HEAD
-                class="sc-gipzik gtPBOk"
-=======
                 class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                 display="wide"
                 name="username"
                 placeholder="Username"
@@ -872,27 +546,16 @@ Object {
               />
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-tilXH iDJDrm"
+              class="sc-dNLxif gMnUJX"
             >
               <label
-                class="sc-hZSUBg iZJKkF"
-=======
-              class="sc-jqCOkK jlFnik"
-            >
-              <label
-                class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-esjQYD eQXqqe"
                 for="email"
               >
                 Email
               </label>
               <input
-<<<<<<< HEAD
-                class="sc-gipzik gtPBOk"
-=======
                 class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                 display="wide"
                 name="email"
                 placeholder="Email"
@@ -901,28 +564,17 @@ Object {
               />
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-tilXH iDJDrm"
+              class="sc-dNLxif gMnUJX"
             >
               <label
-                class="sc-hZSUBg iZJKkF"
-=======
-              class="sc-jqCOkK jlFnik"
-            >
-              <label
-                class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-esjQYD eQXqqe"
                 for="image"
               >
                 Profile Image
               </label>
               <input
                 accept="image/*"
-<<<<<<< HEAD
-                class="sc-gipzik gtPBOk"
-=======
                 class="sc-jWBwVP fJzuhh"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
                 display="wide"
                 name="image_url"
                 placeholder="Profile picture"
@@ -931,27 +583,16 @@ Object {
               />
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-tilXH iDJDrm"
+              class="sc-dNLxif gMnUJX"
             >
               <label
-                class="sc-hZSUBg iZJKkF"
-=======
-              class="sc-jqCOkK jlFnik"
-            >
-              <label
-                class="sc-kIPQKe ipUEXF"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-esjQYD eQXqqe"
                 for="bio"
               >
                 Bio
               </label>
               <div
-<<<<<<< HEAD
-                class="sc-esOvli JGJQt"
-=======
-                class="sc-bwCtUz hSJlJm"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-ibxdXY hAIPtF"
               >
                 <textarea
                   name="bio"
@@ -962,17 +603,10 @@ Object {
               </div>
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-tilXH sc-jrIrqw isIcbk"
+              class="sc-dNLxif sc-gtfDJT kxACrx"
             >
               <button
-                class="sc-htoDjs kZOFAb sc-hjRWVT iyfkwW"
-=======
-              class="sc-jqCOkK sc-jeCdPy QGajo"
-            >
-              <button
-                class="sc-ifAKCX jRwfJG sc-jtRlXQ bPHnDk"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+                class="sc-ifAKCX jRwfJG sc-fOICqy dFwhUb"
                 color="green"
                 type="submit"
               >
@@ -983,37 +617,22 @@ Object {
         </div>
       </div>
       <div
-<<<<<<< HEAD
-        class="sc-fjdhpX lltUzp"
-      >
-        <p
-          class="sc-chPdSV gUSzWc"
-=======
         class="sc-gZMcBi jKbyTj"
       >
         <p
           class="sc-fjdhpX bjMPwO"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
         >
           International Crafters © 2020
         </p>
         <div>
           <a
-<<<<<<< HEAD
-            class="sc-jzJRlG sc-kAzzGY gWTEZE"
-=======
             class="sc-gqjmRU sc-jTzLTM kFrNrp"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             href="#"
           >
             Privacy
           </a>
           <a
-<<<<<<< HEAD
-            class="sc-jzJRlG sc-kAzzGY gWTEZE"
-=======
             class="sc-gqjmRU sc-jTzLTM kFrNrp"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             href="#"
           >
             Contacts
@@ -1021,37 +640,20 @@ Object {
         </div>
       </div>
       <div
-<<<<<<< HEAD
-        class="sc-cJSrbW glZXSR"
+        class="sc-fAjcbJ dxmOqO"
       >
         <div
-          class="sc-kvZOFW fydLLB"
+          class="sc-cHGsZl ciHetX"
         >
           <div
-            class="sc-ksYbfQ iKnNzv"
+            class="sc-caSCKo fGkrEm"
           >
             <div
               alt="Jake22"
-              class="sc-jbKcbu faRgIS"
+              class="sc-kgAjT gdEPLo"
             />
             <div
-              class="sc-kgAjT jpIKYs"
-=======
-        class="sc-caSCKo gqnHbh"
-      >
-        <div
-          class="sc-TOsTZ jhIGlt"
-        >
-          <div
-            class="sc-gisBJw juBRet"
-          >
-            <div
-              alt="Jake22"
-              class="sc-cJSrbW OVGKL"
-            />
-            <div
-              class="sc-fAjcbJ bLcQVT"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="sc-eqIVtm cIoVjm"
             >
               <p>
                 Jake Tom
@@ -1064,11 +666,7 @@ Object {
         </div>
         <a
           activeclassname="current"
-<<<<<<< HEAD
-          class="sc-dnqmqq gzDmli sc-hqyNC gPUZTf"
-=======
-          class="sc-EHOje djKcqh sc-kgAjT bYbMFg"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+          class="sc-EHOje djKcqh sc-TOsTZ iyYFbz"
           color="primary"
           href="/event/new"
         >
@@ -1079,20 +677,12 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-<<<<<<< HEAD
-            class="sc-hmzhuo fdOuvw"
-=======
-            class="sc-kjoXOD iFIUYw"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+            class="sc-gisBJw cCBttx"
             href="/home"
           >
             <svg
               aria-hidden="true"
-<<<<<<< HEAD
-              class="svg-inline--fa fa-home fa-w-18 sc-fAjcbJ egkiLZ"
-=======
-              class="svg-inline--fa fa-home fa-w-18 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="svg-inline--fa fa-home fa-w-18 sc-bRBYWo dDcCyH"
               data-icon="home"
               data-prefix="fas"
               focusable="false"
@@ -1114,20 +704,12 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-<<<<<<< HEAD
-            class="sc-hmzhuo fdOuvw"
-=======
-            class="sc-kjoXOD iFIUYw"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+            class="sc-gisBJw cCBttx"
             href="/dashboard"
           >
             <svg
               aria-hidden="true"
-<<<<<<< HEAD
-              class="svg-inline--fa fa-th-large fa-w-16 sc-fAjcbJ egkiLZ"
-=======
-              class="svg-inline--fa fa-th-large fa-w-16 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="svg-inline--fa fa-th-large fa-w-16 sc-bRBYWo dDcCyH"
               data-icon="th-large"
               data-prefix="fas"
               focusable="false"
@@ -1150,20 +732,12 @@ Object {
         >
           <a
             aria-current="page"
-<<<<<<< HEAD
-            class="sc-hmzhuo fdOuvw current"
-=======
-            class="sc-kjoXOD iFIUYw current"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+            class="sc-gisBJw cCBttx current"
             href="/"
           >
             <svg
               aria-hidden="true"
-<<<<<<< HEAD
-              class="svg-inline--fa fa-info-circle fa-w-16 sc-fAjcbJ egkiLZ"
-=======
-              class="svg-inline--fa fa-info-circle fa-w-16 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="svg-inline--fa fa-info-circle fa-w-16 sc-bRBYWo dDcCyH"
               data-icon="info-circle"
               data-prefix="fas"
               focusable="false"
@@ -1185,20 +759,12 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-<<<<<<< HEAD
-            class="sc-hmzhuo fdOuvw"
-=======
-            class="sc-kjoXOD iFIUYw"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+            class="sc-gisBJw cCBttx"
             href="/results"
           >
             <svg
               aria-hidden="true"
-<<<<<<< HEAD
-              class="svg-inline--fa fa-trophy fa-w-18 sc-fAjcbJ egkiLZ"
-=======
-              class="svg-inline--fa fa-trophy fa-w-18 sc-hzDkRC hjSvaL"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+              class="svg-inline--fa fa-trophy fa-w-18 sc-bRBYWo dDcCyH"
               data-icon="trophy"
               data-prefix="fas"
               focusable="false"
@@ -1218,11 +784,7 @@ Object {
         </div>
         <svg
           aria-hidden="true"
-<<<<<<< HEAD
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-fAjcbJ egkiLZ sc-TOsTZ ekiEhm"
-=======
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-hzDkRC hjSvaL sc-eqIVtm hXjdKJ"
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-bRBYWo dDcCyH sc-dVhcbM cmosb"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"
