@@ -18,7 +18,7 @@ export const BodyRow = styled(BodyContainerN)`
   max-width: 100vw;
 `;
 
-export const BodyColumn = styled(BodyContainer)`
+export const BodyColumn = styled(BodyContainerN)`
   flex-direction: row;
   align-items: flex-start;
   height: 100%;
