@@ -79,8 +79,8 @@ const Nav = ({
         </StyledProfileImage>
       </UserContainer>
       <StyledButton
-        active={isSideBarOpen}
-        exact
+        active={isSideBarOpen.toString()}
+        exact="true"
         link
         to="/event/new"
         color="primary"
@@ -92,7 +92,7 @@ const Nav = ({
         return (
           <div key={idx} style={{ width: "100%", position: "relative" }}>
             <StyledNavLink
-              active={isSideBarOpen}
+              active={isSideBarOpen.toString()}
               exact
               to={url}
               key={title}

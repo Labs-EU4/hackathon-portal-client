@@ -266,8 +266,10 @@ Object {
             </div>
           </div>
           <a
-            class="sc-EHOje djKcqh sc-fBuWsC bksUVU"
+            active="false"
+            class="sc-EHOje djKcqh sc-fBuWsC kRKSyB"
             color="primary"
+            exact="true"
             href="/event/new"
           >
             Create
@@ -277,7 +279,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-bRBYWo hdDBwW"
+              active="false"
+              class="sc-bRBYWo hBZQIT"
               href="/home"
             >
               <svg
@@ -304,7 +307,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-bRBYWo hdDBwW"
+              active="false"
+              class="sc-bRBYWo hBZQIT"
               href="/dashboard"
             >
               <svg
@@ -331,8 +335,9 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
+              active="false"
               aria-current="page"
-              class="sc-bRBYWo hdDBwW current"
+              class="sc-bRBYWo hBZQIT current"
               href="/"
             >
               <svg
@@ -359,7 +364,8 @@ Object {
             style="width: 100%; position: relative;"
           >
             <a
-              class="sc-bRBYWo hdDBwW"
+              active="false"
+              class="sc-bRBYWo hBZQIT"
               href="/results"
             >
               <svg
@@ -667,8 +673,10 @@ Object {
           </div>
         </div>
         <a
-          class="sc-EHOje djKcqh sc-fBuWsC bksUVU"
+          active="false"
+          class="sc-EHOje djKcqh sc-fBuWsC kRKSyB"
           color="primary"
+          exact="true"
           href="/event/new"
         >
           Create
@@ -678,7 +686,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-bRBYWo hdDBwW"
+            active="false"
+            class="sc-bRBYWo hBZQIT"
             href="/home"
           >
             <svg
@@ -705,7 +714,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-bRBYWo hdDBwW"
+            active="false"
+            class="sc-bRBYWo hBZQIT"
             href="/dashboard"
           >
             <svg
@@ -732,8 +742,9 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
+            active="false"
             aria-current="page"
-            class="sc-bRBYWo hdDBwW current"
+            class="sc-bRBYWo hBZQIT current"
             href="/"
           >
             <svg
@@ -760,7 +771,8 @@ Object {
           style="width: 100%; position: relative;"
         >
           <a
-            class="sc-bRBYWo hdDBwW"
+            active="false"
+            class="sc-bRBYWo hBZQIT"
             href="/results"
           >
             <svg
