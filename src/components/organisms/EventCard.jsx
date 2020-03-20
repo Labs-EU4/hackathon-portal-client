@@ -11,7 +11,7 @@ import {
   DateParagraph,
   LocationParagraph,
   CardCountDown,
-  StyledBookmarkIconN,
+  StyledBookmarkIcon,
   StyledStarIconN
 } from "../../assets/styles/organisms/EventCardStyling";
 import { Card } from "../../assets/styles/atoms/CardStyling";
