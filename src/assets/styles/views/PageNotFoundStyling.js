@@ -3,7 +3,7 @@ import { H2 } from "../atoms/HeadingStyling";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-export const BodyColumn = styled(BodyContainerN)`
+export const BodyColumn = styled(BodyContainer)`
   flex-direction: column;
   align-items: start;
   height: 100%;
