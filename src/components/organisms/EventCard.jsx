@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 import {
-  StyledEventCardN,
+  StyledEventCard,
   EventImageN,
   OrgImgN,
   StyledIconLetterN,
@@ -56,8 +56,8 @@ const EventCard = ({ event, eventModalHandler }) => {
           {organizer_profile_pic ? (
             <OrgImgN src={organizerImg.avatar} alt={organizer_name} />
           ) : (
-              letter && <StyledIconLetterN>{letter}</StyledIconLetterN>
-            )}
+            letter && <StyledIconLetterN>{letter}</StyledIconLetterN>
+          )}
           <DateParagraphN bold>
             {startMonth !== endMonth ? (
               <>
@@ -68,10 +68,10 @@ const EventCard = ({ event, eventModalHandler }) => {
                 {startMonth} {startDay}, {startYear}
               </>
             ) : (
-                  <>
-                    {startMonth} {startDay} - {endDay}, {startYear}
-                  </>
-                )}
+              <>
+                {startMonth} {startDay} - {endDay}, {startYear}
+              </>
+            )}
           </DateParagraphN>
           <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
