@@ -11,7 +11,7 @@ import { RowHeadN } from "../../assets/styles/atoms/RowHead";
 import { RowBodyN } from "../../assets/styles/atoms/RowBody";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
-import {LabelN} from "../../assets/styles/atoms/Label";
+import { LabelN } from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import {
@@ -75,11 +75,7 @@ const ParticipantSubmission = ({
   return (
     <StyledWideBody>
       <CardForm>
-<<<<<<< HEAD
-        <RowHead>
-=======
         <RowHeadN>
->>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           <H3>Submit Project</H3>
         </RowHead>
         <Formik
