@@ -8,7 +8,7 @@ import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmiss
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHeadN } from "../../assets/styles/atoms/RowHead";
 import { RowBodyN } from "../../assets/styles/atoms/RowBody";
-import { CardFormN } from "../../assets/styles/atoms/Card";
+import { CardForm } from "../../assets/styles/atoms/CardStyling";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
 import {LabelN} from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
@@ -75,7 +75,7 @@ const ParticipantSubmission = ({
 
   return (
     <StyledWideBody>
-      <CardFormN>
+      <CardForm>
         <RowHeadN>
           <H3>Submit Project</H3>
         </RowHeadN>
@@ -121,7 +121,7 @@ const ParticipantSubmission = ({
             </Form>
           )}
         </Formik>
-      </CardFormN>
+      </CardForm>
     </StyledWideBody>
   );
 };

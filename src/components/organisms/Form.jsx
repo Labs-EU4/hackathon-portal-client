@@ -7,8 +7,8 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
 
-import { ContainerN } from "../../assets/styles/atoms/Container";
-import { H1 } from "../../assets/styles/atoms/Heading";
+import { Container } from "../../assets/styles/atoms/ContainerStyling";
+import { H1 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/Paragraph";
 import { ErrorSpan } from "../../assets/styles/atoms/Span";
 import { LabelN } from "../../assets/styles/atoms/Label";
@@ -112,7 +112,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   }
 
   return (
-    <ContainerN>
+    <Container>
       <H1>{formHeader}</H1>
       <Paragraph>{formParagraph}</Paragraph>
       <Formik
@@ -193,7 +193,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       </Formik>
 
       <SocialMedia></SocialMedia>
-    </ContainerN>
+    </Container>
   );
 };
 

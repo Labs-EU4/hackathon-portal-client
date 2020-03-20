@@ -14,8 +14,8 @@ import {
   StyledBookmarkIconN,
   StyledStarIconN
 } from "../../assets/styles/organisms/EventCardStyling";
-import { CardN } from "../../assets/styles/atoms/Card";
-import { H4N } from "../../assets/styles/atoms/Heading";
+import { Card } from "../../assets/styles/atoms/CardStyling";
+import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
 import Button from "../atoms/Button";
 import eventImg from "../../assets/images/event-img.jpg";
@@ -48,7 +48,7 @@ const EventCard = ({ event, eventModalHandler }) => {
 
   return (
     <StyledEventCardN>
-      <CardN>
+      <Card>
         <EventImageN>
           <img src={eventImg} alt={event_title} />
         </EventImageN>
@@ -73,7 +73,7 @@ const EventCard = ({ event, eventModalHandler }) => {
                   </>
                 )}
           </DateParagraphN>
-          <H4N>{event_title}</H4N>
+          <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
           <ParagraphN>{excerpt}</ParagraphN>
           <CardCountDownN>{formattedDate}</CardCountDownN>
@@ -92,7 +92,7 @@ const EventCard = ({ event, eventModalHandler }) => {
         </EventCardContentN>
         <StyledBookmarkIconN icon="bookmark" />
         <StyledStarIconN icon="star" />
-      </CardN>
+      </Card>
     </StyledEventCardN>
   );
 };

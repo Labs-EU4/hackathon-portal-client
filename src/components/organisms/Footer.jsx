@@ -1,6 +1,6 @@
 import React from "react";
 
-import FooterContainer from "../../assets/styles/atoms/FooterContainerStyling";
+import { FooterContainer } from "../../assets/styles/atoms/FooterContainerStyling";
 import Group from "../atoms/Group";
 import { FooterNavAnchor } from "../../assets/styles/atoms/AnchorStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";

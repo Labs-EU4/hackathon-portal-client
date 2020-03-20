@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FooterContainer = styled.div`
+export const FooterContainer = styled.div`
   grid-area: footer;
   ${props => props.theme.flex.center};
   position: relative;
@@ -9,5 +9,3 @@ const FooterContainer = styled.div`
     color: white;
   }
 `;
-
-export default FooterContainer;

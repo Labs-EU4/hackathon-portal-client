@@ -4,7 +4,7 @@ import { ErrorSpanN } from "../../assets/styles/atoms/Span";
 import { ErrorMessage } from "formik";
 import Input from "../atoms/Input";
 import {LabelN} from "../../assets/styles/atoms/Label";
-import { ColumnN } from "../../assets/styles/atoms/Column";
+import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
 
    
@@ -24,7 +24,7 @@ const ProjectTitle = (props) => {
                 </ParagraphN>
               </RowBodyN>
               <RowBodyN>
-                <ColumnN>
+                <Column>
                   <LabelN htmlFor="project_title">Project Title</LabelN>
                   <Input
                     type="text"
@@ -35,8 +35,8 @@ const ProjectTitle = (props) => {
                   <ErrorSpanN>
                     <ErrorMessage name="project_title" component="div" />
                   </ErrorSpanN>
-                </ColumnN>
-                <ColumnN>
+                </Column>
+                <Column>
                   <LabelN htmlFor="participant_or_team_nam">
                     Team/Participant name
                   </LabelN>
@@ -52,7 +52,7 @@ const ProjectTitle = (props) => {
                       component="div"
                     />
                   </ErrorSpanN>
-                </ColumnN>
+                </Column>
               </RowBodyN>
               </>
     )}
