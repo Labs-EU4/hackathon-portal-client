@@ -92,7 +92,7 @@ export const StyledBookmarkIcon = styled(Icon)`
   cursor: pointer;
 `;
 
-export const StyledStarIconN = styled(Icon)`
+export const StyledStarIcon = styled(Icon)`
   position: absolute;
   top: 0;
   left: 11px;
