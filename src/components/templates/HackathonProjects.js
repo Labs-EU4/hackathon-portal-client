@@ -20,7 +20,7 @@ import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHead";
-import { Paragraph } from "../../assets/styles/atoms/Paragraph";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
 import Spinner from "../molecules/Spinner";
 import HackathonProjectPage from "../views/HackathonProjectPage";
