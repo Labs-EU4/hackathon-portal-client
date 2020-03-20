@@ -14,7 +14,7 @@ export const BodyColumn = styled(BodyContainerN)`
     height: 100%;
   }
 `;
-export const BodyRow = styled(BodyContainer)`
+export const BodyRow = styled(BodyContainerN)`
   flex-direction: row;
   justify-content: space-between;
   height: 100%;
