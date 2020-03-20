@@ -1,7 +1,6 @@
 import styled from "styled-components";
-// import { type } from "../variables/index";
 
-export const LabelN = styled.label`
+const Label = styled.label`
   display: inline-block;
   font-weight: bold;
   color: ${props => props.theme.color.grey.light};
@@ -9,3 +8,4 @@ export const LabelN = styled.label`
   padding: 5px;
 `;
 
+export default Label;
