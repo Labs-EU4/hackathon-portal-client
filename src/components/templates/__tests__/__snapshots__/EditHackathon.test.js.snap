@@ -62,7 +62,7 @@ Object {
                 value="EuroHack"
               />
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
             <div
@@ -75,7 +75,7 @@ Object {
                 Description
               </label>
               <div
-                class="sc-jKJlTe cIHiCP"
+                class="sc-ckVGcZ bkFhs"
               >
                 <textarea
                   id="event_description"
@@ -86,7 +86,7 @@ Object {
                 </textarea>
               </div>
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
             <div
@@ -104,14 +104,14 @@ Object {
                 <input
                   class="sc-chPdSV hhxnWJ"
                   id="start_date"
-                  min="2020-03-19"
+                  min="2020-03-20"
                   name="start_date"
                   placeholder="Event starts"
                   type="date"
                   value="10/09/11"
                 />
                 <span
-                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
                 />
               </div>
               <div
@@ -133,7 +133,7 @@ Object {
                   value="08/07/13"
                 />
                 <span
-                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
                 />
               </div>
             </div>
@@ -148,7 +148,7 @@ Object {
                 Grading Rubrics (tick all that apply)
               </label>
               <p
-                class="sc-hMqMXs fgCZqA"
+                class="sc-eNQAEJ ddBNwG"
               >
                 Judges will be expected to grade project submissions on which one of the following
               </p>
@@ -157,14 +157,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="presentation"
                   name="rubrics"
                   type="checkbox"
                   value="presentation"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="presentation"
                 >
                   Presentation
@@ -174,14 +174,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="product_fit"
                   name="rubrics"
                   type="checkbox"
                   value="product_fit"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="product_fit"
                 >
                   Product Fit
@@ -191,14 +191,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="functionality"
                   name="rubrics"
                   type="checkbox"
                   value="functionality"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="functionality"
                 >
                   Functionality
@@ -208,14 +208,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="innovation"
                   name="rubrics"
                   type="checkbox"
                   value="innovation"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="innovation"
                 >
                   Innovation
@@ -225,14 +225,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="product_design"
                   name="rubrics"
                   type="checkbox"
                   value="product_design"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="product_design"
                 >
                   Product Design
@@ -242,14 +242,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="extensibility"
                   name="rubrics"
                   type="checkbox"
                   value="extensibility"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="extensibility"
                 >
                   Extensibility
@@ -269,7 +269,7 @@ Object {
                   Participation Type
                 </label>
                 <select
-                  class="sc-eNQAEJ lbQqkK"
+                  class="sc-jKJlTe ePeoXD"
                   id="participation_type"
                   name="participation_type"
                 >
@@ -297,7 +297,7 @@ Object {
                   </option>
                 </select>
                 <span
-                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
                 />
               </div>
               <div
@@ -310,7 +310,7 @@ Object {
                   Event Category
                 </label>
                 <select
-                  class="sc-eNQAEJ lbQqkK"
+                  class="sc-jKJlTe ePeoXD"
                   id="event_category"
                   name="event_category"
                 >
@@ -348,7 +348,7 @@ Object {
                   </option>
                 </select>
                 <span
-                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                  class="sc-hMqMXs sc-hSdWYo lfRhmD"
                 />
               </div>
             </div>
@@ -374,7 +374,7 @@ Object {
                 value="Europe"
               />
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
             <div
@@ -387,7 +387,7 @@ Object {
                 Guidelines
               </label>
               <div
-                class="sc-jKJlTe cIHiCP"
+                class="sc-ckVGcZ bkFhs"
               >
                 <textarea
                   id="guidelines"
@@ -398,7 +398,7 @@ Object {
                 </textarea>
               </div>
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
             <div
@@ -441,7 +441,7 @@ Object {
                 Project Submission Requirements (tick all that apply)
               </label>
               <p
-                class="sc-hMqMXs fgCZqA"
+                class="sc-eNQAEJ ddBNwG"
               >
                 Participants will be expected to submit which one of the following
               </p>
@@ -449,14 +449,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="video_url"
                   name="requirements"
                   type="checkbox"
                   value="video_url"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="video_url"
                 >
                   Video URL
@@ -466,14 +466,14 @@ Object {
                 class="sc-kGXeez ipfKQQ"
               >
                 <input
-                  class="sc-ckVGcZ lfBqaG"
+                  class="sc-dxgOiQ hBWsyH"
                   id="github_url"
                   name="requirements"
                   type="checkbox"
                   value="github_url"
                 />
                 <label
-                  class="sc-kpOJdX eKPMqC"
+                  class="sc-cSHVUG zmqIo"
                   for="github_url"
                 >
                   GitHub URL
@@ -553,7 +553,7 @@ Object {
               value="EuroHack"
             />
             <span
-              class="sc-kEYyzF sc-eHgmQL bfkbKW"
+              class="sc-hMqMXs sc-hSdWYo lfRhmD"
             />
           </div>
           <div
@@ -566,7 +566,7 @@ Object {
               Description
             </label>
             <div
-              class="sc-jKJlTe cIHiCP"
+              class="sc-ckVGcZ bkFhs"
             >
               <textarea
                 id="event_description"
@@ -577,7 +577,7 @@ Object {
               </textarea>
             </div>
             <span
-              class="sc-kEYyzF sc-eHgmQL bfkbKW"
+              class="sc-hMqMXs sc-hSdWYo lfRhmD"
             />
           </div>
           <div
@@ -595,14 +595,14 @@ Object {
               <input
                 class="sc-chPdSV hhxnWJ"
                 id="start_date"
-                min="2020-03-19"
+                min="2020-03-20"
                 name="start_date"
                 placeholder="Event starts"
                 type="date"
                 value="10/09/11"
               />
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
             <div
@@ -624,7 +624,7 @@ Object {
                 value="08/07/13"
               />
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
           </div>
@@ -639,7 +639,7 @@ Object {
               Grading Rubrics (tick all that apply)
             </label>
             <p
-              class="sc-hMqMXs fgCZqA"
+              class="sc-eNQAEJ ddBNwG"
             >
               Judges will be expected to grade project submissions on which one of the following
             </p>
@@ -648,14 +648,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="presentation"
                 name="rubrics"
                 type="checkbox"
                 value="presentation"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="presentation"
               >
                 Presentation
@@ -665,14 +665,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="product_fit"
                 name="rubrics"
                 type="checkbox"
                 value="product_fit"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="product_fit"
               >
                 Product Fit
@@ -682,14 +682,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="functionality"
                 name="rubrics"
                 type="checkbox"
                 value="functionality"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="functionality"
               >
                 Functionality
@@ -699,14 +699,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="innovation"
                 name="rubrics"
                 type="checkbox"
                 value="innovation"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="innovation"
               >
                 Innovation
@@ -716,14 +716,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="product_design"
                 name="rubrics"
                 type="checkbox"
                 value="product_design"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="product_design"
               >
                 Product Design
@@ -733,14 +733,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="extensibility"
                 name="rubrics"
                 type="checkbox"
                 value="extensibility"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="extensibility"
               >
                 Extensibility
@@ -760,7 +760,7 @@ Object {
                 Participation Type
               </label>
               <select
-                class="sc-eNQAEJ lbQqkK"
+                class="sc-jKJlTe ePeoXD"
                 id="participation_type"
                 name="participation_type"
               >
@@ -788,7 +788,7 @@ Object {
                 </option>
               </select>
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
             <div
@@ -801,7 +801,7 @@ Object {
                 Event Category
               </label>
               <select
-                class="sc-eNQAEJ lbQqkK"
+                class="sc-jKJlTe ePeoXD"
                 id="event_category"
                 name="event_category"
               >
@@ -839,7 +839,7 @@ Object {
                 </option>
               </select>
               <span
-                class="sc-kEYyzF sc-eHgmQL bfkbKW"
+                class="sc-hMqMXs sc-hSdWYo lfRhmD"
               />
             </div>
           </div>
@@ -865,7 +865,7 @@ Object {
               value="Europe"
             />
             <span
-              class="sc-kEYyzF sc-eHgmQL bfkbKW"
+              class="sc-hMqMXs sc-hSdWYo lfRhmD"
             />
           </div>
           <div
@@ -878,7 +878,7 @@ Object {
               Guidelines
             </label>
             <div
-              class="sc-jKJlTe cIHiCP"
+              class="sc-ckVGcZ bkFhs"
             >
               <textarea
                 id="guidelines"
@@ -889,7 +889,7 @@ Object {
               </textarea>
             </div>
             <span
-              class="sc-kEYyzF sc-eHgmQL bfkbKW"
+              class="sc-hMqMXs sc-hSdWYo lfRhmD"
             />
           </div>
           <div
@@ -932,7 +932,7 @@ Object {
               Project Submission Requirements (tick all that apply)
             </label>
             <p
-              class="sc-hMqMXs fgCZqA"
+              class="sc-eNQAEJ ddBNwG"
             >
               Participants will be expected to submit which one of the following
             </p>
@@ -940,14 +940,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="video_url"
                 name="requirements"
                 type="checkbox"
                 value="video_url"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="video_url"
               >
                 Video URL
@@ -957,14 +957,14 @@ Object {
               class="sc-kGXeez ipfKQQ"
             >
               <input
-                class="sc-ckVGcZ lfBqaG"
+                class="sc-dxgOiQ hBWsyH"
                 id="github_url"
                 name="requirements"
                 type="checkbox"
                 value="github_url"
               />
               <label
-                class="sc-kpOJdX eKPMqC"
+                class="sc-cSHVUG zmqIo"
                 for="github_url"
               >
                 GitHub URL
