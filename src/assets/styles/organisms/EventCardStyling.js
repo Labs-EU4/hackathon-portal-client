@@ -83,7 +83,7 @@ export const CardCountDown = styled.div`
   padding: 5px 10px;
 `;
 
-export const StyledBookmarkIconN = styled(Icon)`
+export const StyledBookmarkIcon = styled(Icon)`
   position: absolute;
   top: -5px;
   left: 10px;
