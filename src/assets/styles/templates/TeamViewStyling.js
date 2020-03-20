@@ -4,7 +4,7 @@ import { BodyContainerN } from "../atoms/BodyContainerStyling";
 import { BoldSpan } from "../atoms/Span";
 import { NavLink } from "react-router-dom";
 
-export const TeamsContainer = styled(BodyContainer)`
+export const TeamsContainer = styled(BodyContainerN)`
   background-color: white;
   width: 50%;
   height: 40%;
