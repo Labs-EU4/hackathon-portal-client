@@ -1,5 +1,5 @@
 import React from "react";
-import { type, Solid, media } from "../variables/index";
+import {  media } from "../variables/index";
 import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { CardWide } from "../atoms/CardStyling";
 import Icon from "../../../components/atoms/Icon";
