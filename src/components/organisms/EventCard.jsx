@@ -48,7 +48,7 @@ const EventCard = ({ event, eventModalHandler }) => {
 
   return (
     <StyledEventCardN>
-      <CardN>
+      <Card>
         <EventImageN>
           <img src={eventImg} alt={event_title} />
         </EventImageN>
@@ -92,7 +92,7 @@ const EventCard = ({ event, eventModalHandler }) => {
         </EventCardContentN>
         <StyledBookmarkIconN icon="bookmark" />
         <StyledStarIconN icon="star" />
-      </CardN>
+      </Card>
     </StyledEventCardN>
   );
 };
