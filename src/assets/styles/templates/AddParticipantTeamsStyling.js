@@ -1,7 +1,6 @@
 import styled from "styled-components";
-
 import { media } from "../variables/media";
-import { BodyContainer } from "../atoms/BodyContainerStyling";
+import { BodyContainerN } from "../atoms/BodyContainerStyling";
 
 export const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
