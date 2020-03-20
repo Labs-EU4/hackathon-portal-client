@@ -4,7 +4,7 @@ import { CardWide } from "../atoms/CardStyling";
 import Icon from "../../../components/atoms/Icon";
 import styled from "styled-components";
 
-export const BodyContainerColumn = styled(BodyContainerN)`
+export const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
   justify-content: start;
 `;
