@@ -9,7 +9,7 @@ import { RowHeadN } from "../../assets/styles/atoms/RowHead";
 import { RowBodyN } from "../../assets/styles/atoms/RowBody";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
-import Label from "../../assets/styles/atoms/Label";
+import { Label } from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import {
   fetchAllSubmissions,
