@@ -76,7 +76,7 @@ const EventCard = ({ event, eventModalHandler }) => {
           <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
           <ParagraphN>{excerpt}</ParagraphN>
-          <CardCountDownN>{formattedDate}</CardCountDownN>
+          <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
             <Button
               link
