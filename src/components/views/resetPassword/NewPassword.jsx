@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
 import { WideBody } from "../../../assets/styles/atoms/WideBodyStyling";
-import { BodyContainerN } from "../../../assets/styles/atoms/BodyContainerStyling";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
 import Container from "../../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../../assets/styles/atoms/ParagraphStyling";
@@ -38,7 +38,7 @@ const ResetPassword = () => {
   return (
     <div>
       <WideBody>
-        <BodyContainerN justify="center">
+        <BodyContainer justify="center">
           {/* <HeroImage src={image} alt="Reset passowrd" /> */}
           <Container>
             <H1>Change the password</H1>
@@ -80,21 +80,21 @@ const ResetPassword = () => {
                     <ErrorMessage name="newPasswordConfirm" />
                   </ErrorSpan>
                   <RowBody>
-                    <Button type="submit" size="wide" color="blue">Change Password</Button>
+                    <Button type="submit" size="wide" color="blue">
+                      Change Password
+                    </Button>
                   </RowBody>
                 </Form>
               )}
             </Formik>
           </Container>
-        </BodyContainerN>
+        </BodyContainer>
       </WideBody>
     </div>
   );
 };
 
 export default ResetPassword;
-
-
 
 // import React from "react";
 // import { Formik, Form, ErrorMessage } from "formik";
