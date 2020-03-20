@@ -73,7 +73,7 @@ export const LocationParagraphN = styled(ParagraphN)`
   color: ${props => props.theme.color.grey.light};
 `;
 
-export const CardCountDownN = styled.div`
+export const CardCountDown = styled.div`
   position: absolute;
   top: 20px;
   left: 70%;
