@@ -22,7 +22,7 @@ const ProjectTitle = props => {
       </RowBodyN>
       <RowBodyN>
         <Column>
-          <LabelN htmlFor="project_title">Project Title</LabelN>
+          <Label htmlFor="project_title">Project Title</Label>
           <Input
             type="text"
             id="project_title"
@@ -34,9 +34,7 @@ const ProjectTitle = props => {
           </ErrorSpanN>
         </Column>
         <Column>
-          <LabelN htmlFor="participant_or_team_nam">
-            Team/Participant name
-          </LabelN>
+          <Label htmlFor="participant_or_team_nam">Team/Participant name</Label>
           <Input
             type="text"
             name="participant_or_team_name"
