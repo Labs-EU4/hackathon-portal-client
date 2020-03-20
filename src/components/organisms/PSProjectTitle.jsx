@@ -32,9 +32,9 @@ const ProjectTitle = (props) => {
             name="project_title"
             display="wide"
           />
-          <ErrorSpanN>
+          <ErrorSpan>
             <ErrorMessage name="project_title" component="div" />
-          </ErrorSpanN>
+          </ErrorSpan>
         </Column>
         <Column>
           <Label htmlFor="participant_or_team_nam">
@@ -46,12 +46,12 @@ const ProjectTitle = (props) => {
             id="participant_or_team_name"
             display="wide"
           />
-          <ErrorSpanN>
+          <ErrorSpan>
             <ErrorMessage
               name="participant_or_team_name"
               component="div"
             />
-          </ErrorSpanN>
+          </ErrorSpan>
         </Column>
       </RowBody>
     </>
