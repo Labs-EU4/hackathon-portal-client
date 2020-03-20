@@ -58,7 +58,7 @@ const EventCard = ({ event, eventModalHandler }) => {
           ) : (
             letter && <StyledIconLetter>{letter}</StyledIconLetter>
           )}
-          <DateParagraphN bold>
+          <DateParagraph bold>
             {startMonth !== endMonth ? (
               <>
                 {startMonth} {startDay} - {endMonth} {endDay}, {startYear}
@@ -72,7 +72,7 @@ const EventCard = ({ event, eventModalHandler }) => {
                 {startMonth} {startDay} - {endDay}, {startYear}
               </>
             )}
-          </DateParagraphN>
+          </DateParagraph>
           <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
           <ParagraphN>{excerpt}</ParagraphN>
