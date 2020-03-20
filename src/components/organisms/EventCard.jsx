@@ -56,7 +56,7 @@ const EventCard = ({ event, eventModalHandler }) => {
           {organizer_profile_pic ? (
             <OrgImg src={organizerImg.avatar} alt={organizer_name} />
           ) : (
-            letter && <StyledIconLetterN>{letter}</StyledIconLetterN>
+            letter && <StyledIconLetter>{letter}</StyledIconLetter>
           )}
           <DateParagraphN bold>
             {startMonth !== endMonth ? (
