@@ -16,7 +16,7 @@ import {
 } from "../../assets/styles/organisms/EventCardStyling";
 import { Card } from "../../assets/styles/atoms/CardStyling";
 import { H4 } from "../../assets/styles/atoms/HeadingStyling";
-import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
 import eventImg from "../../assets/images/event-img.jpg";
 
