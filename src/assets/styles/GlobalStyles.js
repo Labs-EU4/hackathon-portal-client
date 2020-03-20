@@ -104,7 +104,7 @@ export const InputFull = styled(LabelN)`
 `;
 
 export const BodyContainerColumn = styled(props => (
-  <BodyContainer {...props} />
+  <BodyContainerN {...props} />
 ))`
   flex-direction: column;
   justify-content: start;
