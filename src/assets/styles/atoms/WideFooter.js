@@ -1,4 +1,4 @@
-export const WideFooterN = styled.div`
+export const WideFooter = styled.div`
   display: flex;
   justify-content: center;
   @media ${media.mobile} {
