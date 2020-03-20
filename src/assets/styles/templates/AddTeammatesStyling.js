@@ -1,5 +1,5 @@
 import { media } from "../variables/index";
-import { BodyContainerN } from "../atoms/BodyContainerStyling";
+import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { CardWide } from "../atoms/CardStyling";
 import Icon from "../../../components/atoms/Icon";
 import styled from "styled-components";
