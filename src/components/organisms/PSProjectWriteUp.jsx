@@ -18,9 +18,9 @@ const ProjectWriteup = () => {
           name="project_writeups"
           id="project_writeups"
         />
-        <ErrorSpanN>
+        <ErrorSpan>
           <ErrorMessage name="project_writeups" />
-        </ErrorSpanN>
+        </ErrorSpan>
       </RowBody>
       <RowBody>
         <Button
