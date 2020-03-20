@@ -2,8 +2,8 @@ import styled from "styled-components";
 import { media } from "../variables/index";
 import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { CardWide } from "../atoms/CardStyling";
-import { Paragraph, ParagraphN } from "../atoms/Paragraph";
-import { RowBodyN } from "../atoms/RowBody";
+import { Paragraph } from "../atoms/Paragraph";
+import { RowBody } from "../atoms/RowBody";
 import React from "react";
 
 export const StyledWideBody = styled.div`
@@ -16,7 +16,7 @@ export const StyledWideBody = styled.div`
   z-index: 100;
 `;
 
-export const StyledCardWide = styled(CardWideN)`
+export const StyledCardWide = styled(CardWide)`
   ${props => props.theme.shadow.box};
   position: absolute;
   top: 50%;
@@ -27,12 +27,12 @@ export const StyledCardWide = styled(CardWideN)`
   z-index: 200;
 `;
 
-export const StyledParagraph = styled(ParagraphN)`
+export const StyledParagraph = styled(Paragraph)`
   margin: 20px auto;
   font-size: 2rem;
 `;
 
-export const StyledRowBody = styled(RowBodyN)`
+export const StyledRowBody = styled(RowBody)`
   max-height: 550px;
   overflow-y: scroll;
 `;
@@ -65,7 +65,7 @@ export const StrongN = styled.strong`
   font-weight: bold;
 `;
 
-export const Description = styled(ParagraphN)`
+export const Description = styled(Paragraph)`
   width: 100%;
   margin: none;
   padding-top: 10px;
