@@ -76,9 +76,9 @@ const ParticipantSubmission = ({
   return (
     <StyledWideBody>
       <CardForm>
-        <RowHeadN>
+        <RowHead>
           <H3>Submit Project</H3>
-        </RowHeadN>
+        </RowHead>
         <Formik
           onSubmit={handleSubmit}
           initialValues={initialState}
@@ -89,7 +89,7 @@ const ParticipantSubmission = ({
             <Form>
               <ProjectTitle currentEvent={currentEvent} />
               {requireGithubUrl && (
-                <RowBodyN justify="start">
+                <RowBody justify="start">
                   <Label htmlFor="git_url">GitHub URL</Label>
                   <Input
                     type="text"
@@ -100,11 +100,11 @@ const ParticipantSubmission = ({
                   <ErrorSpanN>
                     <ErrorMessage name="git_url" component="div" />
                   </ErrorSpanN>
-                </RowBodyN>
+                </RowBody>
               )}
 
               {requireVideoUrl && (
-                <RowBodyN justify="start">
+                <RowBody justify="start">
                   <Label htmlFor="video_url">Video URL</Label>
                   <Input
                     type="text"
@@ -115,7 +115,7 @@ const ParticipantSubmission = ({
                   <ErrorSpanN>
                     <ErrorMessage name="video_url" component="div" />
                   </ErrorSpanN>
-                </RowBodyN>
+                </RowBody>
               )}
               <ProjectWriteUp />
             </Form>
