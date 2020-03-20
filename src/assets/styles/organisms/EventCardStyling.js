@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { IconLetterN } from "../atoms/IconLetterStyling";
+import { IconLetter } from "../atoms/IconLetterStyling";
 import { ParagraphN } from "../atoms/Paragraph";
 import Icon from "../../../components/atoms/Icon";
 
