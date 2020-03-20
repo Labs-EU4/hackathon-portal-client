@@ -12,7 +12,7 @@ import {
   LocationParagraph,
   CardCountDown,
   StyledBookmarkIcon,
-  StyledStarIconN
+  StyledStarIcon
 } from "../../assets/styles/organisms/EventCardStyling";
 import { Card } from "../../assets/styles/atoms/CardStyling";
 import { H4 } from "../../assets/styles/atoms/HeadingStyling";
