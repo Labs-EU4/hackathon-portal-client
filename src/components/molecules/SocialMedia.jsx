@@ -5,7 +5,7 @@ import { StrikedSpan } from "../../assets/styles/atoms/SpanStyling";
 
 const SocialMedia = () => (
   <SocialMediaContainer>
-    <StrikedSpanN >OR LOGIN WITH</StrikedSpanN>
+    <StrikedSpan>OR LOGIN WITH</StrikedSpan>
     <MediaIcons />
   </SocialMediaContainer>
 );
