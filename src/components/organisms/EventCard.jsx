@@ -52,7 +52,7 @@ const EventCard = ({ event, eventModalHandler }) => {
         <EventImage>
           <img src={eventImg} alt={event_title} />
         </EventImage>
-        <EventCardContentN>
+        <EventCardContent>
           {organizer_profile_pic ? (
             <OrgImg src={organizerImg.avatar} alt={organizer_name} />
           ) : (
@@ -89,7 +89,7 @@ const EventCard = ({ event, eventModalHandler }) => {
               Join Event
             </Button>
           </EventCTAN>
-        </EventCardContentN>
+        </EventCardContent>
         <StyledBookmarkIconN icon="bookmark" />
         <StyledStarIconN icon="star" />
       </Card>
