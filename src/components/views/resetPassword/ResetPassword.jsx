@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
-import { BodyContainerN } from "../../../assets/styles/atoms/BodyContainerStyling";
+import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
 import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
 import { ErrorSpan } from "../../../assets/styles/atoms/SpanStyling";
 import Container from "../../../assets/styles/atoms/ContainerStyling";
