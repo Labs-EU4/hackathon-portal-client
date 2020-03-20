@@ -10,7 +10,7 @@ import {
   EventCTA,
   DateParagraph,
   LocationParagraphN,
-  CardCountDownN,
+  CardCountDown,
   StyledBookmarkIconN,
   StyledStarIconN
 } from "../../assets/styles/organisms/EventCardStyling";
