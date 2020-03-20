@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-import { IconLetterN } from "../atoms/IconLetter";
+import { IconLetter } from "../atoms/IconLetterStyling";
 import { ParagraphN } from "../atoms/Paragraph";
 import Icon from "../../../components/atoms/Icon";
 
-export const StyledEventCardN = styled.div`
+export const StyledEventCard = styled.div`
   text-decoration: none;
   &:hover > div {
     ${props => props.theme.shadow.box};
@@ -13,7 +13,7 @@ export const StyledEventCardN = styled.div`
   }
 `;
 
-export const EventImageN = styled.figure`
+export const EventImage = styled.figure`
   width: 100%;
   height: 170px;
   & > img {
@@ -22,7 +22,7 @@ export const EventImageN = styled.figure`
   }
 `;
 
-export const OrgImgN = styled.img`
+export const OrgImg = styled.img`
   position: absolute;
   top: 130px;
   left: 10px;
@@ -33,7 +33,7 @@ export const OrgImgN = styled.img`
   object-fit: cover;
 `;
 
-export const StyledIconLetterN = styled(IconLetterN)`
+export const StyledIconLetter = styled(IconLetter)`
   ${props => props.theme.flex.center};
   position: absolute;
   top: 130px;
@@ -47,14 +47,14 @@ export const StyledIconLetterN = styled(IconLetterN)`
   color: ${props => props.theme.color.primary.regular};
 `;
 
-export const EventCardContentN = styled.div`
+export const EventCardContent = styled.div`
   width: 100%;
   height: 220px;
   padding: 10px;
   overflow: hidden;
 `;
 
-export const EventCTAN = styled.div`
+export const EventCTA = styled.div`
   ${props => props.theme.flex.custom("space-between", "center")};
   position: absolute;
   top: calc(100% - 50px);
@@ -63,17 +63,17 @@ export const EventCTAN = styled.div`
   padding: 0 10px 5px;
 `;
 
-export const DateParagraphN = styled(ParagraphN)`
+export const DateParagraph = styled(ParagraphN)`
   margin-bottom: 0;
   color: ${props => props.theme.color.grey.regular};
 `;
 
-export const LocationParagraphN = styled(ParagraphN)`
+export const LocationParagraph = styled(ParagraphN)`
   margin: -5px 0 8px;
   color: ${props => props.theme.color.grey.light};
 `;
 
-export const CardCountDownN = styled.div`
+export const CardCountDown = styled.div`
   position: absolute;
   top: 20px;
   left: 70%;
@@ -83,7 +83,7 @@ export const CardCountDownN = styled.div`
   padding: 5px 10px;
 `;
 
-export const StyledBookmarkIconN = styled(Icon)`
+export const StyledBookmarkIcon = styled(Icon)`
   position: absolute;
   top: -5px;
   left: 10px;
@@ -92,7 +92,7 @@ export const StyledBookmarkIconN = styled(Icon)`
   cursor: pointer;
 `;
 
-export const StyledStarIconN = styled(Icon)`
+export const StyledStarIcon = styled(Icon)`
   position: absolute;
   top: 0;
   left: 11px;

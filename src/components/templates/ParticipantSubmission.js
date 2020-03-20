@@ -3,14 +3,13 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-
 import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmissionStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHeadN } from "../../assets/styles/atoms/RowHead";
 import { RowBodyN } from "../../assets/styles/atoms/RowBody";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
-import {LabelN} from "../../assets/styles/atoms/Label";
+import { Label } from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import {
   fetchAllSubmissions,
@@ -18,7 +17,6 @@ import {
 } from "../../store/projectSubmission/actions";
 import ProjectTitle from "../organisms/PSProjectTitle";
 import ProjectWriteUp from "../organisms/PSProjectWriteUp";
-
 const defaultState = {
   project_title: "",
   participant_or_team_name: "",
@@ -26,9 +24,8 @@ const defaultState = {
   video_url: "",
   project_writeups: ""
 };
-
 const ParticipantSubmission = ({
-  initialState = defaultState,
+  initialState = defaultState
   // id,
   // setIsSubmitProjectOpen
 }) => {
@@ -39,18 +36,14 @@ const ParticipantSubmission = ({
   const currentEvent = useSelector(state =>
     state.events.data.find(e => e.id === event_id)
   );
-
   useEffect(() => {
     dispatch(fetchAllSubmissions(event_id));
   }, [dispatch, event_id]);
-
   const handleSubmit = values => {
     dispatch(submitProject({ ...values, event_id }, history));
   };
-
   const requireGithubUrl = currentEvent.requirements.includes("github_url");
   const requireVideoUrl = currentEvent.requirements.includes("video_url");
-
   const schema = Yup.object().shape({
     project_title: Yup.string()
       .min(3, "Project title must be at least 3 characters long.")
@@ -72,7 +65,6 @@ const ParticipantSubmission = ({
       .min(8, "Project writeup must be at least 8 characters long.")
       .required("Project writeup is required.")
   });
-
   return (
     <StyledWideBody>
       <CardForm>
@@ -90,7 +82,7 @@ const ParticipantSubmission = ({
               <ProjectTitle currentEvent={currentEvent} />
               {requireGithubUrl && (
                 <RowBodyN justify="start">
-                  <LabelN htmlFor="git_url">GitHub URL</LabelN>
+                  <Label htmlFor="git_url">GitHub URL</Label>
                   <Input
                     type="text"
                     name="git_url"
@@ -102,10 +94,9 @@ const ParticipantSubmission = ({
                   </ErrorSpanN>
                 </RowBodyN>
               )}
-
               {requireVideoUrl && (
                 <RowBodyN justify="start">
-                  <LabelN htmlFor="video_url">Video URL</LabelN>
+                  <Label htmlFor="video_url">Video URL</Label>
                   <Input
                     type="text"
                     name="video_url"
@@ -125,6 +116,4 @@ const ParticipantSubmission = ({
     </StyledWideBody>
   );
 };
-
 export default ParticipantSubmission;
-
