@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { media } from "../variables/media";
 import { BodyContainerN } from "../atoms/BodyContainerStyling";
 
-export const BodyContainerColumn = styled(BodyContainer)`
+export const BodyContainerColumn = styled(BodyContainerN)`
   flex-direction: column;
   justify-content: start;
 `;

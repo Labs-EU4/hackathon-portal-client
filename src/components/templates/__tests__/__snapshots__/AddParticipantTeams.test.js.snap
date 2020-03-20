@@ -6,28 +6,28 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bZQynM irXLqA"
+        class="sc-EHOje gOvfpc"
       >
         <div
-          class="sc-bdVaJa sc-htpNat kOzhBZ"
+          class="sc-bdVaJa sc-bwzfXH dlLfy"
         >
           <div
-            class="sc-gZMcBi cLoBhv"
+            class="sc-iwsKbI doWIsw"
           >
             <h3
-              class="sc-dnqmqq kAxxzQ"
+              class="sc-htoDjs cYreFW"
             >
               Add Teammates
             </h3>
           </div>
           <div
-            class="sc-gqjmRU kVamBc"
+            class="sc-gZMcBi hNjVAU"
           >
             <div
-              class="sc-VigVT sc-jTzLTM dFyrrM"
+              class="sc-gqjmRU sc-VigVT dPVIlW"
             >
               <div
-                class="sc-ifAKCX hEwGsi"
+                class="sc-bxivhb jiWdXY"
                 display="wide"
               >
                 <input
@@ -36,7 +36,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="sc-jzJRlG czeace"
+                  class="sc-fjdhpX BEcqE"
                   color="grey"
                 >
                   Back to dashboard
@@ -50,28 +50,28 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bZQynM irXLqA"
+      class="sc-EHOje gOvfpc"
     >
       <div
-        class="sc-bdVaJa sc-htpNat kOzhBZ"
+        class="sc-bdVaJa sc-bwzfXH dlLfy"
       >
         <div
-          class="sc-gZMcBi cLoBhv"
+          class="sc-iwsKbI doWIsw"
         >
           <h3
-            class="sc-dnqmqq kAxxzQ"
+            class="sc-htoDjs cYreFW"
           >
             Add Teammates
           </h3>
         </div>
         <div
-          class="sc-gqjmRU kVamBc"
+          class="sc-gZMcBi hNjVAU"
         >
           <div
-            class="sc-VigVT sc-jTzLTM dFyrrM"
+            class="sc-gqjmRU sc-VigVT dPVIlW"
           >
             <div
-              class="sc-ifAKCX hEwGsi"
+              class="sc-bxivhb jiWdXY"
               display="wide"
             >
               <input
@@ -80,7 +80,7 @@ Object {
                 value=""
               />
               <button
-                class="sc-jzJRlG czeace"
+                class="sc-fjdhpX BEcqE"
                 color="grey"
               >
                 Back to dashboard
