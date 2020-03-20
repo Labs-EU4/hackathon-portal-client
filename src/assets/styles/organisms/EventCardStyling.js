@@ -47,7 +47,7 @@ export const StyledIconLetter = styled(IconLetter)`
   color: ${props => props.theme.color.primary.regular};
 `;
 
-export const EventCardContentN = styled.div`
+export const EventCardContent = styled.div`
   width: 100%;
   height: 220px;
   padding: 10px;
