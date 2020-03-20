@@ -13,7 +13,7 @@ import image from "../../../assets/images/Password-sent.png";
 function ResetPasswordConfirmation() {
   return (
     <WideBody>
-      <BodyContainer justify="center">
+      <BodyContainerN justify="center">
         <HeroImage src={image} alt="Password Sent" />
         <Container>
           <H1>Check your inbox</H1>
@@ -27,7 +27,7 @@ function ResetPasswordConfirmation() {
             </Button>
           </RowBody>
         </Container>
-      </BodyContainer>
+      </BodyContainerN>
     </WideBody>
   );
 }
