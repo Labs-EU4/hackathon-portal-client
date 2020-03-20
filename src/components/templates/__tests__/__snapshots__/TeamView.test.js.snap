@@ -6,54 +6,54 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa sc-gZMcBi dNBloY"
+        class="sc-bdVaJa sc-gzVnrw eyKWPL"
       >
         <div
-          class="sc-VigVT wkMLs"
+          class="sc-dnqmqq gJREBr"
         >
           T
         </div>
         <span
-          class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Your Team
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Team Name:
           <span
-            class="sc-htpNat sc-bxivhb sc-jTzLTM ljafJj"
+            class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
           >
             The A team
           </span>
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Team Members:
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           This team has no members
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Hackathon Name:
           <span
-            class="sc-htpNat sc-bxivhb sc-jTzLTM ljafJj"
+            class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
           >
             EuroHack
           </span>
         </span>
         <button
-          class="sc-chPdSV bODydE"
+          class="sc-fjdhpX tHDvV"
           color="green"
         >
           <a
-            class="sc-kAzzGY hcOVsB"
+            class="sc-jTzLTM BpibH"
             href="/dashboard/event/1/participant-teams/1"
           >
             Add Teammate
@@ -64,54 +64,54 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa sc-gZMcBi dNBloY"
+      class="sc-bdVaJa sc-gzVnrw eyKWPL"
     >
       <div
-        class="sc-VigVT wkMLs"
+        class="sc-dnqmqq gJREBr"
       >
         T
       </div>
       <span
-        class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Your Team
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Team Name:
         <span
-          class="sc-htpNat sc-bxivhb sc-jTzLTM ljafJj"
+          class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
         >
           The A team
         </span>
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Team Members:
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         This team has no members
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-gqjmRU klmKU"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Hackathon Name:
         <span
-          class="sc-htpNat sc-bxivhb sc-jTzLTM ljafJj"
+          class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
         >
           EuroHack
         </span>
       </span>
       <button
-        class="sc-chPdSV bODydE"
+        class="sc-fjdhpX tHDvV"
         color="green"
       >
         <a
-          class="sc-kAzzGY hcOVsB"
+          class="sc-jTzLTM BpibH"
           href="/dashboard/event/1/participant-teams/1"
         >
           Add Teammate

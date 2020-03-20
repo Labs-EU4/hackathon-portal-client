@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { BodyContainer } from "../atoms/BodyContainerStyling";
-import { BoldSpan } from "../atoms/Span";
+import { BoldSpan } from "../atoms/SpanStyling";
 import { NavLink } from "react-router-dom";
 
 export const TeamsContainer = styled(BodyContainer)`
