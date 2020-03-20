@@ -49,9 +49,9 @@ const EventCard = ({ event, eventModalHandler }) => {
   return (
     <StyledEventCard>
       <Card>
-        <EventImageN>
+        <EventImage>
           <img src={eventImg} alt={event_title} />
-        </EventImageN>
+        </EventImage>
         <EventCardContentN>
           {organizer_profile_pic ? (
             <OrgImgN src={organizerImg.avatar} alt={organizer_name} />
