@@ -12,14 +12,14 @@ const FormLayout = ({
   formParagraph
 }) => (
   <WideBody>
-    <BodyContainer justify="center">
+    <BodyContainerN justify="center">
       <HeroImage src={imageType} alt={imageText} />
       <Form
         ctaText={ctaText}
         formHeader={formHeader}
         formParagraph={formParagraph}
       />
-    </BodyContainer>
+    </BodyContainerN>
   </WideBody>
 );
 
