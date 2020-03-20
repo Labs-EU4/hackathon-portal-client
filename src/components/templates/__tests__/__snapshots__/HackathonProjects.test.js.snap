@@ -6,20 +6,20 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-kGXeez eOiaIa"
+        class="sc-kgoBCf hAIFvA"
       >
         <div
-          class="sc-EHOje sc-bZQynM sc-kpOJdX cHbMlE"
+          class="sc-ifAKCX sc-EHOje sc-kGXeez dcpKDY"
         >
           <div
-            class="sc-cMljjf lfuHbb"
+            class="sc-brqgnP fmVBbM"
           >
             <h3
-              class="sc-jWBwVP hsvWlN"
+              class="sc-cvbbAY dpKAv"
             >
               Submitted projects for 
               <strong
-                class="sc-kEYyzF bLxoCc"
+                class="sc-hMqMXs kgHsvQ"
               >
                 "
                 EuroHack
@@ -28,7 +28,7 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-gqjmRU gdlAwH"
+            class="sc-gZMcBi ipFruZ"
             spacing="center"
           >
             <div
@@ -110,20 +110,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-kGXeez eOiaIa"
+      class="sc-kgoBCf hAIFvA"
     >
       <div
-        class="sc-EHOje sc-bZQynM sc-kpOJdX cHbMlE"
+        class="sc-ifAKCX sc-EHOje sc-kGXeez dcpKDY"
       >
         <div
-          class="sc-cMljjf lfuHbb"
+          class="sc-brqgnP fmVBbM"
         >
           <h3
-            class="sc-jWBwVP hsvWlN"
+            class="sc-cvbbAY dpKAv"
           >
             Submitted projects for 
             <strong
-              class="sc-kEYyzF bLxoCc"
+              class="sc-hMqMXs kgHsvQ"
             >
               "
               EuroHack
@@ -132,7 +132,7 @@ Object {
           </h3>
         </div>
         <div
-          class="sc-gqjmRU gdlAwH"
+          class="sc-gZMcBi ipFruZ"
           spacing="center"
         >
           <div
