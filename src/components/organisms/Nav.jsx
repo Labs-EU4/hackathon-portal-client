@@ -3,17 +3,17 @@ import { useSelector } from "react-redux";
 // // import uuid from 'uuid';
 
 import {
-  StyledEditIconN,
-  StyledExpandIconN,
-  UserInfoContentN,
-  StyledNavN,
-  StyledProfileImageN,
-  StyledNavLinkN,
-  LinkDetailsN,
-  UserContainerN,
-  StyledButtonN
+  StyledEditIcon,
+  StyledExpandIcon,
+  UserInfoContent,
+  StyledNav,
+  StyledProfileImage,
+  StyledNavLink,
+  LinkDetails,
+  UserContainer,
+  StyledButton
 } from "../../assets/styles/organisms/NavStyling";
-import  ProfileImg  from "../atoms/ProfileImg";
+import ProfileImg from "../atoms/ProfileImg";
 import Icon from "../atoms/Icon";
 
 const items = [
@@ -51,16 +51,16 @@ const Nav = ({
   );
 
   return (
-    <StyledNavN active={isSideBarOpen}>
-      <UserContainerN onClick={() => setIsProfileOpen(!isProfileOpen)}>
-        <StyledProfileImageN
+    <StyledNav active={isSideBarOpen}>
+      <UserContainer onClick={() => setIsProfileOpen(!isProfileOpen)}>
+        <StyledProfileImage
           active={isEditProfileHovered}
           onMouseEnter={() => setIsEditProfileHovered(true)}
           onMouseLeave={() => setIsEditProfileHovered(false)}
         >
           {image_url !== null && token ? (
             <>
-              {isEditProfileHovered && <StyledEditIconN icon="user-edit" />}
+              {isEditProfileHovered && <StyledEditIcon icon="user-edit" />}
               <ProfileImg
                 image={image_url}
                 alt={username}
@@ -71,28 +71,28 @@ const Nav = ({
             <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
           )}
           {!isSideBarOpen && (
-            <UserInfoContentN>
+            <UserInfoContent>
               <p>{fullname}</p>
               <p>{email}</p>
-            </UserInfoContentN>
+            </UserInfoContent>
           )}
-        </StyledProfileImageN>
-      </UserContainerN>
-      <StyledButtonN
-        active={isSideBarOpen.toString()}
-        exact="true"
+        </StyledProfileImage>
+      </UserContainer>
+      <StyledButton
+        active={isSideBarOpen}
+        exact
         link
         to="/event/new"
         color="primary"
         size="wide"
       >
         Create{isSideBarOpen && <br />} Event
-      </StyledButtonN>
+      </StyledButton>
       {items.map(({ title, url, icon }, idx) => {
         return (
           <div key={idx} style={{ width: "100%", position: "relative" }}>
-            <StyledNavLinkN
-              active={isSideBarOpen.toString()}
+            <StyledNavLink
+              active={isSideBarOpen}
               exact
               to={url}
               key={title}
@@ -100,17 +100,18 @@ const Nav = ({
             >
               <Icon {...{ icon }} />
               {!isSideBarOpen && <span>{title}</span>}
-            </StyledNavLinkN>
-            {isSideBarOpen && <LinkDetailsN>{title}</LinkDetailsN>}
+            </StyledNavLink>
+            {isSideBarOpen && <LinkDetails>{title}</LinkDetails>}
           </div>
         );
       })}
-      <StyledExpandIconN
+      <StyledExpandIcon
         icon="angle-double-down"
         active={isSideBarOpen.toString()}
         onClick={() => setIsSideBarOpen(!isSideBarOpen)}
       />
-    </StyledNavN>
+    </StyledNav>
   );
 };
+
 export default Nav;

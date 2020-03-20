@@ -154,7 +154,7 @@ Object {
               </p>
                
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -164,14 +164,14 @@ Object {
                   value="presentation"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="presentation"
                 >
                   Presentation
                 </label>
               </div>
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -181,14 +181,14 @@ Object {
                   value="product_fit"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="product_fit"
                 >
                   Product Fit
                 </label>
               </div>
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -198,14 +198,14 @@ Object {
                   value="functionality"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="functionality"
                 >
                   Functionality
                 </label>
               </div>
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -215,14 +215,14 @@ Object {
                   value="innovation"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="innovation"
                 >
                   Innovation
                 </label>
               </div>
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -232,14 +232,14 @@ Object {
                   value="product_design"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="product_design"
                 >
                   Product Design
                 </label>
               </div>
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -249,7 +249,7 @@ Object {
                   value="extensibility"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="extensibility"
                 >
                   Extensibility
@@ -446,7 +446,7 @@ Object {
                 Participants will be expected to submit which one of the following
               </p>
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -456,14 +456,14 @@ Object {
                   value="video_url"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="video_url"
                 >
                   Video URL
                 </label>
               </div>
               <div
-                class="sc-kgoBCf berUlz"
+                class="sc-kGXeez ipfKQQ"
               >
                 <input
                   class="sc-kpOJdX crQHVY"
@@ -473,7 +473,7 @@ Object {
                   value="github_url"
                 />
                 <label
-                  class="sc-kGXeez dONwum"
+                  class="sc-cSHVUG zmqIo"
                   for="github_url"
                 >
                   GitHub URL
@@ -645,7 +645,7 @@ Object {
             </p>
              
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -655,14 +655,14 @@ Object {
                 value="presentation"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="presentation"
               >
                 Presentation
               </label>
             </div>
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -672,14 +672,14 @@ Object {
                 value="product_fit"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="product_fit"
               >
                 Product Fit
               </label>
             </div>
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -689,14 +689,14 @@ Object {
                 value="functionality"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="functionality"
               >
                 Functionality
               </label>
             </div>
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -706,14 +706,14 @@ Object {
                 value="innovation"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="innovation"
               >
                 Innovation
               </label>
             </div>
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -723,14 +723,14 @@ Object {
                 value="product_design"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="product_design"
               >
                 Product Design
               </label>
             </div>
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -740,7 +740,7 @@ Object {
                 value="extensibility"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="extensibility"
               >
                 Extensibility
@@ -937,7 +937,7 @@ Object {
               Participants will be expected to submit which one of the following
             </p>
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -947,14 +947,14 @@ Object {
                 value="video_url"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="video_url"
               >
                 Video URL
               </label>
             </div>
             <div
-              class="sc-kgoBCf berUlz"
+              class="sc-kGXeez ipfKQQ"
             >
               <input
                 class="sc-kpOJdX crQHVY"
@@ -964,7 +964,7 @@ Object {
                 value="github_url"
               />
               <label
-                class="sc-kGXeez dONwum"
+                class="sc-cSHVUG zmqIo"
                 for="github_url"
               >
                 GitHub URL

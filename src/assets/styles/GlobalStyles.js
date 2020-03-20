@@ -1,6 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
-
-import * as color from './variables/colors';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   /*MEYER RESET*/

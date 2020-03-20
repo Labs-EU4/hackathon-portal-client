@@ -1,15 +1,15 @@
 import React from "react";
-import { RowBodyN } from "../../assets/styles/atoms/RowBody";
-import { ErrorSpanN } from "../../assets/styles/atoms/Span";
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { ErrorMessage } from "formik";
 import Button from "../atoms/Button";
-import { Label } from "../../assets/styles/atoms/Label";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import TextArea from "../atoms/TextArea";
 
 const ProjectWriteup = () => {
   return (
     <>
-      <RowBodyN justify="start">
+      <RowBody justify="start">
         <Label htmlFor="project_writeups">Project Writeup</Label>
         <TextArea
           wide
@@ -18,11 +18,11 @@ const ProjectWriteup = () => {
           name="project_writeups"
           id="project_writeups"
         />
-        <ErrorSpanN>
+        <ErrorSpan>
           <ErrorMessage name="project_writeups" />
-        </ErrorSpanN>
-      </RowBodyN>
-      <RowBodyN>
+        </ErrorSpan>
+      </RowBody>
+      <RowBody>
         <Button
           link
           color="grey"
@@ -36,7 +36,7 @@ const ProjectWriteup = () => {
         <Button color="green" type="submit">
           Submit
         </Button>
-      </RowBodyN>
+      </RowBody>
     </>
   );
 };

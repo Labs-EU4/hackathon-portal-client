@@ -7,11 +7,11 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
 
-import { Container } from "../../assets/styles/atoms/ContainerStyling";
+import Container from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
-import { Paragraph } from "../../assets/styles/atoms/Paragraph";
-import { ErrorSpan } from "../../assets/styles/atoms/Span";
-import { Label } from "../../assets/styles/atoms/Label";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Button from "../atoms/Button";
 import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";

@@ -9,14 +9,14 @@ import {
   EventCardContent,
   EventCTA,
   DateParagraph,
-  LocationParagraph,
+  LocationParagraphN,
   CardCountDown,
   StyledBookmarkIcon,
   StyledStarIcon
 } from "../../assets/styles/organisms/EventCardStyling";
 import { Card } from "../../assets/styles/atoms/CardStyling";
 import { H4 } from "../../assets/styles/atoms/HeadingStyling";
-import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
+import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
 import eventImg from "../../assets/images/event-img.jpg";
 
@@ -74,8 +74,8 @@ const EventCard = ({ event, eventModalHandler }) => {
             )}
           </DateParagraph>
           <H4>{event_title}</H4>
-          <LocationParagraph bold>{location}</LocationParagraph>
-          <ParagraphN>{excerpt}</ParagraphN>
+          <LocationParagraphN bold>{location}</LocationParagraphN>
+          <Paragraph>{excerpt}</Paragraph>
           <CardCountDown>{formattedDate}</CardCountDown>
           <EventCTA>
             <Button
