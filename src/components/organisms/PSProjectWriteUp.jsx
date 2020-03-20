@@ -1,6 +1,6 @@
 import React from "react";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
-import { ErrorSpanN } from "../../assets/styles/atoms/Span";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { ErrorMessage } from "formik";
 import Button from "../atoms/Button";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
