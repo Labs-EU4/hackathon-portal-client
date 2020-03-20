@@ -1,23 +1,26 @@
 import React, { useEffect } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import styled from "styled-components";
+import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmissionStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
-import { RowHeadN } from "../../assets/styles/atoms/RowHead";
-import { RowBodyN } from "../../assets/styles/atoms/RowBody";
-import { CardFormN } from "../../assets/styles/atoms/Card";
-import { ErrorSpanN } from "../../assets/styles/atoms/Span";
-import {LabelN} from "../../assets/styles/atoms/Label";
+import WideBody from "../../assets/styles/atoms/WideBody";
+import { H3 } from "../../assets/styles/atoms/Heading";
+import { RowHead } from "../../assets/styles/atoms/RowHead";
+import { RowBody } from "../../assets/styles/atoms/RowBody";
+import { Column } from "../../assets/styles/atoms/Column";
+import { CardForm } from "../../assets/styles/atoms/Card";
+import { ErrorSpan } from "../../assets/styles/atoms/Span";
+import { Paragraph } from "../../assets/styles/atoms/Paragraph";
+import Label from "../../assets/styles/atoms/Label";
+import Button from "../atoms/Button";
 import Input from "../atoms/Input";
+import TextArea from "../atoms/TextArea";
 import {
   fetchAllSubmissions,
   submitProject
 } from "../../store/projectSubmission/actions";
-import ProjectTitle from "../organisms/PSProjectTitle";
-import ProjectWriteUp from "../organisms/PSProjectWriteUp";
 
 const defaultState = {
   project_title: "",
@@ -29,10 +32,9 @@ const defaultState = {
 
 const ParticipantSubmission = ({
   initialState = defaultState,
-  // id,
-  // setIsSubmitProjectOpen
+  id,
+  setIsSubmitProjectOpen
 }) => {
-  const { id } = useParams();
   const event_id = Number(id);
   const dispatch = useDispatch();
   const history = useHistory();
@@ -75,10 +77,10 @@ const ParticipantSubmission = ({
 
   return (
     <StyledWideBody>
-      <CardFormN>
-        <RowHeadN>
+      <CardForm>
+        <RowHead>
           <H3>Submit Project</H3>
-        </RowHeadN>
+        </RowHead>
         <Formik
           onSubmit={handleSubmit}
           initialValues={initialState}
@@ -87,44 +89,120 @@ const ParticipantSubmission = ({
         >
           {() => (
             <Form>
-              <ProjectTitle currentEvent={currentEvent} />
+              <RowBody>
+                <Paragraph>
+                  You are making a submission for the{" "}
+                  <strong>{currentEvent.event_title}</strong>. Please ensure you
+                  have read the event guidelines and have gone through the
+                  grading rubrics for this event before you make your
+                  submission.
+                </Paragraph>
+              </RowBody>
+              <RowBody>
+                <Column>
+                  <Label htmlFor="project_title">Project Title</Label>
+                  <Input
+                    type="text"
+                    id="project_title"
+                    name="project_title"
+                    display="wide"
+                  />
+                  <ErrorSpan>
+                    <ErrorMessage name="project_title" component="div" />
+                  </ErrorSpan>
+                </Column>
+                <Column>
+                  <Label htmlFor="participant_or_team_nam">
+                    Team/Participant name
+                  </Label>
+                  <Input
+                    type="text"
+                    name="participant_or_team_name"
+                    id="participant_or_team_name"
+                    display="wide"
+                  />
+                  <ErrorSpan>
+                    <ErrorMessage
+                      name="participant_or_team_name"
+                      component="div"
+                    />
+                  </ErrorSpan>
+                </Column>
+              </RowBody>
+
               {requireGithubUrl && (
-                <RowBodyN justify="start">
-                  <LabelN htmlFor="git_url">GitHub URL</LabelN>
+                <RowBody justify="start">
+                  <Label htmlFor="git_url">GitHub URL</Label>
                   <Input
                     type="text"
                     name="git_url"
                     id="git_url"
                     display="wide"
                   />
-                  <ErrorSpanN>
+                  <ErrorSpan>
                     <ErrorMessage name="git_url" component="div" />
-                  </ErrorSpanN>
-                </RowBodyN>
+                  </ErrorSpan>
+                </RowBody>
               )}
 
               {requireVideoUrl && (
-                <RowBodyN justify="start">
-                  <LabelN htmlFor="video_url">Video URL</LabelN>
+                <RowBody justify="start">
+                  <Label htmlFor="video_url">Video URL</Label>
                   <Input
                     type="text"
                     name="video_url"
                     id="video_url"
                     style={{ width: "100%" }}
                   />
-                  <ErrorSpanN>
+                  <ErrorSpan>
                     <ErrorMessage name="video_url" component="div" />
-                  </ErrorSpanN>
-                </RowBodyN>
+                  </ErrorSpan>
+                </RowBody>
               )}
-              <ProjectWriteUp />
+              <RowBody justify="start">
+                <Label htmlFor="project_writeups">Project Writeup</Label>
+                <TextArea
+                  wide
+                  as="textarea"
+                  type="text"
+                  name="project_writeups"
+                  id="project_writeups"
+                />
+                <ErrorSpan>
+                  <ErrorMessage name="project_writeups" />
+                </ErrorSpan>
+              </RowBody>
+              <RowBody>
+                <Button
+                  link
+                  color="grey"
+                  // to={pathname === "/" ? "/" : "/dashboard"}
+                  onClick={() => setIsSubmitProjectOpen(false)}
+                >
+                  Cancel
+                </Button>
+                <Button color="green" type="submit">
+                  Submit
+                </Button>
+              </RowBody>
             </Form>
           )}
         </Formik>
-      </CardFormN>
+      </CardForm>
     </StyledWideBody>
   );
 };
 
 export default ParticipantSubmission;
 
+const StyledWideBody = styled(WideBody)`
+  ${props => props.theme.flex.center};
+  ${props => props.theme.shadow.box};
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 300;
+`;
