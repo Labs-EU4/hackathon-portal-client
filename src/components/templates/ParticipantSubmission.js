@@ -10,7 +10,7 @@ import { RowHeadN } from "../../assets/styles/atoms/RowHead";
 import { RowBodyN } from "../../assets/styles/atoms/RowBody";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
 import { ErrorSpanN } from "../../assets/styles/atoms/Span";
-import {LabelN} from "../../assets/styles/atoms/Label";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
 import {
   fetchAllSubmissions,
@@ -90,7 +90,7 @@ const ParticipantSubmission = ({
               <ProjectTitle currentEvent={currentEvent} />
               {requireGithubUrl && (
                 <RowBodyN justify="start">
-                  <LabelN htmlFor="git_url">GitHub URL</LabelN>
+                  <Label htmlFor="git_url">GitHub URL</Label>
                   <Input
                     type="text"
                     name="git_url"
@@ -105,7 +105,7 @@ const ParticipantSubmission = ({
 
               {requireVideoUrl && (
                 <RowBodyN justify="start">
-                  <LabelN htmlFor="video_url">Video URL</LabelN>
+                  <Label htmlFor="video_url">Video URL</Label>
                   <Input
                     type="text"
                     name="video_url"
