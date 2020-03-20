@@ -38,7 +38,7 @@ const ResetPassword = () => {
   return (
     <div>
       <WideBody>
-        <BodyContainer justify="center">
+        <BodyContainerN justify="center">
           {/* <HeroImage src={image} alt="Reset passowrd" /> */}
           <Container>
             <H1>Change the password</H1>
@@ -86,7 +86,7 @@ const ResetPassword = () => {
               )}
             </Formik>
           </Container>
-        </BodyContainer>
+        </BodyContainerN>
       </WideBody>
     </div>
   );
