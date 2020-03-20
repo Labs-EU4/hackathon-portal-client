@@ -13,7 +13,7 @@ import {
   UserContainerN,
   StyledButtonN
 } from "../../assets/styles/organisms/NavStyling";
-import { ProfileImg } from "../atoms/ProfileImg";
+import  ProfileImg  from "../atoms/ProfileImg";
 import Icon from "../atoms/Icon";
 
 const items = [
