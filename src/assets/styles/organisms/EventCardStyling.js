@@ -68,7 +68,7 @@ export const DateParagraph = styled(ParagraphN)`
   color: ${props => props.theme.color.grey.regular};
 `;
 
-export const LocationParagraphN = styled(ParagraphN)`
+export const LocationParagraph = styled(ParagraphN)`
   margin: -5px 0 8px;
   color: ${props => props.theme.color.grey.light};
 `;
