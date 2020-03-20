@@ -63,7 +63,7 @@ export const EventCTA = styled.div`
   padding: 0 10px 5px;
 `;
 
-export const DateParagraphN = styled(ParagraphN)`
+export const DateParagraph = styled(ParagraphN)`
   margin-bottom: 0;
   color: ${props => props.theme.color.grey.regular};
 `;
