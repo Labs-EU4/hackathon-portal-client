@@ -16,7 +16,7 @@ export const StyledWideBody = styled.div`
   z-index: 100;
 `;
 
-export const StyledCardWideN = styled(CardWideN)`
+export const StyledCardWide = styled(CardWideN)`
   ${props => props.theme.shadow.box};
   position: absolute;
   top: 50%;
@@ -27,17 +27,17 @@ export const StyledCardWideN = styled(CardWideN)`
   z-index: 200;
 `;
 
-export const StyledParagraphN = styled(ParagraphN)`
+export const StyledParagraph = styled(ParagraphN)`
   margin: 20px auto;
   font-size: 2rem;
 `;
 
-export const StyledRowBodyN = styled(RowBodyN)`
+export const StyledRowBody = styled(RowBodyN)`
   max-height: 550px;
   overflow-y: scroll;
 `;
 
-export const TeamN = styled.h3`
+export const Team = styled.h3`
   border-bottom: 2px solid ${props => props.theme.color.grey.regular};
   margin: 0 auto;
   padding: 5px 10px;
@@ -46,7 +46,7 @@ export const TeamN = styled.h3`
   text-align: center;
 `;
 
-export const SubmissionEntryN = styled.div`
+export const SubmissionEntry = styled.div`
   ${props => props.theme.flex.column};
   ${props => props.theme.shadow.box};
   width: 100%;
@@ -56,7 +56,7 @@ export const SubmissionEntryN = styled.div`
   margin-bottom: 5px;
 `;
 
-export const SubmissionContentN = styled.div`
+export const SubmissionContent = styled.div`
   ${props => props.theme.flex.custom("center", "center", "column")};
   padding: 10px;
 `;
@@ -65,7 +65,7 @@ export const StrongN = styled.strong`
   font-weight: bold;
 `;
 
-export const DescriptionN = styled(ParagraphN)`
+export const Description = styled(ParagraphN)`
   width: 100%;
   margin: none;
   padding-top: 10px;
@@ -83,7 +83,7 @@ export const DescriptionN = styled(ParagraphN)`
   }
 `;
 
-export const RatingGroupN = styled.div`
+export const RatingGroup = styled.div`
   ${props => props.theme.flex.custom("center", "center", "column")};
   margin-bottom: 20px;
   /* @media ${media.tablet} {
@@ -91,7 +91,7 @@ export const RatingGroupN = styled.div`
   } */
 `;
 
-export const JudgeCountN = styled.span`
+export const JudgeCount = styled.span`
   font-size: 12px;
   margin: 5px 0 0 0;
 `;
