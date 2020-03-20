@@ -14,7 +14,7 @@ import {
   StyledBookmarkIconN,
   StyledStarIconN
 } from "../../assets/styles/organisms/EventCardStyling";
-import { CardN } from "../../assets/styles/atoms/Card";
+import { Card } from "../../assets/styles/atoms/CardStyling";
 import { H4N } from "../../assets/styles/atoms/Heading";
 import { ParagraphN } from "../../assets/styles/atoms/Paragraph";
 import Button from "../atoms/Button";
