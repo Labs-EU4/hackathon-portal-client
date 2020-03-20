@@ -1,10 +1,8 @@
 import styled from "styled-components";
 import { media } from "../variables/index";
-
-import { CardWide, CardWideN } from "../atoms/Card";
-import { Paragraph, ParagraphN } from "../atoms/Paragraph";
+import { CardWideN } from "../atoms/Card";
+import { ParagraphN } from "../atoms/Paragraph";
 import { RowBodyN } from "../atoms/RowBody";
-import React from "react";
 
 // --------------------------------- NEW // --------------------------------- //
 
