@@ -1,5 +1,5 @@
 import { BodyContainer } from "../atoms/BodyContainerStyling";
-import { H2 } from "../atoms/Heading";
+import { H2 } from "../atoms/HeadingStyling";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
@@ -14,6 +14,7 @@ export const BodyColumn = styled(BodyContainer)`
     height: 100%;
   }
 `;
+
 export const BodyRow = styled(BodyContainer)`
   flex-direction: row;
   justify-content: space-between;
