@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { media } from '../variables/media';
 
-const Container = styled.div`
+export const Container = styled.div`
   max-width: 380px;
   border: 1px solid ${props => props.theme.color.grey.border};
   border-radius: 6px;

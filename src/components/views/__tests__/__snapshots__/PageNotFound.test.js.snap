@@ -6,6 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
+<<<<<<< HEAD
         class="sc-bdVaJa sc-iwsKbI bYzsuP"
       >
         <div
@@ -13,11 +14,24 @@ Object {
         >
           <h2
             class="sc-htpNat sc-gZMcBi iQTApT"
+=======
+        class="sc-bdVaJa sc-gzVnrw cKkwja"
+      >
+        <div
+          class="sc-bdVaJa sc-bZQynM bQEkgZ"
+        >
+          <h2
+            class="sc-bxivhb sc-htoDjs ivqyK"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           >
             Ooops!
           </h2>
           <h3
+<<<<<<< HEAD
             class="sc-fjdhpX kwqgzP"
+=======
+            class="sc-ifAKCX bZCfiG"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           >
             We can't seem to find the page  you are looking for
           </h3>
@@ -25,14 +39,22 @@ Object {
             Error code: 404
           </h3>
           <a
+<<<<<<< HEAD
             class="sc-gqjmRU PvbuI"
+=======
+            class="sc-dnqmqq dMKkUx"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             href="/dashboard"
           >
             Home
           </a>
         </div>
         <div
+<<<<<<< HEAD
           class="sc-bdVaJa sc-dnqmqq jNuHyi"
+=======
+          class="sc-bdVaJa sc-bZQynM bQEkgZ"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
         >
           <img
             alt="404 icon"
@@ -44,6 +66,7 @@ Object {
   </body>,
   "container": <div>
     <div
+<<<<<<< HEAD
       class="sc-bdVaJa sc-iwsKbI bYzsuP"
     >
       <div
@@ -51,11 +74,24 @@ Object {
       >
         <h2
           class="sc-htpNat sc-gZMcBi iQTApT"
+=======
+      class="sc-bdVaJa sc-gzVnrw cKkwja"
+    >
+      <div
+        class="sc-bdVaJa sc-bZQynM bQEkgZ"
+      >
+        <h2
+          class="sc-bxivhb sc-htoDjs ivqyK"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
         >
           Ooops!
         </h2>
         <h3
+<<<<<<< HEAD
           class="sc-fjdhpX kwqgzP"
+=======
+          class="sc-ifAKCX bZCfiG"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
         >
           We can't seem to find the page  you are looking for
         </h3>
@@ -63,14 +99,22 @@ Object {
           Error code: 404
         </h3>
         <a
+<<<<<<< HEAD
           class="sc-gqjmRU PvbuI"
+=======
+          class="sc-dnqmqq dMKkUx"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           href="/dashboard"
         >
           Home
         </a>
       </div>
       <div
+<<<<<<< HEAD
         class="sc-bdVaJa sc-dnqmqq jNuHyi"
+=======
+        class="sc-bdVaJa sc-bZQynM bQEkgZ"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
       >
         <img
           alt="404 icon"

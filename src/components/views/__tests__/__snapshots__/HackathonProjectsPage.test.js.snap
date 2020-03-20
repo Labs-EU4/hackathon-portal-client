@@ -6,6 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
+<<<<<<< HEAD
         class="sc-gZMcBi ethJNv"
       >
         <div
@@ -20,6 +21,22 @@ Object {
               Submitted projects for 
               <strong
                 class="sc-kAzzGY cnVNXU"
+=======
+        class="sc-EHOje jvGfAl"
+      >
+        <div
+          class="sc-bwzfXH sc-htpNat sc-bZQynM ezhGmn"
+        >
+          <div
+            class="sc-kgoBCf cfxjOn"
+          >
+            <h3
+              class="sc-kAzzGY ebzwZA"
+            >
+              Submitted projects for 
+              <strong
+                class="sc-gqjmRU cXIDrc"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               >
                 "
                 World
@@ -28,7 +45,11 @@ Object {
             </h3>
           </div>
           <div
+<<<<<<< HEAD
             class="sc-iwsKbI iOqBwo"
+=======
+            class="sc-kkGfuU ieZEdl"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             spacing="center"
           >
             <div
@@ -110,6 +131,7 @@ Object {
   </body>,
   "container": <div>
     <div
+<<<<<<< HEAD
       class="sc-gZMcBi ethJNv"
     >
       <div
@@ -124,6 +146,22 @@ Object {
             Submitted projects for 
             <strong
               class="sc-kAzzGY cnVNXU"
+=======
+      class="sc-EHOje jvGfAl"
+    >
+      <div
+        class="sc-bwzfXH sc-htpNat sc-bZQynM ezhGmn"
+      >
+        <div
+          class="sc-kgoBCf cfxjOn"
+        >
+          <h3
+            class="sc-kAzzGY ebzwZA"
+          >
+            Submitted projects for 
+            <strong
+              class="sc-gqjmRU cXIDrc"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             >
               "
               World
@@ -132,7 +170,11 @@ Object {
           </h3>
         </div>
         <div
+<<<<<<< HEAD
           class="sc-iwsKbI iOqBwo"
+=======
+          class="sc-kkGfuU ieZEdl"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           spacing="center"
         >
           <div

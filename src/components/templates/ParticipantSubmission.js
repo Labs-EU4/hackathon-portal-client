@@ -5,16 +5,13 @@ import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-import WideBody from "../../assets/styles/atoms/WideBody";
-import { H3 } from "../../assets/styles/atoms/Heading";
-import { RowHead } from "../../assets/styles/atoms/RowHead";
-import { RowBody } from "../../assets/styles/atoms/RowBody";
-import { Column } from "../../assets/styles/atoms/Column";
-import { CardForm } from "../../assets/styles/atoms/Card";
-import { ErrorSpan } from "../../assets/styles/atoms/Span";
-import { Paragraph } from "../../assets/styles/atoms/Paragraph";
-import Label from "../../assets/styles/atoms/Label";
-import Button from "../atoms/Button";
+import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmissionStyling";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { RowHeadN } from "../../assets/styles/atoms/RowHead";
+import { RowBodyN } from "../../assets/styles/atoms/RowBody";
+import { CardForm } from "../../assets/styles/atoms/CardStyling";
+import { ErrorSpanN } from "../../assets/styles/atoms/Span";
+import {LabelN} from "../../assets/styles/atoms/Label";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import {
@@ -78,7 +75,11 @@ const ParticipantSubmission = ({
   return (
     <StyledWideBody>
       <CardForm>
+<<<<<<< HEAD
         <RowHead>
+=======
+        <RowHeadN>
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
           <H3>Submit Project</H3>
         </RowHead>
         <Formik

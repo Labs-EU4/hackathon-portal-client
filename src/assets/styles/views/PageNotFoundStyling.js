@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { BodyContainerN } from "../atoms/BodyContainerStyling";
 import { H2 } from "../atoms/Heading";
+=======
+import { BodyContainer } from "../atoms/BodyContainerStyling";
+import { H2 } from "../atoms/HeadingStyling";
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
@@ -14,7 +19,12 @@ export const BodyColumn = styled(BodyContainerN)`
     height: 100%;
   }
 `;
+<<<<<<< HEAD
 export const BodyRow = styled(BodyContainerN)`
+=======
+
+export const BodyRow = styled(BodyContainer)`
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
   flex-direction: row;
   justify-content: space-between;
   height: 100%;

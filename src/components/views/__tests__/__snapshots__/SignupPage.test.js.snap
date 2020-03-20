@@ -7,14 +7,18 @@ Object {
     <div>
       <div>
         <div
-          class="sc-iRbamj eUcMal"
+          class="sc-brqgnP cbRjif"
         >
           <div
-            class="sc-jlyJG kipBxx"
+            class="sc-cMljjf hJKSPc"
           >
             <img
               alt="Sign Up now!!"
+<<<<<<< HEAD
               class="sc-gipzik fjDcGO"
+=======
+              class="sc-jDwBTQ fhWCHk"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
               src="Signup.png"
             />
           </div>
@@ -25,14 +29,18 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-iRbamj eUcMal"
+        class="sc-brqgnP cbRjif"
       >
         <div
-          class="sc-jlyJG kipBxx"
+          class="sc-cMljjf hJKSPc"
         >
           <img
             alt="Sign Up now!!"
+<<<<<<< HEAD
             class="sc-gipzik fjDcGO"
+=======
+            class="sc-jDwBTQ fhWCHk"
+>>>>>>> 07ca61b053dab9dca018c7f141ea9f8f3b48a845
             src="Signup.png"
           />
         </div>
