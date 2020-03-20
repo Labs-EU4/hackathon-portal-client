@@ -22,7 +22,7 @@ export const EventImage = styled.figure`
   }
 `;
 
-export const OrgImgN = styled.img`
+export const OrgImg = styled.img`
   position: absolute;
   top: 130px;
   left: 10px;
