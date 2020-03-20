@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { IconLetterN } from "../atoms/IconLetter";
-import { ParagraphN } from "../atoms/Paragraph";
+import { Paragraph } from "../atoms/Paragraph";
 import Icon from "../../../components/atoms/Icon";
 
 export const StyledEventCardN = styled.div`
@@ -63,7 +63,7 @@ export const EventCTAN = styled.div`
   padding: 0 10px 5px;
 `;
 
-export const DateParagraphN = styled(ParagraphN)`
+export const DateParagraphN = styled(Paragraph)`
   margin-bottom: 0;
   color: ${props => props.theme.color.grey.regular};
 `;
