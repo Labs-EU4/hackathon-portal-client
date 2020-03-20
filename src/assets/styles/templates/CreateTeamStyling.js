@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
-import { BodyContainerN } from "../atoms/BodyContainerStyling";
-import { WideBody } from '../atoms/WideBodyStyling';
+import { BodyContainer } from "../atoms/BodyContainerStyling";
+import { WideBody } from "../atoms/WideBodyStyling";
 
 export const StyledWideBody = styled(WideBody)`
-  position: absolute; top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 100;
 `;
 
