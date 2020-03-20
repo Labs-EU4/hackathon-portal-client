@@ -13,7 +13,7 @@ export const StyledWideBody = styled(WideBody)`
   z-index: 100;
 `;
 
-export const BodyRow = styled(BodyContainerN)`
+export const BodyRow = styled(BodyContainer)`
   flex-direction: column;
   align-items: flex-start;
   height: 100%;
@@ -21,7 +21,7 @@ export const BodyRow = styled(BodyContainerN)`
   max-width: 100vw;
 `;
 
-export const BodyColumn = styled(BodyContainerN)`
+export const BodyColumn = styled(BodyContainer)`
   flex-direction: row;
   align-items: flex-start;
   height: 100%;
