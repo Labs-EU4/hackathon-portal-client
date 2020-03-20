@@ -9,7 +9,7 @@ import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
-import { ErrorSpanN } from "../../assets/styles/atoms/Span";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
 import {
