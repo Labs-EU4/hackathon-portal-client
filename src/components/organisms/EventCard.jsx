@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 
 import {
   StyledEventCard,
-  EventImageN,
+  EventImage,
   OrgImgN,
   StyledIconLetterN,
   EventCardContentN,
