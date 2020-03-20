@@ -12,7 +12,7 @@ import {
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
-import Label from "../../assets/styles/atoms/LabelStyling";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
 import TextArea from "../atoms/TextArea";
 import { updateUserProfile } from "../../store/user/actions";
