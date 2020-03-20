@@ -9,7 +9,7 @@ import {
   EventCardContent,
   EventCTA,
   DateParagraph,
-  LocationParagraphN,
+  LocationParagraph,
   CardCountDown,
   StyledBookmarkIconN,
   StyledStarIconN
