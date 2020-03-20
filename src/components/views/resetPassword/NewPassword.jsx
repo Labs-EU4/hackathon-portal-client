@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
 import { WideBody } from "../../../assets/styles/atoms/WideBodyStyling";
-import { BodyContainer } from "../../../assets/styles/atoms/BodyContainerStyling";
+import { BodyContainerN } from "../../../assets/styles/atoms/BodyContainerStyling";
 import Container from "../../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../../assets/styles/atoms/ParagraphStyling";
