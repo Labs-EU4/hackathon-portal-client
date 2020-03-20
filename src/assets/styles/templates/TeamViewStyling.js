@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { BodyContainerN } from "../atoms/BodyContainerStyling";
+import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { BoldSpan } from "../atoms/Span";
 import { NavLink } from "react-router-dom";
 
