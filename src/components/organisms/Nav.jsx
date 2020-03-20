@@ -3,15 +3,15 @@ import { useSelector } from "react-redux";
 // // import uuid from 'uuid';
 
 import {
-  StyledEditIconN,
-  StyledExpandIconN,
-  UserInfoContentN,
-  StyledNavN,
-  StyledProfileImageN,
-  StyledNavLinkN,
-  LinkDetailsN,
-  UserContainerN,
-  StyledButtonN
+  StyledEditIcon,
+  StyledExpandIcon,
+  UserInfoContent,
+  StyledNav,
+  StyledProfileImage,
+  StyledNavLink,
+  LinkDetails,
+  UserContainer,
+  StyledButton
 } from "../../assets/styles/organisms/NavStyling";
 import { ProfileImg } from "../atoms/ProfileImg";
 import Icon from "../atoms/Icon";
