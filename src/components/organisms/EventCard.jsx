@@ -47,7 +47,7 @@ const EventCard = ({ event, eventModalHandler }) => {
   const endMonth = endDate[1];
 
   return (
-    <StyledEventCardN>
+    <StyledEventCard>
       <Card>
         <EventImageN>
           <img src={eventImg} alt={event_title} />
@@ -93,7 +93,7 @@ const EventCard = ({ event, eventModalHandler }) => {
         <StyledBookmarkIconN icon="bookmark" />
         <StyledStarIconN icon="star" />
       </Card>
-    </StyledEventCardN>
+    </StyledEventCard>
   );
 };
 
