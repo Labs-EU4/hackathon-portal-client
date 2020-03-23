@@ -43,8 +43,8 @@ describe("Shows all the text nodes on AddParticipantTeam.js that are contained o
     let mainHeader = () => component.getByText("Add Teammates");
     expect(mainHeader()).toBeInTheDocument();
   });
-  it("The text node under the search bar is rendering", () => {
-    expect(component.getByText("Back to dashboard")).toBeInTheDocument();
+  it("The text node 'Back to event' is rendering", () => {
+    expect(component.getByText(/Back to event/i)).toBeInTheDocument();
   });
   it("asserts that the component renders properly", () => {
     expect(component).toMatchSnapshot();
