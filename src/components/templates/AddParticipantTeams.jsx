@@ -9,7 +9,7 @@ import {
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
-import { JudgesSearchWidget } from "./widgets/JudgesSearchWidget";
+import { SearchUserWidget } from "./widgets/JudgesSearchWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
 import { 
