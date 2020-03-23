@@ -22,8 +22,8 @@ function ResultPage(props) {
       position.coords.latitude,
       position.coords.longitude
     ]);
-    console.log(position.coords.latitude);
-    console.log(position.coords.longitude);
+    // console.log(position.coords.latitude);
+    // console.log(position.coords.longitude);
   }
 
   // One-shot position request.
