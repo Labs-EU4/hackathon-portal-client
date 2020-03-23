@@ -44,11 +44,15 @@ function ResultPage(props) {
       }
     });
 
-  let createMarker = () =>
+  let imageH =
+    "https://picresize.com/images/rsz_11e0e1053f6d6a5cbbd4b4bc22e5aba4d5.jpg";
+
+  const createMarker = () =>
     new window.google.maps.Marker({
       position: { lat: currentLocation[0], lng: currentLocation[1] },
       map: googleMap.current,
-      label: "You"
+      // label: "You",
+      icon: imageH
     });
 
   // useEffect Hook
