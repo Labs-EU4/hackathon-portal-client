@@ -64,3 +64,8 @@ export const NavLinks = styled(NavLink)`
   text-decoration: none;
   color: white;
 `;
+
+export const BtnContainer = styled.div`
+  display: flex;
+  width: 100%;
+`;
