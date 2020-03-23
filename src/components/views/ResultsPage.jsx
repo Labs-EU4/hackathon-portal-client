@@ -44,7 +44,7 @@ function ResultPage(props) {
       }
     });
 
-  const createMarker = () =>
+  let createMarker = () =>
     new window.google.maps.Marker({
       position: { lat: currentLocation[0], lng: currentLocation[1] },
       map: googleMap.current,
