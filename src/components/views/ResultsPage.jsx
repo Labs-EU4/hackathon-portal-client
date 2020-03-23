@@ -60,18 +60,28 @@ function ResultPage(props) {
   ];
 
   let createMarker;
-  
-  for (var i = 0; i < beaches.length; i++) {
-    var beach = beaches[i];
-    createMarker = () =>
-      new window.google.maps.Marker({
+
+  var beach = beaches;
+  createMarker = () =>
+    new window.google.maps.Marker(
+      {
+        position: {
+          lat: -26.195246,
+          lng: 28.034088
+        },
+        map: googleMap.current,
+        icon: imageH,
+        label: "YOOOO"
+        // shape: shape,
+      },
+      {
         position: { lat: beach[1], lng: beach[2] },
         map: googleMap.current,
         icon: imageH,
         label: "YOOOO"
         // shape: shape,
-      });
-  }
+      }
+    );
 
   // const createMarker = () =>
   //   new window.google.maps.Marker({
