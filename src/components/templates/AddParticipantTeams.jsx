@@ -37,6 +37,8 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
         team_member: selectedUser.id,
         eventId: eventId
       };
+
+      console.log('Data with handleSubmit --> ', data)
       return dispatch(addParticipantTeamMember(data, history));
     });
     setIsAddTeamMemberOpen(false);

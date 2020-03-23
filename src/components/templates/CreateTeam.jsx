@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik } from "formik";
 
@@ -22,12 +22,12 @@ const CreateTeam = ({ id }) => {
   const [isAddTeamMemberOpen, setIsAddTeamMemberOpen] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
+  const { teamId } = useParams();
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
   const team = teams.find(t => t.team_lead === userId);
-  const teamId = team?.id;
 
-  console.log('This is a team --> ', teamId);
+  console.log('This is the team id --> ', teamId);
 
   useEffect(() => {
     fetchTeams();
@@ -56,7 +56,7 @@ const CreateTeam = ({ id }) => {
             <H3>Participant Teams</H3>
           </RowHead>
           <BodyColumn>
-            {!team ? (
+            {!team && !isAddTeamMemberOpen ? (
               <Formik
                 initialValues={{ team_name: "" }}
                 onSubmit={handleTeamSubmit}
