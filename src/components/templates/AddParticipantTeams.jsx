@@ -3,7 +3,11 @@ import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import styled from 'styled-components';
 
-import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeamsStyling';
+import {
+  StyledWideBody,
+  StyledCardWide
+} from "../../assets/styles/templates/AddTeammatesStyling";
+// import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeamsStyling';
 import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
@@ -34,6 +38,8 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
     dispatch(addParticipantTeamMember(data, history));
   };
 
+  const handleExit = () => setIsAddTeamMemberOpen(false);
+
   const sendInvite = () => {
     const data = {
       teamId,
@@ -49,12 +55,20 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
           <RowHead>
             <H3>Add Teammates</H3>
           </RowHead>
-          <CardWide>
-            <SearchUserWidget 
+          <StyledCardWide>
+            {/* <SearchUserWidget 
               {...{setSelectedUser}}
               {...{selectedUser}}
               {...{setNoneUser}}
               {...{handleSubmit}}
+              {...{handleExit}}
+            /> */}
+            <JudgesSearchWidget
+              {...{ selectedUsersHandler }}
+              {...{ selectedUserArr }}
+              {...{ setNoneUser }}
+              {...{ handleExit }}
+              {...{ handleSubmit }}
             />
             {/* {!selectedUser ?  : <RoleWidget />} */}
             {noneUser && (
@@ -63,7 +77,7 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
                 {...{sendInvite}} 
               />
             )}
-          </CardWide>
+          </StyledCardWide>
         </Column>
     </StyledWideBody>
   );
@@ -71,12 +85,12 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
 
 export default AddParticipantTeam;
 
-const StyledWideBody = styled(WideBody)`
-  position: absolute; top: 0; left: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, .6);
-  z-index: 200;
-`;
+// const StyledWideBody = styled(WideBody)`
+//   position: absolute; top: 0; left: 0;
+//   width: 100%;
+//   background-color: rgba(0, 0, 0, .6);
+//   z-index: 200;
+// `;
 
 
 // import React, { useState } from "react";
