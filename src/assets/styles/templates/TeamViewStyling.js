@@ -5,6 +5,7 @@ import { BoldSpan } from "../atoms/SpanStyling";
 import { NavLink } from "react-router-dom";
 
 export const TeamsContainer = styled(BodyContainer)`
+  position: relative;
   background-color: white;
   width: 50%;
   height: 80%;
@@ -66,6 +67,7 @@ export const NavLinks = styled(NavLink)`
 `;
 
 export const BtnContainer = styled.div`
+  position: absolute; bottom: 0; left: 0;
   display: flex;
   width: 100%;
 `;

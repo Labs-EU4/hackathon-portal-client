@@ -76,10 +76,12 @@ const TeamView = ({ team, setIsAddTeamMemberOpen }) => {
       <BtnContainer>
         <Button 
           color="grey"
+          size="half"
           onClick={() => setIsAddTeamMemberOpen(false)}
         >Back to event</Button>
         <Button 
           color="green"
+          size="half"
           onClick={() => setIsAddTeamMemberOpen(true)}
         >Add Teammate</Button>
       </BtnContainer>
