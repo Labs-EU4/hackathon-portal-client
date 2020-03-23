@@ -44,8 +44,7 @@ function ResultPage(props) {
       }
     });
 
-  let imageH =
-    "https://picresize.com/images/rsz_11e0e1053f6d6a5cbbd4b4bc22e5aba4d5.jpg";
+  let imageH = "https://picresize.com/images/rsz_1anonymous.png";
 
   const createMarker = () =>
     new window.google.maps.Marker({
