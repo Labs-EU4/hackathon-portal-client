@@ -12,7 +12,7 @@ import EventCard from "../organisms/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 
 const UserEventsDashboard = ({ eventModalHandler }) => {
-  const [isRegisteredEvents, setIsRegisteredEvents] = useState(false);
+  const [isRegisteredEvents, setIsRegisteredEvents] = useState(true);
   const events = useSelector(state => state.events.data);
   const [data] = useRegisteredEvents();
   const registeredEvents = data?.body || [];
