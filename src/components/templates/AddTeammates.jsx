@@ -42,10 +42,7 @@ const AddTeammates = ({ setIsAddJudgeOpen }) => {
     history.push(`/${currentPath}`);
   };
 
-  const handleExit = () => {
-    //!!See if it works, otherwise make changes
-    setIsAddJudgeOpen(false);
-  };
+  const handleExit = () => setIsAddJudgeOpen(false);
 
   const sendInvite = () => {
     const data = {
