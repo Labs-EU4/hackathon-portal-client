@@ -17,7 +17,7 @@ import TeamView from "./TeamView";
 import { createTeamName } from "../../store/participantTeams/actions";
 import { useTeams } from "../../hooks";
 
-const CreateTeam = ({ id }) => {
+const CreateTeam = ({ id, setRegisterTeam }) => {
   const [isAddTeamMemberOpen, setIsAddTeamMemberOpen] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
@@ -93,6 +93,7 @@ const CreateTeam = ({ id }) => {
                 {...{ team }}
                 {...{ isAddTeamMemberOpen }}
                 {...{ setIsAddTeamMemberOpen }}
+                {...{ setRegisterTeam }}
               />
             )}
           </BodyColumn>
