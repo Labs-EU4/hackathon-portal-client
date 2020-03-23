@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 export const TeamsContainer = styled(BodyContainer)`
   background-color: white;
   width: 50%;
-  height: 40%;
+  height: 80%;
   overflow-y: auto;
   border: 1px solid lightgray;
   display: flex;
@@ -51,8 +51,7 @@ export const DivWrapper = styled.div`
 `;
 
 export const ImgTeammates = styled.img`
-  width: 7%;
-  height: 7%;
+  width: 40px; height: 40px;
   margin-left: 1%;
   object-fit: cover;
 `;
