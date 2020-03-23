@@ -54,6 +54,7 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
               {...{setSelectedUser}}
               {...{selectedUser}}
               {...{setNoneUser}}
+              {...{handleSubmit}}
             />
             {/* {!selectedUser ?  : <RoleWidget />} */}
             {noneUser && (
