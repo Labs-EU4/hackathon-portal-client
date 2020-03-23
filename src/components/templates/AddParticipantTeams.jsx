@@ -45,11 +45,10 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
 
   return (
     <StyledWideBody>
-      <BodyContainerColumn>
-        <RowHead>
-          <H3>Add Teammates</H3>
-        </RowHead>
         <Column>
+          <RowHead>
+            <H3>Add Teammates</H3>
+          </RowHead>
           <CardWide>
             <SearchUserWidget 
               {...{setSelectedUser}}
@@ -66,7 +65,6 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
             )}
           </CardWide>
         </Column>
-      </BodyContainerColumn>
     </StyledWideBody>
   );
 };
@@ -74,8 +72,10 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
 export default AddParticipantTeam;
 
 const StyledWideBody = styled(WideBody)`
-  border: 3px solid red;
-
+  position: absolute; top: 0; left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  z-index: 200;
 `;
 
 

@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bZQynM sc-kgoBCf kVklIi"
+        class="sc-bZQynM sc-kgoBCf hxxlJX"
       >
         <div
-          class="sc-bdVaJa sc-htpNat kOzhBZ"
+          class="sc-gqjmRU kVamBc"
         >
           <div
             class="sc-gZMcBi cLoBhv"
@@ -20,53 +20,6 @@ Object {
               Add Teammates
             </h3>
           </div>
-          <div
-            class="sc-gqjmRU kVamBc"
-          >
-            <div
-              class="sc-VigVT sc-jTzLTM dFyrrM"
-            >
-              <div
-                class="sc-ifAKCX hEwGsi"
-                display="wide"
-              >
-                <input
-                  placeholder="Search by email"
-                  type="text"
-                  value=""
-                />
-                <button
-                  class="sc-jzJRlG czeace"
-                  color="grey"
-                >
-                  Back to dashboard
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="sc-bZQynM sc-kgoBCf kVklIi"
-    >
-      <div
-        class="sc-bdVaJa sc-htpNat kOzhBZ"
-      >
-        <div
-          class="sc-gZMcBi cLoBhv"
-        >
-          <h3
-            class="sc-dnqmqq kAxxzQ"
-          >
-            Add Teammates
-          </h3>
-        </div>
-        <div
-          class="sc-gqjmRU kVamBc"
-        >
           <div
             class="sc-VigVT sc-jTzLTM dFyrrM"
           >
@@ -86,6 +39,45 @@ Object {
                 Back to dashboard
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bZQynM sc-kgoBCf hxxlJX"
+    >
+      <div
+        class="sc-gqjmRU kVamBc"
+      >
+        <div
+          class="sc-gZMcBi cLoBhv"
+        >
+          <h3
+            class="sc-dnqmqq kAxxzQ"
+          >
+            Add Teammates
+          </h3>
+        </div>
+        <div
+          class="sc-VigVT sc-jTzLTM dFyrrM"
+        >
+          <div
+            class="sc-ifAKCX hEwGsi"
+            display="wide"
+          >
+            <input
+              placeholder="Search by email"
+              type="text"
+              value=""
+            />
+            <button
+              class="sc-jzJRlG czeace"
+              color="grey"
+            >
+              Back to dashboard
+            </button>
           </div>
         </div>
       </div>
