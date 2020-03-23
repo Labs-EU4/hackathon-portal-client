@@ -40,7 +40,7 @@ beforeEach(() => {
     <Router history={history}>
       <Provider store={store}>
         <ThemeProvider theme={theme}>
-          <HackathonSingleProject />
+          <HackathonSingleProject id={1} projectId={1} setIsProjectPageOpen />
         </ThemeProvider>
       </Provider>
     </Router>
