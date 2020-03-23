@@ -65,7 +65,7 @@ function ResultPage(props) {
   return currentLocation ? (
     <div id="google-map" ref={googleMapRef} style={mapStyles} />
   ) : (
-    <p>Wait a moment while we find events in your location..</p>
+    <p>Wait a moment while we find events in your area..</p>
   );
 }
 
