@@ -5,11 +5,11 @@ import { RowBody } from "../../../assets/styles/atoms/RowBodyStyling";
 import { 
     Container,
     UsersList,
-    ChosenJudgesContainer,
-    ChosenJudgeImg,
+    ChosenUserContainer,
+    ChosenUserImg,
     StyledSearchIcon
 } from "../../../assets/styles/templates/AddTeammatesStyling";
-import { JudgeWidget } from './JudgeWidget';
+import { UserWidget } from './UserWidget';
 import isEmail from "validator/lib/isEmail";
 import { useSearchUserByEmail } from "../../../hooks";
 
@@ -51,7 +51,7 @@ export const SearchUserWidget = props => {
           <UsersList>
             {matches.map(user => (
               // <UserWidget key={user.id} user={user} select={setSelectedUser} />
-              <JudgeWidget key={user.id} user={user} selected={selectedUsersHandler} />
+              <UserWidget key={user.id} user={user} selected={selectedUsersHandler} />
             ))}
             {
               !!matches && validateEmail(searchString) 
@@ -59,22 +59,22 @@ export const SearchUserWidget = props => {
                 : setNoneUser(null)
             }
           </UsersList>
-          <ChosenJudgesContainer>
+          <ChosenUserContainer>
             {
               selectedUserArr.current.length > 0 && (
                 selectedUserArr.current.map(user => {
                   let memberProfile = JSON.parse(user.image_url);
                   return user.image_url !== null ? (
-                    <ChosenJudgeImg src={memberProfile.avatar} alt={user.username}/>
+                    <ChosenUserImg src={memberProfile.avatar} alt={user.username}/>
                   ) : (
-                    <ChosenJudgeImg 
+                    <ChosenUserImg 
                       src="https://media.giphy.com/media/g0QET2Iejaa4EQ0eBV/giphy.gif" alt="default-img" 
                     />
                   )
                 }) 
               )
             }
-          </ChosenJudgesContainer>
+          </ChosenUserContainer>
         </div>
         <RowBody>
           <Button 
