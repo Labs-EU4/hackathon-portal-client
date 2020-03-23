@@ -8,8 +8,8 @@ import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { CardWide } from "../../assets/styles/atoms/CardStyling";
-import { SearchWidget } from "./widgets/SearchWidget";
 // import { ParticipantRoleWidget } from "./widgets/ParticipantRoleWidget";
+import { SearchUserWidget } from "./widgets/SearchUserWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
 import { 
@@ -23,9 +23,7 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
   const history = useHistory();
   // const { eventId, teamId } = useParams();
   const [noneUser, setNoneUser] = useState(null);
- 
-  //!!This needs fixing
-  //Part of the ParticipantRoleWidget component widget (i.e. chose judge or organizer)
+
   const handleSubmit = () => {
     const data = {
       team_id: teamId,
@@ -52,7 +50,7 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
         </RowHead>
         <Column>
           <CardWide>
-            <SearchWidget 
+            <SearchUserWidget 
               {...{setSelectedUser}}
               {...{selectedUser}}
               {...{setNoneUser}}
