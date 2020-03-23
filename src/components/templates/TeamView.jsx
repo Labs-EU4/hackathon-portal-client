@@ -7,10 +7,10 @@ import {
   DivWrapper,
   ImgTeammates,
   TeamMemberImg,
-  NavLinks
+  BtnContainer
 } from "../../assets/styles/templates/TeamViewStyling";
-import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+// import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+// import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import Button from "../atoms/Button";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -35,9 +35,6 @@ const TeamView = ({ team, setIsAddTeamMemberOpen }) => {
 
   return (
     <TeamsContainer>
-      <RowHead>
-        <H3>Participant Teams</H3>
-      </RowHead>
       <StyledLetterIcon icon="">{initial}</StyledLetterIcon>
       <FancyBoldSpan>Your Team</FancyBoldSpan>
       <FancyBoldSpan>
@@ -76,16 +73,19 @@ const TeamView = ({ team, setIsAddTeamMemberOpen }) => {
         Hackathon Name:
         <NormalSpan>{event_title}</NormalSpan>
       </FancyBoldSpan>
-      <Button 
-        color="green"
-        onClick={() => setIsAddTeamMemberOpen(true)}
-      >Add Teammate</Button>
+      <BtnContainer>
+        <Button 
+          color="grey"
+          onClick={() => setIsAddTeamMemberOpen(false)}
+        >Back to event</Button>
+        <Button 
+          color="green"
+          onClick={() => setIsAddTeamMemberOpen(true)}
+        >Add Teammate</Button>
+      </BtnContainer>
     </TeamsContainer>
   );
 };
 
 export default TeamView;
 
-{/* <NavLinks to={`/dashboard/event/${id}/participant-teams/${team.id}`}>
-  Add Teammate
-</NavLinks> */}
