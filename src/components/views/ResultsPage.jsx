@@ -12,8 +12,23 @@ const mapStyles = {
   width: "100%",
   height: "100%"
 };
+let currentLocation;
 
 function ResultPage(props) {
+  function showMap(position) {
+    // Show a map centered at (position.coords.latitude, position.coords.longitude).
+
+    return (currentLocation = [
+      position.coords.latitude,
+      position.coords.longitude
+    ]);
+    console.log(position.coords.latitude);
+    console.log(position.coords.longitude);
+  }
+
+  // One-shot position request.
+  navigator.geolocation.getCurrentPosition(showMap);
+
   // refs
   const googleMapRef = React.createRef();
   const googleMap = useRef(null);
@@ -24,14 +39,14 @@ function ResultPage(props) {
     new window.google.maps.Map(googleMapRef.current, {
       zoom: 12,
       center: {
-        lat: myLocation.lat,
-        lng: myLocation.lng
+        lat: currentLocation[0],
+        lng: currentLocation[1]
       }
     });
 
   const createMarker = () =>
     new window.google.maps.Marker({
-      position: { lat: myLocation.lat, lng: myLocation.lng },
+      position: { lat: currentLocation[0], lng: currentLocation[1] },
       map: googleMap.current
     });
 
