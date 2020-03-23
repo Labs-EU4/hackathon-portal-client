@@ -47,7 +47,8 @@ function ResultPage(props) {
   const createMarker = () =>
     new window.google.maps.Marker({
       position: { lat: currentLocation[0], lng: currentLocation[1] },
-      map: googleMap.current
+      map: googleMap.current,
+      label: "You"
     });
 
   // useEffect Hook
