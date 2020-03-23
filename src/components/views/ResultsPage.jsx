@@ -62,7 +62,11 @@ function ResultPage(props) {
     });
   });
 
-  return <div id="google-map" ref={googleMapRef} style={mapStyles} />;
+  return currentLocation ? (
+    <div id="google-map" ref={googleMapRef} style={mapStyles} />
+  ) : (
+    <p>Wait a moment while we find events in your location..</p>
+  );
 }
 
 export default ResultPage;
