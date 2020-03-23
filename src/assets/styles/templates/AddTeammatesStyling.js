@@ -119,7 +119,7 @@ export const UsersList = styled.div`
   }
 `;
 
-export const ChosenJudgesContainer = styled.div`
+export const ChosenUserContainer = styled.div`
   position: relative;
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@ export const ChosenJudgesContainer = styled.div`
   z-index: 500;
 `;
 
-export const ChosenJudgeImg = styled.img`
+export const ChosenUserImg = styled.img`
   width: 33px;
   height: 33px;
   border-radius: 50%;
