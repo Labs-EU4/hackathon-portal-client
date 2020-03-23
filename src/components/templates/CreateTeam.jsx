@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { useHistory, useParams, useLocation } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik } from "formik";
-import styled from 'styled-components';
 
 import {
   StyledWideBody,
@@ -30,7 +29,7 @@ const CreateTeam = ({ id }) => {
   const team = teams.find(t => t.team_lead === userId);
   // const teamId = team?.id;
 
-  console.log('This is the team id --> ', teamId);
+  console.log("This is the team id --> ", teamId);
 
   useEffect(() => {
     fetchTeams();
@@ -105,7 +104,7 @@ const CreateTeam = ({ id }) => {
     return (
       <AddParticipantTeam
         eventId={id}
-        {...{teamId}}
+        {...{ teamId }}
         {...{ setIsAddTeamMemberOpen }}
       />
     );

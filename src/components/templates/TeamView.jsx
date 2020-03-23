@@ -6,8 +6,7 @@ import {
   NormalSpan,
   DivWrapper,
   ImgTeammates,
-  TeamMemberImg,
-  NavLinks
+  TeamMemberImg
 } from "../../assets/styles/templates/TeamViewStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
@@ -76,16 +75,11 @@ const TeamView = ({ team, setIsAddTeamMemberOpen }) => {
         Hackathon Name:
         <NormalSpan>{event_title}</NormalSpan>
       </FancyBoldSpan>
-      <Button 
-        color="green"
-        onClick={() => setIsAddTeamMemberOpen(true)}
-      >Add Teammate</Button>
+      <Button color="green" onClick={() => setIsAddTeamMemberOpen(true)}>
+        Add Teammate
+      </Button>
     </TeamsContainer>
   );
 };
 
 export default TeamView;
-
-{/* <NavLinks to={`/dashboard/event/${id}/participant-teams/${team.id}`}>
-  Add Teammate
-</NavLinks> */}
