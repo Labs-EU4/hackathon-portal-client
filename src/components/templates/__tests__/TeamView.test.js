@@ -67,10 +67,10 @@ describe("TeamView.js", () => {
       component.queryByText(/This team has no members/i)
     ).toBeInTheDocument();
   });
-
-  it("the component render the a button to add a new team mate", () => {
-    expect(document.querySelector("a").getAttribute("href")).toBe(
-      "/dashboard/event/1/participant-teams/1"
-    );
+  
+  it("the component render the correct text node -> team members", () => {
+    expect(
+      component.queryByText(/Team Members:/i)
+    ).toBeInTheDocument();
   });
 });

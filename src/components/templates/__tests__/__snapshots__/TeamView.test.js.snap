@@ -61,12 +61,7 @@ Object {
           class="sc-kgoBCf jIzyzw"
           color="green"
         >
-          <a
-            class="sc-jTzLTM BpibH"
-            href="/dashboard/event/1/participant-teams/1"
-          >
-            Add Teammate
-          </a>
+          Add Teammate
         </button>
       </div>
     </div>
@@ -128,12 +123,7 @@ Object {
         class="sc-kgoBCf jIzyzw"
         color="green"
       >
-        <a
-          class="sc-jTzLTM BpibH"
-          href="/dashboard/event/1/participant-teams/1"
-        >
-          Add Teammate
-        </a>
+        Add Teammate
       </button>
     </div>
   </div>,
