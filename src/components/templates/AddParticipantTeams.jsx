@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import styled from 'styled-components';
@@ -14,7 +14,8 @@ import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { CardWide } from "../../assets/styles/atoms/CardStyling";
 // import { ParticipantRoleWidget } from "./widgets/ParticipantRoleWidget";
-import { SearchUserWidget } from "./widgets/SearchUserWidget";
+// import { SearchUserWidget } from "./widgets/SearchUserWidget";
+import { JudgesSearchWidget } from "./widgets/JudgesSearchWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
 import { 
@@ -23,19 +24,31 @@ import {
 } from "../../store/participantTeams/actions";
 
 const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
-  const [selectedUser, setSelectedUser] = useState(null);
+  const selectedUserArr = useRef([]);
+  // const [selectedUser, setSelectedUser] = useState(null);
   const dispatch = useDispatch();
   const history = useHistory();
-  // const { eventId, teamId } = useParams();
+  const { pathname } = useLocation();
+  const currentPath = pathname.split("/")[1];
   const [noneUser, setNoneUser] = useState(null);
+  // const { eventId, teamId } = useParams();
+
+  const selectedUsersHandler = async addedUser => {
+    const newArray = [...selectedUserArr.current, addedUser];
+    selectedUserArr.current = newArray;
+  };
 
   const handleSubmit = () => {
-    const data = {
-      team_id: teamId,
-      team_member: selectedUser.id,
-      eventId: eventId
-    };
-    dispatch(addParticipantTeamMember(data, history));
+    selectedUserArr.current.map(selectedUser => {
+      const data = {
+        team_id: teamId,
+        team_member: selectedUser.id,
+        eventId: eventId
+      };
+      return dispatch(addParticipantTeamMember(data, history));
+    });
+    setIsAddTeamMemberOpen(false);
+    history.push(`/${currentPath}`);
   };
 
   const handleExit = () => setIsAddTeamMemberOpen(false);
@@ -52,10 +65,10 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
   return (
     <StyledWideBody>
         <Column>
-          <RowHead>
-            <H3>Add Teammates</H3>
-          </RowHead>
           <StyledCardWide>
+            <RowHead>
+              <H3>Add Teammates</H3>
+            </RowHead>
             {/* <SearchUserWidget 
               {...{setSelectedUser}}
               {...{selectedUser}}
@@ -91,6 +104,67 @@ export default AddParticipantTeam;
 //   background-color: rgba(0, 0, 0, .6);
 //   z-index: 200;
 // `;
+
+// const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
+//   const [selectedUser, setSelectedUser] = useState(null);
+//   const dispatch = useDispatch();
+//   const history = useHistory();
+//   // const { eventId, teamId } = useParams();
+//   const [noneUser, setNoneUser] = useState(null);
+
+//   const handleSubmit = () => {
+//     const data = {
+//       team_id: teamId,
+//       team_member: selectedUser.id,
+//       eventId: eventId
+//     };
+//     dispatch(addParticipantTeamMember(data, history));
+//   };
+
+//   const handleExit = () => setIsAddTeamMemberOpen(false);
+
+//   const sendInvite = () => {
+//     const data = {
+//       teamId,
+//       email: noneUser,
+//       eventId
+//     };
+//     dispatch(sendParticipantInvite(data, history))
+//   }
+
+//   return (
+//     <StyledWideBody>
+//         <Column>
+//           <StyledCardWide>
+//             <RowHead>
+//               <H3>Add Teammates</H3>
+//             </RowHead>
+//             {/* <SearchUserWidget 
+//               {...{setSelectedUser}}
+//               {...{selectedUser}}
+//               {...{setNoneUser}}
+//               {...{handleSubmit}}
+//               {...{handleExit}}
+//             /> */}
+//             <JudgesSearchWidget
+//               {...{ selectedUsersHandler }}
+//               {...{ selectedUserArr }}
+//               {...{ setNoneUser }}
+//               {...{ handleExit }}
+//               {...{ handleSubmit }}
+//             />
+//             {/* {!selectedUser ?  : <RoleWidget />} */}
+//             {noneUser && (
+//               <ParticipantInviteWidget 
+//                 {...{noneUser}} 
+//                 {...{sendInvite}} 
+//               />
+//             )}
+//           </StyledCardWide>
+//         </Column>
+//     </StyledWideBody>
+//   );
+// };
 
 
 // import React, { useState } from "react";
