@@ -17,7 +17,7 @@ import { useSelector } from "react-redux";
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
 
-const TeamView = ({ team }) => {
+const TeamView = ({ team, setIsAddTeamMemberOpen }) => {
   const { id } = useParams();
 
   const { event_title } = useSelector(state =>
@@ -76,13 +76,16 @@ const TeamView = ({ team }) => {
         Hackathon Name:
         <NormalSpan>{event_title}</NormalSpan>
       </FancyBoldSpan>
-      <Button color="green">
-        <NavLinks to={`/dashboard/event/${id}/participant-teams/${team.id}`}>
-          Add Teammate
-        </NavLinks>
-      </Button>
+      <Button 
+        color="green"
+        onClick={() => setIsAddTeamMemberOpen(true)}
+      >Add Teammate</Button>
     </TeamsContainer>
   );
 };
 
 export default TeamView;
+
+{/* <NavLinks to={`/dashboard/event/${id}/participant-teams/${team.id}`}>
+  Add Teammate
+</NavLinks> */}
