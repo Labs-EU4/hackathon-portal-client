@@ -12,7 +12,10 @@ import { SearchWidget } from "./widgets/SearchWidget";
 // import { ParticipantRoleWidget } from "./widgets/ParticipantRoleWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
-import { sendParticipantInvite } from "../../store/participantTeams/actions";
+import { 
+  addParticipantTeamMember, 
+  sendParticipantInvite 
+} from "../../store/participantTeams/actions";
 
 const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
   const [selectedUser, setSelectedUser] = useState(null);
@@ -23,14 +26,14 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
  
   //!!This needs fixing
   //Part of the ParticipantRoleWidget component widget (i.e. chose judge or organizer)
-  // const handleSubmit = () => {
-  //   const data = {
-  //     team_id: teamId,
-  //     team_member: selectedUser.id,
-  //     eventId: eventId
-  //   };
-  //   dispatch(addParticipantTeamMember(data, history));
-  // };
+  const handleSubmit = () => {
+    const data = {
+      team_id: teamId,
+      team_member: selectedUser.id,
+      eventId: eventId
+    };
+    dispatch(addParticipantTeamMember(data, history));
+  };
 
   const sendInvite = () => {
     const data = {
