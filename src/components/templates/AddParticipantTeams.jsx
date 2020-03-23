@@ -1,20 +1,14 @@
 import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
-import styled from 'styled-components';
+import { useHistory, useLocation } from "react-router-dom";
 
 import {
   StyledWideBody,
   StyledCardWide
 } from "../../assets/styles/templates/AddTeammatesStyling";
-// import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeamsStyling';
-import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
-import { CardWide } from "../../assets/styles/atoms/CardStyling";
-// import { ParticipantRoleWidget } from "./widgets/ParticipantRoleWidget";
-// import { SearchUserWidget } from "./widgets/SearchUserWidget";
 import { JudgesSearchWidget } from "./widgets/JudgesSearchWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
