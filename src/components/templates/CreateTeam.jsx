@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory, useParams, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik } from "formik";
+import styled from 'styled-components';
 
 import {
   StyledWideBody,
@@ -9,8 +10,6 @@ import {
   BodyColumn,
   Form
 } from "../../assets/styles/templates/CreateTeamStyling";
-import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 // import WideBody from "../../assets/styles/atoms/WideBodyStyling";
 import Button from "../atoms/Button";
 import AddParticipantTeam from "../templates/AddParticipantTeams";
@@ -22,10 +21,14 @@ const CreateTeam = ({ id }) => {
   const [isAddTeamMemberOpen, setIsAddTeamMemberOpen] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
-  const { teamId } = useParams();
+  // const { teamId } = useParams();
+  // const { pathname } = useLocation();
+  // const teamId = pathname.split('/')[-1];
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
+  const { teamId } = useSelector(state => state.participantTeams);
   const team = teams.find(t => t.team_lead === userId);
+  // const teamId = team?.id;
 
   console.log('This is the team id --> ', teamId);
 
@@ -52,11 +55,8 @@ const CreateTeam = ({ id }) => {
     return (
       <StyledWideBody>
         <BodyRow>
-          <RowHead>
-            <H3>Participant Teams</H3>
-          </RowHead>
           <BodyColumn>
-            {!team && !isAddTeamMemberOpen ? (
+            {!team ? (
               <Formik
                 initialValues={{ team_name: "" }}
                 onSubmit={handleTeamSubmit}
