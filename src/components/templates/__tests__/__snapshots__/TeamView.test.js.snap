@@ -6,8 +6,17 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa sc-gzVnrw eyKWPL"
+        class="sc-bdVaJa sc-gzVnrw fvzeOi"
       >
+        <div
+          class="sc-fjdhpX jbQGYd"
+        >
+          <h3
+            class="sc-kAzzGY ebzwZA"
+          >
+            Participant Teams
+          </h3>
+        </div>
         <div
           class="sc-dnqmqq gJREBr"
         >
@@ -49,7 +58,7 @@ Object {
           </span>
         </span>
         <button
-          class="sc-fjdhpX tHDvV"
+          class="sc-kgoBCf jIzyzw"
           color="green"
         >
           <a
@@ -64,8 +73,17 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa sc-gzVnrw eyKWPL"
+      class="sc-bdVaJa sc-gzVnrw fvzeOi"
     >
+      <div
+        class="sc-fjdhpX jbQGYd"
+      >
+        <h3
+          class="sc-kAzzGY ebzwZA"
+        >
+          Participant Teams
+        </h3>
+      </div>
       <div
         class="sc-dnqmqq gJREBr"
       >
@@ -107,7 +125,7 @@ Object {
         </span>
       </span>
       <button
-        class="sc-fjdhpX tHDvV"
+        class="sc-kgoBCf jIzyzw"
         color="green"
       >
         <a

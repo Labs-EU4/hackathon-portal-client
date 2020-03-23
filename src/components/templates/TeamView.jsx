@@ -9,6 +9,8 @@ import {
   TeamMemberImg,
   NavLinks
 } from "../../assets/styles/templates/TeamViewStyling";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import Button from "../atoms/Button";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -33,6 +35,9 @@ const TeamView = ({ team }) => {
 
   return (
     <TeamsContainer>
+      <RowHead>
+        <H3>Participant Teams</H3>
+      </RowHead>
       <StyledLetterIcon icon="">{initial}</StyledLetterIcon>
       <FancyBoldSpan>Your Team</FancyBoldSpan>
       <FancyBoldSpan>
