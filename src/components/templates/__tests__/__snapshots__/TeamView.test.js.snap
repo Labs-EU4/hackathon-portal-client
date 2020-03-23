@@ -6,17 +6,8 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa sc-gzVnrw fvzeOi"
+        class="sc-bdVaJa sc-gzVnrw ipNalE"
       >
-        <div
-          class="sc-fjdhpX jbQGYd"
-        >
-          <h3
-            class="sc-kAzzGY ebzwZA"
-          >
-            Participant Teams
-          </h3>
-        </div>
         <div
           class="sc-dnqmqq gJREBr"
         >
@@ -57,28 +48,29 @@ Object {
             EuroHack
           </span>
         </span>
-        <button
-          class="sc-kgoBCf jIzyzw"
-          color="green"
+        <div
+          class="sc-fjdhpX boYCYK"
         >
-          Add Teammate
-        </button>
+          <button
+            class="sc-jzJRlG gJwZNx"
+            color="grey"
+          >
+            Back to event
+          </button>
+          <button
+            class="sc-jzJRlG gttjqc"
+            color="green"
+          >
+            Add Teammate
+          </button>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa sc-gzVnrw fvzeOi"
+      class="sc-bdVaJa sc-gzVnrw ipNalE"
     >
-      <div
-        class="sc-fjdhpX jbQGYd"
-      >
-        <h3
-          class="sc-kAzzGY ebzwZA"
-        >
-          Participant Teams
-        </h3>
-      </div>
       <div
         class="sc-dnqmqq gJREBr"
       >
@@ -119,12 +111,22 @@ Object {
           EuroHack
         </span>
       </span>
-      <button
-        class="sc-kgoBCf jIzyzw"
-        color="green"
+      <div
+        class="sc-fjdhpX boYCYK"
       >
-        Add Teammate
-      </button>
+        <button
+          class="sc-jzJRlG gJwZNx"
+          color="grey"
+        >
+          Back to event
+        </button>
+        <button
+          class="sc-jzJRlG gttjqc"
+          color="green"
+        >
+          Add Teammate
+        </button>
+      </div>
     </div>
   </div>,
   "debug": [Function],
