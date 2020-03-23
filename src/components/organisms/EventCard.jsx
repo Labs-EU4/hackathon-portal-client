@@ -1,5 +1,6 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useHistory } from "react-router-dom";
+import { useDispatch } from "react-redux";
 
 import {
   StyledEventCard,
@@ -19,6 +20,7 @@ import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
 import eventImg from "../../assets/images/event-img.jpg";
+import { registerEvent } from "../../store/eventParticipants/actions";
 
 const EventCard = ({ event, eventModalHandler }) => {
   const {
@@ -35,7 +37,8 @@ const EventCard = ({ event, eventModalHandler }) => {
   const organizerImg =
     organizer_profile_pic && JSON.parse(organizer_profile_pic[0]);
   const excerpt = event_description.substr(0, 100) + "...";
-
+  const dispatch = useDispatch();
+  const history = useHistory();
   // Date formatting
   const formattedDate = new Date(event.start_date).toLocaleDateString();
   const startDate = String(new Date(event.start_date)).split(" ");
@@ -45,6 +48,12 @@ const EventCard = ({ event, eventModalHandler }) => {
   const endDate = String(new Date(event.end_date)).split(" ");
   const endDay = endDate[2];
   const endMonth = endDate[1];
+
+  const joinEvent = e => {
+    e.preventDefault();
+    dispatch(registerEvent(id));
+    history.push("/dashboard");
+  };
 
   return (
     <StyledEventCard>
@@ -85,7 +94,7 @@ const EventCard = ({ event, eventModalHandler }) => {
             >
               More Info
             </Button>
-            <Button link color="primary" to={`/`}>
+            <Button link color="primary" onClick={joinEvent}>
               Join Event
             </Button>
           </EventCTA>
