@@ -5,9 +5,10 @@ import { BoldSpan } from "../atoms/SpanStyling";
 import { NavLink } from "react-router-dom";
 
 export const TeamsContainer = styled(BodyContainer)`
+  position: relative;
   background-color: white;
   width: 50%;
-  height: 40%;
+  height: 80%;
   overflow-y: auto;
   border: 1px solid lightgray;
   display: flex;
@@ -51,8 +52,7 @@ export const DivWrapper = styled.div`
 `;
 
 export const ImgTeammates = styled.img`
-  width: 7%;
-  height: 7%;
+  width: 40px; height: 40px;
   margin-left: 1%;
   object-fit: cover;
 `;
@@ -64,4 +64,10 @@ export const TeamMemberImg = styled(ImgTeammates)`
 export const NavLinks = styled(NavLink)`
   text-decoration: none;
   color: white;
+`;
+
+export const BtnContainer = styled.div`
+  position: absolute; bottom: 0; left: 0;
+  display: flex;
+  width: 100%;
 `;
