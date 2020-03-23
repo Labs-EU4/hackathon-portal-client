@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
+import styled from 'styled-components';
 
 import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeamsStyling';
 import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
@@ -43,7 +44,7 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
   }
 
   return (
-    <WideBody>
+    <StyledWideBody>
       <BodyContainerColumn>
         <RowHead>
           <H3>Add Teammates</H3>
@@ -66,11 +67,16 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
           </CardWide>
         </Column>
       </BodyContainerColumn>
-    </WideBody>
+    </StyledWideBody>
   );
 };
 
 export default AddParticipantTeam;
+
+const StyledWideBody = styled(WideBody)`
+  border: 3px solid red;
+
+`;
 
 
 // import React, { useState } from "react";

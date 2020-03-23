@@ -22,10 +22,12 @@ const CreateTeam = ({ id }) => {
   const [isAddTeamMemberOpen, setIsAddTeamMemberOpen] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
-  // const { id } = useParams();
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
   const team = teams.find(t => t.team_lead === userId);
+  const teamId = team?.id;
+
+  console.log('This is a team --> ', teamId);
 
   useEffect(() => {
     fetchTeams();
@@ -103,7 +105,7 @@ const CreateTeam = ({ id }) => {
     return (
       <AddParticipantTeam
         eventId={id}
-        teamId={team.id}
+        {...{teamId}}
         {...{ setIsAddTeamMemberOpen }}
       />
     );
