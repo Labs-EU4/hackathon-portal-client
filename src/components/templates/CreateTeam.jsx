@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik } from "formik";
@@ -24,7 +24,7 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
   const [teams, fetchTeams] = useTeams(id);
   const { teamId } = useSelector(state => state.participantTeams);
   const team = teams.find(t => t.team_lead === userId);
-  const [ currentTeamId, setCurrentTeamId ] = useState();
+  const [currentTeamId, setCurrentTeamId] = useState();
 
   useEffect(() => {
     fetchTeams();
@@ -109,9 +109,9 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
         {...{ setIsAddTeamMemberOpen }}
       />
     );
-  } 
-  
-  if ( isAddTeamMemberOpen ) {
+  }
+
+  if (isAddTeamMemberOpen) {
     return (
       <AddParticipantTeam
         eventId={id}
