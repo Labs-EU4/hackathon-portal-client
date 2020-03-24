@@ -14,6 +14,7 @@ const mapStyles = {
 };
 
 let currentLocation;
+
 function ResultPage(props) {
   function showMap(position) {
     // Show a map centered at (position.coords.latitude, position.coords.longitude).
@@ -22,8 +23,6 @@ function ResultPage(props) {
       position.coords.latitude,
       position.coords.longitude
     ]);
-    // console.log(position.coords.latitude);
-    // console.log(position.coords.longitude);
   }
 
   navigator.geolocation.getCurrentPosition(showMap);
