@@ -36,7 +36,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
               userEvents.map(event => (
                 <EventCard
                   key={event.event_title}
-                  event={event}
+                  event={{ ...event, join: false }}
                   {...{ eventModalHandler }}
                 />
               ))
@@ -50,7 +50,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
               registeredEvents.map(event => (
                 <EventCard
                   key={event.event_title}
-                  event={event}
+                  event={{ ...event, registered: true }}
                   {...{ eventModalHandler }}
                 />
               ))
