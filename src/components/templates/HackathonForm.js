@@ -50,7 +50,7 @@ const HackathonForm = ({ initialState }) => {
     tag_name: initialState?.tag_name || [],
     rubrics: initialState?.rubrics || [],
     requirements: initialState?.requirements || [],
-    difficulty_level: initialState?.difficulty_level || [],
+    difficulty_level: initialState?.difficulty_level || "beginner",
     start_time: initialState?.start_time || "",
     end_time: initialState?.end_time || "",
     guidelines: initialState?.guidelines || "",
@@ -61,7 +61,10 @@ const HackathonForm = ({ initialState }) => {
   const handleSubmit = values => {
     const participationTypeValue = document.getElementById("participation_type")
       .value;
+    const difficultyLevelValue = document.getElementById("difficulty_level")
+      .value;
     const categoryIdValue = document.getElementById("event_category").value;
+    values.difficulty_level = difficultyLevelValue;
     values.participation_type = participationTypeValue;
     values.category_id = categoryIdValue;
     let tagss = JSON.parse(window.localStorage.getItem("tags"));
@@ -106,7 +109,9 @@ const HackathonForm = ({ initialState }) => {
       .min(10, "Prize must be at least 10 characters long.")
       .max(50, "Prize cannot be more than 50 characters long.")
       .required("Prize is required."),
-    difficulty_level: Yup.array().required("Please select a difficulty level."),
+    difficulty_level: Yup.string().required(
+      "Please select a difficulty level."
+    ),
     start_time: Yup.string().required("Start Time is required."),
     end_time: Yup.string().required("End Time is required."),
     category_id: Yup.number()
