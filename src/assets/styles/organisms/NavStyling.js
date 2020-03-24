@@ -59,7 +59,6 @@ export const StyledNav = styled.div`
   grid-area: aside;
   position: relative;
   padding: ${({ active }) => active ? '90px 0' : '90px 20px 30px'};
-  border: 3px solid red;
 
   @media ${media.tablet} {
     width: 60px;
@@ -172,7 +171,7 @@ export const UserContainer = styled.div`
 export const StyledButton = styled(Button)`
   margin-bottom: 10px;
   font-size: 14px;
-  ${({ active }) => active && `
+  ${({ active }) => active === 'true' && `
     padding: 5px 0;
     word-break: break-all;
   `}
