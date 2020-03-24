@@ -143,8 +143,8 @@ export const Image = styled.img`
 `;
 
 export const PHosted = styled(Paragraph)`
-  ${props => props.theme.fontSize.medium};
   margin-bottom: 0;
   font-weight: bold;
+  font-size: 16px;
   color: ${props => props.theme.color.black.regular};
 `;
