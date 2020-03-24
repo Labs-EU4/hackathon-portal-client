@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
+import { media } from './styles/variables/media';
+
 export const AppContainer = styled.main`
   display: grid;
-  grid-template-columns: ${({ active }) =>
-    active ? "20px auto auto 60px" : "20px auto auto 250px"};
+  grid-template-columns: ${({ active }) => active 
+    ? "20px auto auto 60px" 
+    : "20px auto auto 250px"};
   grid-template-rows: 60px auto auto 25px;
   grid-template-areas:
     " header header header aside"
@@ -22,6 +25,10 @@ export const RoutesContainer = styled.div`
   background-color: ${props => props.theme.color.white.bg};
   border-radius: 5px;
   overflow: hidden;
+
+  @media ${media.tablet} {
+    width: calc(100vw - 80px);
+  }
 
   &::-webkit-scrollbar {
     width: 0px;

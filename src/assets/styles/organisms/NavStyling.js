@@ -59,6 +59,7 @@ export const StyledNav = styled.div`
   grid-area: aside;
   position: relative;
   padding: ${({ active }) => active ? '90px 0' : '90px 20px 30px'};
+  border: 3px solid red;
 
   @media ${media.tablet} {
     width: 60px;
