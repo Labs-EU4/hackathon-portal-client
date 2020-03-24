@@ -12,7 +12,7 @@ Object {
           class="sc-htpNat hdzygz"
         >
           <a
-            class="sc-iwsKbI kBaOMJ"
+            class="sc-iwsKbI jTLHpD"
             href="/"
           >
             <img
@@ -28,7 +28,7 @@ Object {
               class="sc-gzVnrw gdbxOh"
             >
               <button
-                class="sc-ifAKCX gRgcSD sc-htoDjs glwwDL"
+                class="sc-ifAKCX eRXMHa sc-htoDjs glwwDL"
                 color="grey"
                 data-testid="label"
               >
@@ -206,7 +206,7 @@ Object {
                 class="sc-ksYbfQ sc-fcdeBU bRlSqL"
               >
                 <button
-                  class="sc-ifAKCX jsdSqw sc-gmeYpB gbuKAi"
+                  class="sc-ifAKCX fHwHnk sc-gmeYpB gbuKAi"
                   color="green"
                   type="submit"
                 >
@@ -267,7 +267,7 @@ Object {
           </div>
           <a
             active="false"
-            class="sc-EHOje eZmLQ sc-eqIVtm dVHXZd"
+            class="sc-EHOje kkVAlS sc-eqIVtm dVHXZd"
             color="primary"
             exact="true"
             href="/event/new"
@@ -419,7 +419,7 @@ Object {
         class="sc-htpNat hdzygz"
       >
         <a
-          class="sc-iwsKbI kBaOMJ"
+          class="sc-iwsKbI jTLHpD"
           href="/"
         >
           <img
@@ -435,7 +435,7 @@ Object {
             class="sc-gzVnrw gdbxOh"
           >
             <button
-              class="sc-ifAKCX gRgcSD sc-htoDjs glwwDL"
+              class="sc-ifAKCX eRXMHa sc-htoDjs glwwDL"
               color="grey"
               data-testid="label"
             >
@@ -613,7 +613,7 @@ Object {
               class="sc-ksYbfQ sc-fcdeBU bRlSqL"
             >
               <button
-                class="sc-ifAKCX jsdSqw sc-gmeYpB gbuKAi"
+                class="sc-ifAKCX fHwHnk sc-gmeYpB gbuKAi"
                 color="green"
                 type="submit"
               >
@@ -674,7 +674,7 @@ Object {
         </div>
         <a
           active="false"
-          class="sc-EHOje eZmLQ sc-eqIVtm dVHXZd"
+          class="sc-EHOje kkVAlS sc-eqIVtm dVHXZd"
           color="primary"
           exact="true"
           href="/event/new"
