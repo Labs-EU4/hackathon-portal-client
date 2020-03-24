@@ -11,6 +11,6 @@ const Icon = ({ icon, onClick, ...props }) => {
 export default Icon;
 
 const StyledIcon = styled(FontAwesomeIcon)`
-    font-size: 2.3rem;
+    font-size: 23px;
     color: ${props => props.theme.color.white};
 `;
