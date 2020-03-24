@@ -20,16 +20,11 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
   const [isAddTeamMemberOpen, setIsAddTeamMemberOpen] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
-  // const { teamId } = useParams();
-  // const { pathname } = useLocation();
-  // const teamId = pathname.split('/')[-1];
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
   const { teamId } = useSelector(state => state.participantTeams);
   const team = teams.find(t => t.team_lead === userId);
-  // const teamId = team?.id;
-
-  console.log("This is the team id --> ", teamId);
+  const [currentTeamId, setCurrentTeamId] = useState();
 
   useEffect(() => {
     fetchTeams();
@@ -49,6 +44,11 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
+
+  const addTeamMemberHandler = (bool, teamId) => {
+    setIsAddTeamMemberOpen(bool);
+    setCurrentTeamId(teamId);
+  };
 
   const renderTeamComponent = () => {
     return (
@@ -91,7 +91,7 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
               <TeamView
                 {...{ team }}
                 {...{ isAddTeamMemberOpen }}
-                {...{ setIsAddTeamMemberOpen }}
+                {...{ addTeamMemberHandler }}
                 {...{ setRegisterTeam }}
               />
             )}
@@ -100,6 +100,16 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
       </StyledWideBody>
     );
   };
+
+  if (isAddTeamMemberOpen && currentTeamId) {
+    return (
+      <AddParticipantTeam
+        eventId={id}
+        {...{ currentTeamId }}
+        {...{ setIsAddTeamMemberOpen }}
+      />
+    );
+  }
 
   if (isAddTeamMemberOpen) {
     return (

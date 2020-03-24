@@ -5,9 +5,9 @@ import {
   BodyContainer,
   StyledRowHead,
   DashboardContent,
-  StyledButton
+  StyledButton,
+  StyledH4
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
-import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import EventCard from "../organisms/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 
@@ -41,7 +41,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
                 />
               ))
             ) : (
-              <H4>You haven't created any events yet. Why wait?</H4>
+              <StyledH4>You haven't created any events yet. Why wait?</StyledH4>
             )}
           </>
         ) : (
@@ -55,7 +55,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
                 />
               ))
             ) : (
-              <H4>You haven't registered to any events yet. Why wait?</H4>
+              <StyledH4>You haven't registered to any events yet. Why wait?</StyledH4>
             )}
           </>
         )}

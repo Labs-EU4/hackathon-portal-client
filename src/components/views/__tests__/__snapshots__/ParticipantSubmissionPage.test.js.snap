@@ -27,7 +27,7 @@ Object {
               class="sc-gzVnrw cguHsh"
             >
               <p
-                class="sc-chPdSV fcVSfI"
+                class="sc-chPdSV jDSzHn"
               >
                 You are making a submission for the
                  
@@ -109,14 +109,14 @@ Object {
               class="sc-gzVnrw cguHsh"
             >
               <a
-                class="sc-kGXeez ewBGKr"
+                class="sc-kGXeez cdGkIt"
                 color="grey"
                 href="/dashboard"
               >
                 Cancel
               </a>
               <button
-                class="sc-kgoBCf jIzyzw"
+                class="sc-kgoBCf dbktMF"
                 color="green"
                 type="submit"
               >
@@ -151,7 +151,7 @@ Object {
             class="sc-gzVnrw cguHsh"
           >
             <p
-              class="sc-chPdSV fcVSfI"
+              class="sc-chPdSV jDSzHn"
             >
               You are making a submission for the
                
@@ -233,14 +233,14 @@ Object {
             class="sc-gzVnrw cguHsh"
           >
             <a
-              class="sc-kGXeez ewBGKr"
+              class="sc-kGXeez cdGkIt"
               color="grey"
               href="/dashboard"
             >
               Cancel
             </a>
             <button
-              class="sc-kgoBCf jIzyzw"
+              class="sc-kgoBCf dbktMF"
               color="green"
               type="submit"
             >

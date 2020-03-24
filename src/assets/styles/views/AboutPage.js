@@ -26,8 +26,8 @@ export const HeroContainer = styled.div`
 
 export const HeroText = styled.div`
     ${props => props.theme.shadow.text};
-    ${props => props.theme.fontSize.h4};
-    padding: 0 10px 10px;
+    padding: 5px 10px 10px;
+    font-size: 18px;
     color: ${props => props.theme.color.white.regular};
 `;
 
@@ -42,9 +42,10 @@ export const MainContent = styled.div`
 
 export const SectionTitle = styled.h1`
     ${props => props.theme.flex.columnCenter};
-    ${props => props.theme.fontSize.h4};
     margin-bottom: 15px; padding-top: 30px;
     text-transform: uppercase;
+    font-size: 20px;
+
     & > hr {
         ${({ lineWidth }) => lineWidth ? `width: ${lineWidth};` : 'width: 20%'};
         height: 3px;

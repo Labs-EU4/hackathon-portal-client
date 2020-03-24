@@ -17,12 +17,12 @@ Object {
             Create New Hackathon
           </h3>
           <p
-            class="sc-jzJRlG jJZkgl"
+            class="sc-jzJRlG efdadZ"
             color="primary"
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-times fa-w-11 sc-kAzzGY dnwlsD"
+              class="svg-inline--fa fa-times fa-w-11 sc-kAzzGY fPbRdP"
               data-icon="times"
               data-prefix="fas"
               focusable="false"
@@ -102,11 +102,11 @@ Object {
                 <input
                   class="sc-chPdSV hhxnWJ"
                   id="start_date"
-                  min="2020-03-23"
+                  min="2020-03-24"
                   name="start_date"
                   placeholder="Event starts"
                   type="date"
-                  value="2020-03-23"
+                  value="2020-03-24"
                 />
                 <span
                   class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -128,7 +128,7 @@ Object {
                   name="end_date"
                   placeholder="Event ends"
                   type="date"
-                  value="2020-03-23"
+                  value="2020-03-24"
                 />
                 <span
                   class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -146,7 +146,7 @@ Object {
                 Grading Rubrics (tick all that apply)
               </label>
               <p
-                class="sc-jKJlTe kbvCMK"
+                class="sc-jKJlTe jGxOKF"
               >
                 Judges will be expected to grade project submissions on which one of the following
               </p>
@@ -437,7 +437,7 @@ Object {
                 Project Submission Requirements (tick all that apply)
               </label>
               <p
-                class="sc-jKJlTe kbvCMK"
+                class="sc-jKJlTe jGxOKF"
               >
                 Participants will be expected to submit which one of the following
               </p>
@@ -480,7 +480,7 @@ Object {
               class="sc-jTzLTM bxzhAG"
             />
             <button
-              class="sc-bdVaJa gFEKGJ sc-gqjmRU dEyQNc"
+              class="sc-bdVaJa jLDodx sc-gqjmRU dEyQNc"
               color="green"
               type="submit"
             >
@@ -504,12 +504,12 @@ Object {
           Create New Hackathon
         </h3>
         <p
-          class="sc-jzJRlG jJZkgl"
+          class="sc-jzJRlG efdadZ"
           color="primary"
         >
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-times fa-w-11 sc-kAzzGY dnwlsD"
+            class="svg-inline--fa fa-times fa-w-11 sc-kAzzGY fPbRdP"
             data-icon="times"
             data-prefix="fas"
             focusable="false"
@@ -589,11 +589,11 @@ Object {
               <input
                 class="sc-chPdSV hhxnWJ"
                 id="start_date"
-                min="2020-03-23"
+                min="2020-03-24"
                 name="start_date"
                 placeholder="Event starts"
                 type="date"
-                value="2020-03-23"
+                value="2020-03-24"
               />
               <span
                 class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -615,7 +615,7 @@ Object {
                 name="end_date"
                 placeholder="Event ends"
                 type="date"
-                value="2020-03-23"
+                value="2020-03-24"
               />
               <span
                 class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -633,7 +633,7 @@ Object {
               Grading Rubrics (tick all that apply)
             </label>
             <p
-              class="sc-jKJlTe kbvCMK"
+              class="sc-jKJlTe jGxOKF"
             >
               Judges will be expected to grade project submissions on which one of the following
             </p>
@@ -924,7 +924,7 @@ Object {
               Project Submission Requirements (tick all that apply)
             </label>
             <p
-              class="sc-jKJlTe kbvCMK"
+              class="sc-jKJlTe jGxOKF"
             >
               Participants will be expected to submit which one of the following
             </p>
@@ -967,7 +967,7 @@ Object {
             class="sc-jTzLTM bxzhAG"
           />
           <button
-            class="sc-bdVaJa gFEKGJ sc-gqjmRU dEyQNc"
+            class="sc-bdVaJa jLDodx sc-gqjmRU dEyQNc"
             color="green"
             type="submit"
           >

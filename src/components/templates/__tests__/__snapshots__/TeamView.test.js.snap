@@ -6,7 +6,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa sc-gzVnrw ipNalE"
+        class="sc-bdVaJa sc-gzVnrw jsdcNx"
       >
         <div
           class="sc-dnqmqq gJREBr"
@@ -52,13 +52,13 @@ Object {
           class="sc-fjdhpX boYCYK"
         >
           <button
-            class="sc-jzJRlG gJwZNx"
+            class="sc-jzJRlG bAOVrL"
             color="grey"
           >
             Back to event
           </button>
           <button
-            class="sc-jzJRlG gttjqc"
+            class="sc-jzJRlG gcsqlO"
             color="green"
           >
             Add Teammate
@@ -69,7 +69,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa sc-gzVnrw ipNalE"
+      class="sc-bdVaJa sc-gzVnrw jsdcNx"
     >
       <div
         class="sc-dnqmqq gJREBr"
@@ -115,13 +115,13 @@ Object {
         class="sc-fjdhpX boYCYK"
       >
         <button
-          class="sc-jzJRlG gJwZNx"
+          class="sc-jzJRlG bAOVrL"
           color="grey"
         >
           Back to event
         </button>
         <button
-          class="sc-jzJRlG gttjqc"
+          class="sc-jzJRlG gcsqlO"
           color="green"
         >
           Add Teammate
