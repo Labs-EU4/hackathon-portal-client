@@ -16,7 +16,7 @@ export const StyledEditIcon = styled(Icon)`
 
 export const StyledExpandIcon = styled(Icon)`
   position: absolute; bottom: 70px; left: 50%;
-  font-size: 3rem;
+  font-size: 30px;
   transform: ${({ active }) => active ? 'translateX(-50%) rotate(90deg);' : 'translateX(-50%) rotate(-90deg);'};
   cursor: pointer;
 
@@ -158,10 +158,15 @@ export const UserContainer = styled.div`
   &:hover {
     background-color: ${props => props.theme.color.link.hover};
   }
+
+  & > * {
+    font-size: 14px;
+  }
 `;
 
 export const StyledButton = styled(Button)`
   margin-bottom: 10px;
+  font-size: 14px;
   ${({ active }) => active && `
     padding: 5px 0;
     word-break: break-all;
