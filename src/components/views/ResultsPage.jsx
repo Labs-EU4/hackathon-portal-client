@@ -54,7 +54,6 @@ function ResultPage(props) {
   const createMarker = (lati, long) => {
     const marker = new window.google.maps.Marker({
       position: { lat: lati, lng: long },
-      // map: googleMap.current,
       label: "You",
       icon: imageH
     });
