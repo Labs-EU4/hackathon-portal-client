@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./assets/styles/GlobalStyles";
@@ -18,20 +19,13 @@ import HackathonFormPage from "./components/views/HackathonFormPage";
 import HackathonSinglePage from "./components/views/HackathonSinglePage";
 import PrivateRoute from "./components/organisms/PrivateRoute";
 import EditHackathon from "./components/templates/EditHackathon";
-// import AddTeammates from "./components/templates/AddTeammates";
-import "react-toastify/dist/ReactToastify.css";
 import AboutPage from "./components/views/AboutPage";
 import PageNotFound from "./components/views/PageNotFound";
 import UserProfileFormPage from "./components/views/UserProfileFormPage";
-// import CreateTeam from "./components/templates/CreateTeam";
-// import AddParticipantTeam from "./components/templates/AddParticipantTeams";
 import ResetPassword from "./components/views/resetPassword/ResetPassword";
 import ResetPasswordConfirmation from "./components/views/resetPassword/ResetPasswordConfirmation";
 import NewPassword from "./components/views/resetPassword/NewPassword";
 import HomePage from "./components/views/HomePage";
-// import HackathonProjectsPage from "./components/views/HackathonProjectsPage";
-// import HackathonProjectPage from "./components/views/HackathonProjectPage";
-// import ParticipantSubmissionPage from "./components/views/ParticipantSubmissionPage";
 import ResultPage from "./components/views/ResultsPage";
 
 function App() {
