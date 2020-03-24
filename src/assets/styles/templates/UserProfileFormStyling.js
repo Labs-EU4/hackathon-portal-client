@@ -22,12 +22,4 @@ export const ButtonRowBody = styled(RowBody)`
   @media ${media.tablet} {
     justify-content: space-around;
   }
-`
-export const NewButton = styled(Button)`
-  @media ${media.tablet} {
-    width: 25%;
-  }
-  @media ${media.mobile} {
-    width: 50%
-  }
-`
+`;
