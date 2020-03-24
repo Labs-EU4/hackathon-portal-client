@@ -72,8 +72,6 @@ function ResultPage(props) {
         center: {
           lat: currentLocation[0],
           lng: currentLocation[1]
-          // lat: 35.6762,
-          // lng: 139.6503
         }
       });
 
