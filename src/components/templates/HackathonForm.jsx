@@ -107,7 +107,7 @@ const HackathonForm = ({ initialState }) => {
     ),
     prize: Yup.string()
       .min(10, "Prize must be at least 10 characters long.")
-      .max(50, "Prize cannot be more than 50 characters long.")
+      .max(100, "Prize cannot be more than 100 characters long.")
       .required("Prize is required."),
     difficulty_level: Yup.string().required(
       "Please select a difficulty level."
