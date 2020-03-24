@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 // import image from "./anon.png";
 // Variables
-const GMAP = "AIzaSyBlSZRd1pc8t73WzRU7jDmnovZl287cxL8";
+const GMAP = "AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I";
 const myLocation = {
   // CN Tower Landmark
   lat: 35.6762,
@@ -35,61 +35,65 @@ function ResultPage(props) {
   const marker = useRef(null);
 
   // helper functions
-  const createGoogleMap = () =>
-    new window.google.maps.Map(googleMapRef.current, {
-      zoom: 12,
-      center: {
-        // lat: currentLocation[0],
-        // lng: currentLocation[1]
-        lat: 35.6762,
-        lng: 139.6503
-      }
-    });
+  let createGoogleMap = null;
 
   let imageH =
     "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png";
 
   var beaches = [
-    // ["Coogee Beach", -33.923036, 151.259052, 5],
-    // ["vvvv", 35.6762, 139.6503,3],
-    // ["Cronulla Beach", -34.028249, 151.157507, 3],
-    // ["Bondi Beach", -33.890542, 151.274856, 4],
-    // // ["hey", currentLocation[0], currentLocation[1]],
+    ["Coogee Beach", -33.923036, 151.259052, 5],
+    ["vvvv", 35.6762, 139.6503, 3],
+    ["Cronulla Beach", -34.028249, 151.157507, 3],
+    ["Bondi Beach", -33.890542, 151.274856, 4],
+    ["new", 20, 28, 2],
+    // ["hey", currentLocation[0], currentLocation[1]],
     ["Maroubra Beach", -33.950198, 151.259302, 1],
     ["Manly Beach", -33.80010128657071, 151.28747820854187, 2]
   ];
 
-  let createMarker;
+  // let createMarker;
 
   var beach = beaches;
-  createMarker = () =>
-    new window.google.maps.Marker(
-      {
-        position: {
-          lat: -26.195246,
-          lng: 28.034088
-        },
-        map: googleMap.current,
-        icon: imageH,
-        label: "YOOOO"
-        // shape: shape,
-      },
-      {
-        position: { lat: beach[1], lng: beach[2] },
-        map: googleMap.current,
-        icon: imageH,
-        label: "YOOOO"
-        // shape: shape,
-      }
-    );
 
-  // const createMarker = () =>
-  //   new window.google.maps.Marker({
-  //     position: { lat: currentLocation[0], lng: currentLocation[1] },
+  // createMarker = () =>
+  //   new window.google.maps.Marker(
+  //     {
+  //       position: {
+  //         lat: -26.195246,
+  //         lng: 28.034088
+  //       },
+  //       map: googleMap.current,
+  //       icon: imageH,
+  //       label: "YOOOO"
+  //       // shape: shape,
+  //     },
+  //     {
+  //       position: { lat: beach[1], lng: beach[2] },
+  //       map: googleMap.current,
+  //       icon: imageH,
+  //       label: "YOOOO"
+  //       // shape: shape,
+  //     }
+  //   );
+
+  const createMarker = (lati, long) => {
+    const marker = new window.google.maps.Marker({
+      position: { lat: lati, lng: long },
+      // map: googleMap.current,
+      label: "You",
+      icon: imageH
+    });
+    marker.setMap(createGoogleMap);
+  };
+  // const createMarker2 = () => {
+  //   const marker = new window.google.maps.Marker({
+  //     position: { lat: 20, lng: 20 },
   //     map: googleMap.current,
   //     label: "You",
   //     icon: imageH
   //   });
+  //   marker.setMap(createGoogleMap);
+  // };
 
   // useEffect Hook
   useEffect(() => {
@@ -98,8 +102,24 @@ function ResultPage(props) {
     window.document.body.appendChild(googleMapScript);
 
     googleMapScript.addEventListener("load", () => {
-      googleMap.current = createGoogleMap();
-      marker.current = createMarker();
+      createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
+        zoom: 12,
+        center: {
+          // lat: currentLocation[0],
+          // lng: currentLocation[1]
+          lat: 35.6762,
+          lng: 139.6503
+        }
+      });
+      // googleMap.current = createGoogleMap;
+      // createMarker(1,1);
+      // createMarker(10, 10);
+
+      beaches.forEach(loc => {
+        createMarker(loc[1], loc[2]);
+      });
+      // createMarker2()
+      // marker.current = createMarker();
     });
   });
 
