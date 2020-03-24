@@ -79,7 +79,7 @@ function ResultPage(props) {
     });
   });
 
-  return true ? (
+  return currentLocation ? (
     <div id="google-map" ref={googleMapRef} style={mapStyles} />
   ) : (
     <p>Wait a moment while we find events in your area..</p>
