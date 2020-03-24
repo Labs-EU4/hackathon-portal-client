@@ -52,13 +52,13 @@ Object {
           class="sc-fjdhpX boYCYK"
         >
           <button
-            class="sc-jzJRlG gJwZNx"
+            class="sc-jzJRlG bAOVrL"
             color="grey"
           >
             Back to event
           </button>
           <button
-            class="sc-jzJRlG gttjqc"
+            class="sc-jzJRlG gcsqlO"
             color="green"
           >
             Add Teammate
@@ -115,13 +115,13 @@ Object {
         class="sc-fjdhpX boYCYK"
       >
         <button
-          class="sc-jzJRlG gJwZNx"
+          class="sc-jzJRlG bAOVrL"
           color="grey"
         >
           Back to event
         </button>
         <button
-          class="sc-jzJRlG gttjqc"
+          class="sc-jzJRlG gcsqlO"
           color="green"
         >
           Add Teammate
