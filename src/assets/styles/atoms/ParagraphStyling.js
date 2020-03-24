@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Paragraph = styled.p`
   color: ${props => props.theme.color.black.regular};
-  font-size: 1.5rem;
+  font-size: 14px;
   font-weight: 400;
   margin-bottom: 20px;
 

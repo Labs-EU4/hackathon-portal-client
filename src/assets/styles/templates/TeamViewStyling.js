@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 export const TeamsContainer = styled(BodyContainer)`
   position: relative;
   background-color: white;
-  width: 50%;
+  width: 500px;
   height: 80%;
   overflow-y: auto;
   border: 1px solid lightgray;
