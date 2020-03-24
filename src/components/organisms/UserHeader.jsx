@@ -33,5 +33,4 @@ const Navigation = styled.div`
 
 const StyledLink = styled(Link)`
   text-decoration: none;
-  border: 3px solid red;
 `;
