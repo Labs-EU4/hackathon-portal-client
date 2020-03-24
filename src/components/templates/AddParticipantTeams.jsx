@@ -17,7 +17,12 @@ import {
   sendParticipantInvite 
 } from "../../store/participantTeams/actions";
 
-const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
+const AddParticipantTeam = ({ 
+  eventId,
+  setIsAddTeamMemberOpen, 
+  currentTeamId, 
+  teamId 
+}) => {
   const selectedUserArr = useRef([]);
   const dispatch = useDispatch();
   const history = useHistory();
@@ -30,10 +35,12 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
     selectedUserArr.current = newArray;
   };
 
+  console.log('This is the current team ---> ', currentTeamId);
+
   const handleSubmit = () => {
     selectedUserArr.current.map(selectedUser => {
       const data = {
-        team_id: teamId,
+        team_id: currentTeamId ? currentTeamId : teamId,
         team_member: selectedUser.id,
         eventId: eventId
       };

@@ -12,7 +12,7 @@ export const StyledButton = styled.button`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 32px;
-  ${props => props.theme.fontSize.small};
+  font-size: 14px;
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
@@ -122,7 +122,7 @@ export const StyledLink = styled(Link)`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 32px;
-  ${props => props.theme.fontSize.small};
+  font-size: 14px;
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
@@ -233,7 +233,7 @@ export const StyledAnchor = styled.a`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 32px;
-  ${props => props.theme.fontSize.small};
+  font-size: 14px;
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
