@@ -17,7 +17,7 @@ import { useSelector } from "react-redux";
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
 
-const TeamView = ({ team, setIsAddTeamMemberOpen, setRegisterTeam }) => {
+const TeamView = ({ team, addTeamMemberHandler, setRegisterTeam }) => {
   const { id } = useParams();
 
   const { event_title } = useSelector(state =>
@@ -80,7 +80,7 @@ const TeamView = ({ team, setIsAddTeamMemberOpen, setRegisterTeam }) => {
         <Button
           color="green"
           size="half"
-          onClick={() => setIsAddTeamMemberOpen(true)}
+          onClick={() => addTeamMemberHandler(true, team.id)}
         >
           Add Teammate
         </Button>
