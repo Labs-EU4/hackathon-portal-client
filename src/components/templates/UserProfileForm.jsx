@@ -6,14 +6,14 @@ import * as Yup from "yup";
 
 import {
   StyledWideBody,
-  ButtonRowBody,
-  NewButton
+  ButtonRowBody
 } from "../../assets/styles/templates/UserProfileFormStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
+import Button from "../atoms/Button";
 import TextArea from "../atoms/TextArea";
 import { updateUserProfile } from "../../store/user/actions";
 
@@ -112,9 +112,9 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
               <ErrorMessage name="bio" />
             </RowBody>
             <ButtonRowBody>
-              <NewButton color="green" size="wide" type="submit">
+              <Button color="green" size="wide" type="submit">
                 Save Changes
-              </NewButton>
+              </Button>
             </ButtonRowBody>
           </Form>
         )}

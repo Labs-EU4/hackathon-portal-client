@@ -9,7 +9,7 @@ export const StyledAnchor = styled(Link)`
   margin: 20px 0 0 0;
   font-weight: 500;
   text-decoration: none; text-transform: none; text-align: center;
-  ${props => props.theme.fontSize.small};
+  font-size: 12px;
   color: #245ea4;
 
   &:hover {
@@ -22,5 +22,5 @@ export const StyledParagraph = styled(Paragraph)`
 `;
 
 export const StyledButton = styled(Button)`
-  margin-top: 10px;
+  margin-top: 10px; margin-bottom: none;
 `;

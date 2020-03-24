@@ -45,49 +45,64 @@ const Nav = ({
   isSideBarOpen,
   setIsSideBarOpen
 }) => {
-  const [isEditProfileHovered, setIsEditProfileHovered] = useState(false);
+  const [ isEditProfileHovered, setIsEditProfileHovered ] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(
     state => state.currentUser
   );
 
   return (
     <StyledNav active={isSideBarOpen}>
-      <UserContainer onClick={() => setIsProfileOpen(!isProfileOpen)}>
-        <StyledProfileImage
-          active={isEditProfileHovered}
-          onMouseEnter={() => setIsEditProfileHovered(true)}
-          onMouseLeave={() => setIsEditProfileHovered(false)}
+      { token ? (
+        <UserContainer onClick={() => setIsProfileOpen(!isProfileOpen)}>
+          <StyledProfileImage
+            active={isEditProfileHovered}
+            onMouseEnter={() => setIsEditProfileHovered(true)}
+            onMouseLeave={() => setIsEditProfileHovered(false)}
+          >
+            { image_url !== null ? (
+              <>
+                {isEditProfileHovered && <StyledEditIcon icon="user-edit" />}
+                <ProfileImg
+                  image={image_url}
+                  alt={username}
+                  {...{ isSideBarOpen }}
+                />
+              </>
+            ) : (
+              <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
+            )}
+            { !isSideBarOpen && (
+              <UserInfoContent>
+                <p>{fullname}</p>
+                <p>{email}</p>
+              </UserInfoContent>
+            )}
+          </StyledProfileImage>
+        </UserContainer>
+      ) : <div style={{height: "75px"}} />}
+      { token ? (
+        <StyledButton
+          active={isSideBarOpen.toString()}
+          exact="true"
+          link
+          to="/event/new"
+          color="primary"
+          size="wide"
         >
-          {image_url !== null && token ? (
-            <>
-              {isEditProfileHovered && <StyledEditIcon icon="user-edit" />}
-              <ProfileImg
-                image={image_url}
-                alt={username}
-                {...{ isSideBarOpen }}
-              />
-            </>
-          ) : (
-            <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
-          )}
-          {!isSideBarOpen && (
-            <UserInfoContent>
-              <p>{fullname}</p>
-              <p>{email}</p>
-            </UserInfoContent>
-          )}
-        </StyledProfileImage>
-      </UserContainer>
-      <StyledButton
-        active={isSideBarOpen.toString()}
-        exact="true"
-        link
-        to="/event/new"
-        color="primary"
-        size="wide"
-      >
-        Create{isSideBarOpen && <br />} Event
-      </StyledButton>
+          Create{isSideBarOpen && <br />} Event
+        </StyledButton>
+      ) : (
+        <StyledButton
+          active={isSideBarOpen.toString()}
+          exact="true"
+          link
+          to="/dashboard"
+          color="primary"
+          size="wide"
+        >
+          Create{isSideBarOpen && <br />} Event
+        </StyledButton>
+      )}
       {items.map(({ title, url, icon }, idx) => {
         return (
           <div key={idx} style={{ width: "100%", position: "relative" }}>

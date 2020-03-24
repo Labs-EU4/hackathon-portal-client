@@ -8,9 +8,9 @@ import Icon from '../../../components/atoms/Icon';
 
 export const StyledEditIcon = styled(Icon)`
   position: absolute; top: 50%; left: 50%;
-  font-size: 2.5rem;
+  font-size: 25px;
   color: ${props => props.theme.color.green.regular};
-  z-index: 500;
+  z-index: 50;
   transform: translate(-40%, -50%);
 `;
 
@@ -39,8 +39,13 @@ export const UserInfoContent = styled.div`
   margin-left: 5px;
 
   p {
+    &:first-child {
+      font-size: 13px;
+      color: ${props => props.theme.color.black.regular};
+    }
+
     &:last-child {
-      ${props => props.theme.fontSize.smaller};
+      font-size: 10px;
       color: ${props => props.theme.color.grey.regular};
     }
   }
@@ -161,16 +166,12 @@ export const UserContainer = styled.div`
   &:hover {
     background-color: ${props => props.theme.color.link.hover};
   }
-
-  & > * {
-    font-size: 14px;
-  }
 `;
 
 export const StyledButton = styled(Button)`
   margin-bottom: 10px;
   font-size: 14px;
-  ${({ active }) => active && `
+  ${({ active }) => active === 'true' && `
     padding: 5px 0;
     word-break: break-all;
   `}

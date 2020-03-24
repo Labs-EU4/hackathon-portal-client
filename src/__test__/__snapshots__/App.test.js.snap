@@ -28,7 +28,7 @@ Object {
               class="sc-gzVnrw gdbxOh"
             >
               <button
-                class="sc-ifAKCX gRgcSD sc-htoDjs glwwDL"
+                class="sc-ifAKCX eRXMHa sc-htoDjs glwwDL"
                 color="grey"
                 data-testid="label"
               >
@@ -38,7 +38,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-bwzfXH bofYRx"
+          class="sc-bwzfXH dHRyKl"
         >
           <div
             class="sc-iGrrsa dHnsVd"
@@ -206,7 +206,7 @@ Object {
                 class="sc-ksYbfQ sc-fcdeBU bRlSqL"
               >
                 <button
-                  class="sc-ifAKCX jsdSqw sc-gmeYpB gbuKAi"
+                  class="sc-ifAKCX fHwHnk"
                   color="green"
                   type="submit"
                 >
@@ -226,13 +226,13 @@ Object {
           </p>
           <div>
             <a
-              class="sc-gqjmRU sc-jTzLTM kKLZnD"
+              class="sc-gqjmRU sc-jTzLTM bHURQG"
               href="#"
             >
               Privacy
             </a>
             <a
-              class="sc-gqjmRU sc-jTzLTM kKLZnD"
+              class="sc-gqjmRU sc-jTzLTM bHURQG"
               href="#"
             >
               Contacts
@@ -243,7 +243,7 @@ Object {
           class="sc-hzDkRC eTohnO"
         >
           <div
-            class="sc-dVhcbM eDXGnQ"
+            class="sc-dVhcbM hZkoFl"
           >
             <div
               class="sc-jhAzac dLPzfK"
@@ -254,7 +254,7 @@ Object {
                 src="user_icon.svg"
               />
               <div
-                class="sc-bRBYWo byujSF"
+                class="sc-bRBYWo jvYdAr"
               >
                 <p>
                   Jake Tom
@@ -267,7 +267,7 @@ Object {
           </div>
           <a
             active="false"
-            class="sc-EHOje eZmLQ sc-eqIVtm dVHXZd"
+            class="sc-EHOje kPwboj sc-eqIVtm fGNwFE"
             color="primary"
             exact="true"
             href="/event/new"
@@ -435,7 +435,7 @@ Object {
             class="sc-gzVnrw gdbxOh"
           >
             <button
-              class="sc-ifAKCX gRgcSD sc-htoDjs glwwDL"
+              class="sc-ifAKCX eRXMHa sc-htoDjs glwwDL"
               color="grey"
               data-testid="label"
             >
@@ -445,7 +445,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-bwzfXH bofYRx"
+        class="sc-bwzfXH dHRyKl"
       >
         <div
           class="sc-iGrrsa dHnsVd"
@@ -613,7 +613,7 @@ Object {
               class="sc-ksYbfQ sc-fcdeBU bRlSqL"
             >
               <button
-                class="sc-ifAKCX jsdSqw sc-gmeYpB gbuKAi"
+                class="sc-ifAKCX fHwHnk"
                 color="green"
                 type="submit"
               >
@@ -633,13 +633,13 @@ Object {
         </p>
         <div>
           <a
-            class="sc-gqjmRU sc-jTzLTM kKLZnD"
+            class="sc-gqjmRU sc-jTzLTM bHURQG"
             href="#"
           >
             Privacy
           </a>
           <a
-            class="sc-gqjmRU sc-jTzLTM kKLZnD"
+            class="sc-gqjmRU sc-jTzLTM bHURQG"
             href="#"
           >
             Contacts
@@ -650,7 +650,7 @@ Object {
         class="sc-hzDkRC eTohnO"
       >
         <div
-          class="sc-dVhcbM eDXGnQ"
+          class="sc-dVhcbM hZkoFl"
         >
           <div
             class="sc-jhAzac dLPzfK"
@@ -661,7 +661,7 @@ Object {
               src="user_icon.svg"
             />
             <div
-              class="sc-bRBYWo byujSF"
+              class="sc-bRBYWo jvYdAr"
             >
               <p>
                 Jake Tom
@@ -674,7 +674,7 @@ Object {
         </div>
         <a
           active="false"
-          class="sc-EHOje eZmLQ sc-eqIVtm dVHXZd"
+          class="sc-EHOje kPwboj sc-eqIVtm fGNwFE"
           color="primary"
           exact="true"
           href="/event/new"
