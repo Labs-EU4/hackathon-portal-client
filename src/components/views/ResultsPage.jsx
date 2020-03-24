@@ -76,9 +76,7 @@ function ResultPage(props) {
           lng: 139.6503
         }
       });
-      // googleMap.current = createGoogleMap;
-      // createMarker(1,1);
-      // createMarker(10, 10);
+ 
 
       beaches.forEach(loc => {
         createMarker(loc[1], loc[2]);
