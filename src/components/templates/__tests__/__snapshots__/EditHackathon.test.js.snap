@@ -104,7 +104,7 @@ Object {
                 <input
                   class="sc-chPdSV hhxnWJ"
                   id="start_date"
-                  min="2020-03-23"
+                  min="2020-03-24"
                   name="start_date"
                   placeholder="Event starts"
                   type="date"
@@ -595,7 +595,7 @@ Object {
               <input
                 class="sc-chPdSV hhxnWJ"
                 id="start_date"
-                min="2020-03-23"
+                min="2020-03-24"
                 name="start_date"
                 placeholder="Event starts"
                 type="date"
