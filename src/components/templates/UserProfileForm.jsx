@@ -6,8 +6,7 @@ import * as Yup from "yup";
 
 import {
   StyledWideBody,
-  ButtonRowBody,
-  NewButton
+  ButtonRowBody
 } from "../../assets/styles/templates/UserProfileFormStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
