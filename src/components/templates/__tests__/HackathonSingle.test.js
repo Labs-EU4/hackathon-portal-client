@@ -40,11 +40,11 @@ beforeEach(() => {
 });
 
 describe("Shows all the text nodes on HackathonSingle.js that are contained on the making an event form", () => {
-  it("asserts the text copyright text node is rendering", () => {
-    expect(
-      jestFeatures.getByText("International Crafters © 2020")
-    ).toBeInTheDocument();
-  });
+  // it("asserts the text copyright text node is rendering", () => {
+  //   expect(
+  //     jestFeatures.getByText("International Crafters © 2020")
+  //   ).toBeInTheDocument();
+  // });
   it("asserts that the component renders properly", () => {
     expect(jestFeatures).toMatchSnapshot();
   });

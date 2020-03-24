@@ -75,9 +75,9 @@ const AboutPage = () => {
                 <SectionTitle lineWidth="30%">Meet our team of superstars<hr/></SectionTitle>
                 <TeamContainer>
                     {
-                        teamMembers.map(star => {
+                        teamMembers.map((star, index) => {
                             return (
-                                <StarCard/>
+                                <StarCard key={index}/>
                             );
                         })
                     }

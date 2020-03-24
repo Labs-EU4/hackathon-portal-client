@@ -6,109 +6,127 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bxivhb sc-jTzLTM iNoIKk"
+        class="sc-bdVaJa sc-gzVnrw ipNalE"
       >
+        <div
+          class="sc-dnqmqq gJREBr"
+        >
+          T
+        </div>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Your Team
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Team Name:
           <span
-            class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+            class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
           >
             The A team
           </span>
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Team Members:
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           This team has no members
         </span>
         <span
-          class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
         >
           Hackathon Name:
           <span
-            class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+            class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
           >
             EuroHack
           </span>
         </span>
-        <button
-          class="sc-bdVaJa gFEKGJ"
-          color="green"
+        <div
+          class="sc-fjdhpX boYCYK"
         >
-          <a
-            href="/dashboard/event/1/participant-teams/1"
-            style="text-decoration: none; color: white;"
+          <button
+            class="sc-jzJRlG gJwZNx"
+            color="grey"
+          >
+            Back to event
+          </button>
+          <button
+            class="sc-jzJRlG gttjqc"
+            color="green"
           >
             Add Teammate
-          </a>
-           
-        </button>
+          </button>
+        </div>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-bxivhb sc-jTzLTM iNoIKk"
+      class="sc-bdVaJa sc-gzVnrw ipNalE"
     >
+      <div
+        class="sc-dnqmqq gJREBr"
+      >
+        T
+      </div>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Your Team
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Team Name:
         <span
-          class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+          class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
         >
           The A team
         </span>
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Team Members:
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         This team has no members
       </span>
       <span
-        class="sc-EHOje sc-bZQynM sc-fjdhpX hLBPJZ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
       >
         Hackathon Name:
         <span
-          class="sc-EHOje sc-bZQynM sc-jzJRlG kyGFWH"
+          class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
         >
           EuroHack
         </span>
       </span>
-      <button
-        class="sc-bdVaJa gFEKGJ"
-        color="green"
+      <div
+        class="sc-fjdhpX boYCYK"
       >
-        <a
-          href="/dashboard/event/1/participant-teams/1"
-          style="text-decoration: none; color: white;"
+        <button
+          class="sc-jzJRlG gJwZNx"
+          color="grey"
+        >
+          Back to event
+        </button>
+        <button
+          class="sc-jzJRlG gttjqc"
+          color="green"
         >
           Add Teammate
-        </a>
-         
-      </button>
+        </button>
+      </div>
     </div>
   </div>,
   "debug": [Function],

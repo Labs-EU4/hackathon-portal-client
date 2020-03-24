@@ -1,31 +1,35 @@
-import React, { useEffect } from "react";
-import { useParams, useHistory } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { createTeamName } from "../../store/participantTeams/actions";
 import { Formik } from "formik";
+
 import {
+  StyledWideBody,
   BodyRow,
   BodyColumn,
-  Form,
-  Title
+  Form
 } from "../../assets/styles/templates/CreateTeamStyling";
-import { Footer } from "../organisms/index";
-import UserHeader from "../organisms/UserHeader";
-import { RowHead } from "../../assets/styles/atoms/RowHead";
-import { H3 } from "../../assets/styles/atoms/Heading";
+// import WideBody from "../../assets/styles/atoms/WideBodyStyling";
 import Button from "../atoms/Button";
+import AddParticipantTeam from "../templates/AddParticipantTeams";
 import TeamView from "./TeamView";
+import { createTeamName } from "../../store/participantTeams/actions";
 import { useTeams } from "../../hooks";
-import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
-// import Nav from "../organisms/Nav";
 
-const CreateTeam = () => {
+const CreateTeam = ({ id, setRegisterTeam }) => {
+  const [isAddTeamMemberOpen, setIsAddTeamMemberOpen] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
-  const { id } = useParams();
+  // const { teamId } = useParams();
+  // const { pathname } = useLocation();
+  // const teamId = pathname.split('/')[-1];
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
+  const { teamId } = useSelector(state => state.participantTeams);
   const team = teams.find(t => t.team_lead === userId);
+  // const teamId = team?.id;
+
+  console.log("This is the team id --> ", teamId);
 
   useEffect(() => {
     fetchTeams();
@@ -37,21 +41,19 @@ const CreateTeam = () => {
       eventId: id
     };
     dispatch(createTeamName(teamData, history));
+    //!!HAVE A STATE THAT OPENS THE SELECT TEAM MEMBER COMPONENT HERE TO REDIRECT, ALSO FROM HERE CLOSE THE CREATETEAM COMPONENT
+    //REDIRECT TO THE ADDPARTICIPANTTEAMS COMPONENT
+    setIsAddTeamMemberOpen(true);
   };
 
   const { event_title } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );
 
-  return (
-    <div>
-      <UserHeader />
-      <WideBody>
-        {/* <Nav /> */}
+  const renderTeamComponent = () => {
+    return (
+      <StyledWideBody>
         <BodyRow>
-          <RowHead>
-            <H3>Participant Teams</H3>
-          </RowHead>
           <BodyColumn>
             {!team ? (
               <Formik
@@ -61,7 +63,15 @@ const CreateTeam = () => {
                 {props => (
                   <Form onSubmit={props.handleSubmit}>
                     <h4>
-                      You are creating a team for <Title>{event_title}</Title>
+                      You are creating a team for{" "}
+                      <span
+                        style={{
+                          color: "#273F92",
+                          backgroundColor: "aliceblue"
+                        }}
+                      >
+                        {event_title}
+                      </span>
                     </h4>
                     <label>Team Name</label>
                     <input
@@ -78,14 +88,30 @@ const CreateTeam = () => {
                 )}
               </Formik>
             ) : (
-              <TeamView {...{ team }} />
+              <TeamView
+                {...{ team }}
+                {...{ isAddTeamMemberOpen }}
+                {...{ setIsAddTeamMemberOpen }}
+                {...{ setRegisterTeam }}
+              />
             )}
           </BodyColumn>
         </BodyRow>
-      </WideBody>
-      <Footer />
-    </div>
-  );
+      </StyledWideBody>
+    );
+  };
+
+  if (isAddTeamMemberOpen) {
+    return (
+      <AddParticipantTeam
+        eventId={id}
+        {...{ teamId }}
+        {...{ setIsAddTeamMemberOpen }}
+      />
+    );
+  }
+
+  return renderTeamComponent();
 };
 
 export default CreateTeam;

@@ -5,373 +5,249 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
+      <div
+        class="sc-bdVaJa sc-bwzfXH ckrujS"
+      >
         <div
-          class="sc-bdVaJa dErNmg"
+          class="sc-htoDjs sc-iwsKbI cxoUZI"
         >
-          <a
-            class="sc-htoDjs jssEWI"
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-bwzfXH fWCffE"
-              src="Hackton-logo.png"
-            />
-          </a>
           <div
-            class="sc-gzVnrw itepUc"
+            class="sc-bZQynM ehIAPt"
           >
-            <div
-              class="sc-EHOje bOqsil"
+            <h3
+              class="sc-ifAKCX bZCfiG"
             >
-              <button
-                class="sc-htpNat maCfY sc-bZQynM ignRaC"
-                color="grey"
-                data-testid="label"
-              >
-                Log Out
-              </button>
-            </div>
+              Submit Project
+            </h3>
           </div>
-        </div>
-        <div
-          class="sc-bRBYWo hyNudz"
-        >
-          <div
-            class="sc-hzDkRC csxNDz sc-kvZOFW XPmfx"
+          <form
+            action="#"
           >
             <div
-              class="sc-fMiknA fZGKtL"
+              class="sc-gzVnrw cguHsh"
             >
-              <h3
-                class="sc-kAzzGY eOJFvg"
+              <p
+                class="sc-chPdSV fcVSfI"
               >
-                Submit Project
-              </h3>
+                You are making a submission for the
+                 
+                <strong>
+                  EuroHack
+                </strong>
+                . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+              </p>
             </div>
             <div
-              class="sc-caSCKo dZGQkd"
+              class="sc-gzVnrw cguHsh"
             >
               <div
-                class="sc-kjoXOD sc-TOsTZ kGFIBC"
+                class="sc-kAzzGY jBHymL"
               >
-                <form
-                  action="#"
+                <label
+                  class="sc-jzJRlG dNPMsO"
+                  for="project_title"
                 >
-                  <div
-                    class="sc-eqIVtm bACcVR"
-                  >
-                    <p
-                      class="sc-ckVGcZ knXWAI"
-                    >
-                      You are making a submission for the
-                       
-                      <strong>
-                        EuroHack
-                      </strong>
-                      . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
-                    </p>
-                  </div>
-                  <div
-                    class="sc-eqIVtm bACcVR"
-                  >
-                    <div
-                      class="sc-caSCKo dZGQkd"
-                    >
-                      <label
-                        class="sc-cMljjf bFdBto"
-                        for="project_title"
-                      >
-                        Project Title
-                      </label>
-                      <input
-                        class="sc-jAaTju jdGLtg"
-                        display="wide"
-                        id="project_title"
-                        name="project_title"
-                        type="text"
-                        value=""
-                      />
-                      <span
-                        class="sc-hMqMXs sc-iAyFgw cklGIw"
-                      />
-                    </div>
-                    <div
-                      class="sc-caSCKo dZGQkd"
-                    >
-                      <label
-                        class="sc-cMljjf bFdBto"
-                        for="participant_or_team_nam"
-                      >
-                        Team/Participant name
-                      </label>
-                      <input
-                        class="sc-jAaTju jdGLtg"
-                        display="wide"
-                        id="participant_or_team_name"
-                        name="participant_or_team_name"
-                        type="text"
-                        value=""
-                      />
-                      <span
-                        class="sc-hMqMXs sc-iAyFgw cklGIw"
-                      />
-                    </div>
-                  </div>
-                  <div
-                    class="sc-eqIVtm jsoGfq"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="project_writeups"
-                    >
-                      Project Writeup
-                    </label>
-                    <div
-                      class="sc-hmzhuo iPlCQZ"
-                    >
-                      <textarea
-                        id="project_writeups"
-                        name="project_writeups"
-                        type="text"
-                      />
-                    </div>
-                    <span
-                      class="sc-hMqMXs sc-iAyFgw cklGIw"
-                    />
-                  </div>
-                  <div
-                    class="sc-eqIVtm bACcVR"
-                  >
-                    <a
-                      class="sc-ifAKCX cIKUcB"
-                      color="grey"
-                      to="/dashboard"
-                    >
-                      Cancel
-                    </a>
-                    <button
-                      class="sc-htpNat jPhUiJ"
-                      color="green"
-                      type="submit"
-                    >
-                      Submit
-                    </button>
-                  </div>
-                </form>
+                  Project Title
+                </label>
+                <input
+                  class="sc-cSHVUG kikqQz"
+                  display="wide"
+                  id="project_title"
+                  name="project_title"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="sc-gZMcBi sc-fjdhpX brTRfi"
+                />
+              </div>
+              <div
+                class="sc-kAzzGY jBHymL"
+              >
+                <label
+                  class="sc-jzJRlG dNPMsO"
+                  for="participant_or_team_nam"
+                >
+                  Team/Participant name
+                </label>
+                <input
+                  class="sc-cSHVUG kikqQz"
+                  display="wide"
+                  id="participant_or_team_name"
+                  name="participant_or_team_name"
+                  type="text"
+                  value=""
+                />
+                <span
+                  class="sc-gZMcBi sc-fjdhpX brTRfi"
+                />
               </div>
             </div>
-          </div>
-        </div>
-        <div
-          class="sc-dnqmqq gkSNdn"
-        >
-          <p
-            class="sc-VigVT kZDxgA"
-          >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-iwsKbI sc-gqjmRU kqKCDB"
-              href="#"
+            <div
+              class="sc-gzVnrw dOWIJD"
             >
-              Privacy
-            </a>
-            <a
-              class="sc-iwsKbI sc-gqjmRU kqKCDB"
-              href="#"
+              <label
+                class="sc-jzJRlG dNPMsO"
+                for="project_writeups"
+              >
+                Project Writeup
+              </label>
+              <div
+                class="sc-dxgOiQ kWrCYP"
+              >
+                <textarea
+                  id="project_writeups"
+                  name="project_writeups"
+                  type="text"
+                />
+              </div>
+              <span
+                class="sc-gZMcBi sc-fjdhpX brTRfi"
+              />
+            </div>
+            <div
+              class="sc-gzVnrw cguHsh"
             >
-              Contacts
-            </a>
-          </div>
+              <a
+                class="sc-kGXeez ewBGKr"
+                color="grey"
+                href="/dashboard"
+              >
+                Cancel
+              </a>
+              <button
+                class="sc-kgoBCf jIzyzw"
+                color="green"
+                type="submit"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div>
+    <div
+      class="sc-bdVaJa sc-bwzfXH ckrujS"
+    >
       <div
-        class="sc-bdVaJa dErNmg"
+        class="sc-htoDjs sc-iwsKbI cxoUZI"
       >
-        <a
-          class="sc-htoDjs jssEWI"
-          href="/"
-        >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-bwzfXH fWCffE"
-            src="Hackton-logo.png"
-          />
-        </a>
         <div
-          class="sc-gzVnrw itepUc"
+          class="sc-bZQynM ehIAPt"
         >
-          <div
-            class="sc-EHOje bOqsil"
+          <h3
+            class="sc-ifAKCX bZCfiG"
           >
-            <button
-              class="sc-htpNat maCfY sc-bZQynM ignRaC"
-              color="grey"
-              data-testid="label"
-            >
-              Log Out
-            </button>
-          </div>
+            Submit Project
+          </h3>
         </div>
-      </div>
-      <div
-        class="sc-bRBYWo hyNudz"
-      >
-        <div
-          class="sc-hzDkRC csxNDz sc-kvZOFW XPmfx"
+        <form
+          action="#"
         >
           <div
-            class="sc-fMiknA fZGKtL"
+            class="sc-gzVnrw cguHsh"
           >
-            <h3
-              class="sc-kAzzGY eOJFvg"
+            <p
+              class="sc-chPdSV fcVSfI"
             >
-              Submit Project
-            </h3>
+              You are making a submission for the
+               
+              <strong>
+                EuroHack
+              </strong>
+              . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
+            </p>
           </div>
           <div
-            class="sc-caSCKo dZGQkd"
+            class="sc-gzVnrw cguHsh"
           >
             <div
-              class="sc-kjoXOD sc-TOsTZ kGFIBC"
+              class="sc-kAzzGY jBHymL"
             >
-              <form
-                action="#"
+              <label
+                class="sc-jzJRlG dNPMsO"
+                for="project_title"
               >
-                <div
-                  class="sc-eqIVtm bACcVR"
-                >
-                  <p
-                    class="sc-ckVGcZ knXWAI"
-                  >
-                    You are making a submission for the
-                     
-                    <strong>
-                      EuroHack
-                    </strong>
-                    . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
-                  </p>
-                </div>
-                <div
-                  class="sc-eqIVtm bACcVR"
-                >
-                  <div
-                    class="sc-caSCKo dZGQkd"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="project_title"
-                    >
-                      Project Title
-                    </label>
-                    <input
-                      class="sc-jAaTju jdGLtg"
-                      display="wide"
-                      id="project_title"
-                      name="project_title"
-                      type="text"
-                      value=""
-                    />
-                    <span
-                      class="sc-hMqMXs sc-iAyFgw cklGIw"
-                    />
-                  </div>
-                  <div
-                    class="sc-caSCKo dZGQkd"
-                  >
-                    <label
-                      class="sc-cMljjf bFdBto"
-                      for="participant_or_team_nam"
-                    >
-                      Team/Participant name
-                    </label>
-                    <input
-                      class="sc-jAaTju jdGLtg"
-                      display="wide"
-                      id="participant_or_team_name"
-                      name="participant_or_team_name"
-                      type="text"
-                      value=""
-                    />
-                    <span
-                      class="sc-hMqMXs sc-iAyFgw cklGIw"
-                    />
-                  </div>
-                </div>
-                <div
-                  class="sc-eqIVtm jsoGfq"
-                >
-                  <label
-                    class="sc-cMljjf bFdBto"
-                    for="project_writeups"
-                  >
-                    Project Writeup
-                  </label>
-                  <div
-                    class="sc-hmzhuo iPlCQZ"
-                  >
-                    <textarea
-                      id="project_writeups"
-                      name="project_writeups"
-                      type="text"
-                    />
-                  </div>
-                  <span
-                    class="sc-hMqMXs sc-iAyFgw cklGIw"
-                  />
-                </div>
-                <div
-                  class="sc-eqIVtm bACcVR"
-                >
-                  <a
-                    class="sc-ifAKCX cIKUcB"
-                    color="grey"
-                    to="/dashboard"
-                  >
-                    Cancel
-                  </a>
-                  <button
-                    class="sc-htpNat jPhUiJ"
-                    color="green"
-                    type="submit"
-                  >
-                    Submit
-                  </button>
-                </div>
-              </form>
+                Project Title
+              </label>
+              <input
+                class="sc-cSHVUG kikqQz"
+                display="wide"
+                id="project_title"
+                name="project_title"
+                type="text"
+                value=""
+              />
+              <span
+                class="sc-gZMcBi sc-fjdhpX brTRfi"
+              />
+            </div>
+            <div
+              class="sc-kAzzGY jBHymL"
+            >
+              <label
+                class="sc-jzJRlG dNPMsO"
+                for="participant_or_team_nam"
+              >
+                Team/Participant name
+              </label>
+              <input
+                class="sc-cSHVUG kikqQz"
+                display="wide"
+                id="participant_or_team_name"
+                name="participant_or_team_name"
+                type="text"
+                value=""
+              />
+              <span
+                class="sc-gZMcBi sc-fjdhpX brTRfi"
+              />
             </div>
           </div>
-        </div>
-      </div>
-      <div
-        class="sc-dnqmqq gkSNdn"
-      >
-        <p
-          class="sc-VigVT kZDxgA"
-        >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-iwsKbI sc-gqjmRU kqKCDB"
-            href="#"
+          <div
+            class="sc-gzVnrw dOWIJD"
           >
-            Privacy
-          </a>
-          <a
-            class="sc-iwsKbI sc-gqjmRU kqKCDB"
-            href="#"
+            <label
+              class="sc-jzJRlG dNPMsO"
+              for="project_writeups"
+            >
+              Project Writeup
+            </label>
+            <div
+              class="sc-dxgOiQ kWrCYP"
+            >
+              <textarea
+                id="project_writeups"
+                name="project_writeups"
+                type="text"
+              />
+            </div>
+            <span
+              class="sc-gZMcBi sc-fjdhpX brTRfi"
+            />
+          </div>
+          <div
+            class="sc-gzVnrw cguHsh"
           >
-            Contacts
-          </a>
-        </div>
+            <a
+              class="sc-kGXeez ewBGKr"
+              color="grey"
+              href="/dashboard"
+            >
+              Cancel
+            </a>
+            <button
+              class="sc-kgoBCf jIzyzw"
+              color="green"
+              type="submit"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   </div>,

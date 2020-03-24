@@ -45,8 +45,8 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
     expect(component.queryByText(/8/i)).toBeInTheDocument();
   });
 
-  it("The text node  for the current user's  username , renders properly", () => {
-    expect(component.queryByText(/Jake22/i)).toBeInTheDocument();
+  it("The text node 'Log Out', renders properly", () => {
+    expect(component.queryByText(/Log Out/i)).toBeInTheDocument();
   });
   it("The text node for the current user's bio , renders properly", () => {
     expect(component.queryByText("I like coding")).toBeInTheDocument();

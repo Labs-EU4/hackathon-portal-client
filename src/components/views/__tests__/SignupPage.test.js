@@ -45,13 +45,13 @@ describe("Component UserProfile.js text nodes renders properly", () => {
   it("the component image with alt tag", () => {
     expect(jestFeatures.queryByAltText(/Sign Up now/i)).toBeInTheDocument();
   });
-  it("asserts that the button with data-testid renders properly", () => {
-    expect(jestFeatures.getByTestId("label")).toBeInTheDocument();
+  it("asserts that the button with data-testid does not render", () => {
+    expect(jestFeatures.queryByTestId("label")).toBeNull();
   });
 
-  it("asserts that the img for hackton logo renders properly", () => {
+  it("asserts that the logo with alt text is not in the component", () => {
     expect(
-      jestFeatures.getByAltText("Hackton - Organise hackathons")
-    ).toBeInTheDocument();
+      jestFeatures.queryByAltText("Hackton - Organise hackathons")
+    ).toBeNull();
   });
 });

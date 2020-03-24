@@ -7,67 +7,16 @@ Object {
     <div>
       <div>
         <div
-          class="sc-brqgnP krViPx"
+          class="sc-kEYyzF fgFwro"
         >
           <div
-            class="sc-cMljjf cssdrh"
-          >
-            <a
-              href="/"
-            >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-jAaTju cZyUBe"
-                src="Hackton-logo.png"
-              />
-            </a>
-            <div
-              class="sc-jDwBTQ cBURIZ"
-            >
-              <button
-                class="sc-kEYyzF kbIspq sc-gPEVay hvkOZR"
-                color="grey"
-                data-testid="label"
-              >
-                Log Out
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="sc-iRbamj dyFMRm"
-        >
-          <div
-            class="sc-jlyJG kipBxx"
+            class="sc-kkGfuU kxMrjm"
           >
             <img
               alt="Log In now!!"
-              class="sc-csuQGl bVjPnR"
+              class="sc-hSdWYo jsgvZe"
               src="Login.png"
             />
-          </div>
-        </div>
-        <div
-          class="sc-bdVaJa jTDGAn"
-        >
-          <p
-            class="sc-ifAKCX cvXEhe"
-          >
-            International Crafters © 2020
-          </p>
-          <div>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Privacy
-            </a>
-            <a
-              class="sc-bwzfXH sc-bxivhb dvlUsV"
-              href="#"
-            >
-              Contacts
-            </a>
           </div>
         </div>
       </div>
@@ -76,67 +25,16 @@ Object {
   "container": <div>
     <div>
       <div
-        class="sc-brqgnP krViPx"
+        class="sc-kEYyzF fgFwro"
       >
         <div
-          class="sc-cMljjf cssdrh"
-        >
-          <a
-            href="/"
-          >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-jAaTju cZyUBe"
-              src="Hackton-logo.png"
-            />
-          </a>
-          <div
-            class="sc-jDwBTQ cBURIZ"
-          >
-            <button
-              class="sc-kEYyzF kbIspq sc-gPEVay hvkOZR"
-              color="grey"
-              data-testid="label"
-            >
-              Log Out
-            </button>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sc-iRbamj dyFMRm"
-      >
-        <div
-          class="sc-jlyJG kipBxx"
+          class="sc-kkGfuU kxMrjm"
         >
           <img
             alt="Log In now!!"
-            class="sc-csuQGl bVjPnR"
+            class="sc-hSdWYo jsgvZe"
             src="Login.png"
           />
-        </div>
-      </div>
-      <div
-        class="sc-bdVaJa jTDGAn"
-      >
-        <p
-          class="sc-ifAKCX cvXEhe"
-        >
-          International Crafters © 2020
-        </p>
-        <div>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Privacy
-          </a>
-          <a
-            class="sc-bwzfXH sc-bxivhb dvlUsV"
-            href="#"
-          >
-            Contacts
-          </a>
         </div>
       </div>
     </div>

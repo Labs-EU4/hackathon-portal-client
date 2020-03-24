@@ -3,6 +3,7 @@ import { ParticiPantTeamTypes } from "./actions";
 const initialState = {
   team: {},
   teamMate: {},
+  teamId: null,
   fetchTeamData: [],
   fetchTeamMateData: [],
   isLoading: false,
@@ -22,6 +23,11 @@ export const participantTeamsReducer = (teams = initialState, action) => {
         ...teams,
         team: action.payload,
         isLoading: false
+      };
+    case ParticiPantTeamTypes.FETCH_TEAM_ID:
+      return {
+        ...teams,
+        teamId: action.payload
       };
     case ParticiPantTeamTypes.FETCH_TEAMS:
       return {

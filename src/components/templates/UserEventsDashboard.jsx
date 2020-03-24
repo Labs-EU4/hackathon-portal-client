@@ -7,7 +7,7 @@ import {
   DashboardContent,
   StyledButton
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
-import { H4 } from "../../assets/styles/atoms/Heading";
+import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import EventCard from "../organisms/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 
@@ -22,7 +22,7 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
   return (
     <BodyContainer>
       <StyledRowHead>
-        <StyledButton start onClick={() => setIsRegisteredEvents(false)}>
+        <StyledButton start="true" onClick={() => setIsRegisteredEvents(false)}>
           My hackathons
         </StyledButton>
         <StyledButton onClick={() => setIsRegisteredEvents(true)}>
