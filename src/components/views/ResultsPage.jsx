@@ -51,30 +51,6 @@ function ResultPage(props) {
     ["Manly Beach", -33.80010128657071, 151.28747820854187, 2]
   ];
 
-
-
-
-  // createMarker = () =>
-  //   new window.google.maps.Marker(
-  //     {
-  //       position: {
-  //         lat: -26.195246,
-  //         lng: 28.034088
-  //       },
-  //       map: googleMap.current,
-  //       icon: imageH,
-  //       label: "YOOOO"
-  //       // shape: shape,
-  //     },
-  //     {
-  //       position: { lat: beach[1], lng: beach[2] },
-  //       map: googleMap.current,
-  //       icon: imageH,
-  //       label: "YOOOO"
-  //       // shape: shape,
-  //     }
-  //   );
-
   const createMarker = (lati, long) => {
     const marker = new window.google.maps.Marker({
       position: { lat: lati, lng: long },
