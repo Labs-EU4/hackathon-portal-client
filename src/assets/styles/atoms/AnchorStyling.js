@@ -28,6 +28,7 @@ export const FooterNavAnchor = styled(Anchor)`
   border: 0;
   padding: 3px 5px 5px;
   font-weight: bold;
+  font-size: 12px;
   color: ${props => props.theme.color.black.regular};
 
   &:hover {
