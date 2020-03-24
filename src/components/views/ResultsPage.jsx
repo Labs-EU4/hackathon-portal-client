@@ -26,8 +26,8 @@ function ResultPage(props) {
     // console.log(position.coords.longitude);
   }
 
-  // One-shot position request.
   navigator.geolocation.getCurrentPosition(showMap);
+  // One-shot position request.
 
   // refs
   const googleMapRef = React.createRef();
@@ -41,6 +41,7 @@ function ResultPage(props) {
     "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png";
 
   var beaches = [
+    // ["user's current location", currentLocation[0], currentLocation[1]],
     ["Coogee Beach", -33.923036, 151.259052, 5],
     ["vvvv", 35.6762, 139.6503, 3],
     ["Cronulla Beach", -34.028249, 151.157507, 3],
@@ -70,19 +71,16 @@ function ResultPage(props) {
       createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
         zoom: 12,
         center: {
-          // lat: currentLocation[0],
-          // lng: currentLocation[1]
-          lat: 35.6762,
-          lng: 139.6503
+          lat: currentLocation[0],
+          lng: currentLocation[1]
+          // lat: 35.6762,
+          // lng: 139.6503
         }
       });
- 
 
       beaches.forEach(loc => {
         createMarker(loc[1], loc[2]);
       });
-      // createMarker2()
-      // marker.current = createMarker();
     });
   });
 
