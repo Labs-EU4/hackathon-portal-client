@@ -206,7 +206,7 @@ Object {
                 class="sc-ksYbfQ sc-fcdeBU bRlSqL"
               >
                 <button
-                  class="sc-ifAKCX fHwHnk sc-gmeYpB gbuKAi"
+                  class="sc-ifAKCX fHwHnk"
                   color="green"
                   type="submit"
                 >
@@ -240,7 +240,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-hzDkRC cxAOym"
+          class="sc-hzDkRC eTohnO"
         >
           <div
             class="sc-dVhcbM hZkoFl"
@@ -267,7 +267,7 @@ Object {
           </div>
           <a
             active="false"
-            class="sc-EHOje kkVAlS sc-eqIVtm dVHXZd"
+            class="sc-EHOje kPwboj sc-eqIVtm fGNwFE"
             color="primary"
             exact="true"
             href="/event/new"
@@ -613,7 +613,7 @@ Object {
               class="sc-ksYbfQ sc-fcdeBU bRlSqL"
             >
               <button
-                class="sc-ifAKCX fHwHnk sc-gmeYpB gbuKAi"
+                class="sc-ifAKCX fHwHnk"
                 color="green"
                 type="submit"
               >
@@ -647,7 +647,7 @@ Object {
         </div>
       </div>
       <div
-        class="sc-hzDkRC cxAOym"
+        class="sc-hzDkRC eTohnO"
       >
         <div
           class="sc-dVhcbM hZkoFl"
@@ -674,7 +674,7 @@ Object {
         </div>
         <a
           active="false"
-          class="sc-EHOje kkVAlS sc-eqIVtm dVHXZd"
+          class="sc-EHOje kPwboj sc-eqIVtm fGNwFE"
           color="primary"
           exact="true"
           href="/event/new"

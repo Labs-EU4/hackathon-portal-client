@@ -125,10 +125,6 @@ export const StyledLink = styled(Link)`
     background-position: -100%;
   }
 
-  @media ${media.tablet} {
-    padding: 4px 12px;
-  }
-
   ${({ color }) => {
     if (color === "primary")
       return `
@@ -228,10 +224,6 @@ export const StyledAnchor = styled.a`
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
     background-position: -100%;
-  }
-
-  @media ${media.mobile} {
-    padding: 4px 12px;
   }
 
   ${({ color }) => {
