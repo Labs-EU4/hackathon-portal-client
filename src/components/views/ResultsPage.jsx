@@ -53,7 +53,6 @@ function ResultPage(props) {
 
   // let createMarker;
 
-  var beach = beaches;
 
   // createMarker = () =>
   //   new window.google.maps.Marker(
