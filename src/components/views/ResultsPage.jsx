@@ -60,15 +60,6 @@ function ResultPage(props) {
     });
     marker.setMap(createGoogleMap);
   };
-  // const createMarker2 = () => {
-  //   const marker = new window.google.maps.Marker({
-  //     position: { lat: 20, lng: 20 },
-  //     map: googleMap.current,
-  //     label: "You",
-  //     icon: imageH
-  //   });
-  //   marker.setMap(createGoogleMap);
-  // };
 
   // useEffect Hook
   useEffect(() => {
