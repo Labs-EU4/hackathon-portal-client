@@ -31,8 +31,8 @@ function ResultPage(props) {
 
   // refs
   const googleMapRef = React.createRef();
-  const googleMap = useRef(null);
-  const marker = useRef(null);
+  // const googleMap = useRef(null);
+  // const marker = useRef(null);
 
   // helper functions
   let createGoogleMap = null;
