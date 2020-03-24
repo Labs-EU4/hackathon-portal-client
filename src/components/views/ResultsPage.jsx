@@ -51,7 +51,7 @@ function ResultPage(props) {
     ["Manly Beach", -33.80010128657071, 151.28747820854187, 2]
   ];
 
-  // let createMarker;
+
 
 
   // createMarker = () =>
