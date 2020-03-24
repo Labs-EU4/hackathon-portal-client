@@ -20,7 +20,10 @@ import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
 import eventImg from "../../assets/images/event-img.jpg";
-import { registerEvent } from "../../store/eventParticipants/actions";
+import {
+  registerEvent,
+  unregisterEvent
+} from "../../store/eventParticipants/actions";
 
 const EventCard = ({ event, eventModalHandler }) => {
   const {
@@ -30,7 +33,9 @@ const EventCard = ({ event, eventModalHandler }) => {
     event_description,
     organizer_name,
     organizer_profile_pic,
-    location
+    location,
+    join,
+    registered
   } = event;
   const { pathname } = useLocation();
   const letter = organizer_name && organizer_name.split("")[0];
@@ -52,6 +57,12 @@ const EventCard = ({ event, eventModalHandler }) => {
   const joinEvent = e => {
     e.preventDefault();
     dispatch(registerEvent(id));
+    history.push("/dashboard");
+  };
+
+  const unregister = e => {
+    e.preventDefault();
+    dispatch(unregisterEvent(event_id));
     history.push("/dashboard");
   };
 
@@ -94,9 +105,15 @@ const EventCard = ({ event, eventModalHandler }) => {
             >
               More Info
             </Button>
-            <Button link color="primary" onClick={joinEvent}>
-              Join Event
-            </Button>
+            {join === false ? null : registered === true ? (
+              <Button link color="primary" onClick={unregister}>
+                Unregister
+              </Button>
+            ) : (
+              <Button link color="primary" onClick={joinEvent}>
+                Join Event
+              </Button>
+            )}
           </EventCTA>
         </EventCardContent>
         <StyledBookmarkIcon icon="bookmark" />
