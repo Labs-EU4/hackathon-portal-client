@@ -12,6 +12,7 @@ export const ExitButton = styled.p`
   background-size: 204%;
   border-radius: 50%;
   color: ${props => props.theme.color.black.regular};
+  font-size: 12px;
   transition: all .2s;
   cursor: pointer;
 

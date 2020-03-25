@@ -50,7 +50,7 @@ const HackathonForm = ({ initialState }) => {
     tag_name: initialState?.tag_name || [],
     rubrics: initialState?.rubrics || [],
     requirements: initialState?.requirements || [],
-    difficulty_level: initialState?.difficulty_level || [],
+    difficulty_level: initialState?.difficulty_level || "beginner",
     start_time: initialState?.start_time || "",
     end_time: initialState?.end_time || "",
     guidelines: initialState?.guidelines || "",
@@ -61,7 +61,10 @@ const HackathonForm = ({ initialState }) => {
   const handleSubmit = values => {
     const participationTypeValue = document.getElementById("participation_type")
       .value;
+    const difficultyLevelValue = document.getElementById("difficulty_level")
+      .value;
     const categoryIdValue = document.getElementById("event_category").value;
+    values.difficulty_level = difficultyLevelValue;
     values.participation_type = participationTypeValue;
     values.category_id = categoryIdValue;
     let tagss = JSON.parse(window.localStorage.getItem("tags"));
@@ -103,10 +106,12 @@ const HackathonForm = ({ initialState }) => {
       "Participation type is required."
     ),
     prize: Yup.string()
-      .min(15, "Prize must be at least 15 characters long.")
+      .min(10, "Prize must be at least 10 characters long.")
       .max(100, "Prize cannot be more than 100 characters long.")
       .required("Prize is required."),
-    difficulty_level: Yup.array().required("Please select a difficulty level."),
+    difficulty_level: Yup.string().required(
+      "Please select a difficulty level."
+    ),
     start_time: Yup.string().required("Start Time is required."),
     end_time: Yup.string().required("End Time is required."),
     category_id: Yup.number()
@@ -212,6 +217,42 @@ const HackathonForm = ({ initialState }) => {
                     </ErrorSpan>
                   </Column>
                 </RowBody>
+                <RowBody justify="start">
+                  <Column>
+                    <Label htmlFor="start_time">Start Time</Label>
+                    <Input
+                      id="start_time"
+                      type="time"
+                      name="start_time"
+                      placeholder="Start Time"
+                      value={start_time || today}
+                      min={today}
+                    />
+                    {errors.name && touched.name ? (
+                      <div>{errors.name}</div>
+                    ) : null}
+                    <ErrorSpan>
+                      <ErrorMessage name="start_time" />
+                    </ErrorSpan>
+                  </Column>
+                  <Column>
+                    <Label htmlFor="end_time">End Time</Label>
+                    <Input
+                      id="end_time"
+                      type="time"
+                      name="end_time"
+                      placeholder="End Time"
+                      value={end_time || start_time || today}
+                      min={start_time}
+                    />
+                    {errors.name && touched.name ? (
+                      <div>{errors.name}</div>
+                    ) : null}
+                    <ErrorSpan>
+                      <ErrorMessage name="end_time" />
+                    </ErrorSpan>
+                  </Column>
+                </RowBody>
                 <RowBody id="grading_rubrics" justify="start">
                   <Label htmlFor="grading_rubrics">
                     Grading Rubrics (tick all that apply)
@@ -251,6 +292,35 @@ const HackathonForm = ({ initialState }) => {
                     value="extensibility"
                     label="Extensibility"
                   />
+                </RowBody>
+              </StyledColumn>
+
+              <StyledColumn>
+                <RowBody justify="start">
+                  <Label htmlFor="location">Location</Label>
+                  <Input
+                    display="wide"
+                    id="location"
+                    type="text"
+                    name="location"
+                  />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="location" />
+                  </ErrorSpan>
+                </RowBody>
+
+                <RowBody justify="start">
+                  <Label htmlFor="prize">Prize</Label>
+                  <Input display="wide" id="prize" type="text" name="prize" />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="prize" />
+                  </ErrorSpan>
                 </RowBody>
                 <RowBody justify="start">
                   <Column>
@@ -292,36 +362,6 @@ const HackathonForm = ({ initialState }) => {
                     </ErrorSpan>
                   </Column>
                 </RowBody>
-              </StyledColumn>
-
-              <StyledColumn>
-                <RowBody justify="start">
-                  <Label htmlFor="location">Location</Label>
-                  <Input
-                    display="wide"
-                    id="location"
-                    type="text"
-                    name="location"
-                  />
-                  {errors.name && touched.name ? (
-                    <div>{errors.name}</div>
-                  ) : null}
-                  <ErrorSpan>
-                    <ErrorMessage name="location" />
-                  </ErrorSpan>
-                </RowBody>
-
-                <RowBody justify="start">
-                  <Label htmlFor="prize">Prize</Label>
-                  <Input display="wide" id="prize" type="text" name="prize" />
-                  {errors.name && touched.name ? (
-                    <div>{errors.name}</div>
-                  ) : null}
-                  <ErrorSpan>
-                    <ErrorMessage name="prize" />
-                  </ErrorSpan>
-                </RowBody>
-
                 <RowBody justify="start">
                   <Column>
                     <Label htmlFor="difficulty_level">Difficulty Level</Label>
@@ -340,42 +380,10 @@ const HackathonForm = ({ initialState }) => {
                       <ErrorMessage name="difficulty_level" />
                     </ErrorSpan>
                   </Column>
-                </RowBody>
-
-                <RowBody justify="start">
                   <Column>
-                    <Label htmlFor="start_date">Start Time</Label>
-                    <Input
-                      id="start_time"
-                      type="time"
-                      name="start_time"
-                      placeholder="Start Time"
-                      value={start_time || today}
-                      min={today}
-                    />
-                    {errors.name && touched.name ? (
-                      <div>{errors.name}</div>
-                    ) : null}
-                    <ErrorSpan>
-                      <ErrorMessage name="start_time" />
-                    </ErrorSpan>
-                  </Column>
-                  <Column>
-                    <Label htmlFor="end_time">End Time</Label>
-                    <Input
-                      id="end_time"
-                      type="time"
-                      name="end_time"
-                      placeholder="End Time"
-                      value={end_time || start_time || today}
-                      min={start_time}
-                    />
-                    {errors.name && touched.name ? (
-                      <div>{errors.name}</div>
-                    ) : null}
-                    <ErrorSpan>
-                      <ErrorMessage name="end_time" />
-                    </ErrorSpan>
+                    {" "}
+                    <Label htmlFor="input_tags">Tags</Label>
+                    <InputTag id="input_tags" tags={defaultState.tag_name} />
                   </Column>
                 </RowBody>
 
@@ -394,11 +402,6 @@ const HackathonForm = ({ initialState }) => {
                   <ErrorSpan>
                     <ErrorMessage name="guidelines" />
                   </ErrorSpan>
-                </RowBody>
-                <RowBody justify="start">
-                  {" "}
-                  <Label htmlFor="input_tags">Tags</Label>
-                  <InputTag id="input_tags" tags={defaultState.tag_name} />
                 </RowBody>
                 <RowBody id="submission_requirements" justify="start">
                   <Label htmlFor="submission_requirements">
