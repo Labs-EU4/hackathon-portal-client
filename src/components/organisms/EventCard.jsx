@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useLocation, useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import * as moment from 'moment';
 
 import {
   StyledEventCard,
@@ -97,7 +96,9 @@ const EventCard = ({ event, eventModalHandler }) => {
           <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
           <Paragraph>{excerpt}</Paragraph>
-          <CardCountDown className={`countdown-${event_id}`}>{formattedDate}</CardCountDown>
+          <CardCountDown className={`countdown-${event_id}`}>
+            {formattedDate}
+          </CardCountDown>
           {/* <CardCountDown className="countdown">{countDownHandler(event.start_date)}</CardCountDown> */}
           <EventCTA>
             <Button
