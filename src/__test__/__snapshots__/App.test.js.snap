@@ -79,14 +79,44 @@ Object {
                 class="sc-hzNEM kgoEEt"
               >
                 <div
-                  class="sc-chbbiW dsohez"
-                />
+                  class="sc-chbbiW kwZmve"
+                >
+                  <img
+                    alt="transparency"
+                    src="transparency.png"
+                  />
+                  <h2
+                    class="sc-kxynE eMbkEd"
+                  >
+                    Transparency
+                  </h2>
+                </div>
                 <div
-                  class="sc-chbbiW dsohez"
-                />
+                  class="sc-chbbiW kwZmve"
+                >
+                  <img
+                    alt="team-collaboration"
+                    src="team.png"
+                  />
+                  <h2
+                    class="sc-kxynE eMbkEd"
+                  >
+                    Collaboration
+                  </h2>
+                </div>
                 <div
-                  class="sc-chbbiW dsohez"
-                />
+                  class="sc-chbbiW kwZmve"
+                >
+                  <img
+                    alt="simplicity"
+                    src="correct.png"
+                  />
+                  <h2
+                    class="sc-kxynE eMbkEd"
+                  >
+                    Simplicity
+                  </h2>
+                </div>
               </div>
               <h1
                 class="sc-jKVCRD jqNXXN"
@@ -119,7 +149,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-jDwBTQ sc-kZmsYB fvUOXU"
+            class="sc-jDwBTQ sc-RcBXQ eDoSba"
           >
             <form
               action="#"
@@ -227,7 +257,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-ksYbfQ sc-RcBXQ bhOYcE"
+                class="sc-ksYbfQ sc-iSDuPN fKENWI"
               >
                 <button
                   class="sc-ifAKCX fHwHnk"
@@ -510,14 +540,44 @@ Object {
               class="sc-hzNEM kgoEEt"
             >
               <div
-                class="sc-chbbiW dsohez"
-              />
+                class="sc-chbbiW kwZmve"
+              >
+                <img
+                  alt="transparency"
+                  src="transparency.png"
+                />
+                <h2
+                  class="sc-kxynE eMbkEd"
+                >
+                  Transparency
+                </h2>
+              </div>
               <div
-                class="sc-chbbiW dsohez"
-              />
+                class="sc-chbbiW kwZmve"
+              >
+                <img
+                  alt="team-collaboration"
+                  src="team.png"
+                />
+                <h2
+                  class="sc-kxynE eMbkEd"
+                >
+                  Collaboration
+                </h2>
+              </div>
               <div
-                class="sc-chbbiW dsohez"
-              />
+                class="sc-chbbiW kwZmve"
+              >
+                <img
+                  alt="simplicity"
+                  src="correct.png"
+                />
+                <h2
+                  class="sc-kxynE eMbkEd"
+                >
+                  Simplicity
+                </h2>
+              </div>
             </div>
             <h1
               class="sc-jKVCRD jqNXXN"
@@ -550,7 +610,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jDwBTQ sc-kZmsYB fvUOXU"
+          class="sc-jDwBTQ sc-RcBXQ eDoSba"
         >
           <form
             action="#"
@@ -658,7 +718,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ksYbfQ sc-RcBXQ bhOYcE"
+              class="sc-ksYbfQ sc-iSDuPN fKENWI"
             >
               <button
                 class="sc-ifAKCX fHwHnk"

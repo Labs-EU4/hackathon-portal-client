@@ -79,6 +79,19 @@ export const FeaturesContainer = styled.div`
 `;
 
 export const FeatureBox = styled.div`
-    width: calc((100% / 3) - 10px); height: 250px;
+    ${({theme}) => theme.flex.custom('flex-start', 'center', 'column', 'wrap')};
+    width: calc((100% / 3) - 10px); min-width: 200px;
+    height: 300px;
     border: 3px solid red;
+
+    & > img {
+        width: 50%; min-width: 100px;
+        object-fit: cover;
+    }
+`;
+
+export const FeatureTitle = styled.h2`
+    margin-top: 5px;
+    font-size: 20px; letter-spacing: 2px;
+    font-weight: bolder;
 `;
