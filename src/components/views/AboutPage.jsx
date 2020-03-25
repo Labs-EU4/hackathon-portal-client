@@ -14,6 +14,9 @@ import {
 } from "../../assets/styles/views/AboutPage"
 
 import Logo from '../atoms/Logo';
+import teamImg from '../../assets/images/team.png';
+import correctImg from '../../assets/images/correct.png';
+import transparencyImg from '../../assets/images/transparency.png';
 
 const teamMembers = [
     {
@@ -87,9 +90,15 @@ const AboutPage = () => {
                 <SectionTitle lineWidth="30%">Why HackHunt?<hr/></SectionTitle>
                 <Paragraph>We have great features that will make participating to hackathons fun again</Paragraph>
                 <FeaturesContainer>
-                    <FeatureBox></FeatureBox>
-                    <FeatureBox></FeatureBox>
-                    <FeatureBox></FeatureBox>
+                    <FeatureBox>
+                        <img src={transparencyImg} alt="transparency" />
+                    </FeatureBox>
+                    <FeatureBox>
+                        <img src={teamImg} alt="team-collaboration" />
+                    </FeatureBox>
+                    <FeatureBox>
+                        <img src={correctImg} alt="simplicity" />
+                    </FeatureBox>
                 </FeaturesContainer>
 
                 <SectionTitle lineWidth="30%">Meet our team of superstars<hr/></SectionTitle>
