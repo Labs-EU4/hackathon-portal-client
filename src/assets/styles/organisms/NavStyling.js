@@ -121,7 +121,7 @@ export const StyledNavLink = styled(NavLink)`
     font-weight: bold;
     color: white;
 
-    ${({ active }) => active 
+    ${({ active }) => active === 'true'
       ? `border-right: 5px solid ${solid.blue}; border-radius: 0px; padding-left: 10px;` 
       : `border-left: 5px solid ${solid.blue}; border-radius: 6px;`
     }

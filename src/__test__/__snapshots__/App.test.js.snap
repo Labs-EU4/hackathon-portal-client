@@ -280,7 +280,7 @@ Object {
           >
             <a
               active="false"
-              class="sc-fBuWsC boEHNC"
+              class="sc-fBuWsC bxaNoM"
               href="/home"
             >
               <svg
@@ -308,7 +308,7 @@ Object {
           >
             <a
               active="false"
-              class="sc-fBuWsC boEHNC"
+              class="sc-fBuWsC bxaNoM"
               href="/dashboard"
             >
               <svg
@@ -337,7 +337,7 @@ Object {
             <a
               active="false"
               aria-current="page"
-              class="sc-fBuWsC boEHNC current"
+              class="sc-fBuWsC bxaNoM current"
               href="/"
             >
               <svg
@@ -365,7 +365,7 @@ Object {
           >
             <a
               active="false"
-              class="sc-fBuWsC boEHNC"
+              class="sc-fBuWsC bxaNoM"
               href="/results"
             >
               <svg
@@ -687,7 +687,7 @@ Object {
         >
           <a
             active="false"
-            class="sc-fBuWsC boEHNC"
+            class="sc-fBuWsC bxaNoM"
             href="/home"
           >
             <svg
@@ -715,7 +715,7 @@ Object {
         >
           <a
             active="false"
-            class="sc-fBuWsC boEHNC"
+            class="sc-fBuWsC bxaNoM"
             href="/dashboard"
           >
             <svg
@@ -744,7 +744,7 @@ Object {
           <a
             active="false"
             aria-current="page"
-            class="sc-fBuWsC boEHNC current"
+            class="sc-fBuWsC bxaNoM current"
             href="/"
           >
             <svg
@@ -772,7 +772,7 @@ Object {
         >
           <a
             active="false"
-            class="sc-fBuWsC boEHNC"
+            class="sc-fBuWsC bxaNoM"
             href="/results"
           >
             <svg
