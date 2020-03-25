@@ -7,6 +7,7 @@ const Logo = styled.img.attrs({
   src: image
 })`
   height: 43px;
+  ${({ size }) => size && `width:${size}; height: 66px;`};
 
   @media ${media.tablet} {
     height: 35px;
