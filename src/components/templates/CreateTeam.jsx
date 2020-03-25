@@ -43,7 +43,6 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
     //!!HAVE A STATE THAT OPENS THE SELECT TEAM MEMBER COMPONENT HERE TO REDIRECT, ALSO FROM HERE CLOSE THE CREATETEAM COMPONENT
     //REDIRECT TO THE ADDPARTICIPANTTEAMS COMPONENT
     await setIsAddTeamMemberOpen(true);
-    debugger;
   };
 
   const { event_title } = useSelector(state =>
