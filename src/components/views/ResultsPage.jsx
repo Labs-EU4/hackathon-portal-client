@@ -37,7 +37,7 @@ function ResultPage(props) {
   let imageH =
     "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png";
 
-  var beaches = [
+  var eventsLocation = [
     // ["user's current location", currentLocation[0], currentLocation[1]],
     ["Coogee Beach", -33.923036, 151.259052, 5],
     ["vvvv", 35.6762, 139.6503, 3],
@@ -47,7 +47,7 @@ function ResultPage(props) {
     // ["hey", currentLocation[0], currentLocation[1]],
     ["Maroubra Beach", -33.950198, 151.259302, 1],
     ["Manly Beach", -33.80010128657071, 151.28747820854187, 2],
-    ["Coventry University", 52.3838, -1.56366,0]
+    ["Coventry University", 52.3838, -1.56366, 0]
   ];
 
   const createMarker = (lati, long) => {
@@ -74,7 +74,7 @@ function ResultPage(props) {
         }
       });
 
-      beaches.forEach(loc => {
+      eventsLocation.forEach(loc => {
         createMarker(loc[1], loc[2]);
       });
     });
