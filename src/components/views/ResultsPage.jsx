@@ -60,8 +60,8 @@ function ResultPage(props) {
     googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${GMAP}&libraries=places`;
     window.document.body.appendChild(googleMapScript);
 
-    googleMapScript.addEventListener("load", async () => {
-      createGoogleMap = await new window.google.maps.Map(googleMapRef.current, {
+    googleMapScript.addEventListener("load", () => {
+      createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
         zoom: 12,
         center: {
           lat: currentLocation[0],
