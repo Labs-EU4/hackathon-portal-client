@@ -46,7 +46,8 @@ function ResultPage(props) {
     ["new", 20, 28, 2],
     // ["hey", currentLocation[0], currentLocation[1]],
     ["Maroubra Beach", -33.950198, 151.259302, 1],
-    ["Manly Beach", -33.80010128657071, 151.28747820854187, 2]
+    ["Manly Beach", -33.80010128657071, 151.28747820854187, 2],
+    ["Coventry University", 52.3838, -1.56366,0]
   ];
 
   const createMarker = (lati, long) => {
@@ -79,7 +80,7 @@ function ResultPage(props) {
     });
   });
 
-  return currentLocation ? (
+  return true ? (
     <div id="google-map" ref={googleMapRef} style={mapStyles} />
   ) : (
     <p>Wait a moment while we find events in your area..</p>
