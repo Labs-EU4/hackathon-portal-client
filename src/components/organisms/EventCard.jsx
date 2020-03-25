@@ -105,7 +105,11 @@ const EventCard = ({ event, eventModalHandler }) => {
             >
               More Info
             </Button>
-            {join === false ? null : registered === true ? (
+            {join === false ? (
+              <Button link color="blue" to={`/event/${id}/edit`}>
+                Edit event
+              </Button>
+            ) : registered === true ? (
               <Button link color="grey" onClick={unregister} to={"#"}>
                 Unregister
               </Button>
