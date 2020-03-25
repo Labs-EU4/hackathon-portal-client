@@ -53,9 +53,6 @@ const EventOnboarding = ({ eventModalHandler }) => {
   // helper functions
   let createGoogleMap = null;
 
-  let imageH =
-    "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png";
-
   var eventsLocation = [
     ["Coventry University", 52.3838, -1.56366, 0],
     ["Amsterdam", 52.373169, 4.89066, 0],
