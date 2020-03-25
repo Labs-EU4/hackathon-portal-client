@@ -40,7 +40,8 @@ function ResultPage(props) {
   var eventsLocation = [
     ["Coventry University", 52.3838, -1.56366, 0],
     ["Amsterdam", 52.373169, 4.89066, 0],
-    ["Stratford,UK", 53.47555, 2.35784]
+    ["Stratford,UK", 53.47555, 2.35784],
+    ["Rome", "Italy", 41.902782, 12.496365]
   ];
 
   const createMarker = (lati, long) => {
