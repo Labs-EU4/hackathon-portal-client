@@ -12,7 +12,7 @@ export const StyledButton = styled.button`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 32px;
-  ${props => props.theme.fontSize.small};
+  font-size: 14px;
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
@@ -22,16 +22,6 @@ export const StyledButton = styled.button`
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
     background-position: -100%;
-  }
-
-  @media ${media.tablet} {
-    width: 100%;
-    padding: 12px;
-    margin: 0 0 15px 0;
-  }
-
-  @media ${media.mobile} {
-    padding: 10px;
   }
 
   ${({ color }) => {
@@ -122,7 +112,7 @@ export const StyledLink = styled(Link)`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 32px;
-  ${props => props.theme.fontSize.small};
+  font-size: 14px;
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
@@ -133,16 +123,6 @@ export const StyledLink = styled(Link)`
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
     background-position: -100%;
-  }
-
-  @media ${media.tablet} {
-    width: 100%;
-    padding: 12px;
-    margin: 0 0 15px 0;
-  }
-
-  @media ${media.mobile} {
-    padding: 10px;
   }
 
   ${({ color }) => {
@@ -233,7 +213,7 @@ export const StyledAnchor = styled.a`
   border: 3px solid ${props => props.theme.color.grey.border};
   border-radius: 3px;
   padding: 8px 32px;
-  ${props => props.theme.fontSize.small};
+  font-size: 14px;
   font-weight: 600;
   color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
@@ -244,16 +224,6 @@ export const StyledAnchor = styled.a`
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
     background-position: -100%;
-  }
-
-  @media ${media.tablet} {
-    width: 100%;
-    padding: 12px;
-    margin: 0 0 15px 0;
-  }
-
-  @media ${media.mobile} {
-    padding: 10px;
   }
 
   ${({ color }) => {

@@ -5,11 +5,11 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmissionStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
-import { RowHeadN } from "../../assets/styles/atoms/RowHead";
-import { RowBodyN } from "../../assets/styles/atoms/RowBody";
+import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
-import { ErrorSpanN } from "../../assets/styles/atoms/Span";
-import { Label } from "../../assets/styles/atoms/Label";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
 import {
   fetchAllSubmissions,
@@ -68,9 +68,9 @@ const ParticipantSubmission = ({
   return (
     <StyledWideBody>
       <CardForm>
-        <RowHeadN>
+        <RowHead>
           <H3>Submit Project</H3>
-        </RowHeadN>
+        </RowHead>
         <Formik
           onSubmit={handleSubmit}
           initialValues={initialState}
@@ -81,7 +81,7 @@ const ParticipantSubmission = ({
             <Form>
               <ProjectTitle currentEvent={currentEvent} />
               {requireGithubUrl && (
-                <RowBodyN justify="start">
+                <RowBody justify="start">
                   <Label htmlFor="git_url">GitHub URL</Label>
                   <Input
                     type="text"
@@ -89,13 +89,13 @@ const ParticipantSubmission = ({
                     id="git_url"
                     display="wide"
                   />
-                  <ErrorSpanN>
+                  <ErrorSpan>
                     <ErrorMessage name="git_url" component="div" />
-                  </ErrorSpanN>
-                </RowBodyN>
+                  </ErrorSpan>
+                </RowBody>
               )}
               {requireVideoUrl && (
-                <RowBodyN justify="start">
+                <RowBody justify="start">
                   <Label htmlFor="video_url">Video URL</Label>
                   <Input
                     type="text"
@@ -103,10 +103,10 @@ const ParticipantSubmission = ({
                     id="video_url"
                     style={{ width: "100%" }}
                   />
-                  <ErrorSpanN>
+                  <ErrorSpan>
                     <ErrorMessage name="video_url" component="div" />
-                  </ErrorSpanN>
-                </RowBodyN>
+                  </ErrorSpan>
+                </RowBody>
               )}
               <ProjectWriteUp />
             </Form>

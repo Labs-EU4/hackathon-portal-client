@@ -7,15 +7,17 @@ import {
   DivWrapper,
   ImgTeammates,
   TeamMemberImg,
-  NavLinks
+  BtnContainer
 } from "../../assets/styles/templates/TeamViewStyling";
+// import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
+// import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import Button from "../atoms/Button";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useTeammates } from "../../hooks";
 import user_icon from "../../assets/images/user_icon.svg";
 
-const TeamView = ({ team }) => {
+const TeamView = ({ team, addTeamMemberHandler, setRegisterTeam }) => {
   const { id } = useParams();
 
   const { event_title } = useSelector(state =>
@@ -71,11 +73,18 @@ const TeamView = ({ team }) => {
         Hackathon Name:
         <NormalSpan>{event_title}</NormalSpan>
       </FancyBoldSpan>
-      <Button color="green">
-        <NavLinks to={`/dashboard/event/${id}/participant-teams/${team.id}`}>
+      <BtnContainer>
+        <Button color="grey" size="half" onClick={() => setRegisterTeam(false)}>
+          Back to event
+        </Button>
+        <Button
+          color="green"
+          size="half"
+          onClick={() => addTeamMemberHandler(true, team.id)}
+        >
           Add Teammate
-        </NavLinks>
-      </Button>
+        </Button>
+      </BtnContainer>
     </TeamsContainer>
   );
 };

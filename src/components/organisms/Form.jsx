@@ -7,12 +7,14 @@ import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import queryString from "query-string";
 
-import { Container } from "../../assets/styles/atoms/ContainerStyling";
+import Container from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
-import { Paragraph } from "../../assets/styles/atoms/Paragraph";
-import { ErrorSpan } from "../../assets/styles/atoms/Span";
-import { Label } from "../../assets/styles/atoms/Label";
-import Button from "../atoms/Button";
+import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
+import { 
+  StyledParagraph,
+  StyledButton
+} from "../../assets/styles/organisms/FormStyling";
 import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
 import { register, login } from "../../store/user/actions";
@@ -114,7 +116,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   return (
     <Container>
       <H1>{formHeader}</H1>
-      <Paragraph>{formParagraph}</Paragraph>
+      <StyledParagraph>{formParagraph}</StyledParagraph>
       <Formik
         initialValues={{ email: "", password: "" }}
         onSubmit={handleSubmit}
@@ -182,9 +184,9 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               <ErrorMessage name="password" />
             </ErrorSpan>
 
-            <Button type="submit" size="wide" color="blue">
+            <StyledButton type="submit" size="wide" color="blue">
               {ctaText}
-            </Button>
+            </StyledButton>
             {ctaText.toLowerCase() === "log in" && (
               <StyledAnchor to="/forgotpassword">Forgot password?</StyledAnchor>
             )}

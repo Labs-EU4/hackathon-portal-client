@@ -214,7 +214,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     return (
       <>
         {renderSingleEvent()}
-        <CreateTeam {...{ id }} />
+        <CreateTeam {...{ id }} {...{setRegisterTeam}} />
       </>
     );
   }

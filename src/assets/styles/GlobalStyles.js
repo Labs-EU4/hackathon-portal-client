@@ -1,6 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
-
-import * as color from './variables/colors';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   /*MEYER RESET*/
@@ -261,24 +259,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   :root {
-      /* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500i,700,900&display=swap'); */
-      /* UBUNTU WAS A GOOD CHOICE ALSO */
-      /* @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap'); */
       @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
       font-size: 62.5%;
       font-size: 57.5%;
-      /* font-family: 'Rubik', 'apple-system', 'Noto Sans', 'Ubuntu', 'Cantarell,', 'Segoe UI', 'Helvetica Neue'; 
-      font-family: 'Noto Sans', 'apple-system', 'Rubik', 'Helvetica Neue', 'Segoe UI', sans-serif;
-      font-family: 'Noto Sans', sans-serif;
-      font-family: 'Roboto', sans-serif; --> very good!!*/
-      /* font-family: 'Ubuntu', sans-serif; */
-      /* font-family: 'Dancing script', sans-serif;  */
-      /* font-family: 'Oswald', sans-serif;  */
-      /* font-family: 'Roboto', sans-serif; */
-      /*font-family: 'Noto Sans JP', sans-serif; --> better!!*/
-      /* font-family: 'Noto Sans TC', sans-serif; */
-      /* font-family: 'Nunito Sans', sans-serif;  --> not bad!! */
-      /* font-family: 'Montserrat', sans-serif;    */
       font-family: 'Roboto Condensed', sans-serif;
       scroll-behavior: smooth;
       line-height: normal;
@@ -303,13 +286,12 @@ export const GlobalStyles = createGlobalStyle`
   body {
       max-width: 100vw;
       overflow: hidden;
-      /* text-transform: uppercase; */
       text-rendering: optimizeLegibility;
       font-weight: bold;
       -webkit-font-smoothing: antialiased;
       text-shadow: 0 1px 5px rgba(0,0,0,.1);
       line-height: 1.2;
-      color: ${props => props.theme.color.black};
+      color: black;
       background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
       
       .dashboard-bg {
@@ -317,16 +299,6 @@ export const GlobalStyles = createGlobalStyle`
           border: 3px solid red;
       }
   }
-
-  /* #root > div:first-child {
-    display: flex;
-    flex-direction: column;
-    height: 100%; min-height: 100vh;
-  }
-
-  #root > div:first-child > div:nth-child(2) {
-    flex: 2;
-  } */
 
   .particles {
       position: fixed;

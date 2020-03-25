@@ -42,7 +42,7 @@ Object {
               id="project_writeup"
             >
               <p
-                class="sc-bdVaJa sc-jzJRlG ibzmqG"
+                class="sc-bdVaJa sc-jzJRlG fTApFV"
               />
               <div
                 class="sc-gZMcBi fYSflK"
@@ -657,7 +657,7 @@ Object {
                 Feedback
               </label>
               <p
-                class="sc-bdVaJa sc-jzJRlG ibzmqG"
+                class="sc-bdVaJa sc-jzJRlG fTApFV"
               >
                 No comments on this project
               </p>
@@ -667,7 +667,7 @@ Object {
             class="sc-cSHVUG iJJUky"
           >
             <button
-              class="sc-htpNat maCfY"
+              class="sc-htpNat hAbvIJ"
               color="grey"
             >
               Back to projects
@@ -715,7 +715,7 @@ Object {
             id="project_writeup"
           >
             <p
-              class="sc-bdVaJa sc-jzJRlG ibzmqG"
+              class="sc-bdVaJa sc-jzJRlG fTApFV"
             />
             <div
               class="sc-gZMcBi fYSflK"
@@ -1330,7 +1330,7 @@ Object {
               Feedback
             </label>
             <p
-              class="sc-bdVaJa sc-jzJRlG ibzmqG"
+              class="sc-bdVaJa sc-jzJRlG fTApFV"
             >
               No comments on this project
             </p>
@@ -1340,7 +1340,7 @@ Object {
           class="sc-cSHVUG iJJUky"
         >
           <button
-            class="sc-htpNat maCfY"
+            class="sc-htpNat hAbvIJ"
             color="grey"
           >
             Back to projects

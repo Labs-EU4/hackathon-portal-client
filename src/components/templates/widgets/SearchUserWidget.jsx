@@ -13,7 +13,7 @@ import { UserWidget } from './UserWidget';
 import isEmail from "validator/lib/isEmail";
 import { useSearchUserByEmail } from "../../../hooks";
 
-export const JudgesSearchWidget = props => {
+export const SearchUserWidget = props => {
     const { 
       selectedUsersHandler, 
       selectedUserArr,
@@ -81,12 +81,12 @@ export const JudgesSearchWidget = props => {
             color="grey" 
             size="half" 
             onClick={handleExit}
-          >Back</Button>
+          >Back to event</Button>
           <Button 
             color="green" 
             size="half" 
             onClick={handleSubmit}
-          >Add Judge</Button>
+          >Add Teammate</Button>
         </RowBody>
       </Container>
     );

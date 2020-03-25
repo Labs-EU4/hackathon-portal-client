@@ -3,15 +3,15 @@ import { useSelector } from "react-redux";
 // // import uuid from 'uuid';
 
 import {
-  StyledEditIconN,
-  StyledExpandIconN,
-  UserInfoContentN,
-  StyledNavN,
-  StyledProfileImageN,
-  StyledNavLinkN,
-  LinkDetailsN,
-  UserContainerN,
-  StyledButtonN
+  StyledEditIcon,
+  StyledExpandIcon,
+  UserInfoContent,
+  StyledNav,
+  StyledProfileImage,
+  StyledNavLink,
+  LinkDetails,
+  UserContainer,
+  StyledButton
 } from "../../assets/styles/organisms/NavStyling";
 import ProfileImg from "../atoms/ProfileImg";
 import Icon from "../atoms/Icon";
@@ -45,53 +45,68 @@ const Nav = ({
   isSideBarOpen,
   setIsSideBarOpen
 }) => {
-  const [isEditProfileHovered, setIsEditProfileHovered] = useState(false);
+  const [ isEditProfileHovered, setIsEditProfileHovered ] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(
     state => state.currentUser
   );
 
   return (
-    <StyledNavN active={isSideBarOpen}>
-      <UserContainerN onClick={() => setIsProfileOpen(!isProfileOpen)}>
-        <StyledProfileImageN
-          active={isEditProfileHovered}
-          onMouseEnter={() => setIsEditProfileHovered(true)}
-          onMouseLeave={() => setIsEditProfileHovered(false)}
+    <StyledNav active={isSideBarOpen}>
+      { token ? (
+        <UserContainer onClick={() => setIsProfileOpen(!isProfileOpen)}>
+          <StyledProfileImage
+            active={isEditProfileHovered}
+            onMouseEnter={() => setIsEditProfileHovered(true)}
+            onMouseLeave={() => setIsEditProfileHovered(false)}
+          >
+            { image_url !== null ? (
+              <>
+                {isEditProfileHovered && <StyledEditIcon icon="user-edit" />}
+                <ProfileImg
+                  image={image_url}
+                  alt={username}
+                  {...{ isSideBarOpen }}
+                />
+              </>
+            ) : (
+              <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
+            )}
+            { !isSideBarOpen && (
+              <UserInfoContent>
+                <p>{fullname}</p>
+                <p>{email}</p>
+              </UserInfoContent>
+            )}
+          </StyledProfileImage>
+        </UserContainer>
+      ) : <div style={{height: "75px"}} />}
+      { token ? (
+        <StyledButton
+          active={isSideBarOpen.toString()}
+          exact="true"
+          link
+          to="/event/new"
+          color="primary"
+          size="wide"
         >
-          {image_url !== null && token ? (
-            <>
-              {isEditProfileHovered && <StyledEditIconN icon="user-edit" />}
-              <ProfileImg
-                image={image_url}
-                alt={username}
-                {...{ isSideBarOpen }}
-              />
-            </>
-          ) : (
-            <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
-          )}
-          {!isSideBarOpen && (
-            <UserInfoContentN>
-              <p>{fullname}</p>
-              <p>{email}</p>
-            </UserInfoContentN>
-          )}
-        </StyledProfileImageN>
-      </UserContainerN>
-      <StyledButtonN
-        active={isSideBarOpen.toString()}
-        exact="true"
-        link
-        to="/event/new"
-        color="primary"
-        size="wide"
-      >
-        Create{isSideBarOpen && <br />} Event
-      </StyledButtonN>
+          Create{isSideBarOpen && <br />} Event
+        </StyledButton>
+      ) : (
+        <StyledButton
+          active={isSideBarOpen.toString()}
+          exact="true"
+          link
+          to="/dashboard"
+          color="primary"
+          size="wide"
+        >
+          Create{isSideBarOpen && <br />} Event
+        </StyledButton>
+      )}
       {items.map(({ title, url, icon }, idx) => {
         return (
           <div key={idx} style={{ width: "100%", position: "relative" }}>
-            <StyledNavLinkN
+            <StyledNavLink
               active={isSideBarOpen.toString()}
               exact
               to={url}
@@ -100,17 +115,18 @@ const Nav = ({
             >
               <Icon {...{ icon }} />
               {!isSideBarOpen && <span>{title}</span>}
-            </StyledNavLinkN>
-            {isSideBarOpen && <LinkDetailsN>{title}</LinkDetailsN>}
+            </StyledNavLink>
+            {isSideBarOpen && <LinkDetails>{title}</LinkDetails>}
           </div>
         );
       })}
-      <StyledExpandIconN
+      <StyledExpandIcon
         icon="angle-double-down"
         active={isSideBarOpen.toString()}
         onClick={() => setIsSideBarOpen(!isSideBarOpen)}
       />
-    </StyledNavN>
+    </StyledNav>
   );
 };
+
 export default Nav;

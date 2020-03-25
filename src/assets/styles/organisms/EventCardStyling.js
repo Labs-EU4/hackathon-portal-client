@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 import { IconLetter } from "../atoms/IconLetterStyling";
-import { ParagraphN } from "../atoms/Paragraph";
+import { Paragraph } from "../atoms/ParagraphStyling";
 import Icon from "../../../components/atoms/Icon";
 
 export const StyledEventCard = styled.div`
@@ -63,14 +63,16 @@ export const EventCTA = styled.div`
   padding: 0 10px 5px;
 `;
 
-export const DateParagraph = styled(ParagraphN)`
+export const DateParagraph = styled(Paragraph)`
   margin-bottom: 0;
   color: ${props => props.theme.color.grey.regular};
+  font-size: 14px;
 `;
 
-export const LocationParagraph = styled(ParagraphN)`
+export const LocationParagraphN = styled(Paragraph)`
   margin: -5px 0 8px;
   color: ${props => props.theme.color.grey.light};
+  font-size: 13px;
 `;
 
 export const CardCountDown = styled.div`
@@ -81,13 +83,14 @@ export const CardCountDown = styled.div`
   border: 2px solid ${props => props.theme.color.black.regular};
   border-radius: 3px;
   padding: 5px 10px;
+  font-size: 16px;
 `;
 
 export const StyledBookmarkIcon = styled(Icon)`
   position: absolute;
   top: -5px;
   left: 10px;
-  font-size: 3rem;
+  font-size: 27px;
   color: ${props => props.theme.color.primary.regular};
   cursor: pointer;
 `;
@@ -96,7 +99,7 @@ export const StyledStarIcon = styled(Icon)`
   position: absolute;
   top: 0;
   left: 11px;
-  font-size: 1.8rem;
+  font-size: 16px;
   color: ${props => props.theme.color.white.regular};
   cursor: pointer;
 `;

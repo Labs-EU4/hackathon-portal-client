@@ -9,8 +9,6 @@ import {
   BodyColumn,
   Form
 } from "../../assets/styles/templates/CreateTeamStyling";
-import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 // import WideBody from "../../assets/styles/atoms/WideBodyStyling";
 import Button from "../atoms/Button";
 import AddParticipantTeam from "../templates/AddParticipantTeams";
@@ -18,14 +16,15 @@ import TeamView from "./TeamView";
 import { createTeamName } from "../../store/participantTeams/actions";
 import { useTeams } from "../../hooks";
 
-const CreateTeam = ({ id }) => {
+const CreateTeam = ({ id, setRegisterTeam }) => {
   const [isAddTeamMemberOpen, setIsAddTeamMemberOpen] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
-  // const { id } = useParams();
   const { userId } = useSelector(state => state.currentUser);
   const [teams, fetchTeams] = useTeams(id);
+  const { teamId } = useSelector(state => state.participantTeams);
   const team = teams.find(t => t.team_lead === userId);
+  const [currentTeamId, setCurrentTeamId] = useState();
 
   useEffect(() => {
     fetchTeams();
@@ -46,13 +45,15 @@ const CreateTeam = ({ id }) => {
     state.events.data.find(event => event.id === Number(id))
   );
 
+  const addTeamMemberHandler = (bool, teamId) => {
+    setIsAddTeamMemberOpen(bool);
+    setCurrentTeamId(teamId);
+  };
+
   const renderTeamComponent = () => {
     return (
       <StyledWideBody>
         <BodyRow>
-          <RowHead>
-            <H3>Participant Teams</H3>
-          </RowHead>
           <BodyColumn>
             {!team ? (
               <Formik
@@ -90,7 +91,8 @@ const CreateTeam = ({ id }) => {
               <TeamView
                 {...{ team }}
                 {...{ isAddTeamMemberOpen }}
-                {...{ setIsAddTeamMemberOpen }}
+                {...{ addTeamMemberHandler }}
+                {...{ setRegisterTeam }}
               />
             )}
           </BodyColumn>
@@ -99,11 +101,21 @@ const CreateTeam = ({ id }) => {
     );
   };
 
+  if (isAddTeamMemberOpen && currentTeamId) {
+    return (
+      <AddParticipantTeam
+        eventId={id}
+        {...{ currentTeamId }}
+        {...{ setIsAddTeamMemberOpen }}
+      />
+    );
+  }
+
   if (isAddTeamMemberOpen) {
     return (
       <AddParticipantTeam
         eventId={id}
-        teamId={team.id}
+        {...{ teamId }}
         {...{ setIsAddTeamMemberOpen }}
       />
     );

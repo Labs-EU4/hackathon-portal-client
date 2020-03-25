@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Rating from "react-rating";
-import { useParams, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
 import {
@@ -23,17 +23,17 @@ import { H3, H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
-import Label from "../../assets/styles/atoms/LabelStyling";
+import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Icon from "../atoms/Icon";
 import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
 import { gradeSubmission } from "../../store/projectSubmission/actions";
 import { useJudges, useGrades, useSubmissions } from "../../hooks";
 
-const HackathonSingleProject = ({ setIsProjectPageOpen }) => {
+const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
   const history = useHistory();
   const dispatch = useDispatch();
-  const { id, projectId } = useParams();
+
   const { event_title, rubrics } = useSelector(state =>
     state.events.data.find(event => event.id === Number(id))
   );

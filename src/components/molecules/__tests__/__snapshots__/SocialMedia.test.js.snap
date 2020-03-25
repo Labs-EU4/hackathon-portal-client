@@ -9,12 +9,12 @@ Object {
         class="sc-bwzfXH bnRCBH"
       >
         <span
-          class="sc-bZQynM sc-dnqmqq jUgGXv"
+          class="sc-htpNat sc-EHOje cIZQky"
         >
           OR LOGIN WITH
         </span>
         <div
-          class="sc-bdVaJa gsuEvB"
+          class="sc-bdVaJa gPUzfG"
         >
           <a
             href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"
@@ -43,12 +43,12 @@ Object {
       class="sc-bwzfXH bnRCBH"
     >
       <span
-        class="sc-bZQynM sc-dnqmqq jUgGXv"
+        class="sc-htpNat sc-EHOje cIZQky"
       >
         OR LOGIN WITH
       </span>
       <div
-        class="sc-bdVaJa gsuEvB"
+        class="sc-bdVaJa gPUzfG"
       >
         <a
           href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"

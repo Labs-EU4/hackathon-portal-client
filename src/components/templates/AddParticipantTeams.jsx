@@ -1,36 +1,58 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 
-import { BodyContainerColumn } from '../../assets/styles/templates/AddParticipantTeamsStyling';
-import { WideBody } from "../../assets/styles/atoms/WideBodyStyling";
+import {
+  StyledWideBody,
+  StyledCardWide
+} from "../../assets/styles/templates/AddTeammatesStyling";
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
-import { CardWide } from "../../assets/styles/atoms/CardStyling";
-import { SearchWidget } from "./widgets/SearchWidget";
-// import { ParticipantRoleWidget } from "./widgets/ParticipantRoleWidget";
+import { SearchUserWidget } from "./widgets/SearchUserWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
-import { sendParticipantInvite } from "../../store/participantTeams/actions";
+import { 
+  addParticipantTeamMember, 
+  sendParticipantInvite 
+} from "../../store/participantTeams/actions";
 
-const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
-  const [selectedUser, setSelectedUser] = useState(null);
+const AddParticipantTeam = ({ 
+  eventId,
+  setIsAddTeamMemberOpen, 
+  currentTeamId, 
+  teamId 
+}) => {
+  const selectedUserArr = useRef([]);
   const dispatch = useDispatch();
   const history = useHistory();
-  // const { eventId, teamId } = useParams();
+  const { pathname } = useLocation();
+  const currentPath = pathname.split("/")[1];
   const [noneUser, setNoneUser] = useState(null);
- 
-  //!!This needs fixing
-  //Part of the ParticipantRoleWidget component widget (i.e. chose judge or organizer)
-  // const handleSubmit = () => {
-  //   const data = {
-  //     team_id: teamId,
-  //     team_member: selectedUser.id,
-  //     eventId: eventId
-  //   };
-  //   dispatch(addParticipantTeamMember(data, history));
-  // };
+
+  const selectedUsersHandler = async addedUser => {
+    const newArray = [...selectedUserArr.current, addedUser];
+    selectedUserArr.current = newArray;
+  };
+
+  console.log('This is the current team ---> ', currentTeamId);
+
+  const handleSubmit = () => {
+    selectedUserArr.current.map(selectedUser => {
+      const data = {
+        team_id: currentTeamId ? currentTeamId : teamId,
+        team_member: selectedUser.id,
+        eventId: eventId
+      };
+
+      console.log('Data with handleSubmit --> ', data)
+      return dispatch(addParticipantTeamMember(data, history));
+    });
+    setIsAddTeamMemberOpen(false);
+    history.push(`/${currentPath}`);
+  };
+
+  const handleExit = () => setIsAddTeamMemberOpen(false);
 
   const sendInvite = () => {
     const data = {
@@ -42,34 +64,32 @@ const AddParticipantTeam = ({ eventId, teamId, setIsAddTeamMemberOpen }) => {
   }
 
   return (
-    <WideBody>
-      <BodyContainerColumn>
-        <RowHead>
-          <H3>Add Teammates</H3>
-        </RowHead>
+    <StyledWideBody>
         <Column>
-          <CardWide>
-            <SearchWidget 
-              {...{setSelectedUser}}
-              {...{selectedUser}}
-              {...{setNoneUser}}
+          <StyledCardWide>
+            <RowHead>
+              <H3>Add Teammates</H3>
+            </RowHead>
+            <SearchUserWidget
+              {...{ selectedUsersHandler }}
+              {...{ selectedUserArr }}
+              {...{ setNoneUser }}
+              {...{ handleExit }}
+              {...{ handleSubmit }}
             />
-            {/* {!selectedUser ?  : <RoleWidget />} */}
             {noneUser && (
               <ParticipantInviteWidget 
                 {...{noneUser}} 
                 {...{sendInvite}} 
               />
             )}
-          </CardWide>
+          </StyledCardWide>
         </Column>
-      </BodyContainerColumn>
-    </WideBody>
+    </StyledWideBody>
   );
 };
 
 export default AddParticipantTeam;
-
 
 // import React, { useState } from "react";
 // import { useDispatch } from "react-redux";

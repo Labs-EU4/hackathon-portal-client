@@ -9,7 +9,7 @@ Object {
         class="sc-jTzLTM hJYDuO"
       >
         <div
-          class="sc-cHGsZl cWBssh"
+          class="sc-jDwBTQ cOrSs"
           spacing="center"
         >
           <div
@@ -86,12 +86,12 @@ Object {
           </div>
         </div>
         <p
-          class="sc-eHgmQL fSoqTk"
+          class="sc-eHgmQL ixMvGl"
           color="primary"
         >
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY eLYUUo"
+            class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY bykvnN"
             data-icon="times"
             data-prefix="fas"
             focusable="false"
@@ -113,7 +113,7 @@ Object {
       class="sc-jTzLTM hJYDuO"
     >
       <div
-        class="sc-cHGsZl cWBssh"
+        class="sc-jDwBTQ cOrSs"
         spacing="center"
       >
         <div
@@ -190,12 +190,12 @@ Object {
         </div>
       </div>
       <p
-        class="sc-eHgmQL fSoqTk"
+        class="sc-eHgmQL ixMvGl"
         color="primary"
       >
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY eLYUUo"
+          class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY bykvnN"
           data-icon="times"
           data-prefix="fas"
           focusable="false"

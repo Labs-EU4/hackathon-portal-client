@@ -1,3 +1,5 @@
+import styled from "styled-components";
+
 export const StyledCheckboxFieldN = styled.input`
   width: 20px;
   height: 20px;

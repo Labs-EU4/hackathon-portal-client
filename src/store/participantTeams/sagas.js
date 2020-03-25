@@ -9,7 +9,8 @@ import {
   ParticiPantTeamTypes,
   setTeams,
   setTeamMates,
-  fetchTeams
+  fetchTeams,
+  fetchTeamId
 } from "./actions";
 
 export function* participantTeamSagas() {
@@ -31,19 +32,21 @@ function* createTeamNameAsync({ payload, history }) {
       `/api/events/${eventId}/participant-teams`,
       payload
     );
+    
     if (data) {
       yield showSuccess(`😀 ${data.message}`);
-      yield put(fetchTeams(eventId));
+      yield put(fetchTeams(eventId));  
     }
+
     const teamBody = data.body;
     let teamId;
     teamBody.map(team => {
       teamId = team.id;
       return teamId;
     });
-    yield history.push(
-      `/dashboard/event/${eventId}/participant-teams/${teamId}`
-    );
+
+    yield put(fetchTeamId(teamId))
+    
   } catch (error) {
     yield handleError(error, put, history);
   }

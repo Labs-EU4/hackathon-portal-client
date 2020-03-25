@@ -6,8 +6,7 @@ import { CardWide } from "../atoms/CardStyling";
 import { Paragraph } from "../atoms/ParagraphStyling";
 
 export const SpanContent = styled(BoldSpan)`
-  ${props => props.theme.fontSize.medium};
-  font-weight: bold; 
+  font-weight: bold; font-size: 16px; 
   text-transform: capitalize;
 `;
 
@@ -143,8 +142,8 @@ export const Image = styled.img`
 `;
 
 export const PHosted = styled(Paragraph)`
-  ${props => props.theme.fontSize.medium};
   margin-bottom: 0;
   font-weight: bold;
+  font-size: 16px;
   color: ${props => props.theme.color.black.regular};
 `;

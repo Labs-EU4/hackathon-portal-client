@@ -29,7 +29,9 @@ export const StyledButton = styled(Button)`
   border: 2px solid ${props => props.theme.color.primary.regular};
   border-bottom: none; 
   border-bottom-left-radius: 0; border-bottom-right-radius: 0;
-  margin-right: 10px; margin-bottom: -4px;
+  margin-right: 10px; 
+  font-size: 14px;
+  /* margin-bottom: -4px; */
 
   &:hover {
     background-color: ${props => props.theme.color.primary.regular};
