@@ -43,8 +43,8 @@ export const MainContent = styled.div`
 export const SectionTitle = styled.h1`
     ${props => props.theme.flex.columnCenter};
     margin-bottom: 15px; padding-top: 30px;
-    text-transform: uppercase;
-    font-size: 20px;
+    text-transform: uppercase; text-align: center;
+    font-size: 25px;
 
     & > hr {
         ${({ lineWidth }) => lineWidth ? `width: ${lineWidth};` : 'width: 20%'};
@@ -54,16 +54,21 @@ export const SectionTitle = styled.h1`
 `;
 
 export const TeamContainer = styled.div`
-    ${props => props.theme.shadow.box};
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 98%;
-    margin: 0 auto;
+    /* display: grid;
+    grid-template-columns: repeat(autofill, minmax( 250px, 1fr)); */
+    ${({theme}) => theme.flex.custom('space-evenly', 'flex-start', 'row', 'wrap')};
+    margin: 0 auto 10px;
 `;
 
 export const StyledCard = styled.div`
+    width: calc((100% / 3) - 10px); min-width: 250px;
     height: 250px;
     border: 2px solid ${props => props.theme.color.primary.regular};
+    margin: 5px 2.5px;
+
+    &:hover {
+        ${props => props.theme.shadow.box};
+    }
 `;
 
 export const Paragraph = styled.p`
