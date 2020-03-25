@@ -47,7 +47,8 @@ function ResultPage(props) {
     // ["hey", currentLocation[0], currentLocation[1]],
     ["Maroubra Beach", -33.950198, 151.259302, 1],
     ["Manly Beach", -33.80010128657071, 151.28747820854187, 2],
-    ["Coventry University", 52.3838, -1.56366, 0]
+    ["Coventry University", 52.3838, -1.56366, 0],
+    ["Amsterdam", 52.373169, 4.89066, 0]
   ];
 
   const createMarker = (lati, long) => {
@@ -65,8 +66,8 @@ function ResultPage(props) {
     googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${GMAP}&libraries=places`;
     window.document.body.appendChild(googleMapScript);
 
-    googleMapScript.addEventListener("load", () => {
-      createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
+    googleMapScript.addEventListener("load", async () => {
+      createGoogleMap = await new window.google.maps.Map(googleMapRef.current, {
         zoom: 12,
         center: {
           lat: currentLocation[0],
