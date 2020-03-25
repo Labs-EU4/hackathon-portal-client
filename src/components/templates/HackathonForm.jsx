@@ -51,6 +51,7 @@ const HackathonForm = ({ initialState }) => {
     rubrics: initialState?.rubrics || [],
     requirements: initialState?.requirements || [],
     difficulty_level: initialState?.difficulty_level || "beginner",
+    participant_limit: initialState?.participant_limit || "",
     start_time: initialState?.start_time || "",
     end_time: initialState?.end_time || "",
     guidelines: initialState?.guidelines || "",
@@ -105,6 +106,7 @@ const HackathonForm = ({ initialState }) => {
     participation_type: Yup.string().required(
       "Participation type is required."
     ),
+    participant_limit: Yup.number().min(1, "Participant cannot be less than 1"),
     prize: Yup.string()
       .min(10, "Prize must be at least 10 characters long.")
       .max(100, "Prize cannot be more than 100 characters long.")
@@ -179,6 +181,21 @@ const HackathonForm = ({ initialState }) => {
                   ) : null}
                   <ErrorSpan>
                     <ErrorMessage name="event_description" />
+                  </ErrorSpan>
+                </RowBody>
+                <RowBody justify="start">
+                  <Label htmlFor="location">Location</Label>
+                  <Input
+                    display="wide"
+                    id="location"
+                    type="text"
+                    name="location"
+                  />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="location" />
                   </ErrorSpan>
                 </RowBody>
                 <RowBody justify="start">
@@ -297,22 +314,6 @@ const HackathonForm = ({ initialState }) => {
 
               <StyledColumn>
                 <RowBody justify="start">
-                  <Label htmlFor="location">Location</Label>
-                  <Input
-                    display="wide"
-                    id="location"
-                    type="text"
-                    name="location"
-                  />
-                  {errors.name && touched.name ? (
-                    <div>{errors.name}</div>
-                  ) : null}
-                  <ErrorSpan>
-                    <ErrorMessage name="location" />
-                  </ErrorSpan>
-                </RowBody>
-
-                <RowBody justify="start">
                   <Label htmlFor="prize">Prize</Label>
                   <Input display="wide" id="prize" type="text" name="prize" />
                   {errors.name && touched.name ? (
@@ -360,6 +361,27 @@ const HackathonForm = ({ initialState }) => {
                     <ErrorSpan>
                       <ErrorMessage name="event_category" />
                     </ErrorSpan>
+                  </Column>
+                </RowBody>
+                <RowBody>
+                  <Column>
+                    <RowBody justify="start">
+                      <Label htmlFor="participant_limit">
+                        Number of Participants
+                      </Label>
+                      <Input
+                        display="wide"
+                        id="participant_limit"
+                        type="number"
+                        name="participant_limit"
+                      />
+                      {errors.name && touched.name ? (
+                        <div>{errors.name}</div>
+                      ) : null}
+                      <ErrorSpan>
+                        <ErrorMessage name="participant_limit" />
+                      </ErrorSpan>
+                    </RowBody>
                   </Column>
                 </RowBody>
                 <RowBody justify="start">
