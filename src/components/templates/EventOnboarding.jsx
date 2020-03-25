@@ -56,7 +56,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
   var eventsLocation = [
     ["Coventry University", 52.3838, -1.56366, 0],
     ["Amsterdam", 52.373169, 4.89066, 0],
-    ["Stratford,UK", 53.47555, 2.35784, 0],
+    ["Greenwhich,UK", 51.476852, -0.0005, 0],
     ["Rome", "Italy", 41.902782, 12.496365, 0],
     ["Paris,France", 48.856613, 2.352222, 0]
   ];
