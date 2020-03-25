@@ -7,7 +7,8 @@ const Logo = styled.img.attrs({
   src: image
 })`
   height: 43px;
-  ${({ size }) => size && `width:${size}; height: 66px;`};
+  filter: drop-shadow(.15px .15px 1px rgb(0, 0, 0));
+  ${({ size }) => size && `width:${size}; height: 70px;`};
 
   @media ${media.tablet} {
     height: 35px;
