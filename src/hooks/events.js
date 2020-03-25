@@ -62,6 +62,7 @@ export const useTeams = id => {
   useEffect(() => {
     fetchTeams();
   }, [fetchTeams]);
+
   return [teams, fetchTeams];
 };
 
