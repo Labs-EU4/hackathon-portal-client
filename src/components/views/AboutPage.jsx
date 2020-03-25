@@ -10,7 +10,8 @@ import {
     StyledCard,
     Paragraph,
     FeaturesContainer,
-    FeatureBox
+    FeatureBox,
+    FeatureTitle
 } from "../../assets/styles/views/AboutPage"
 
 import Logo from '../atoms/Logo';
@@ -92,12 +93,15 @@ const AboutPage = () => {
                 <FeaturesContainer>
                     <FeatureBox>
                         <img src={transparencyImg} alt="transparency" />
+                        <FeatureTitle>Transparency</FeatureTitle>
                     </FeatureBox>
                     <FeatureBox>
                         <img src={teamImg} alt="team-collaboration" />
+                        <FeatureTitle>Collaboration</FeatureTitle>
                     </FeatureBox>
                     <FeatureBox>
                         <img src={correctImg} alt="simplicity" />
+                        <FeatureTitle>Simplicity</FeatureTitle>
                     </FeatureBox>
                 </FeaturesContainer>
 
