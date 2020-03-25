@@ -96,7 +96,7 @@ const AboutPage = () => {
                         <img src={transparencyImg} alt="transparency" />
                         <FeatureTitle>Transparency</FeatureTitle>
                         <FeatureDescription>
-                            We make it easy for participants to view their project scores in real time.
+                            We make it easy for participants to view their project scores in real time
                         </FeatureDescription>
                     </FeatureBox>
                     <FeatureBox>

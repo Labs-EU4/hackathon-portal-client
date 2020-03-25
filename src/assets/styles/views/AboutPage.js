@@ -27,7 +27,7 @@ export const HeroContainer = styled.div`
 export const HeroText = styled.div`
     ${props => props.theme.shadow.text};
     padding: 5px 10px 10px;
-    font-size: 18px;
+    font-size: 24px;
     color: ${props => props.theme.color.white.regular};
 `;
 
