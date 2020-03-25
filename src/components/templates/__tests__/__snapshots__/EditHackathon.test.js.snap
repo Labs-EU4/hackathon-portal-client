@@ -104,7 +104,7 @@ Object {
                 <input
                   class="sc-chPdSV hhxnWJ"
                   id="start_date"
-                  min="2020-03-24"
+                  min="2020-03-25"
                   name="start_date"
                   placeholder="Event starts"
                   type="date"
@@ -139,6 +139,54 @@ Object {
             </div>
             <div
               class="sc-jTzLTM bxzhAG"
+            >
+              <div
+                class="sc-fjdhpX gpYlNN"
+              >
+                <label
+                  class="sc-cSHVUG zmqIo"
+                  for="start_time"
+                >
+                  Start Time
+                </label>
+                <input
+                  class="sc-chPdSV hhxnWJ"
+                  id="start_time"
+                  min="2020-03-25"
+                  name="start_time"
+                  placeholder="Start Time"
+                  type="time"
+                  value="2020-03-25"
+                />
+                <span
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                />
+              </div>
+              <div
+                class="sc-fjdhpX gpYlNN"
+              >
+                <label
+                  class="sc-cSHVUG zmqIo"
+                  for="end_time"
+                >
+                  End Time
+                </label>
+                <input
+                  class="sc-chPdSV hhxnWJ"
+                  id="end_time"
+                  min=""
+                  name="end_time"
+                  placeholder="End Time"
+                  type="time"
+                  value="2020-03-25"
+                />
+                <span
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-jTzLTM bxzhAG"
               id="grading_rubrics"
             >
               <label
@@ -152,7 +200,6 @@ Object {
               >
                 Judges will be expected to grade project submissions on which one of the following
               </p>
-               
               <div
                 class="sc-kGXeez ipfKQQ"
               >
@@ -256,6 +303,52 @@ Object {
                 </label>
               </div>
             </div>
+          </div>
+          <div
+            class="sc-gZMcBi YuTYM"
+          >
+            <div
+              class="sc-jTzLTM bxzhAG"
+            >
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="location"
+              >
+                Location
+              </label>
+              <input
+                class="sc-chPdSV iulMjd"
+                display="wide"
+                id="location"
+                name="location"
+                type="text"
+                value="Europe"
+              />
+              <span
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              />
+            </div>
+            <div
+              class="sc-jTzLTM bxzhAG"
+            >
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="prize"
+              >
+                Prize
+              </label>
+              <input
+                class="sc-chPdSV iulMjd"
+                display="wide"
+                id="prize"
+                name="prize"
+                type="text"
+                value=""
+              />
+              <span
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              />
+            </div>
             <div
               class="sc-jTzLTM bxzhAG"
             >
@@ -352,30 +445,79 @@ Object {
                 />
               </div>
             </div>
-          </div>
-          <div
-            class="sc-gZMcBi YuTYM"
-          >
             <div
               class="sc-jTzLTM bxzhAG"
             >
-              <label
-                class="sc-cSHVUG zmqIo"
-                for="location"
+              <div
+                class="sc-fjdhpX gpYlNN"
               >
-                Location
-              </label>
-              <input
-                class="sc-chPdSV iulMjd"
-                display="wide"
-                id="location"
-                name="location"
-                type="text"
-                value="Europe"
-              />
-              <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
-              />
+                <label
+                  class="sc-cSHVUG zmqIo"
+                  for="difficulty_level"
+                >
+                  Difficulty Level
+                </label>
+                <select
+                  class="sc-ckVGcZ dApVrJ"
+                  id="difficulty_level"
+                  name="difficulty_level"
+                >
+                  <option
+                    disabled=""
+                    hidden=""
+                    value=""
+                  >
+                    Choose
+                  </option>
+                  <option
+                    value="beginner"
+                  >
+                    Beginner
+                  </option>
+                  <option
+                    value="intermediate"
+                  >
+                    Intermediate
+                  </option>
+                  <option
+                    value="advanced"
+                  >
+                    Advanced
+                  </option>
+                </select>
+                <span
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                />
+              </div>
+              <div
+                class="sc-fjdhpX gpYlNN"
+              >
+                 
+                <label
+                  class="sc-cSHVUG zmqIo"
+                  for="input_tags"
+                >
+                  Tags
+                </label>
+                <div
+                  class="input-tag"
+                  id="input_tags"
+                  tags=""
+                >
+                  <ul
+                    class="input-tag__tags"
+                  >
+                    <li
+                      class="input-tag__tags__input"
+                    >
+                      <input
+                        maxlength="20"
+                        type="text"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <div
               class="sc-jTzLTM bxzhAG"
@@ -400,35 +542,6 @@ Object {
               <span
                 class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
-            </div>
-            <div
-              class="sc-jTzLTM bxzhAG"
-            >
-               
-              <label
-                class="sc-cSHVUG zmqIo"
-                for="input_tags"
-              >
-                Tags
-              </label>
-              <div
-                class="input-tag"
-                id="input_tags"
-                tags=""
-              >
-                <ul
-                  class="input-tag__tags"
-                >
-                  <li
-                    class="input-tag__tags__input"
-                  >
-                    <input
-                      maxlength="20"
-                      type="text"
-                    />
-                  </li>
-                </ul>
-              </div>
             </div>
             <div
               class="sc-jTzLTM bxzhAG"
@@ -595,7 +708,7 @@ Object {
               <input
                 class="sc-chPdSV hhxnWJ"
                 id="start_date"
-                min="2020-03-24"
+                min="2020-03-25"
                 name="start_date"
                 placeholder="Event starts"
                 type="date"
@@ -630,6 +743,54 @@ Object {
           </div>
           <div
             class="sc-jTzLTM bxzhAG"
+          >
+            <div
+              class="sc-fjdhpX gpYlNN"
+            >
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="start_time"
+              >
+                Start Time
+              </label>
+              <input
+                class="sc-chPdSV hhxnWJ"
+                id="start_time"
+                min="2020-03-25"
+                name="start_time"
+                placeholder="Start Time"
+                type="time"
+                value="2020-03-25"
+              />
+              <span
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              />
+            </div>
+            <div
+              class="sc-fjdhpX gpYlNN"
+            >
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="end_time"
+              >
+                End Time
+              </label>
+              <input
+                class="sc-chPdSV hhxnWJ"
+                id="end_time"
+                min=""
+                name="end_time"
+                placeholder="End Time"
+                type="time"
+                value="2020-03-25"
+              />
+              <span
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              />
+            </div>
+          </div>
+          <div
+            class="sc-jTzLTM bxzhAG"
             id="grading_rubrics"
           >
             <label
@@ -643,7 +804,6 @@ Object {
             >
               Judges will be expected to grade project submissions on which one of the following
             </p>
-             
             <div
               class="sc-kGXeez ipfKQQ"
             >
@@ -747,6 +907,52 @@ Object {
               </label>
             </div>
           </div>
+        </div>
+        <div
+          class="sc-gZMcBi YuTYM"
+        >
+          <div
+            class="sc-jTzLTM bxzhAG"
+          >
+            <label
+              class="sc-cSHVUG zmqIo"
+              for="location"
+            >
+              Location
+            </label>
+            <input
+              class="sc-chPdSV iulMjd"
+              display="wide"
+              id="location"
+              name="location"
+              type="text"
+              value="Europe"
+            />
+            <span
+              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+            />
+          </div>
+          <div
+            class="sc-jTzLTM bxzhAG"
+          >
+            <label
+              class="sc-cSHVUG zmqIo"
+              for="prize"
+            >
+              Prize
+            </label>
+            <input
+              class="sc-chPdSV iulMjd"
+              display="wide"
+              id="prize"
+              name="prize"
+              type="text"
+              value=""
+            />
+            <span
+              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+            />
+          </div>
           <div
             class="sc-jTzLTM bxzhAG"
           >
@@ -843,30 +1049,79 @@ Object {
               />
             </div>
           </div>
-        </div>
-        <div
-          class="sc-gZMcBi YuTYM"
-        >
           <div
             class="sc-jTzLTM bxzhAG"
           >
-            <label
-              class="sc-cSHVUG zmqIo"
-              for="location"
+            <div
+              class="sc-fjdhpX gpYlNN"
             >
-              Location
-            </label>
-            <input
-              class="sc-chPdSV iulMjd"
-              display="wide"
-              id="location"
-              name="location"
-              type="text"
-              value="Europe"
-            />
-            <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
-            />
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="difficulty_level"
+              >
+                Difficulty Level
+              </label>
+              <select
+                class="sc-ckVGcZ dApVrJ"
+                id="difficulty_level"
+                name="difficulty_level"
+              >
+                <option
+                  disabled=""
+                  hidden=""
+                  value=""
+                >
+                  Choose
+                </option>
+                <option
+                  value="beginner"
+                >
+                  Beginner
+                </option>
+                <option
+                  value="intermediate"
+                >
+                  Intermediate
+                </option>
+                <option
+                  value="advanced"
+                >
+                  Advanced
+                </option>
+              </select>
+              <span
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              />
+            </div>
+            <div
+              class="sc-fjdhpX gpYlNN"
+            >
+               
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="input_tags"
+              >
+                Tags
+              </label>
+              <div
+                class="input-tag"
+                id="input_tags"
+                tags=""
+              >
+                <ul
+                  class="input-tag__tags"
+                >
+                  <li
+                    class="input-tag__tags__input"
+                  >
+                    <input
+                      maxlength="20"
+                      type="text"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div
             class="sc-jTzLTM bxzhAG"
@@ -891,35 +1146,6 @@ Object {
             <span
               class="sc-eNQAEJ sc-iAyFgw iydSCt"
             />
-          </div>
-          <div
-            class="sc-jTzLTM bxzhAG"
-          >
-             
-            <label
-              class="sc-cSHVUG zmqIo"
-              for="input_tags"
-            >
-              Tags
-            </label>
-            <div
-              class="input-tag"
-              id="input_tags"
-              tags=""
-            >
-              <ul
-                class="input-tag__tags"
-              >
-                <li
-                  class="input-tag__tags__input"
-                >
-                  <input
-                    maxlength="20"
-                    type="text"
-                  />
-                </li>
-              </ul>
-            </div>
           </div>
           <div
             class="sc-jTzLTM bxzhAG"

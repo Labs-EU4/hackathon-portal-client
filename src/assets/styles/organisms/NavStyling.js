@@ -7,8 +7,8 @@ import Button from '../../../components/atoms/Button';
 import Icon from '../../../components/atoms/Icon';
 
 export const StyledEditIcon = styled(Icon)`
-  position: absolute; top: 50%; left: 50%;
-  font-size: 25px;
+  position: absolute; top: 20px; left: 90%;
+  font-size: 20px;
   color: ${props => props.theme.color.green.regular};
   z-index: 50;
   transform: translate(-40%, -50%);
@@ -157,6 +157,7 @@ export const LinkDetails = styled.div`
 `;
 
 export const UserContainer = styled.div`
+  position: relative;
   width: 100%;
   margin-bottom: 10px;
   padding: 8px 2px;
