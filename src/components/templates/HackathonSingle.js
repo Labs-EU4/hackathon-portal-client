@@ -32,6 +32,7 @@ import {
   registerEvent,
   unregisterEvent
 } from "../../store/eventParticipants/actions";
+import { deleteTeam } from "../../store/participantTeams/actions"
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 
 const HackathonSingle = ({ isSideBarOpen }) => {
@@ -115,8 +116,10 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     e.preventDefault();
     if (isRegistered) {
       dispatch(unregisterEvent(id, history));
+      window.location.reload(true)
     } else {
       dispatch(registerEvent(id, history));
+      window.location.reload(true)
     }
     return fetchParticipants();
   };
@@ -124,10 +127,15 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const handleTeamRegistration = e => {
     e.preventDefault();
     if (isRegistered) {
-      dispatch(unregisterEvent(id, history));
+      const teamId = isRegistered.id;
+      debugger;
+      dispatch(deleteTeam(teamId))
+      // dispatch(unregisterEvent(id, history));
+      console.log(`id: ${id}`, `teamId: ${teamId}`, isRegistered)
     } else {
       setRegisterTeam(true);
     }
+    return fetchParticipants();
   };
 
   const toTittleCase = item => {

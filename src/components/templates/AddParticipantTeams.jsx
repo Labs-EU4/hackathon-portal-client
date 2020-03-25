@@ -12,16 +12,16 @@ import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { SearchUserWidget } from "./widgets/SearchUserWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
 
-import { 
-  addParticipantTeamMember, 
-  sendParticipantInvite 
+import {
+  addParticipantTeamMember,
+  sendParticipantInvite
 } from "../../store/participantTeams/actions";
 
-const AddParticipantTeam = ({ 
+const AddParticipantTeam = ({
   eventId,
-  setIsAddTeamMemberOpen, 
-  currentTeamId, 
-  teamId 
+  setIsAddTeamMemberOpen,
+  currentTeamId,
+  teamId
 }) => {
   const selectedUserArr = useRef([]);
   const dispatch = useDispatch();
@@ -47,6 +47,7 @@ const AddParticipantTeam = ({
 
       console.log('Data with handleSubmit --> ', data)
       return dispatch(addParticipantTeamMember(data, history));
+
     });
     setIsAddTeamMemberOpen(false);
     history.push(`/${currentPath}`);
@@ -65,26 +66,26 @@ const AddParticipantTeam = ({
 
   return (
     <StyledWideBody>
-        <Column>
-          <StyledCardWide>
-            <RowHead>
-              <H3>Add Teammates</H3>
-            </RowHead>
-            <SearchUserWidget
-              {...{ selectedUsersHandler }}
-              {...{ selectedUserArr }}
-              {...{ setNoneUser }}
-              {...{ handleExit }}
-              {...{ handleSubmit }}
+      <Column>
+        <StyledCardWide>
+          <RowHead>
+            <H3>Add Teammates</H3>
+          </RowHead>
+          <SearchUserWidget
+            {...{ selectedUsersHandler }}
+            {...{ selectedUserArr }}
+            {...{ setNoneUser }}
+            {...{ handleExit }}
+            {...{ handleSubmit }}
+          />
+          {noneUser && (
+            <ParticipantInviteWidget
+              {...{ noneUser }}
+              {...{ sendInvite }}
             />
-            {noneUser && (
-              <ParticipantInviteWidget 
-                {...{noneUser}} 
-                {...{sendInvite}} 
-              />
-            )}
-          </StyledCardWide>
-        </Column>
+          )}
+        </StyledCardWide>
+      </Column>
     </StyledWideBody>
   );
 };

@@ -37,13 +37,13 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
       team_name: values.team_name,
       eventId: id
     };
-    const userId =
-
-      await dispatch(createTeamName(teamData, history));
-    await dispatch(registerEvent(userId, history));
+    // Error handling issue - needs to be a unique name
+    await dispatch(createTeamName(teamData, history));
+    await dispatch(registerEvent(id, history));
     //!!HAVE A STATE THAT OPENS THE SELECT TEAM MEMBER COMPONENT HERE TO REDIRECT, ALSO FROM HERE CLOSE THE CREATETEAM COMPONENT
     //REDIRECT TO THE ADDPARTICIPANTTEAMS COMPONENT
     await setIsAddTeamMemberOpen(true);
+    debugger;
   };
 
   const { event_title } = useSelector(state =>

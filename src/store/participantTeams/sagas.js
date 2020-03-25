@@ -19,7 +19,8 @@ export function* participantTeamSagas() {
     call(watchAddParticipantTeamMember),
     call(watchFetchTeamAsync),
     call(watchFetchTeamMateAsync),
-    call(watchSendParticipantInvite)
+    call(watchSendParticipantInvite),
+    call(watchDeleteTeam)
   ]);
 }
 
@@ -32,10 +33,10 @@ function* createTeamNameAsync({ payload, history }) {
       `/api/events/${eventId}/participant-teams`,
       payload
     );
-    
+
     if (data) {
       yield showSuccess(`😀 ${data.message}`);
-      yield put(fetchTeams(eventId));  
+      yield put(fetchTeams(eventId));
     }
 
     const teamBody = data.body;
@@ -46,7 +47,7 @@ function* createTeamNameAsync({ payload, history }) {
     });
 
     yield put(fetchTeamId(teamId))
-    
+
   } catch (error) {
     yield handleError(error, put, history);
   }
@@ -135,4 +136,20 @@ function* watchSendParticipantInvite() {
     ParticiPantTeamTypes.SEND_PARTICIPANT_INVITE,
     sendParticipantInviteAsync
   );
+}
+
+
+function* deleteTeamAsync({ payload }) {
+  try {
+    const token = yield select(selectToken);
+    debugger;
+    const { data } = yield axiosWithAuth(token).post(`/api/events/participant-teams/${payload}`);
+    yield showSuccess(`😲 ${data.message}`);
+  } catch (error) {
+    yield handleError(error, put);
+  }
+}
+
+function* watchDeleteTeam() {
+  yield takeLatest(ParticiPantTeamTypes.DELETE_TEAM, deleteTeamAsync);
 }
