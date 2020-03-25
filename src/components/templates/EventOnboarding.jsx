@@ -14,7 +14,7 @@ import {
   StyledH4
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
 import EventCard from "../organisms/EventCard";
-
+import image from "./anon.png";
 const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
@@ -68,7 +68,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
     const marker = new window.google.maps.Marker({
       position: { lat: lati, lng: long },
       label: "You",
-      icon: imageH
+      icon: image
     });
     marker.setMap(createGoogleMap);
   };
@@ -92,20 +92,6 @@ const EventOnboarding = ({ eventModalHandler }) => {
         createMarker(loc[1], loc[2]);
       });
     });
-
-    // googleMapScript.addEventListener("load", () => {
-    //   createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
-    //     zoom: 12,
-    //     center: {
-    //       lat: currentLocation[0],
-    //       lng: currentLocation[1]
-    //     }
-    //   });
-
-    //   eventsLocation.forEach(loc => {
-    //     createMarker(loc[1], loc[2]);
-    //   });
-    // });
   }, [currentLocation]);
   return (
     <BodyContainer>
