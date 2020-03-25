@@ -24,7 +24,6 @@ const EventOnboarding = ({ eventModalHandler }) => {
     <BodyContainer>
       <HeaderContent id="open">
         <MapContainer>
-          <MapFormContainer />
         </MapContainer>
       </HeaderContent>
       <StyledRowHead>
