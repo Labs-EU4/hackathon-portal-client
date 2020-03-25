@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useHistory, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 
@@ -92,7 +92,11 @@ const HackathonSingle = ({ isSideBarOpen }) => {
 
   const userCallback = p => p.user_id === userId;
   const isTeamLead = createdTeam;
-  const isRegistered = participants.find(userCallback) || isTeamLead;
+  let isRegistered = participants.find(userCallback) || isTeamLead;
+
+  useEffect(() => {
+    isRegistered = participants.find(userCallback) || isTeamLead;
+  }, [participants])
 
   // Redacting user emails before rendering
   let redactedEmail = organizer_email.split("");
@@ -127,11 +131,11 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const handleTeamRegistration = e => {
     e.preventDefault();
     if (isRegistered) {
-      const teamId = isRegistered.id;
-      debugger;
-      dispatch(deleteTeam(teamId))
-      // dispatch(unregisterEvent(id, history));
-      console.log(`id: ${id}`, `teamId: ${teamId}`, isRegistered)
+      const myTeam = teams.find(t => t.team_lead === isRegistered.user_id);
+      const myTeamId = isRegistered.id || myTeam.id;
+      dispatch(deleteTeam(myTeamId))
+      dispatch(unregisterEvent(id));
+      window.location.reload(true)
     } else {
       setRegisterTeam(true);
     }

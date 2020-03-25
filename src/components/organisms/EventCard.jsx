@@ -63,7 +63,7 @@ const EventCard = ({ event, eventModalHandler }) => {
   const unregister = e => {
     e.preventDefault();
     dispatch(unregisterEvent(event_id));
-    history.push("/dashboard");
+    window.location.reload(true)
   };
 
   return (
@@ -76,8 +76,8 @@ const EventCard = ({ event, eventModalHandler }) => {
           {organizer_profile_pic ? (
             <OrgImg src={organizerImg.avatar} alt={organizer_name} />
           ) : (
-            letter && <StyledIconLetter>{letter}</StyledIconLetter>
-          )}
+              letter && <StyledIconLetter>{letter}</StyledIconLetter>
+            )}
           <DateParagraph bold>
             {startMonth !== endMonth ? (
               <>
@@ -88,10 +88,10 @@ const EventCard = ({ event, eventModalHandler }) => {
                 {startMonth} {startDay}, {startYear}
               </>
             ) : (
-              <>
-                {startMonth} {startDay} - {endDay}, {startYear}
-              </>
-            )}
+                  <>
+                    {startMonth} {startDay} - {endDay}, {startYear}
+                  </>
+                )}
           </DateParagraph>
           <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
@@ -110,10 +110,10 @@ const EventCard = ({ event, eventModalHandler }) => {
                 Unregister
               </Button>
             ) : (
-              <Button link color="primary" onClick={joinEvent} to={"#"}>
-                Join Event
+                <Button link color="primary" onClick={joinEvent} to={"#"}>
+                  Join Event
               </Button>
-            )}
+              )}
           </EventCTA>
         </EventCardContent>
         <StyledBookmarkIcon icon="bookmark" />

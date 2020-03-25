@@ -10,7 +10,9 @@ import {
   setTeams,
   setTeamMates,
   fetchTeams,
-  fetchTeamId
+  fetchTeamId,
+  fetchTeamMates,
+  // deleteTeammate
 } from "./actions";
 
 export function* participantTeamSagas() {
@@ -20,7 +22,7 @@ export function* participantTeamSagas() {
     call(watchFetchTeamAsync),
     call(watchFetchTeamMateAsync),
     call(watchSendParticipantInvite),
-    call(watchDeleteTeam)
+    call(watchDeleteTeam),
   ]);
 }
 
@@ -141,9 +143,9 @@ function* watchSendParticipantInvite() {
 
 function* deleteTeamAsync({ payload }) {
   try {
-    const token = yield select(selectToken);
     debugger;
-    const { data } = yield axiosWithAuth(token).post(`/api/events/participant-teams/${payload}`);
+    const token = yield select(selectToken);
+    const { data } = yield axiosWithAuth(token).delete(`/api/events/participant-teams/${payload}`);
     yield showSuccess(`😲 ${data.message}`);
   } catch (error) {
     yield handleError(error, put);
@@ -153,3 +155,4 @@ function* deleteTeamAsync({ payload }) {
 function* watchDeleteTeam() {
   yield takeLatest(ParticiPantTeamTypes.DELETE_TEAM, deleteTeamAsync);
 }
+

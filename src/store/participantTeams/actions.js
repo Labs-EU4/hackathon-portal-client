@@ -8,7 +8,8 @@ export const ParticiPantTeamTypes = {
   SET_TEAMS: "SET_TEAMS",
   SET_TEAMMATES: "SET_TEAMMATES",
   SEND_PARTICIPANT_INVITE: "INVITE_PARTICIPANT",
-  FETCH_TEAM_ID: "FETCH_TEAM_ID"
+  FETCH_TEAM_ID: "FETCH_TEAM_ID",
+  DELETE_TEAMMATE: "DELETE_TEAMMATE"
 };
 
 export const setTeams = teams => {
@@ -79,3 +80,11 @@ export const fetchTeamId = (teamId) => {
     payload: teamId
   };
 };
+
+export const deleteTeammate = (teammateId, history) => {
+  return {
+    type: ParticiPantTeamTypes.DELETE_TEAMMATE,
+    payload: teammateId,
+    history
+  }
+}
