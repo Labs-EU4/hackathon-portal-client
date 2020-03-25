@@ -74,15 +74,14 @@ export const Paragraph = styled.p`
 `;
 
 export const FeaturesContainer = styled.div`
-    display: flex; justify-content: space-around;
+    ${({theme}) => theme.flex.custom('space-around', 'flex-start', 'row', 'wrap')};
     margin: 30px auto 0;
 `;
 
 export const FeatureBox = styled.div`
-    ${({theme}) => theme.flex.custom('flex-start', 'center', 'column', 'wrap')};
+    ${({theme}) => theme.flex.custom('flex-start', 'center', 'column')};
     width: calc((100% / 3) - 10px); min-width: 200px;
     height: 300px;
-    border: 3px solid red;
 
     & > img {
         width: 50%; min-width: 100px;
@@ -97,5 +96,8 @@ export const FeatureTitle = styled.h2`
 `;
 
 export const FeatureDescription = styled.p`
-    
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #00C4CC;
 `;
