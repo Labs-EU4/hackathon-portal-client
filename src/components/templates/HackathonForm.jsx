@@ -51,6 +51,7 @@ const HackathonForm = ({ initialState }) => {
     rubrics: initialState?.rubrics || [],
     requirements: initialState?.requirements || [],
     difficulty_level: initialState?.difficulty_level || "beginner",
+    participant_limit: initialState?.participant_limit || "",
     start_time: initialState?.start_time || "",
     end_time: initialState?.end_time || "",
     guidelines: initialState?.guidelines || "",
@@ -105,6 +106,9 @@ const HackathonForm = ({ initialState }) => {
     participation_type: Yup.string().required(
       "Participation type is required."
     ),
+    participant_limit: Yup.number()
+      .min(1, "Participant cannot be less than 1")
+      .max(100, "Participants cannot be more than 100"),
     prize: Yup.string()
       .min(10, "Prize must be at least 10 characters long.")
       .max(100, "Prize cannot be more than 100 characters long.")
@@ -320,6 +324,23 @@ const HackathonForm = ({ initialState }) => {
                   ) : null}
                   <ErrorSpan>
                     <ErrorMessage name="prize" />
+                  </ErrorSpan>
+                </RowBody>
+                <RowBody justify="start">
+                  <Label htmlFor="participant_limit">
+                    Number Of Participants
+                  </Label>
+                  <Input
+                    display="wide"
+                    id="participant_limit"
+                    type="text"
+                    name="participant_limit"
+                  />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="participant_limit" />
                   </ErrorSpan>
                 </RowBody>
                 <RowBody justify="start">
