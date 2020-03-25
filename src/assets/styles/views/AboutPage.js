@@ -95,3 +95,7 @@ export const FeatureTitle = styled.h2`
     font-size: 20px; letter-spacing: 2px;
     font-weight: bolder;
 `;
+
+export const FeatureDescription = styled.p`
+    
+`;

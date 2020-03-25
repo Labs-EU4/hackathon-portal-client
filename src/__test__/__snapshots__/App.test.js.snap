@@ -90,6 +90,11 @@ Object {
                   >
                     Transparency
                   </h2>
+                  <p
+                    class="sc-cooIXK iuazrU"
+                  >
+                    We make it easy for participants to view their project scores in real time.
+                  </p>
                 </div>
                 <div
                   class="sc-chbbiW kwZmve"
@@ -103,6 +108,11 @@ Object {
                   >
                     Collaboration
                   </h2>
+                  <p
+                    class="sc-cooIXK iuazrU"
+                  >
+                    Work with your teammates as an organizer or participant
+                  </p>
                 </div>
                 <div
                   class="sc-chbbiW kwZmve"
@@ -116,6 +126,11 @@ Object {
                   >
                     Simplicity
                   </h2>
+                  <p
+                    class="sc-cooIXK iuazrU"
+                  >
+                    This hackathon app was designed with you in mind. The UI is simple and intuitive
+                  </p>
                 </div>
               </div>
               <h1
@@ -149,7 +164,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-jDwBTQ sc-RcBXQ eDoSba"
+            class="sc-jDwBTQ sc-iSDuPN dBTvfP"
           >
             <form
               action="#"
@@ -257,7 +272,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-ksYbfQ sc-iSDuPN fKENWI"
+                class="sc-ksYbfQ sc-fZwumE hvSaxB"
               >
                 <button
                   class="sc-ifAKCX fHwHnk"
@@ -551,6 +566,11 @@ Object {
                 >
                   Transparency
                 </h2>
+                <p
+                  class="sc-cooIXK iuazrU"
+                >
+                  We make it easy for participants to view their project scores in real time.
+                </p>
               </div>
               <div
                 class="sc-chbbiW kwZmve"
@@ -564,6 +584,11 @@ Object {
                 >
                   Collaboration
                 </h2>
+                <p
+                  class="sc-cooIXK iuazrU"
+                >
+                  Work with your teammates as an organizer or participant
+                </p>
               </div>
               <div
                 class="sc-chbbiW kwZmve"
@@ -577,6 +602,11 @@ Object {
                 >
                   Simplicity
                 </h2>
+                <p
+                  class="sc-cooIXK iuazrU"
+                >
+                  This hackathon app was designed with you in mind. The UI is simple and intuitive
+                </p>
               </div>
             </div>
             <h1
@@ -610,7 +640,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jDwBTQ sc-RcBXQ eDoSba"
+          class="sc-jDwBTQ sc-iSDuPN dBTvfP"
         >
           <form
             action="#"
@@ -718,7 +748,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ksYbfQ sc-iSDuPN fKENWI"
+              class="sc-ksYbfQ sc-fZwumE hvSaxB"
             >
               <button
                 class="sc-ifAKCX fHwHnk"
