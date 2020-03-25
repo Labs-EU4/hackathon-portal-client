@@ -10,14 +10,14 @@ export const Span = styled.span`
 
 export const BoldSpan = styled(Span)`
   margin-bottom: 5px;
-  font-size: 1.5rem;
+  font-size: 15px;
   color: ${props => props.theme.color.black.regular};
   text-transform: uppercase;
 `;
 
 export const NormalSpan = styled.span`
   margin-bottom: 5px;
-  font-size: 1.4rem; font-weight: normal;
+  font-size: 14px; font-weight: normal;
   color: ${props => props.theme.color.grey.light};
   text-transform: uppercase;
 `;

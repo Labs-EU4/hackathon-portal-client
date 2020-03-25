@@ -4,16 +4,17 @@ export const Social = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 5px;
+
   a {
     color: ${props => props.theme.color.grey.regular};
     padding: 0;
     margin: 20px 15px 0 15px;
-    ${props => props.theme.fontSize.h1};
+    font-size: 14px;
     display: inline-block;
     cursor: pointer;
     i {
-      font-size: 5rem;
+      font-size: 50px;
       transition: transform 0.25s ease-in;
       margin: 0 auto;
     }

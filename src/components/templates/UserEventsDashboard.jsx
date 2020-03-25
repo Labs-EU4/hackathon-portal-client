@@ -5,14 +5,14 @@ import {
   BodyContainer,
   StyledRowHead,
   DashboardContent,
-  StyledButton
+  StyledButton,
+  StyledH4
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
-import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import EventCard from "../organisms/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 
 const UserEventsDashboard = ({ eventModalHandler }) => {
-  const [isRegisteredEvents, setIsRegisteredEvents] = useState(false);
+  const [isRegisteredEvents, setIsRegisteredEvents] = useState(true);
   const events = useSelector(state => state.events.data);
   const [data] = useRegisteredEvents();
   const registeredEvents = data?.body || [];
@@ -36,12 +36,12 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
               userEvents.map(event => (
                 <EventCard
                   key={event.event_title}
-                  event={event}
+                  event={{ ...event, join: false }}
                   {...{ eventModalHandler }}
                 />
               ))
             ) : (
-              <H4>You haven't created any events yet. Why wait?</H4>
+              <StyledH4>You haven't created any events yet. Why wait?</StyledH4>
             )}
           </>
         ) : (
@@ -50,12 +50,12 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
               registeredEvents.map(event => (
                 <EventCard
                   key={event.event_title}
-                  event={event}
+                  event={{ ...event, registered: true }}
                   {...{ eventModalHandler }}
                 />
               ))
             ) : (
-              <H4>You haven't registered to any events yet. Why wait?</H4>
+              <StyledH4>You haven't registered to any events yet. Why wait?</StyledH4>
             )}
           </>
         )}

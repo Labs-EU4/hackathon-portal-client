@@ -28,10 +28,15 @@ export const FooterNavAnchor = styled(Anchor)`
   border: 0;
   padding: 3px 5px 5px;
   font-weight: bold;
+  font-size: 14px;
   color: ${props => props.theme.color.black.regular};
 
   &:hover {
     border-top: 3px solid ${props => props.theme.color.white.regular};
     color: ${props => props.theme.color.white.regular};
+  }
+
+  &:first-child {
+    margin-left: 26px;
   }
 `;

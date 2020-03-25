@@ -8,20 +8,23 @@ import Icon from '../../../components/atoms/Icon';
 
 export const StyledEditIcon = styled(Icon)`
   position: absolute; top: 50%; left: 50%;
-  font-size: 2.5rem;
+  font-size: 25px;
   color: ${props => props.theme.color.green.regular};
-  z-index: 500;
+  z-index: 50;
   transform: translate(-40%, -50%);
 `;
 
 export const StyledExpandIcon = styled(Icon)`
   position: absolute; bottom: 70px; left: 50%;
-  font-size: 3rem;
-  transform: ${({ active }) => active ? 'translateX(-50%) rotate(90deg);' : 'translateX(-50%) rotate(-90deg);'};
+  font-size: 30px;
+  transform: ${({ active }) => active === 'true' 
+    ? 'translateX(-50%) rotate(90deg);' 
+    : 'translateX(-50%) rotate(-90deg);'};
+  
   cursor: pointer;
 
   &:hover {
-    transform: ${({ active }) => active 
+    transform: ${({ active }) => active === 'true'
       ? 'translateX(-50%) rotate(90deg) scale(1.1);' 
       : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
     color: ${props => props.theme.color.white.regular};
@@ -36,8 +39,13 @@ export const UserInfoContent = styled.div`
   margin-left: 5px;
 
   p {
+    &:first-child {
+      font-size: 13px;
+      color: ${props => props.theme.color.black.regular};
+    }
+
     &:last-child {
-      ${props => props.theme.fontSize.smaller};
+      font-size: 10px;
       color: ${props => props.theme.color.grey.regular};
     }
   }
@@ -162,7 +170,8 @@ export const UserContainer = styled.div`
 
 export const StyledButton = styled(Button)`
   margin-bottom: 10px;
-  ${({ active }) => active && `
+  font-size: 14px;
+  ${({ active }) => active === 'true' && `
     padding: 5px 0;
     word-break: break-all;
   `}

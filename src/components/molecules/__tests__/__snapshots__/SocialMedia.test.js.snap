@@ -14,7 +14,7 @@ Object {
           OR LOGIN WITH
         </span>
         <div
-          class="sc-bdVaJa gsuEvB"
+          class="sc-bdVaJa gPUzfG"
         >
           <a
             href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"
@@ -48,7 +48,7 @@ Object {
         OR LOGIN WITH
       </span>
       <div
-        class="sc-bdVaJa gsuEvB"
+        class="sc-bdVaJa gPUzfG"
       >
         <a
           href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"

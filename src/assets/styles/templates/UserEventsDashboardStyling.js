@@ -30,6 +30,7 @@ export const StyledButton = styled(Button)`
   border-bottom: none; 
   border-bottom-left-radius: 0; border-bottom-right-radius: 0;
   margin-right: 10px; 
+  font-size: 14px;
   /* margin-bottom: -4px; */
 
   &:hover {

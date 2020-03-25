@@ -34,7 +34,7 @@ Object {
               />
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-search fa-w-16 sc-EHOje kkPidW sc-jTzLTM gySMxc"
+                class="svg-inline--fa fa-search fa-w-16 sc-EHOje ImaRG sc-jTzLTM gySMxc"
                 data-icon="search"
                 data-prefix="fas"
                 focusable="false"
@@ -61,13 +61,13 @@ Object {
                 class="sc-iAyFgw fDrPTQ"
               >
                 <button
-                  class="sc-hMqMXs hMbCFA"
+                  class="sc-hMqMXs bkKfzE"
                   color="grey"
                 >
                   Back to event
                 </button>
                 <button
-                  class="sc-hMqMXs jmCKXB"
+                  class="sc-hMqMXs bbRySB"
                   color="green"
                 >
                   Add Teammate
@@ -109,7 +109,7 @@ Object {
             />
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-search fa-w-16 sc-EHOje kkPidW sc-jTzLTM gySMxc"
+              class="svg-inline--fa fa-search fa-w-16 sc-EHOje ImaRG sc-jTzLTM gySMxc"
               data-icon="search"
               data-prefix="fas"
               focusable="false"
@@ -136,13 +136,13 @@ Object {
               class="sc-iAyFgw fDrPTQ"
             >
               <button
-                class="sc-hMqMXs hMbCFA"
+                class="sc-hMqMXs bkKfzE"
                 color="grey"
               >
                 Back to event
               </button>
               <button
-                class="sc-hMqMXs jmCKXB"
+                class="sc-hMqMXs bbRySB"
                 color="green"
               >
                 Add Teammate
