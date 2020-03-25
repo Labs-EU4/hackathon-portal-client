@@ -25,7 +25,9 @@ function ResultPage(props) {
     ]);
   }
 
+  console.log("NAVIGATION", navigator.geolocation.getCurrentPosition(showMap));
   navigator.geolocation.getCurrentPosition(showMap);
+
   // One-shot position request.
 
   // refs
@@ -73,9 +75,23 @@ function ResultPage(props) {
         createMarker(loc[1], loc[2]);
       });
     });
-  });
 
-  return currentLocation ? (
+    // googleMapScript.addEventListener("load", () => {
+    //   createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
+    //     zoom: 12,
+    //     center: {
+    //       lat: currentLocation[0],
+    //       lng: currentLocation[1]
+    //     }
+    //   });
+
+    //   eventsLocation.forEach(loc => {
+    //     createMarker(loc[1], loc[2]);
+    //   });
+    // });
+  }, [currentLocation]);
+
+  return true ? (
     <div id="google-map" ref={googleMapRef} style={mapStyles} />
   ) : (
     <p>Wait a moment while we find events in your area..</p>
