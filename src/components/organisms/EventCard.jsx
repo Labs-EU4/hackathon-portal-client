@@ -57,13 +57,17 @@ const EventCard = ({ event, eventModalHandler }) => {
   const joinEvent = e => {
     e.preventDefault();
     dispatch(registerEvent(id));
-    history.push("/dashboard");
+    setTimeout(() => {
+      history.push("/dashboard");
+    }, 4000);
   };
 
   const unregister = e => {
     e.preventDefault();
     dispatch(unregisterEvent(event_id));
-    history.push("/dashboard");
+    setTimeout(() => {
+      history.push("/home");
+    }, 4000);
   };
 
   return (
