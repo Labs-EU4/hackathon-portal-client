@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 // import image from "./anon.png";
 // Variables
 const GMAP = "AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I";
-// eslint-disable-next-line
 const myLocation = {
   // CN Tower Landmark
   lat: 35.6762,
@@ -26,7 +25,9 @@ function ResultPage(props) {
     ]);
   }
 
+  console.log("NAVIGATION", navigator.geolocation.getCurrentPosition(showMap));
   navigator.geolocation.getCurrentPosition(showMap);
+
   // One-shot position request.
 
   // refs
@@ -39,16 +40,11 @@ function ResultPage(props) {
     "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png";
 
   var eventsLocation = [
-    // ["user's current location", currentLocation[0], currentLocation[1]],
-    ["Coogee Beach", -33.923036, 151.259052, 5],
-    ["vvvv", 35.6762, 139.6503, 3],
-    ["Cronulla Beach", -34.028249, 151.157507, 3],
-    ["Bondi Beach", -33.890542, 151.274856, 4],
-    ["new", 20, 28, 2],
-    // ["hey", currentLocation[0], currentLocation[1]],
-    ["Maroubra Beach", -33.950198, 151.259302, 1],
-    ["Manly Beach", -33.80010128657071, 151.28747820854187, 2],
-    ["Coventry University", 52.3838, -1.56366, 0]
+    ["Coventry University", 52.3838, -1.56366, 0],
+    ["Amsterdam", 52.373169, 4.89066, 0],
+    ["Stratford,UK", 53.47555, 2.35784, 0],
+    ["Rome", "Italy", 41.902782, 12.496365, 0],
+    ["Paris,France", 48.856613, 2.352222, 0]
   ];
 
   const createMarker = (lati, long) => {
@@ -67,7 +63,6 @@ function ResultPage(props) {
     window.document.body.appendChild(googleMapScript);
 
     googleMapScript.addEventListener("load", () => {
-      // eslint-disable-next-line
       createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
         zoom: 12,
         center: {
@@ -80,7 +75,21 @@ function ResultPage(props) {
         createMarker(loc[1], loc[2]);
       });
     });
-  });
+
+    // googleMapScript.addEventListener("load", () => {
+    //   createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
+    //     zoom: 12,
+    //     center: {
+    //       lat: currentLocation[0],
+    //       lng: currentLocation[1]
+    //     }
+    //   });
+
+    //   eventsLocation.forEach(loc => {
+    //     createMarker(loc[1], loc[2]);
+    //   });
+    // });
+  }, [currentLocation]);
 
   return true ? (
     <div id="google-map" ref={googleMapRef} style={mapStyles} />
