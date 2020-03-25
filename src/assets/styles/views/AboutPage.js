@@ -65,3 +65,20 @@ export const StyledCard = styled.div`
     height: 250px;
     border: 2px solid ${props => props.theme.color.primary.regular};
 `;
+
+export const Paragraph = styled.p`
+    width: 100%;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 17px;
+`;
+
+export const FeaturesContainer = styled.div`
+    display: flex; justify-content: space-around;
+    margin: 30px auto 0;
+`;
+
+export const FeatureBox = styled.div`
+    width: calc((100% / 3) - 10px); height: 250px;
+    border: 3px solid red;
+`;

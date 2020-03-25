@@ -17,7 +17,7 @@ Object {
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-bxivhb kZoQaj"
+              class="sc-bxivhb gJGwfh"
               src="Hackton-logo.png"
             />
           </a>
@@ -51,7 +51,7 @@ Object {
               >
                 <img
                   alt="Hackton - Organise hackathons"
-                  class="sc-bxivhb kZoQaj"
+                  class="sc-bxivhb ezlUTd"
                   src="Hackton-logo.png"
                 />
                 <div
@@ -64,6 +64,30 @@ Object {
             <div
               class="sc-ebFjAB gcyVSj"
             >
+              <h1
+                class="sc-jKVCRD jqNXXN"
+              >
+                Why HackHunt?
+                <hr />
+              </h1>
+              <p
+                class="sc-iBEsjs ggQItK"
+              >
+                We have great features that will make participating to hackathons fun again
+              </p>
+              <div
+                class="sc-hzNEM kgoEEt"
+              >
+                <div
+                  class="sc-chbbiW dsohez"
+                />
+                <div
+                  class="sc-chbbiW dsohez"
+                />
+                <div
+                  class="sc-chbbiW dsohez"
+                />
+              </div>
               <h1
                 class="sc-jKVCRD jqNXXN"
               >
@@ -95,7 +119,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-jDwBTQ sc-cooIXK jfDfZO"
+            class="sc-jDwBTQ sc-kZmsYB fvUOXU"
           >
             <form
               action="#"
@@ -203,7 +227,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-ksYbfQ sc-fcdeBU bRlSqL"
+                class="sc-ksYbfQ sc-RcBXQ bhOYcE"
               >
                 <button
                   class="sc-ifAKCX fHwHnk"
@@ -424,7 +448,7 @@ Object {
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-bxivhb kZoQaj"
+            class="sc-bxivhb gJGwfh"
             src="Hackton-logo.png"
           />
         </a>
@@ -458,7 +482,7 @@ Object {
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-bxivhb kZoQaj"
+                class="sc-bxivhb ezlUTd"
                 src="Hackton-logo.png"
               />
               <div
@@ -471,6 +495,30 @@ Object {
           <div
             class="sc-ebFjAB gcyVSj"
           >
+            <h1
+              class="sc-jKVCRD jqNXXN"
+            >
+              Why HackHunt?
+              <hr />
+            </h1>
+            <p
+              class="sc-iBEsjs ggQItK"
+            >
+              We have great features that will make participating to hackathons fun again
+            </p>
+            <div
+              class="sc-hzNEM kgoEEt"
+            >
+              <div
+                class="sc-chbbiW dsohez"
+              />
+              <div
+                class="sc-chbbiW dsohez"
+              />
+              <div
+                class="sc-chbbiW dsohez"
+              />
+            </div>
             <h1
               class="sc-jKVCRD jqNXXN"
             >
@@ -502,7 +550,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jDwBTQ sc-cooIXK jfDfZO"
+          class="sc-jDwBTQ sc-kZmsYB fvUOXU"
         >
           <form
             action="#"
@@ -610,7 +658,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ksYbfQ sc-fcdeBU bRlSqL"
+              class="sc-ksYbfQ sc-RcBXQ bhOYcE"
             >
               <button
                 class="sc-ifAKCX fHwHnk"
