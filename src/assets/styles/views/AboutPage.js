@@ -15,8 +15,8 @@ export const AboutHeaderContainer = styled.div`
     ${props => props.theme.flex.columnCenter};
     width: 100%; height: 60vh;
     background-color: ${props => props.theme.color.primary.regular};
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
 `;
 
 export const HeroContainer = styled.div`
@@ -32,6 +32,7 @@ export const HeroText = styled.div`
 `;
 
 export const MainContent = styled.div`
+    ${props => props.theme.shadow.box};
     position: relative;
     width: 90%; max-width: 1000px;
     background-color: ${props => props.theme.color.white.regular};
@@ -75,7 +76,7 @@ export const Paragraph = styled.p`
     width: 100%;
     margin-top: -10px;
     text-align: center;
-    font-size: 17px;
+    font-size: 19px;
 `;
 
 export const FeaturesContainer = styled.div`
