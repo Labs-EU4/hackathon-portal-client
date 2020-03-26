@@ -29,11 +29,11 @@ export const FooterNavAnchor = styled(Anchor)`
   padding: 3px 5px 5px;
   font-weight: bold;
   font-size: 14px;
-  color: ${props => props.theme.color.black.regular};
+  color: ${props => props.theme.color.white.regular};
 
   &:hover {
-    border-top: 3px solid ${props => props.theme.color.white.regular};
-    color: ${props => props.theme.color.white.regular};
+    border-top: 3px solid ${props => props.theme.color.primary.regular};
+    color: ${props => props.theme.color.primary.regular};
   }
 
   &:first-child {
