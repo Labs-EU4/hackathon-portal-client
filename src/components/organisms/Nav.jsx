@@ -54,6 +54,7 @@ const Nav = ({
     <StyledNav active={isSideBarOpen}>
       { token ? (
         <UserContainer onClick={() => setIsProfileOpen(!isProfileOpen)}>
+          {isEditProfileHovered && <StyledEditIcon icon="user-edit" />}
           <StyledProfileImage
             active={isEditProfileHovered}
             onMouseEnter={() => setIsEditProfileHovered(true)}
@@ -61,7 +62,6 @@ const Nav = ({
           >
             { image_url !== null ? (
               <>
-                {isEditProfileHovered && <StyledEditIcon icon="user-edit" />}
                 <ProfileImg
                   image={image_url}
                   alt={username}

@@ -9,8 +9,7 @@ import {
 import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
-import { sendEventTeamInvite } from "../../store/events/actions";
-import { addParticipantTeamMember } from "../../store/participantTeams/actions"
+import { sendEventTeamInvite, addTeamMember } from "../../store/events/actions";
 import { JudgesSearchWidget } from "./widgets/JudgesSearchWidget";
 import { TeamInviteWidget } from "./widgets/TeamInviteWidget";
 
@@ -37,7 +36,7 @@ const AddTeammates = ({ setIsAddJudgeOpen }) => {
         email,
         role
       };
-      return dispatch(addParticipantTeamMember(data, history));
+      return dispatch(addTeamMember(data, history));
     });
     setIsAddJudgeOpen(false);
     history.push(`/${currentPath}`);

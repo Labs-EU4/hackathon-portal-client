@@ -57,13 +57,17 @@ const EventCard = ({ event, eventModalHandler }) => {
   const joinEvent = e => {
     e.preventDefault();
     dispatch(registerEvent(id));
-    history.push("/dashboard");
+    setTimeout(() => {
+      history.push("/dashboard");
+    }, 4000);
   };
 
   const unregister = e => {
     e.preventDefault();
     dispatch(unregisterEvent(event_id));
-    window.location.reload(true)
+    setTimeout(() => {
+      history.push("/home");
+    }, 4000);
   };
 
   return (
@@ -96,7 +100,10 @@ const EventCard = ({ event, eventModalHandler }) => {
           <H4>{event_title}</H4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
           <Paragraph>{excerpt}</Paragraph>
-          <CardCountDown>{formattedDate}</CardCountDown>
+          <CardCountDown className={`countdown-${event_id}`}>
+            {formattedDate}
+          </CardCountDown>
+          {/* <CardCountDown className="countdown">{countDownHandler(event.start_date)}</CardCountDown> */}
           <EventCTA>
             <Button
               link
@@ -105,15 +112,19 @@ const EventCard = ({ event, eventModalHandler }) => {
             >
               More Info
             </Button>
-            {join === false ? null : registered === true ? (
+            {join === false ? (
+              <Button link color="blue" to={`/event/${id}/edit`}>
+                Edit event
+              </Button>
+            ) : registered === true ? (
               <Button link color="grey" onClick={unregister} to={"#"}>
                 Unregister
               </Button>
             ) : (
-                <Button link color="primary" onClick={joinEvent} to={"#"}>
-                  Join Event
+                  <Button link color="primary" onClick={joinEvent} to={"#"}>
+                    Join Event
               </Button>
-              )}
+                )}
           </EventCTA>
         </EventCardContent>
         <StyledBookmarkIcon icon="bookmark" />

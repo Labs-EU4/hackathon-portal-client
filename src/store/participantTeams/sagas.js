@@ -15,6 +15,7 @@ import {
   fetchTeamMates,
   // deleteTeammate
 } from "./actions";
+import { registerEvent } from "../eventParticipants/actions";
 
 export function* participantTeamSagas() {
   yield all([
@@ -31,7 +32,7 @@ export function* participantTeamSagas() {
 function* createTeamNameAsync({ payload, history }) {
   try {
     const token = yield select(selectToken);
-    const { eventId, team_name } = payload;
+    const { eventId, team_name, teamLeadId } = payload;
     const url = `/api/events/${eventId}/participant-teams`;
     const {
       data
@@ -43,6 +44,7 @@ function* createTeamNameAsync({ payload, history }) {
     );
     if (data) {
       put(fetchTeams(eventId));
+      registerEvent(teamLeadId)
       return showSuccess(`😀 ${data.message}`);
     }
     const teamBody = data.body;
@@ -103,6 +105,7 @@ function* addParticipantTeamMemberAsync({ payload, history }) {
   try {
     const { team_id, team_member, eventId } = payload;
     const token = yield select(selectToken);
+    console.log(payload, `in saga`)
     const { data } = yield axiosWithAuth(token).post(
       `/api/events/participant-teams/${team_id}`,
       {

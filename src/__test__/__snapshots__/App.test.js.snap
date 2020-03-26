@@ -17,7 +17,7 @@ Object {
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-bxivhb kZoQaj"
+              class="sc-bxivhb jcsApH"
               src="Hackton-logo.png"
             />
           </a>
@@ -44,58 +44,127 @@ Object {
             class="sc-iGrrsa dHnsVd"
           >
             <div
-              class="sc-bmyXtO dxIpSE"
+              class="sc-bmyXtO lkhrhn"
             >
               <div
                 class="sc-dEoRIm SazOZ"
               >
                 <img
                   alt="Hackton - Organise hackathons"
-                  class="sc-bxivhb kZoQaj"
+                  class="sc-bxivhb eRgnXD"
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-jtggT ersjTO"
+                  class="sc-jtggT kshGWQ"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-ebFjAB gcyVSj"
+              class="sc-ebFjAB NhAvb"
             >
               <h1
-                class="sc-jKVCRD jqNXXN"
+                class="sc-jKVCRD galcVk"
+              >
+                Why HackHunt?
+                <hr />
+              </h1>
+              <p
+                class="sc-iBEsjs gBulAC"
+              >
+                We have great features that will make participating to hackathons fun again
+              </p>
+              <div
+                class="sc-hzNEM igYbWe"
+              >
+                <div
+                  class="sc-chbbiW ZDefq"
+                >
+                  <img
+                    alt="transparency"
+                    src="transparency.png"
+                  />
+                  <h2
+                    class="sc-kxynE eMbkEd"
+                  >
+                    Transparency
+                  </h2>
+                  <p
+                    class="sc-cooIXK essbye"
+                  >
+                    We make it easy for participants to view their project scores in real time
+                  </p>
+                </div>
+                <div
+                  class="sc-chbbiW ZDefq"
+                >
+                  <img
+                    alt="team-collaboration"
+                    src="team.png"
+                  />
+                  <h2
+                    class="sc-kxynE eMbkEd"
+                  >
+                    Collaboration
+                  </h2>
+                  <p
+                    class="sc-cooIXK essbye"
+                  >
+                    Work with your teammates as an organizer or participant
+                  </p>
+                </div>
+                <div
+                  class="sc-chbbiW ZDefq"
+                >
+                  <img
+                    alt="simplicity"
+                    src="correct.png"
+                  />
+                  <h2
+                    class="sc-kxynE eMbkEd"
+                  >
+                    Simplicity
+                  </h2>
+                  <p
+                    class="sc-cooIXK essbye"
+                  >
+                    This hackathon app was designed with you in mind. The UI is simple and intuitive
+                  </p>
+                </div>
+              </div>
+              <h1
+                class="sc-jKVCRD galcVk"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-kaNhvL cShYgp"
+                class="sc-kaNhvL dtOdRZ"
               >
                 <div
-                  class="sc-LKuAh bIMDJO"
+                  class="sc-LKuAh jwBDDP"
                 />
                 <div
-                  class="sc-LKuAh bIMDJO"
+                  class="sc-LKuAh jwBDDP"
                 />
                 <div
-                  class="sc-LKuAh bIMDJO"
+                  class="sc-LKuAh jwBDDP"
                 />
                 <div
-                  class="sc-LKuAh bIMDJO"
+                  class="sc-LKuAh jwBDDP"
                 />
                 <div
-                  class="sc-LKuAh bIMDJO"
+                  class="sc-LKuAh jwBDDP"
                 />
                 <div
-                  class="sc-LKuAh bIMDJO"
+                  class="sc-LKuAh jwBDDP"
                 />
               </div>
             </div>
           </div>
           <div
-            class="sc-jDwBTQ sc-cooIXK eDMhNk"
+            class="sc-jDwBTQ sc-iSDuPN dBTvfP"
           >
             <form
               action="#"
@@ -203,7 +272,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-ksYbfQ sc-fcdeBU bRlSqL"
+                class="sc-ksYbfQ sc-fZwumE hvSaxB"
               >
                 <button
                   class="sc-ifAKCX fHwHnk"
@@ -243,7 +312,7 @@ Object {
           class="sc-hzDkRC eTohnO"
         >
           <div
-            class="sc-dVhcbM hZkoFl"
+            class="sc-dVhcbM kcRilE"
           >
             <div
               class="sc-jhAzac dLPzfK"
@@ -280,7 +349,7 @@ Object {
           >
             <a
               active="false"
-              class="sc-fBuWsC boEHNC"
+              class="sc-fBuWsC bxaNoM"
               href="/home"
             >
               <svg
@@ -308,7 +377,7 @@ Object {
           >
             <a
               active="false"
-              class="sc-fBuWsC boEHNC"
+              class="sc-fBuWsC bxaNoM"
               href="/dashboard"
             >
               <svg
@@ -337,7 +406,7 @@ Object {
             <a
               active="false"
               aria-current="page"
-              class="sc-fBuWsC boEHNC current"
+              class="sc-fBuWsC bxaNoM current"
               href="/"
             >
               <svg
@@ -365,7 +434,7 @@ Object {
           >
             <a
               active="false"
-              class="sc-fBuWsC boEHNC"
+              class="sc-fBuWsC bxaNoM"
               href="/results"
             >
               <svg
@@ -424,7 +493,7 @@ Object {
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-bxivhb kZoQaj"
+            class="sc-bxivhb jcsApH"
             src="Hackton-logo.png"
           />
         </a>
@@ -451,58 +520,127 @@ Object {
           class="sc-iGrrsa dHnsVd"
         >
           <div
-            class="sc-bmyXtO dxIpSE"
+            class="sc-bmyXtO lkhrhn"
           >
             <div
               class="sc-dEoRIm SazOZ"
             >
               <img
                 alt="Hackton - Organise hackathons"
-                class="sc-bxivhb kZoQaj"
+                class="sc-bxivhb eRgnXD"
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-jtggT ersjTO"
+                class="sc-jtggT kshGWQ"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-ebFjAB gcyVSj"
+            class="sc-ebFjAB NhAvb"
           >
             <h1
-              class="sc-jKVCRD jqNXXN"
+              class="sc-jKVCRD galcVk"
+            >
+              Why HackHunt?
+              <hr />
+            </h1>
+            <p
+              class="sc-iBEsjs gBulAC"
+            >
+              We have great features that will make participating to hackathons fun again
+            </p>
+            <div
+              class="sc-hzNEM igYbWe"
+            >
+              <div
+                class="sc-chbbiW ZDefq"
+              >
+                <img
+                  alt="transparency"
+                  src="transparency.png"
+                />
+                <h2
+                  class="sc-kxynE eMbkEd"
+                >
+                  Transparency
+                </h2>
+                <p
+                  class="sc-cooIXK essbye"
+                >
+                  We make it easy for participants to view their project scores in real time
+                </p>
+              </div>
+              <div
+                class="sc-chbbiW ZDefq"
+              >
+                <img
+                  alt="team-collaboration"
+                  src="team.png"
+                />
+                <h2
+                  class="sc-kxynE eMbkEd"
+                >
+                  Collaboration
+                </h2>
+                <p
+                  class="sc-cooIXK essbye"
+                >
+                  Work with your teammates as an organizer or participant
+                </p>
+              </div>
+              <div
+                class="sc-chbbiW ZDefq"
+              >
+                <img
+                  alt="simplicity"
+                  src="correct.png"
+                />
+                <h2
+                  class="sc-kxynE eMbkEd"
+                >
+                  Simplicity
+                </h2>
+                <p
+                  class="sc-cooIXK essbye"
+                >
+                  This hackathon app was designed with you in mind. The UI is simple and intuitive
+                </p>
+              </div>
+            </div>
+            <h1
+              class="sc-jKVCRD galcVk"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-kaNhvL cShYgp"
+              class="sc-kaNhvL dtOdRZ"
             >
               <div
-                class="sc-LKuAh bIMDJO"
+                class="sc-LKuAh jwBDDP"
               />
               <div
-                class="sc-LKuAh bIMDJO"
+                class="sc-LKuAh jwBDDP"
               />
               <div
-                class="sc-LKuAh bIMDJO"
+                class="sc-LKuAh jwBDDP"
               />
               <div
-                class="sc-LKuAh bIMDJO"
+                class="sc-LKuAh jwBDDP"
               />
               <div
-                class="sc-LKuAh bIMDJO"
+                class="sc-LKuAh jwBDDP"
               />
               <div
-                class="sc-LKuAh bIMDJO"
+                class="sc-LKuAh jwBDDP"
               />
             </div>
           </div>
         </div>
         <div
-          class="sc-jDwBTQ sc-cooIXK eDMhNk"
+          class="sc-jDwBTQ sc-iSDuPN dBTvfP"
         >
           <form
             action="#"
@@ -610,7 +748,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ksYbfQ sc-fcdeBU bRlSqL"
+              class="sc-ksYbfQ sc-fZwumE hvSaxB"
             >
               <button
                 class="sc-ifAKCX fHwHnk"
@@ -650,7 +788,7 @@ Object {
         class="sc-hzDkRC eTohnO"
       >
         <div
-          class="sc-dVhcbM hZkoFl"
+          class="sc-dVhcbM kcRilE"
         >
           <div
             class="sc-jhAzac dLPzfK"
@@ -687,7 +825,7 @@ Object {
         >
           <a
             active="false"
-            class="sc-fBuWsC boEHNC"
+            class="sc-fBuWsC bxaNoM"
             href="/home"
           >
             <svg
@@ -715,7 +853,7 @@ Object {
         >
           <a
             active="false"
-            class="sc-fBuWsC boEHNC"
+            class="sc-fBuWsC bxaNoM"
             href="/dashboard"
           >
             <svg
@@ -744,7 +882,7 @@ Object {
           <a
             active="false"
             aria-current="page"
-            class="sc-fBuWsC boEHNC current"
+            class="sc-fBuWsC bxaNoM current"
             href="/"
           >
             <svg
@@ -772,7 +910,7 @@ Object {
         >
           <a
             active="false"
-            class="sc-fBuWsC boEHNC"
+            class="sc-fBuWsC bxaNoM"
             href="/results"
           >
             <svg

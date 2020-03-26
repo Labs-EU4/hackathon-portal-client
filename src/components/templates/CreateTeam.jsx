@@ -35,11 +35,11 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
   const handleTeamSubmit = async values => {
     const teamData = {
       team_name: values.team_name,
-      eventId: id
+      eventId: id,
+      teamLeadId: userId
     };
     // Error handling issue - needs to be a unique name
     await dispatch(createTeamName(teamData, history));
-    await dispatch(registerEvent(id, history));
     //!!HAVE A STATE THAT OPENS THE SELECT TEAM MEMBER COMPONENT HERE TO REDIRECT, ALSO FROM HERE CLOSE THE CREATETEAM COMPONENT
     //REDIRECT TO THE ADDPARTICIPANTTEAMS COMPONENT
     await setIsAddTeamMemberOpen(true);
