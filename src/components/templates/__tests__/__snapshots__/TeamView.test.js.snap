@@ -14,36 +14,36 @@ Object {
           T
         </div>
         <span
-          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
         >
           Your Team
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
         >
           Team Name:
           <span
-            class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
+            class="sc-htpNat sc-bxivhb sc-iwsKbI kSdErc"
           >
             The A team
           </span>
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
         >
           Team Members:
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
         >
           This team has no members
         </span>
         <span
-          class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+          class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
         >
           Hackathon Name:
           <span
-            class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
+            class="sc-htpNat sc-bxivhb sc-iwsKbI kSdErc"
           >
             EuroHack
           </span>
@@ -52,13 +52,13 @@ Object {
           class="sc-fjdhpX boYCYK"
         >
           <button
-            class="sc-jzJRlG bAOVrL"
+            class="sc-jzJRlG iFailQ"
             color="grey"
           >
             Back to event
           </button>
           <button
-            class="sc-jzJRlG gcsqlO"
+            class="sc-jzJRlG jbLHic"
             color="green"
           >
             Add Teammate
@@ -77,36 +77,36 @@ Object {
         T
       </div>
       <span
-        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
       >
         Your Team
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
       >
         Team Name:
         <span
-          class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
+          class="sc-htpNat sc-bxivhb sc-iwsKbI kSdErc"
         >
           The A team
         </span>
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
       >
         Team Members:
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
       >
         This team has no members
       </span>
       <span
-        class="sc-htpNat sc-bxivhb sc-htoDjs jDqnfJ"
+        class="sc-htpNat sc-bxivhb sc-htoDjs gsxtGO"
       >
         Hackathon Name:
         <span
-          class="sc-htpNat sc-bxivhb sc-iwsKbI ldiivw"
+          class="sc-htpNat sc-bxivhb sc-iwsKbI kSdErc"
         >
           EuroHack
         </span>
@@ -115,13 +115,13 @@ Object {
         class="sc-fjdhpX boYCYK"
       >
         <button
-          class="sc-jzJRlG bAOVrL"
+          class="sc-jzJRlG iFailQ"
           color="grey"
         >
           Back to event
         </button>
         <button
-          class="sc-jzJRlG gcsqlO"
+          class="sc-jzJRlG jbLHic"
           color="green"
         >
           Add Teammate

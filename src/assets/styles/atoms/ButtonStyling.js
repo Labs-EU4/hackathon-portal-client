@@ -24,16 +24,6 @@ export const StyledButton = styled.button`
     background-position: -100%;
   }
 
-  @media ${media.tablet} {
-    width: 100%;
-    padding: 12px;
-    margin: 0 0 15px 0;
-  }
-
-  @media ${media.mobile} {
-    padding: 10px;
-  }
-
   ${({ color }) => {
     if (color === "primary")
       return `
@@ -135,16 +125,6 @@ export const StyledLink = styled(Link)`
     background-position: -100%;
   }
 
-  @media ${media.tablet} {
-    width: 100%;
-    padding: 12px;
-    margin: 0 0 15px 0;
-  }
-
-  @media ${media.mobile} {
-    padding: 10px;
-  }
-
   ${({ color }) => {
     if (color === "primary")
       return `
@@ -244,16 +224,6 @@ export const StyledAnchor = styled.a`
   &:hover {
     cursor: ${({ disabled }) => (disabled ? `disabled` : `pointer`)};
     background-position: -100%;
-  }
-
-  @media ${media.tablet} {
-    width: 100%;
-    padding: 12px;
-    margin: 0 0 15px 0;
-  }
-
-  @media ${media.mobile} {
-    padding: 10px;
   }
 
   ${({ color }) => {

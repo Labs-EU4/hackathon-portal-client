@@ -16,5 +16,5 @@ export const Paragraph = styled.p`
   ${({ noMargin }) => noMargin && `margin: 0;`}
   ${({ center }) => center && `margin: 5px auto 10px;`}
   ${({ bold }) => bold && `font-weight: bold;`}
-  ${({ size }) => size === "large" && `font-size: 1.7rem;`}
+  ${({ size }) => size === "large" && `font-size: 17px;`}
 `;

@@ -4,6 +4,18 @@ import image from "../../assets/images/Login.png";
 import { UserOnboarding } from "../templates";
 
 const LoginPage = () => {
+  function showMap(position) {
+    // Show a map centered at (position.coords.latitude, position.coords.longitude).
+    let currentLocation;
+
+    return (currentLocation = [
+      position.coords.latitude,
+      position.coords.longitude
+    ]);
+  }
+
+  navigator.geolocation.getCurrentPosition(showMap);
+
   return (
     <UserOnboarding
       ctaText="Log In"

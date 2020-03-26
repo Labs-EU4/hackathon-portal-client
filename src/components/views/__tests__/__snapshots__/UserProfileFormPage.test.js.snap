@@ -12,10 +12,10 @@ Object {
           action="#"
         >
           <div
-            class="sc-gqjmRU QrEQq"
+            class="sc-gZMcBi dEFGQc"
           >
             <h3
-              class="sc-iwsKbI dsTmGx"
+              class="sc-dnqmqq kAxxzQ"
             >
               Edit Profile
             </h3>
@@ -24,13 +24,13 @@ Object {
             class="sc-bwzfXH dvexzl"
           >
             <label
-              class="sc-VigVT jWAkOu"
+              class="sc-gqjmRU jYjGXy"
               for="fullname"
             >
               Full Name
             </label>
             <input
-              class="sc-jTzLTM jfEWjN"
+              class="sc-VigVT iKzCNB"
               display="wide"
               name="fullname"
               placeholder="Full Name"
@@ -42,13 +42,13 @@ Object {
             class="sc-bwzfXH dvexzl"
           >
             <label
-              class="sc-VigVT jWAkOu"
+              class="sc-gqjmRU jYjGXy"
               for="username"
             >
               Username
             </label>
             <input
-              class="sc-jTzLTM jfEWjN"
+              class="sc-VigVT iKzCNB"
               display="wide"
               name="username"
               placeholder="Username"
@@ -60,13 +60,13 @@ Object {
             class="sc-bwzfXH dvexzl"
           >
             <label
-              class="sc-VigVT jWAkOu"
+              class="sc-gqjmRU jYjGXy"
               for="email"
             >
               Email
             </label>
             <input
-              class="sc-jTzLTM jfEWjN"
+              class="sc-VigVT iKzCNB"
               display="wide"
               name="email"
               placeholder="Email"
@@ -78,14 +78,14 @@ Object {
             class="sc-bwzfXH dvexzl"
           >
             <label
-              class="sc-VigVT jWAkOu"
+              class="sc-gqjmRU jYjGXy"
               for="image"
             >
               Profile Image
             </label>
             <input
               accept="image/*"
-              class="sc-jTzLTM jfEWjN"
+              class="sc-VigVT iKzCNB"
               display="wide"
               name="image_url"
               placeholder="Profile picture"
@@ -97,13 +97,13 @@ Object {
             class="sc-bwzfXH dvexzl"
           >
             <label
-              class="sc-VigVT jWAkOu"
+              class="sc-gqjmRU jYjGXy"
               for="bio"
             >
               Bio
             </label>
             <div
-              class="sc-fjdhpX dyUumZ"
+              class="sc-jTzLTM hhhXVN"
             >
               <textarea
                 name="bio"
@@ -117,7 +117,7 @@ Object {
             class="sc-bwzfXH sc-bZQynM cceUFP"
           >
             <button
-              class="sc-htpNat dCEgZP sc-gzVnrw eQlSzE"
+              class="sc-htpNat gwbRxv"
               color="green"
               type="submit"
             >
@@ -136,10 +136,10 @@ Object {
         action="#"
       >
         <div
-          class="sc-gqjmRU QrEQq"
+          class="sc-gZMcBi dEFGQc"
         >
           <h3
-            class="sc-iwsKbI dsTmGx"
+            class="sc-dnqmqq kAxxzQ"
           >
             Edit Profile
           </h3>
@@ -148,13 +148,13 @@ Object {
           class="sc-bwzfXH dvexzl"
         >
           <label
-            class="sc-VigVT jWAkOu"
+            class="sc-gqjmRU jYjGXy"
             for="fullname"
           >
             Full Name
           </label>
           <input
-            class="sc-jTzLTM jfEWjN"
+            class="sc-VigVT iKzCNB"
             display="wide"
             name="fullname"
             placeholder="Full Name"
@@ -166,13 +166,13 @@ Object {
           class="sc-bwzfXH dvexzl"
         >
           <label
-            class="sc-VigVT jWAkOu"
+            class="sc-gqjmRU jYjGXy"
             for="username"
           >
             Username
           </label>
           <input
-            class="sc-jTzLTM jfEWjN"
+            class="sc-VigVT iKzCNB"
             display="wide"
             name="username"
             placeholder="Username"
@@ -184,13 +184,13 @@ Object {
           class="sc-bwzfXH dvexzl"
         >
           <label
-            class="sc-VigVT jWAkOu"
+            class="sc-gqjmRU jYjGXy"
             for="email"
           >
             Email
           </label>
           <input
-            class="sc-jTzLTM jfEWjN"
+            class="sc-VigVT iKzCNB"
             display="wide"
             name="email"
             placeholder="Email"
@@ -202,14 +202,14 @@ Object {
           class="sc-bwzfXH dvexzl"
         >
           <label
-            class="sc-VigVT jWAkOu"
+            class="sc-gqjmRU jYjGXy"
             for="image"
           >
             Profile Image
           </label>
           <input
             accept="image/*"
-            class="sc-jTzLTM jfEWjN"
+            class="sc-VigVT iKzCNB"
             display="wide"
             name="image_url"
             placeholder="Profile picture"
@@ -221,13 +221,13 @@ Object {
           class="sc-bwzfXH dvexzl"
         >
           <label
-            class="sc-VigVT jWAkOu"
+            class="sc-gqjmRU jYjGXy"
             for="bio"
           >
             Bio
           </label>
           <div
-            class="sc-fjdhpX dyUumZ"
+            class="sc-jTzLTM hhhXVN"
           >
             <textarea
               name="bio"
@@ -241,7 +241,7 @@ Object {
           class="sc-bwzfXH sc-bZQynM cceUFP"
         >
           <button
-            class="sc-htpNat dCEgZP sc-gzVnrw eQlSzE"
+            class="sc-htpNat gwbRxv"
             color="green"
             type="submit"
           >
