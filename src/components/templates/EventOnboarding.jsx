@@ -73,15 +73,21 @@ const EventOnboarding = ({ eventModalHandler }) => {
       0
     ],
     [
-      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>All the Hacks 2022 Hackathon</p>",
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>RTL Dathaton 2020</p>",
       52.373169,
       4.89066,
       0
     ],
     [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>World Tournament 2020</p>",
+      51.509865,
+      -0.118092,
+      0
+    ],
+    [
       "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>RTL Dathaton 2020</p>",
-      9.06146,
-      7.50064,
+      41.902782,
+      12.496365,
       0
     ],
     ["Rome", "Italy", 41.902782, 12.496365, 0],
