@@ -97,7 +97,8 @@ export const FeatureTitle = styled.h2`
 export const FeatureDescription = styled.p`
     margin-top: 20px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bold; font-size: 14px;
+    letter-spacing: 1.2px; line-height: 1.4;
     color: ${props => props.theme.color.white.regular};
 `;
 
