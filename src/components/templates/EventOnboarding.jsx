@@ -14,6 +14,7 @@ import {
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
 import EventCard from "../organisms/EventCard";
 import image from "../../assets/images/anon.png";
+import matrix from "../../assets/images/matrix.png";
 const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
