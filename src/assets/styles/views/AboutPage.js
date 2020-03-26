@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import Icon from '../../../components/atoms/Icon';
 
 export const AboutContainer = styled.div`
     width: 100%; height:100%;
@@ -102,13 +103,14 @@ export const StyledCard = styled.div`
     width: calc((100% / 3) - 10px); min-width: 250px;
     height: 250px;
     background-color: ${({ theme }) => theme.color.primary.regular};
-    border: 2px solid ${props => props.theme.color.primary.regular};
     margin: 5px 2.5px;
     overflow: hidden;
     transition: all .4s ease-in-out;
 
     &:hover {
         ${props => props.theme.shadow.box};
+        transform: scale(1.1);
+        z-index: 20;
 
         & > img {
             width: 50%; height: 50%;
@@ -126,24 +128,60 @@ export const StarImg = styled.img`
 `;
 
 export const StarInfo = styled.div`
+    ${({ theme }) => theme.flex.columnCenter};
     height: 50%;
     background-color: ${({ theme }) => theme.color.primary.regular};
-    text-transform: uppercase;
+    color: ${({ theme }) => theme.color.white.regular};
     transform: ${({ active }) => active 
         ? `translateY(0)`
         : `translateY(100%)`
     };
     transition: all .4s ease-in-out;
-    border: 3px solid red;
+
+    & > h2 {
+        margin: -25px auto 0;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .role {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .bio {
+        margin-top: 10px;
+        font-size: 16px;
+    }
 `;
 
 export const StarHandles = styled.div`
     position: absolute; top: 0; left: 50%;
+    ${({ theme }) => theme.flex.center};
     width: 50%; height: 50%;
-    border: 3px solid red;
     transform: ${({ active }) => active 
         ? `translateX(0)`
         : `translateX(100%)`
     };
     transition: all .4s ease-in-out;
+`;
+
+export const StyledIcon = styled(Icon)`
+    color: ${({ theme }) => theme.color.white.regular};
+    font-size: 40px;
+    transition: all .2s ease-in;
+    cursor: pointer;
+
+    &:first-child {
+        margin-right: 20px;
+    }
+
+    &:hover {
+        color: ${({ theme }) => theme.color.white.regular};
+        filter: drop-shadow(
+            2px 2px 10px rgb(0, 0, 0), 
+            -.25px -.25px 10px rgb(0, 0, 0)
+        );
+        transform: scale(1.2);
+    }
 `;

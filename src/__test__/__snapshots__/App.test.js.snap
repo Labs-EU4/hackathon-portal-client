@@ -143,7 +143,7 @@ Object {
                 class="sc-kaNhvL dtOdRZ"
               >
                 <div
-                  class="sc-cooIXK hMEbLL"
+                  class="sc-cooIXK kFoUkh"
                 >
                   <img
                     alt=""
@@ -151,11 +151,11 @@ Object {
                     src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4"
                   />
                   <div
-                    class="sc-kZmsYB ivoGGl"
+                    class="sc-kZmsYB fpHxbh"
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -170,7 +170,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -185,11 +185,23 @@ Object {
                     </svg>
                   </div>
                   <div
-                    class="sc-gmeYpB kibYqR"
-                  />
+                    class="sc-gmeYpB edLvMT"
+                  >
+                    <h2>
+                      Anthony Campbell
+                    </h2>
+                    <p
+                      class="role"
+                    >
+                      Team Lead
+                    </p>
+                    <p
+                      class="bio"
+                    />
+                  </div>
                 </div>
                 <div
-                  class="sc-cooIXK hMEbLL"
+                  class="sc-cooIXK kFoUkh"
                 >
                   <img
                     alt=""
@@ -197,11 +209,11 @@ Object {
                     src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4"
                   />
                   <div
-                    class="sc-kZmsYB ivoGGl"
+                    class="sc-kZmsYB fpHxbh"
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -216,7 +228,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -231,11 +243,23 @@ Object {
                     </svg>
                   </div>
                   <div
-                    class="sc-gmeYpB kibYqR"
-                  />
+                    class="sc-gmeYpB edLvMT"
+                  >
+                    <h2>
+                      Abdel Idir
+                    </h2>
+                    <p
+                      class="role"
+                    >
+                      FullStack Software Developer
+                    </p>
+                    <p
+                      class="bio"
+                    />
+                  </div>
                 </div>
                 <div
-                  class="sc-cooIXK hMEbLL"
+                  class="sc-cooIXK kFoUkh"
                 >
                   <img
                     alt=""
@@ -243,11 +267,11 @@ Object {
                     src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4"
                   />
                   <div
-                    class="sc-kZmsYB ivoGGl"
+                    class="sc-kZmsYB fpHxbh"
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -262,7 +286,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -277,11 +301,23 @@ Object {
                     </svg>
                   </div>
                   <div
-                    class="sc-gmeYpB kibYqR"
-                  />
+                    class="sc-gmeYpB edLvMT"
+                  >
+                    <h2>
+                      Karim Bertacche
+                    </h2>
+                    <p
+                      class="role"
+                    >
+                      FullStack Software Developer
+                    </p>
+                    <p
+                      class="bio"
+                    />
+                  </div>
                 </div>
                 <div
-                  class="sc-cooIXK hMEbLL"
+                  class="sc-cooIXK kFoUkh"
                 >
                   <img
                     alt=""
@@ -289,11 +325,11 @@ Object {
                     src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4"
                   />
                   <div
-                    class="sc-kZmsYB ivoGGl"
+                    class="sc-kZmsYB fpHxbh"
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -308,7 +344,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -323,11 +359,23 @@ Object {
                     </svg>
                   </div>
                   <div
-                    class="sc-gmeYpB kibYqR"
-                  />
+                    class="sc-gmeYpB edLvMT"
+                  >
+                    <h2>
+                      John Afolabi
+                    </h2>
+                    <p
+                      class="role"
+                    >
+                      FullStack Software Developer
+                    </p>
+                    <p
+                      class="bio"
+                    />
+                  </div>
                 </div>
                 <div
-                  class="sc-cooIXK hMEbLL"
+                  class="sc-cooIXK kFoUkh"
                 >
                   <img
                     alt=""
@@ -335,11 +383,11 @@ Object {
                     src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c"
                   />
                   <div
-                    class="sc-kZmsYB ivoGGl"
+                    class="sc-kZmsYB fpHxbh"
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -354,7 +402,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -369,13 +417,25 @@ Object {
                     </svg>
                   </div>
                   <div
-                    class="sc-gmeYpB kibYqR"
+                    class="sc-gmeYpB edLvMT"
                   >
-                    Grumpy, old lady
+                    <h2>
+                      Emma Andrews
+                    </h2>
+                    <p
+                      class="role"
+                    >
+                      FullStack Software Developer
+                    </p>
+                    <p
+                      class="bio"
+                    >
+                      Our favourite grumpy, old lady 👵🏻
+                    </p>
                   </div>
                 </div>
                 <div
-                  class="sc-cooIXK hMEbLL"
+                  class="sc-cooIXK kFoUkh"
                 >
                   <img
                     alt=""
@@ -383,11 +443,11 @@ Object {
                     src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4"
                   />
                   <div
-                    class="sc-kZmsYB ivoGGl"
+                    class="sc-kZmsYB fpHxbh"
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -402,7 +462,7 @@ Object {
                     </svg>
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -417,14 +477,26 @@ Object {
                     </svg>
                   </div>
                   <div
-                    class="sc-gmeYpB kibYqR"
-                  />
+                    class="sc-gmeYpB edLvMT"
+                  >
+                    <h2>
+                      Ekanem David
+                    </h2>
+                    <p
+                      class="role"
+                    >
+                      FullStack Software Developer
+                    </p>
+                    <p
+                      class="bio"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="sc-jDwBTQ sc-clNaTc cavtYi"
+            class="sc-jDwBTQ sc-etwtAo cJGmsE"
           >
             <form
               action="#"
@@ -532,7 +604,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-ksYbfQ sc-etwtAo ibsIsk"
+                class="sc-ksYbfQ sc-jXQZqI bPaOIS"
               >
                 <button
                   class="sc-ifAKCX fHwHnk"
@@ -879,7 +951,7 @@ Object {
               class="sc-kaNhvL dtOdRZ"
             >
               <div
-                class="sc-cooIXK hMEbLL"
+                class="sc-cooIXK kFoUkh"
               >
                 <img
                   alt=""
@@ -887,11 +959,11 @@ Object {
                   src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4"
                 />
                 <div
-                  class="sc-kZmsYB ivoGGl"
+                  class="sc-kZmsYB fpHxbh"
                 >
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="github"
                     data-prefix="fab"
                     focusable="false"
@@ -906,7 +978,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="linkedin"
                     data-prefix="fab"
                     focusable="false"
@@ -921,11 +993,23 @@ Object {
                   </svg>
                 </div>
                 <div
-                  class="sc-gmeYpB kibYqR"
-                />
+                  class="sc-gmeYpB edLvMT"
+                >
+                  <h2>
+                    Anthony Campbell
+                  </h2>
+                  <p
+                    class="role"
+                  >
+                    Team Lead
+                  </p>
+                  <p
+                    class="bio"
+                  />
+                </div>
               </div>
               <div
-                class="sc-cooIXK hMEbLL"
+                class="sc-cooIXK kFoUkh"
               >
                 <img
                   alt=""
@@ -933,11 +1017,11 @@ Object {
                   src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4"
                 />
                 <div
-                  class="sc-kZmsYB ivoGGl"
+                  class="sc-kZmsYB fpHxbh"
                 >
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="github"
                     data-prefix="fab"
                     focusable="false"
@@ -952,7 +1036,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="linkedin"
                     data-prefix="fab"
                     focusable="false"
@@ -967,11 +1051,23 @@ Object {
                   </svg>
                 </div>
                 <div
-                  class="sc-gmeYpB kibYqR"
-                />
+                  class="sc-gmeYpB edLvMT"
+                >
+                  <h2>
+                    Abdel Idir
+                  </h2>
+                  <p
+                    class="role"
+                  >
+                    FullStack Software Developer
+                  </p>
+                  <p
+                    class="bio"
+                  />
+                </div>
               </div>
               <div
-                class="sc-cooIXK hMEbLL"
+                class="sc-cooIXK kFoUkh"
               >
                 <img
                   alt=""
@@ -979,11 +1075,11 @@ Object {
                   src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4"
                 />
                 <div
-                  class="sc-kZmsYB ivoGGl"
+                  class="sc-kZmsYB fpHxbh"
                 >
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="github"
                     data-prefix="fab"
                     focusable="false"
@@ -998,7 +1094,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="linkedin"
                     data-prefix="fab"
                     focusable="false"
@@ -1013,11 +1109,23 @@ Object {
                   </svg>
                 </div>
                 <div
-                  class="sc-gmeYpB kibYqR"
-                />
+                  class="sc-gmeYpB edLvMT"
+                >
+                  <h2>
+                    Karim Bertacche
+                  </h2>
+                  <p
+                    class="role"
+                  >
+                    FullStack Software Developer
+                  </p>
+                  <p
+                    class="bio"
+                  />
+                </div>
               </div>
               <div
-                class="sc-cooIXK hMEbLL"
+                class="sc-cooIXK kFoUkh"
               >
                 <img
                   alt=""
@@ -1025,11 +1133,11 @@ Object {
                   src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4"
                 />
                 <div
-                  class="sc-kZmsYB ivoGGl"
+                  class="sc-kZmsYB fpHxbh"
                 >
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="github"
                     data-prefix="fab"
                     focusable="false"
@@ -1044,7 +1152,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="linkedin"
                     data-prefix="fab"
                     focusable="false"
@@ -1059,11 +1167,23 @@ Object {
                   </svg>
                 </div>
                 <div
-                  class="sc-gmeYpB kibYqR"
-                />
+                  class="sc-gmeYpB edLvMT"
+                >
+                  <h2>
+                    John Afolabi
+                  </h2>
+                  <p
+                    class="role"
+                  >
+                    FullStack Software Developer
+                  </p>
+                  <p
+                    class="bio"
+                  />
+                </div>
               </div>
               <div
-                class="sc-cooIXK hMEbLL"
+                class="sc-cooIXK kFoUkh"
               >
                 <img
                   alt=""
@@ -1071,11 +1191,11 @@ Object {
                   src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c"
                 />
                 <div
-                  class="sc-kZmsYB ivoGGl"
+                  class="sc-kZmsYB fpHxbh"
                 >
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="github"
                     data-prefix="fab"
                     focusable="false"
@@ -1090,7 +1210,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="linkedin"
                     data-prefix="fab"
                     focusable="false"
@@ -1105,13 +1225,25 @@ Object {
                   </svg>
                 </div>
                 <div
-                  class="sc-gmeYpB kibYqR"
+                  class="sc-gmeYpB edLvMT"
                 >
-                  Grumpy, old lady
+                  <h2>
+                    Emma Andrews
+                  </h2>
+                  <p
+                    class="role"
+                  >
+                    FullStack Software Developer
+                  </p>
+                  <p
+                    class="bio"
+                  >
+                    Our favourite grumpy, old lady 👵🏻
+                  </p>
                 </div>
               </div>
               <div
-                class="sc-cooIXK hMEbLL"
+                class="sc-cooIXK kFoUkh"
               >
                 <img
                   alt=""
@@ -1119,11 +1251,11 @@ Object {
                   src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4"
                 />
                 <div
-                  class="sc-kZmsYB ivoGGl"
+                  class="sc-kZmsYB fpHxbh"
                 >
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-github fa-w-16 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="github"
                     data-prefix="fab"
                     focusable="false"
@@ -1138,7 +1270,7 @@ Object {
                   </svg>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr"
+                    class="svg-inline--fa fa-linkedin fa-w-14 sc-gipzik kaVZAr sc-RcBXQ cienBk"
                     data-icon="linkedin"
                     data-prefix="fab"
                     focusable="false"
@@ -1153,14 +1285,26 @@ Object {
                   </svg>
                 </div>
                 <div
-                  class="sc-gmeYpB kibYqR"
-                />
+                  class="sc-gmeYpB edLvMT"
+                >
+                  <h2>
+                    Ekanem David
+                  </h2>
+                  <p
+                    class="role"
+                  >
+                    FullStack Software Developer
+                  </p>
+                  <p
+                    class="bio"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div
-          class="sc-jDwBTQ sc-clNaTc cavtYi"
+          class="sc-jDwBTQ sc-etwtAo cJGmsE"
         >
           <form
             action="#"
@@ -1268,7 +1412,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ksYbfQ sc-etwtAo ibsIsk"
+              class="sc-ksYbfQ sc-jXQZqI bPaOIS"
             >
               <button
                 class="sc-ifAKCX fHwHnk"
