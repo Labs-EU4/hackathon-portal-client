@@ -16,15 +16,15 @@
 [context.production]
   command = "react-scripts build"
   [context.production.environment]
-    REACT_APP_API_URL = "https://labseu4-hackathon.herokuapp.com"
+    REACT_APP_API_URL = "https://labseu4-hackathon-development.herokuapp.com"
 
 # Deploy Preview context: All deploys generated from a pull/merge request
 # will inherit these settings.
 [context.deploy-preview.environment]
-  REACT_APP_API_URL = "https://hackathon-review-deployment.herokuapp.com"
+  REACT_APP_API_URL = "https://labseu4-hackathon-development.herokuapp.com"
 
 [context.develop.environment]
-  REACT_APP_API_URL = "https://labseu4-hackathon-staging.herokuapp.com"
+  REACT_APP_API_URL = "https://labseu4-hackathon-development.herokuapp.com"
 
 [[redirects]]
 from = "/*"

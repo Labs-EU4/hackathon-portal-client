@@ -11,6 +11,7 @@ import {
   setTeamMates,
   fetchTeams,
   fetchTeamId
+  // deleteTeammate,
 } from "./actions";
 
 export function* participantTeamSagas() {
@@ -19,7 +20,8 @@ export function* participantTeamSagas() {
     call(watchAddParticipantTeamMember),
     call(watchFetchTeamAsync),
     call(watchFetchTeamMateAsync),
-    call(watchSendParticipantInvite)
+    call(watchSendParticipantInvite),
+    call(watchDeleteTeam),
   ]);
 }
 
@@ -27,17 +29,20 @@ export function* participantTeamSagas() {
 function* createTeamNameAsync({ payload, history }) {
   try {
     const token = yield select(selectToken);
-    const { eventId } = payload;
-    const { data } = yield axiosWithAuth(token).post(
-      `/api/events/${eventId}/participant-teams`,
-      payload
+    const { eventId, team_name, teamLeadId } = payload;
+    const url = `/api/events/${eventId}/participant-teams`;
+    const {
+      data
+    } = yield axiosWithAuth(token).post(
+      url, {
+        eventId: eventId,
+        team_name: team_name
+      }
     );
-    
     if (data) {
-      yield showSuccess(`😀 ${data.message}`);
-      yield put(fetchTeams(eventId));  
+      put(fetchTeams(eventId));
+      return showSuccess(`😀 ${data.message}`);
     }
-
     const teamBody = data.body;
     let teamId;
     teamBody.map(team => {
@@ -45,10 +50,10 @@ function* createTeamNameAsync({ payload, history }) {
       return teamId;
     });
 
-    yield put(fetchTeamId(teamId))
-    
+    put(fetchTeamId(teamId))
+
   } catch (error) {
-    yield handleError(error, put, history);
+    return handleError(error, put, history);
   }
 }
 
@@ -136,3 +141,19 @@ function* watchSendParticipantInvite() {
     sendParticipantInviteAsync
   );
 }
+
+
+function* deleteTeamAsync({ payload }) {
+  try {
+    const token = yield select(selectToken);
+    const { data } = yield axiosWithAuth(token).delete(`/api/events/participant-teams/${payload}`);
+    yield showSuccess(`😲 ${data.message}`);
+  } catch (error) {
+    yield handleError(error, put);
+  }
+}
+
+function* watchDeleteTeam() {
+  yield takeLatest(ParticiPantTeamTypes.DELETE_TEAM, deleteTeamAsync);
+}
+
