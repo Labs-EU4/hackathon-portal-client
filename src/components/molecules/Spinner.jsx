@@ -8,7 +8,7 @@ export default () => (
     <Loader
       type="ThreeDots"
       color="#2559a1"
-      height={20}
+      height={50}
       width={100}
       visible={true}
     />
