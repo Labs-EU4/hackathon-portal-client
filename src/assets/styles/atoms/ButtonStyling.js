@@ -11,11 +11,11 @@ export const StyledButton = styled.button`
   outline: none;
   border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
-  padding: 8px 32px;
+  padding: 8px 28px;
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
-  text-align: center;
+  text-align: center; letter-spacing: 1px;
   transition: all 0.5s;
 
   &:hover {
@@ -69,7 +69,7 @@ export const StyledButton = styled.button`
     if (color === "grey")
       return `
         background: ${solid.white};
-        border: 3px solid ${solid.grey};
+        border: 3px solid ${solid.primary};
         color: ${solid.grey};
 
         @media ${media.tablet} {
@@ -79,7 +79,6 @@ export const StyledButton = styled.button`
 
         &:hover {
           background: ${solid.grey};
-          border: 3px solid ${solid.grey};
           color: ${solid.white};
         }
       `;
@@ -109,12 +108,12 @@ export const StyledLink = styled(Link)`
   outline: none;
   border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
-  padding: 8px 32px;
+  padding: 8px 28px;
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; letter-spacing: 1px;
   transition: all 0.5s;
 
   &:hover {
@@ -126,11 +125,12 @@ export const StyledLink = styled(Link)`
     if (color === "primary")
       return `
         background: ${solid.primary};
+        border: 2px solid white;
         color: ${solid.white};
         transition: transform .2s ease-in-out;
 
         &:hover {
-          border: 3px solid ${solid.primary};
+          border: 2px solid ${solid.primary};
           transform: scale(1.01);
         }
     `;
@@ -208,12 +208,12 @@ export const StyledAnchor = styled.a`
   outline: none;
   border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
-  padding: 8px 32px;
+  padding: 8px 28px;
   font-size: 12px;
   font-weight: 600;
   white-space: nowrap;
   text-align: center;
-  text-decoration: none;
+  text-decoration: none; letter-spacing: 1px;
   transition: all 0.5s;
 
   &:hover {
