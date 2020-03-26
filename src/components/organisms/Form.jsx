@@ -100,14 +100,9 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             </ErrorSpan>
 
             <StyledButton type="submit" size="wide" color="blue">
-              {ctaText}
+              {spinner === false ? ctaText : <Spinner />}
             </StyledButton>
-            {spinner === false ? null : (
-              <>
-                <Spinner />
-                <span>Loading</span>
-              </>
-            )}
+
             {ctaText.toLowerCase() === "log in" && (
               <StyledAnchor to="/forgotpassword">Forgot password?</StyledAnchor>
             )}
