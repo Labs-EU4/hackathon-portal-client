@@ -35,9 +35,10 @@ export const HeroText = styled.div`
 export const MainContent = styled.div`
     ${props => props.theme.shadow.box};
     position: relative;
-    width: 90%; max-width: 1000px;
+    width: 95%; max-width: 1000px;
     background-color: ${props => props.theme.color.white.regular};
     margin: -100px auto;
+    padding: 24px;
     border-radius: 3px;
     z-index: 1;
 `;
@@ -56,10 +57,8 @@ export const SectionTitle = styled.h1`
 `;
 
 export const TeamContainer = styled.div`
-    /* display: grid;
-    grid-template-columns: repeat(autofill, minmax( 250px, 1fr)); */
     ${({theme}) => theme.flex.custom('space-evenly', 'flex-start', 'row', 'wrap')};
-    margin: 0 auto 10px;
+    margin: 0 auto 30px;
 `;
 
 export const Paragraph = styled.p`
@@ -105,7 +104,7 @@ export const StyledCard = styled.div`
     background-color: ${({ theme }) => theme.color.primary.regular};
     margin: 5px 2.5px;
     overflow: hidden;
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in;
 
     &:hover {
         ${props => props.theme.shadow.box};
@@ -152,12 +151,13 @@ export const StarInfo = styled.div`
     .bio {
         margin-top: 10px;
         font-size: 16px;
+        text-align: center;
     }
 `;
 
 export const StarHandles = styled.div`
     position: absolute; top: 0; left: 50%;
-    ${({ theme }) => theme.flex.center};
+    ${({ theme }) => theme.flex.custom('space-evenly', 'center')};
     width: 50%; height: 50%;
     transform: ${({ active }) => active 
         ? `translateX(0)`
@@ -171,10 +171,6 @@ export const StyledIcon = styled(Icon)`
     font-size: 40px;
     transition: all .2s ease-in;
     cursor: pointer;
-
-    &:first-child {
-        margin-right: 20px;
-    }
 
     &:hover {
         color: ${({ theme }) => theme.color.white.regular};

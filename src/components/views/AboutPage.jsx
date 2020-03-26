@@ -151,7 +151,9 @@ const StarCard = ({ star }) => {
         identifier, 
         bio,
         fullName,
-        role
+        role,
+        gitHubHandle,
+        linkednHandle
     } = star;
     const [ showInfo, setShowInfo ] = useState(false);
     return (
@@ -163,8 +165,8 @@ const StarCard = ({ star }) => {
             <StarHandles
                 active={showInfo}
             >
-                <StyledIcon icon={['fab', 'github']} />
-                <StyledIcon icon={['fab', 'linkedin']} />
+                <a href={gitHubHandle} target="_blank"><StyledIcon icon={['fab', 'github']} /></a>
+                <a href={linkednHandle} target="_blank"><StyledIcon icon={['fab', 'linkedin']} /></a>
             </StarHandles>
             <StarInfo active={showInfo}>
                 <h2>{fullName}</h2>
