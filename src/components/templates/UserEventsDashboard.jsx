@@ -12,7 +12,7 @@ import EventCard from "../organisms/EventCard";
 import { useRegisteredEvents } from "../../hooks";
 
 const UserEventsDashboard = ({ eventModalHandler }) => {
-  const [isRegisteredEvents, setIsRegisteredEvents] = useState(true);
+  const [isRegisteredEvents, setIsRegisteredEvents] = useState(false);
   const events = useSelector(state => state.events.data);
   const [data] = useRegisteredEvents();
   const registeredEvents = data?.body || [];
@@ -55,7 +55,9 @@ const UserEventsDashboard = ({ eventModalHandler }) => {
                 />
               ))
             ) : (
-              <StyledH4>You haven't registered to any events yet. Why wait?</StyledH4>
+              <StyledH4>
+                You haven't registered to any events yet. Why wait?
+              </StyledH4>
             )}
           </>
         )}

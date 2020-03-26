@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 // import image from "./anon.png";
 // Variables
 const GMAP = "AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I";
+// eslint-disable-next-line
 const myLocation = {
   // CN Tower Landmark
   lat: 35.6762,
@@ -63,6 +64,7 @@ function ResultPage(props) {
     window.document.body.appendChild(googleMapScript);
 
     googleMapScript.addEventListener("load", () => {
+      // eslint-disable-next-line
       createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
         zoom: 12,
         center: {

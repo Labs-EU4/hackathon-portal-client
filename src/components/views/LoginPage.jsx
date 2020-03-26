@@ -6,6 +6,7 @@ import { UserOnboarding } from "../templates";
 const LoginPage = () => {
   function showMap(position) {
     // Show a map centered at (position.coords.latitude, position.coords.longitude).
+    // eslint-disable-next-line
     let currentLocation;
 
     return (currentLocation = [
