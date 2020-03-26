@@ -99,12 +99,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               <ErrorMessage name="password" />
             </ErrorSpan>
 
-            <StyledButton
-              type="submit"
-              size="wide"
-              color="blue"
-              // onClick={() => setSpinner(true)}
-            >
+            <StyledButton type="submit" size="wide" color="blue">
               {ctaText}
             </StyledButton>
             {spinner === false ? null : (
