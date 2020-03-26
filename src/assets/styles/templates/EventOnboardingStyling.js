@@ -32,9 +32,11 @@ export const MapContainer = styled.div`
   width: 90%;
   height: 90%;
   min-height: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
   box-shadow: 
-    2px 2px 10px rgb(255, 255, 255),
-    -2px 2px 10px rgb(255, 255, 255)
+    2px 2px 10px rgb(0, 255, 70),
+    -2px 2px 10px rgb(0, 255, 70)
   ;
 `;
 
