@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import bg from '../images/Matrix-bg.jpg';
+
 export const GlobalStyles = createGlobalStyle`
   /*MEYER RESET*/
   html, body, div, span, applet, object, iframe,
@@ -259,10 +261,10 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   :root {
-      @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+      @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+      font-family: 'Orbitron', sans-serif;
       font-size: 62.5%;
       font-size: 57.5%;
-      font-family: 'Roboto Condensed', sans-serif;
       scroll-behavior: smooth;
       line-height: normal;
       --app-background: rgba(15,15,15,0.925);
@@ -292,7 +294,7 @@ export const GlobalStyles = createGlobalStyle`
       text-shadow: 0 1px 5px rgba(0,0,0,.1);
       line-height: 1.2;
       color: black;
-      background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+      background-image: url(${bg}), linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
       
       .dashboard-bg {
           height: 105vh;
