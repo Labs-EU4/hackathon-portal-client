@@ -7,15 +7,15 @@ import { Paragraph } from "../atoms/ParagraphStyling";
 
 export const SpanContent = styled(BoldSpan)`
   font-weight: bold; font-size: 16px; 
+  color: ${props => props.theme.color.primary.regular};
   text-transform: capitalize;
 `;
 
 export const PTags = styled(Paragraph)`
   display: inline-block;
   text-align: center;
-  border: 1px solid #e9b75f;
   border-radius: 6px;
-  color: #212121;
+  color: white;
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ export const ModalBody = styled.div`
 export const StyledEventCard = styled(CardWide)`
   position: relative;
   min-width: 99%; height: 100%;
-  background-color: ${props => props.active ? 'rgba(0, 0, 0, .8)' : props.theme.color.grey.bg};
+  background-color: #1b1e26;
   transform: ${props => props.active && 'translateY(80%)'};
   overflow-y: scroll;
   box-shadow: 3px 3px 10px ${props => props.theme.color.black.regular};
@@ -145,5 +145,5 @@ export const PHosted = styled(Paragraph)`
   margin-bottom: 0;
   font-weight: bold;
   font-size: 16px;
-  color: ${props => props.theme.color.black.regular};
+  color: ${props => props.theme.color.primary.regular};
 `;
