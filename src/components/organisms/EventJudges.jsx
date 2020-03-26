@@ -8,7 +8,7 @@ import {
   JudgeIcon,
   NoJudgesParagraph
 } from "../../assets/styles/templates/HackathonSingleStyling";
-import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
+// import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 
 const EventJudges = ({ team }) => {
   return (
