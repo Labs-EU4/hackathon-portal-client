@@ -1,6 +1,6 @@
 import React from "react";
 import { useField } from "formik";
-import { CheckGroupN } from "../../assets/styles/atoms/CheckGroup";
+import { CheckGroup } from "../../assets/styles/atoms/CheckGroup";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
 import { StyledCheckboxFieldN } from "../../assets/styles/molecules/CheckboxStyling";
 
