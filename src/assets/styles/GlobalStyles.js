@@ -262,7 +262,7 @@ export const GlobalStyles = createGlobalStyle`
 
   :root {
       @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
-      font-family: 'Orbitron', sans-serif;
+      font-family: 'Orbitron', sans-serif !important;
       font-size: 62.5%;
       font-size: 57.5%;
       scroll-behavior: smooth;
