@@ -102,13 +102,31 @@ export const StyledCard = styled.div`
     height: 250px;
     border: 2px solid ${props => props.theme.color.primary.regular};
     margin: 5px 2.5px;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
 
     &:hover {
         ${props => props.theme.shadow.box};
+
+        & > img {
+            width: 50%; height: 50%;
+        }
     }
 `;
 
-export const MemberImg = styled.img`
-width: 100%; height: 100%;
-object-fit: cover;
+export const StarImg = styled.img`
+    width: 100%; height: 100%;
+    object-fit: cover;
+    transition: all .4s ease-in-out;
+`;
+
+export const StarInfo = styled.div`
+    height: 50%;
+    background-color: red;
+    text-transform: uppercase;
+    transform: ${({ active }) => active 
+        ? `translateY(0)`
+        : `translateY(100%)`
+    };
+    transition: all .4s ease-in-out;
 `;
