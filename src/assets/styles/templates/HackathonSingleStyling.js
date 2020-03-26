@@ -116,6 +116,8 @@ export const JudgeImg = styled.img`
 export const JudgeInfo = styled.div`
   ${props => props.theme.flex.column};
   padding: 10px;
+  font-size: 14px; letter-spacing: 1.2px;
+  color: rgb(0, 255, 70);
 `;
 
 export const TagsCardWide = styled(CardWide)`
@@ -154,6 +156,12 @@ export const Image = styled.img`
   margin: 10px 0 5px;
 `;
 
+export const OrgImg = styled(Icon)`
+  font-size: 60px;
+  color: rgb(0, 255, 70);
+  margin: 10px 0 5px;
+`;
+
 export const PHosted = styled(Paragraph)`
   margin-bottom: 0;
   font-weight: bold;
@@ -164,4 +172,14 @@ export const PHosted = styled(Paragraph)`
 export const StyledParagraph = styled(Paragraph)`
   font-size: 15px;
   letter-spacing: 1.2px; line-height: 1.5;
+`;
+
+export const NoJudgesParagraph = styled(Paragraph)`
+  font-size: 14px;
+  margin: 20px auto;
+`;
+
+export const JudgeIcon = styled(Icon)`
+  font-size: 80px;
+  color: rgb(0, 255, 70);
 `;
