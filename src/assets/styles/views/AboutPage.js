@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import Icon from '../../../components/atoms/Icon';
 
 export const AboutContainer = styled.div`
     width: 100%; height:100%;
@@ -34,9 +35,10 @@ export const HeroText = styled.div`
 export const MainContent = styled.div`
     ${props => props.theme.shadow.box};
     position: relative;
-    width: 90%; max-width: 1000px;
+    width: 95%; max-width: 1000px;
     background-color: ${props => props.theme.color.white.regular};
     margin: -100px auto;
+    padding: 24px;
     border-radius: 3px;
     z-index: 1;
 `;
@@ -55,21 +57,8 @@ export const SectionTitle = styled.h1`
 `;
 
 export const TeamContainer = styled.div`
-    /* display: grid;
-    grid-template-columns: repeat(autofill, minmax( 250px, 1fr)); */
     ${({theme}) => theme.flex.custom('space-evenly', 'flex-start', 'row', 'wrap')};
-    margin: 0 auto 10px;
-`;
-
-export const StyledCard = styled.div`
-    width: calc((100% / 3) - 10px); min-width: 250px;
-    height: 250px;
-    border: 2px solid ${props => props.theme.color.primary.regular};
-    margin: 5px 2.5px;
-
-    &:hover {
-        ${props => props.theme.shadow.box};
-    }
+    margin: 0 auto 30px;
 `;
 
 export const Paragraph = styled.p`
@@ -106,4 +95,89 @@ export const FeatureDescription = styled.p`
     text-align: center;
     font-weight: bold;
     color: #00C4CC;
+`;
+
+export const StyledCard = styled.div`
+    position: relative;
+    width: calc((100% / 3) - 10px); min-width: 250px;
+    height: 250px;
+    background-color: ${({ theme }) => theme.color.primary.regular};
+    margin: 5px 2.5px;
+    overflow: hidden;
+    transition: all .2s ease-in;
+
+    &:hover {
+        ${props => props.theme.shadow.box};
+        transform: scale(1.1);
+        z-index: 20;
+
+        & > img {
+            width: 50%; height: 50%;
+            filter: grayscale(0%);
+        }
+    }
+`;
+
+export const StarImg = styled.img`
+    width: 100%; height: 100%;
+    object-fit: cover;
+    /* opacity: .9; */
+    filter: grayscale(90%);
+    transition: all .4s ease-in-out;
+`;
+
+export const StarInfo = styled.div`
+    ${({ theme }) => theme.flex.columnCenter};
+    height: 50%;
+    background-color: ${({ theme }) => theme.color.primary.regular};
+    color: ${({ theme }) => theme.color.white.regular};
+    transform: ${({ active }) => active 
+        ? `translateY(0)`
+        : `translateY(100%)`
+    };
+    transition: all .4s ease-in-out;
+
+    & > h2 {
+        margin: -25px auto 0;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .role {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .bio {
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+`;
+
+export const StarHandles = styled.div`
+    position: absolute; top: 0; left: 50%;
+    ${({ theme }) => theme.flex.custom('space-evenly', 'center')};
+    width: 50%; height: 50%;
+    transform: ${({ active }) => active 
+        ? `translateX(0)`
+        : `translateX(100%)`
+    };
+    transition: all .4s ease-in-out;
+`;
+
+export const StyledIcon = styled(Icon)`
+    color: ${({ theme }) => theme.color.white.regular};
+    font-size: 40px;
+    transition: all .2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+        color: ${({ theme }) => theme.color.white.regular};
+        filter: drop-shadow(
+            2px 2px 10px rgb(0, 0, 0), 
+            -.25px -.25px 10px rgb(0, 0, 0)
+        );
+        transform: scale(1.2);
+    }
 `;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
     AboutContainer, 
     AboutHeaderContainer, 
@@ -7,13 +7,17 @@ import {
     MainContent, 
     SectionTitle, 
     TeamContainer, 
-    StyledCard,
     Paragraph,
     FeaturesContainer,
     FeatureBox,
     FeatureTitle,
-    FeatureDescription
-} from "../../assets/styles/views/AboutPage"
+    FeatureDescription,
+    StyledCard,
+    StarImg,
+    StarInfo,
+    StarHandles,
+    StyledIcon
+} from "../../assets/styles/views/AboutPage";
 
 import Logo from '../atoms/Logo';
 import teamImg from '../../assets/images/team.png';
@@ -22,56 +26,62 @@ import transparencyImg from '../../assets/images/transparency.png';
 
 const teamMembers = [
     {
-        name: "Anthony Campbell",
-        role: "Team Leader",
-        about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        fullName: "Anthony Campbell",
+        role: "Team Lead",
+        bio: "",
+        imgUrl: "https://avatars3.githubusercontent.com/u/45029641?s=400&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/AnthonyJCampbell",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
-        about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        fullName: "Abdel Idir",
+        role: "FullStack Software Developer",
+        bio: "",
+        imgUrl: "https://avatars0.githubusercontent.com/u/53605229?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/AbdelIdir",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
-        about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        fullName: "Karim Bertacche",
+        role: "FullStack Software Developer",
+        bio: "",
+        imgUrl: "https://avatars3.githubusercontent.com/u/49835145?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/KarimBertacche",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
-        about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        fullName: "John Afolabi",
+        role: "FullStack Software Developer",
+        bio: "",
+        imgUrl: "https://avatars3.githubusercontent.com/u/19263499?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/john-afolabi",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
-        about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        fullName: "Emma Andrews",
+        role: "FullStack Software Developer",
+        bio: "Our favourite grumpy, old lady 👵🏻",
+        imgUrl: "https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c",
+        identifier: "",
+        gitHubHandle: "https://github.com/ELAndrews",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
-        about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        fullName: "Ekanem David",
+        role: "FullStack Software Developer",
+        bio: "",
+        imgUrl: "https://avatars2.githubusercontent.com/u/38921132?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/dueka",
         linkednHandle: "",
         other: ""
     }
@@ -120,7 +130,10 @@ const AboutPage = () => {
                     {
                         teamMembers.map((star, index) => {
                             return (
-                                <StarCard key={index}/>
+                                <StarCard 
+                                    key={index} 
+                                    {...{star}} 
+                                />
                             );
                         })
                     }
@@ -132,10 +145,36 @@ const AboutPage = () => {
 
 export default AboutPage;
 
-const StarCard = props => {
+const StarCard = ({ star }) => {
+    const { 
+        imgUrl, 
+        identifier, 
+        bio,
+        fullName,
+        role,
+        gitHubHandle,
+        linkednHandle
+    } = star;
+    const [ showInfo, setShowInfo ] = useState(false);
     return (
-        <StyledCard>
-
+        <StyledCard
+            onMouseOver={() => setShowInfo(true)}
+            onMouseLeave={() => setShowInfo(false)}
+        >
+            <StarImg src={imgUrl} alt={identifier} />
+            <StarHandles
+                active={showInfo}
+            >
+                <a href={gitHubHandle} target="_blank"><StyledIcon icon={['fab', 'github']} /></a>
+                <a href={linkednHandle} target="_blank"><StyledIcon icon={['fab', 'linkedin']} /></a>
+            </StarHandles>
+            <StarInfo active={showInfo}>
+                <h2>{fullName}</h2>
+                <p className="role">{role}</p>
+                <p className="bio">{bio}</p>
+            </StarInfo>
         </StyledCard>
     );
 };
+
+
