@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-jTzLTM hJYDuO"
+        class="sc-jzJRlG klhvVl"
       >
         <div
-          class="sc-jDwBTQ cOrSs"
+          class="sc-iRbamj iCuqQQ"
           spacing="center"
         >
           <div
@@ -86,12 +86,12 @@ Object {
           </div>
         </div>
         <p
-          class="sc-eHgmQL fGtgpR"
+          class="sc-brqgnP gysXPK"
           color="primary"
         >
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY bykvnN"
+            class="svg-inline--fa fa-times fa-w-11 sc-dnqmqq eRxPxp"
             data-icon="times"
             data-prefix="fas"
             focusable="false"
@@ -110,10 +110,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-jTzLTM hJYDuO"
+      class="sc-jzJRlG klhvVl"
     >
       <div
-        class="sc-jDwBTQ cOrSs"
+        class="sc-iRbamj iCuqQQ"
         spacing="center"
       >
         <div
@@ -190,12 +190,12 @@ Object {
         </div>
       </div>
       <p
-        class="sc-eHgmQL fGtgpR"
+        class="sc-brqgnP gysXPK"
         color="primary"
       >
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-times fa-w-11 sc-cvbbAY bykvnN"
+          class="svg-inline--fa fa-times fa-w-11 sc-dnqmqq eRxPxp"
           data-icon="times"
           data-prefix="fas"
           focusable="false"

@@ -130,7 +130,7 @@ const HSTagsCard = ({
                 )}
                 {/* Implement this feature using google calendar or other similar services */}
                 {isOpen ? (
-                <Button size="wide" color="primary-reverse">
+                <Button size="wide" disabled>
                     Add to calendar
                 </Button>
                 ) : (

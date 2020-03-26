@@ -48,7 +48,7 @@ Object {
               class="sc-jTzLTM bxzhAG"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="event_title"
               >
                 Hackathon Title
@@ -69,7 +69,7 @@ Object {
               class="sc-jTzLTM bxzhAG"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="event_description"
               >
                 Description
@@ -91,7 +91,7 @@ Object {
               class="sc-jTzLTM bxzhAG"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="location"
               >
                 Location
@@ -115,7 +115,7 @@ Object {
                 class="sc-fjdhpX gpYlNN"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="start_date"
                 >
                   Event Starts
@@ -137,7 +137,7 @@ Object {
                 class="sc-fjdhpX gpYlNN"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="end_date"
                 >
                   Event Ends
@@ -163,7 +163,7 @@ Object {
                 class="sc-fjdhpX gpYlNN"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="start_time"
                 >
                   Start Time
@@ -185,7 +185,7 @@ Object {
                 class="sc-fjdhpX gpYlNN"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="end_time"
                 >
                   End Time
@@ -209,7 +209,7 @@ Object {
               id="grading_rubrics"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="grading_rubrics"
               >
                 Grading Rubrics (tick all that apply)
@@ -230,7 +230,7 @@ Object {
                   value="presentation"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="presentation"
                 >
                   Presentation
@@ -247,7 +247,7 @@ Object {
                   value="product_fit"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="product_fit"
                 >
                   Product Fit
@@ -264,7 +264,7 @@ Object {
                   value="functionality"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="functionality"
                 >
                   Functionality
@@ -281,7 +281,7 @@ Object {
                   value="innovation"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="innovation"
                 >
                   Innovation
@@ -298,7 +298,7 @@ Object {
                   value="product_design"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="product_design"
                 >
                   Product Design
@@ -315,7 +315,7 @@ Object {
                   value="extensibility"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="extensibility"
                 >
                   Extensibility
@@ -330,7 +330,7 @@ Object {
               class="sc-jTzLTM bxzhAG"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="prize"
               >
                 Prize
@@ -354,7 +354,7 @@ Object {
                 class="sc-fjdhpX gpYlNN"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="participation_type"
                 >
                   Participation Type
@@ -395,7 +395,7 @@ Object {
                 class="sc-fjdhpX gpYlNN"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="event_category"
                 >
                   Event Category
@@ -453,7 +453,7 @@ Object {
                   class="sc-jTzLTM bxzhAG"
                 >
                   <label
-                    class="sc-cSHVUG zmqIo"
+                    class="sc-cSHVUG ielkCx"
                     for="participant_limit"
                   >
                     Number of Participants
@@ -479,7 +479,7 @@ Object {
                 class="sc-fjdhpX gpYlNN"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="difficulty_level"
                 >
                   Difficulty Level
@@ -521,7 +521,7 @@ Object {
               >
                  
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="input_tags"
                 >
                   Tags
@@ -550,7 +550,7 @@ Object {
               class="sc-jTzLTM bxzhAG"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="guidelines"
               >
                 Guidelines
@@ -573,7 +573,7 @@ Object {
               id="submission_requirements"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="submission_requirements"
               >
                 Project Submission Requirements (tick all that apply)
@@ -594,7 +594,7 @@ Object {
                   value="video_url"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="video_url"
                 >
                   Video URL
@@ -611,7 +611,7 @@ Object {
                   value="github_url"
                 />
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="github_url"
                 >
                   GitHub URL
@@ -677,7 +677,7 @@ Object {
             class="sc-jTzLTM bxzhAG"
           >
             <label
-              class="sc-cSHVUG zmqIo"
+              class="sc-cSHVUG ielkCx"
               for="event_title"
             >
               Hackathon Title
@@ -698,7 +698,7 @@ Object {
             class="sc-jTzLTM bxzhAG"
           >
             <label
-              class="sc-cSHVUG zmqIo"
+              class="sc-cSHVUG ielkCx"
               for="event_description"
             >
               Description
@@ -720,7 +720,7 @@ Object {
             class="sc-jTzLTM bxzhAG"
           >
             <label
-              class="sc-cSHVUG zmqIo"
+              class="sc-cSHVUG ielkCx"
               for="location"
             >
               Location
@@ -744,7 +744,7 @@ Object {
               class="sc-fjdhpX gpYlNN"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="start_date"
               >
                 Event Starts
@@ -766,7 +766,7 @@ Object {
               class="sc-fjdhpX gpYlNN"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="end_date"
               >
                 Event Ends
@@ -792,7 +792,7 @@ Object {
               class="sc-fjdhpX gpYlNN"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="start_time"
               >
                 Start Time
@@ -814,7 +814,7 @@ Object {
               class="sc-fjdhpX gpYlNN"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="end_time"
               >
                 End Time
@@ -838,7 +838,7 @@ Object {
             id="grading_rubrics"
           >
             <label
-              class="sc-cSHVUG zmqIo"
+              class="sc-cSHVUG ielkCx"
               for="grading_rubrics"
             >
               Grading Rubrics (tick all that apply)
@@ -859,7 +859,7 @@ Object {
                 value="presentation"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="presentation"
               >
                 Presentation
@@ -876,7 +876,7 @@ Object {
                 value="product_fit"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="product_fit"
               >
                 Product Fit
@@ -893,7 +893,7 @@ Object {
                 value="functionality"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="functionality"
               >
                 Functionality
@@ -910,7 +910,7 @@ Object {
                 value="innovation"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="innovation"
               >
                 Innovation
@@ -927,7 +927,7 @@ Object {
                 value="product_design"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="product_design"
               >
                 Product Design
@@ -944,7 +944,7 @@ Object {
                 value="extensibility"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="extensibility"
               >
                 Extensibility
@@ -959,7 +959,7 @@ Object {
             class="sc-jTzLTM bxzhAG"
           >
             <label
-              class="sc-cSHVUG zmqIo"
+              class="sc-cSHVUG ielkCx"
               for="prize"
             >
               Prize
@@ -983,7 +983,7 @@ Object {
               class="sc-fjdhpX gpYlNN"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="participation_type"
               >
                 Participation Type
@@ -1024,7 +1024,7 @@ Object {
               class="sc-fjdhpX gpYlNN"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="event_category"
               >
                 Event Category
@@ -1082,7 +1082,7 @@ Object {
                 class="sc-jTzLTM bxzhAG"
               >
                 <label
-                  class="sc-cSHVUG zmqIo"
+                  class="sc-cSHVUG ielkCx"
                   for="participant_limit"
                 >
                   Number of Participants
@@ -1108,7 +1108,7 @@ Object {
               class="sc-fjdhpX gpYlNN"
             >
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="difficulty_level"
               >
                 Difficulty Level
@@ -1150,7 +1150,7 @@ Object {
             >
                
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="input_tags"
               >
                 Tags
@@ -1179,7 +1179,7 @@ Object {
             class="sc-jTzLTM bxzhAG"
           >
             <label
-              class="sc-cSHVUG zmqIo"
+              class="sc-cSHVUG ielkCx"
               for="guidelines"
             >
               Guidelines
@@ -1202,7 +1202,7 @@ Object {
             id="submission_requirements"
           >
             <label
-              class="sc-cSHVUG zmqIo"
+              class="sc-cSHVUG ielkCx"
               for="submission_requirements"
             >
               Project Submission Requirements (tick all that apply)
@@ -1223,7 +1223,7 @@ Object {
                 value="video_url"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="video_url"
               >
                 Video URL
@@ -1240,7 +1240,7 @@ Object {
                 value="github_url"
               />
               <label
-                class="sc-cSHVUG zmqIo"
+                class="sc-cSHVUG ielkCx"
                 for="github_url"
               >
                 GitHub URL

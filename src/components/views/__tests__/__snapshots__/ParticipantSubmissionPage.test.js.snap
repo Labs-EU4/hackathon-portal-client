@@ -44,7 +44,7 @@ Object {
                 class="sc-kAzzGY jBHymL"
               >
                 <label
-                  class="sc-jzJRlG dNPMsO"
+                  class="sc-jzJRlG tkWug"
                   for="project_title"
                 >
                   Project Title
@@ -65,7 +65,7 @@ Object {
                 class="sc-kAzzGY jBHymL"
               >
                 <label
-                  class="sc-jzJRlG dNPMsO"
+                  class="sc-jzJRlG tkWug"
                   for="participant_or_team_nam"
                 >
                   Team/Participant name
@@ -87,7 +87,7 @@ Object {
               class="sc-gzVnrw dOWIJD"
             >
               <label
-                class="sc-jzJRlG dNPMsO"
+                class="sc-jzJRlG tkWug"
                 for="project_writeups"
               >
                 Project Writeup
@@ -168,7 +168,7 @@ Object {
               class="sc-kAzzGY jBHymL"
             >
               <label
-                class="sc-jzJRlG dNPMsO"
+                class="sc-jzJRlG tkWug"
                 for="project_title"
               >
                 Project Title
@@ -189,7 +189,7 @@ Object {
               class="sc-kAzzGY jBHymL"
             >
               <label
-                class="sc-jzJRlG dNPMsO"
+                class="sc-jzJRlG tkWug"
                 for="participant_or_team_nam"
               >
                 Team/Participant name
@@ -211,7 +211,7 @@ Object {
             class="sc-gzVnrw dOWIJD"
           >
             <label
-              class="sc-jzJRlG dNPMsO"
+              class="sc-jzJRlG tkWug"
               for="project_writeups"
             >
               Project Writeup
