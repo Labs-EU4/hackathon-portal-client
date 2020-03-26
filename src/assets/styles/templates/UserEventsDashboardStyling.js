@@ -8,7 +8,8 @@ import Button from '../../../components/atoms/Button';
 export const BodyContainer = styled.div`
   display: flex; flex-direction: column;
   width: 100%;
-  background-color: ${props => props.theme.color.white};
+  /* background-color: ${props => props.theme.color.white.regular}; */
+  background-color: rgba(0, 0, 0, .8);
   padding: 60px 45px;
   overflow: scroll;
 `;
@@ -26,11 +27,13 @@ export const DashboardContent = styled(RowBody)`
 `;
 
 export const StyledButton = styled(Button)`
+  background-color: transparent;
   border: 2px solid ${props => props.theme.color.primary.regular};
   border-bottom: none; 
   border-bottom-left-radius: 0; border-bottom-right-radius: 0;
   margin-right: 10px; 
   font-size: 14px;
+  color: rgb(0, 255, 70);
   /* margin-bottom: -4px; */
 
   &:hover {
@@ -64,4 +67,6 @@ export const HackathonCard = styled.div`
 
 export const StyledH4 = styled(H4)`
   margin: 70px auto;
+  font-size: 14px;
+  color: rgb(0, 255, 70);
 `;

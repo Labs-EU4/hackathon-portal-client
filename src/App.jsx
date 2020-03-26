@@ -3,6 +3,7 @@ import { Route, Switch, Redirect, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import MatrixParallax from "react-matrix-parallax";
 import { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./assets/styles/GlobalStyles";
@@ -95,6 +96,14 @@ function App() {
           />
         </AppContainer>
         <ToastContainer />
+        <React.Fragment>
+          <MatrixParallax
+            color="rgba(122, 229, 114, 0.87)"
+            backgroundColor="rgba(0,0,0,1)"
+          >
+            <h5 style={{ maxWidth: "100vw" }} />
+          </MatrixParallax>
+        </React.Fragment>
       </ThemeProvider>
     </>
   );

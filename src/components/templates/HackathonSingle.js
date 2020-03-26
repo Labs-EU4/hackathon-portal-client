@@ -10,7 +10,9 @@ import {
   StyledEventCard,
   EventCardLeftColumn,
   EventImageContainer,
-  EventImg
+  EventImg,
+  StyledIcon,
+  StyledParagraph
 } from "../../assets/styles/templates/HackathonSingleStyling";
 import { H2 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
@@ -162,67 +164,68 @@ const HackathonSingle = ({ isSideBarOpen }) => {
         {loading ? (
           <Spinner />
         ) : (
-            <>
-              <StyledEventCard menuOpen={isSideBarOpen}>
-                <EventCardLeftColumn>
-                  <TitleContainer>
-                    <Icon icon={["fab", "connectdevelop"]} />
-                    <H2>{event_title}</H2>
-                  </TitleContainer>
-                  <EventImageContainer>
-                    {/* Here it will go image of the event */}
-                    <EventImg src={eventImg} alt="event-image" />
-                  </EventImageContainer>
-                  <ContentTitle text="Judges" />
-                  <EventJudges {...{ team }} />
-                  <ContentTitle text="About this event" />
-                  <Paragraph>{description}</Paragraph>
-                  <ContentTitle text="Guidelines" />
-                  <Paragraph>{guidelines}</Paragraph>
-                  <ContentTitle text="Rubrics" />
-                  <TagsGroup>
-                    {rubrics.map(rubric => {
-                      return <PTags key={rubric}>{toTittleCase(rubric)}</PTags>;
-                    })}
-                  </TagsGroup>
-                  <ContentTitle text="Event Tags" />
-                  <TagsGroup>
-                    {tag_name && tag_name.length !== 0 ? (
-                      tag_name.map((tagged, index) => {
-                        return <PTags key={index}>{tagged}</PTags>;
-                      })
-                    ) : (
-                        <Paragraph>No tags provided for this event</Paragraph>
-                      )}
-                  </TagsGroup>
-                </EventCardLeftColumn>
-                <HSTagsCard
-                  {...{ isSideBarOpen }}
-                  {...{ start_date }}
-                  {...{ end_date }}
-                  {...{ team }}
-                  {...{ participants }}
-                  {...{ organizer_profile_pic }}
-                  {...{ participation_type }}
-                  {...{ location }}
-                  {...{ creator_id }}
-                  {...{ isTeamLead }}
-                  {...{ isRegistered }}
-                  {...{ organizer_name }}
-                  {...{ userId }}
-                  {...{ id }}
-                  {...{ setIsAddJudgeOpen }}
-                  {...{ setRegisterTeam }}
-                  {...{ setIsSubmitProjectOpen }}
-                  {...{ setIsSubmissionsPageOpen }}
-                  {...{ handleRegistration }}
-                  {...{ handleTeamRegistration }}
-                  {...{ userCallback }}
-                  {...{ emailUser }}
-                />
-              </StyledEventCard>
-            </>
-          )}
+          <>
+            <StyledEventCard menuOpen={isSideBarOpen}>
+              <EventCardLeftColumn>
+                <TitleContainer>
+                  <StyledIcon icon={["fab", "connectdevelop"]} />
+                  <H2>{event_title}</H2>
+                  <StyledIcon icon={["fab", "connectdevelop"]} />
+                </TitleContainer>
+                <EventImageContainer>
+                  {/* Here it will go image of the event */}
+                  <EventImg src={eventImg} alt="event-image" />
+                </EventImageContainer>
+                <ContentTitle text="Judges" />
+                <EventJudges {...{ team }} />
+                <ContentTitle text="About this event" />
+                <StyledParagraph>{description}</StyledParagraph>
+                <ContentTitle text="Guidelines" />
+                <StyledParagraph>{guidelines}</StyledParagraph>
+                <ContentTitle text="Rubrics" />
+                <TagsGroup>
+                  {rubrics.map(rubric => {
+                    return <PTags key={rubric}>{toTittleCase(rubric)}</PTags>;
+                  })}
+                </TagsGroup>
+                <ContentTitle text="Event Tags" />
+                <TagsGroup>
+                  {tag_name && tag_name.length !== 0 ? (
+                    tag_name.map((tagged, index) => {
+                      return <PTags key={index}>{tagged}</PTags>;
+                    })
+                  ) : (
+                    <StyledParagraph>No tags provided for this event</StyledParagraph>
+                  )}
+                </TagsGroup>
+              </EventCardLeftColumn>
+              <HSTagsCard
+                {...{ isSideBarOpen }}
+                {...{ start_date }}
+                {...{ end_date }}
+                {...{ team }}
+                {...{ participants }}
+                {...{ organizer_profile_pic }}
+                {...{ participation_type }}
+                {...{ location }}
+                {...{ creator_id }}
+                {...{ isTeamLead }}
+                {...{ isRegistered }}
+                {...{ organizer_name }}
+                {...{ userId }}
+                {...{ id }}
+                {...{ setIsAddJudgeOpen }}
+                {...{ setRegisterTeam }}
+                {...{ setIsSubmitProjectOpen }}
+                {...{ setIsSubmissionsPageOpen }}
+                {...{ handleRegistration }}
+                {...{ handleTeamRegistration }}
+                {...{ userCallback }}
+                {...{ emailUser }}
+              />
+            </StyledEventCard>
+          </>
+        )}
         <ExitButton onClick={handleExit} color="primary">
           <Icon icon="times" />
         </ExitButton>

@@ -4,7 +4,6 @@ import { Field } from "formik";
 import { media, type, Solid } from "../../assets/styles/variables/index";
 
 const SelectField = styled(Field)`
-  font-family: ${type.ROBOTO};
   font-size: 16px;
   font-weight: 500;
   color: ${Solid.BLACK};

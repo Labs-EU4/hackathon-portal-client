@@ -13,10 +13,10 @@ import {
   LocationParagraphN,
   CardCountDown,
   StyledBookmarkIcon,
-  StyledStarIcon
+  StyledStarIcon,
+  StyledH4
 } from "../../assets/styles/organisms/EventCardStyling";
 import { Card } from "../../assets/styles/atoms/CardStyling";
-import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
 import eventImg from "../../assets/images/event-img.jpg";
@@ -35,7 +35,8 @@ const EventCard = ({ event, eventModalHandler }) => {
     organizer_profile_pic,
     location,
     join,
-    registered
+    registered,
+    StyledParagraph
   } = event;
   const { pathname } = useLocation();
   const letter = organizer_name && organizer_name.split("")[0];
@@ -97,9 +98,9 @@ const EventCard = ({ event, eventModalHandler }) => {
                   </>
                 )}
           </DateParagraph>
-          <H4>{event_title}</H4>
+          <StyledH4>{event_title}</StyledH4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
-          <Paragraph>{excerpt}</Paragraph>
+          <Paragraph style={{ color: "white"}}>{excerpt}</Paragraph>
           <CardCountDown className={`countdown-${event_id}`}>
             {formattedDate}
           </CardCountDown>

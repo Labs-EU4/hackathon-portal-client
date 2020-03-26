@@ -5,7 +5,7 @@ import styled from "styled-components";
 // import WideHeader from "../../assets/styles/atoms/WideHeaderStyling";
 import HeaderContainer from "../../assets/styles/atoms/HeaderContainerStyling";
 import Logo from "../atoms/Logo";
-import PublicNav from "../molecules/PublicNav";
+import PublicNav from "../organisms/PublicNav";
 
 const UserHeader = () => {
   return (

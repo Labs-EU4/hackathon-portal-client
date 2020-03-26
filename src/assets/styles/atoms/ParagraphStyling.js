@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Paragraph = styled.p`
   color: ${props => props.theme.color.black.regular};
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   margin-bottom: 20px;
+  color: rgb(0, 255, 70);
 
   ${({ strong }) => strong && `font-weight: bold;`}
   ${({ left }) =>

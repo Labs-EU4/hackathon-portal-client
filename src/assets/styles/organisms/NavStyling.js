@@ -16,7 +16,7 @@ export const StyledEditIcon = styled(Icon)`
 
 export const StyledExpandIcon = styled(Icon)`
   position: absolute; bottom: 70px; left: 50%;
-  font-size: 30px;
+  font-size: 40px; color: white;
   transform: ${({ active }) => active === 'true' 
     ? 'translateX(-50%) rotate(90deg);' 
     : 'translateX(-50%) rotate(-90deg);'};
@@ -27,7 +27,7 @@ export const StyledExpandIcon = styled(Icon)`
     transform: ${({ active }) => active === 'true'
       ? 'translateX(-50%) rotate(90deg) scale(1.1);' 
       : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
-    color: ${props => props.theme.color.white.regular};
+    color: ${props => props.theme.color.primary.regular};
   }
 
   @media ${media.tablet} { 
@@ -37,16 +37,17 @@ export const StyledExpandIcon = styled(Icon)`
 
 export const UserInfoContent = styled.div`
   margin-left: 5px;
+  user-select: none;
 
   p {
     &:first-child {
       font-size: 13px;
-      color: ${props => props.theme.color.black.regular};
+      color: ${({theme}) => theme.color.primary.regular};
     }
 
     &:last-child {
       font-size: 10px;
-      color: ${props => props.theme.color.grey.regular};
+      color: ${({theme}) => theme.color.primary.regular};
     }
   }
 
@@ -85,9 +86,13 @@ export const StyledProfileImage = styled.div`
 export const StyledNavLink = styled(NavLink)`
   ${props => props.theme.flex.custom('flex-start', 'flex-end')};
   width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  border-left: 5px solid transparent;
+  border-radius: ${({ active }) => active === 'true' ? '0px' : '6px'};
   margin-bottom: 10px; padding: 12px 0 8px 5px;
-  color: ${props => props.theme.color.black.regular};
-  font-weight: 600;
+  color: ${props => props.theme.color.white.regular};
+  font-weight: 600; font-size: 15px;
+  word-spacing: 2px;
   text-decoration: none; text-align: left;
   transition: box-shadow 0.2s ease;
   white-space: nowrap;
@@ -105,11 +110,22 @@ export const StyledNavLink = styled(NavLink)`
 
   svg path {
     fill: #9d9d9d;
-    fill: ${props => props.theme.color.black.regular};
+    fill: ${props => props.theme.color.white.regular};
   }
 
   &:hover {
-    background-color: ${props => props.theme.color.link.hover};
+    ${({ active, theme }) => active && `
+      border-left: 5px solid ${theme.color.primary.regular};
+      border-radius: 6px;
+    `};
+
+    & > * {
+      color: ${({theme}) => theme.color.primary.regular};
+    }
+
+    & svg path {
+      fill: ${props => props.theme.color.primary.regular};
+    }
   }
 
   &:hover + div {
@@ -119,11 +135,11 @@ export const StyledNavLink = styled(NavLink)`
   &.current {
     ${props => props.theme.shadow.box};
     font-weight: bold;
-    color: white;
+    color: ${({theme}) => theme.color.primary.regular};
 
     ${({ active }) => active === 'true'
-      ? `border-right: 5px solid ${solid.blue}; border-radius: 0px; padding-left: 10px;` 
-      : `border-left: 5px solid ${solid.blue}; border-radius: 6px;`
+      ? `border-right: 5px solid rgb(0, 255, 70); border-radius: 0px;` 
+      : `border-left: 5px solid  rgb(0, 255, 70);  border-radius: 6px;`
     }
 
     @media ${media.tablet} {
@@ -137,7 +153,7 @@ export const StyledNavLink = styled(NavLink)`
     }
 
     svg path {
-      fill: ${props => props.theme.color.white.regular};
+      fill: ${props => props.theme.color.primary.regular};
     }
   } 
 `;
@@ -147,10 +163,12 @@ export const LinkDetails = styled.div`
   ${props => props.theme.shadow.box};
   position: absolute; top: 50%;
   height: 45px;
-  background-color: #3BCEF2;
+  background-color: black;
   border: 2px solid ${props => props.theme.color.primary.regular}; border-right: none;
   border-top-left-radius: 3px; border-bottom-left-radius: 3px;
   padding: 0 20px;
+  font-size: 15px;
+  color: rgb(0, 255, 70);
   transform: translate(-100%, -60%);
   z-index: 100;
   visibility: hidden;
@@ -159,14 +177,15 @@ export const LinkDetails = styled.div`
 export const UserContainer = styled.div`
   position: relative;
   width: 100%;
+  background-color: rgba(0, 0, 0, .7);
   margin-bottom: 10px;
   padding: 8px 2px;
   border-radius: 2.5px;
   cursor: pointer;
 
-  &:hover {
+  /* &:hover {
     background-color: ${props => props.theme.color.link.hover};
-  }
+  } */
 `;
 
 export const StyledButton = styled(Button)`

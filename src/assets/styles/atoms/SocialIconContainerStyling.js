@@ -7,7 +7,7 @@ export const Social = styled.div`
   margin-top: 5px;
 
   a {
-    color: ${props => props.theme.color.grey.regular};
+    color: ${props => props.theme.color.white.regular};
     padding: 0;
     margin: 20px 15px 0 15px;
     font-size: 14px;
@@ -19,7 +19,7 @@ export const Social = styled.div`
       margin: 0 auto;
     }
     &:hover i {
-      color: ${props => props.theme.color.grey.regular};
+      color: ${props => props.theme.color.primary.regular};
     }
   }
 `;

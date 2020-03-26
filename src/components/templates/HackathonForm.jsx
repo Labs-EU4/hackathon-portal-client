@@ -10,18 +10,18 @@ import {
   StyledColumn,
   StyledFormBtn,
   StyledH3,
-  StyledRowHead
+  StyledRowHead,
+  StyledLabel,
+  StyledParagraph
 } from "../../assets/styles/templates/HackathonFormStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
-import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Icon from "../atoms/Icon";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
 import TextArea from "../atoms/TextArea";
 import Select from "../atoms/Select";
-import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import InputTag from "../molecules/TagsInput";
 import {
@@ -148,11 +148,58 @@ const HackathonForm = ({ initialState }) => {
           touched,
           values: { start_date, end_date, start_time, end_time }
         }) => (
-            <>
-              <StyledForm>
-                <StyledColumn>
-                  <RowBody justify="start">
-                    <Label htmlFor="event_title">Hackathon Title</Label>
+          <>
+            <StyledForm>
+              <StyledColumn>
+                <RowBody justify="start">
+                  <StyledLabel htmlFor="event_title">Hackathon Title</StyledLabel>
+                  <Input
+                    id="event_title"
+                    display="wide"
+                    type="text"
+                    name="event_title"
+                  />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="event_title" />
+                  </ErrorSpan>
+                </RowBody>
+                <RowBody justify="start">
+                  <StyledLabel htmlFor="event_description">Description</StyledLabel>
+                  <TextArea
+                    wide
+                    id="event_description"
+                    as="textarea"
+                    type="text"
+                    name="event_description"
+                  />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="event_description" />
+                  </ErrorSpan>
+                </RowBody>
+                <RowBody justify="start">
+                  <StyledLabel htmlFor="location">Location</StyledLabel>
+                  <Input
+                    display="wide"
+                    id="location"
+                    type="text"
+                    name="location"
+                  />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="location" />
+                  </ErrorSpan>
+                </RowBody>
+                <RowBody justify="start">
+                  <Column>
+                    <StyledLabel htmlFor="start_date">Event Starts</StyledLabel>
                     <Input
                       id="event_title"
                       display="wide"
@@ -165,15 +212,16 @@ const HackathonForm = ({ initialState }) => {
                     <ErrorSpan>
                       <ErrorMessage name="event_title" />
                     </ErrorSpan>
-                  </RowBody>
-                  <RowBody justify="start">
-                    <Label htmlFor="event_description">Description</Label>
-                    <TextArea
-                      wide
-                      id="event_description"
-                      as="textarea"
-                      type="text"
-                      name="event_description"
+                  </Column>
+                  <Column>
+                    <StyledLabel htmlFor="end_date">Event Ends</StyledLabel>
+                    <Input
+                      id="end_date"
+                      type="date"
+                      name="end_date"
+                      placeholder="Event ends"
+                      value={end_date || start_date || today}
+                      min={start_date}
                     />
                     {errors.name && touched.name ? (
                       <div>{errors.name}</div>
@@ -181,9 +229,11 @@ const HackathonForm = ({ initialState }) => {
                     <ErrorSpan>
                       <ErrorMessage name="event_description" />
                     </ErrorSpan>
-                  </RowBody>
-                  <RowBody justify="start">
-                    <Label htmlFor="location">Location</Label>
+                  </Column>
+                </RowBody>
+                <RowBody justify="start">
+                  <Column>
+                    <StyledLabel htmlFor="start_time">Start Time</StyledLabel>
                     <Input
                       display="wide"
                       id="location"
@@ -196,87 +246,33 @@ const HackathonForm = ({ initialState }) => {
                     <ErrorSpan>
                       <ErrorMessage name="location" />
                     </ErrorSpan>
-                  </RowBody>
-                  <RowBody justify="start">
-                    <Column>
-                      <Label htmlFor="start_date">Event Starts</Label>
-                      <Input
-                        id="start_date"
-                        type="date"
-                        name="start_date"
-                        placeholder="Event starts"
-                        value={start_date || today}
-                        min={today}
-                      />
-                      {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
-                      ) : null}
-                      <ErrorSpan>
-                        <ErrorMessage name="start_date" />
-                      </ErrorSpan>
-                    </Column>
-                    <Column>
-                      <Label htmlFor="end_date">Event Ends</Label>
-                      <Input
-                        id="end_date"
-                        type="date"
-                        name="end_date"
-                        placeholder="Event ends"
-                        value={end_date || start_date || today}
-                        min={start_date}
-                      />
-                      {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
-                      ) : null}
-                      <ErrorSpan>
-                        <ErrorMessage name="end_date" />
-                      </ErrorSpan>
-                    </Column>
-                  </RowBody>
-                  <RowBody justify="start">
-                    <Column>
-                      <Label htmlFor="start_time">Start Time</Label>
-                      <Input
-                        id="start_time"
-                        type="time"
-                        name="start_time"
-                        placeholder="Start Time"
-                        value={start_time || today}
-                        min={today}
-                      />
-                      {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
-                      ) : null}
-                      <ErrorSpan>
-                        <ErrorMessage name="start_time" />
-                      </ErrorSpan>
-                    </Column>
-                    <Column>
-                      <Label htmlFor="end_time">End Time</Label>
-                      <Input
-                        id="end_time"
-                        type="time"
-                        name="end_time"
-                        placeholder="End Time"
-                        value={end_time || start_time || today}
-                        min={start_time}
-                      />
-                      {errors.name && touched.name ? (
-                        <div>{errors.name}</div>
-                      ) : null}
-                      <ErrorSpan>
-                        <ErrorMessage name="end_time" />
-                      </ErrorSpan>
-                    </Column>
-                  </RowBody>
-                  <RowBody id="grading_rubrics" justify="start">
-                    <Label htmlFor="grading_rubrics">
-                      Grading Rubrics (tick all that apply)
-                  </Label>
-                    <Paragraph>
-                      Judges will be expected to grade project submissions on
-                      which one of the following
-                  </Paragraph>
+                  </Column>
+                  <Column>
+                    <StyledLabel htmlFor="end_time">End Time</StyledLabel>
+                    <Input
+                      id="end_time"
+                      type="time"
+                      name="end_time"
+                      placeholder="End Time"
+                      value={end_time || start_time || today}
+                      min={start_time}
+                    />
+                    {errors.name && touched.name ? (
+                      <div>{errors.name}</div>
+                    ) : null}
+                    <ErrorSpan>
+                      <ErrorMessage name="end_time" />
+                    </ErrorSpan>
+                  </Column>
+                </RowBody>
+                <RowBody id="grading_rubrics" justify="start">
+                  <StyledLabel htmlFor="grading_rubrics">
+                    Grading Rubrics (tick all that apply)
+                  </StyledLabel>
+                  <StyledParagraph>
+                    Judges will be expected to grade project submissions on
+                    which one of the following
+                  </StyledParagraph>
 
                     <Checkbox
                       name="rubrics"
@@ -311,42 +307,84 @@ const HackathonForm = ({ initialState }) => {
                   </RowBody>
                 </StyledColumn>
 
-                <StyledColumn>
-                  <RowBody justify="start">
-                    <Label htmlFor="prize">Prize</Label>
-                    <Input display="wide" id="prize" type="text" name="prize" />
+              <StyledColumn>
+                <RowBody justify="start">
+                  <StyledLabel htmlFor="prize">Prize</StyledLabel>
+                  <Input display="wide" id="prize" type="text" name="prize" />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="prize" />
+                  </ErrorSpan>
+                </RowBody>
+                <RowBody justify="start">
+                  <Column>
+                    <StyledLabel htmlFor="participation_type">
+                      Participation Type
+                    </StyledLabel>
+                    <Select id="participation_type" name="participation_type">
+                      <option value="" disabled hidden>
+                        Choose
+                      </option>
+                      <option value="individual">Individual</option>
+                      <option value="team">Team</option>
+                      <option value="both">Both</option>
+                    </Select>
                     {errors.name && touched.name ? (
                       <div>{errors.name}</div>
                     ) : null}
                     <ErrorSpan>
                       <ErrorMessage name="prize" />
                     </ErrorSpan>
-                  </RowBody>
-                  <RowBody justify="start">
-                    <Column>
-                      <Label htmlFor="participation_type">
-                        Participation Type
-                    </Label>
-                      <Select id="participation_type" name="participation_type">
-                        <option value="" disabled hidden>
-                          Choose
+                  </Column>
+                  <Column>
+                    <StyledLabel htmlFor="event_category">Event Category</StyledLabel>
+                    <Select id="event_category" name="event_category">
+                      <option value="" disabled hidden>
+                        Choose
                       </option>
-                        <option value="individual">Individual</option>
-                        <option value="team">Team</option>
-                        <option value="both">Both</option>
-                      </Select>
+                      {categories.map(({ id, category_name }) => (
+                        <option key={category_name} value={id}>
+                          {category_name}
+                        </option>
+                      ))}
+                    </Select>
+                    {errors.name && touched.name ? (
+                      <div>{errors.name}</div>
+                    ) : null}
+                    <ErrorSpan>
+                      <ErrorMessage name="event_category" />
+                    </ErrorSpan>
+                  </Column>
+                </RowBody>
+                <RowBody>
+                  <Column>
+                    <RowBody justify="start">
+                      <StyledLabel htmlFor="participant_limit">
+                        Number of Participants
+                      </StyledLabel>
+                      <Input
+                        display="wide"
+                        id="participant_limit"
+                        type="number"
+                        name="participant_limit"
+                      />
                       {errors.name && touched.name ? (
                         <div>{errors.name}</div>
                       ) : null}
                       <ErrorSpan>
                         <ErrorMessage name="participation_type" />
                       </ErrorSpan>
-                    </Column>
-                    <Column>
-                      <Label htmlFor="event_category">Event Category</Label>
-                      <Select id="event_category" name="event_category">
-                        <option value="" disabled hidden>
-                          Choose
+                    </RowBody>
+                  </Column>
+                </RowBody>
+                <RowBody justify="start">
+                  <Column>
+                    <StyledLabel htmlFor="difficulty_level">Difficulty Level</StyledLabel>
+                    <Select id="difficulty_level" name="difficulty_level">
+                      <option value="" disabled hidden>
+                        Choose
                       </option>
                         {categories.map(({ id, category_name }) => (
                           <option key={category_name} value={id}>
@@ -423,30 +461,53 @@ const HackathonForm = ({ initialState }) => {
                     <ErrorSpan>
                       <ErrorMessage name="guidelines" />
                     </ErrorSpan>
-                  </RowBody>
-                  <RowBody id="submission_requirements" justify="start">
-                    <Label htmlFor="submission_requirements">
-                      Project Submission Requirements (tick all that apply)
-                  </Label>
-                    <Paragraph>
-                      Participants will be expected to submit which one of the
-                      following
-                  </Paragraph>
+                  </Column>
+                  <Column>
+                    {" "}
+                    <StyledLabel htmlFor="input_tags">Tags</StyledLabel>
+                    <InputTag id="input_tags" tags={defaultState.tag_name} />
+                  </Column>
+                </RowBody>
 
-                    <Checkbox
-                      name="requirements"
-                      value="video_url"
-                      label="Video URL"
-                    />
-                    <Checkbox
-                      name="requirements"
-                      value="github_url"
-                      label="GitHub URL"
-                    />
-                  </RowBody>
-                  <RowBody justify="start"></RowBody>
-                  <StyledFormBtn color="green" type="submit">
-                    Submit
+                <RowBody justify="start">
+                  <StyledLabel htmlFor="guidelines">Guidelines</StyledLabel>
+                  <TextArea
+                    id="guidelines"
+                    wide
+                    as="textarea"
+                    type="text"
+                    name="guidelines"
+                  />
+                  {errors.name && touched.name ? (
+                    <div>{errors.name}</div>
+                  ) : null}
+                  <ErrorSpan>
+                    <ErrorMessage name="guidelines" />
+                  </ErrorSpan>
+                </RowBody>
+                <RowBody id="submission_requirements" justify="start">
+                  <StyledLabel htmlFor="submission_requirements">
+                    Project Submission Requirements (tick all that apply)
+                  </StyledLabel>
+                  <StyledParagraph>
+                    Participants will be expected to submit which one of the
+                    following
+                  </StyledParagraph>
+
+                  <Checkbox
+                    name="requirements"
+                    value="video_url"
+                    label="Video URL"
+                  />
+                  <Checkbox
+                    name="requirements"
+                    value="github_url"
+                    label="GitHub URL"
+                  />
+                </RowBody>
+                <RowBody justify="start"></RowBody>
+                <StyledFormBtn color="primary-reverse" type="submit">
+                  Submit
                 </StyledFormBtn>
                 </StyledColumn>
               </StyledForm>

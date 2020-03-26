@@ -5,16 +5,15 @@ import { media } from "../variables/media";
 import * as solid from "../variables/colors";
 
 export const StyledButton = styled.button`
+  font-family: 'Orbitron', sans-serif !important;
   display: inline-block;
-  background: white;
   background-size: 200%;
   outline: none;
-  border: 3px solid ${props => props.theme.color.grey.border};
+  border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 8px 32px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
-  color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
   text-align: center;
   transition: all 0.5s;
@@ -106,15 +105,13 @@ export const StyledButton = styled.button`
 
 export const StyledLink = styled(Link)`
   display: inline-block;
-  background: white;
   background-size: 200%;
   outline: none;
-  border: 3px solid ${props => props.theme.color.grey.border};
+  border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 8px 32px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
-  color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
   text-align: center;
   text-decoration: none;
@@ -207,15 +204,13 @@ export const StyledLink = styled(Link)`
 
 export const StyledAnchor = styled.a`
   display: inline-block;
-  background: white;
   background-size: 200%;
   outline: none;
-  border: 3px solid ${props => props.theme.color.grey.border};
+  border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 8px 32px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
-  color: ${props => props.theme.color.black.regular};
   white-space: nowrap;
   text-align: center;
   text-decoration: none;

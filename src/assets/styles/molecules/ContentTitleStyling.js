@@ -9,9 +9,10 @@ export const StyledContentTitle = styled.div`
     p {
         display: flex; align-items: baseline;
         position: absolute; top: 100%;
-        background-color: ${props => props.active ? 'transparent' : props.theme.color.grey.bg};
+        background-color: #1b1e26;
         padding: 5px 10px 5px 0;
         font-size: 20px; font-weight: bold;
+        color: white;
         text-transform: uppercase;
         transform: translateY(-45%);
     }

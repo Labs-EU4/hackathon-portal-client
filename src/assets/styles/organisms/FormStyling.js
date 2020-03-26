@@ -19,6 +19,7 @@ export const StyledAnchor = styled(Link)`
 
 export const StyledParagraph = styled(Paragraph)`
   font-size: 11px;
+  color: ${props => props.theme.color.white.regular};
 `;
 
 export const StyledButton = styled(Button)`

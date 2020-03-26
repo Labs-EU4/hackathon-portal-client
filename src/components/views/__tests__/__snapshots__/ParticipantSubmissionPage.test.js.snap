@@ -9,7 +9,7 @@ Object {
         class="sc-bdVaJa sc-bwzfXH eFpfyX"
       >
         <div
-          class="sc-htoDjs sc-iwsKbI cxoUZI"
+          class="sc-htoDjs sc-iwsKbI pBoEh"
         >
           <div
             class="sc-bZQynM ehIAPt"
@@ -27,7 +27,7 @@ Object {
               class="sc-gzVnrw cguHsh"
             >
               <p
-                class="sc-chPdSV jDSzHn"
+                class="sc-chPdSV iiIPnr"
               >
                 You are making a submission for the
                  
@@ -44,7 +44,7 @@ Object {
                 class="sc-kAzzGY jBHymL"
               >
                 <label
-                  class="sc-jzJRlG dNPMsO"
+                  class="sc-jzJRlG tkWug"
                   for="project_title"
                 >
                   Project Title
@@ -65,7 +65,7 @@ Object {
                 class="sc-kAzzGY jBHymL"
               >
                 <label
-                  class="sc-jzJRlG dNPMsO"
+                  class="sc-jzJRlG tkWug"
                   for="participant_or_team_nam"
                 >
                   Team/Participant name
@@ -87,7 +87,7 @@ Object {
               class="sc-gzVnrw dOWIJD"
             >
               <label
-                class="sc-jzJRlG dNPMsO"
+                class="sc-jzJRlG tkWug"
                 for="project_writeups"
               >
                 Project Writeup
@@ -109,14 +109,14 @@ Object {
               class="sc-gzVnrw cguHsh"
             >
               <a
-                class="sc-kGXeez etbnHe"
+                class="sc-kGXeez eSkzvk"
                 color="grey"
                 href="/dashboard"
               >
                 Cancel
               </a>
               <button
-                class="sc-kgoBCf gNaBXv"
+                class="sc-kgoBCf kNwYXn"
                 color="green"
                 type="submit"
               >
@@ -133,7 +133,7 @@ Object {
       class="sc-bdVaJa sc-bwzfXH eFpfyX"
     >
       <div
-        class="sc-htoDjs sc-iwsKbI cxoUZI"
+        class="sc-htoDjs sc-iwsKbI pBoEh"
       >
         <div
           class="sc-bZQynM ehIAPt"
@@ -151,7 +151,7 @@ Object {
             class="sc-gzVnrw cguHsh"
           >
             <p
-              class="sc-chPdSV jDSzHn"
+              class="sc-chPdSV iiIPnr"
             >
               You are making a submission for the
                
@@ -168,7 +168,7 @@ Object {
               class="sc-kAzzGY jBHymL"
             >
               <label
-                class="sc-jzJRlG dNPMsO"
+                class="sc-jzJRlG tkWug"
                 for="project_title"
               >
                 Project Title
@@ -189,7 +189,7 @@ Object {
               class="sc-kAzzGY jBHymL"
             >
               <label
-                class="sc-jzJRlG dNPMsO"
+                class="sc-jzJRlG tkWug"
                 for="participant_or_team_nam"
               >
                 Team/Participant name
@@ -211,7 +211,7 @@ Object {
             class="sc-gzVnrw dOWIJD"
           >
             <label
-              class="sc-jzJRlG dNPMsO"
+              class="sc-jzJRlG tkWug"
               for="project_writeups"
             >
               Project Writeup
@@ -233,14 +233,14 @@ Object {
             class="sc-gzVnrw cguHsh"
           >
             <a
-              class="sc-kGXeez etbnHe"
+              class="sc-kGXeez eSkzvk"
               color="grey"
               href="/dashboard"
             >
               Cancel
             </a>
             <button
-              class="sc-kgoBCf gNaBXv"
+              class="sc-kgoBCf kNwYXn"
               color="green"
               type="submit"
             >

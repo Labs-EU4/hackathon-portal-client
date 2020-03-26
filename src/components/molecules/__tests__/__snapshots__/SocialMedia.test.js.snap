@@ -9,12 +9,12 @@ Object {
         class="sc-bwzfXH bnRCBH"
       >
         <span
-          class="sc-htpNat sc-EHOje cIZQky"
+          class="sc-htpNat sc-EHOje fQspAx"
         >
           OR LOGIN WITH
         </span>
         <div
-          class="sc-bdVaJa gPUzfG"
+          class="sc-bdVaJa LHPxP"
         >
           <a
             href="http://localhost:4000//api/auth/github"
@@ -43,12 +43,12 @@ Object {
       class="sc-bwzfXH bnRCBH"
     >
       <span
-        class="sc-htpNat sc-EHOje cIZQky"
+        class="sc-htpNat sc-EHOje fQspAx"
       >
         OR LOGIN WITH
       </span>
       <div
-        class="sc-bdVaJa gPUzfG"
+        class="sc-bdVaJa LHPxP"
       >
         <a
           href="http://localhost:4000//api/auth/github"

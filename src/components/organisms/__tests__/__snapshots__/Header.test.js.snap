@@ -14,18 +14,23 @@ Object {
           <a
             href="/"
           >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-htpNat kmkWAL"
-              src="Hackton-logo.png"
-            />
+            <div
+              class="sc-htpNat iLnQQE"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                src="icon_hacker.png"
+              />
+              <span>
+                HackHunt
+              </span>
+            </div>
           </a>
           <div
             class="sc-bZQynM RmySO"
           >
             <button
-              class="sc-bxivhb xHoGA sc-gzVnrw VwObF"
-              color="grey"
+              class="sc-bxivhb gLvSpL sc-gzVnrw drSqef"
               data-testid="label"
             >
               Log Out
@@ -45,18 +50,23 @@ Object {
         <a
           href="/"
         >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-htpNat kmkWAL"
-            src="Hackton-logo.png"
-          />
+          <div
+            class="sc-htpNat iLnQQE"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              src="icon_hacker.png"
+            />
+            <span>
+              HackHunt
+            </span>
+          </div>
         </a>
         <div
           class="sc-bZQynM RmySO"
         >
           <button
-            class="sc-bxivhb xHoGA sc-gzVnrw VwObF"
-            color="grey"
+            class="sc-bxivhb gLvSpL sc-gzVnrw drSqef"
             data-testid="label"
           >
             Log Out

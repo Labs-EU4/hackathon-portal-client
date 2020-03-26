@@ -42,7 +42,7 @@ Object {
               id="project_writeup"
             >
               <p
-                class="sc-bdVaJa sc-jzJRlG fTApFV"
+                class="sc-bdVaJa sc-jzJRlG dGFdYY"
               />
               <div
                 class="sc-gZMcBi fYSflK"
@@ -651,13 +651,13 @@ Object {
                 </div>
               </div>
               <label
-                class="sc-ckVGcZ gFFiBj"
+                class="sc-ckVGcZ jwJAgX"
                 for="feedback"
               >
                 Feedback
               </label>
               <p
-                class="sc-bdVaJa sc-jzJRlG fTApFV"
+                class="sc-bdVaJa sc-jzJRlG dGFdYY"
               >
                 No comments on this project
               </p>
@@ -667,7 +667,7 @@ Object {
             class="sc-cSHVUG iJJUky"
           >
             <button
-              class="sc-htpNat hAbvIJ"
+              class="sc-htpNat htWSla"
               color="grey"
             >
               Back to projects
@@ -715,7 +715,7 @@ Object {
             id="project_writeup"
           >
             <p
-              class="sc-bdVaJa sc-jzJRlG fTApFV"
+              class="sc-bdVaJa sc-jzJRlG dGFdYY"
             />
             <div
               class="sc-gZMcBi fYSflK"
@@ -1324,13 +1324,13 @@ Object {
               </div>
             </div>
             <label
-              class="sc-ckVGcZ gFFiBj"
+              class="sc-ckVGcZ jwJAgX"
               for="feedback"
             >
               Feedback
             </label>
             <p
-              class="sc-bdVaJa sc-jzJRlG fTApFV"
+              class="sc-bdVaJa sc-jzJRlG dGFdYY"
             >
               No comments on this project
             </p>
@@ -1340,7 +1340,7 @@ Object {
           class="sc-cSHVUG iJJUky"
         >
           <button
-            class="sc-htpNat hAbvIJ"
+            class="sc-htpNat htWSla"
             color="grey"
           >
             Back to projects

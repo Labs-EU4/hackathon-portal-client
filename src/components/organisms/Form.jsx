@@ -66,8 +66,8 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   }
 
   return (
-    <Container>
-      <H1>{formHeader}</H1>
+    <StyledContainer>
+      <StyledH1>{formHeader}</StyledH1>
       <StyledParagraph>{formParagraph}</StyledParagraph>
       <Formik
         initialValues={{ email: "", password: "" }}
@@ -76,7 +76,44 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       >
         {({ errors, touched }) => (
           <Form>
-            <Label>Email</Label>
+            {/* {ctaText.toLowerCase() === "create my free account" && (
+              <>
+                <Label>First name</Label>
+                <Input
+                  display="wide"
+                  type="text"
+                  name="firstName"
+                  placeholder="Bruce"
+                />
+                {errors.name && touched.name ? <div>{errors.name}</div> : null}
+                <ErrorSpan>
+                  <ErrorMessage name="firstName" />
+                </ErrorSpan>
+                <Label>Last name</Label>
+                <Input
+                  display="wide"
+                  type="text"
+                  name="lastName"
+                  placeholder="Wayne"
+                />
+                {errors.name && touched.name ? <div>{errors.name}</div> : null}
+                <ErrorSpan>
+                  <ErrorMessage name="lastName" />
+                </ErrorSpan>
+                <Label>Username</Label>
+                <Input
+                  display="wide"
+                  type="text"
+                  name="username"
+                  placeholder="Email address"
+                />
+                {errors.name && touched.name ? <div>{errors.name}</div> : null}
+                <ErrorSpan>
+                  <ErrorMessage name="username" />
+                </ErrorSpan>
+              </>
+            )} */}
+            <StyledLabel>Email</StyledLabel>
             <Input
               display="wide"
               type="text"
@@ -87,7 +124,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <ErrorSpan>
               <ErrorMessage name="email" />
             </ErrorSpan>
-            <Label>Password</Label>
+            <StyledLabel>Password</StyledLabel>
             <Input
               display="wide"
               type="password"
@@ -99,8 +136,8 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               <ErrorMessage name="password" />
             </ErrorSpan>
 
-            <StyledButton type="submit" size="wide" color="blue">
-              {spinner === false ? ctaText : <Spinner />}
+            <StyledButton type="submit" size="wide" color="primary-reverse">
+              {ctaText}
             </StyledButton>
 
             {ctaText.toLowerCase() === "log in" && (
@@ -111,7 +148,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       </Formik>
 
       <SocialMedia></SocialMedia>
-    </Container>
+    </StyledContainer>
   );
 };
 
@@ -120,14 +157,30 @@ export default CustomForm;
 const StyledAnchor = styled(Link)`
   display: block;
   margin: 20px 0 0 0;
-  font-size: ${props => props.theme.fontSize.small};
+  font-size: 15px;
   font-weight: 500;
-  color: ${props => props.theme.color.blue.regular};
+  color: ${props => props.theme.color.primary.regular};
   text-decoration: none;
   text-transform: none;
   text-align: center;
 
   &:hover {
-    color: ${props => props.theme.color.blue.light};
+    color: rgba(0, 255, 70, .9);
   }
+`;
+
+const StyledContainer = styled(Container)`
+  background-color: rgba(0, 0, 0, .8);
+  box-shadow: 
+    2px 2px 10px rgb(255, 255, 255),
+    -2px 2px 10px rgb(255, 255, 255)
+  ;
+`;
+
+const StyledLabel = styled(Label)`
+  color: ${props => props.theme.color.primary.regular};
+`;
+
+const StyledH1 = styled(H1)`
+  color: ${props => props.theme.color.primary.regular};
 `;

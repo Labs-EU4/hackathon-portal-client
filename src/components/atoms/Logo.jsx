@@ -1,22 +1,34 @@
+import React from 'react';
 import styled from "styled-components";
+
 import { media } from "../../assets/styles/variables/index"
-import image from "../../assets/images/Hackton-logo.png";
+import image from "../../assets/images/icon_hacker.png";
 
-const Logo = styled.img.attrs({
-  alt: "Hackton - Organise hackathons",
-  src: image
-})`
-  height: 43px;
-  filter: drop-shadow(.15px .15px 1px rgb(0, 0, 0));
-  ${({ size }) => size && `width:${size}; height: 85px;`};
-
-  @media ${media.tablet} {
-    height: 35px;
-  }
-
-  @media ${media.mobile} {
-    height: 30px;
-  }
-`;
+const Logo = ({size}) => {
+  return (
+    <LogoContainer size={size}>
+      <img src={image} alt="Hackton - Organise hackathons" />
+      <span>HackHunt</span>
+    </LogoContainer>
+  )
+};
 
 export default Logo;
+
+const LogoContainer = styled.div`
+  ${({ theme }) => theme.flex.center};
+  color: rgb(0, 255, 70);
+
+  & > img {
+    width: ${({ size }) => size ? '100px' : '43px'};
+    object-fit: cover;
+    background-color: rgb(0, 255, 70);
+    filter: drop-shadow(.15px .15px 1px rgb(0, 0, 0));
+  }
+
+  & > span {
+    margin-left: 5px;
+    font-size: ${({ size }) => size ? '90px' : '30px'};
+    text-shadow: 1px 1px 1px rgb(0, 0, 0); 
+  }
+`;
