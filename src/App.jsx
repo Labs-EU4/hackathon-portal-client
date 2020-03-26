@@ -27,7 +27,6 @@ import ResetPasswordConfirmation from "./components/views/resetPassword/ResetPas
 import NewPassword from "./components/views/resetPassword/NewPassword";
 import HomePage from "./components/views/HomePage";
 
-
 function App() {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   const [isSideBarOpen, setIsSideBarOpen] = useState(false);
@@ -55,7 +54,6 @@ function App() {
           path="/event/:id/edit"
           render={() => <EditHackathon />}
         />
-        {/* // !! ROUTE USED FOR TESTING */}
       </>
     );
   };
