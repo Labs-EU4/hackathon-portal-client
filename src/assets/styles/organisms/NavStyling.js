@@ -37,16 +37,17 @@ export const StyledExpandIcon = styled(Icon)`
 
 export const UserInfoContent = styled.div`
   margin-left: 5px;
+  user-select: none;
 
   p {
     &:first-child {
       font-size: 13px;
-      color: ${props => props.theme.color.black.regular};
+      color: ${({theme}) => theme.color.primary.regular};
     }
 
     &:last-child {
       font-size: 10px;
-      color: ${props => props.theme.color.grey.regular};
+      color: ${({theme}) => theme.color.primary.regular};
     }
   }
 
@@ -85,8 +86,11 @@ export const StyledProfileImage = styled.div`
 export const StyledNavLink = styled(NavLink)`
   ${props => props.theme.flex.custom('flex-start', 'flex-end')};
   width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  border-left: 5px solid transparent;
+  border-radius: 6px;
   margin-bottom: 10px; padding: 12px 0 8px 5px;
-  color: ${props => props.theme.color.black.regular};
+  color: ${props => props.theme.color.white.regular};
   font-weight: 600;
   text-decoration: none; text-align: left;
   transition: box-shadow 0.2s ease;
@@ -105,11 +109,22 @@ export const StyledNavLink = styled(NavLink)`
 
   svg path {
     fill: #9d9d9d;
-    fill: ${props => props.theme.color.black.regular};
+    fill: ${props => props.theme.color.white.regular};
   }
 
   &:hover {
-    background-color: ${props => props.theme.color.link.hover};
+    ${({ active, theme }) => active && `
+      border-left: 5px solid ${theme.color.primary.regular};
+      border-radius: 6px;
+    `};
+
+    & > * {
+      color: ${({theme}) => theme.color.primary.regular};
+    }
+
+    & svg path {
+      fill: ${props => props.theme.color.primary.regular};
+    }
   }
 
   &:hover + div {
@@ -119,11 +134,11 @@ export const StyledNavLink = styled(NavLink)`
   &.current {
     ${props => props.theme.shadow.box};
     font-weight: bold;
-    color: white;
+    color: ${({theme}) => theme.color.primary.regular};
 
     ${({ active }) => active === 'true'
-      ? `border-right: 5px solid ${solid.blue}; border-radius: 0px; padding-left: 10px;` 
-      : `border-left: 5px solid ${solid.blue}; border-radius: 6px;`
+      ? `border-right: 5px solid rgb(0, 255, 70); border-radius: 0px;` 
+      : `border-left: 5px solid  rgb(0, 255, 70);  border-radius: 6px;`
     }
 
     @media ${media.tablet} {
@@ -137,7 +152,7 @@ export const StyledNavLink = styled(NavLink)`
     }
 
     svg path {
-      fill: ${props => props.theme.color.white.regular};
+      fill: ${props => props.theme.color.primary.regular};
     }
   } 
 `;
@@ -159,14 +174,15 @@ export const LinkDetails = styled.div`
 export const UserContainer = styled.div`
   position: relative;
   width: 100%;
+  background-color: rgba(0, 0, 0, .7);
   margin-bottom: 10px;
   padding: 8px 2px;
   border-radius: 2.5px;
   cursor: pointer;
 
-  &:hover {
+  /* &:hover {
     background-color: ${props => props.theme.color.link.hover};
-  }
+  } */
 `;
 
 export const StyledButton = styled(Button)`
