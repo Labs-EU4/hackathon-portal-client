@@ -7,12 +7,12 @@ import {
     UserContainer,
     Image,
     PHosted,
-    ButtonsDashGroup
+    ButtonsDashGroup,
+    OrgImg
 } from "../../assets/styles/templates/HackathonSingleStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { NormalSpan } from "../../assets/styles/atoms/SpanStyling";
 import Button from "../atoms/Button";
-import userImg from "../../assets/images/user_icon.svg";
 
 const HSTagsCard = ({
     isSideBarOpen,
@@ -66,7 +66,7 @@ const HSTagsCard = ({
                 <NormalSpan>Hosted by:</NormalSpan>
                 <UserContainer>
                 {organizer_profile_pic === null ? (
-                    <Image src={userImg} alt="user_icon" />
+                    <OrgImg icon="user-circle" />
                 ) : (
                     organizer_profile_pic.map((mem, index) => {
                     let memberProfile;
