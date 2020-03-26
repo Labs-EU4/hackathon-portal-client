@@ -4,6 +4,7 @@ import { media } from "../variables/media";
 import { BoldSpan } from "../atoms/SpanStyling";
 import { CardWide } from "../atoms/CardStyling";
 import { Paragraph } from "../atoms/ParagraphStyling";
+import Icon from '../../../components/atoms/Icon';
 
 export const SpanContent = styled(BoldSpan)`
   font-weight: bold; font-size: 16px; 
@@ -14,8 +15,9 @@ export const SpanContent = styled(BoldSpan)`
 export const PTags = styled(Paragraph)`
   display: inline-block;
   text-align: center;
+  border: 2px solid rgb(0, 255, 70);
   border-radius: 6px;
-  color: white;
+  color: rgb(0, 255, 70);
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -27,6 +29,16 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: baseline;
   justify-content: center;
+
+  & > h2 {
+    color: rgb(0, 255, 70);
+  }
+`;
+
+export const StyledIcon = styled(Icon)`
+  margin: 0 5px;
+  color: rgb(0, 255, 70);
+  font-size: 20px;
 `;
 
 export const ButtonsDashGroup = styled.div`
@@ -74,6 +86,7 @@ export const EventCardLeftColumn = styled.div`
 
 export const EventImageContainer = styled.figure`
   width: 100%; height: 350px;
+  border: 2px solid rgb(0, 255, 70);
   margin-bottom: 10px;
   object-fit: cover;
 `;
@@ -146,4 +159,9 @@ export const PHosted = styled(Paragraph)`
   font-weight: bold;
   font-size: 16px;
   color: ${props => props.theme.color.primary.regular};
+`;
+
+export const StyledParagraph = styled(Paragraph)`
+  font-size: 15px;
+  letter-spacing: 1.2px; line-height: 1.5;
 `;
