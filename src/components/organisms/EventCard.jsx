@@ -103,7 +103,6 @@ const EventCard = ({ event }) => {
           <CardCountDown className={`countdown-${event_id}`}>
             {formattedDate}
           </CardCountDown>
-          {/* <CardCountDown className="countdown">{countDownHandler(event.start_date)}</CardCountDown> */}
           <EventCTA>
             <Button
               link
