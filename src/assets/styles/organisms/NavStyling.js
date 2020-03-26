@@ -190,7 +190,7 @@ export const UserContainer = styled.div`
 
 export const StyledButton = styled(Button)`
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 12px;
   ${({ active }) => active === 'true' && `
     padding: 5px 0;
     word-break: break-all;
@@ -201,6 +201,6 @@ export const StyledButton = styled(Button)`
   }
 
   &:hover {
-    border: 3px solid ${props => props.theme.color.primary.regular};
+    border: 2px solid ${props => props.theme.color.primary.regular};
   }
 `;
