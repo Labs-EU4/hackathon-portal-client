@@ -23,11 +23,12 @@ export const NormalSpan = styled.span`
 `;
 
 export const StrikedSpan = styled(Span)`
+  color: ${props => props.theme.color.primary.regular};
   &::before {
     content: "";
     display: block;
     width: 100%;
-    border-bottom: 1px solid ${props => props.theme.color.grey.dark};
+    border-bottom: 1px solid ${props => props.theme.color.primary.regular};
     position: relative;
     top: 9px;
     left: -120%;
@@ -42,7 +43,7 @@ export const StrikedSpan = styled(Span)`
     content: "";
     display: block;
     width: 100%;
-    border-bottom: 1px solid ${props => props.theme.color.grey.dark};
+    border-bottom: 1px solid ${props => props.theme.color.primary.regular};
     position: relative;
     top: -9px;
     left: 120%;
