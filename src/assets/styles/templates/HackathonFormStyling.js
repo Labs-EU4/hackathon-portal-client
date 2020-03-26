@@ -13,6 +13,7 @@ export const StyledRowHead = styled(RowHead)`
 export const FormContainer = styled.div`
   position: relative;
   width: 100%; height: 100%;
+  background-color: ${props => props.theme.color.white.regular};
   padding-top: 20px;
 `;
 
