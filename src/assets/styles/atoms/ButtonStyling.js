@@ -9,7 +9,7 @@ export const StyledButton = styled.button`
   background: white;
   background-size: 200%;
   outline: none;
-  border: 3px solid ${props => props.theme.color.grey.border};
+  border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 8px 32px;
   font-size: 14px;
@@ -109,7 +109,7 @@ export const StyledLink = styled(Link)`
   background: white;
   background-size: 200%;
   outline: none;
-  border: 3px solid ${props => props.theme.color.grey.border};
+  border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 8px 32px;
   font-size: 14px;
@@ -210,7 +210,7 @@ export const StyledAnchor = styled.a`
   background: white;
   background-size: 200%;
   outline: none;
-  border: 3px solid ${props => props.theme.color.grey.border};
+  border: 3px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 8px 32px;
   font-size: 14px;
