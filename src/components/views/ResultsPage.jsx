@@ -1,12 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 // import image from "./anon.png";
 // Variables
 const GMAP = "AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I";
 // eslint-disable-next-line
-const myLocation = {
+const defaultLocation = {
   // CN Tower Landmark
-  lat: 35.6762,
-  lng: 139.6503
+  lat: 50.767998,
+  lng: 4.319822
 };
 // styles
 const mapStyles = {
@@ -14,22 +14,30 @@ const mapStyles = {
   height: "100%"
 };
 
-let currentLocation;
-
 function ResultPage(props) {
-  function showMap(position) {
-    // Show a map centered at (position.coords.latitude, position.coords.longitude).
+  const [currentLocation, setCurrentLocation] = useState({
+    lat: defaultLocation.lat,
+    lng: defaultLocation.lng
+  });
 
-    return (currentLocation = [
-      position.coords.latitude,
-      position.coords.longitude
-    ]);
-  }
+  const googleMapScript = document.createElement("script");
+  googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${GMAP}&libraries=places`;
+  window.document.body.appendChild(googleMapScript);
 
-  console.log("NAVIGATION", navigator.geolocation.getCurrentPosition(showMap));
-  navigator.geolocation.getCurrentPosition(showMap);
+  googleMapScript.addEventListener("load", () => {
+    // eslint-disable-next-line
+    createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
+      zoom: 12,
+      center: {
+        lat: currentLocation.lat,
+        lng: currentLocation.lng
+      }
+    });
 
-  // One-shot position request.
+    eventsLocation.forEach(loc => {
+      createMarker(loc[1], loc[2]);
+    });
+  });
 
   // refs
   const googleMapRef = React.createRef();
@@ -59,39 +67,16 @@ function ResultPage(props) {
 
   // useEffect Hook
   useEffect(() => {
-    const googleMapScript = document.createElement("script");
-    googleMapScript.src = `https://maps.googleapis.com/maps/api/js?key=${GMAP}&libraries=places`;
-    window.document.body.appendChild(googleMapScript);
-
-    googleMapScript.addEventListener("load", () => {
-      // eslint-disable-next-line
-      createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
-        zoom: 12,
-        center: {
-          lat: currentLocation[0],
-          lng: currentLocation[1]
-        }
+    function showMap(position) {
+      // Show a map centered at (position.coords.latitude, position.coords.longitude).
+      return setCurrentLocation({
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
       });
-
-      eventsLocation.forEach(loc => {
-        createMarker(loc[1], loc[2]);
-      });
-    });
-
-    // googleMapScript.addEventListener("load", () => {
-    //   createGoogleMap = new window.google.maps.Map(googleMapRef.current, {
-    //     zoom: 12,
-    //     center: {
-    //       lat: currentLocation[0],
-    //       lng: currentLocation[1]
-    //     }
-    //   });
-
-    //   eventsLocation.forEach(loc => {
-    //     createMarker(loc[1], loc[2]);
-    //   });
-    // });
-  }, [currentLocation]);
+    }
+    navigator.geolocation.getCurrentPosition(showMap);
+    // eslint-disable-next-line
+  }, []);
 
   return true ? (
     <div id="google-map" ref={googleMapRef} style={mapStyles} />
