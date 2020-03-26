@@ -35,8 +35,6 @@ const AddParticipantTeam = ({
     selectedUserArr.current = newArray;
   };
 
-  console.log('This is the current team ---> ', currentTeamId);
-
   const handleSubmit = () => {
     selectedUserArr.current.map(selectedUser => {
       const data = {
@@ -44,9 +42,6 @@ const AddParticipantTeam = ({
         team_member: selectedUser.id,
         eventId: eventId
       };
-
-      console.log('Data with handleSubmit --> ', data)
-      debugger;
       return dispatch(addParticipantTeamMember(data));
 
     });
