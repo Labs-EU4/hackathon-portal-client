@@ -3,9 +3,11 @@ import styled from "styled-components";
 import { IconLetter } from "../atoms/IconLetterStyling";
 import { Paragraph } from "../atoms/ParagraphStyling";
 import Icon from "../../../components/atoms/Icon";
+import { H4 } from "../atoms/HeadingStyling";
 
 export const StyledEventCard = styled.div`
   text-decoration: none;
+
   &:hover > div {
     ${props => props.theme.shadow.box};
     transform: translateY(5px);
@@ -65,13 +67,13 @@ export const EventCTA = styled.div`
 
 export const DateParagraph = styled(Paragraph)`
   margin-bottom: 0;
-  color: ${props => props.theme.color.grey.regular};
+  color: ${props => props.theme.color.white.regular};
   font-size: 14px;
 `;
 
 export const LocationParagraphN = styled(Paragraph)`
   margin: -5px 0 8px;
-  color: ${props => props.theme.color.grey.light};
+  color: rgba(0, 255, 70, .8);
   font-size: 13px;
 `;
 
@@ -79,11 +81,12 @@ export const CardCountDown = styled.div`
   position: absolute;
   top: 20px;
   left: 70%;
-  background-color: ${props => props.theme.color.white.regular};
-  border: 2px solid ${props => props.theme.color.black.regular};
+  background-color: ${props => props.theme.color.black.regular};
+  border: 1px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 5px 10px;
   font-size: 16px;
+  color: ${props => props.theme.color.primary.regular};
 `;
 
 export const StyledBookmarkIcon = styled(Icon)`
@@ -102,4 +105,8 @@ export const StyledStarIcon = styled(Icon)`
   font-size: 16px;
   color: ${props => props.theme.color.white.regular};
   cursor: pointer;
+`;
+
+export const StyledH4 = styled(H4)`
+  color: rgb(0, 255, 70);
 `;
