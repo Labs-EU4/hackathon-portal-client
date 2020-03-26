@@ -66,17 +66,27 @@ const EventOnboarding = ({ eventModalHandler }) => {
   let createGoogleMap = null;
 
   var eventsLocation = [
-    // ["Coventry University", 52.3838, -1.56366, 0],
-    // ["Amsterdam", 52.373169, 4.89066, 0],
     [
-      "<p style=color:red;background:black;font-weight:bold;width:200px>Abuja,Nigeria</p>",
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>CovHack</p>",
+      52.3838,
+      -1.56366,
+      0
+    ],
+    [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>All the Hacks 2022 Hackathon</p>",
+      52.373169,
+      4.89066,
+      0
+    ],
+    [
+      "<p style=color:red;background:black;font-weight:bold>Abuja,Nigeria</p>",
       9.06146,
       7.50064,
       0
     ],
-    // ["Rome", "Italy", 41.902782, 12.496365, 0],
+    ["Rome", "Italy", 41.902782, 12.496365, 0],
     [
-      "<p style=color:red;background:black;font-weight:bold;padding:20px>Paris,France</p>",
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>Paris,France</p>",
       48.856613,
       2.352222,
       0
