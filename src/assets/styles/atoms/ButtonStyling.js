@@ -5,6 +5,7 @@ import { media } from "../variables/media";
 import * as solid from "../variables/colors";
 
 export const StyledButton = styled.button`
+  font-family: 'Orbitron', sans-serif !important;
   display: inline-block;
   background-size: 200%;
   outline: none;
