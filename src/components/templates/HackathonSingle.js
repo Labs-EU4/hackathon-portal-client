@@ -10,7 +10,9 @@ import {
   StyledEventCard,
   EventCardLeftColumn,
   EventImageContainer,
-  EventImg
+  EventImg,
+  StyledIcon,
+  StyledParagraph
 } from "../../assets/styles/templates/HackathonSingleStyling";
 import { H2 } from "../../assets/styles/atoms/HeadingStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
@@ -146,8 +148,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
             <StyledEventCard menuOpen={isSideBarOpen}>
               <EventCardLeftColumn>
                 <TitleContainer>
-                  <Icon icon={["fab", "connectdevelop"]} />
+                  <StyledIcon icon={["fab", "connectdevelop"]} />
                   <H2>{event_title}</H2>
+                  <StyledIcon icon={["fab", "connectdevelop"]} />
                 </TitleContainer>
                 <EventImageContainer>
                   {/* Here it will go image of the event */}
@@ -156,9 +159,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                 <ContentTitle text="Judges" />
                 <EventJudges {...{ team }} />
                 <ContentTitle text="About this event" />
-                <Paragraph>{description}</Paragraph>
+                <StyledParagraph>{description}</StyledParagraph>
                 <ContentTitle text="Guidelines" />
-                <Paragraph>{guidelines}</Paragraph>
+                <StyledParagraph>{guidelines}</StyledParagraph>
                 <ContentTitle text="Rubrics" />
                 <TagsGroup>
                   {rubrics.map(rubric => {
@@ -172,7 +175,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                       return <PTags key={index}>{tagged}</PTags>;
                     })
                   ) : (
-                    <Paragraph>No tags provided for this event</Paragraph>
+                    <StyledParagraph>No tags provided for this event</StyledParagraph>
                   )}
                 </TagsGroup>
               </EventCardLeftColumn>
