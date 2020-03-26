@@ -31,11 +31,6 @@ const items = [
     title: "About",
     url: "/",
     icon: "info-circle"
-  },
-  {
-    title: "Results",
-    url: "/results",
-    icon: "trophy"
   }
 ];
 
@@ -45,14 +40,14 @@ const Nav = ({
   isSideBarOpen,
   setIsSideBarOpen
 }) => {
-  const [ isEditProfileHovered, setIsEditProfileHovered ] = useState(false);
+  const [isEditProfileHovered, setIsEditProfileHovered] = useState(false);
   const { token, email, fullname, image_url, username } = useSelector(
     state => state.currentUser
   );
 
   return (
     <StyledNav active={isSideBarOpen}>
-      { token ? (
+      {token ? (
         <UserContainer onClick={() => setIsProfileOpen(!isProfileOpen)}>
           {isEditProfileHovered && !isSideBarOpen && <StyledEditIcon icon="user-edit" />}
           <StyledProfileImage
@@ -60,7 +55,7 @@ const Nav = ({
             onMouseEnter={() => setIsEditProfileHovered(true)}
             onMouseLeave={() => setIsEditProfileHovered(false)}
           >
-            { image_url !== null ? (
+            {image_url !== null ? (
               <>
                 <ProfileImg
                   image={image_url}
@@ -74,7 +69,7 @@ const Nav = ({
                 {...{ isSideBarOpen }} 
               />
             )}
-            { !isSideBarOpen && (
+            {!isSideBarOpen && (
               <UserInfoContent>
                 <p>{fullname}</p>
                 <p>{email}</p>
@@ -82,8 +77,10 @@ const Nav = ({
             )}
           </StyledProfileImage>
         </UserContainer>
-      ) : <div style={{height: "75px"}} />}
-      { token ? (
+      ) : (
+        <div style={{ height: "75px" }} />
+      )}
+      {token ? (
         <StyledButton
           active={isSideBarOpen.toString()}
           exact="true"

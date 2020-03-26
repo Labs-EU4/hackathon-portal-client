@@ -9,7 +9,7 @@ Object {
         class="sc-bdVaJa LHPxP"
       >
         <a
-          href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"
+          href="http://localhost:4000//api/auth/github"
           rel="me"
           title="github"
         >
@@ -18,7 +18,7 @@ Object {
           />
         </a>
         <a
-          href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/google"
+          href="http://localhost:4000//api/auth/google"
           rel="me"
           title="google"
         >
@@ -34,7 +34,7 @@ Object {
       class="sc-bdVaJa LHPxP"
     >
       <a
-        href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/github"
+        href="http://localhost:4000//api/auth/github"
         rel="me"
         title="github"
       >
@@ -43,7 +43,7 @@ Object {
         />
       </a>
       <a
-        href="https://labseu4-hackathon-staging.herokuapp.com/api/auth/google"
+        href="http://localhost:4000//api/auth/google"
         rel="me"
         title="google"
       >

@@ -153,7 +153,9 @@ const HackathonForm = ({ initialState }) => {
             <StyledForm>
               <StyledColumn>
                 <RowBody justify="start">
-                  <StyledLabel htmlFor="event_title">Hackathon Title</StyledLabel>
+                  <StyledLabel htmlFor="event_title">
+                    Hackathon Title
+                  </StyledLabel>
                   <Input
                     id="event_title"
                     display="wide"
@@ -168,7 +170,9 @@ const HackathonForm = ({ initialState }) => {
                   </ErrorSpan>
                 </RowBody>
                 <RowBody justify="start">
-                  <StyledLabel htmlFor="event_description">Description</StyledLabel>
+                  <StyledLabel htmlFor="event_description">
+                    Description
+                  </StyledLabel>
                   <TextArea
                     wide
                     id="event_description"
@@ -344,7 +348,9 @@ const HackathonForm = ({ initialState }) => {
                     </ErrorSpan>
                   </Column>
                   <Column>
-                    <StyledLabel htmlFor="event_category">Event Category</StyledLabel>
+                    <StyledLabel htmlFor="event_category">
+                      Event Category
+                    </StyledLabel>
                     <Select id="event_category" name="event_category">
                       <option value="" disabled hidden>
                         Choose
@@ -386,7 +392,9 @@ const HackathonForm = ({ initialState }) => {
                 </RowBody>
                 <RowBody justify="start">
                   <Column>
-                    <StyledLabel htmlFor="difficulty_level">Difficulty Level</StyledLabel>
+                    <StyledLabel htmlFor="difficulty_level">
+                      Difficulty Level
+                    </StyledLabel>
                     <Select id="difficulty_level" name="difficulty_level">
                       <option value="" disabled hidden>
                         Choose

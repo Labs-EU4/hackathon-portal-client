@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useHistory, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-
 import {
   PTags,
   TitleContainer,
@@ -30,6 +29,7 @@ import {
   registerEvent,
   unregisterEvent
 } from "../../store/eventParticipants/actions";
+import { deleteTeam } from "../../store/participantTeams/actions";
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 
 const HackathonSingle = ({ isSideBarOpen }) => {
@@ -89,7 +89,11 @@ const HackathonSingle = ({ isSideBarOpen }) => {
 
   const userCallback = p => p.user_id === userId;
   const isTeamLead = createdTeam;
-  const isRegistered = participants.find(userCallback) || isTeamLead;
+  let isRegistered = participants.find(userCallback) || isTeamLead;
+
+  useEffect(() => {
+    isRegistered = participants.find(userCallback) || isTeamLead;
+  }, [participants]);
 
   // Redacting user emails before rendering
   let redactedEmail = organizer_email.split("");
@@ -113,14 +117,28 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     e.preventDefault();
     if (isRegistered) {
       dispatch(unregisterEvent(id, history));
+      window.location.reload(true);
     } else {
       dispatch(registerEvent(id, history));
+      window.location.reload(true);
     }
     return fetchParticipants();
   };
 
-  const handleTeamRegistration = () => {
-    setRegisterTeam(true);
+  const handleTeamRegistration = async e => {
+    e.preventDefault();
+    if (isRegistered) {
+      const myTeam = teams.find(t => t.team_lead === isRegistered.user_id);
+      const myTeamId = isRegistered.id || myTeam.id;
+      dispatch(deleteTeam(myTeamId));
+      dispatch(unregisterEvent(id));
+      await fetchParticipants();
+      isRegistered = participants.find(userCallback) || isTeamLead;
+      await window.location.reload(true);
+    } else {
+      setRegisterTeam(true);
+    }
+    return fetchParticipants();
   };
 
   const toTittleCase = item => {
@@ -171,7 +189,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                       return <PTags key={index}>{tagged}</PTags>;
                     })
                   ) : (
-                    <StyledParagraph>No tags provided for this event</StyledParagraph>
+                    <StyledParagraph>
+                      No tags provided for this event
+                    </StyledParagraph>
                   )}
                 </TagsGroup>
               </EventCardLeftColumn>
@@ -213,7 +233,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     return (
       <>
         {renderSingleEvent()}
-        <CreateTeam {...{ id }} {...{setRegisterTeam}} />
+        <CreateTeam {...{ id }} {...{ setRegisterTeam }} />
       </>
     );
   }

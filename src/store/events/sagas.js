@@ -81,6 +81,7 @@ function* watchDeleteEvent() {
   yield takeLatest(EventsTypes.DELETE_EVENT, deleteEventAsync);
 }
 
+
 function* updateEventAsync({ payload, history }) {
   try {
     const { id, ...eventInfo } = payload;

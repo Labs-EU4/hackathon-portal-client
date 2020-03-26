@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link, useLocation, Redirect } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -11,7 +11,7 @@ import Container from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
-import { 
+import {
   StyledParagraph,
   StyledButton
 } from "../../assets/styles/organisms/FormStyling";
@@ -19,7 +19,7 @@ import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
 import { register, login } from "../../store/user/actions";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
-
+import Spinner from "../molecules/Spinner";
 const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   const dispatch = useDispatch();
   const { search, state } = useLocation();
@@ -37,27 +37,6 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     }
   }, [google, github, verified, dispatch]);
 
-  // const handleSubmit = values => {
-  //   const fullname = `${values.firstName} ${values.lastName}`
-  //   const {
-  //     username,
-  //     email,
-  //     password
-  //   } = values;
-  //   if (ctaText.toLowerCase() === "log in") {
-  //     dispatch(login(email, password));
-  //     toast(" 🎉 Logging you in!", {
-  //       position: toast.POSITION.TOP_RIGHT,
-  //       className: 'green'
-  //     });
-  //   } else {
-  //     dispatch(register(fullname, username, email, password, role, team));
-  //     toast.success(" 🚀 A moment while we record your details!", {
-  //       position: toast.POSITION.TOP_RIGHT
-  //     });
-  //   }
-  // };
-
   const handleSubmit = values => {
     const { email, password } = values;
     if (ctaText.toLowerCase() === "log in") {
@@ -68,36 +47,8 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
         position: toast.POSITION.BOTTOM_RIGHT
       });
     }
+    setSpinner(true);
   };
-
-  // const schema = ctaText.toLowerCase() === "log in" ? (
-  //   Yup.object().shape({
-  //     email: Yup.string()
-  //     .email("Please use a valid email address.")
-  //     .required("Email address is required."),
-  //     password: Yup.string()
-  //     .required("Password is required.")
-  //     .min(8, "Password must be at least 8 characters long.")
-  //   })
-  // ) : (
-  //   Yup.object().shape({
-  //     firstName: Yup.string()
-  //     .required("First name is required.")
-  //     .min(2, "Your name should be at least 2 characters long."),
-  //     lastName: Yup.string()
-  //     .required("Last name is required.")
-  //     .min(2, "Your surname should be at least 2 characters long."),
-  //     username: Yup.string()
-  //     .required("Please provide also a nickname for your profile.")
-  //     .min(3, "Your username should be at least 3 characters long."),
-  //     email: Yup.string()
-  //     .email("Please use a valid email address.")
-  //     .required("Email address is required."),
-  //     password: Yup.string()
-  //     .required("Password is required.")
-  //     .min(8, "Password must be at least 8 characters long.")
-  //   })
-  // )
 
   const schema = Yup.object().shape({
     email: Yup.string()
@@ -109,13 +60,14 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       .max(50, "Password cannot be more than 50 characters long.")
   });
 
+  const [spinner, setSpinner] = useState(false);
   if (token) {
     return <Redirect to={state?.from || ref || "/dashboard"} />;
   }
 
   return (
-    <StyledContainer>
-      <StyledH1>{formHeader}</StyledH1>
+    <Container>
+      <H1>{formHeader}</H1>
       <StyledParagraph>{formParagraph}</StyledParagraph>
       <Formik
         initialValues={{ email: "", password: "" }}
@@ -124,44 +76,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       >
         {({ errors, touched }) => (
           <Form>
-            {/* {ctaText.toLowerCase() === "create my free account" && (
-              <>
-                <Label>First name</Label>
-                <Input
-                  display="wide"
-                  type="text"
-                  name="firstName"
-                  placeholder="Bruce"
-                />
-                {errors.name && touched.name ? <div>{errors.name}</div> : null}
-                <ErrorSpan>
-                  <ErrorMessage name="firstName" />
-                </ErrorSpan>
-                <Label>Last name</Label>
-                <Input
-                  display="wide"
-                  type="text"
-                  name="lastName"
-                  placeholder="Wayne"
-                />
-                {errors.name && touched.name ? <div>{errors.name}</div> : null}
-                <ErrorSpan>
-                  <ErrorMessage name="lastName" />
-                </ErrorSpan>
-                <Label>Username</Label>
-                <Input
-                  display="wide"
-                  type="text"
-                  name="username"
-                  placeholder="Email address"
-                />
-                {errors.name && touched.name ? <div>{errors.name}</div> : null}
-                <ErrorSpan>
-                  <ErrorMessage name="username" />
-                </ErrorSpan>
-              </>
-            )} */}
-            <StyledLabel>Email</StyledLabel>
+            <Label>Email</Label>
             <Input
               display="wide"
               type="text"
@@ -172,7 +87,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <ErrorSpan>
               <ErrorMessage name="email" />
             </ErrorSpan>
-            <StyledLabel>Password</StyledLabel>
+            <Label>Password</Label>
             <Input
               display="wide"
               type="password"
@@ -184,9 +99,10 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               <ErrorMessage name="password" />
             </ErrorSpan>
 
-            <StyledButton type="submit" size="wide" color="primary-reverse">
-              {ctaText}
+            <StyledButton type="submit" size="wide" color="blue">
+              {spinner === false ? ctaText : <Spinner />}
             </StyledButton>
+
             {ctaText.toLowerCase() === "log in" && (
               <StyledAnchor to="/forgotpassword">Forgot password?</StyledAnchor>
             )}
@@ -195,7 +111,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       </Formik>
 
       <SocialMedia></SocialMedia>
-    </StyledContainer>
+    </Container>
   );
 };
 
@@ -204,30 +120,14 @@ export default CustomForm;
 const StyledAnchor = styled(Link)`
   display: block;
   margin: 20px 0 0 0;
-  font-size: 15px;
+  font-size: ${props => props.theme.fontSize.small};
   font-weight: 500;
-  color: ${props => props.theme.color.primary.regular};
+  color: ${props => props.theme.color.blue.regular};
   text-decoration: none;
   text-transform: none;
   text-align: center;
 
   &:hover {
-    color: rgba(0, 255, 70, .9);
+    color: ${props => props.theme.color.blue.light};
   }
-`;
-
-const StyledContainer = styled(Container)`
-  background-color: rgba(0, 0, 0, .8);
-  box-shadow: 
-    2px 2px 10px rgb(255, 255, 255),
-    -2px 2px 10px rgb(255, 255, 255)
-  ;
-`;
-
-const StyledLabel = styled(Label)`
-  color: ${props => props.theme.color.primary.regular};
-`;
-
-const StyledH1 = styled(H1)`
-  color: ${props => props.theme.color.primary.regular};
 `;

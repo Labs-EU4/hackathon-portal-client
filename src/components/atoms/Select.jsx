@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Field } from "formik";
-import { media, type, Solid } from "../../assets/styles/variables/index";
+import { media, Solid } from "../../assets/styles/variables/index";
 
 const SelectField = styled(Field)`
   font-size: 16px;

@@ -27,7 +27,6 @@ import ResetPassword from "./components/views/resetPassword/ResetPassword";
 import ResetPasswordConfirmation from "./components/views/resetPassword/ResetPasswordConfirmation";
 import NewPassword from "./components/views/resetPassword/NewPassword";
 import HomePage from "./components/views/HomePage";
-import ResultPage from "./components/views/ResultsPage";
 
 function App() {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
@@ -56,8 +55,6 @@ function App() {
           path="/event/:id/edit"
           render={() => <EditHackathon />}
         />
-        {/* // !! ROUTE USED FOR TESTING */}
-        <PrivateRoute exact path={`/results`} render={() => <ResultPage />} />
       </>
     );
   };
