@@ -4,9 +4,10 @@ import Icon from '../../../components/atoms/Icon';
 
 export const AboutContainer = styled.div`
     width: 100%; height:100%;
-    background-color: ${props => props.theme.color.white.bg};
+    /* background-color: ${props => props.theme.color.white.bg}; */
+    background-color: transparent;
     overflow-y: scroll;
-    border: 3px solid ${props => props.theme.color.primary.regular};
+    /* border: 3px solid ${props => props.theme.color.primary.regular}; */
     &::-webkit-scrollbar {
         height: 0; width: 0;
     }
@@ -15,7 +16,7 @@ export const AboutContainer = styled.div`
 export const AboutHeaderContainer = styled.div`
     ${props => props.theme.flex.columnCenter};
     width: 100%; height: 60vh;
-    background-color: ${props => props.theme.color.primary.regular};
+    background-color: rgba(0, 255, 70, .8);
     clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
 `;
@@ -36,7 +37,7 @@ export const MainContent = styled.div`
     ${props => props.theme.shadow.box};
     position: relative;
     width: 95%; max-width: 1000px;
-    background-color: ${props => props.theme.color.white.regular};
+    background-color: ${props => props.theme.color.black.regular};
     margin: -100px auto;
     padding: 24px;
     border-radius: 3px;
@@ -48,6 +49,7 @@ export const SectionTitle = styled.h1`
     margin-bottom: 15px; padding-top: 30px;
     text-transform: uppercase; text-align: center;
     font-size: 25px;
+    color: ${props => props.theme.color.primary.regular};
 
     & > hr {
         ${({ lineWidth }) => lineWidth ? `width: ${lineWidth};` : 'width: 20%'};
@@ -66,6 +68,7 @@ export const Paragraph = styled.p`
     margin-top: -10px;
     text-align: center;
     font-size: 19px;
+    color: ${props => props.theme.color.white.regular};
 `;
 
 export const FeaturesContainer = styled.div`
@@ -88,13 +91,14 @@ export const FeatureTitle = styled.h2`
     margin-top: 5px;
     font-size: 20px; letter-spacing: 2px;
     font-weight: bolder;
+    color: ${props => props.theme.color.primary.regular};
 `;
 
 export const FeatureDescription = styled.p`
     margin-top: 20px;
     text-align: center;
     font-weight: bold;
-    color: #00C4CC;
+    color: ${props => props.theme.color.white.regular};
 `;
 
 export const StyledCard = styled.div`
