@@ -15,18 +15,18 @@ import {
     StyledCard,
     StarImg,
     StarInfo,
-    StarHandles
+    StarHandles,
+    StyledIcon
 } from "../../assets/styles/views/AboutPage";
 
 import Logo from '../atoms/Logo';
-import Icon from '../atoms/Icon';
 import teamImg from '../../assets/images/team.png';
 import correctImg from '../../assets/images/correct.png';
 import transparencyImg from '../../assets/images/transparency.png';
 
 const teamMembers = [
     {
-        name: "Anthony Campbell",
+        fullName: "Anthony Campbell",
         role: "Team Lead",
         bio: "",
         imgUrl: "https://avatars3.githubusercontent.com/u/45029641?s=400&v=4",
@@ -36,7 +36,7 @@ const teamMembers = [
         other: ""
     },
     {
-        name: "Abdel Idir",
+        fullName: "Abdel Idir",
         role: "FullStack Software Developer",
         bio: "",
         imgUrl: "https://avatars0.githubusercontent.com/u/53605229?s=460&v=4",
@@ -46,7 +46,7 @@ const teamMembers = [
         other: ""
     },
     {
-        name: "Karim Bertacche",
+        fullName: "Karim Bertacche",
         role: "FullStack Software Developer",
         bio: "",
         imgUrl: "https://avatars3.githubusercontent.com/u/49835145?s=460&v=4",
@@ -56,7 +56,7 @@ const teamMembers = [
         other: ""
     },
     {
-        name: "John Afolabi",
+        fullName: "John Afolabi",
         role: "FullStack Software Developer",
         bio: "",
         imgUrl: "https://avatars3.githubusercontent.com/u/19263499?s=460&v=4",
@@ -66,9 +66,9 @@ const teamMembers = [
         other: ""
     },
     {
-        name: "Emma Andrews",
+        fullName: "Emma Andrews",
         role: "FullStack Software Developer",
-        bio: "Grumpy, old lady",
+        bio: "Our favourite grumpy, old lady 👵🏻",
         imgUrl: "https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c",
         identifier: "",
         gitHubHandle: "https://github.com/ELAndrews",
@@ -76,7 +76,7 @@ const teamMembers = [
         other: ""
     },
     {
-        name: "Ekanem David",
+        fullName: "Ekanem David",
         role: "FullStack Software Developer",
         bio: "",
         imgUrl: "https://avatars2.githubusercontent.com/u/38921132?s=460&v=4",
@@ -146,7 +146,13 @@ const AboutPage = () => {
 export default AboutPage;
 
 const StarCard = ({ star }) => {
-    const { imgUrl, identifier, bio } = star;
+    const { 
+        imgUrl, 
+        identifier, 
+        bio,
+        fullName,
+        role
+    } = star;
     const [ showInfo, setShowInfo ] = useState(false);
     return (
         <StyledCard
@@ -157,10 +163,14 @@ const StarCard = ({ star }) => {
             <StarHandles
                 active={showInfo}
             >
-                <Icon icon={['fab', 'github']} />
-                <Icon icon={['fab', 'linkedin']} />
+                <StyledIcon icon={['fab', 'github']} />
+                <StyledIcon icon={['fab', 'linkedin']} />
             </StarHandles>
-            <StarInfo active={showInfo}>{bio}</StarInfo>
+            <StarInfo active={showInfo}>
+                <h2>{fullName}</h2>
+                <p className="role">{role}</p>
+                <p className="bio">{bio}</p>
+            </StarInfo>
         </StyledCard>
     );
 };
