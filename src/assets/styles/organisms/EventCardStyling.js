@@ -68,7 +68,7 @@ export const EventCTA = styled.div`
 export const DateParagraph = styled(Paragraph)`
   margin-bottom: 0;
   color: ${props => props.theme.color.white.regular};
-  font-size: 14px;
+  font-size: 12px;
 `;
 
 export const LocationParagraphN = styled(Paragraph)`
@@ -85,7 +85,7 @@ export const CardCountDown = styled.div`
   border: 1px solid ${props => props.theme.color.primary.regular};
   border-radius: 3px;
   padding: 5px 10px;
-  font-size: 16px;
+  font-size: 12px;
   color: ${props => props.theme.color.primary.regular};
 `;
 
