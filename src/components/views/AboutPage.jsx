@@ -90,42 +90,48 @@ const teamMembers = [
 ];
 
 const AboutPage = () => {
-    return (
-        <AboutContainer>
-            <AboutHeaderContainer>
-                <HeroContainer>
-                    <Logo size/>
-                    <HeroText>
-                        Let's make your next hackathon a success!
-                    </HeroText>
-                </HeroContainer>
-            </AboutHeaderContainer>
-            <MainContent>
-                <SectionTitle lineWidth="30%">Why HackHunt?<hr/></SectionTitle>
-                <Paragraph>We have great features that will make participating to hackathons fun again</Paragraph>
-                <FeaturesContainer>
-                    <FeatureBox>
-                        <img src={transparencyImg} alt="transparency" />
-                        <FeatureTitle>Transparency</FeatureTitle>
-                        <FeatureDescription>
-                            We make it easy for participants to view their project scores in real time
-                        </FeatureDescription>
-                    </FeatureBox>
-                    <FeatureBox>
-                        <img src={teamImg} alt="team-collaboration" />
-                        <FeatureTitle>Collaboration</FeatureTitle>
-                        <FeatureDescription>
-                            Work with your teammates as an organizer or participant
-                        </FeatureDescription>
-                    </FeatureBox>
-                    <FeatureBox>
-                        <img src={correctImg} alt="simplicity" />
-                        <FeatureTitle>Simplicity</FeatureTitle>
-                        <FeatureDescription>
-                            This hackathon app was designed with you in mind. The UI is simple and intuitive
-                        </FeatureDescription>
-                    </FeatureBox>
-                </FeaturesContainer>
+  return (
+    <AboutContainer>
+      <AboutHeaderContainer>
+        <HeroContainer>
+          <Logo size />
+          <HeroText>Let's make your next hackathon a success!</HeroText>
+        </HeroContainer>
+      </AboutHeaderContainer>
+      <MainContent>
+        <SectionTitle lineWidth="30%">
+          Why HackHunt?
+          <hr />
+        </SectionTitle>
+        <Paragraph>
+          We have great features that will make participating to hackathons fun
+          again
+        </Paragraph>
+        <FeaturesContainer>
+          <FeatureBox>
+            <img src={transparencyImg} alt="transparency" />
+            <FeatureTitle>Transparency</FeatureTitle>
+            <FeatureDescription>
+              We make it easy for participants to view their project scores in
+              real time
+            </FeatureDescription>
+          </FeatureBox>
+          <FeatureBox>
+            <img src={teamImg} alt="team-collaboration" />
+            <FeatureTitle>Collaboration</FeatureTitle>
+            <FeatureDescription>
+              Work with your teammates as an organizer or participant
+            </FeatureDescription>
+          </FeatureBox>
+          <FeatureBox>
+            <img src={correctImg} alt="simplicity" />
+            <FeatureTitle>Simplicity</FeatureTitle>
+            <FeatureDescription>
+              This hackathon app was designed with you in mind. The UI is simple
+              and intuitive
+            </FeatureDescription>
+          </FeatureBox>
+        </FeaturesContainer>
 
         <SectionTitle lineWidth="30%">
           Meet our team of superstars
@@ -161,10 +167,10 @@ const StarCard = ({ star }) => {
     >
       <StarImg src={imgUrl} alt={identifier} />
       <StarHandles active={showInfo}>
-        <a href={gitHubHandle} target="_blank">
+        <a href={gitHubHandle} target="_blank" rel="noopener noreferrer">
           <StyledIcon icon={["fab", "github"]} />
         </a>
-        <a href={linkednHandle} target="_blank">
+        <a href={linkednHandle} target="_blank" rel="noopener noreferrer">
           <StyledIcon icon={["fab", "linkedin"]} />
         </a>
       </StarHandles>

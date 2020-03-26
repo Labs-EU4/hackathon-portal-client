@@ -24,11 +24,7 @@ const defaultState = {
   video_url: "",
   project_writeups: ""
 };
-const ParticipantSubmission = ({
-  initialState = defaultState
-  // id,
-  // setIsSubmitProjectOpen
-}) => {
+const ParticipantSubmission = ({ initialState = defaultState }) => {
   const { id } = useParams();
   const event_id = Number(id);
   const dispatch = useDispatch();

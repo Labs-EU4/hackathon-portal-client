@@ -14,11 +14,11 @@ import {
   Strong,
   Description,
   RatingGroup,
-  JudgeCount,
-  StyledH3
+  JudgeCount
 } from "../../assets/styles/templates/HackathonProjectsStyling";
 import emptyStar from "../../assets/images/star-hollow.png";
 import fullStar from "../../assets/images/star-full.png";
+import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
@@ -66,7 +66,8 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
             <Paragraph strong>Not rated</Paragraph>
           )}
           <Button
-            color="primary-reverse"
+            // link
+            color="blue"
             onClick={() => viewProjectHandler(s.id)}
           >
             View Project
@@ -80,9 +81,9 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
     <StyledWideBody>
       <StyledCardWide>
         <RowHead>
-          <StyledH3>
+          <H3>
             Submitted projects for <Strong>"{event_title}"</Strong>
-          </StyledH3>
+          </H3>
         </RowHead>
         {loading ? (
           <Spinner />
@@ -96,7 +97,10 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
               )}
               {submissions.map(s => renderSubmission(s))}
             </StyledRowBody>
-            <Button onClick={() => setIsSubmissionsPageOpen(false)} color="grey">
+            <Button
+              onClick={() => setIsSubmissionsPageOpen(false)}
+              color="grey"
+            >
               Back to event
             </Button>
           </>

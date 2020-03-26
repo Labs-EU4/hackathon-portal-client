@@ -2,16 +2,13 @@ import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik } from "formik";
-import {
-  registerEvent,
-} from "../../store/eventParticipants/actions";
+import { registerEvent } from "../../store/eventParticipants/actions";
 import {
   StyledWideBody,
   BodyRow,
   BodyColumn,
   Form
 } from "../../assets/styles/templates/CreateTeamStyling";
-// import WideBody from "../../assets/styles/atoms/WideBodyStyling";
 import Button from "../atoms/Button";
 import AddParticipantTeam from "../templates/AddParticipantTeams";
 import TeamView from "./TeamView";
@@ -31,7 +28,7 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
   useEffect(() => {
     fetchTeamsState();
   }, [fetchTeamsState]);
-  console.log(teamId, currentTeamId)
+  console.log(teamId, currentTeamId);
   const handleTeamSubmit = async values => {
     const teamData = {
       team_name: values.team_name,
@@ -40,12 +37,12 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
     };
     // Error handling issue - needs to be a unique name
     await dispatch(createTeamName(teamData, history));
-    await dispatch(registerEvent(id))
+    await dispatch(registerEvent(id));
     //!!HAVE A STATE THAT OPENS THE SELECT TEAM MEMBER COMPONENT HERE TO REDIRECT, ALSO FROM HERE CLOSE THE CREATETEAM COMPONENT
     //REDIRECT TO THE ADDPARTICIPANTTEAMS COMPONENT
     // await setIsAddTeamMemberOpen(true);
-    await setRegisterTeam(false)
-    window.location.reload(true)
+    await setRegisterTeam(false);
+    window.location.reload(true);
   };
 
   const { event_title } = useSelector(state =>
@@ -95,13 +92,13 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
                 )}
               </Formik>
             ) : (
-                <TeamView
-                  {...{ team }}
-                  {...{ isAddTeamMemberOpen }}
-                  {...{ addTeamMemberHandler }}
-                  {...{ setRegisterTeam }}
-                />
-              )}
+              <TeamView
+                {...{ team }}
+                {...{ isAddTeamMemberOpen }}
+                {...{ addTeamMemberHandler }}
+                {...{ setRegisterTeam }}
+              />
+            )}
           </BodyColumn>
         </BodyRow>
       </StyledWideBody>

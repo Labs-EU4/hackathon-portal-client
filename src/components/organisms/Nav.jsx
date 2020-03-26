@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-// // import uuid from 'uuid';
 
 import {
   StyledEditIcon,
@@ -49,7 +48,9 @@ const Nav = ({
     <StyledNav active={isSideBarOpen}>
       {token ? (
         <UserContainer onClick={() => setIsProfileOpen(!isProfileOpen)}>
-          {isEditProfileHovered && !isSideBarOpen && <StyledEditIcon icon="user-edit" />}
+          {isEditProfileHovered && !isSideBarOpen && (
+            <StyledEditIcon icon="user-edit" />
+          )}
           <StyledProfileImage
             active={isEditProfileHovered}
             onMouseEnter={() => setIsEditProfileHovered(true)}
@@ -64,10 +65,7 @@ const Nav = ({
                 />
               </>
             ) : (
-              <ProfileImg
-                alt="defaultImg" 
-                {...{ isSideBarOpen }} 
-              />
+              <ProfileImg alt="defaultImg" {...{ isSideBarOpen }} />
             )}
             {!isSideBarOpen && (
               <UserInfoContent>

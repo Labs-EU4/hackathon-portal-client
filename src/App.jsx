@@ -100,9 +100,7 @@ function App() {
           <MatrixParallax
             color="rgba(122, 229, 114, 0.87)"
             backgroundColor="rgba(0,0,0,1)"
-          >
-            <h5 style={{ maxWidth: "100vw" }} />
-          </MatrixParallax>
+          ></MatrixParallax>
         </React.Fragment>
       </ThemeProvider>
     </>
