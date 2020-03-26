@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../../assets/styles/atoms/TagsInput.css";
 
+import Icon from '../atoms/Button';
+
 const InputTag = props => {
   let tagInput;
   const [tags, setTags] = useState(props.tags);
@@ -34,16 +36,15 @@ const InputTag = props => {
     <div {...props} className="input-tag">
       <ul className="input-tag__tags">
         {tags.map((tag, i) => (
-          <li key={tag}>
+          <li className="tag-name" key={tag}>
             {tag}
             <button
               type="button"
+              className="del-btn"
               onClick={() => {
                 removeTag(i);
               }}
-            >
-              +
-            </button>
+            > - </button>
           </li>
         ))}
         <li className="input-tag__tags__input">
