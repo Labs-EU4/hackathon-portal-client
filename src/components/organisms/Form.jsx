@@ -114,7 +114,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   }
 
   return (
-    <Container>
+    <StyledContainer>
       <H1>{formHeader}</H1>
       <StyledParagraph>{formParagraph}</StyledParagraph>
       <Formik
@@ -195,7 +195,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       </Formik>
 
       <SocialMedia></SocialMedia>
-    </Container>
+    </StyledContainer>
   );
 };
 
@@ -214,6 +214,10 @@ const StyledAnchor = styled(Link)`
   &:hover {
     color: ${props => props.theme.color.blue.light};
   }
+`;
+
+const StyledContainer = styled(Container)`
+  background-color: ${props => props.theme.color.white.regular};
 `;
 
 //OLD VERSION
