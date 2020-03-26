@@ -11,7 +11,7 @@ import Container from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
-import { 
+import {
   StyledParagraph,
   StyledButton
 } from "../../assets/styles/organisms/FormStyling";
@@ -69,35 +69,6 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       });
     }
   };
-
-  // const schema = ctaText.toLowerCase() === "log in" ? (
-  //   Yup.object().shape({
-  //     email: Yup.string()
-  //     .email("Please use a valid email address.")
-  //     .required("Email address is required."),
-  //     password: Yup.string()
-  //     .required("Password is required.")
-  //     .min(8, "Password must be at least 8 characters long.")
-  //   })
-  // ) : (
-  //   Yup.object().shape({
-  //     firstName: Yup.string()
-  //     .required("First name is required.")
-  //     .min(2, "Your name should be at least 2 characters long."),
-  //     lastName: Yup.string()
-  //     .required("Last name is required.")
-  //     .min(2, "Your surname should be at least 2 characters long."),
-  //     username: Yup.string()
-  //     .required("Please provide also a nickname for your profile.")
-  //     .min(3, "Your username should be at least 3 characters long."),
-  //     email: Yup.string()
-  //     .email("Please use a valid email address.")
-  //     .required("Email address is required."),
-  //     password: Yup.string()
-  //     .required("Password is required.")
-  //     .min(8, "Password must be at least 8 characters long.")
-  //   })
-  // )
 
   const schema = Yup.object().shape({
     email: Yup.string()
