@@ -14,7 +14,6 @@ import {
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
 import EventCard from "../organisms/EventCard";
 import image from "../../assets/images/anon.png";
-import matrix from "../../assets/images/matrix.png";
 const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
@@ -84,15 +83,9 @@ const EventOnboarding = ({ eventModalHandler }) => {
       -0.118092,
       0
     ],
-    [
-      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>RTL Dathaton 2020</p>",
-      41.902782,
-      12.496365,
-      0
-    ],
     ["Rome", "Italy", 41.902782, 12.496365, 0],
     [
-      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>Paris,France</p>",
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>Top EU Hackers</p>",
       48.856613,
       2.352222,
       0
