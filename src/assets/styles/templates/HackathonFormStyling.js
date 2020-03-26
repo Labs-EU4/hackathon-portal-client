@@ -4,6 +4,8 @@ import { Form } from "formik";
 import Button from "../../../components/atoms/Button";
 import { H3 } from "../atoms/HeadingStyling";
 import { RowHead } from "../atoms/RowHeadStyling";
+import { Label } from "../atoms/LabelStyling";
+import { Paragraph } from "../atoms/ParagraphStyling";
 
 export const StyledRowHead = styled(RowHead)`
   margin-bottom: 0;
@@ -13,7 +15,7 @@ export const StyledRowHead = styled(RowHead)`
 export const FormContainer = styled.div`
   position: relative;
   width: 100%; height: 100%;
-  background-color: ${props => props.theme.color.white.regular};
+  background-color: black;
   padding-top: 20px;
 `;
 
@@ -47,4 +49,14 @@ export const StyledFormBtn = styled(Button)`
 export const StyledH3 = styled(H3)`
   margin-left: auto; margin-right: auto;
   font-weight: bold;
+  color: rgb(0, 255, 70);
+`;
+
+export const StyledLabel = styled(Label)`
+  color: rgb(0, 255, 70);
+`;
+
+export const StyledParagraph = styled(Paragraph)`
+  margin-left: 5px;
+  color: white;
 `;
