@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { media } from './styles/variables/media';
 
 export const AppContainer = styled.main`
+  position: absolute;
   display: grid;
   grid-template-columns: ${({ active }) => active 
     ? "20px auto auto 60px" 
@@ -16,6 +17,7 @@ export const AppContainer = styled.main`
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  z-index: 100;
 `;
 
 export const RoutesContainer = styled.div`
