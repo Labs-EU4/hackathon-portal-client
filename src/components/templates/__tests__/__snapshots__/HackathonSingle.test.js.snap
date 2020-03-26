@@ -18,7 +18,7 @@ Object {
           >
             <svg
               aria-label="audio-loading"
-              fill="white"
+              fill="black"
               height="10"
               viewBox="0 0 120 30"
               width="100"
@@ -145,7 +145,7 @@ Object {
         >
           <svg
             aria-label="audio-loading"
-            fill="white"
+            fill="black"
             height="10"
             viewBox="0 0 120 30"
             width="100"

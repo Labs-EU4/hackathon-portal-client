@@ -22,7 +22,7 @@ export const StyledRowHead = styled(RowHead)`
 
 export const DashboardContent = styled(RowBody)`
   height: calc(100vh - 185px);
-  margin: 0;
+  margin: 0; padding-top: 20px;
   overflow-y: scroll;
 `;
 
