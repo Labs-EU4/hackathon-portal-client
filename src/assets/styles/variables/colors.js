@@ -62,7 +62,8 @@ export const lightGreen = '#25d366';
 export const green = '#77DD76';
 export const darkGreen = '#1b9849';
 
-export const primary = '#00c4cc';
+// export const primary = '#00c4cc';
+export const primary = 'rgb(0, 255, 70)';
 export const secondary = '#f39422';
 // export const primaryColor = '#1396E7'; //--> VERY GOOOD
 // export const primaryColor = '#065FD4';#537ec5 //--> VERY good blue
