@@ -84,7 +84,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
       0
     ],
     [
-      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>World Tournament 2020</p>",
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>Local PenTest</p>",
       41.902782,
       12.496365,
       0
