@@ -217,7 +217,7 @@ Object {
                 Grading Rubrics (tick all that apply)
               </label>
               <p
-                class="sc-jKJlTe jGxOKF"
+                class="sc-jKJlTe gpPkwN"
               >
                 Judges will be expected to grade project submissions on which one of the following
               </p>
@@ -362,7 +362,7 @@ Object {
                   Participation Type
                 </label>
                 <select
-                  class="sc-ckVGcZ dApVrJ"
+                  class="sc-ckVGcZ janBGD"
                   id="participation_type"
                   name="participation_type"
                 >
@@ -403,7 +403,7 @@ Object {
                   Event Category
                 </label>
                 <select
-                  class="sc-ckVGcZ dApVrJ"
+                  class="sc-ckVGcZ janBGD"
                   id="event_category"
                   name="event_category"
                 >
@@ -487,7 +487,7 @@ Object {
                   Difficulty Level
                 </label>
                 <select
-                  class="sc-ckVGcZ dApVrJ"
+                  class="sc-ckVGcZ janBGD"
                   id="difficulty_level"
                   name="difficulty_level"
                 >
@@ -583,7 +583,7 @@ Object {
                 Project Submission Requirements (tick all that apply)
               </label>
               <p
-                class="sc-jKJlTe jGxOKF"
+                class="sc-jKJlTe gpPkwN"
               >
                 Participants will be expected to submit which one of the following
               </p>
@@ -626,7 +626,7 @@ Object {
               class="sc-jTzLTM bxzhAG"
             />
             <button
-              class="sc-bdVaJa kAuJYm sc-gqjmRU dEyQNc"
+              class="sc-bdVaJa jrkbyx sc-gqjmRU dEyQNc"
               color="green"
               type="submit"
             >
@@ -850,7 +850,7 @@ Object {
               Grading Rubrics (tick all that apply)
             </label>
             <p
-              class="sc-jKJlTe jGxOKF"
+              class="sc-jKJlTe gpPkwN"
             >
               Judges will be expected to grade project submissions on which one of the following
             </p>
@@ -995,7 +995,7 @@ Object {
                 Participation Type
               </label>
               <select
-                class="sc-ckVGcZ dApVrJ"
+                class="sc-ckVGcZ janBGD"
                 id="participation_type"
                 name="participation_type"
               >
@@ -1036,7 +1036,7 @@ Object {
                 Event Category
               </label>
               <select
-                class="sc-ckVGcZ dApVrJ"
+                class="sc-ckVGcZ janBGD"
                 id="event_category"
                 name="event_category"
               >
@@ -1120,7 +1120,7 @@ Object {
                 Difficulty Level
               </label>
               <select
-                class="sc-ckVGcZ dApVrJ"
+                class="sc-ckVGcZ janBGD"
                 id="difficulty_level"
                 name="difficulty_level"
               >
@@ -1216,7 +1216,7 @@ Object {
               Project Submission Requirements (tick all that apply)
             </label>
             <p
-              class="sc-jKJlTe jGxOKF"
+              class="sc-jKJlTe gpPkwN"
             >
               Participants will be expected to submit which one of the following
             </p>
@@ -1259,7 +1259,7 @@ Object {
             class="sc-jTzLTM bxzhAG"
           />
           <button
-            class="sc-bdVaJa kAuJYm sc-gqjmRU dEyQNc"
+            class="sc-bdVaJa jrkbyx sc-gqjmRU dEyQNc"
             color="green"
             type="submit"
           >

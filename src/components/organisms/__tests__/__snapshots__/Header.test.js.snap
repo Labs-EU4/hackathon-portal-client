@@ -24,7 +24,7 @@ Object {
             class="sc-bZQynM RmySO"
           >
             <button
-              class="sc-gzVnrw drSqef"
+              class="sc-bxivhb hhWOMF sc-gzVnrw drSqef"
               data-testid="label"
             >
               Log Out
@@ -54,7 +54,7 @@ Object {
           class="sc-bZQynM RmySO"
         >
           <button
-            class="sc-gzVnrw drSqef"
+            class="sc-bxivhb hhWOMF sc-gzVnrw drSqef"
             data-testid="label"
           >
             Log Out
