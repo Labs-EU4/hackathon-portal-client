@@ -117,8 +117,8 @@ Object {
             class="sc-bwzfXH sc-bxivhb fvykHb"
           >
             <button
-              class="sc-gZMcBi eOEDKs"
-              color="green"
+              class="sc-gZMcBi bZClmS"
+              color="primary-reverse"
               type="submit"
             >
               Save Changes
@@ -241,8 +241,8 @@ Object {
           class="sc-bwzfXH sc-bxivhb fvykHb"
         >
           <button
-            class="sc-gZMcBi eOEDKs"
-            color="green"
+            class="sc-gZMcBi bZClmS"
+            color="primary-reverse"
             type="submit"
           >
             Save Changes

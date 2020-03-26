@@ -115,7 +115,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
 
   return (
     <StyledContainer>
-      <H1>{formHeader}</H1>
+      <StyledH1>{formHeader}</StyledH1>
       <StyledParagraph>{formParagraph}</StyledParagraph>
       <Formik
         initialValues={{ email: "", password: "" }}
@@ -161,7 +161,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
                 </ErrorSpan>
               </>
             )} */}
-            <Label>Email</Label>
+            <StyledLabel>Email</StyledLabel>
             <Input
               display="wide"
               type="text"
@@ -172,7 +172,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <ErrorSpan>
               <ErrorMessage name="email" />
             </ErrorSpan>
-            <Label>Password</Label>
+            <StyledLabel>Password</StyledLabel>
             <Input
               display="wide"
               type="password"
@@ -184,7 +184,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               <ErrorMessage name="password" />
             </ErrorSpan>
 
-            <StyledButton type="submit" size="wide" color="blue">
+            <StyledButton type="submit" size="wide" color="primary-reverse">
               {ctaText}
             </StyledButton>
             {ctaText.toLowerCase() === "log in" && (
@@ -204,112 +204,30 @@ export default CustomForm;
 const StyledAnchor = styled(Link)`
   display: block;
   margin: 20px 0 0 0;
-  font-size: ${props => props.theme.fontSize.small};
+  font-size: 15px;
   font-weight: 500;
-  color: ${props => props.theme.color.blue.regular};
+  color: ${props => props.theme.color.primary.regular};
   text-decoration: none;
   text-transform: none;
   text-align: center;
 
   &:hover {
-    color: ${props => props.theme.color.blue.light};
+    color: rgba(0, 255, 70, .9);
   }
 `;
 
 const StyledContainer = styled(Container)`
-  background-color: ${props => props.theme.color.white.regular};
+  background-color: rgba(0, 0, 0, .8);
+  box-shadow: 
+    2px 2px 10px rgb(255, 255, 255),
+    -2px 2px 10px rgb(255, 255, 255)
+  ;
 `;
 
-//OLD VERSION
-// const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
-//   const dispatch = useDispatch();
-//   const { search, state } = useLocation();
-//   const { team, role, google, github, verified, ref } = queryString.parse(search);
-//   const { token } = useSelector(state => state.currentUser);
+const StyledLabel = styled(Label)`
+  color: ${props => props.theme.color.primary.regular};
+`;
 
-//   useEffect(() => {
-//     if (google || github) {
-//       dispatch(socialAuthLoad());
-//     }
-//     if (verified) {
-//       dispatch(verifyEmail());
-//     }
-//   }, [google, github, verified, dispatch]);
-
-//   const handleSubmit = values => {
-//     const { email, password } = values;
-//     if (ctaText.toLowerCase() === "log in") {
-//       dispatch(login(email, password));
-//     } else {
-//       dispatch(register(email, password, role, team));
-//       toast.success(" 🚀 A moment while we record your details!", {
-//         position: toast.POSITION.BOTTOM_RIGHT
-//       });
-//     }
-//   };
-
-//   const schema = Yup.object().shape({
-//     email: Yup.string()
-//       .email("Please use a valid email address.")
-//       .required("Email address is required."),
-//     password: Yup.string()
-//       .required("Password is required.")
-//       .min(8, "Password must be at least 8 characters long.")
-//       .max(50, "Password cannot be more than 50 characters long.")
-//   });
-
-//   if (token) {
-//     return <Redirect to={state ?.from || ref || '/dashboard'} />;
-//   }
-
-//   return (
-//     <Container>
-//       <H1>{formHeader}</H1>
-
-//       <Paragraph>{formParagraph}</Paragraph>
-//       <Formik
-//         initialValues={{ email: "", password: "" }}
-//         onSubmit={handleSubmit}
-//         validationSchema={schema}
-//       >
-//         {({ errors, touched }) => (
-//           <Form>
-//             <Input
-//               display="wide"
-//               type="text"
-//               name="email"
-//               placeholder="Email address"
-//             />
-//             {errors.name && touched.name ? <div>{errors.name}</div> : null}
-//             <ErrorSpan>
-//               <ErrorMessage name="email" />
-//             </ErrorSpan>
-//             <Input
-//               display="wide"
-//               type="password"
-//               name="password"
-//               placeholder="Password"
-//             />
-//             {errors.name && touched.name ? <div>{errors.name}</div> : null}
-//             <ErrorSpan>
-//               <ErrorMessage name="password" />
-//             </ErrorSpan>
-
-//             <Button type="submit" size="wide" color="blue">
-//               {ctaText}
-//             </Button>
-//             {ctaText.toLowerCase() === "log in" && (
-//               <StyledAnchor to="/forgotpassword">
-//                 Forgot password?
-//                 </StyledAnchor>
-//             )}
-//           </Form>
-//         )}
-//       </Formik>
-
-//       <SocialMedia></SocialMedia>
-//     </Container>
-//   );
-// };
-
-// export default CustomForm;
+const StyledH1 = styled(H1)`
+  color: ${props => props.theme.color.primary.regular};
+`;

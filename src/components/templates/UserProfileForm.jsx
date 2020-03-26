@@ -112,7 +112,7 @@ const UserProfileForm = ({ initialState, isProfileOpen, setIsProfileOpen }) => {
               <ErrorMessage name="bio" />
             </RowBody>
             <ButtonRowBody>
-              <Button color="green" size="wide" type="submit">
+              <Button color="primary-reverse" size="wide" type="submit">
                 Save Changes
               </Button>
             </ButtonRowBody>
