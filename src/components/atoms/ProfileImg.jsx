@@ -1,27 +1,21 @@
 import React from "react";
 import styled from "styled-components";
-// import { media } from "../../assets/styles/variables/media";
-import Icon from '../atoms/Icon';
+import Icon from "../atoms/Icon";
 
 const ProfileImg = ({ image, alt, isSideBarOpen }) => {
   let memberPicture = image ? JSON.parse(image) : null;
 
   return (
     <>
-      {
-        memberPicture ? (
-          <StyledImg
-            active={isSideBarOpen}
-            src={memberPicture.avatar}
-            alt={alt}
-          />
-        ) : (
-          <StyledIcon
-           active={isSideBarOpen}
-            icon="user-circle"
-          />
-        )
-      }
+      {memberPicture ? (
+        <StyledImg
+          active={isSideBarOpen}
+          src={memberPicture.avatar}
+          alt={alt}
+        />
+      ) : (
+        <StyledIcon active={isSideBarOpen} icon="user-circle" />
+      )}
     </>
   );
 };
