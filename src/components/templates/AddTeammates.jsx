@@ -4,9 +4,9 @@ import { useParams, useHistory, useLocation } from "react-router-dom";
 
 import {
   StyledWideBody,
-  StyledCardWide
+  StyledCardWide,
+  StyledH3
 } from "../../assets/styles/templates/AddTeammatesStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { addTeamMember, sendEventTeamInvite } from "../../store/events/actions";
@@ -58,9 +58,9 @@ const AddTeammates = ({ setIsAddJudgeOpen }) => {
       <Column>
         <StyledCardWide>
           <RowHead>
-            <H3
+            <StyledH3
               data-testid="heading"
-            >Add Judge</H3>
+            >Add Judge</StyledH3>
           </RowHead>
           <JudgesSearchWidget
             {...{ selectedUsersHandler }}
