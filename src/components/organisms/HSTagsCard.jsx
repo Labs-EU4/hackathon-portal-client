@@ -13,7 +13,7 @@ import {
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { NormalSpan } from "../../assets/styles/atoms/SpanStyling";
 import Button from "../atoms/Button";
-import userImg from "../../assets/images/user_icon.svg";
+// import userImg from "../../assets/images/user_icon.svg";
 
 const HSTagsCard = ({
   isSideBarOpen,
