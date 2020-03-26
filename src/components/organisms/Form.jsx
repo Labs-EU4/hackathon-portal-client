@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link, useLocation, Redirect } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -19,7 +19,7 @@ import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
 import { register, login } from "../../store/user/actions";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
-
+import Spinner from "../molecules/Spinner"
 const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   const dispatch = useDispatch();
   const { search, state } = useLocation();
@@ -47,6 +47,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
         position: toast.POSITION.BOTTOM_RIGHT
       });
     }
+    setSpinner(true);
   };
 
   const schema = Yup.object().shape({
@@ -59,6 +60,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       .max(50, "Password cannot be more than 50 characters long.")
   });
 
+  const [spinner, setSpinner] = useState(false);
   if (token) {
     return <Redirect to={state?.from || ref || "/dashboard"} />;
   }
@@ -97,9 +99,15 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               <ErrorMessage name="password" />
             </ErrorSpan>
 
-            <StyledButton type="submit" size="wide" color="blue">
+            <StyledButton
+              type="submit"
+              size="wide"
+              color="blue"
+              // onClick={() => setSpinner(true)}
+            >
               {ctaText}
             </StyledButton>
+            {spinner === false ? null : <Spinner/>}
             {ctaText.toLowerCase() === "log in" && (
               <StyledAnchor to="/forgotpassword">Forgot password?</StyledAnchor>
             )}
