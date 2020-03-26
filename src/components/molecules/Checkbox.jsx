@@ -8,7 +8,7 @@ function Checkbox({ label, ...props }) {
   const [field] = useField(props);
 
   return (
-    <CheckGroupN>
+    <CheckGroup>
       <StyledCheckboxFieldN
         id={props.value}
         type="checkbox"
@@ -16,7 +16,7 @@ function Checkbox({ label, ...props }) {
         {...props}
       />
       <Label htmlFor={props.value}>{label}</Label>
-    </CheckGroupN>
+    </CheckGroup>
   );
 }
 export default Checkbox;
