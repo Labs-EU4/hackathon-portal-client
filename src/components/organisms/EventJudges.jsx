@@ -4,10 +4,10 @@ import {
     JudgesContainer,
     JudgeCard,
     JudgeImg,
-    JudgeInfo
+    JudgeInfo,
+    NoJudgesParagraph,
+    JudgeIcon
 } from '../../assets/styles/templates/HackathonSingleStyling';
-import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
-import userImg from "../../assets/images/user_icon.svg";
 
 const EventJudges = ({
     team,
@@ -16,16 +16,15 @@ const EventJudges = ({
     return (
         <JudgesContainer>
             {team.length === 0 ? (
-            <Paragraph>
+            <NoJudgesParagraph>
                 No Judges have been selected for this event
-            </Paragraph>
+            </NoJudgesParagraph>
             ) : (
             team.map(member => (
                 <JudgeCard key={member.user_id}>
                 {member.image_url === null ? (
-                    <JudgeImg
-                    alt="team member profile pic"
-                    src={userImg}
+                    <JudgeIcon
+                        icon="user-circle"
                     />
                 ) : (
                     member.image_url.map((mem, index) => {

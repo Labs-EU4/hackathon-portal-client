@@ -1,8 +1,11 @@
+import styled from "styled-components";
+
 import { media } from "../variables/index";
+
 import { BodyContainer } from "../atoms/BodyContainerStyling";
 import { CardWide } from "../atoms/CardStyling";
 import Icon from "../../../components/atoms/Icon";
-import styled from "styled-components";
+import { H3 } from "../atoms/HeadingStyling";
 
 export const BodyContainerColumn = styled(BodyContainer)`
   flex-direction: column;
@@ -227,4 +230,8 @@ export const StyledCardWide = styled(CardWide)`
   width: 500px;
   transform: translate(-50%, -50%);
   z-index: 200;
+`;
+
+export const StyledH3 = styled(H3)`
+  color: ${({ theme }) => theme.color.primary.regular};
 `;
