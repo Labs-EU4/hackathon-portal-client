@@ -111,27 +111,6 @@ Object {
             <div
               class="sc-kAzzGY hgOXzd"
             >
-              <label
-                class="sc-cSHVUG zmqIo"
-                for="location"
-              >
-                Location
-              </label>
-              <input
-                class="sc-chPdSV iulMjd"
-                display="wide"
-                id="location"
-                name="location"
-                type="text"
-                value=""
-              />
-              <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
-              />
-            </div>
-            <div
-              class="sc-jTzLTM bxzhAG"
-            >
               <div
                 class="sc-chPdSV dQppJa"
               >
@@ -760,27 +739,6 @@ Object {
           </div>
           <div
             class="sc-kAzzGY hgOXzd"
-          >
-            <label
-              class="sc-cSHVUG zmqIo"
-              for="location"
-            >
-              Location
-            </label>
-            <input
-              class="sc-chPdSV iulMjd"
-              display="wide"
-              id="location"
-              name="location"
-              type="text"
-              value=""
-            />
-            <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
-            />
-          </div>
-          <div
-            class="sc-jTzLTM bxzhAG"
           >
             <div
               class="sc-chPdSV dQppJa"

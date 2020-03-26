@@ -111,27 +111,6 @@ Object {
             <div
               class="sc-kAzzGY hgOXzd"
             >
-              <label
-                class="sc-cSHVUG zmqIo"
-                for="location"
-              >
-                Location
-              </label>
-              <input
-                class="sc-chPdSV iulMjd"
-                display="wide"
-                id="location"
-                name="location"
-                type="text"
-                value=""
-              />
-              <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
-              />
-            </div>
-            <div
-              class="sc-jTzLTM bxzhAG"
-            >
               <div
                 class="sc-chPdSV dQppJa"
               >
@@ -348,17 +327,10 @@ Object {
             class="sc-VigVT reFVa"
           >
             <div
-<<<<<<< HEAD
-              class="sc-jTzLTM bxzhAG"
-            >
-              <label
-                class="sc-cSHVUG zmqIo"
-=======
               class="sc-kAzzGY hgOXzd"
             >
               <label
                 class="sc-htoDjs sc-jzJRlG jsnZzo"
->>>>>>> General-Color_scheme
                 for="prize"
               >
                 Prize
@@ -472,18 +444,6 @@ Object {
               </div>
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-jTzLTM fVeHZI"
-            >
-              <div
-                class="sc-fjdhpX gpYlNN"
-              >
-                <div
-                  class="sc-jTzLTM bxzhAG"
-                >
-                  <label
-                    class="sc-cSHVUG zmqIo"
-=======
               class="sc-kAzzGY cfVEPo"
             >
               <div
@@ -494,17 +454,12 @@ Object {
                 >
                   <label
                     class="sc-htoDjs sc-jzJRlG jsnZzo"
->>>>>>> General-Color_scheme
                     for="participant_limit"
                   >
                     Number of Participants
                   </label>
                   <input
-<<<<<<< HEAD
-                    class="sc-chPdSV iulMjd"
-=======
                     class="sc-kpOJdX caNRvW"
->>>>>>> General-Color_scheme
                     display="wide"
                     id="participant_limit"
                     name="participant_limit"
@@ -512,21 +467,13 @@ Object {
                     value=""
                   />
                   <span
-<<<<<<< HEAD
-                    class="sc-eNQAEJ sc-iAyFgw iydSCt"
-=======
                     class="sc-kEYyzF sc-eHgmQL bfkbKW"
->>>>>>> General-Color_scheme
                   />
                 </div>
               </div>
             </div>
             <div
-<<<<<<< HEAD
-              class="sc-jTzLTM bxzhAG"
-=======
               class="sc-kAzzGY hgOXzd"
->>>>>>> General-Color_scheme
             >
               <div
                 class="sc-chPdSV dQppJa"
@@ -793,27 +740,6 @@ Object {
           <div
             class="sc-kAzzGY hgOXzd"
           >
-            <label
-              class="sc-cSHVUG zmqIo"
-              for="location"
-            >
-              Location
-            </label>
-            <input
-              class="sc-chPdSV iulMjd"
-              display="wide"
-              id="location"
-              name="location"
-              type="text"
-              value=""
-            />
-            <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
-            />
-          </div>
-          <div
-            class="sc-jTzLTM bxzhAG"
-          >
             <div
               class="sc-chPdSV dQppJa"
             >
@@ -1030,17 +956,10 @@ Object {
           class="sc-VigVT reFVa"
         >
           <div
-<<<<<<< HEAD
-            class="sc-jTzLTM bxzhAG"
-          >
-            <label
-              class="sc-cSHVUG zmqIo"
-=======
             class="sc-kAzzGY hgOXzd"
           >
             <label
               class="sc-htoDjs sc-jzJRlG jsnZzo"
->>>>>>> General-Color_scheme
               for="prize"
             >
               Prize
@@ -1154,18 +1073,6 @@ Object {
             </div>
           </div>
           <div
-<<<<<<< HEAD
-            class="sc-jTzLTM fVeHZI"
-          >
-            <div
-              class="sc-fjdhpX gpYlNN"
-            >
-              <div
-                class="sc-jTzLTM bxzhAG"
-              >
-                <label
-                  class="sc-cSHVUG zmqIo"
-=======
             class="sc-kAzzGY cfVEPo"
           >
             <div
@@ -1176,17 +1083,12 @@ Object {
               >
                 <label
                   class="sc-htoDjs sc-jzJRlG jsnZzo"
->>>>>>> General-Color_scheme
                   for="participant_limit"
                 >
                   Number of Participants
                 </label>
                 <input
-<<<<<<< HEAD
-                  class="sc-chPdSV iulMjd"
-=======
                   class="sc-kpOJdX caNRvW"
->>>>>>> General-Color_scheme
                   display="wide"
                   id="participant_limit"
                   name="participant_limit"
@@ -1194,21 +1096,13 @@ Object {
                   value=""
                 />
                 <span
-<<<<<<< HEAD
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
-=======
                   class="sc-kEYyzF sc-eHgmQL bfkbKW"
->>>>>>> General-Color_scheme
                 />
               </div>
             </div>
           </div>
           <div
-<<<<<<< HEAD
-            class="sc-jTzLTM bxzhAG"
-=======
             class="sc-kAzzGY hgOXzd"
->>>>>>> General-Color_scheme
           >
             <div
               class="sc-chPdSV dQppJa"
