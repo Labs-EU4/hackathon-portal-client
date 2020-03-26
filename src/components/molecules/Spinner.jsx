@@ -7,7 +7,7 @@ export default () => (
   <RowBody spacing="center">
     <Loader
       type="ThreeDots"
-      color="#00ff46"
+      color="white"
       height={10}
       width={100}
       visible={true}
