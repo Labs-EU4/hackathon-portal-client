@@ -25,7 +25,7 @@ import {
   unregisterEvent
 } from "../../store/eventParticipants/actions";
 
-const EventCard = ({ event, eventModalHandler }) => {
+const EventCard = ({ event }) => {
   const {
     id,
     event_id,
@@ -35,8 +35,7 @@ const EventCard = ({ event, eventModalHandler }) => {
     organizer_profile_pic,
     location,
     join,
-    registered,
-    StyledParagraph
+    registered
   } = event;
   const { pathname } = useLocation();
   const letter = organizer_name && organizer_name.split("")[0];
@@ -81,8 +80,8 @@ const EventCard = ({ event, eventModalHandler }) => {
           {organizer_profile_pic ? (
             <OrgImg src={organizerImg.avatar} alt={organizer_name} />
           ) : (
-              letter && <StyledIconLetter>{letter}</StyledIconLetter>
-            )}
+            letter && <StyledIconLetter>{letter}</StyledIconLetter>
+          )}
           <DateParagraph bold>
             {startMonth !== endMonth ? (
               <>
@@ -93,14 +92,14 @@ const EventCard = ({ event, eventModalHandler }) => {
                 {startMonth} {startDay}, {startYear}
               </>
             ) : (
-                  <>
-                    {startMonth} {startDay} - {endDay}, {startYear}
-                  </>
-                )}
+              <>
+                {startMonth} {startDay} - {endDay}, {startYear}
+              </>
+            )}
           </DateParagraph>
           <StyledH4>{event_title}</StyledH4>
           <LocationParagraphN bold>{location}</LocationParagraphN>
-          <Paragraph style={{ color: "white"}}>{excerpt}</Paragraph>
+          <Paragraph style={{ color: "white" }}>{excerpt}</Paragraph>
           <CardCountDown className={`countdown-${event_id}`}>
             {formattedDate}
           </CardCountDown>
@@ -122,10 +121,10 @@ const EventCard = ({ event, eventModalHandler }) => {
                 Unregister
               </Button>
             ) : (
-                  <Button link color="primary" onClick={joinEvent} to={"#"}>
-                    Join Event
+              <Button link color="primary" onClick={joinEvent} to={"#"}>
+                Join Event
               </Button>
-                )}
+            )}
           </EventCTA>
         </EventCardContent>
         <StyledBookmarkIcon icon="bookmark" />
