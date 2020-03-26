@@ -154,9 +154,11 @@ const StarCard = ({ star }) => {
             onMouseLeave={() => setShowInfo(false)}
         >
             <StarImg src={imgUrl} alt={identifier} />
-            <StarHandles>
-                <Icon icon=['fab', 'github'] />
-                <Icon icon=['fab', 'github'] />
+            <StarHandles
+                active={showInfo}
+            >
+                <Icon icon={['fab', 'github']} />
+                <Icon icon={['fab', 'linkedin']} />
             </StarHandles>
             <StarInfo active={showInfo}>{bio}</StarInfo>
         </StyledCard>
