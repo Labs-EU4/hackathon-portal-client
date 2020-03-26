@@ -16,7 +16,7 @@ export const StyledEditIcon = styled(Icon)`
 
 export const StyledExpandIcon = styled(Icon)`
   position: absolute; bottom: 70px; left: 50%;
-  font-size: 30px;
+  font-size: 40px; color: white;
   transform: ${({ active }) => active === 'true' 
     ? 'translateX(-50%) rotate(90deg);' 
     : 'translateX(-50%) rotate(-90deg);'};
@@ -27,7 +27,7 @@ export const StyledExpandIcon = styled(Icon)`
     transform: ${({ active }) => active === 'true'
       ? 'translateX(-50%) rotate(90deg) scale(1.1);' 
       : 'translateX(-50%) rotate(-90deg) scale(1.1);'};
-    color: ${props => props.theme.color.white.regular};
+    color: ${props => props.theme.color.primary.regular};
   }
 
   @media ${media.tablet} { 
@@ -88,7 +88,7 @@ export const StyledNavLink = styled(NavLink)`
   width: 100%;
   background-color: rgba(0, 0, 0, .7);
   border-left: 5px solid transparent;
-  border-radius: 6px;
+  border-radius: ${({ active }) => active === 'true' ? '0px' : '6px'};
   margin-bottom: 10px; padding: 12px 0 8px 5px;
   color: ${props => props.theme.color.white.regular};
   font-weight: 600; font-size: 15px;
@@ -163,10 +163,12 @@ export const LinkDetails = styled.div`
   ${props => props.theme.shadow.box};
   position: absolute; top: 50%;
   height: 45px;
-  background-color: #3BCEF2;
+  background-color: black;
   border: 2px solid ${props => props.theme.color.primary.regular}; border-right: none;
   border-top-left-radius: 3px; border-bottom-left-radius: 3px;
   padding: 0 20px;
+  font-size: 15px;
+  color: rgb(0, 255, 70);
   transform: translate(-100%, -60%);
   z-index: 100;
   visibility: hidden;
