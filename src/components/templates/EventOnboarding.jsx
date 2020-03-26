@@ -13,7 +13,7 @@ import {
   StyledH4
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
 import EventCard from "../organisms/EventCard";
-
+import image from "../../assets/images/anon.png";
 const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
@@ -64,13 +64,10 @@ const EventOnboarding = ({ eventModalHandler }) => {
   // helper functions
   let createGoogleMap = null;
 
-  let imageH =
-    "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi2.png";
-
   var eventsLocation = [
     ["Coventry University", 52.3838, -1.56366, 0],
     ["Amsterdam", 52.373169, 4.89066, 0],
-    ["Stratford,UK", 53.47555, 2.35784, 0],
+    ["Abuja,Nigeria", 9.06146, 7.50064, 0],
     ["Rome", "Italy", 41.902782, 12.496365, 0],
     ["Paris,France", 48.856613, 2.352222, 0]
   ];
@@ -78,8 +75,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const createMarker = (lati, long) => {
     const marker = new window.google.maps.Marker({
       position: { lat: lati, lng: long },
-      label: "You",
-      icon: imageH
+      icon: image
     });
     marker.setMap(createGoogleMap);
   };
