@@ -9,7 +9,7 @@ Object {
         class="sc-bdVaJa sc-bwzfXH ckrujS"
       >
         <div
-          class="sc-htoDjs sc-iwsKbI cxoUZI"
+          class="sc-htoDjs sc-iwsKbI pBoEh"
         >
           <div
             class="sc-bZQynM ehIAPt"
@@ -109,14 +109,14 @@ Object {
               class="sc-gzVnrw cguHsh"
             >
               <a
-                class="sc-kGXeez etbnHe"
+                class="sc-kGXeez ijZZZZ"
                 color="grey"
                 href="/dashboard"
               >
                 Cancel
               </a>
               <button
-                class="sc-kgoBCf gNaBXv"
+                class="sc-kgoBCf bgrcVx"
                 color="green"
                 type="submit"
               >
@@ -133,7 +133,7 @@ Object {
       class="sc-bdVaJa sc-bwzfXH ckrujS"
     >
       <div
-        class="sc-htoDjs sc-iwsKbI cxoUZI"
+        class="sc-htoDjs sc-iwsKbI pBoEh"
       >
         <div
           class="sc-bZQynM ehIAPt"
@@ -233,14 +233,14 @@ Object {
             class="sc-gzVnrw cguHsh"
           >
             <a
-              class="sc-kGXeez etbnHe"
+              class="sc-kGXeez ijZZZZ"
               color="grey"
               href="/dashboard"
             >
               Cancel
             </a>
             <button
-              class="sc-kgoBCf gNaBXv"
+              class="sc-kgoBCf bgrcVx"
               color="green"
               type="submit"
             >

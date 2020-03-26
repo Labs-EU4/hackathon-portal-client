@@ -16,7 +16,7 @@ Object {
           >
             <img
               alt="Hackton - Organise hackathons"
-              class="sc-htpNat kmkWAL"
+              class="sc-htpNat hJZIfj"
               src="Hackton-logo.png"
             />
           </a>
@@ -24,8 +24,7 @@ Object {
             class="sc-bZQynM RmySO"
           >
             <button
-              class="sc-bxivhb xHoGA sc-gzVnrw VwObF"
-              color="grey"
+              class="sc-gzVnrw drSqef"
               data-testid="label"
             >
               Log Out
@@ -47,7 +46,7 @@ Object {
         >
           <img
             alt="Hackton - Organise hackathons"
-            class="sc-htpNat kmkWAL"
+            class="sc-htpNat hJZIfj"
             src="Hackton-logo.png"
           />
         </a>
@@ -55,8 +54,7 @@ Object {
           class="sc-bZQynM RmySO"
         >
           <button
-            class="sc-bxivhb xHoGA sc-gzVnrw VwObF"
-            color="grey"
+            class="sc-gzVnrw drSqef"
             data-testid="label"
           >
             Log Out

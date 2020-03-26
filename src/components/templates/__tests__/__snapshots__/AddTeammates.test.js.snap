@@ -12,7 +12,7 @@ Object {
           class="sc-eNQAEJ eJaLcW"
         >
           <div
-            class="sc-htpNat sc-bxivhb sc-kgoBCf ljNFXD"
+            class="sc-htpNat sc-bxivhb sc-kgoBCf jVmgUH"
           >
             <div
               class="sc-jKJlTe kbLxzi"
@@ -25,7 +25,7 @@ Object {
               </h3>
             </div>
             <div
-              class="sc-iwsKbI cMtZoi"
+              class="sc-iwsKbI uafnR"
               display="wide"
             >
               <input
@@ -52,23 +52,23 @@ Object {
                 style="display: flex; flex-direction: column;"
               >
                 <div
-                  class="sc-gZMcBi jxYRYE"
+                  class="sc-gZMcBi dFHVKo"
                 />
                 <div
-                  class="sc-gqjmRU itmJak"
+                  class="sc-gqjmRU gSykCm"
                 />
               </div>
               <div
                 class="sc-iAyFgw fDrPTQ"
               >
                 <button
-                  class="sc-hMqMXs bkKfzE"
+                  class="sc-hMqMXs jhajig"
                   color="grey"
                 >
                   Back
                 </button>
                 <button
-                  class="sc-hMqMXs bbRySB"
+                  class="sc-hMqMXs iojTEY"
                   color="green"
                 >
                   Add Judge
@@ -88,7 +88,7 @@ Object {
         class="sc-eNQAEJ eJaLcW"
       >
         <div
-          class="sc-htpNat sc-bxivhb sc-kgoBCf ljNFXD"
+          class="sc-htpNat sc-bxivhb sc-kgoBCf jVmgUH"
         >
           <div
             class="sc-jKJlTe kbLxzi"
@@ -101,7 +101,7 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-iwsKbI cMtZoi"
+            class="sc-iwsKbI uafnR"
             display="wide"
           >
             <input
@@ -128,23 +128,23 @@ Object {
               style="display: flex; flex-direction: column;"
             >
               <div
-                class="sc-gZMcBi jxYRYE"
+                class="sc-gZMcBi dFHVKo"
               />
               <div
-                class="sc-gqjmRU itmJak"
+                class="sc-gqjmRU gSykCm"
               />
             </div>
             <div
               class="sc-iAyFgw fDrPTQ"
             >
               <button
-                class="sc-hMqMXs bkKfzE"
+                class="sc-hMqMXs jhajig"
                 color="grey"
               >
                 Back
               </button>
               <button
-                class="sc-hMqMXs bbRySB"
+                class="sc-hMqMXs iojTEY"
                 color="green"
               >
                 Add Judge

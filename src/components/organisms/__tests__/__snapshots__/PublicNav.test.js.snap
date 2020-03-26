@@ -9,8 +9,7 @@ Object {
         class="sc-bxivhb crsnkz"
       >
         <button
-          class="sc-bdVaJa iXoTzQ sc-ifAKCX jNhvrd"
-          color="grey"
+          class="sc-ifAKCX hJVfmQ"
           data-testid="label"
         >
           Log Out
@@ -23,8 +22,7 @@ Object {
       class="sc-bxivhb crsnkz"
     >
       <button
-        class="sc-bdVaJa iXoTzQ sc-ifAKCX jNhvrd"
-        color="grey"
+        class="sc-ifAKCX hJVfmQ"
         data-testid="label"
       >
         Log Out
