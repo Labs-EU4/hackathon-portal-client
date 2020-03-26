@@ -19,6 +19,7 @@ const ProfileImg = ({ image, alt, isSideBarOpen }) => {
           />
         ) : (
           <StyledIcon
+           active={isSideBarOpen}
             icon="user-circle"
           />
         )
@@ -43,6 +44,7 @@ const StyledImg = styled.img`
 const StyledIcon = styled(Icon)`
   font-size: 35px;
   color: rgb(0, 255, 70);
+  ${({ active }) => active && "margin-left: 10px;"};
 `;
 
 //   @media ${media.tablet} {
