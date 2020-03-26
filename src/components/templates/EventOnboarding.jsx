@@ -54,7 +54,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
     });
 
     eventsLocation.forEach(loc => {
-      createMarker(loc[1], loc[2]);
+      createMarker(loc[1], loc[2], loc[0]);
     });
   });
 
@@ -65,19 +65,51 @@ const EventOnboarding = ({ eventModalHandler }) => {
   let createGoogleMap = null;
 
   var eventsLocation = [
-    ["Coventry University", 52.3838, -1.56366, 0],
-    ["Amsterdam", 52.373169, 4.89066, 0],
-    ["Abuja,Nigeria", 9.06146, 7.50064, 0],
-    ["Rome", "Italy", 41.902782, 12.496365, 0],
-    ["Paris,France", 48.856613, 2.352222, 0]
+    [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>CovHack</p>",
+      52.3838,
+      -1.56366,
+      0
+    ],
+    [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>RTL Dathaton 2020</p>",
+      52.373169,
+      4.89066,
+      0
+    ],
+    [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>World Tournament 2020</p>",
+      51.509865,
+      -0.118092,
+      0
+    ],
+    [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>Local PenTest</p>",
+      41.902782,
+      12.496365,
+      0
+    ],
+    [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>Top EU Hackers</p>",
+      48.856613,
+      2.352222,
+      0
+    ]
   ];
 
-  const createMarker = (lati, long) => {
+  const createMarker = (lati, long, title) => {
+    var infowindow = new window.google.maps.InfoWindow({
+      content: title
+    });
+
     const marker = new window.google.maps.Marker({
       position: { lat: lati, lng: long },
       icon: image
     });
     marker.setMap(createGoogleMap);
+    marker.addListener("click", function() {
+      infowindow.open(createGoogleMap, marker);
+    });
   };
 
   // useEffect Hook
