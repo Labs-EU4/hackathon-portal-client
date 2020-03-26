@@ -100,6 +100,7 @@ export const FeatureDescription = styled.p`
 export const StyledCard = styled.div`
     width: calc((100% / 3) - 10px); min-width: 250px;
     height: 250px;
+    background-color: ${({ theme }) => theme.color.primary.regular};
     border: 2px solid ${props => props.theme.color.primary.regular};
     margin: 5px 2.5px;
     overflow: hidden;
@@ -110,6 +111,7 @@ export const StyledCard = styled.div`
 
         & > img {
             width: 50%; height: 50%;
+            filter: grayscale(0%);
         }
     }
 `;
@@ -117,16 +119,22 @@ export const StyledCard = styled.div`
 export const StarImg = styled.img`
     width: 100%; height: 100%;
     object-fit: cover;
+    /* opacity: .9; */
+    filter: grayscale(90%);
     transition: all .4s ease-in-out;
 `;
 
 export const StarInfo = styled.div`
     height: 50%;
-    background-color: red;
+    background-color: ${({ theme }) => theme.color.primary.regular};
     text-transform: uppercase;
     transform: ${({ active }) => active 
         ? `translateY(0)`
         : `translateY(100%)`
     };
     transition: all .4s ease-in-out;
+`;
+
+export const StarHandles = styled.div`
+
 `;
