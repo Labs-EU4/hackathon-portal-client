@@ -14,11 +14,17 @@ Object {
           <a
             href="/"
           >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-htpNat hJZIfj"
-              src="Hackton-logo.png"
-            />
+            <div
+              class="sc-htpNat bfRnAF"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                src="icon_hacker.png"
+              />
+              <span>
+                HackHunt
+              </span>
+            </div>
           </a>
           <div
             class="sc-bZQynM RmySO"
@@ -44,11 +50,17 @@ Object {
         <a
           href="/"
         >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-htpNat hJZIfj"
-            src="Hackton-logo.png"
-          />
+          <div
+            class="sc-htpNat bfRnAF"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              src="icon_hacker.png"
+            />
+            <span>
+              HackHunt
+            </span>
+          </div>
         </a>
         <div
           class="sc-bZQynM RmySO"

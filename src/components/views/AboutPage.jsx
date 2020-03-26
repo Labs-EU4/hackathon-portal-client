@@ -92,7 +92,7 @@ const AboutPage = () => {
         <AboutContainer>
             <AboutHeaderContainer>
                 <HeroContainer>
-                    <Logo size="80%"/>
+                    <Logo size/>
                     <HeroText>
                         Let's make your next hackathon a success!
                     </HeroText>
