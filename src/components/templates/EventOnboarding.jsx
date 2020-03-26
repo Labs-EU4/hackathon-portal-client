@@ -83,7 +83,12 @@ const EventOnboarding = ({ eventModalHandler }) => {
       -0.118092,
       0
     ],
-    ["Rome", "Italy", 41.902782, 12.496365, 0],
+    [
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>World Tournament 2020</p>",
+      41.902782,
+      12.496365,
+      0
+    ],
     [
       "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>Top EU Hackers</p>",
       48.856613,
