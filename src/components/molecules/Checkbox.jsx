@@ -9,7 +9,7 @@ function Checkbox({ label, ...props }) {
 
   return (
     <CheckGroup>
-      <StyledCheckboxFieldN
+      <StyledCheckboxField
         id={props.value}
         type="checkbox"
         {...field}
