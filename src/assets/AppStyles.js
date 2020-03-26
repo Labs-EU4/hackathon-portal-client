@@ -22,7 +22,7 @@ export const RoutesContainer = styled.div`
   ${props => props.theme.shadow.box};
   position: relative;
   grid-area: main;
-  background-color: ${props => props.theme.color.white.bg};
+  background: transparent;
   border-radius: 5px;
   overflow: hidden;
 
