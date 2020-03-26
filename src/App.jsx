@@ -56,7 +56,6 @@ function App() {
           render={() => <EditHackathon />}
         />
         {/* // !! ROUTE USED FOR TESTING */}
-        <PrivateRoute exact path={`/results`} render={() => <ResultPage />} />
       </>
     );
   };
