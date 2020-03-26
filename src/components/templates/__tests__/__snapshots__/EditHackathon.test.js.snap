@@ -92,6 +92,27 @@ Object {
             <div
               class="sc-jTzLTM bxzhAG"
             >
+              <label
+                class="sc-cSHVUG zmqIo"
+                for="location"
+              >
+                Location
+              </label>
+              <input
+                class="sc-chPdSV iulMjd"
+                display="wide"
+                id="location"
+                name="location"
+                type="text"
+                value="Europe"
+              />
+              <span
+                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              />
+            </div>
+            <div
+              class="sc-jTzLTM bxzhAG"
+            >
               <div
                 class="sc-fjdhpX gpYlNN"
               >
@@ -104,7 +125,7 @@ Object {
                 <input
                   class="sc-chPdSV hhxnWJ"
                   id="start_date"
-                  min="2020-03-25"
+                  min="2020-03-26"
                   name="start_date"
                   placeholder="Event starts"
                   type="date"
@@ -152,11 +173,11 @@ Object {
                 <input
                   class="sc-chPdSV hhxnWJ"
                   id="start_time"
-                  min="2020-03-25"
+                  min="2020-03-26"
                   name="start_time"
                   placeholder="Start Time"
                   type="time"
-                  value="2020-03-25"
+                  value="2020-03-26"
                 />
                 <span
                   class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -178,7 +199,7 @@ Object {
                   name="end_time"
                   placeholder="End Time"
                   type="time"
-                  value="2020-03-25"
+                  value="2020-03-26"
                 />
                 <span
                   class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -312,27 +333,6 @@ Object {
             >
               <label
                 class="sc-cSHVUG zmqIo"
-                for="location"
-              >
-                Location
-              </label>
-              <input
-                class="sc-chPdSV iulMjd"
-                display="wide"
-                id="location"
-                name="location"
-                type="text"
-                value="Europe"
-              />
-              <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
-              />
-            </div>
-            <div
-              class="sc-jTzLTM bxzhAG"
-            >
-              <label
-                class="sc-cSHVUG zmqIo"
                 for="prize"
               >
                 Prize
@@ -443,6 +443,35 @@ Object {
                 <span
                   class="sc-eNQAEJ sc-iAyFgw iydSCt"
                 />
+              </div>
+            </div>
+            <div
+              class="sc-jTzLTM fVeHZI"
+            >
+              <div
+                class="sc-fjdhpX gpYlNN"
+              >
+                <div
+                  class="sc-jTzLTM bxzhAG"
+                >
+                  <label
+                    class="sc-cSHVUG zmqIo"
+                    for="participant_limit"
+                  >
+                    Number of Participants
+                  </label>
+                  <input
+                    class="sc-chPdSV iulMjd"
+                    display="wide"
+                    id="participant_limit"
+                    name="participant_limit"
+                    type="number"
+                    value=""
+                  />
+                  <span
+                    class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  />
+                </div>
               </div>
             </div>
             <div
@@ -696,6 +725,27 @@ Object {
           <div
             class="sc-jTzLTM bxzhAG"
           >
+            <label
+              class="sc-cSHVUG zmqIo"
+              for="location"
+            >
+              Location
+            </label>
+            <input
+              class="sc-chPdSV iulMjd"
+              display="wide"
+              id="location"
+              name="location"
+              type="text"
+              value="Europe"
+            />
+            <span
+              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+            />
+          </div>
+          <div
+            class="sc-jTzLTM bxzhAG"
+          >
             <div
               class="sc-fjdhpX gpYlNN"
             >
@@ -708,7 +758,7 @@ Object {
               <input
                 class="sc-chPdSV hhxnWJ"
                 id="start_date"
-                min="2020-03-25"
+                min="2020-03-26"
                 name="start_date"
                 placeholder="Event starts"
                 type="date"
@@ -756,11 +806,11 @@ Object {
               <input
                 class="sc-chPdSV hhxnWJ"
                 id="start_time"
-                min="2020-03-25"
+                min="2020-03-26"
                 name="start_time"
                 placeholder="Start Time"
                 type="time"
-                value="2020-03-25"
+                value="2020-03-26"
               />
               <span
                 class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -782,7 +832,7 @@ Object {
                 name="end_time"
                 placeholder="End Time"
                 type="time"
-                value="2020-03-25"
+                value="2020-03-26"
               />
               <span
                 class="sc-eNQAEJ sc-iAyFgw iydSCt"
@@ -916,27 +966,6 @@ Object {
           >
             <label
               class="sc-cSHVUG zmqIo"
-              for="location"
-            >
-              Location
-            </label>
-            <input
-              class="sc-chPdSV iulMjd"
-              display="wide"
-              id="location"
-              name="location"
-              type="text"
-              value="Europe"
-            />
-            <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
-            />
-          </div>
-          <div
-            class="sc-jTzLTM bxzhAG"
-          >
-            <label
-              class="sc-cSHVUG zmqIo"
               for="prize"
             >
               Prize
@@ -1047,6 +1076,35 @@ Object {
               <span
                 class="sc-eNQAEJ sc-iAyFgw iydSCt"
               />
+            </div>
+          </div>
+          <div
+            class="sc-jTzLTM fVeHZI"
+          >
+            <div
+              class="sc-fjdhpX gpYlNN"
+            >
+              <div
+                class="sc-jTzLTM bxzhAG"
+              >
+                <label
+                  class="sc-cSHVUG zmqIo"
+                  for="participant_limit"
+                >
+                  Number of Participants
+                </label>
+                <input
+                  class="sc-chPdSV iulMjd"
+                  display="wide"
+                  id="participant_limit"
+                  name="participant_limit"
+                  type="number"
+                  value=""
+                />
+                <span
+                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                />
+              </div>
             </div>
           </div>
           <div
