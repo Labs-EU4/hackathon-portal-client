@@ -1,14 +1,13 @@
 .input-tagN {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  color: #212121;
   border: 1px solid #c3cfd9;
   border-radius: 6px;
   padding: 10px;
   width: 180px;
   margin: 0 20px 10px 0;
   width: 100%;
+  color: rgb(0, 255, 70);
 }
 
 .input-tagN input:focus {
@@ -32,7 +31,7 @@
   align-items: center;
   background: #e9b75f;
   border-radius: 6px;
-  color: white;
+  color: rgb(0, 255, 70);
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
@@ -64,4 +63,13 @@
   background: none;
   flex-grow: 1;
   padding: 0;
+}
+
+.tag-name {
+  color: rgb(0, 255, 70);
+}
+
+.del-btn {
+  font-size: 10px;
+  color: black;
 }
