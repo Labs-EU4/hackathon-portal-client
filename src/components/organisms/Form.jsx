@@ -63,6 +63,8 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     return <Redirect to={state?.from || ref || "/dashboard"} />;
   }
 
+  
+
   return (
     <Container>
       <H1>{formHeader}</H1>
@@ -74,43 +76,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       >
         {({ errors, touched }) => (
           <Form>
-            {/* {ctaText.toLowerCase() === "create my free account" && (
-              <>
-                <Label>First name</Label>
-                <Input
-                  display="wide"
-                  type="text"
-                  name="firstName"
-                  placeholder="Bruce"
-                />
-                {errors.name && touched.name ? <div>{errors.name}</div> : null}
-                <ErrorSpan>
-                  <ErrorMessage name="firstName" />
-                </ErrorSpan>
-                <Label>Last name</Label>
-                <Input
-                  display="wide"
-                  type="text"
-                  name="lastName"
-                  placeholder="Wayne"
-                />
-                {errors.name && touched.name ? <div>{errors.name}</div> : null}
-                <ErrorSpan>
-                  <ErrorMessage name="lastName" />
-                </ErrorSpan>
-                <Label>Username</Label>
-                <Input
-                  display="wide"
-                  type="text"
-                  name="username"
-                  placeholder="Email address"
-                />
-                {errors.name && touched.name ? <div>{errors.name}</div> : null}
-                <ErrorSpan>
-                  <ErrorMessage name="username" />
-                </ErrorSpan>
-              </>
-            )} */}
+         
             <Label>Email</Label>
             <Input
               display="wide"
