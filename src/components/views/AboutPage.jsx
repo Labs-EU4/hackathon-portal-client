@@ -14,10 +14,12 @@ import {
     FeatureDescription,
     StyledCard,
     StarImg,
-    StarInfo
+    StarInfo,
+    StarHandles
 } from "../../assets/styles/views/AboutPage";
 
 import Logo from '../atoms/Logo';
+import Icon from '../atoms/Icon';
 import teamImg from '../../assets/images/team.png';
 import correctImg from '../../assets/images/correct.png';
 import transparencyImg from '../../assets/images/transparency.png';
@@ -152,6 +154,10 @@ const StarCard = ({ star }) => {
             onMouseLeave={() => setShowInfo(false)}
         >
             <StarImg src={imgUrl} alt={identifier} />
+            <StarHandles>
+                <Icon icon=['fab', 'github'] />
+                <Icon icon=['fab', 'github'] />
+            </StarHandles>
             <StarInfo active={showInfo}>{bio}</StarInfo>
         </StyledCard>
     );
