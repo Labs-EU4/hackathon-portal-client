@@ -14,7 +14,7 @@ export const theme = {
     color: {
         primary: {
             light: '#81DBFD',
-            regular: color.primary,
+            regular: 'rgb(0, 255, 70)',
             // dark: color.primaryDark
         },
         secondary: {
@@ -72,7 +72,7 @@ export const theme = {
         button: "font-size: 1.8rem;"
     },
     shadow: {
-        text: `text-shadow: .5px .5px 1px ${color.black}`,
+        text: `text-shadow: .5px .5px 1px white;`,
         text_links: `1px .75px 1.5px ${color.black}`,
         box: `box-shadow: 0 3px 20px 0 rgba(0, 0, 0, .2)`,
         card: `box-shadow: 1px .5px 3px rgba(0, 0, 0, .15)`,
