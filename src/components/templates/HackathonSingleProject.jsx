@@ -64,7 +64,6 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
     });
 
     if (grades.length > 0) {
-      // setAverages(averages);
       const averageGrades = grades.reduce((accum, c) => {
         const newObj = { ...accum };
         if (c["judge_comments"]) newObj.comments.push(c["judge_comments"]);
