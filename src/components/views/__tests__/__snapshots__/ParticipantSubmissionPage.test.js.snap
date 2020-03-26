@@ -109,14 +109,14 @@ Object {
               class="sc-gzVnrw cguHsh"
             >
               <a
-                class="sc-kGXeez eSkzvk"
+                class="sc-kGXeez jtSEbC"
                 color="grey"
                 href="/dashboard"
               >
                 Cancel
               </a>
               <button
-                class="sc-kgoBCf kNwYXn"
+                class="sc-kgoBCf kUHBth"
                 color="green"
                 type="submit"
               >
@@ -233,14 +233,14 @@ Object {
             class="sc-gzVnrw cguHsh"
           >
             <a
-              class="sc-kGXeez eSkzvk"
+              class="sc-kGXeez jtSEbC"
               color="grey"
               href="/dashboard"
             >
               Cancel
             </a>
             <button
-              class="sc-kgoBCf kNwYXn"
+              class="sc-kgoBCf kUHBth"
               color="green"
               type="submit"
             >

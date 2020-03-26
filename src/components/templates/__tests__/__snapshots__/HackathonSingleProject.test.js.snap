@@ -6,20 +6,20 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bwzfXH sc-EHOje hobqMk"
+        class="sc-bwzfXH sc-dnqmqq Xwttz"
       >
         <div
-          class="sc-bZQynM iKrFkH"
+          class="sc-iwsKbI edaWlc"
         >
           <div
-            class="sc-dxgOiQ dHfRdR"
+            class="sc-ckVGcZ gGJNfM"
           >
             <h3
-              class="sc-kGXeez boBNlw"
+              class="sc-gzVnrw sc-dxgOiQ cEmOX"
             >
               Submitted project for 
               <strong
-                class="sc-htoDjs coOrpD"
+                class="sc-gqjmRU cXIDrc"
               >
                 "
                 EuroHack
@@ -28,35 +28,35 @@ Object {
             </h3>
           </div>
           <div
-            class="sc-iwsKbI iiLaKp"
+            class="sc-jTzLTM gQVLQJ"
           >
             <div
-              class="sc-gzVnrw kboSPL"
+              class="sc-gZMcBi bIflWn"
             >
               <h3
-                class="sc-kGXeez boBNlw"
+                class="sc-gzVnrw sc-dxgOiQ cEmOX"
               />
             </div>
             <div
-              class="sc-dnqmqq yMNUh"
+              class="sc-VigVT HWsmo"
               id="project_writeup"
             >
               <p
-                class="sc-bdVaJa sc-jzJRlG dGFdYY"
+                class="sc-bdVaJa sc-kgoBCf cCMiBh"
               />
               <div
-                class="sc-gZMcBi fYSflK"
+                class="sc-fjdhpX hROMGY"
               />
             </div>
             <div
-              class="sc-fjdhpX eMyorz"
+              class="sc-chPdSV dMTXjy"
             >
               <div
-                class="sc-gqjmRU dqAfqz"
+                class="sc-jzJRlG jslVBz"
                 id="rubrics"
               >
                 <div
-                  class="sc-VigVT ejiWzq"
+                  class="sc-cSHVUG gpaESn"
                 >
                   Presentation
                   <span
@@ -155,7 +155,7 @@ Object {
                   </span>
                 </div>
                 <div
-                  class="sc-VigVT ejiWzq"
+                  class="sc-cSHVUG gpaESn"
                 >
                   Product Fit
                   <span
@@ -254,7 +254,7 @@ Object {
                   </span>
                 </div>
                 <div
-                  class="sc-VigVT ejiWzq"
+                  class="sc-cSHVUG gpaESn"
                 >
                   Functionality
                   <span
@@ -353,7 +353,7 @@ Object {
                   </span>
                 </div>
                 <div
-                  class="sc-VigVT ejiWzq"
+                  class="sc-cSHVUG gpaESn"
                 >
                   Innovation
                   <span
@@ -452,7 +452,7 @@ Object {
                   </span>
                 </div>
                 <div
-                  class="sc-VigVT ejiWzq"
+                  class="sc-cSHVUG gpaESn"
                 >
                   Product Design
                   <span
@@ -551,7 +551,7 @@ Object {
                   </span>
                 </div>
                 <div
-                  class="sc-VigVT ejiWzq"
+                  class="sc-cSHVUG gpaESn"
                 >
                   Extensibility
                   <span
@@ -651,23 +651,23 @@ Object {
                 </div>
               </div>
               <label
-                class="sc-ckVGcZ jwJAgX"
+                class="sc-jKJlTe fhuaDH"
                 for="feedback"
               >
                 Feedback
               </label>
               <p
-                class="sc-bdVaJa sc-jzJRlG dGFdYY"
+                class="sc-bdVaJa sc-kgoBCf cCMiBh"
               >
                 No comments on this project
               </p>
             </div>
           </div>
           <div
-            class="sc-cSHVUG iJJUky"
+            class="sc-kGXeez dRYBrJ"
           >
             <button
-              class="sc-htpNat htWSla"
+              class="sc-htpNat imkIBZ"
               color="grey"
             >
               Back to projects
@@ -679,20 +679,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bwzfXH sc-EHOje hobqMk"
+      class="sc-bwzfXH sc-dnqmqq Xwttz"
     >
       <div
-        class="sc-bZQynM iKrFkH"
+        class="sc-iwsKbI edaWlc"
       >
         <div
-          class="sc-dxgOiQ dHfRdR"
+          class="sc-ckVGcZ gGJNfM"
         >
           <h3
-            class="sc-kGXeez boBNlw"
+            class="sc-gzVnrw sc-dxgOiQ cEmOX"
           >
             Submitted project for 
             <strong
-              class="sc-htoDjs coOrpD"
+              class="sc-gqjmRU cXIDrc"
             >
               "
               EuroHack
@@ -701,35 +701,35 @@ Object {
           </h3>
         </div>
         <div
-          class="sc-iwsKbI iiLaKp"
+          class="sc-jTzLTM gQVLQJ"
         >
           <div
-            class="sc-gzVnrw kboSPL"
+            class="sc-gZMcBi bIflWn"
           >
             <h3
-              class="sc-kGXeez boBNlw"
+              class="sc-gzVnrw sc-dxgOiQ cEmOX"
             />
           </div>
           <div
-            class="sc-dnqmqq yMNUh"
+            class="sc-VigVT HWsmo"
             id="project_writeup"
           >
             <p
-              class="sc-bdVaJa sc-jzJRlG dGFdYY"
+              class="sc-bdVaJa sc-kgoBCf cCMiBh"
             />
             <div
-              class="sc-gZMcBi fYSflK"
+              class="sc-fjdhpX hROMGY"
             />
           </div>
           <div
-            class="sc-fjdhpX eMyorz"
+            class="sc-chPdSV dMTXjy"
           >
             <div
-              class="sc-gqjmRU dqAfqz"
+              class="sc-jzJRlG jslVBz"
               id="rubrics"
             >
               <div
-                class="sc-VigVT ejiWzq"
+                class="sc-cSHVUG gpaESn"
               >
                 Presentation
                 <span
@@ -828,7 +828,7 @@ Object {
                 </span>
               </div>
               <div
-                class="sc-VigVT ejiWzq"
+                class="sc-cSHVUG gpaESn"
               >
                 Product Fit
                 <span
@@ -927,7 +927,7 @@ Object {
                 </span>
               </div>
               <div
-                class="sc-VigVT ejiWzq"
+                class="sc-cSHVUG gpaESn"
               >
                 Functionality
                 <span
@@ -1026,7 +1026,7 @@ Object {
                 </span>
               </div>
               <div
-                class="sc-VigVT ejiWzq"
+                class="sc-cSHVUG gpaESn"
               >
                 Innovation
                 <span
@@ -1125,7 +1125,7 @@ Object {
                 </span>
               </div>
               <div
-                class="sc-VigVT ejiWzq"
+                class="sc-cSHVUG gpaESn"
               >
                 Product Design
                 <span
@@ -1224,7 +1224,7 @@ Object {
                 </span>
               </div>
               <div
-                class="sc-VigVT ejiWzq"
+                class="sc-cSHVUG gpaESn"
               >
                 Extensibility
                 <span
@@ -1324,23 +1324,23 @@ Object {
               </div>
             </div>
             <label
-              class="sc-ckVGcZ jwJAgX"
+              class="sc-jKJlTe fhuaDH"
               for="feedback"
             >
               Feedback
             </label>
             <p
-              class="sc-bdVaJa sc-jzJRlG dGFdYY"
+              class="sc-bdVaJa sc-kgoBCf cCMiBh"
             >
               No comments on this project
             </p>
           </div>
         </div>
         <div
-          class="sc-cSHVUG iJJUky"
+          class="sc-kGXeez dRYBrJ"
         >
           <button
-            class="sc-htpNat htWSla"
+            class="sc-htpNat imkIBZ"
             color="grey"
           >
             Back to projects
