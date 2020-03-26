@@ -56,7 +56,7 @@ const StyledPublicNav = styled.div`
   }
 `;
 
-const StyledButton = styled.button`
+const StyledButton = styled(Button)`
   background-color: rgba(0, 0, 0, .5);
   border: 3px solid rgb(0, 255, 70);
   transition: background-color 0.1s ease;
