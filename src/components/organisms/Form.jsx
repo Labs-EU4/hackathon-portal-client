@@ -19,7 +19,7 @@ import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
 import { register, login } from "../../store/user/actions";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
-import Spinner from "../molecules/Spinner"
+import Spinner from "../molecules/Spinner";
 const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   const dispatch = useDispatch();
   const { search, state } = useLocation();
@@ -107,7 +107,12 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             >
               {ctaText}
             </StyledButton>
-            {spinner === false ? null : <Spinner/>}
+            {spinner === false ? null : (
+              <>
+                <Spinner />
+                <span>Loading</span>
+              </>
+            )}
             {ctaText.toLowerCase() === "log in" && (
               <StyledAnchor to="/forgotpassword">Forgot password?</StyledAnchor>
             )}
