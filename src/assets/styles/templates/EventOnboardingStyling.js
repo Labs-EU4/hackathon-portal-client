@@ -5,9 +5,7 @@ export const BodyContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
-  /* background-color: ${props => props.theme.color.white.regular}; */
-  background-color: ${props => props.theme.color.white.regular};
-  background-color: rgba(0, 0, 0, .8);
+  background-color: transparent;
 `;
 
 export const StyledRowBody = styled.div`
@@ -15,6 +13,7 @@ export const StyledRowBody = styled.div`
   width: 100%;
   overflow-x: scroll;
   padding-bottom: 20px;
+  background-color: rgba(0, 0, 0, .8);
 
   &::-webkit-scrollbar {
     width: 0;
@@ -34,8 +33,8 @@ export const MapContainer = styled.div`
   height: 90%;
   min-height: 200px;
   box-shadow: 
-    5px 5px 10px ${props => props.theme.color.primary.regular},
-    -5px -2px 10px ${props => props.theme.color.primary.regular}
+    2px 2px 10px rgb(255, 255, 255),
+    -2px 2px 10px rgb(255, 255, 255)
   ;
 `;
 
@@ -53,11 +52,13 @@ export const MapFormContainer = styled.div`
 `;
 
 export const StyledSectionTitle = styled.h2`
+  background-color: rgba(0, 0, 0, .8);
   margin-right: 10px;
   padding: 8px 22px;
   border: 2px solid ${props => props.theme.color.primary.regular};
-  border-left: none;
+  /* border-left: none; */
   border-bottom: none;
+  border-top-right-radius: 15px;
   font-size: 19px;
   color: ${props => props.theme.color.primary.regular};
 
