@@ -37,27 +37,6 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     }
   }, [google, github, verified, dispatch]);
 
-  // const handleSubmit = values => {
-  //   const fullname = `${values.firstName} ${values.lastName}`
-  //   const {
-  //     username,
-  //     email,
-  //     password
-  //   } = values;
-  //   if (ctaText.toLowerCase() === "log in") {
-  //     dispatch(login(email, password));
-  //     toast(" 🎉 Logging you in!", {
-  //       position: toast.POSITION.TOP_RIGHT,
-  //       className: 'green'
-  //     });
-  //   } else {
-  //     dispatch(register(fullname, username, email, password, role, team));
-  //     toast.success(" 🚀 A moment while we record your details!", {
-  //       position: toast.POSITION.TOP_RIGHT
-  //     });
-  //   }
-  // };
-
   const handleSubmit = values => {
     const { email, password } = values;
     if (ctaText.toLowerCase() === "log in") {
