@@ -21,24 +21,19 @@ export function* participantTeamSagas() {
     call(watchFetchTeamAsync),
     call(watchFetchTeamMateAsync),
     call(watchSendParticipantInvite),
-    call(watchDeleteTeam),
+    call(watchDeleteTeam)
   ]);
 }
-
 
 function* createTeamNameAsync({ payload, history }) {
   try {
     const token = yield select(selectToken);
-    const { eventId, team_name, teamLeadId } = payload;
+    const { eventId, team_name } = payload;
     const url = `/api/events/${eventId}/participant-teams`;
-    const {
-      data
-    } = yield axiosWithAuth(token).post(
-      url, {
-        eventId: eventId,
-        team_name: team_name
-      }
-    );
+    const { data } = yield axiosWithAuth(token).post(url, {
+      eventId: eventId,
+      team_name: team_name
+    });
     if (data) {
       put(fetchTeams(eventId));
       return showSuccess(`😀 ${data.message}`);
@@ -50,8 +45,7 @@ function* createTeamNameAsync({ payload, history }) {
       return teamId;
     });
 
-    put(fetchTeamId(teamId))
-
+    put(fetchTeamId(teamId));
   } catch (error) {
     return handleError(error, put, history);
   }
@@ -127,7 +121,9 @@ function* sendParticipantInviteAsync({ payload, history }) {
   try {
     const { email, teamId, eventId } = payload;
     const token = yield select(selectToken);
-    yield axiosWithAuth(token).post(`/api/events/participant-teams/invite/${teamId}`, { email });
+    yield axiosWithAuth(
+      token
+    ).post(`/api/events/participant-teams/invite/${teamId}`, { email });
     yield showSuccess(`invite sent successfully to ${email}`);
     history.push(`/dashboard/event/${eventId}/participant-teams`);
   } catch (error) {
@@ -142,11 +138,12 @@ function* watchSendParticipantInvite() {
   );
 }
 
-
 function* deleteTeamAsync({ payload }) {
   try {
     const token = yield select(selectToken);
-    const { data } = yield axiosWithAuth(token).delete(`/api/events/participant-teams/${payload}`);
+    const { data } = yield axiosWithAuth(token).delete(
+      `/api/events/participant-teams/${payload}`
+    );
     yield showSuccess(`😲 ${data.message}`);
   } catch (error) {
     yield handleError(error, put);
@@ -156,4 +153,3 @@ function* deleteTeamAsync({ payload }) {
 function* watchDeleteTeam() {
   yield takeLatest(ParticiPantTeamTypes.DELETE_TEAM, deleteTeamAsync);
 }
-
