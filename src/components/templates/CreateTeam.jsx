@@ -109,6 +109,7 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
     return (
       <AddParticipantTeam
         eventId={id}
+        teamId={teamId}
         {...{ currentTeamId }}
         {...{ setIsAddTeamMemberOpen }}
       />
@@ -119,6 +120,7 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
     return (
       <AddParticipantTeam
         eventId={id}
+        teamId={teamId}
         {...{ teamId }}
         {...{ setIsAddTeamMemberOpen }}
       />

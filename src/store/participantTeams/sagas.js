@@ -1,4 +1,5 @@
 import { put, takeLatest, call, all, select } from "redux-saga/effects";
+import { axios } from "../../utils/api";
 import {
   axiosWithAuth,
   selectToken,
@@ -29,18 +30,28 @@ export function* participantTeamSagas() {
 
 function* createTeamNameAsync({ payload, history }) {
   try {
+    console.log(`this is being called`, payload)
     const token = yield select(selectToken);
-    const { eventId } = payload;
-    const { data } = yield axiosWithAuth(token).post(
-      `/api/events/${eventId}/participant-teams`,
-      payload
+    const { eventId, team_name } = payload;
+    const url = `/api/events/${eventId}/participant-teams`;
+    // axiosWithAuth(token).post(url, {
+    //   eventId: eventId,
+    //   team_name: team_name
+    // })
+    const {
+      data
+    } = yield axiosWithAuth(token).post(
+      url, {
+        eventId: eventId,
+        team_name: team_name
+      }
     );
-
+    // console.log(`out`, data)
     if (data) {
-      yield showSuccess(`😀 ${data.message}`);
-      yield put(fetchTeams(eventId));
+      // console.log(`in`, data)
+      put(fetchTeams(eventId));
+      return showSuccess(`😀 ${data.message}`);
     }
-
     const teamBody = data.body;
     let teamId;
     teamBody.map(team => {
@@ -48,10 +59,10 @@ function* createTeamNameAsync({ payload, history }) {
       return teamId;
     });
 
-    yield put(fetchTeamId(teamId))
+    put(fetchTeamId(teamId))
 
   } catch (error) {
-    yield handleError(error, put, history);
+    return handleError(error, put, history);
   }
 }
 
@@ -98,6 +109,7 @@ function* watchFetchTeamMateAsync() {
 function* addParticipantTeamMemberAsync({ payload, history }) {
   try {
     const { team_id, team_member, eventId } = payload;
+    debugger;
     const token = yield select(selectToken);
     const { data } = yield axiosWithAuth(token).post(
       `/api/events/participant-teams/${team_id}`,
