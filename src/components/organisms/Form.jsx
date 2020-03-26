@@ -66,8 +66,13 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   }
 
   return (
-    <Container>
-      <H1>{formHeader}</H1>
+    <StyledContainer>
+      <StyledH1
+        active={ctaText.toLowerCase() === "log in"
+                  ? false 
+                  : true
+                }
+      >{formHeader}</StyledH1>
       <StyledParagraph>{formParagraph}</StyledParagraph>
       <Formik
         initialValues={{ email: "", password: "" }}
@@ -76,7 +81,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       >
         {({ errors, touched }) => (
           <Form>
-            <Label>Email</Label>
+            <StyledLabel>Email</StyledLabel>
             <Input
               display="wide"
               type="text"
@@ -87,7 +92,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             <ErrorSpan>
               <ErrorMessage name="email" />
             </ErrorSpan>
-            <Label>Password</Label>
+            <StyledLabel>Password</StyledLabel>
             <Input
               display="wide"
               type="password"
@@ -99,7 +104,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
               <ErrorMessage name="password" />
             </ErrorSpan>
 
-            <StyledButton type="submit" size="wide" color="blue">
+            <StyledButton type="submit" size="wide" color="primary-reverse">
               {spinner === false ? ctaText : <Spinner />}
             </StyledButton>
 
@@ -111,7 +116,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       </Formik>
 
       <SocialMedia></SocialMedia>
-    </Container>
+    </StyledContainer>
   );
 };
 
@@ -120,14 +125,30 @@ export default CustomForm;
 const StyledAnchor = styled(Link)`
   display: block;
   margin: 20px 0 0 0;
-  font-size: ${props => props.theme.fontSize.small};
-  font-weight: 500;
-  color: ${props => props.theme.color.blue.regular};
   text-decoration: none;
   text-transform: none;
   text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(0, 255, 70);
 
   &:hover {
-    color: ${props => props.theme.color.blue.light};
+    color: rgba(0, 255, 70, .9);
   }
+`;
+
+const StyledH1 = styled(H1)`
+  ${({ active }) => active && 'margin-left: -15px;'};
+  color: ${props => props.theme.color.primary.regular};
+`;
+
+const StyledLabel = styled(Label)`
+  color: ${props => props.theme.color.primary.regular};
+`;
+
+const StyledContainer = styled(Container)`
+  box-shadow: 
+    2px 2px 10px rgb(0, 255, 70),
+    -2px 2px 10px rgb(0, 255, 70)
+  ;
 `;

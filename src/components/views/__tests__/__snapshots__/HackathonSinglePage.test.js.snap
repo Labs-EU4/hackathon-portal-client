@@ -9,7 +9,7 @@ Object {
         class="sc-jzJRlG klhvVl"
       >
         <div
-          class="sc-iRbamj iCuqQQ"
+          class="sc-csuQGl fEAAop"
           spacing="center"
         >
           <div
@@ -18,7 +18,7 @@ Object {
           >
             <svg
               aria-label="audio-loading"
-              fill="#00ff46"
+              fill="white"
               height="10"
               viewBox="0 0 120 30"
               width="100"
@@ -109,7 +109,7 @@ Object {
           </div>
         </div>
         <p
-          class="sc-brqgnP gysXPK"
+          class="sc-jDwBTQ cUBCAj"
           color="primary"
         >
           <svg
@@ -136,7 +136,7 @@ Object {
       class="sc-jzJRlG klhvVl"
     >
       <div
-        class="sc-iRbamj iCuqQQ"
+        class="sc-csuQGl fEAAop"
         spacing="center"
       >
         <div
@@ -145,7 +145,7 @@ Object {
         >
           <svg
             aria-label="audio-loading"
-            fill="#00ff46"
+            fill="white"
             height="10"
             viewBox="0 0 120 30"
             width="100"
@@ -236,7 +236,7 @@ Object {
         </div>
       </div>
       <p
-        class="sc-brqgnP gysXPK"
+        class="sc-jDwBTQ cUBCAj"
         color="primary"
       >
         <svg

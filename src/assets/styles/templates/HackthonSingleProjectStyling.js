@@ -4,6 +4,7 @@ import { media } from "../variables/media";
 import { Paragraph } from "../atoms/ParagraphStyling";
 import { WideBody } from "../atoms/WideBodyStyling";
 import Button from "../../../components/atoms/Button";
+import { H3, H4 } from "../atoms/HeadingStyling";
 
 export const StyledWideBody = styled(WideBody)`
   ${props => props.theme.flex.center};
@@ -18,7 +19,8 @@ export const ProjectCard = styled.div`
   min-width: 80%;
   max-width: 700px;
   max-height: calc(100vh - 80px);
-  background-color: ${props => props.theme.color.white.regular};
+  background-color: black;
+  border: 2px solid rgb(0, 255, 70);
   border-radius: 5px;
   padding: 20px 30px;
   box-shadow: 3px 3px 10px black;
@@ -133,7 +135,8 @@ export const StyledParagraph = styled(Paragraph)`
   ${props => props.theme.flex.center};
   margin: 10px 0;
   text-align: center;
-  font-weight: bold;
+  font-weight: bold; font-size: 14px;
+  letter-spacing: 1.2px; line-height: 1.4;
 `;
 
 export const ButtonGroup = styled.div`
@@ -153,4 +156,8 @@ export const StyledButton = styled(Button)`
   & > span {
     margin-left: 5px;
   }
+`;
+
+export const StyledH3 = styled(H3)`
+  color: rgb(0, 255, 70);
 `;

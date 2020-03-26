@@ -6,20 +6,20 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-EHOje jvGfAl"
+        class="sc-dnqmqq uOjci"
       >
         <div
-          class="sc-bwzfXH sc-htpNat sc-bZQynM hJCFUj"
+          class="sc-bwzfXH sc-htpNat sc-iwsKbI kMpNnJ"
         >
           <div
-            class="sc-kgoBCf hKxdHY"
+            class="sc-kGXeez logglM"
           >
             <h3
-              class="sc-kAzzGY ebzwZA"
+              class="sc-gzVnrw sc-kAzzGY jguaBI"
             >
               Submitted projects for 
               <strong
-                class="sc-gqjmRU cXIDrc"
+                class="sc-jzJRlG irjRNl"
               >
                 "
                 World
@@ -37,7 +37,7 @@ Object {
             >
               <svg
                 aria-label="audio-loading"
-                fill="#00ff46"
+                fill="white"
                 height="10"
                 viewBox="0 0 120 30"
                 width="100"
@@ -133,20 +133,20 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-EHOje jvGfAl"
+      class="sc-dnqmqq uOjci"
     >
       <div
-        class="sc-bwzfXH sc-htpNat sc-bZQynM hJCFUj"
+        class="sc-bwzfXH sc-htpNat sc-iwsKbI kMpNnJ"
       >
         <div
-          class="sc-kgoBCf hKxdHY"
+          class="sc-kGXeez logglM"
         >
           <h3
-            class="sc-kAzzGY ebzwZA"
+            class="sc-gzVnrw sc-kAzzGY jguaBI"
           >
             Submitted projects for 
             <strong
-              class="sc-gqjmRU cXIDrc"
+              class="sc-jzJRlG irjRNl"
             >
               "
               World
@@ -164,7 +164,7 @@ Object {
           >
             <svg
               aria-label="audio-loading"
-              fill="#00ff46"
+              fill="white"
               height="10"
               viewBox="0 0 120 30"
               width="100"

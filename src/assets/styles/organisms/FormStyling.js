@@ -9,8 +9,8 @@ export const StyledAnchor = styled(Link)`
   margin: 20px 0 0 0;
   font-weight: 500;
   text-decoration: none; text-transform: none; text-align: center;
-  font-size: 12px;
-  color: #245ea4;
+  font-size: 14px;
+  color: rgb(0, 255, 70);
 
   &:hover {
     color: #1e77b4;
@@ -18,7 +18,7 @@ export const StyledAnchor = styled(Link)`
 `;
 
 export const StyledParagraph = styled(Paragraph)`
-  font-size: 11px;
+  font-size: 12px; letter-spacing: 1px;
   color: ${props => props.theme.color.white.regular};
 `;
 

@@ -17,7 +17,8 @@ import {
   JudgeView,
   StyledParagraph,
   ButtonGroup,
-  StyledButton
+  StyledButton,
+  StyledH3
 } from "../../assets/styles/templates/HackthonSingleProjectStyling";
 import { H3, H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
@@ -116,16 +117,16 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
     <StyledWideBody>
       <ProjectCard>
         <RowHead>
-          <H3>
+          <StyledH3>
             Submitted project for <Strong>"{event_title}"</Strong>
-          </H3>
+          </StyledH3>
         </RowHead>
         <SubmissionEntry>
           <Team>
-            <H3>
+            <StyledH3>
               {submission?.participant_or_team_name ||
                 submission?.project_title}
-            </H3>
+            </StyledH3>
           </Team>
           <Description id="project_writeup">
             <StyledParagraph>{submission?.project_writeups}</StyledParagraph>
@@ -133,7 +134,7 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
               {submission?.git_url && (
                 <StyledButton
                   anchor
-                  color="green"
+                  color="primary-reverse"
                   href={submission?.git_url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -145,7 +146,7 @@ const HackathonSingleProject = ({ id, projectId, setIsProjectPageOpen }) => {
               {submission?.video_url && (
                 <StyledButton
                   anchor
-                  color="green"
+                  color="primary-reverse"
                   href={submission?.video_url}
                   target="_blank"
                   rel="noopener noreferrer"

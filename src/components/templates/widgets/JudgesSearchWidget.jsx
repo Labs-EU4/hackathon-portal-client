@@ -83,7 +83,7 @@ export const JudgesSearchWidget = props => {
             onClick={handleExit}
           >Back</Button>
           <Button 
-            color="green" 
+            color="primary-reverse" 
             size="half" 
             onClick={handleSubmit}
           >Add Judge</Button>
