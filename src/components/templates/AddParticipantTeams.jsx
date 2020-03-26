@@ -11,7 +11,6 @@ import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { SearchUserWidget } from "./widgets/SearchUserWidget";
 import { ParticipantInviteWidget } from "./widgets/ParticipantInviteWidget";
-
 import {
   addParticipantTeamMember,
   sendParticipantInvite
@@ -42,6 +41,7 @@ const AddParticipantTeam = ({
         team_member: selectedUser.id,
         eventId: eventId
       };
+
       return dispatch(addParticipantTeamMember(data));
 
     });
@@ -53,7 +53,7 @@ const AddParticipantTeam = ({
 
   const sendInvite = () => {
     const data = {
-      teamId,
+      currentTeamId,
       email: noneUser,
       eventId
     };

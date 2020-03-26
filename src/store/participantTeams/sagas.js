@@ -1,5 +1,4 @@
 import { put, takeLatest, call, all, select } from "redux-saga/effects";
-import { axios } from "../../utils/api";
 import {
   axiosWithAuth,
   selectToken,
@@ -11,11 +10,9 @@ import {
   setTeams,
   setTeamMates,
   fetchTeams,
-  fetchTeamId,
-  fetchTeamMates,
-  // deleteTeammate
+  fetchTeamId
+  // deleteTeammate,
 } from "./actions";
-import { registerEvent } from "../eventParticipants/actions";
 
 export function* participantTeamSagas() {
   yield all([
@@ -44,7 +41,6 @@ function* createTeamNameAsync({ payload, history }) {
     );
     if (data) {
       put(fetchTeams(eventId));
-      registerEvent(teamLeadId)
       return showSuccess(`😀 ${data.message}`);
     }
     const teamBody = data.body;
@@ -105,7 +101,6 @@ function* addParticipantTeamMemberAsync({ payload, history }) {
   try {
     const { team_id, team_member, eventId } = payload;
     const token = yield select(selectToken);
-    console.log(payload, `in saga`)
     const { data } = yield axiosWithAuth(token).post(
       `/api/events/participant-teams/${team_id}`,
       {

@@ -23,15 +23,15 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
   const dispatch = useDispatch();
   const history = useHistory();
   const { userId } = useSelector(state => state.currentUser);
-  const [teams, fetchTeams] = useTeams(id);
+  const [teams, fetchTeamsState] = useTeams(id);
   const { teamId } = useSelector(state => state.participantTeams);
   const team = teams.find(t => t.team_lead === userId);
   const [currentTeamId, setCurrentTeamId] = useState();
 
   useEffect(() => {
-    fetchTeams();
-  }, [fetchTeams]);
-
+    fetchTeamsState();
+  }, [fetchTeamsState]);
+  console.log(teamId, currentTeamId)
   const handleTeamSubmit = async values => {
     const teamData = {
       team_name: values.team_name,
@@ -40,9 +40,12 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
     };
     // Error handling issue - needs to be a unique name
     await dispatch(createTeamName(teamData, history));
+    await dispatch(registerEvent(id))
     //!!HAVE A STATE THAT OPENS THE SELECT TEAM MEMBER COMPONENT HERE TO REDIRECT, ALSO FROM HERE CLOSE THE CREATETEAM COMPONENT
     //REDIRECT TO THE ADDPARTICIPANTTEAMS COMPONENT
-    await setIsAddTeamMemberOpen(true);
+    // await setIsAddTeamMemberOpen(true);
+    await setRegisterTeam(false)
+    window.location.reload(true)
   };
 
   const { event_title } = useSelector(state =>

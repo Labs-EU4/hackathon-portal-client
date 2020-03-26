@@ -55,6 +55,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const createdTeam = teams.find(t => t.team_lead === userId);
   const [data, loading] = useEvent(id);
 
+
   // Filter out event by URL param & grab user ID
   const [
     {
@@ -96,7 +97,6 @@ const HackathonSingle = ({ isSideBarOpen }) => {
 
   useEffect(() => {
     isRegistered = participants.find(userCallback) || isTeamLead;
-    console.log(`isRegistered in useEffect`, isRegistered)
   }, [participants])
 
   // Redacting user emails before rendering
