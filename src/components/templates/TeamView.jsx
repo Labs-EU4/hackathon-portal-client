@@ -9,8 +9,7 @@ import {
   TeamMemberImg,
   BtnContainer
 } from "../../assets/styles/templates/TeamViewStyling";
-// import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
-// import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+
 import Button from "../atoms/Button";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";

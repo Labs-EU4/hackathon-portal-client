@@ -19,7 +19,6 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const { userId } = useSelector(state => state.currentUser);
   const globalEvents = events.filter(event => event.creator_id !== userId);
 
-  // import image from "./anon.png";
   // Variables
   const GMAP = "AIzaSyCVBthtEmWi0Ul8mejDQrBlOULXB1kTB3I";
   // eslint-disable-next-line
