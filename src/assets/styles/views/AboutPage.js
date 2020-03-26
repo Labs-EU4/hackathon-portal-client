@@ -61,17 +61,6 @@ export const TeamContainer = styled.div`
     margin: 0 auto 10px;
 `;
 
-export const StyledCard = styled.div`
-    width: calc((100% / 3) - 10px); min-width: 250px;
-    height: 250px;
-    border: 2px solid ${props => props.theme.color.primary.regular};
-    margin: 5px 2.5px;
-
-    &:hover {
-        ${props => props.theme.shadow.box};
-    }
-`;
-
 export const Paragraph = styled.p`
     width: 100%;
     margin-top: -10px;
@@ -106,4 +95,20 @@ export const FeatureDescription = styled.p`
     text-align: center;
     font-weight: bold;
     color: #00C4CC;
+`;
+
+export const StyledCard = styled.div`
+    width: calc((100% / 3) - 10px); min-width: 250px;
+    height: 250px;
+    border: 2px solid ${props => props.theme.color.primary.regular};
+    margin: 5px 2.5px;
+
+    &:hover {
+        ${props => props.theme.shadow.box};
+    }
+`;
+
+export const MemberImg = styled.img`
+width: 100%; height: 100%;
+object-fit: cover;
 `;
