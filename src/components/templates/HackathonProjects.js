@@ -68,7 +68,6 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
           <Button
             // link
             color="blue"
-            // to={`/${currentPath}/event/${id}/project/${s.id}`}
             onClick={() => viewProjectHandler(s.id)}
           >
             View Project
@@ -98,7 +97,10 @@ const HackathonProjects = ({ setIsSubmissionsPageOpen }) => {
               )}
               {submissions.map(s => renderSubmission(s))}
             </StyledRowBody>
-            <Button onClick={() => setIsSubmissionsPageOpen(false)} color="grey">
+            <Button
+              onClick={() => setIsSubmissionsPageOpen(false)}
+              color="grey"
+            >
               Back to event
             </Button>
           </>
