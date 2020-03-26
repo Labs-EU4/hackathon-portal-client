@@ -3,16 +3,27 @@ import styled from "styled-components";
 // import { media } from "../../assets/styles/variables/media";
 
 import userImg from "../../assets/images/user_icon.svg";
+import Icon from '../atoms/Icon';
 
 const ProfileImg = ({ image, alt, isSideBarOpen }) => {
   let memberPicture = image ? JSON.parse(image) : null;
 
   return (
-    <StyledImg
-      active={isSideBarOpen}
-      src={memberPicture ? memberPicture.avatar : userImg}
-      alt={alt}
-    />
+    <>
+      {
+        memberPicture ? (
+          <StyledImg
+            active={isSideBarOpen}
+            src={memberPicture.avatar}
+            alt={alt}
+          />
+        ) : (
+          <StyledIcon
+            icon="user-circle"
+          />
+        )
+      }
+    </>
   );
 };
 
@@ -27,6 +38,11 @@ const StyledImg = styled.img`
 
   &:hover {
   }
+`;
+
+const StyledIcon = styled(Icon)`
+  font-size: 35px;
+  color: rgb(0, 255, 70);
 `;
 
 //   @media ${media.tablet} {
