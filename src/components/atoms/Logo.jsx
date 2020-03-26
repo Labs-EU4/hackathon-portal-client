@@ -17,13 +17,13 @@ export default Logo;
 
 const LogoContainer = styled.div`
   ${({ theme }) => theme.flex.center};
-  filter: drop-shadow(.15px .15px 1px rgb(255, 255, 255));
   color: rgb(0, 255, 70);
 
   & > img {
     width: ${({ size }) => size ? '100px' : '43px'};
     object-fit: cover;
     background-color: rgb(0, 255, 70);
+    filter: drop-shadow(.15px .15px 1px rgb(0, 0, 0));
   }
 
   & > span {
