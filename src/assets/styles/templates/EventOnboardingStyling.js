@@ -5,7 +5,9 @@ export const BodyContainer = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: ${props => props.theme.color.white};
+  /* background-color: ${props => props.theme.color.white.regular}; */
+  background-color: ${props => props.theme.color.white.regular};
+  background-color: rgba(0, 0, 0, .8);
 `;
 
 export const StyledRowBody = styled.div`
@@ -31,7 +33,10 @@ export const MapContainer = styled.div`
   width: 90%;
   height: 90%;
   min-height: 200px;
-  border: 3px solid ${props => props.theme.color.grey.border};
+  box-shadow: 
+    5px 5px 10px ${props => props.theme.color.primary.regular},
+    -5px -2px 10px ${props => props.theme.color.primary.regular}
+  ;
 `;
 
 export const MapFormContainer = styled.div`
@@ -53,6 +58,7 @@ export const StyledSectionTitle = styled.h2`
   border: 2px solid ${props => props.theme.color.primary.regular};
   border-left: none;
   border-bottom: none;
+  color: ${props => props.theme.color.primary.regular};
 
   ${({ gap }) => gap === true && `margin-left: 10px;`}
 `;
