@@ -6,23 +6,23 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-dnqmqq evKDaR"
+        class="sc-gZMcBi garGKY"
       >
         <div
-          class="sc-gzVnrw sc-htoDjs eFnBQO"
+          class="sc-gzVnrw sc-iwsKbI hCuMNI"
         >
           <h3
-            class="sc-EHOje sc-VigVT cSGDLg"
+            class="sc-EHOje sc-fjdhpX bHkEAA"
           >
             Edit Hackathon
           </h3>
           <p
-            class="sc-jzJRlG fuRRFX"
+            class="sc-kgoBCf kobtbB"
             color="primary"
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-times fa-w-11 sc-kAzzGY fPbRdP"
+              class="svg-inline--fa fa-times fa-w-11 sc-kGXeez fbGaIB"
               data-icon="times"
               data-prefix="fas"
               focusable="false"
@@ -39,22 +39,22 @@ Object {
         </div>
         <form
           action="#"
-          class="sc-iwsKbI dsCYug"
+          class="sc-gqjmRU hEKkMd"
         >
           <div
-            class="sc-gZMcBi YuTYM"
+            class="sc-VigVT reFVa"
           >
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="event_title"
               >
                 Hackathon Title
               </label>
               <input
-                class="sc-chPdSV iulMjd"
+                class="sc-kpOJdX caNRvW"
                 display="wide"
                 id="event_title"
                 name="event_title"
@@ -62,20 +62,20 @@ Object {
                 value="EuroHack"
               />
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="event_description"
               >
                 Description
               </label>
               <div
-                class="sc-dxgOiQ kWrCYP"
+                class="sc-eNQAEJ kNxMQK"
               >
                 <textarea
                   id="event_description"
@@ -86,20 +86,20 @@ Object {
                 </textarea>
               </div>
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="location"
               >
                 Location
               </label>
               <input
-                class="sc-chPdSV iulMjd"
+                class="sc-kpOJdX caNRvW"
                 display="wide"
                 id="location"
                 name="location"
@@ -107,23 +107,23 @@ Object {
                 value="Europe"
               />
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="start_date"
                 >
                   Event Starts
                 </label>
                 <input
-                  class="sc-chPdSV hhxnWJ"
+                  class="sc-kpOJdX kNgdmG"
                   id="start_date"
                   min="2020-03-26"
                   name="start_date"
@@ -132,20 +132,20 @@ Object {
                   value="10/09/11"
                 />
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="end_date"
                 >
                   Event Ends
                 </label>
                 <input
-                  class="sc-chPdSV hhxnWJ"
+                  class="sc-kpOJdX kNgdmG"
                   id="end_date"
                   min="10/09/11"
                   name="end_date"
@@ -154,24 +154,24 @@ Object {
                   value="08/07/13"
                 />
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="start_time"
                 >
                   Start Time
                 </label>
                 <input
-                  class="sc-chPdSV hhxnWJ"
+                  class="sc-kpOJdX kNgdmG"
                   id="start_time"
                   min="2020-03-26"
                   name="start_time"
@@ -180,20 +180,20 @@ Object {
                   value="2020-03-26"
                 />
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="end_time"
                 >
                   End Time
                 </label>
                 <input
-                  class="sc-chPdSV hhxnWJ"
+                  class="sc-kpOJdX kNgdmG"
                   id="end_time"
                   min=""
                   name="end_time"
@@ -202,122 +202,122 @@ Object {
                   value="2020-03-26"
                 />
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
               id="grading_rubrics"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="grading_rubrics"
               >
                 Grading Rubrics (tick all that apply)
               </label>
               <p
-                class="sc-jKJlTe gpPkwN"
+                class="sc-dnqmqq sc-cSHVUG kcrVCR"
               >
                 Judges will be expected to grade project submissions on which one of the following
               </p>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="presentation"
                   name="rubrics"
                   type="checkbox"
                   value="presentation"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="presentation"
                 >
                   Presentation
                 </label>
               </div>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="product_fit"
                   name="rubrics"
                   type="checkbox"
                   value="product_fit"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="product_fit"
                 >
                   Product Fit
                 </label>
               </div>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="functionality"
                   name="rubrics"
                   type="checkbox"
                   value="functionality"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="functionality"
                 >
                   Functionality
                 </label>
               </div>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="innovation"
                   name="rubrics"
                   type="checkbox"
                   value="innovation"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="innovation"
                 >
                   Innovation
                 </label>
               </div>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="product_design"
                   name="rubrics"
                   type="checkbox"
                   value="product_design"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="product_design"
                 >
                   Product Design
                 </label>
               </div>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="extensibility"
                   name="rubrics"
                   type="checkbox"
                   value="extensibility"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="extensibility"
                 >
                   Extensibility
@@ -326,19 +326,19 @@ Object {
             </div>
           </div>
           <div
-            class="sc-gZMcBi YuTYM"
+            class="sc-VigVT reFVa"
           >
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="prize"
               >
                 Prize
               </label>
               <input
-                class="sc-chPdSV iulMjd"
+                class="sc-kpOJdX caNRvW"
                 display="wide"
                 id="prize"
                 name="prize"
@@ -346,23 +346,23 @@ Object {
                 value=""
               />
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="participation_type"
                 >
                   Participation Type
                 </label>
                 <select
-                  class="sc-ckVGcZ janBGD"
+                  class="sc-hMqMXs dpDvqH"
                   id="participation_type"
                   name="participation_type"
                 >
@@ -390,20 +390,20 @@ Object {
                   </option>
                 </select>
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="event_category"
                 >
                   Event Category
                 </label>
                 <select
-                  class="sc-ckVGcZ janBGD"
+                  class="sc-hMqMXs dpDvqH"
                   id="event_category"
                   name="event_category"
                 >
@@ -441,27 +441,27 @@ Object {
                   </option>
                 </select>
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
             </div>
             <div
-              class="sc-jTzLTM fVeHZI"
+              class="sc-kAzzGY cfVEPo"
             >
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <div
-                  class="sc-jTzLTM bxzhAG"
+                  class="sc-kAzzGY hgOXzd"
                 >
                   <label
-                    class="sc-cSHVUG ielkCx"
+                    class="sc-htoDjs sc-jzJRlG jsnZzo"
                     for="participant_limit"
                   >
                     Number of Participants
                   </label>
                   <input
-                    class="sc-chPdSV iulMjd"
+                    class="sc-kpOJdX caNRvW"
                     display="wide"
                     id="participant_limit"
                     name="participant_limit"
@@ -469,25 +469,25 @@ Object {
                     value=""
                   />
                   <span
-                    class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                    class="sc-kEYyzF sc-eHgmQL bfkbKW"
                   />
                 </div>
               </div>
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="difficulty_level"
                 >
                   Difficulty Level
                 </label>
                 <select
-                  class="sc-ckVGcZ janBGD"
+                  class="sc-hMqMXs dpDvqH"
                   id="difficulty_level"
                   name="difficulty_level"
                 >
@@ -515,15 +515,15 @@ Object {
                   </option>
                 </select>
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
               <div
-                class="sc-fjdhpX gpYlNN"
+                class="sc-chPdSV dQppJa"
               >
                  
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="input_tags"
                 >
                   Tags
@@ -549,16 +549,16 @@ Object {
               </div>
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="guidelines"
               >
                 Guidelines
               </label>
               <div
-                class="sc-dxgOiQ kWrCYP"
+                class="sc-eNQAEJ kNxMQK"
               >
                 <textarea
                   id="guidelines"
@@ -569,53 +569,53 @@ Object {
                 </textarea>
               </div>
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
               id="submission_requirements"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="submission_requirements"
               >
                 Project Submission Requirements (tick all that apply)
               </label>
               <p
-                class="sc-jKJlTe gpPkwN"
+                class="sc-dnqmqq sc-cSHVUG kcrVCR"
               >
                 Participants will be expected to submit which one of the following
               </p>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="video_url"
                   name="requirements"
                   type="checkbox"
                   value="video_url"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="video_url"
                 >
                   Video URL
                 </label>
               </div>
               <div
-                class="sc-kGXeez ipfKQQ"
+                class="sc-ckVGcZ eYsacB"
               >
                 <input
-                  class="sc-kpOJdX crQHVY"
+                  class="sc-jKJlTe ilPEta"
                   id="github_url"
                   name="requirements"
                   type="checkbox"
                   value="github_url"
                 />
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs frfsHC"
                   for="github_url"
                 >
                   GitHub URL
@@ -623,11 +623,11 @@ Object {
               </div>
             </div>
             <div
-              class="sc-jTzLTM bxzhAG"
+              class="sc-kAzzGY hgOXzd"
             />
             <button
-              class="sc-bdVaJa jrkbyx sc-gqjmRU dEyQNc"
-              color="green"
+              class="sc-bdVaJa epjlFU sc-jTzLTM jRmNoc"
+              color="primary-reverse"
               type="submit"
             >
               Submit
@@ -639,23 +639,23 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-dnqmqq evKDaR"
+      class="sc-gZMcBi garGKY"
     >
       <div
-        class="sc-gzVnrw sc-htoDjs eFnBQO"
+        class="sc-gzVnrw sc-iwsKbI hCuMNI"
       >
         <h3
-          class="sc-EHOje sc-VigVT cSGDLg"
+          class="sc-EHOje sc-fjdhpX bHkEAA"
         >
           Edit Hackathon
         </h3>
         <p
-          class="sc-jzJRlG fuRRFX"
+          class="sc-kgoBCf kobtbB"
           color="primary"
         >
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-times fa-w-11 sc-kAzzGY fPbRdP"
+            class="svg-inline--fa fa-times fa-w-11 sc-kGXeez fbGaIB"
             data-icon="times"
             data-prefix="fas"
             focusable="false"
@@ -672,22 +672,22 @@ Object {
       </div>
       <form
         action="#"
-        class="sc-iwsKbI dsCYug"
+        class="sc-gqjmRU hEKkMd"
       >
         <div
-          class="sc-gZMcBi YuTYM"
+          class="sc-VigVT reFVa"
         >
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <label
-              class="sc-cSHVUG ielkCx"
+              class="sc-htoDjs sc-jzJRlG jsnZzo"
               for="event_title"
             >
               Hackathon Title
             </label>
             <input
-              class="sc-chPdSV iulMjd"
+              class="sc-kpOJdX caNRvW"
               display="wide"
               id="event_title"
               name="event_title"
@@ -695,20 +695,20 @@ Object {
               value="EuroHack"
             />
             <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              class="sc-kEYyzF sc-eHgmQL bfkbKW"
             />
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <label
-              class="sc-cSHVUG ielkCx"
+              class="sc-htoDjs sc-jzJRlG jsnZzo"
               for="event_description"
             >
               Description
             </label>
             <div
-              class="sc-dxgOiQ kWrCYP"
+              class="sc-eNQAEJ kNxMQK"
             >
               <textarea
                 id="event_description"
@@ -719,20 +719,20 @@ Object {
               </textarea>
             </div>
             <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              class="sc-kEYyzF sc-eHgmQL bfkbKW"
             />
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <label
-              class="sc-cSHVUG ielkCx"
+              class="sc-htoDjs sc-jzJRlG jsnZzo"
               for="location"
             >
               Location
             </label>
             <input
-              class="sc-chPdSV iulMjd"
+              class="sc-kpOJdX caNRvW"
               display="wide"
               id="location"
               name="location"
@@ -740,23 +740,23 @@ Object {
               value="Europe"
             />
             <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              class="sc-kEYyzF sc-eHgmQL bfkbKW"
             />
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="start_date"
               >
                 Event Starts
               </label>
               <input
-                class="sc-chPdSV hhxnWJ"
+                class="sc-kpOJdX kNgdmG"
                 id="start_date"
                 min="2020-03-26"
                 name="start_date"
@@ -765,20 +765,20 @@ Object {
                 value="10/09/11"
               />
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="end_date"
               >
                 Event Ends
               </label>
               <input
-                class="sc-chPdSV hhxnWJ"
+                class="sc-kpOJdX kNgdmG"
                 id="end_date"
                 min="10/09/11"
                 name="end_date"
@@ -787,24 +787,24 @@ Object {
                 value="08/07/13"
               />
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="start_time"
               >
                 Start Time
               </label>
               <input
-                class="sc-chPdSV hhxnWJ"
+                class="sc-kpOJdX kNgdmG"
                 id="start_time"
                 min="2020-03-26"
                 name="start_time"
@@ -813,20 +813,20 @@ Object {
                 value="2020-03-26"
               />
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="end_time"
               >
                 End Time
               </label>
               <input
-                class="sc-chPdSV hhxnWJ"
+                class="sc-kpOJdX kNgdmG"
                 id="end_time"
                 min=""
                 name="end_time"
@@ -835,122 +835,122 @@ Object {
                 value="2020-03-26"
               />
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
             id="grading_rubrics"
           >
             <label
-              class="sc-cSHVUG ielkCx"
+              class="sc-htoDjs sc-jzJRlG jsnZzo"
               for="grading_rubrics"
             >
               Grading Rubrics (tick all that apply)
             </label>
             <p
-              class="sc-jKJlTe gpPkwN"
+              class="sc-dnqmqq sc-cSHVUG kcrVCR"
             >
               Judges will be expected to grade project submissions on which one of the following
             </p>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="presentation"
                 name="rubrics"
                 type="checkbox"
                 value="presentation"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="presentation"
               >
                 Presentation
               </label>
             </div>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="product_fit"
                 name="rubrics"
                 type="checkbox"
                 value="product_fit"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="product_fit"
               >
                 Product Fit
               </label>
             </div>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="functionality"
                 name="rubrics"
                 type="checkbox"
                 value="functionality"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="functionality"
               >
                 Functionality
               </label>
             </div>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="innovation"
                 name="rubrics"
                 type="checkbox"
                 value="innovation"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="innovation"
               >
                 Innovation
               </label>
             </div>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="product_design"
                 name="rubrics"
                 type="checkbox"
                 value="product_design"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="product_design"
               >
                 Product Design
               </label>
             </div>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="extensibility"
                 name="rubrics"
                 type="checkbox"
                 value="extensibility"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="extensibility"
               >
                 Extensibility
@@ -959,19 +959,19 @@ Object {
           </div>
         </div>
         <div
-          class="sc-gZMcBi YuTYM"
+          class="sc-VigVT reFVa"
         >
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <label
-              class="sc-cSHVUG ielkCx"
+              class="sc-htoDjs sc-jzJRlG jsnZzo"
               for="prize"
             >
               Prize
             </label>
             <input
-              class="sc-chPdSV iulMjd"
+              class="sc-kpOJdX caNRvW"
               display="wide"
               id="prize"
               name="prize"
@@ -979,23 +979,23 @@ Object {
               value=""
             />
             <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              class="sc-kEYyzF sc-eHgmQL bfkbKW"
             />
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="participation_type"
               >
                 Participation Type
               </label>
               <select
-                class="sc-ckVGcZ janBGD"
+                class="sc-hMqMXs dpDvqH"
                 id="participation_type"
                 name="participation_type"
               >
@@ -1023,20 +1023,20 @@ Object {
                 </option>
               </select>
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="event_category"
               >
                 Event Category
               </label>
               <select
-                class="sc-ckVGcZ janBGD"
+                class="sc-hMqMXs dpDvqH"
                 id="event_category"
                 name="event_category"
               >
@@ -1074,27 +1074,27 @@ Object {
                 </option>
               </select>
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
           </div>
           <div
-            class="sc-jTzLTM fVeHZI"
+            class="sc-kAzzGY cfVEPo"
           >
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <div
-                class="sc-jTzLTM bxzhAG"
+                class="sc-kAzzGY hgOXzd"
               >
                 <label
-                  class="sc-cSHVUG ielkCx"
+                  class="sc-htoDjs sc-jzJRlG jsnZzo"
                   for="participant_limit"
                 >
                   Number of Participants
                 </label>
                 <input
-                  class="sc-chPdSV iulMjd"
+                  class="sc-kpOJdX caNRvW"
                   display="wide"
                   id="participant_limit"
                   name="participant_limit"
@@ -1102,25 +1102,25 @@ Object {
                   value=""
                 />
                 <span
-                  class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                  class="sc-kEYyzF sc-eHgmQL bfkbKW"
                 />
               </div>
             </div>
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="difficulty_level"
               >
                 Difficulty Level
               </label>
               <select
-                class="sc-ckVGcZ janBGD"
+                class="sc-hMqMXs dpDvqH"
                 id="difficulty_level"
                 name="difficulty_level"
               >
@@ -1148,15 +1148,15 @@ Object {
                 </option>
               </select>
               <span
-                class="sc-eNQAEJ sc-iAyFgw iydSCt"
+                class="sc-kEYyzF sc-eHgmQL bfkbKW"
               />
             </div>
             <div
-              class="sc-fjdhpX gpYlNN"
+              class="sc-chPdSV dQppJa"
             >
                
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs sc-jzJRlG jsnZzo"
                 for="input_tags"
               >
                 Tags
@@ -1182,16 +1182,16 @@ Object {
             </div>
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           >
             <label
-              class="sc-cSHVUG ielkCx"
+              class="sc-htoDjs sc-jzJRlG jsnZzo"
               for="guidelines"
             >
               Guidelines
             </label>
             <div
-              class="sc-dxgOiQ kWrCYP"
+              class="sc-eNQAEJ kNxMQK"
             >
               <textarea
                 id="guidelines"
@@ -1202,53 +1202,53 @@ Object {
               </textarea>
             </div>
             <span
-              class="sc-eNQAEJ sc-iAyFgw iydSCt"
+              class="sc-kEYyzF sc-eHgmQL bfkbKW"
             />
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
             id="submission_requirements"
           >
             <label
-              class="sc-cSHVUG ielkCx"
+              class="sc-htoDjs sc-jzJRlG jsnZzo"
               for="submission_requirements"
             >
               Project Submission Requirements (tick all that apply)
             </label>
             <p
-              class="sc-jKJlTe gpPkwN"
+              class="sc-dnqmqq sc-cSHVUG kcrVCR"
             >
               Participants will be expected to submit which one of the following
             </p>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="video_url"
                 name="requirements"
                 type="checkbox"
                 value="video_url"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="video_url"
               >
                 Video URL
               </label>
             </div>
             <div
-              class="sc-kGXeez ipfKQQ"
+              class="sc-ckVGcZ eYsacB"
             >
               <input
-                class="sc-kpOJdX crQHVY"
+                class="sc-jKJlTe ilPEta"
                 id="github_url"
                 name="requirements"
                 type="checkbox"
                 value="github_url"
               />
               <label
-                class="sc-cSHVUG ielkCx"
+                class="sc-htoDjs frfsHC"
                 for="github_url"
               >
                 GitHub URL
@@ -1256,11 +1256,11 @@ Object {
             </div>
           </div>
           <div
-            class="sc-jTzLTM bxzhAG"
+            class="sc-kAzzGY hgOXzd"
           />
           <button
-            class="sc-bdVaJa jrkbyx sc-gqjmRU dEyQNc"
-            color="green"
+            class="sc-bdVaJa epjlFU sc-jTzLTM jRmNoc"
+            color="primary-reverse"
             type="submit"
           >
             Submit

@@ -28,7 +28,7 @@ Object {
               class="sc-gzVnrw gdbxOh"
             >
               <button
-                class="sc-ifAKCX cSfKYC sc-htoDjs gXeRCJ"
+                class="sc-ifAKCX kCjJoO sc-htoDjs gXeRCJ"
                 data-testid="label"
               >
                 Log Out
@@ -40,13 +40,13 @@ Object {
           class="sc-bwzfXH lolcga"
         >
           <div
-            class="sc-jtggT lhaZtU"
+            class="sc-jKVCRD ebmacA"
           >
             <div
-              class="sc-ebFjAB dwOOgP"
+              class="sc-kaNhvL gCjJfz"
             >
               <div
-                class="sc-jKVCRD ifjZxz"
+                class="sc-LKuAh jXzEeU"
               >
                 <img
                   alt="Hackton - Organise hackathons"
@@ -54,103 +54,103 @@ Object {
                   src="Hackton-logo.png"
                 />
                 <div
-                  class="sc-kaNhvL loNhMW"
+                  class="sc-iBEsjs gfTSvD"
                 >
                   Let's make your next hackathon a success!
                 </div>
               </div>
             </div>
             <div
-              class="sc-LKuAh euyWtm"
+              class="sc-hzNEM jpPnJK"
             >
               <h1
-                class="sc-iBEsjs dPxNik"
+                class="sc-chbbiW eteeO"
               >
                 Why HackHunt?
                 <hr />
               </h1>
               <p
-                class="sc-chbbiW iCEVIR"
+                class="sc-cooIXK loRTHm"
               >
                 We have great features that will make participating to hackathons fun again
               </p>
               <div
-                class="sc-kxynE jVioIx"
+                class="sc-fcdeBU cZjWZN"
               >
                 <div
-                  class="sc-cooIXK daQyVA"
+                  class="sc-gmeYpB kErTXM"
                 >
                   <img
                     alt="transparency"
                     src="transparency.png"
                   />
                   <h2
-                    class="sc-fcdeBU daPlrr"
+                    class="sc-kZmsYB hKHfWF"
                   >
                     Transparency
                   </h2>
                   <p
-                    class="sc-gmeYpB fWePZX"
+                    class="sc-RcBXQ kOOpVx"
                   >
                     We make it easy for participants to view their project scores in real time
                   </p>
                 </div>
                 <div
-                  class="sc-cooIXK daQyVA"
+                  class="sc-gmeYpB kErTXM"
                 >
                   <img
                     alt="team-collaboration"
                     src="team.png"
                   />
                   <h2
-                    class="sc-fcdeBU daPlrr"
+                    class="sc-kZmsYB hKHfWF"
                   >
                     Collaboration
                   </h2>
                   <p
-                    class="sc-gmeYpB fWePZX"
+                    class="sc-RcBXQ kOOpVx"
                   >
                     Work with your teammates as an organizer or participant
                   </p>
                 </div>
                 <div
-                  class="sc-cooIXK daQyVA"
+                  class="sc-gmeYpB kErTXM"
                 >
                   <img
                     alt="simplicity"
                     src="correct.png"
                   />
                   <h2
-                    class="sc-fcdeBU daPlrr"
+                    class="sc-kZmsYB hKHfWF"
                   >
                     Simplicity
                   </h2>
                   <p
-                    class="sc-gmeYpB fWePZX"
+                    class="sc-RcBXQ kOOpVx"
                   >
                     This hackathon app was designed with you in mind. The UI is simple and intuitive
                   </p>
                 </div>
               </div>
               <h1
-                class="sc-iBEsjs dPxNik"
+                class="sc-chbbiW eteeO"
               >
                 Meet our team of superstars
                 <hr />
               </h1>
               <div
-                class="sc-hzNEM bSJMbl"
+                class="sc-kxynE FJeNy"
               >
                 <div
-                  class="sc-kZmsYB bWmbFK"
+                  class="sc-iSDuPN lhqZev"
                 >
                   <img
                     alt=""
-                    class="sc-RcBXQ jgbgfh"
+                    class="sc-fZwumE ddUFFp"
                     src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4"
                   />
                   <div
-                    class="sc-fZwumE hyFrmW"
+                    class="sc-clNaTc bMYFap"
                   >
                     <a
                       href="https://github.com/AnthonyJCampbell"
@@ -158,7 +158,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="github"
                         data-prefix="fab"
                         focusable="false"
@@ -178,7 +178,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="linkedin"
                         data-prefix="fab"
                         focusable="false"
@@ -194,7 +194,7 @@ Object {
                     </a>
                   </div>
                   <div
-                    class="sc-iSDuPN eveaOS"
+                    class="sc-fQejPQ hfbSVn"
                   >
                     <h2>
                       Anthony Campbell
@@ -210,15 +210,15 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-kZmsYB bWmbFK"
+                  class="sc-iSDuPN lhqZev"
                 >
                   <img
                     alt=""
-                    class="sc-RcBXQ jgbgfh"
+                    class="sc-fZwumE ddUFFp"
                     src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4"
                   />
                   <div
-                    class="sc-fZwumE hyFrmW"
+                    class="sc-clNaTc bMYFap"
                   >
                     <a
                       href="https://github.com/AbdelIdir"
@@ -226,7 +226,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="github"
                         data-prefix="fab"
                         focusable="false"
@@ -246,7 +246,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="linkedin"
                         data-prefix="fab"
                         focusable="false"
@@ -262,7 +262,7 @@ Object {
                     </a>
                   </div>
                   <div
-                    class="sc-iSDuPN eveaOS"
+                    class="sc-fQejPQ hfbSVn"
                   >
                     <h2>
                       Abdel Idir
@@ -278,15 +278,15 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-kZmsYB bWmbFK"
+                  class="sc-iSDuPN lhqZev"
                 >
                   <img
                     alt=""
-                    class="sc-RcBXQ jgbgfh"
+                    class="sc-fZwumE ddUFFp"
                     src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4"
                   />
                   <div
-                    class="sc-fZwumE hyFrmW"
+                    class="sc-clNaTc bMYFap"
                   >
                     <a
                       href="https://github.com/KarimBertacche"
@@ -294,7 +294,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="github"
                         data-prefix="fab"
                         focusable="false"
@@ -314,7 +314,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="linkedin"
                         data-prefix="fab"
                         focusable="false"
@@ -330,7 +330,7 @@ Object {
                     </a>
                   </div>
                   <div
-                    class="sc-iSDuPN eveaOS"
+                    class="sc-fQejPQ hfbSVn"
                   >
                     <h2>
                       Karim Bertacche
@@ -346,15 +346,15 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-kZmsYB bWmbFK"
+                  class="sc-iSDuPN lhqZev"
                 >
                   <img
                     alt=""
-                    class="sc-RcBXQ jgbgfh"
+                    class="sc-fZwumE ddUFFp"
                     src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4"
                   />
                   <div
-                    class="sc-fZwumE hyFrmW"
+                    class="sc-clNaTc bMYFap"
                   >
                     <a
                       href="https://github.com/john-afolabi"
@@ -362,7 +362,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="github"
                         data-prefix="fab"
                         focusable="false"
@@ -382,7 +382,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="linkedin"
                         data-prefix="fab"
                         focusable="false"
@@ -398,7 +398,7 @@ Object {
                     </a>
                   </div>
                   <div
-                    class="sc-iSDuPN eveaOS"
+                    class="sc-fQejPQ hfbSVn"
                   >
                     <h2>
                       John Afolabi
@@ -414,15 +414,15 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-kZmsYB bWmbFK"
+                  class="sc-iSDuPN lhqZev"
                 >
                   <img
                     alt=""
-                    class="sc-RcBXQ jgbgfh"
+                    class="sc-fZwumE ddUFFp"
                     src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c"
                   />
                   <div
-                    class="sc-fZwumE hyFrmW"
+                    class="sc-clNaTc bMYFap"
                   >
                     <a
                       href="https://github.com/ELAndrews"
@@ -430,7 +430,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="github"
                         data-prefix="fab"
                         focusable="false"
@@ -450,7 +450,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="linkedin"
                         data-prefix="fab"
                         focusable="false"
@@ -466,7 +466,7 @@ Object {
                     </a>
                   </div>
                   <div
-                    class="sc-iSDuPN eveaOS"
+                    class="sc-fQejPQ hfbSVn"
                   >
                     <h2>
                       Emma Andrews
@@ -484,15 +484,15 @@ Object {
                   </div>
                 </div>
                 <div
-                  class="sc-kZmsYB bWmbFK"
+                  class="sc-iSDuPN lhqZev"
                 >
                   <img
                     alt=""
-                    class="sc-RcBXQ jgbgfh"
+                    class="sc-fZwumE ddUFFp"
                     src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4"
                   />
                   <div
-                    class="sc-fZwumE hyFrmW"
+                    class="sc-clNaTc bMYFap"
                   >
                     <a
                       href="https://github.com/dueka"
@@ -500,7 +500,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="github"
                         data-prefix="fab"
                         focusable="false"
@@ -520,7 +520,7 @@ Object {
                     >
                       <svg
                         aria-hidden="true"
-                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                        class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                         data-icon="linkedin"
                         data-prefix="fab"
                         focusable="false"
@@ -536,7 +536,7 @@ Object {
                     </a>
                   </div>
                   <div
-                    class="sc-iSDuPN eveaOS"
+                    class="sc-fQejPQ hfbSVn"
                   >
                     <h2>
                       Ekanem David
@@ -555,7 +555,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-jAaTju sc-kasBVs kvlqEN"
+            class="sc-jAaTju sc-eInJlc hucUHO"
           >
             <form
               action="#"
@@ -652,7 +652,7 @@ Object {
                   Bio
                 </label>
                 <div
-                  class="sc-kPVwWT huefKC"
+                  class="sc-esjQYD cRYbVy"
                 >
                   <textarea
                     name="bio"
@@ -663,10 +663,10 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-ksYbfQ sc-hgHYgh iVWPQW"
+                class="sc-ksYbfQ sc-gtfDJT kxACrx"
               >
                 <button
-                  class="sc-ifAKCX hcjdUV"
+                  class="sc-ifAKCX dHjHkO"
                   color="green"
                   type="submit"
                 >
@@ -861,7 +861,7 @@ Object {
           <svg
             active="false"
             aria-hidden="true"
-            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-jlyJG bEcFYf sc-csuQGl gtcPkG"
+            class="svg-inline--fa fa-angle-double-down fa-w-10 sc-jlyJG bEcFYf sc-csuQGl jmZYzl"
             data-icon="angle-double-down"
             data-prefix="fas"
             focusable="false"
@@ -905,7 +905,7 @@ Object {
             class="sc-gzVnrw gdbxOh"
           >
             <button
-              class="sc-ifAKCX cSfKYC sc-htoDjs gXeRCJ"
+              class="sc-ifAKCX kCjJoO sc-htoDjs gXeRCJ"
               data-testid="label"
             >
               Log Out
@@ -917,13 +917,13 @@ Object {
         class="sc-bwzfXH lolcga"
       >
         <div
-          class="sc-jtggT lhaZtU"
+          class="sc-jKVCRD ebmacA"
         >
           <div
-            class="sc-ebFjAB dwOOgP"
+            class="sc-kaNhvL gCjJfz"
           >
             <div
-              class="sc-jKVCRD ifjZxz"
+              class="sc-LKuAh jXzEeU"
             >
               <img
                 alt="Hackton - Organise hackathons"
@@ -931,103 +931,103 @@ Object {
                 src="Hackton-logo.png"
               />
               <div
-                class="sc-kaNhvL loNhMW"
+                class="sc-iBEsjs gfTSvD"
               >
                 Let's make your next hackathon a success!
               </div>
             </div>
           </div>
           <div
-            class="sc-LKuAh euyWtm"
+            class="sc-hzNEM jpPnJK"
           >
             <h1
-              class="sc-iBEsjs dPxNik"
+              class="sc-chbbiW eteeO"
             >
               Why HackHunt?
               <hr />
             </h1>
             <p
-              class="sc-chbbiW iCEVIR"
+              class="sc-cooIXK loRTHm"
             >
               We have great features that will make participating to hackathons fun again
             </p>
             <div
-              class="sc-kxynE jVioIx"
+              class="sc-fcdeBU cZjWZN"
             >
               <div
-                class="sc-cooIXK daQyVA"
+                class="sc-gmeYpB kErTXM"
               >
                 <img
                   alt="transparency"
                   src="transparency.png"
                 />
                 <h2
-                  class="sc-fcdeBU daPlrr"
+                  class="sc-kZmsYB hKHfWF"
                 >
                   Transparency
                 </h2>
                 <p
-                  class="sc-gmeYpB fWePZX"
+                  class="sc-RcBXQ kOOpVx"
                 >
                   We make it easy for participants to view their project scores in real time
                 </p>
               </div>
               <div
-                class="sc-cooIXK daQyVA"
+                class="sc-gmeYpB kErTXM"
               >
                 <img
                   alt="team-collaboration"
                   src="team.png"
                 />
                 <h2
-                  class="sc-fcdeBU daPlrr"
+                  class="sc-kZmsYB hKHfWF"
                 >
                   Collaboration
                 </h2>
                 <p
-                  class="sc-gmeYpB fWePZX"
+                  class="sc-RcBXQ kOOpVx"
                 >
                   Work with your teammates as an organizer or participant
                 </p>
               </div>
               <div
-                class="sc-cooIXK daQyVA"
+                class="sc-gmeYpB kErTXM"
               >
                 <img
                   alt="simplicity"
                   src="correct.png"
                 />
                 <h2
-                  class="sc-fcdeBU daPlrr"
+                  class="sc-kZmsYB hKHfWF"
                 >
                   Simplicity
                 </h2>
                 <p
-                  class="sc-gmeYpB fWePZX"
+                  class="sc-RcBXQ kOOpVx"
                 >
                   This hackathon app was designed with you in mind. The UI is simple and intuitive
                 </p>
               </div>
             </div>
             <h1
-              class="sc-iBEsjs dPxNik"
+              class="sc-chbbiW eteeO"
             >
               Meet our team of superstars
               <hr />
             </h1>
             <div
-              class="sc-hzNEM bSJMbl"
+              class="sc-kxynE FJeNy"
             >
               <div
-                class="sc-kZmsYB bWmbFK"
+                class="sc-iSDuPN lhqZev"
               >
                 <img
                   alt=""
-                  class="sc-RcBXQ jgbgfh"
+                  class="sc-fZwumE ddUFFp"
                   src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4"
                 />
                 <div
-                  class="sc-fZwumE hyFrmW"
+                  class="sc-clNaTc bMYFap"
                 >
                   <a
                     href="https://github.com/AnthonyJCampbell"
@@ -1035,7 +1035,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -1055,7 +1055,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -1071,7 +1071,7 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-iSDuPN eveaOS"
+                  class="sc-fQejPQ hfbSVn"
                 >
                   <h2>
                     Anthony Campbell
@@ -1087,15 +1087,15 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-kZmsYB bWmbFK"
+                class="sc-iSDuPN lhqZev"
               >
                 <img
                   alt=""
-                  class="sc-RcBXQ jgbgfh"
+                  class="sc-fZwumE ddUFFp"
                   src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4"
                 />
                 <div
-                  class="sc-fZwumE hyFrmW"
+                  class="sc-clNaTc bMYFap"
                 >
                   <a
                     href="https://github.com/AbdelIdir"
@@ -1103,7 +1103,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -1123,7 +1123,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -1139,7 +1139,7 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-iSDuPN eveaOS"
+                  class="sc-fQejPQ hfbSVn"
                 >
                   <h2>
                     Abdel Idir
@@ -1155,15 +1155,15 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-kZmsYB bWmbFK"
+                class="sc-iSDuPN lhqZev"
               >
                 <img
                   alt=""
-                  class="sc-RcBXQ jgbgfh"
+                  class="sc-fZwumE ddUFFp"
                   src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4"
                 />
                 <div
-                  class="sc-fZwumE hyFrmW"
+                  class="sc-clNaTc bMYFap"
                 >
                   <a
                     href="https://github.com/KarimBertacche"
@@ -1171,7 +1171,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -1191,7 +1191,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -1207,7 +1207,7 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-iSDuPN eveaOS"
+                  class="sc-fQejPQ hfbSVn"
                 >
                   <h2>
                     Karim Bertacche
@@ -1223,15 +1223,15 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-kZmsYB bWmbFK"
+                class="sc-iSDuPN lhqZev"
               >
                 <img
                   alt=""
-                  class="sc-RcBXQ jgbgfh"
+                  class="sc-fZwumE ddUFFp"
                   src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4"
                 />
                 <div
-                  class="sc-fZwumE hyFrmW"
+                  class="sc-clNaTc bMYFap"
                 >
                   <a
                     href="https://github.com/john-afolabi"
@@ -1239,7 +1239,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -1259,7 +1259,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -1275,7 +1275,7 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-iSDuPN eveaOS"
+                  class="sc-fQejPQ hfbSVn"
                 >
                   <h2>
                     John Afolabi
@@ -1291,15 +1291,15 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-kZmsYB bWmbFK"
+                class="sc-iSDuPN lhqZev"
               >
                 <img
                   alt=""
-                  class="sc-RcBXQ jgbgfh"
+                  class="sc-fZwumE ddUFFp"
                   src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c"
                 />
                 <div
-                  class="sc-fZwumE hyFrmW"
+                  class="sc-clNaTc bMYFap"
                 >
                   <a
                     href="https://github.com/ELAndrews"
@@ -1307,7 +1307,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -1327,7 +1327,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -1343,7 +1343,7 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-iSDuPN eveaOS"
+                  class="sc-fQejPQ hfbSVn"
                 >
                   <h2>
                     Emma Andrews
@@ -1361,15 +1361,15 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-kZmsYB bWmbFK"
+                class="sc-iSDuPN lhqZev"
               >
                 <img
                   alt=""
-                  class="sc-RcBXQ jgbgfh"
+                  class="sc-fZwumE ddUFFp"
                   src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4"
                 />
                 <div
-                  class="sc-fZwumE hyFrmW"
+                  class="sc-clNaTc bMYFap"
                 >
                   <a
                     href="https://github.com/dueka"
@@ -1377,7 +1377,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-github fa-w-16 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="github"
                       data-prefix="fab"
                       focusable="false"
@@ -1397,7 +1397,7 @@ Object {
                   >
                     <svg
                       aria-hidden="true"
-                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-fQejPQ jtEIph"
+                      class="svg-inline--fa fa-linkedin fa-w-14 sc-jlyJG bEcFYf sc-etwtAo hEOwTp"
                       data-icon="linkedin"
                       data-prefix="fab"
                       focusable="false"
@@ -1413,7 +1413,7 @@ Object {
                   </a>
                 </div>
                 <div
-                  class="sc-iSDuPN eveaOS"
+                  class="sc-fQejPQ hfbSVn"
                 >
                   <h2>
                     Ekanem David
@@ -1432,7 +1432,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jAaTju sc-kasBVs kvlqEN"
+          class="sc-jAaTju sc-eInJlc hucUHO"
         >
           <form
             action="#"
@@ -1529,7 +1529,7 @@ Object {
                 Bio
               </label>
               <div
-                class="sc-kPVwWT huefKC"
+                class="sc-esjQYD cRYbVy"
               >
                 <textarea
                   name="bio"
@@ -1540,10 +1540,10 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ksYbfQ sc-hgHYgh iVWPQW"
+              class="sc-ksYbfQ sc-gtfDJT kxACrx"
             >
               <button
-                class="sc-ifAKCX hcjdUV"
+                class="sc-ifAKCX dHjHkO"
                 color="green"
                 type="submit"
               >
@@ -1738,7 +1738,7 @@ Object {
         <svg
           active="false"
           aria-hidden="true"
-          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-jlyJG bEcFYf sc-csuQGl gtcPkG"
+          class="svg-inline--fa fa-angle-double-down fa-w-10 sc-jlyJG bEcFYf sc-csuQGl jmZYzl"
           data-icon="angle-double-down"
           data-prefix="fas"
           focusable="false"

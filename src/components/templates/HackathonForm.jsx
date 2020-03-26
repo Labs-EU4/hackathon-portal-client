@@ -10,18 +10,18 @@ import {
   StyledColumn,
   StyledFormBtn,
   StyledH3,
-  StyledRowHead
+  StyledRowHead,
+  StyledLabel,
+  StyledParagraph
 } from "../../assets/styles/templates/HackathonFormStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
-import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Icon from "../atoms/Icon";
 import Input from "../atoms/Input";
 import Checkbox from "../molecules/Checkbox";
 import TextArea from "../atoms/TextArea";
 import Select from "../atoms/Select";
-import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import InputTag from "../molecules/TagsInput";
 import {
@@ -153,7 +153,7 @@ const HackathonForm = ({ initialState }) => {
             <StyledForm>
               <StyledColumn>
                 <RowBody justify="start">
-                  <Label htmlFor="event_title">Hackathon Title</Label>
+                  <StyledLabel htmlFor="event_title">Hackathon Title</StyledLabel>
                   <Input
                     id="event_title"
                     display="wide"
@@ -168,7 +168,7 @@ const HackathonForm = ({ initialState }) => {
                   </ErrorSpan>
                 </RowBody>
                 <RowBody justify="start">
-                  <Label htmlFor="event_description">Description</Label>
+                  <StyledLabel htmlFor="event_description">Description</StyledLabel>
                   <TextArea
                     wide
                     id="event_description"
@@ -184,7 +184,7 @@ const HackathonForm = ({ initialState }) => {
                   </ErrorSpan>
                 </RowBody>
                 <RowBody justify="start">
-                  <Label htmlFor="location">Location</Label>
+                  <StyledLabel htmlFor="location">Location</StyledLabel>
                   <Input
                     display="wide"
                     id="location"
@@ -200,7 +200,7 @@ const HackathonForm = ({ initialState }) => {
                 </RowBody>
                 <RowBody justify="start">
                   <Column>
-                    <Label htmlFor="start_date">Event Starts</Label>
+                    <StyledLabel htmlFor="start_date">Event Starts</StyledLabel>
                     <Input
                       id="start_date"
                       type="date"
@@ -217,7 +217,7 @@ const HackathonForm = ({ initialState }) => {
                     </ErrorSpan>
                   </Column>
                   <Column>
-                    <Label htmlFor="end_date">Event Ends</Label>
+                    <StyledLabel htmlFor="end_date">Event Ends</StyledLabel>
                     <Input
                       id="end_date"
                       type="date"
@@ -236,7 +236,7 @@ const HackathonForm = ({ initialState }) => {
                 </RowBody>
                 <RowBody justify="start">
                   <Column>
-                    <Label htmlFor="start_time">Start Time</Label>
+                    <StyledLabel htmlFor="start_time">Start Time</StyledLabel>
                     <Input
                       id="start_time"
                       type="time"
@@ -253,7 +253,7 @@ const HackathonForm = ({ initialState }) => {
                     </ErrorSpan>
                   </Column>
                   <Column>
-                    <Label htmlFor="end_time">End Time</Label>
+                    <StyledLabel htmlFor="end_time">End Time</StyledLabel>
                     <Input
                       id="end_time"
                       type="time"
@@ -271,13 +271,13 @@ const HackathonForm = ({ initialState }) => {
                   </Column>
                 </RowBody>
                 <RowBody id="grading_rubrics" justify="start">
-                  <Label htmlFor="grading_rubrics">
+                  <StyledLabel htmlFor="grading_rubrics">
                     Grading Rubrics (tick all that apply)
-                  </Label>
-                  <Paragraph>
+                  </StyledLabel>
+                  <StyledParagraph>
                     Judges will be expected to grade project submissions on
                     which one of the following
-                  </Paragraph>
+                  </StyledParagraph>
 
                   <Checkbox
                     name="rubrics"
@@ -314,7 +314,7 @@ const HackathonForm = ({ initialState }) => {
 
               <StyledColumn>
                 <RowBody justify="start">
-                  <Label htmlFor="prize">Prize</Label>
+                  <StyledLabel htmlFor="prize">Prize</StyledLabel>
                   <Input display="wide" id="prize" type="text" name="prize" />
                   {errors.name && touched.name ? (
                     <div>{errors.name}</div>
@@ -325,9 +325,9 @@ const HackathonForm = ({ initialState }) => {
                 </RowBody>
                 <RowBody justify="start">
                   <Column>
-                    <Label htmlFor="participation_type">
+                    <StyledLabel htmlFor="participation_type">
                       Participation Type
-                    </Label>
+                    </StyledLabel>
                     <Select id="participation_type" name="participation_type">
                       <option value="" disabled hidden>
                         Choose
@@ -344,7 +344,7 @@ const HackathonForm = ({ initialState }) => {
                     </ErrorSpan>
                   </Column>
                   <Column>
-                    <Label htmlFor="event_category">Event Category</Label>
+                    <StyledLabel htmlFor="event_category">Event Category</StyledLabel>
                     <Select id="event_category" name="event_category">
                       <option value="" disabled hidden>
                         Choose
@@ -366,9 +366,9 @@ const HackathonForm = ({ initialState }) => {
                 <RowBody>
                   <Column>
                     <RowBody justify="start">
-                      <Label htmlFor="participant_limit">
+                      <StyledLabel htmlFor="participant_limit">
                         Number of Participants
-                      </Label>
+                      </StyledLabel>
                       <Input
                         display="wide"
                         id="participant_limit"
@@ -386,7 +386,7 @@ const HackathonForm = ({ initialState }) => {
                 </RowBody>
                 <RowBody justify="start">
                   <Column>
-                    <Label htmlFor="difficulty_level">Difficulty Level</Label>
+                    <StyledLabel htmlFor="difficulty_level">Difficulty Level</StyledLabel>
                     <Select id="difficulty_level" name="difficulty_level">
                       <option value="" disabled hidden>
                         Choose
@@ -404,13 +404,13 @@ const HackathonForm = ({ initialState }) => {
                   </Column>
                   <Column>
                     {" "}
-                    <Label htmlFor="input_tags">Tags</Label>
+                    <StyledLabel htmlFor="input_tags">Tags</StyledLabel>
                     <InputTag id="input_tags" tags={defaultState.tag_name} />
                   </Column>
                 </RowBody>
 
                 <RowBody justify="start">
-                  <Label htmlFor="guidelines">Guidelines</Label>
+                  <StyledLabel htmlFor="guidelines">Guidelines</StyledLabel>
                   <TextArea
                     id="guidelines"
                     wide
@@ -426,13 +426,13 @@ const HackathonForm = ({ initialState }) => {
                   </ErrorSpan>
                 </RowBody>
                 <RowBody id="submission_requirements" justify="start">
-                  <Label htmlFor="submission_requirements">
+                  <StyledLabel htmlFor="submission_requirements">
                     Project Submission Requirements (tick all that apply)
-                  </Label>
-                  <Paragraph>
+                  </StyledLabel>
+                  <StyledParagraph>
                     Participants will be expected to submit which one of the
                     following
-                  </Paragraph>
+                  </StyledParagraph>
 
                   <Checkbox
                     name="requirements"
@@ -446,7 +446,7 @@ const HackathonForm = ({ initialState }) => {
                   />
                 </RowBody>
                 <RowBody justify="start"></RowBody>
-                <StyledFormBtn color="green" type="submit">
+                <StyledFormBtn color="primary-reverse" type="submit">
                   Submit
                 </StyledFormBtn>
               </StyledColumn>
