@@ -43,7 +43,6 @@ export const SubmissionEntry = styled.div`
   ${props => props.theme.flex.column};
   ${props => props.theme.shadow.box};
   width: 100%;
-  /* border-bottom: 1px solid #c8c8c8; */
   border: 1px solid ${props => props.theme.color.grey.regular};
   padding: 5px 0;
   margin-bottom: 5px;
@@ -61,7 +60,6 @@ export const Strong = styled.strong`
 export const Description = styled(Paragraph)`
   width: 100%;
   margin: none; padding-top: 10px;
-  font-size: 12px; letter-spacing: 1px; 
   overflow: hidden;
   /* Ellipsis not working, fix this feature */
   text-align: center; text-overflow: ellipsis;
@@ -77,10 +75,6 @@ export const Description = styled(Paragraph)`
   }
 `;
 
-export const StyledH3 = styled(H3)`
-  color: rgb(0, 255, 70);
-`;
-
 export const RatingGroup = styled.div`
   ${props => props.theme.flex.custom('center', 'center', 'column')};
   margin-bottom: 20px;
@@ -93,4 +87,8 @@ export const RatingGroup = styled.div`
 export const JudgeCount = styled.span`
   font-size: 12px;
   margin: 5px 0 0 0;
+`;
+
+export const StyledH3 = styled(H3)`
+  color: rgb(0, 255, 70);
 `;
