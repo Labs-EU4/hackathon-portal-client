@@ -98,6 +98,7 @@ export const FeatureDescription = styled.p`
 `;
 
 export const StyledCard = styled.div`
+    position: relative;
     width: calc((100% / 3) - 10px); min-width: 250px;
     height: 250px;
     background-color: ${({ theme }) => theme.color.primary.regular};
@@ -133,8 +134,16 @@ export const StarInfo = styled.div`
         : `translateY(100%)`
     };
     transition: all .4s ease-in-out;
+    border: 3px solid red;
 `;
 
 export const StarHandles = styled.div`
-
+    position: absolute; top: 0; left: 50%;
+    width: 50%; height: 50%;
+    border: 3px solid red;
+    transform: ${({ active }) => active 
+        ? `translateX(0)`
+        : `translateX(100%)`
+    };
+    transition: all .4s ease-in-out;
 `;
