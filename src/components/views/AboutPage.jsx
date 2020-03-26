@@ -7,13 +7,15 @@ import {
     MainContent, 
     SectionTitle, 
     TeamContainer, 
-    StyledCard,
     Paragraph,
     FeaturesContainer,
     FeatureBox,
     FeatureTitle,
-    FeatureDescription
-} from "../../assets/styles/views/AboutPage"
+    FeatureDescription,
+    StyledCard,
+    MemberImg
+} from "../../assets/styles/views/AboutPage";
+import styled from 'styled-components';
 
 import Logo from '../atoms/Logo';
 import teamImg from '../../assets/images/team.png';
@@ -126,7 +128,10 @@ const AboutPage = () => {
                     {
                         teamMembers.map((star, index) => {
                             return (
-                                <StarCard key={index} {...{star}} />
+                                <StarCard 
+                                    key={index} 
+                                    {...{star}} 
+                                />
                             );
                         })
                     }
@@ -142,7 +147,9 @@ const StarCard = ({ star }) => {
     const { imgUrl, identifier } = star;
     return (
         <StyledCard>
-            <img src={imgUrl} alt={identifier} />
+            <MemberImg src={imgUrl} alt={identifier} />
         </StyledCard>
     );
 };
+
+

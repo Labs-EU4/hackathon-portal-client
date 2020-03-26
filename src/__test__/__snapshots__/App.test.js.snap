@@ -71,63 +71,63 @@ Object {
                 <hr />
               </h1>
               <p
-                class="sc-iBEsjs gBulAC"
+                class="sc-LKuAh jvlYzQ"
               >
                 We have great features that will make participating to hackathons fun again
               </p>
               <div
-                class="sc-hzNEM igYbWe"
+                class="sc-iBEsjs kAyuUB"
               >
                 <div
-                  class="sc-chbbiW ZDefq"
+                  class="sc-hzNEM fqhIDg"
                 >
                   <img
                     alt="transparency"
                     src="transparency.png"
                   />
                   <h2
-                    class="sc-kxynE eMbkEd"
+                    class="sc-chbbiW kmJndR"
                   >
                     Transparency
                   </h2>
                   <p
-                    class="sc-cooIXK essbye"
+                    class="sc-kxynE cRugui"
                   >
                     We make it easy for participants to view their project scores in real time
                   </p>
                 </div>
                 <div
-                  class="sc-chbbiW ZDefq"
+                  class="sc-hzNEM fqhIDg"
                 >
                   <img
                     alt="team-collaboration"
                     src="team.png"
                   />
                   <h2
-                    class="sc-kxynE eMbkEd"
+                    class="sc-chbbiW kmJndR"
                   >
                     Collaboration
                   </h2>
                   <p
-                    class="sc-cooIXK essbye"
+                    class="sc-kxynE cRugui"
                   >
                     Work with your teammates as an organizer or participant
                   </p>
                 </div>
                 <div
-                  class="sc-chbbiW ZDefq"
+                  class="sc-hzNEM fqhIDg"
                 >
                   <img
                     alt="simplicity"
                     src="correct.png"
                   />
                   <h2
-                    class="sc-kxynE eMbkEd"
+                    class="sc-chbbiW kmJndR"
                   >
                     Simplicity
                   </h2>
                   <p
-                    class="sc-cooIXK essbye"
+                    class="sc-kxynE cRugui"
                   >
                     This hackathon app was designed with you in mind. The UI is simple and intuitive
                   </p>
@@ -143,50 +143,56 @@ Object {
                 class="sc-kaNhvL dtOdRZ"
               >
                 <div
-                  class="sc-LKuAh jwBDDP"
+                  class="sc-cooIXK dxEDFn"
                 >
                   <img
                     alt=""
+                    class="sc-fcdeBU hqJrOG"
                     src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4"
                   />
                 </div>
                 <div
-                  class="sc-LKuAh jwBDDP"
+                  class="sc-cooIXK dxEDFn"
                 >
                   <img
                     alt=""
+                    class="sc-fcdeBU hqJrOG"
                     src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4"
                   />
                 </div>
                 <div
-                  class="sc-LKuAh jwBDDP"
+                  class="sc-cooIXK dxEDFn"
                 >
                   <img
                     alt=""
+                    class="sc-fcdeBU hqJrOG"
                     src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4"
                   />
                 </div>
                 <div
-                  class="sc-LKuAh jwBDDP"
+                  class="sc-cooIXK dxEDFn"
                 >
                   <img
                     alt=""
+                    class="sc-fcdeBU hqJrOG"
                     src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4"
                   />
                 </div>
                 <div
-                  class="sc-LKuAh jwBDDP"
+                  class="sc-cooIXK dxEDFn"
                 >
                   <img
                     alt=""
+                    class="sc-fcdeBU hqJrOG"
                     src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c"
                   />
                 </div>
                 <div
-                  class="sc-LKuAh jwBDDP"
+                  class="sc-cooIXK dxEDFn"
                 >
                   <img
                     alt=""
+                    class="sc-fcdeBU hqJrOG"
                     src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4"
                   />
                 </div>
@@ -194,7 +200,7 @@ Object {
             </div>
           </div>
           <div
-            class="sc-jDwBTQ sc-iSDuPN dBTvfP"
+            class="sc-jDwBTQ sc-fZwumE bgKOwY"
           >
             <form
               action="#"
@@ -302,7 +308,7 @@ Object {
                 </div>
               </div>
               <div
-                class="sc-ksYbfQ sc-fZwumE hvSaxB"
+                class="sc-ksYbfQ sc-fQejPQ fKZSkG"
               >
                 <button
                   class="sc-ifAKCX fHwHnk"
@@ -577,63 +583,63 @@ Object {
               <hr />
             </h1>
             <p
-              class="sc-iBEsjs gBulAC"
+              class="sc-LKuAh jvlYzQ"
             >
               We have great features that will make participating to hackathons fun again
             </p>
             <div
-              class="sc-hzNEM igYbWe"
+              class="sc-iBEsjs kAyuUB"
             >
               <div
-                class="sc-chbbiW ZDefq"
+                class="sc-hzNEM fqhIDg"
               >
                 <img
                   alt="transparency"
                   src="transparency.png"
                 />
                 <h2
-                  class="sc-kxynE eMbkEd"
+                  class="sc-chbbiW kmJndR"
                 >
                   Transparency
                 </h2>
                 <p
-                  class="sc-cooIXK essbye"
+                  class="sc-kxynE cRugui"
                 >
                   We make it easy for participants to view their project scores in real time
                 </p>
               </div>
               <div
-                class="sc-chbbiW ZDefq"
+                class="sc-hzNEM fqhIDg"
               >
                 <img
                   alt="team-collaboration"
                   src="team.png"
                 />
                 <h2
-                  class="sc-kxynE eMbkEd"
+                  class="sc-chbbiW kmJndR"
                 >
                   Collaboration
                 </h2>
                 <p
-                  class="sc-cooIXK essbye"
+                  class="sc-kxynE cRugui"
                 >
                   Work with your teammates as an organizer or participant
                 </p>
               </div>
               <div
-                class="sc-chbbiW ZDefq"
+                class="sc-hzNEM fqhIDg"
               >
                 <img
                   alt="simplicity"
                   src="correct.png"
                 />
                 <h2
-                  class="sc-kxynE eMbkEd"
+                  class="sc-chbbiW kmJndR"
                 >
                   Simplicity
                 </h2>
                 <p
-                  class="sc-cooIXK essbye"
+                  class="sc-kxynE cRugui"
                 >
                   This hackathon app was designed with you in mind. The UI is simple and intuitive
                 </p>
@@ -649,50 +655,56 @@ Object {
               class="sc-kaNhvL dtOdRZ"
             >
               <div
-                class="sc-LKuAh jwBDDP"
+                class="sc-cooIXK dxEDFn"
               >
                 <img
                   alt=""
+                  class="sc-fcdeBU hqJrOG"
                   src="https://avatars3.githubusercontent.com/u/45029641?s=400&v=4"
                 />
               </div>
               <div
-                class="sc-LKuAh jwBDDP"
+                class="sc-cooIXK dxEDFn"
               >
                 <img
                   alt=""
+                  class="sc-fcdeBU hqJrOG"
                   src="https://avatars0.githubusercontent.com/u/53605229?s=460&v=4"
                 />
               </div>
               <div
-                class="sc-LKuAh jwBDDP"
+                class="sc-cooIXK dxEDFn"
               >
                 <img
                   alt=""
+                  class="sc-fcdeBU hqJrOG"
                   src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4"
                 />
               </div>
               <div
-                class="sc-LKuAh jwBDDP"
+                class="sc-cooIXK dxEDFn"
               >
                 <img
                   alt=""
+                  class="sc-fcdeBU hqJrOG"
                   src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4"
                 />
               </div>
               <div
-                class="sc-LKuAh jwBDDP"
+                class="sc-cooIXK dxEDFn"
               >
                 <img
                   alt=""
+                  class="sc-fcdeBU hqJrOG"
                   src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c"
                 />
               </div>
               <div
-                class="sc-LKuAh jwBDDP"
+                class="sc-cooIXK dxEDFn"
               >
                 <img
                   alt=""
+                  class="sc-fcdeBU hqJrOG"
                   src="https://avatars2.githubusercontent.com/u/38921132?s=460&v=4"
                 />
               </div>
@@ -700,7 +712,7 @@ Object {
           </div>
         </div>
         <div
-          class="sc-jDwBTQ sc-iSDuPN dBTvfP"
+          class="sc-jDwBTQ sc-fZwumE bgKOwY"
         >
           <form
             action="#"
@@ -808,7 +820,7 @@ Object {
               </div>
             </div>
             <div
-              class="sc-ksYbfQ sc-fZwumE hvSaxB"
+              class="sc-ksYbfQ sc-fQejPQ fKZSkG"
             >
               <button
                 class="sc-ifAKCX fHwHnk"
