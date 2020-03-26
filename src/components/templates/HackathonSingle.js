@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useHistory, useLocation } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-
 import {
   PTags,
   TitleContainer,
@@ -16,13 +15,10 @@ import {
 } from "../../assets/styles/templates/HackathonSingleStyling";
 import { H2 } from "../../assets/styles/atoms/HeadingStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
-// import AddTeammates from '../templates/AddTeammates';
 import Icon from "../atoms/Icon";
 import EventJudges from "../organisms/EventJudges";
 import HSTagsCard from "../organisms/HSTagsCard";
 import ContentTitle from "../molecules/ContentTitle";
-// import HackathonProjectsPage from '../views/HackathonProjectsPage';
-// import ParticipantSubmissionPage from '../views/ParticipantSubmissionPage';
 import HackathonProjectsPage from "../views/HackathonProjectsPage";
 import ParticipantSubmissionPage from "../views/ParticipantSubmissionPage";
 import AddTeammates from "../templates/AddTeammates";
