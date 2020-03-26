@@ -79,7 +79,7 @@ const EventOnboarding = ({ eventModalHandler }) => {
       0
     ],
     [
-      "<p style=color:red;background:black;font-weight:bold>Abuja,Nigeria</p>",
+      "<p style=color:green;background:black;font-weight:bold;padding:7px;border-radius:15px>RTL Dathaton 2020</p>",
       9.06146,
       7.50064,
       0
