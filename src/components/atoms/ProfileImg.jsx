@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 // import { media } from "../../assets/styles/variables/media";
-
-import userImg from "../../assets/images/user_icon.svg";
 import Icon from '../atoms/Icon';
 
 const ProfileImg = ({ image, alt, isSideBarOpen }) => {
