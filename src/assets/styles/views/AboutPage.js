@@ -106,7 +106,8 @@ export const StyledCard = styled.div`
     position: relative;
     width: calc((100% / 3) - 10px); min-width: 250px;
     height: 250px;
-    background-color: ${({ theme }) => theme.color.primary.regular};
+    background-color: black;
+    border: 2px solid ${({ theme }) => theme.color.primary.regular};
     margin: 5px 2.5px;
     overflow: hidden;
     transition: all .2s ease-in;
@@ -134,8 +135,8 @@ export const StarImg = styled.img`
 export const StarInfo = styled.div`
     ${({ theme }) => theme.flex.columnCenter};
     height: 50%;
-    background-color: ${({ theme }) => theme.color.primary.regular};
-    color: ${({ theme }) => theme.color.white.regular};
+    background-color: black;
+    color: ${({ theme }) => theme.color.primary.regular};
     transform: ${({ active }) => active 
         ? `translateY(0)`
         : `translateY(100%)`
@@ -151,6 +152,7 @@ export const StarInfo = styled.div`
     .role {
         font-size: 12px;
         text-transform: uppercase;
+        color: ${({ theme }) => theme.color.white.regular};
     }
 
     .bio {
@@ -172,13 +174,13 @@ export const StarHandles = styled.div`
 `;
 
 export const StyledIcon = styled(Icon)`
-    color: ${({ theme }) => theme.color.white.regular};
+    color: ${({ theme }) => theme.color.primary.regular};
     font-size: 40px;
     transition: all .2s ease-in;
     cursor: pointer;
 
     &:hover {
-        color: ${({ theme }) => theme.color.white.regular};
+        color: ${({ theme }) => theme.color.primary.regular};
         filter: drop-shadow(
             2px 2px 10px rgb(0, 0, 0), 
             -.25px -.25px 10px rgb(0, 0, 0)
