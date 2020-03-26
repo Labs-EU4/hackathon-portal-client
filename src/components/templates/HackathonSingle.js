@@ -90,10 +90,10 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const userCallback = p => p.user_id === userId;
   const isTeamLead = createdTeam;
   let isRegistered = participants.find(userCallback) || isTeamLead;
+  isRegistered = participants.find(userCallback) || isTeamLead;
   
   useEffect(() => {
     
-    isRegistered = participants.find(userCallback) || isTeamLead;
   }, [participants]);
   // Redacting user emails before rendering
   let redactedEmail = organizer_email.split("");
