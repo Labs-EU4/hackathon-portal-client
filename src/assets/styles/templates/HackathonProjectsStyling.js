@@ -4,6 +4,7 @@ import { media } from "../variables/media";
 import { RowBody } from "../atoms/RowBodyStyling";
 import { CardWide } from "../atoms/CardStyling";
 import { Paragraph } from "../atoms/ParagraphStyling";
+import { H3 } from "../atoms/HeadingStyling";
 
 export const StyledWideBody = styled.div`
   position: absolute; top: 0; left: 0;
@@ -31,9 +32,10 @@ export const StyledRowBody = styled(RowBody)`
 `;
 
 export const Team = styled.h3`
-  border-bottom: 2px solid ${props => props.theme.color.grey.regular};
+  border-bottom: 2px solid ${props => props.theme.color.primary.regular};
   margin: 0 auto; padding: 5px 10px;
   font-size: 1.8rem; font-weight: bold; 
+  color: ${props => props.theme.color.primary.regular};
   text-align: center;
 `;
 
@@ -59,6 +61,7 @@ export const Strong = styled.strong`
 export const Description = styled(Paragraph)`
   width: 100%;
   margin: none; padding-top: 10px;
+  font-size: 12px; letter-spacing: 1px; 
   overflow: hidden;
   /* Ellipsis not working, fix this feature */
   text-align: center; text-overflow: ellipsis;
@@ -72,6 +75,10 @@ export const Description = styled(Paragraph)`
   @media ${media.mobile} {
     padding: 0;
   }
+`;
+
+export const StyledH3 = styled(H3)`
+  color: rgb(0, 255, 70);
 `;
 
 export const RatingGroup = styled.div`
