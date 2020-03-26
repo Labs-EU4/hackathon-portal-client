@@ -15,7 +15,6 @@ import {
   StyledParagraph
 } from "../../assets/styles/templates/HackathonSingleStyling";
 import { H2 } from "../../assets/styles/atoms/HeadingStyling";
-import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import { ExitButton } from "../../assets/styles/atoms/ExitButtonStyling";
 // import AddTeammates from '../templates/AddTeammates';
 import Icon from "../atoms/Icon";
@@ -34,7 +33,7 @@ import {
   registerEvent,
   unregisterEvent
 } from "../../store/eventParticipants/actions";
-import { deleteTeam } from "../../store/participantTeams/actions"
+import { deleteTeam } from "../../store/participantTeams/actions";
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 
 const HackathonSingle = ({ isSideBarOpen }) => {
@@ -57,7 +56,6 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const createdTeam = teams.find(t => t.team_lead === userId);
   const [data, loading] = useEvent(id);
 
-
   // Filter out event by URL param & grab user ID
   const [
     {
@@ -75,7 +73,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
       organizer_profile_pic,
       rubrics
     }
-  ] = data ?.body || [
+  ] = data?.body || [
     {
       creator_id: 0,
       event_title: "",
@@ -99,7 +97,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
 
   useEffect(() => {
     isRegistered = participants.find(userCallback) || isTeamLead;
-  }, [participants])
+  }, [participants]);
 
   // Redacting user emails before rendering
   let redactedEmail = organizer_email.split("");
@@ -123,10 +121,10 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     e.preventDefault();
     if (isRegistered) {
       dispatch(unregisterEvent(id, history));
-      window.location.reload(true)
+      window.location.reload(true);
     } else {
       dispatch(registerEvent(id, history));
-      window.location.reload(true)
+      window.location.reload(true);
     }
     return fetchParticipants();
   };
@@ -136,11 +134,11 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     if (isRegistered) {
       const myTeam = teams.find(t => t.team_lead === isRegistered.user_id);
       const myTeamId = isRegistered.id || myTeam.id;
-      dispatch(deleteTeam(myTeamId))
+      dispatch(deleteTeam(myTeamId));
       dispatch(unregisterEvent(id));
-      await fetchParticipants()
+      await fetchParticipants();
       isRegistered = participants.find(userCallback) || isTeamLead;
-      await window.location.reload(true)
+      await window.location.reload(true);
     } else {
       setRegisterTeam(true);
     }
@@ -195,7 +193,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
                       return <PTags key={index}>{tagged}</PTags>;
                     })
                   ) : (
-                    <StyledParagraph>No tags provided for this event</StyledParagraph>
+                    <StyledParagraph>
+                      No tags provided for this event
+                    </StyledParagraph>
                   )}
                 </TagsGroup>
               </EventCardLeftColumn>
