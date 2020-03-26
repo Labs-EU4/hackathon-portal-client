@@ -96,6 +96,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
 
   useEffect(() => {
     isRegistered = participants.find(userCallback) || isTeamLead;
+    console.log(`isRegistered in useEffect`, isRegistered)
   }, [participants])
 
   // Redacting user emails before rendering
@@ -128,14 +129,16 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     return fetchParticipants();
   };
 
-  const handleTeamRegistration = e => {
+  const handleTeamRegistration = async e => {
     e.preventDefault();
     if (isRegistered) {
       const myTeam = teams.find(t => t.team_lead === isRegistered.user_id);
       const myTeamId = isRegistered.id || myTeam.id;
       dispatch(deleteTeam(myTeamId))
       dispatch(unregisterEvent(id));
-      window.location.reload(true)
+      await fetchParticipants()
+      isRegistered = participants.find(userCallback) || isTeamLead;
+      await window.location.reload(true)
     } else {
       setRegisterTeam(true);
     }

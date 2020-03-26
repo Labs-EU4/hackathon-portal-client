@@ -30,14 +30,9 @@ export function* participantTeamSagas() {
 
 function* createTeamNameAsync({ payload, history }) {
   try {
-    console.log(`this is being called`, payload)
     const token = yield select(selectToken);
     const { eventId, team_name } = payload;
     const url = `/api/events/${eventId}/participant-teams`;
-    // axiosWithAuth(token).post(url, {
-    //   eventId: eventId,
-    //   team_name: team_name
-    // })
     const {
       data
     } = yield axiosWithAuth(token).post(
@@ -46,9 +41,7 @@ function* createTeamNameAsync({ payload, history }) {
         team_name: team_name
       }
     );
-    // console.log(`out`, data)
     if (data) {
-      // console.log(`in`, data)
       put(fetchTeams(eventId));
       return showSuccess(`😀 ${data.message}`);
     }
@@ -109,7 +102,6 @@ function* watchFetchTeamMateAsync() {
 function* addParticipantTeamMemberAsync({ payload, history }) {
   try {
     const { team_id, team_member, eventId } = payload;
-    debugger;
     const token = yield select(selectToken);
     const { data } = yield axiosWithAuth(token).post(
       `/api/events/participant-teams/${team_id}`,
@@ -155,7 +147,6 @@ function* watchSendParticipantInvite() {
 
 function* deleteTeamAsync({ payload }) {
   try {
-    debugger;
     const token = yield select(selectToken);
     const { data } = yield axiosWithAuth(token).delete(`/api/events/participant-teams/${payload}`);
     yield showSuccess(`😲 ${data.message}`);
