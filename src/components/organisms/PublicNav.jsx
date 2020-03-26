@@ -20,9 +20,10 @@ const PublicNav = () => {
   return (
     <StyledPublicNav>
       {userId ? (
-        <StyledButton data-testid="label" color="grey" onClick={handleLogOut}>
-          Log Out
-        </StyledButton>
+        <StyledButton 
+          data-testid="label" 
+          onClick={handleLogOut}
+        >Log Out</StyledButton>
       ) : (
         <>
           <Button
@@ -55,8 +56,9 @@ const StyledPublicNav = styled.div`
   }
 `;
 
-const StyledButton = styled(Button)`
-  background-color: transparent;
-  border: 3px solid rgba(14, 19, 24, 0.15);
+const StyledButton = styled.button`
+  background-color: rgba(0, 0, 0, .5);
+  border: 3px solid rgb(0, 255, 70);
   transition: background-color 0.1s ease;
+  color: rgb(0, 255, 70);
 `;
