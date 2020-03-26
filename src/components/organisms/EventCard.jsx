@@ -35,8 +35,7 @@ const EventCard = ({ event }) => {
     organizer_profile_pic,
     location,
     join,
-    registered,
-    StyledParagraph
+    registered
   } = event;
   const { pathname } = useLocation();
   const letter = organizer_name && organizer_name.split("")[0];
