@@ -67,5 +67,6 @@ export const HackathonCard = styled.div`
 
 export const StyledH4 = styled(H4)`
   margin: 70px auto;
+  font-size: 14px;
   color: rgb(0, 255, 70);
 `;
