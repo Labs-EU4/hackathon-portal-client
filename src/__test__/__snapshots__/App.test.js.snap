@@ -15,11 +15,17 @@ Object {
             class="sc-iwsKbI kBaOMJ"
             href="/"
           >
-            <img
-              alt="Hackton - Organise hackathons"
-              class="sc-bxivhb dgmpTs"
-              src="Hackton-logo.png"
-            />
+            <div
+              class="sc-bxivhb kHPgjC"
+            >
+              <img
+                alt="Hackton - Organise hackathons"
+                src="icon_hacker.png"
+              />
+              <span>
+                HackHunt
+              </span>
+            </div>
           </a>
           <div
             class="sc-dnqmqq hfyiJR"
@@ -48,11 +54,17 @@ Object {
               <div
                 class="sc-hzNEM gHyoKp"
               >
-                <img
-                  alt="Hackton - Organise hackathons"
-                  class="sc-bxivhb iodOcG"
-                  src="Hackton-logo.png"
-                />
+                <div
+                  class="sc-bxivhb fMAdVS"
+                >
+                  <img
+                    alt="Hackton - Organise hackathons"
+                    src="icon_hacker.png"
+                  />
+                  <span>
+                    HackHunt
+                  </span>
+                </div>
                 <div
                   class="sc-chbbiW emSmVq"
                 >
@@ -892,11 +904,17 @@ Object {
           class="sc-iwsKbI kBaOMJ"
           href="/"
         >
-          <img
-            alt="Hackton - Organise hackathons"
-            class="sc-bxivhb dgmpTs"
-            src="Hackton-logo.png"
-          />
+          <div
+            class="sc-bxivhb kHPgjC"
+          >
+            <img
+              alt="Hackton - Organise hackathons"
+              src="icon_hacker.png"
+            />
+            <span>
+              HackHunt
+            </span>
+          </div>
         </a>
         <div
           class="sc-dnqmqq hfyiJR"
@@ -925,11 +943,17 @@ Object {
             <div
               class="sc-hzNEM gHyoKp"
             >
-              <img
-                alt="Hackton - Organise hackathons"
-                class="sc-bxivhb iodOcG"
-                src="Hackton-logo.png"
-              />
+              <div
+                class="sc-bxivhb fMAdVS"
+              >
+                <img
+                  alt="Hackton - Organise hackathons"
+                  src="icon_hacker.png"
+                />
+                <span>
+                  HackHunt
+                </span>
+              </div>
               <div
                 class="sc-chbbiW emSmVq"
               >
