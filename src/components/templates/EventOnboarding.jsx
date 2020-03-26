@@ -13,7 +13,7 @@ import {
   StyledH4
 } from "../../assets/styles/templates/UserEventsDashboardStyling";
 import EventCard from "../organisms/EventCard";
-
+import image from "../../assets/images/anon.png";
 const EventOnboarding = ({ eventModalHandler }) => {
   const events = useSelector(state => state.events.data);
   const { userId } = useSelector(state => state.currentUser);
