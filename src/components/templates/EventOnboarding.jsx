@@ -75,7 +75,6 @@ const EventOnboarding = ({ eventModalHandler }) => {
   const createMarker = (lati, long) => {
     const marker = new window.google.maps.Marker({
       position: { lat: lati, lng: long },
-      label: "You",
       icon: image
     });
     marker.setMap(createGoogleMap);
