@@ -91,7 +91,8 @@ export const StyledNavLink = styled(NavLink)`
   border-radius: 6px;
   margin-bottom: 10px; padding: 12px 0 8px 5px;
   color: ${props => props.theme.color.white.regular};
-  font-weight: 600;
+  font-weight: 600; font-size: 15px;
+  word-spacing: 2px;
   text-decoration: none; text-align: left;
   transition: box-shadow 0.2s ease;
   white-space: nowrap;
