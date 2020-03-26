@@ -58,6 +58,7 @@ export const StyledSectionTitle = styled.h2`
   border: 2px solid ${props => props.theme.color.primary.regular};
   border-left: none;
   border-bottom: none;
+  font-size: 19px;
   color: ${props => props.theme.color.primary.regular};
 
   ${({ gap }) => gap === true && `margin-left: 10px;`}

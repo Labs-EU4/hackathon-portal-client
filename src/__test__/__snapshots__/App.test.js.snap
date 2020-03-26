@@ -710,7 +710,7 @@ Object {
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-user-circle fa-w-16 sc-jlyJG bEcFYf sc-fAjcbJ bvIPEx"
+                class="svg-inline--fa fa-user-circle fa-w-16 sc-jlyJG bEcFYf sc-fAjcbJ bgZvyl"
                 data-icon="user-circle"
                 data-prefix="fas"
                 focusable="false"
@@ -1587,7 +1587,7 @@ Object {
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-user-circle fa-w-16 sc-jlyJG bEcFYf sc-fAjcbJ bvIPEx"
+              class="svg-inline--fa fa-user-circle fa-w-16 sc-jlyJG bEcFYf sc-fAjcbJ bgZvyl"
               data-icon="user-circle"
               data-prefix="fas"
               focusable="false"
