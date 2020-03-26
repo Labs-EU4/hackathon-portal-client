@@ -1,0 +1,1404 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Asserts that the text nodes on HackathonProjectPage.js render properly  asserts that the component renders properly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bwzfXH sc-dnqmqq jcpnhh"
+      >
+        <div
+          class="sc-iwsKbI edaWlc"
+        >
+          <div
+            class="sc-ckVGcZ gGJNfM"
+          >
+            <h3
+              class="sc-gzVnrw sc-dxgOiQ cEmOX"
+            >
+              Submitted project for 
+              <strong
+                class="sc-gqjmRU cXIDrc"
+              >
+                "
+                EuroHack
+                "
+              </strong>
+            </h3>
+          </div>
+          <div
+            class="sc-jTzLTM gQVLQJ"
+          >
+            <div
+              class="sc-gZMcBi bIflWn"
+            >
+              <h3
+                class="sc-gzVnrw sc-dxgOiQ cEmOX"
+              />
+            </div>
+            <div
+              class="sc-VigVT HWsmo"
+              id="project_writeup"
+            >
+              <p
+                class="sc-bdVaJa sc-kgoBCf cCMiBh"
+              />
+              <div
+                class="sc-fjdhpX hROMGY"
+              />
+            </div>
+            <div
+              class="sc-chPdSV dMTXjy"
+            >
+              <div
+                class="sc-jzJRlG jslVBz"
+                id="rubrics"
+              >
+                <div
+                  class="sc-cSHVUG gpaESn"
+                >
+                  Presentation
+                  <span
+                    style="display: inline-block; direction: ltr;"
+                  >
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Presentation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Presentation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Presentation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Presentation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Presentation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Presentation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Presentation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Presentation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Presentation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Presentation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="sc-cSHVUG gpaESn"
+                >
+                  Product Fit
+                  <span
+                    style="display: inline-block; direction: ltr;"
+                  >
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Fit"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Fit"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Fit"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Fit"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Fit"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Fit"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Fit"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Fit"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Fit"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Fit"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="sc-cSHVUG gpaESn"
+                >
+                  Functionality
+                  <span
+                    style="display: inline-block; direction: ltr;"
+                  >
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Functionality"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Functionality"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Functionality"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Functionality"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Functionality"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Functionality"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Functionality"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Functionality"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Functionality"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Functionality"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="sc-cSHVUG gpaESn"
+                >
+                  Innovation
+                  <span
+                    style="display: inline-block; direction: ltr;"
+                  >
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Innovation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Innovation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Innovation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Innovation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Innovation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Innovation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Innovation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Innovation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Innovation"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Innovation"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="sc-cSHVUG gpaESn"
+                >
+                  Product Design
+                  <span
+                    style="display: inline-block; direction: ltr;"
+                  >
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Design"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Design"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Design"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Design"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Design"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Design"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Design"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Design"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Product Design"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Product Design"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="sc-cSHVUG gpaESn"
+                >
+                  Extensibility
+                  <span
+                    style="display: inline-block; direction: ltr;"
+                  >
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Extensibility"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Extensibility"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Extensibility"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Extensibility"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Extensibility"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Extensibility"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Extensibility"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Extensibility"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                    <span
+                      style="cursor: inherit; display: inline-block; position: relative;"
+                    >
+                      <span>
+                        <img
+                          alt="Extensibility"
+                          src="star-hollow.png"
+                        />
+                      </span>
+                      <span
+                        style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                      >
+                        <img
+                          alt="Extensibility"
+                          src="star-full.png"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <label
+                class="sc-jKJlTe fhuaDH"
+                for="feedback"
+              >
+                Feedback
+              </label>
+              <p
+                class="sc-bdVaJa sc-kgoBCf cCMiBh"
+              >
+                No comments on this project
+              </p>
+            </div>
+          </div>
+          <div
+            class="sc-kGXeez dRYBrJ"
+          >
+            <button
+              class="sc-htpNat imkIBZ"
+              color="grey"
+            >
+              Back to projects
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bwzfXH sc-dnqmqq jcpnhh"
+    >
+      <div
+        class="sc-iwsKbI edaWlc"
+      >
+        <div
+          class="sc-ckVGcZ gGJNfM"
+        >
+          <h3
+            class="sc-gzVnrw sc-dxgOiQ cEmOX"
+          >
+            Submitted project for 
+            <strong
+              class="sc-gqjmRU cXIDrc"
+            >
+              "
+              EuroHack
+              "
+            </strong>
+          </h3>
+        </div>
+        <div
+          class="sc-jTzLTM gQVLQJ"
+        >
+          <div
+            class="sc-gZMcBi bIflWn"
+          >
+            <h3
+              class="sc-gzVnrw sc-dxgOiQ cEmOX"
+            />
+          </div>
+          <div
+            class="sc-VigVT HWsmo"
+            id="project_writeup"
+          >
+            <p
+              class="sc-bdVaJa sc-kgoBCf cCMiBh"
+            />
+            <div
+              class="sc-fjdhpX hROMGY"
+            />
+          </div>
+          <div
+            class="sc-chPdSV dMTXjy"
+          >
+            <div
+              class="sc-jzJRlG jslVBz"
+              id="rubrics"
+            >
+              <div
+                class="sc-cSHVUG gpaESn"
+              >
+                Presentation
+                <span
+                  style="display: inline-block; direction: ltr;"
+                >
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Presentation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Presentation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Presentation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Presentation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Presentation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Presentation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Presentation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Presentation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Presentation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Presentation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div
+                class="sc-cSHVUG gpaESn"
+              >
+                Product Fit
+                <span
+                  style="display: inline-block; direction: ltr;"
+                >
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Fit"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Fit"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Fit"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Fit"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Fit"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Fit"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Fit"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Fit"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Fit"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Fit"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div
+                class="sc-cSHVUG gpaESn"
+              >
+                Functionality
+                <span
+                  style="display: inline-block; direction: ltr;"
+                >
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Functionality"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Functionality"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Functionality"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Functionality"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Functionality"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Functionality"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Functionality"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Functionality"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Functionality"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Functionality"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div
+                class="sc-cSHVUG gpaESn"
+              >
+                Innovation
+                <span
+                  style="display: inline-block; direction: ltr;"
+                >
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Innovation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Innovation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Innovation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Innovation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Innovation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Innovation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Innovation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Innovation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Innovation"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Innovation"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div
+                class="sc-cSHVUG gpaESn"
+              >
+                Product Design
+                <span
+                  style="display: inline-block; direction: ltr;"
+                >
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Design"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Design"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Design"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Design"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Design"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Design"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Design"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Design"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Product Design"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Product Design"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                </span>
+              </div>
+              <div
+                class="sc-cSHVUG gpaESn"
+              >
+                Extensibility
+                <span
+                  style="display: inline-block; direction: ltr;"
+                >
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Extensibility"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Extensibility"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Extensibility"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Extensibility"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Extensibility"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Extensibility"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Extensibility"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Extensibility"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                  <span
+                    style="cursor: inherit; display: inline-block; position: relative;"
+                  >
+                    <span>
+                      <img
+                        alt="Extensibility"
+                        src="star-hollow.png"
+                      />
+                    </span>
+                    <span
+                      style="display: inline-block; position: absolute; overflow: hidden; top: 0px; left: 0px; width: 0%;"
+                    >
+                      <img
+                        alt="Extensibility"
+                        src="star-full.png"
+                      />
+                    </span>
+                  </span>
+                </span>
+              </div>
+            </div>
+            <label
+              class="sc-jKJlTe fhuaDH"
+              for="feedback"
+            >
+              Feedback
+            </label>
+            <p
+              class="sc-bdVaJa sc-kgoBCf cCMiBh"
+            >
+              No comments on this project
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-kGXeez dRYBrJ"
+        >
+          <button
+            class="sc-htpNat imkIBZ"
+            color="grey"
+          >
+            Back to projects
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

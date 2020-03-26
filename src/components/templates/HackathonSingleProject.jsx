@@ -20,7 +20,7 @@ import {
   StyledButton,
   StyledH3
 } from "../../assets/styles/templates/HackthonSingleProjectStyling";
-import { H3, H4 } from "../../assets/styles/atoms/HeadingStyling";
+import { H4 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 import Button from "../atoms/Button";
