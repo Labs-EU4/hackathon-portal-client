@@ -23,55 +23,61 @@ import transparencyImg from '../../assets/images/transparency.png';
 const teamMembers = [
     {
         name: "Anthony Campbell",
-        role: "Team Leader",
+        role: "Team Lead",
         about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        imgUrl: "https://avatars3.githubusercontent.com/u/45029641?s=400&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/AnthonyJCampbell",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
+        name: "Abdel Idir",
+        role: "FullStack Software Developer",
         about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        imgUrl: "https://avatars0.githubusercontent.com/u/53605229?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/AbdelIdir",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
+        name: "Karim Bertacche",
+        role: "FullStack Software Developer",
         about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        imgUrl: "https://avatars3.githubusercontent.com/u/49835145?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/KarimBertacche",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
+        name: "John Afolabi",
+        role: "FullStack Software Developer",
         about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        imgUrl: "https://avatars3.githubusercontent.com/u/19263499?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/john-afolabi",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
+        name: "Emma Andrews",
+        role: "FullStack Software Developer",
         about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        imgUrl: "https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c",
+        identifier: "",
+        gitHubHandle: "https://github.com/ELAndrews",
         linkednHandle: "",
         other: ""
     },
     {
-        name: "",
-        role: "",
+        name: "Ekanem David",
+        role: "FullStack Software Developer",
         about: "",
-        imgUrl: "",
-        gitHubHandle: "",
+        imgUrl: "https://avatars2.githubusercontent.com/u/38921132?s=460&v=4",
+        identifier: "",
+        gitHubHandle: "https://github.com/dueka",
         linkednHandle: "",
         other: ""
     }
@@ -120,7 +126,7 @@ const AboutPage = () => {
                     {
                         teamMembers.map((star, index) => {
                             return (
-                                <StarCard key={index}/>
+                                <StarCard key={index} {...{star}} />
                             );
                         })
                     }
@@ -132,10 +138,11 @@ const AboutPage = () => {
 
 export default AboutPage;
 
-const StarCard = props => {
+const StarCard = ({ star }) => {
+    const { imgUrl, identifier } = star;
     return (
         <StyledCard>
-
+            <img src={imgUrl} alt={identifier} />
         </StyledCard>
     );
 };

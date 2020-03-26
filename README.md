@@ -144,7 +144,7 @@ Remember that this project is licensed under the MIT license, and by submitting 
 
 <br>
 
-|[Emma Andrews](https://github.com/ELAndrews)     | [John Afolabi](https://github.com/john-afolabi) |  [Karim Bertacche](https://github.com/john-afolabi)|  
+|[Emma Andrews](https://github.com/ELAndrews)     | [John Afolabi](https://github.com/john-afolabi) |  [Karim Bertacche](https://github.com/KarimBertacche)|  
 | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
 | [<img src="https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c" width = "200" />](https://github.com/ELAndrews) | [<img src="https://avatars3.githubusercontent.com/u/19263499?s=460&v=4" width = "200" />](https://github.com/john-afolabi) | [<img src="https://avatars3.githubusercontent.com/u/49835145?s=460&v=4" width = "200" />](https://github.com/KarimBertacche) |
 | Dev | Dev | Dev |
