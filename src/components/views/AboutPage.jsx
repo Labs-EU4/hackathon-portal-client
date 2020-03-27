@@ -35,17 +35,7 @@ const teamMembers = [
     linkednHandle: "",
     other: ""
   },
-  {
-    fullName: "Abdel Idir",
-    role: "FullStack Software Developer",
-    bio: "",
-    imgUrl:
-      "https://avatars1.githubusercontent.com/u/53605229?s=460&u=888a4197f52e98323961917271dab8b0e501d1b3&v=4",
-    identifier: "",
-    gitHubHandle: "https://github.com/AbdelIdir",
-    linkednHandle: "",
-    other: ""
-  },
+
   {
     fullName: "Karim Bertacche",
     role: "FullStack Software Developer",
@@ -170,7 +160,7 @@ const StarCard = ({ star }) => {
         <a href={gitHubHandle} target="_blank" rel="noopener noreferrer">
           <StyledIcon icon={["fab", "github"]} />
         </a>
-        <a href={linkednHandle} target="_blank"  rel="noopener noreferrer">
+        <a href={linkednHandle} target="_blank" rel="noopener noreferrer">
           <StyledIcon icon={["fab", "linkedin"]} />
         </a>
       </StarHandles>
