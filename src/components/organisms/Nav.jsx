@@ -19,7 +19,7 @@ import Icon from "../atoms/Icon";
 const items = [
   {
     title: "Home",
-    url: "/",
+    url: "/home",
     icon: "home"
   },
   {
