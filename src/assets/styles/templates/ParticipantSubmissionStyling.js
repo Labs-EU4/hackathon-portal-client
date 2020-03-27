@@ -1,6 +1,9 @@
+import styled from "styled-components";
 
 import { WideBody } from "../atoms/WideBodyStyling";
-import styled from "styled-components";
+import { H3 } from "../atoms/HeadingStyling";
+import { Label } from "../atoms/LabelStyling";
+import { Paragraph } from "../atoms/ParagraphStyling";
 
 export const StyledWideBody = styled(WideBody)`
   ${props => props.theme.flex.center};
@@ -12,4 +15,22 @@ export const StyledWideBody = styled(WideBody)`
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 300;
+`;
+
+export const StyledH3 = styled(H3)`
+  color: rgb(0, 255, 70);
+`;
+
+export const StyledLabel = styled(Label)`
+  color: rgb(0, 255, 70);
+`;
+
+export const StyledParagraph = styled(Paragraph)`
+  letter-spacing: .9px;
+  color: white; 
+
+  span {
+    font-weight: bold;
+    color: rgb(0, 255, 70);
+  }
 `;
