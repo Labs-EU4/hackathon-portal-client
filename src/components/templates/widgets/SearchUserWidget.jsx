@@ -81,9 +81,9 @@ export const SearchUserWidget = props => {
             color="grey" 
             size="half" 
             onClick={handleExit}
-          >Back to event</Button>
+          >Back to Team</Button>
           <Button 
-            color="green" 
+            color="primary-reverse" 
             size="half" 
             onClick={handleSubmit}
           >Add Teammate</Button>
