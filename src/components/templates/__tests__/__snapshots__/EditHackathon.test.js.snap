@@ -125,7 +125,7 @@ Object {
                 <input
                   class="sc-kpOJdX kNgdmG"
                   id="start_date"
-                  min="2020-03-26"
+                  min="2020-03-27"
                   name="start_date"
                   placeholder="Event starts"
                   type="date"
@@ -173,11 +173,11 @@ Object {
                 <input
                   class="sc-kpOJdX kNgdmG"
                   id="start_time"
-                  min="2020-03-26"
+                  min="2020-03-27"
                   name="start_time"
                   placeholder="Start Time"
                   type="time"
-                  value="2020-03-26"
+                  value="2020-03-27"
                 />
                 <span
                   class="sc-hMqMXs sc-hSdWYo lfRhmD"
@@ -199,7 +199,7 @@ Object {
                   name="end_time"
                   placeholder="End Time"
                   type="time"
-                  value="2020-03-26"
+                  value="2020-03-27"
                 />
                 <span
                   class="sc-hMqMXs sc-hSdWYo lfRhmD"
@@ -626,7 +626,7 @@ Object {
               class="sc-kAzzGY hgOXzd"
             />
             <button
-              class="sc-bdVaJa gsAaSv sc-jTzLTM jRmNoc"
+              class="sc-bdVaJa EWtho sc-jTzLTM jRmNoc"
               color="primary-reverse"
               type="submit"
             >
@@ -758,7 +758,7 @@ Object {
               <input
                 class="sc-kpOJdX kNgdmG"
                 id="start_date"
-                min="2020-03-26"
+                min="2020-03-27"
                 name="start_date"
                 placeholder="Event starts"
                 type="date"
@@ -806,11 +806,11 @@ Object {
               <input
                 class="sc-kpOJdX kNgdmG"
                 id="start_time"
-                min="2020-03-26"
+                min="2020-03-27"
                 name="start_time"
                 placeholder="Start Time"
                 type="time"
-                value="2020-03-26"
+                value="2020-03-27"
               />
               <span
                 class="sc-hMqMXs sc-hSdWYo lfRhmD"
@@ -832,7 +832,7 @@ Object {
                 name="end_time"
                 placeholder="End Time"
                 type="time"
-                value="2020-03-26"
+                value="2020-03-27"
               />
               <span
                 class="sc-hMqMXs sc-hSdWYo lfRhmD"
@@ -1259,7 +1259,7 @@ Object {
             class="sc-kAzzGY hgOXzd"
           />
           <button
-            class="sc-bdVaJa gsAaSv sc-jTzLTM jRmNoc"
+            class="sc-bdVaJa EWtho sc-jTzLTM jRmNoc"
             color="primary-reverse"
             type="submit"
           >

@@ -62,13 +62,13 @@ Object {
                 class="sc-hSdWYo jmVvws"
               >
                 <button
-                  class="sc-kEYyzF dWOiaL"
+                  class="sc-kEYyzF bxtLsh"
                   color="grey"
                 >
                   Back
                 </button>
                 <button
-                  class="sc-kEYyzF fOTdJW"
+                  class="sc-kEYyzF eVTWSs"
                   color="primary-reverse"
                 >
                   Add Judge
@@ -138,13 +138,13 @@ Object {
               class="sc-hSdWYo jmVvws"
             >
               <button
-                class="sc-kEYyzF dWOiaL"
+                class="sc-kEYyzF bxtLsh"
                 color="grey"
               >
                 Back
               </button>
               <button
-                class="sc-kEYyzF fOTdJW"
+                class="sc-kEYyzF eVTWSs"
                 color="primary-reverse"
               >
                 Add Judge

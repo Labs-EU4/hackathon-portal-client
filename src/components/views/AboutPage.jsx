@@ -7,7 +7,7 @@ import {
   MainContent,
   SectionTitle,
   TeamContainer,
-  Paragraph,
+  StyledParagraph,
   FeaturesContainer,
   FeatureBox,
   FeatureTitle,
@@ -69,7 +69,7 @@ const teamMembers = [
   {
     fullName: "Emma Andrews",
     role: "FullStack Software Developer",
-    bio: "Our favourite grumpy, old lady 👵🏻",
+    bio: "",
     imgUrl:
       "https://media-exp1.licdn.com/dms/image/C5603AQFRpv9tGUnasQ/profile-displayphoto-shrink_200_200/0?e=1587600000&v=beta&t=mN_NQjxyyVHRDkl0n-OpMoXj1qkYcuYGB5rQIPTBx7c",
     identifier: "",
@@ -103,10 +103,10 @@ const AboutPage = () => {
           Why HackHunt?
           <hr />
         </SectionTitle>
-        <Paragraph>
+        <StyledParagraph>
           We have great features that will make participating to hackathons fun
           again
-        </Paragraph>
+        </StyledParagraph>
         <FeaturesContainer>
           <FeatureBox>
             <img src={transparencyImg} alt="transparency" />

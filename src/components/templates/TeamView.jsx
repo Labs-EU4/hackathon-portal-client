@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import {
   TeamsContainer,
   FancyBoldSpan,
-  StyledLetterIcon,
   NormalSpan,
   DivWrapper,
   ImgTeammates,
   TeamMemberImg,
-  BtnContainer
+  BtnContainer,
+  FancierBoldSpan
 } from "../../assets/styles/templates/TeamViewStyling";
 
 import Button from "../atoms/Button";
@@ -34,7 +34,6 @@ const TeamView = ({ team, addTeamMemberHandler, setRegisterTeam }) => {
 
   return (
     <TeamsContainer>
-      <StyledLetterIcon icon="">{initial}</StyledLetterIcon>
       <FancyBoldSpan>Your Team</FancyBoldSpan>
       <FancyBoldSpan>
         Team Name:
@@ -66,7 +65,7 @@ const TeamView = ({ team, addTeamMemberHandler, setRegisterTeam }) => {
           )}
         </DivWrapper>
       ) : (
-        <FancyBoldSpan>This team has no members</FancyBoldSpan>
+        <FancierBoldSpan>This team has no members</FancierBoldSpan>
       )}
       <FancyBoldSpan>
         Hackathon Name:
@@ -77,7 +76,7 @@ const TeamView = ({ team, addTeamMemberHandler, setRegisterTeam }) => {
           Back to event
         </Button>
         <Button
-          color="green"
+          color="primary-reverse"
           size="half"
           onClick={() => addTeamMemberHandler(true, team.id)}
         >

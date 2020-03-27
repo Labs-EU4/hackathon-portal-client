@@ -3,17 +3,19 @@ import { useParams, useHistory } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { StyledWideBody } from "../../assets/styles/templates/ParticipantSubmissionStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
+import { 
+  StyledWideBody,
+  StyledH3,
+  StyledLabel
+} from "../../assets/styles/templates/ParticipantSubmissionStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { CardForm } from "../../assets/styles/atoms/CardStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
-import { Label } from "../../assets/styles/atoms/LabelStyling";
 import Input from "../atoms/Input";
 import {
   fetchAllSubmissions,
-  submitProject
+  submitProject,
 } from "../../store/projectSubmission/actions";
 import ProjectTitle from "../organisms/PSProjectTitle";
 import ProjectWriteUp from "../organisms/PSProjectWriteUp";
@@ -65,7 +67,7 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
     <StyledWideBody>
       <CardForm>
         <RowHead>
-          <H3>Submit Project</H3>
+          <StyledH3>Submit Project</StyledH3>
         </RowHead>
         <Formik
           onSubmit={handleSubmit}
@@ -78,7 +80,7 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
               <ProjectTitle currentEvent={currentEvent} />
               {requireGithubUrl && (
                 <RowBody justify="start">
-                  <Label htmlFor="git_url">GitHub URL</Label>
+                  <StyledLabel htmlFor="git_url">GitHub URL</StyledLabel>
                   <Input
                     type="text"
                     name="git_url"
@@ -92,7 +94,7 @@ const ParticipantSubmission = ({ initialState = defaultState }) => {
               )}
               {requireVideoUrl && (
                 <RowBody justify="start">
-                  <Label htmlFor="video_url">Video URL</Label>
+                  <StyledLabel htmlFor="video_url">Video URL</StyledLabel>
                   <Input
                     type="text"
                     name="video_url"

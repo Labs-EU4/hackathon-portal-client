@@ -6,16 +6,16 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-bdVaJa sc-bwzfXH eFpfyX"
+        class="sc-bdVaJa sc-gzVnrw hSTCgx"
       >
         <div
-          class="sc-htoDjs sc-iwsKbI pBoEh"
+          class="sc-VigVT sc-fjdhpX iEvlJC"
         >
           <div
-            class="sc-bZQynM ehIAPt"
+            class="sc-gZMcBi cLoBhv"
           >
             <h3
-              class="sc-ifAKCX bZCfiG"
+              class="sc-bxivhb sc-htoDjs eNSKRV"
             >
               Submit Project
             </h3>
@@ -24,33 +24,33 @@ Object {
             action="#"
           >
             <div
-              class="sc-gzVnrw cguHsh"
+              class="sc-gqjmRU jROcSr"
             >
               <p
-                class="sc-chPdSV iiIPnr"
+                class="sc-bZQynM sc-iwsKbI qxosI"
               >
                 You are making a submission for the
                  
-                <strong>
+                <span>
                   EuroHack
-                </strong>
+                </span>
                 . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
               </p>
             </div>
             <div
-              class="sc-gzVnrw cguHsh"
+              class="sc-gqjmRU jROcSr"
             >
               <div
-                class="sc-kAzzGY jBHymL"
+                class="sc-kpOJdX lbgBPl"
               >
                 <label
-                  class="sc-jzJRlG tkWug"
+                  class="sc-EHOje sc-dnqmqq bbxlGJ"
                   for="project_title"
                 >
                   Project Title
                 </label>
                 <input
-                  class="sc-cSHVUG kikqQz"
+                  class="sc-kGXeez kaHXAQ"
                   display="wide"
                   id="project_title"
                   name="project_title"
@@ -58,20 +58,20 @@ Object {
                   value=""
                 />
                 <span
-                  class="sc-gZMcBi sc-fjdhpX brTRfi"
+                  class="sc-jzJRlG sc-kgoBCf fMTEwa"
                 />
               </div>
               <div
-                class="sc-kAzzGY jBHymL"
+                class="sc-kpOJdX lbgBPl"
               >
                 <label
-                  class="sc-jzJRlG tkWug"
+                  class="sc-EHOje sc-dnqmqq bbxlGJ"
                   for="participant_or_team_nam"
                 >
                   Team/Participant name
                 </label>
                 <input
-                  class="sc-cSHVUG kikqQz"
+                  class="sc-kGXeez kaHXAQ"
                   display="wide"
                   id="participant_or_team_name"
                   name="participant_or_team_name"
@@ -79,21 +79,21 @@ Object {
                   value=""
                 />
                 <span
-                  class="sc-gZMcBi sc-fjdhpX brTRfi"
+                  class="sc-jzJRlG sc-kgoBCf fMTEwa"
                 />
               </div>
             </div>
             <div
-              class="sc-gzVnrw dOWIJD"
+              class="sc-gqjmRU iLHELb"
             >
               <label
-                class="sc-jzJRlG tkWug"
+                class="sc-EHOje sc-dnqmqq bbxlGJ"
                 for="project_writeups"
               >
                 Project Writeup
               </label>
               <div
-                class="sc-dxgOiQ kWrCYP"
+                class="sc-eNQAEJ kNxMQK"
               >
                 <textarea
                   id="project_writeups"
@@ -102,22 +102,22 @@ Object {
                 />
               </div>
               <span
-                class="sc-gZMcBi sc-fjdhpX brTRfi"
+                class="sc-jzJRlG sc-kgoBCf fMTEwa"
               />
             </div>
             <div
-              class="sc-gzVnrw cguHsh"
+              class="sc-gqjmRU jROcSr"
             >
               <a
-                class="sc-kGXeez jtSEbC"
+                class="sc-ckVGcZ cKCIQs"
                 color="grey"
                 href="/dashboard"
               >
                 Cancel
               </a>
               <button
-                class="sc-kgoBCf kUHBth"
-                color="green"
+                class="sc-dxgOiQ kvsFDA"
+                color="primary-reverse"
                 type="submit"
               >
                 Submit
@@ -130,16 +130,16 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-bdVaJa sc-bwzfXH eFpfyX"
+      class="sc-bdVaJa sc-gzVnrw hSTCgx"
     >
       <div
-        class="sc-htoDjs sc-iwsKbI pBoEh"
+        class="sc-VigVT sc-fjdhpX iEvlJC"
       >
         <div
-          class="sc-bZQynM ehIAPt"
+          class="sc-gZMcBi cLoBhv"
         >
           <h3
-            class="sc-ifAKCX bZCfiG"
+            class="sc-bxivhb sc-htoDjs eNSKRV"
           >
             Submit Project
           </h3>
@@ -148,33 +148,33 @@ Object {
           action="#"
         >
           <div
-            class="sc-gzVnrw cguHsh"
+            class="sc-gqjmRU jROcSr"
           >
             <p
-              class="sc-chPdSV iiIPnr"
+              class="sc-bZQynM sc-iwsKbI qxosI"
             >
               You are making a submission for the
                
-              <strong>
+              <span>
                 EuroHack
-              </strong>
+              </span>
               . Please ensure you have read the event guidelines and have gone through the grading rubrics for this event before you make your submission.
             </p>
           </div>
           <div
-            class="sc-gzVnrw cguHsh"
+            class="sc-gqjmRU jROcSr"
           >
             <div
-              class="sc-kAzzGY jBHymL"
+              class="sc-kpOJdX lbgBPl"
             >
               <label
-                class="sc-jzJRlG tkWug"
+                class="sc-EHOje sc-dnqmqq bbxlGJ"
                 for="project_title"
               >
                 Project Title
               </label>
               <input
-                class="sc-cSHVUG kikqQz"
+                class="sc-kGXeez kaHXAQ"
                 display="wide"
                 id="project_title"
                 name="project_title"
@@ -182,20 +182,20 @@ Object {
                 value=""
               />
               <span
-                class="sc-gZMcBi sc-fjdhpX brTRfi"
+                class="sc-jzJRlG sc-kgoBCf fMTEwa"
               />
             </div>
             <div
-              class="sc-kAzzGY jBHymL"
+              class="sc-kpOJdX lbgBPl"
             >
               <label
-                class="sc-jzJRlG tkWug"
+                class="sc-EHOje sc-dnqmqq bbxlGJ"
                 for="participant_or_team_nam"
               >
                 Team/Participant name
               </label>
               <input
-                class="sc-cSHVUG kikqQz"
+                class="sc-kGXeez kaHXAQ"
                 display="wide"
                 id="participant_or_team_name"
                 name="participant_or_team_name"
@@ -203,21 +203,21 @@ Object {
                 value=""
               />
               <span
-                class="sc-gZMcBi sc-fjdhpX brTRfi"
+                class="sc-jzJRlG sc-kgoBCf fMTEwa"
               />
             </div>
           </div>
           <div
-            class="sc-gzVnrw dOWIJD"
+            class="sc-gqjmRU iLHELb"
           >
             <label
-              class="sc-jzJRlG tkWug"
+              class="sc-EHOje sc-dnqmqq bbxlGJ"
               for="project_writeups"
             >
               Project Writeup
             </label>
             <div
-              class="sc-dxgOiQ kWrCYP"
+              class="sc-eNQAEJ kNxMQK"
             >
               <textarea
                 id="project_writeups"
@@ -226,22 +226,22 @@ Object {
               />
             </div>
             <span
-              class="sc-gZMcBi sc-fjdhpX brTRfi"
+              class="sc-jzJRlG sc-kgoBCf fMTEwa"
             />
           </div>
           <div
-            class="sc-gzVnrw cguHsh"
+            class="sc-gqjmRU jROcSr"
           >
             <a
-              class="sc-kGXeez jtSEbC"
+              class="sc-ckVGcZ cKCIQs"
               color="grey"
               href="/dashboard"
             >
               Cancel
             </a>
             <button
-              class="sc-kgoBCf kUHBth"
-              color="green"
+              class="sc-dxgOiQ kvsFDA"
+              color="primary-reverse"
               type="submit"
             >
               Submit

@@ -18,7 +18,7 @@ Object {
               class="sc-eNQAEJ laqGSf"
             >
               <h3
-                class="sc-htoDjs cYreFW"
+                class="sc-htoDjs sc-jKJlTe kOnwlA"
               >
                 Add Teammates
               </h3>
@@ -61,14 +61,14 @@ Object {
                 class="sc-hSdWYo jmVvws"
               >
                 <button
-                  class="sc-kEYyzF dWOiaL"
+                  class="sc-kEYyzF bxtLsh"
                   color="grey"
                 >
-                  Back to event
+                  Back to Team
                 </button>
                 <button
-                  class="sc-kEYyzF hwDFEH"
-                  color="green"
+                  class="sc-kEYyzF eVTWSs"
+                  color="primary-reverse"
                 >
                   Add Teammate
                 </button>
@@ -93,7 +93,7 @@ Object {
             class="sc-eNQAEJ laqGSf"
           >
             <h3
-              class="sc-htoDjs cYreFW"
+              class="sc-htoDjs sc-jKJlTe kOnwlA"
             >
               Add Teammates
             </h3>
@@ -136,14 +136,14 @@ Object {
               class="sc-hSdWYo jmVvws"
             >
               <button
-                class="sc-kEYyzF dWOiaL"
+                class="sc-kEYyzF bxtLsh"
                 color="grey"
               >
-                Back to event
+                Back to Team
               </button>
               <button
-                class="sc-kEYyzF hwDFEH"
-                color="green"
+                class="sc-kEYyzF eVTWSs"
+                color="primary-reverse"
               >
                 Add Teammate
               </button>
