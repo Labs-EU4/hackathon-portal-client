@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link, useLocation, Redirect } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -11,7 +11,7 @@ import Container from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
-import { 
+import {
   StyledParagraph,
   StyledButton
 } from "../../assets/styles/organisms/FormStyling";
@@ -70,6 +70,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
         position: toast.POSITION.BOTTOM_RIGHT
       });
     }
+    setSpinner(true);
   };
 
   // const schema = ctaText.toLowerCase() === "log in" ? (
@@ -312,25 +313,6 @@ const StyledAnchor = styled(Link)`
 
 // export default CustomForm;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // import React, { useEffect, useState } from "react";
 // import styled from "styled-components";
 // import { Link, useLocation, Redirect } from "react-router-dom";
@@ -452,4 +434,3 @@ const StyledAnchor = styled(Link)`
 //     </StyledContainer>
 //   );
 // };
-
