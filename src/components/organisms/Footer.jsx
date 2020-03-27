@@ -10,9 +10,9 @@ const Footer = () => (
     <Paragraph left>International Crafters © 2020</Paragraph>
 
     <Group>
-      <FooterNavAnchor href="#">Privacy</FooterNavAnchor>
-      <FooterNavAnchor href="#">Contacts</FooterNavAnchor>
-      <FooterNavAnchor href="/about">About</FooterNavAnchor>
+      <FooterNavAnchor to={"#"}>Privacy</FooterNavAnchor>
+      <FooterNavAnchor to={"#"}>Contacts</FooterNavAnchor>
+      <FooterNavAnchor to={"/about"}>About</FooterNavAnchor>
     </Group>
   </FooterContainer>
 );
