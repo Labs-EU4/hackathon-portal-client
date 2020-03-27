@@ -88,7 +88,6 @@ export const StyledNavLink = styled(NavLink)`
   width: 100%;
   background-color: rgba(0, 0, 0, .7);
   border-left: 5px solid transparent;
-  border-radius: ${({ active }) => active === 'true' ? '0px' : '6px'};
   margin-bottom: 10px; padding: 12px 0 8px 5px;
   color: ${props => props.theme.color.white.regular};
   font-weight: 600; font-size: 15px;
@@ -96,6 +95,7 @@ export const StyledNavLink = styled(NavLink)`
   text-decoration: none; text-align: left;
   transition: box-shadow 0.2s ease;
   white-space: nowrap;
+  transition: all .2s ease-in-out;
 
   @media ${media.tablet} {
     span {
@@ -116,7 +116,6 @@ export const StyledNavLink = styled(NavLink)`
   &:hover {
     ${({ active, theme }) => active && `
       border-left: 5px solid ${theme.color.primary.regular};
-      border-radius: 6px;
     `};
 
     & > * {
@@ -139,7 +138,7 @@ export const StyledNavLink = styled(NavLink)`
 
     ${({ active }) => active === 'true'
       ? `border-right: 5px solid rgb(0, 255, 70); border-radius: 0px;` 
-      : `border-left: 5px solid  rgb(0, 255, 70);  border-radius: 6px;`
+      : `border-left: 5px solid  rgb(0, 255, 70);  border-radius: 0px;`
     }
 
     @media ${media.tablet} {
