@@ -1,4 +1,8 @@
 import React from "react";
+
+import { 
+  StyledLabel
+} from "../../assets/styles/templates/ParticipantSubmissionStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { ErrorMessage } from "formik";
@@ -10,7 +14,7 @@ const ProjectWriteup = () => {
   return (
     <>
       <RowBody justify="start">
-        <Label htmlFor="project_writeups">Project Writeup</Label>
+        <StyledLabel htmlFor="project_writeups">Project Writeup</StyledLabel>
         <TextArea
           wide
           as="textarea"
@@ -33,7 +37,7 @@ const ProjectWriteup = () => {
         >
           Cancel
         </Button>
-        <Button color="green" type="submit">
+        <Button color="primary-reverse" type="submit">
           Submit
         </Button>
       </RowBody>
