@@ -14,14 +14,14 @@ const EventJudges = ({ team }) => {
   return (
     <JudgesContainer>
       {team.length === 0 ? (
-        <NoJudgesParagraph>No Judges have been selected for this event</NoJudgesParagraph>
+        <NoJudgesParagraph>
+          No Judges have been selected for this event
+        </NoJudgesParagraph>
       ) : (
         team.map(member => (
           <JudgeCard key={member.user_id}>
             {member.image_url === null ? (
-              <JudgeIcon
-                icon="user-circle"
-              />
+              <JudgeIcon icon="user-circle" />
             ) : (
               member.image_url.map((mem, index) => {
                 let memberProfile;
