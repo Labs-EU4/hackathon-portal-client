@@ -9,7 +9,7 @@ export const StyledWideBody = styled(WideBody)`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, .4);
   z-index: 100;
 `;
 
@@ -30,21 +30,24 @@ export const BodyColumn = styled(BodyContainer)`
 `;
 
 export const Form = styled.form`
-  background-color: white;
-  width: 50%;
-  height: 35vh;
-  border: 1px solid ${props => props.theme.color.grey.border};
+  width: 50%; height: 35vh;
+  background-color: black;
+  border: 1px solid ${props => props.theme.color.primary.regular};
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: 25%;
   border-radius: 6px;
   h4 {
-    margin: 10px;
+    margin: 40px 10px 10px;
     padding: 5px;
+    font-size: 16px;
+    color: ${props => props.theme.color.primary.regular};
   }
   label {
     margin: 10px;
+    font-size: 14px; letter-spacing: 1px;
+    color: ${props => props.theme.color.primary.regular};
   }
   input {
     width: 50%;
@@ -52,6 +55,7 @@ export const Form = styled.form`
     margin: 10px;
     border: 1px solid ${props => props.theme.color.grey.border};
     border-radius: 6px;
+    font-size: 14px;
   }
   button {
     width: 50%;
