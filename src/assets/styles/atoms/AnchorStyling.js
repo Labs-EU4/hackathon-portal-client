@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Anchor = styled.a`
   ${props => props.theme.fontSize.small};
@@ -24,7 +25,7 @@ export const TopNavAnchor = styled(Anchor)`
   }
 `;
 
-export const FooterNavAnchor = styled(Anchor)`
+export const FooterNavAnchor = styled(Link)`
   border: 0;
   padding: 3px 5px 5px;
   font-weight: bold;

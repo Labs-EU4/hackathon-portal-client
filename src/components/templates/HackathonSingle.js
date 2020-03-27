@@ -32,7 +32,7 @@ import {
   registerEvent,
   unregisterEvent
 } from "../../store/eventParticipants/actions";
-import { deleteTeam } from "../../store/participantTeams/actions"
+import { deleteTeam } from "../../store/participantTeams/actions";
 import { useParticipants, useEventTeam, useTeams, useEvent } from "../../hooks";
 
 const HackathonSingle = ({ isSideBarOpen }) => {
@@ -55,7 +55,6 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   const createdTeam = teams.find(t => t.team_lead === userId);
   const [data, loading] = useEvent(id);
 
-
   // Filter out event by URL param & grab user ID
   const [
     {
@@ -73,7 +72,7 @@ const HackathonSingle = ({ isSideBarOpen }) => {
       organizer_profile_pic,
       rubrics
     }
-  ] = data ?.body || [
+  ] = data?.body || [
     {
       creator_id: 0,
       event_title: "",
@@ -96,8 +95,9 @@ const HackathonSingle = ({ isSideBarOpen }) => {
   let isRegistered = participants.find(userCallback) || isTeamLead;
 
   useEffect(() => {
+    // eslint-disable-next-line
     isRegistered = participants.find(userCallback) || isTeamLead;
-  }, [participants])
+  }, [participants]);
 
   // Redacting user emails before rendering
   let redactedEmail = organizer_email.split("");
@@ -121,10 +121,10 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     e.preventDefault();
     if (isRegistered) {
       dispatch(unregisterEvent(id, history));
-      window.location.reload(true)
+      window.location.reload(true);
     } else {
       dispatch(registerEvent(id, history));
-      window.location.reload(true)
+      window.location.reload(true);
     }
     return fetchParticipants();
   };
@@ -134,11 +134,11 @@ const HackathonSingle = ({ isSideBarOpen }) => {
     if (isRegistered) {
       const myTeam = teams.find(t => t.team_lead === isRegistered.user_id);
       const myTeamId = isRegistered.id || myTeam.id;
-      dispatch(deleteTeam(myTeamId))
+      dispatch(deleteTeam(myTeamId));
       dispatch(unregisterEvent(id));
-      await fetchParticipants()
+      await fetchParticipants();
       isRegistered = participants.find(userCallback) || isTeamLead;
-      await window.location.reload(true)
+      await window.location.reload(true);
     } else {
       setRegisterTeam(true);
     }
@@ -162,67 +162,67 @@ const HackathonSingle = ({ isSideBarOpen }) => {
         {loading ? (
           <Spinner />
         ) : (
-            <>
-              <StyledEventCard menuOpen={isSideBarOpen}>
-                <EventCardLeftColumn>
-                  <TitleContainer>
-                    <Icon icon={["fab", "connectdevelop"]} />
-                    <H2>{event_title}</H2>
-                  </TitleContainer>
-                  <EventImageContainer>
-                    {/* Here it will go image of the event */}
-                    <EventImg src={eventImg} alt="event-image" />
-                  </EventImageContainer>
-                  <ContentTitle text="Judges" />
-                  <EventJudges {...{ team }} />
-                  <ContentTitle text="About this event" />
-                  <Paragraph>{description}</Paragraph>
-                  <ContentTitle text="Guidelines" />
-                  <Paragraph>{guidelines}</Paragraph>
-                  <ContentTitle text="Rubrics" />
-                  <TagsGroup>
-                    {rubrics.map(rubric => {
-                      return <PTags key={rubric}>{toTittleCase(rubric)}</PTags>;
-                    })}
-                  </TagsGroup>
-                  <ContentTitle text="Event Tags" />
-                  <TagsGroup>
-                    {tag_name && tag_name.length !== 0 ? (
-                      tag_name.map((tagged, index) => {
-                        return <PTags key={index}>{tagged}</PTags>;
-                      })
-                    ) : (
-                        <Paragraph>No tags provided for this event</Paragraph>
-                      )}
-                  </TagsGroup>
-                </EventCardLeftColumn>
-                <HSTagsCard
-                  {...{ isSideBarOpen }}
-                  {...{ start_date }}
-                  {...{ end_date }}
-                  {...{ team }}
-                  {...{ participants }}
-                  {...{ organizer_profile_pic }}
-                  {...{ participation_type }}
-                  {...{ location }}
-                  {...{ creator_id }}
-                  {...{ isTeamLead }}
-                  {...{ isRegistered }}
-                  {...{ organizer_name }}
-                  {...{ userId }}
-                  {...{ id }}
-                  {...{ setIsAddJudgeOpen }}
-                  {...{ setRegisterTeam }}
-                  {...{ setIsSubmitProjectOpen }}
-                  {...{ setIsSubmissionsPageOpen }}
-                  {...{ handleRegistration }}
-                  {...{ handleTeamRegistration }}
-                  {...{ userCallback }}
-                  {...{ emailUser }}
-                />
-              </StyledEventCard>
-            </>
-          )}
+          <>
+            <StyledEventCard menuOpen={isSideBarOpen}>
+              <EventCardLeftColumn>
+                <TitleContainer>
+                  <Icon icon={["fab", "connectdevelop"]} />
+                  <H2>{event_title}</H2>
+                </TitleContainer>
+                <EventImageContainer>
+                  {/* Here it will go image of the event */}
+                  <EventImg src={eventImg} alt="event-image" />
+                </EventImageContainer>
+                <ContentTitle text="Judges" />
+                <EventJudges {...{ team }} />
+                <ContentTitle text="About this event" />
+                <Paragraph>{description}</Paragraph>
+                <ContentTitle text="Guidelines" />
+                <Paragraph>{guidelines}</Paragraph>
+                <ContentTitle text="Rubrics" />
+                <TagsGroup>
+                  {rubrics.map(rubric => {
+                    return <PTags key={rubric}>{toTittleCase(rubric)}</PTags>;
+                  })}
+                </TagsGroup>
+                <ContentTitle text="Event Tags" />
+                <TagsGroup>
+                  {tag_name && tag_name.length !== 0 ? (
+                    tag_name.map((tagged, index) => {
+                      return <PTags key={index}>{tagged}</PTags>;
+                    })
+                  ) : (
+                    <Paragraph>No tags provided for this event</Paragraph>
+                  )}
+                </TagsGroup>
+              </EventCardLeftColumn>
+              <HSTagsCard
+                {...{ isSideBarOpen }}
+                {...{ start_date }}
+                {...{ end_date }}
+                {...{ team }}
+                {...{ participants }}
+                {...{ organizer_profile_pic }}
+                {...{ participation_type }}
+                {...{ location }}
+                {...{ creator_id }}
+                {...{ isTeamLead }}
+                {...{ isRegistered }}
+                {...{ organizer_name }}
+                {...{ userId }}
+                {...{ id }}
+                {...{ setIsAddJudgeOpen }}
+                {...{ setRegisterTeam }}
+                {...{ setIsSubmitProjectOpen }}
+                {...{ setIsSubmissionsPageOpen }}
+                {...{ handleRegistration }}
+                {...{ handleTeamRegistration }}
+                {...{ userCallback }}
+                {...{ emailUser }}
+              />
+            </StyledEventCard>
+          </>
+        )}
         <ExitButton onClick={handleExit} color="primary">
           <Icon icon="times" />
         </ExitButton>

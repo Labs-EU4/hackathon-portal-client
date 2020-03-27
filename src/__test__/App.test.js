@@ -23,6 +23,19 @@ let mockStore;
 let store;
 
 beforeEach(() => {
+  const mockGeolocation = {
+    getCurrentPosition: jest.fn().mockImplementationOnce(success =>
+      Promise.resolve(
+        success({
+          coords: {
+            latitude: 51.1,
+            longitude: 45.3
+          }
+        })
+      )
+    )
+  };
+  global.navigator.geolocation = mockGeolocation;
   mockStore = configureStore();
   store = mockStore(initialState);
   component = render(
@@ -51,10 +64,8 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node for the current user's bio , renders properly", () => {
     expect(component.queryByText("I like coding")).toBeInTheDocument();
   });
-  it("The text node <p> for the EuroHack hackathon event card description , renders properly", () => {
-    expect(
-      component.queryByText("Let's make your next hackathon a success!")
-    ).toBeInTheDocument();
+  it("The text node Global Hackathons , renders properly", () => {
+    expect(component.queryByText("Global Hackathons")).toBeInTheDocument();
   });
   it("The text node for the current user's email , renders properly", () => {
     expect(component.queryByText("8omemail@google.com")).toBeInTheDocument();
@@ -62,9 +73,9 @@ describe("Shows all the text nodes on CreateTeam.js that are contained on the ma
   it("The text node <p> for the 'Create event' event card date, renders properly", () => {
     expect(component.queryByText(/Create Event/i)).toBeInTheDocument();
   });
-  it("The text node 'Meet our team of superstars' text node, renders properly", () => {
+  it("The hackathons should not be available yet", () => {
     expect(
-      component.getByText(/Meet our team of superstars/i)
+      component.getByText(/There are no hackathons yet available/i)
     ).toBeInTheDocument();
   });
 });
