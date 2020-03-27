@@ -60,14 +60,14 @@ export const SectionTitle = styled.h1`
 
 export const TeamContainer = styled.div`
     ${({theme}) => theme.flex.custom('space-evenly', 'flex-start', 'row', 'wrap')};
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
 `;
 
-export const Paragraph = styled.p`
+export const StyledParagraph = styled.p`
     width: 100%;
     margin-top: -10px;
     text-align: center;
-    font-size: 19px;
+    font-size: 19px; letter-spacing: 1px;
     color: ${props => props.theme.color.white.regular};
 `;
 
@@ -150,8 +150,9 @@ export const StarInfo = styled.div`
     }
 
     .role {
-        font-size: 12px;
+        font-size: 11px;
         text-transform: uppercase;
+        letter-spacing: 1px;
         color: ${({ theme }) => theme.color.white.regular};
     }
 
