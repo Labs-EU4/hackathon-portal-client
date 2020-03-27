@@ -145,7 +145,7 @@ const HSTagsCard = ({
         {isEventCreator && !isEnded && (
           <Button
             size="wide"
-            color="green"
+            color="primary-reverse"
             uppercase
             onClick={() => setIsAddJudgeOpen(true)}
           >
@@ -155,7 +155,7 @@ const HSTagsCard = ({
         {isTeamLead && !isEnded && (
           <Button
             size="wide"
-            color="green"
+            color="primary-reverse"
             uppercase
             onClick={() => setRegisterTeam(true)}
           >
@@ -165,7 +165,7 @@ const HSTagsCard = ({
         {isRegistered && !isEnded && (
           <Button
             size="wide"
-            color="green"
+            color="primary-reverse"
             uppercase
             onClick={() => setIsSubmitProjectOpen(true)}
           >
