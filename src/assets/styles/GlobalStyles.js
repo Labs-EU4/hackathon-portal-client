@@ -294,7 +294,6 @@ export const GlobalStyles = createGlobalStyle`
       text-shadow: 0 1px 5px rgba(0,0,0,.1);
       line-height: 1.2;
       color: black;
-      background-image: url(${bg}), linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
       
       .dashboard-bg {
           height: 105vh;
