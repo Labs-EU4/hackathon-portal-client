@@ -167,10 +167,10 @@ const StarCard = ({ star }) => {
     >
       <StarImg src={imgUrl} alt={identifier} />
       <StarHandles active={showInfo}>
-        <a href={gitHubHandle} target="_blank">
+        <a href={gitHubHandle} target="_blank" rel="noopener noreferrer">
           <StyledIcon icon={["fab", "github"]} />
         </a>
-        <a href={linkednHandle} target="_blank">
+        <a href={linkednHandle} target="_blank"  rel="noopener noreferrer">
           <StyledIcon icon={["fab", "linkedin"]} />
         </a>
       </StarHandles>

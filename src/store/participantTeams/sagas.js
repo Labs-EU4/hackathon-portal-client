@@ -29,7 +29,7 @@ export function* participantTeamSagas() {
 function* createTeamNameAsync({ payload, history }) {
   try {
     const token = yield select(selectToken);
-    const { eventId, team_name, teamLeadId } = payload;
+    const { eventId, team_name } = payload;
     const url = `/api/events/${eventId}/participant-teams`;
     const {
       data
