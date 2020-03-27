@@ -39,7 +39,7 @@ function App() {
       <>
         {/* //!! ALL PRIVATE ROUTES SHOULD USE RENDER (NOT COMPONENT) */}
         <PrivateRoute path="/dashboard" render={() => <Dashboard />} />
-        <PrivateRoute path="/home" render={() => <HomePage />} />
+        <PrivateRoute path="/" render={() => <HomePage />} />
         <PrivateRoute
           exact
           path="/event/new"
@@ -66,7 +66,7 @@ function App() {
           <UserHeader />
           <RoutesContainer>
             <Switch>
-              <Route exact path="/" component={AboutPage} />
+              <Route exact path="/about" component={AboutPage} />
               <Route path="/not-found" component={PageNotFound} />
               <Route path="/register" component={SignupPage} />
               <Route path="/login" component={LoginPage} />
