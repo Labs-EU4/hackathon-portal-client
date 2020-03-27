@@ -12,7 +12,7 @@ const Footer = () => (
     <Group>
       <FooterNavAnchor href="#">Privacy</FooterNavAnchor>
       <FooterNavAnchor href="#">Contacts</FooterNavAnchor>
-      <FooterNavAnchor href="/">About</FooterNavAnchor>
+      <FooterNavAnchor href="/about">About</FooterNavAnchor>
     </Group>
   </FooterContainer>
 );
