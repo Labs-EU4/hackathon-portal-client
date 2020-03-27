@@ -28,6 +28,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     search
   );
   const { token } = useSelector(state => state.currentUser);
+  const [spinner, setSpinner] = useState(false);
 
   useEffect(() => {
     if (google || github) {
