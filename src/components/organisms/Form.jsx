@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link, useLocation, Redirect } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -11,7 +11,7 @@ import Container from "../../assets/styles/atoms/ContainerStyling";
 import { H1 } from "../../assets/styles/atoms/HeadingStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { Label } from "../../assets/styles/atoms/LabelStyling";
-import { 
+import {
   StyledParagraph,
   StyledButton
 } from "../../assets/styles/organisms/FormStyling";
@@ -19,6 +19,7 @@ import Input from "../atoms/Input";
 import SocialMedia from "../molecules/SocialMedia";
 import { register, login } from "../../store/user/actions";
 import { socialAuthLoad, verifyEmail } from "../../store/user/actions";
+import Spinner from "../molecules/Spinner";
 
 const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
   const dispatch = useDispatch();
@@ -27,6 +28,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
     search
   );
   const { token } = useSelector(state => state.currentUser);
+  const [spinner, setSpinner] = useState(false);
 
   useEffect(() => {
     if (google || github) {
@@ -36,27 +38,6 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
       dispatch(verifyEmail());
     }
   }, [google, github, verified, dispatch]);
-
-  // const handleSubmit = values => {
-  //   const fullname = `${values.firstName} ${values.lastName}`
-  //   const {
-  //     username,
-  //     email,
-  //     password
-  //   } = values;
-  //   if (ctaText.toLowerCase() === "log in") {
-  //     dispatch(login(email, password));
-  //     toast(" 🎉 Logging you in!", {
-  //       position: toast.POSITION.TOP_RIGHT,
-  //       className: 'green'
-  //     });
-  //   } else {
-  //     dispatch(register(fullname, username, email, password, role, team));
-  //     toast.success(" 🚀 A moment while we record your details!", {
-  //       position: toast.POSITION.TOP_RIGHT
-  //     });
-  //   }
-  // };
 
   const handleSubmit = values => {
     const { email, password } = values;
@@ -68,36 +49,8 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
         position: toast.POSITION.BOTTOM_RIGHT
       });
     }
+    setSpinner(true);
   };
-
-  // const schema = ctaText.toLowerCase() === "log in" ? (
-  //   Yup.object().shape({
-  //     email: Yup.string()
-  //     .email("Please use a valid email address.")
-  //     .required("Email address is required."),
-  //     password: Yup.string()
-  //     .required("Password is required.")
-  //     .min(8, "Password must be at least 8 characters long.")
-  //   })
-  // ) : (
-  //   Yup.object().shape({
-  //     firstName: Yup.string()
-  //     .required("First name is required.")
-  //     .min(2, "Your name should be at least 2 characters long."),
-  //     lastName: Yup.string()
-  //     .required("Last name is required.")
-  //     .min(2, "Your surname should be at least 2 characters long."),
-  //     username: Yup.string()
-  //     .required("Please provide also a nickname for your profile.")
-  //     .min(3, "Your username should be at least 3 characters long."),
-  //     email: Yup.string()
-  //     .email("Please use a valid email address.")
-  //     .required("Email address is required."),
-  //     password: Yup.string()
-  //     .required("Password is required.")
-  //     .min(8, "Password must be at least 8 characters long.")
-  //   })
-  // )
 
   const schema = Yup.object().shape({
     email: Yup.string()
@@ -185,7 +138,7 @@ const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
             </ErrorSpan>
 
             <StyledButton type="submit" size="wide" color="blue">
-              {ctaText}
+              {spinner === false ? ctaText : <Spinner />}
             </StyledButton>
             {ctaText.toLowerCase() === "log in" && (
               <StyledAnchor to="/forgotpassword">Forgot password?</StyledAnchor>
@@ -215,97 +168,3 @@ const StyledAnchor = styled(Link)`
     color: ${props => props.theme.color.blue.light};
   }
 `;
-
-//OLD VERSION
-// const CustomForm = ({ ctaText, formHeader, formParagraph }) => {
-//   const dispatch = useDispatch();
-//   const { search, state } = useLocation();
-//   const { team, role, google, github, verified, ref } = queryString.parse(search);
-//   const { token } = useSelector(state => state.currentUser);
-
-//   useEffect(() => {
-//     if (google || github) {
-//       dispatch(socialAuthLoad());
-//     }
-//     if (verified) {
-//       dispatch(verifyEmail());
-//     }
-//   }, [google, github, verified, dispatch]);
-
-//   const handleSubmit = values => {
-//     const { email, password } = values;
-//     if (ctaText.toLowerCase() === "log in") {
-//       dispatch(login(email, password));
-//     } else {
-//       dispatch(register(email, password, role, team));
-//       toast.success(" 🚀 A moment while we record your details!", {
-//         position: toast.POSITION.BOTTOM_RIGHT
-//       });
-//     }
-//   };
-
-//   const schema = Yup.object().shape({
-//     email: Yup.string()
-//       .email("Please use a valid email address.")
-//       .required("Email address is required."),
-//     password: Yup.string()
-//       .required("Password is required.")
-//       .min(8, "Password must be at least 8 characters long.")
-//       .max(50, "Password cannot be more than 50 characters long.")
-//   });
-
-//   if (token) {
-//     return <Redirect to={state ?.from || ref || '/dashboard'} />;
-//   }
-
-//   return (
-//     <Container>
-//       <H1>{formHeader}</H1>
-
-//       <Paragraph>{formParagraph}</Paragraph>
-//       <Formik
-//         initialValues={{ email: "", password: "" }}
-//         onSubmit={handleSubmit}
-//         validationSchema={schema}
-//       >
-//         {({ errors, touched }) => (
-//           <Form>
-//             <Input
-//               display="wide"
-//               type="text"
-//               name="email"
-//               placeholder="Email address"
-//             />
-//             {errors.name && touched.name ? <div>{errors.name}</div> : null}
-//             <ErrorSpan>
-//               <ErrorMessage name="email" />
-//             </ErrorSpan>
-//             <Input
-//               display="wide"
-//               type="password"
-//               name="password"
-//               placeholder="Password"
-//             />
-//             {errors.name && touched.name ? <div>{errors.name}</div> : null}
-//             <ErrorSpan>
-//               <ErrorMessage name="password" />
-//             </ErrorSpan>
-
-//             <Button type="submit" size="wide" color="blue">
-//               {ctaText}
-//             </Button>
-//             {ctaText.toLowerCase() === "log in" && (
-//               <StyledAnchor to="/forgotpassword">
-//                 Forgot password?
-//                 </StyledAnchor>
-//             )}
-//           </Form>
-//         )}
-//       </Formik>
-
-//       <SocialMedia></SocialMedia>
-//     </Container>
-//   );
-// };
-
-// export default CustomForm;

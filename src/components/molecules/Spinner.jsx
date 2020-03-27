@@ -1,14 +1,14 @@
-import React from 'react'
-import Loader from 'react-loader-spinner';
+import React from "react";
+import Loader from "react-loader-spinner";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import { RowBody } from '../../assets/styles/atoms/RowBodyStyling';
+import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 
 export default () => (
-  <RowBody spacing='center'>
+  <RowBody spacing="center">
     <Loader
-      type="Puff"
+      type="ThreeDots"
       color="#2559a1"
-      height={100}
+      height={10}
       width={100}
       visible={true}
     />
