@@ -6,11 +6,11 @@ import { NavLink } from "react-router-dom";
 
 export const TeamsContainer = styled(BodyContainer)`
   position: relative;
-  background-color: white;
+  background-color: black;
   width: 500px;
   height: 80%;
   overflow-y: auto;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(0, 255, 70);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,16 +33,30 @@ export const FancyBoldSpan = styled(BoldSpan)`
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
+  font-size: 14px;
+  color: white;
+  font-weight: normal;
+`;
+
+export const FancierBoldSpan = styled(BoldSpan)`
+  border-bottom: 1px solid lightgray;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: rgb(0, 255, 70);
 `;
 
 export const StyledLetterIcon = styled.div`
   border: none;
   border-radius: 50%;
+  color: rgb(0, 255, 70);
 `;
 
 export const NormalSpan = styled(BoldSpan)`
-  font-weight: normal;
+  font-weight: bold;
   padding: 5px;
+  color: rgb(0, 255, 70);
 `;
 
 export const DivWrapper = styled.div`
