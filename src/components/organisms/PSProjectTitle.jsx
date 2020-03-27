@@ -1,11 +1,14 @@
 import React from "react";
+
+import { 
+  StyledParagraph,
+  StyledLabel
+} from "../../assets/styles/templates/ParticipantSubmissionStyling";
 import { RowBody } from "../../assets/styles/atoms/RowBodyStyling";
 import { ErrorSpan } from "../../assets/styles/atoms/SpanStyling";
 import { ErrorMessage } from "formik";
 import Input from "../atoms/Input";
-import { Label } from "../../assets/styles/atoms/LabelStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
-import { Paragraph } from "../../assets/styles/atoms/ParagraphStyling";
 
 const ProjectTitle = props => {
   const currentEvent = props.currentEvent;
@@ -13,16 +16,16 @@ const ProjectTitle = props => {
   return (
     <>
       <RowBody>
-        <Paragraph>
+        <StyledParagraph>
           You are making a submission for the{" "}
-          <strong>{currentEvent.event_title}</strong>. Please ensure you have
+          <span>{currentEvent.event_title}</span>. Please ensure you have
           read the event guidelines and have gone through the grading rubrics
           for this event before you make your submission.
-        </Paragraph>
+        </StyledParagraph>
       </RowBody>
       <RowBody>
         <Column>
-          <Label htmlFor="project_title">Project Title</Label>
+          <StyledLabel htmlFor="project_title">Project Title</StyledLabel>
           <Input
             type="text"
             id="project_title"
@@ -34,7 +37,7 @@ const ProjectTitle = props => {
           </ErrorSpan>
         </Column>
         <Column>
-          <Label htmlFor="participant_or_team_nam">Team/Participant name</Label>
+          <StyledLabel htmlFor="participant_or_team_nam">Team/Participant name</StyledLabel>
           <Input
             type="text"
             name="participant_or_team_name"
