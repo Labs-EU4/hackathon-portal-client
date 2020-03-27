@@ -40,6 +40,7 @@ function App() {
         {/* //!! ALL PRIVATE ROUTES SHOULD USE RENDER (NOT COMPONENT) */}
         <PrivateRoute path="/dashboard" render={() => <Dashboard />} />
         <PrivateRoute path="/home" render={() => <HomePage />} />
+        <Redirect from="/" to="/home" />
         <PrivateRoute
           exact
           path="/event/new"
