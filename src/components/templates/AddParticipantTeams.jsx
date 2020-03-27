@@ -4,9 +4,9 @@ import { useHistory, useLocation } from "react-router-dom";
 
 import {
   StyledWideBody,
-  StyledCardWide
+  StyledCardWide,
+  StyledH3
 } from "../../assets/styles/templates/AddTeammatesStyling";
-import { H3 } from "../../assets/styles/atoms/HeadingStyling";
 import { RowHead } from "../../assets/styles/atoms/RowHeadStyling";
 import { Column } from "../../assets/styles/atoms/ColumnStyling";
 import { SearchUserWidget } from "./widgets/SearchUserWidget";
@@ -65,7 +65,7 @@ const AddParticipantTeam = ({
       <Column>
         <StyledCardWide>
           <RowHead>
-            <H3>Add Teammates</H3>
+            <StyledH3>Add Teammates</StyledH3>
           </RowHead>
           <SearchUserWidget
             {...{ selectedUsersHandler }}
