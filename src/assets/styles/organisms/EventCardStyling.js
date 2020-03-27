@@ -46,6 +46,7 @@ export const StyledIconLetter = styled(IconLetter)`
   border: 1px solid ${props => props.theme.color.primary.regular};
   border-radius: 50%;
   object-fit: cover;
+  font-size: 14px;
   color: ${props => props.theme.color.primary.regular};
 `;
 
