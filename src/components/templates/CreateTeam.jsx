@@ -71,7 +71,7 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
                       <span
                         style={{
                           color: "#273F92",
-                          backgroundColor: "aliceblue"
+                          backgroundColor: "rgb(0, 255, 70)"
                         }}
                       >
                         {event_title}
@@ -85,7 +85,9 @@ const CreateTeam = ({ id, setRegisterTeam }) => {
                       value={props.values.name}
                       name="team_name"
                     />
-                    <Button type="submit" color="green">
+                    <Button 
+                      type="submit" 
+                      color="primary-reverse">
                       Submit
                     </Button>
                   </Form>
