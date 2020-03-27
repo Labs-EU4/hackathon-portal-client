@@ -8,7 +8,7 @@ export default () => (
     <Loader
       type="Puff"
       color="#2559a1"
-      height={100}
+      height={10}
       width={100}
       visible={true}
     />
