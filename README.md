@@ -5,7 +5,7 @@
 
 ## Deployment
 
-You can find the deployed project at [Hackathon](https://suspicious-kare-dc8a3a.netlify.com/).
+You can find the deployed project at [Hackathon](https://hackathon-portal-client.now.sh/register).
 
 ## Project Overview
 
