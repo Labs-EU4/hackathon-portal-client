@@ -5,7 +5,7 @@
 
 ## Deployment
 
-You can find the deployed project at [Hackathon](https://hackathon-portal-client.now.sh/register).
+You can find the deployed project at [Hackathon](https://hackathon-portal-client-idu3luivg.vercel.app/).
 
 ## Project Overview
 
